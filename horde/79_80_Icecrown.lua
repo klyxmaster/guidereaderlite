@@ -1,0 +1,126 @@
+
+GuideReaderLite_RegisterGuide("Icecrown (78-80)", nil, "Horde", function()
+return [[
+R Dalaran |Z|Dalaran| |N|Go to Dalaran at Krasus' Landing at (69,41)|
+A Preparations for War |QID|13419| |N|Accept Preparations for War|
+N Talk to him again and he will transport you to Orgrim's Hammer.
+T Preparations for War |QID|13419| |N|\n|
+A It's All Fun and Games |QID|12887| |N|Accept It's All Fun and Games|
+A Judgment Day Comes! |QID|13226| |N|Accept Judgment Day Comes!|
+
+C It's All Fun and Games  |QID|12887| |N|Destroy The Ocular and then report to Baron Sliver at The Shadow Vault.|
+
+T It's All Fun and Games  |QID|12887| |N|Return to Baron Sliver at The Shadow Vault in Icecrown.|
+A I Have an Idea, But First... |QID|12891| |N|Accept I Have an Idea, But First...|
+C I Have an Idea, But First...  |QID|12891| |N|Baron Sliver at The Shadow Vault has asked you to collect a Cultist Rod, an Abomination Hook, a Geist Rope, and 5 Scourge Essences.|
+
+T I Have an Idea, But First...  |QID|12891| |N|Return to Baron Sliver at The Shadow Vault in Icecrown.|
+A Free Your Mind |QID|12893| |N|Accept Free Your Mind|
+
+C Free Your Mind  |QID|12893| |N|Baron Sliver at the Shadow Vault wants you to use the Sovereign Rod on the corpses of Vile, Lady Nightswood, and The Leaper.|
+
+T Free Your Mind  |QID|12893| |N|Return to Baron Sliver at The Shadow Vault in Icecrown.|
+A If He Cannot Be Turned |QID|12897| |N|Accept If He Cannot Be Turned|
+
+C If He Cannot Be Turned  |QID|12897| |N|Defeat General Lightsbane and then report your success back to Koltira Deathweaver aboard the gunship, Orgrim's Hammer.|
+
+T If He Cannot Be Turned  |QID|12897| |N|Return to Koltira Deathweaver at Orgrim's Hammer in Icecrown.|
+A The Shadow Vault |QID|12898| |N|Accept The Shadow Vault|
+
+T The Shadow Vault  |QID|12898| |N|\n|
+A The Duke |QID|12938| |N|Accept The Duke|
+A Blackwatch |QID|13106| |N|Accept Blackwatch|
+f Pick up the Flight Path.
+
+T The Duke  |QID|12938| |N|\n|
+A Honor Challenge |QID|12939| |N|Accept Honor Challenge|
+A Eliminate the Competition |QID|12955| |N|Accept Eliminate the Competition|
+
+C Honor Challenge  |QID|12939| |N|Duke Lankral at The Shadow Vault has asked you to use the Challenge Flag to challenge and defeat 6 Mjordin Combatants.|
+C Eliminate the Competition  |QID|12955| |N|The Leaper at The Shadow Vault wants you to duel and defeat Sigrid Iceborn, Efrem the Faithful, Onu'zun and Tinky Wickwhistle.|
+
+T Eliminate the Competition  |QID|12955| |N|Return to The Leaper at The Shadow Vault in Icecrown.|
+A The Bone Witch |QID|12999| |N|Accept The Bone Witch|
+T Honor Challenge |QID|12939| |N|Return to Duke Lankral at The Shadow Vault in Icecrown.|
+A Shadow Vault Decree |QID|12943| |N|Accept Shadow Vault Decree|
+
+C Shadow Vault Decree  |QID|12943| |N|Duke Lankral at The Shadow Vault has ordered you to read the Shadow Vault Decree in the presence of Thane Ufrang the Mighty, and then to slay him.|
+A Get the Key  |QID|12949| |N|Accept Get the Key|
+
+C Get the Key  |QID|12949| |N|Vaelen the Flayed at Ufrang's Hall has asked you to retrieve the Key to Vaelen's Chains.|
+T Get the Key  |QID|12949| |N|Return to Vaelen the Flayed at The Shadow Vault in Icecrown.|
+A Let the Baron Know |QID|12951| |N|Accept Let the Baron Know|
+
+T Let the Baron Know  |QID|12951| |N|\n|
+A Leave Our Mark |QID|12995| |N|Accept Leave Our Mark|
+A Vaelen Has Returned |QID|13085| |N|Accept Vaelen Has Returned|
+A Crush Dem Vrykuls! |QID|12992| |N|Accept Crush Dem Vrykuls!|
+T Shadow Vault Decree |QID|12943| |N|Return to Duke Lankral at The Shadow Vault in Icecrown.|
+A Vandalizing Jotunheim |QID|13084| |N|Accept Vandalizing Jotunheim|
+T Vaelen Has Returned |QID|13085| |N|\n|
+A Ebon Blade Prisoners |QID|12982| |N|Accept Ebon Blade Prisoners|
+
+T The Bone Witch  |QID|12999| |N|\n|
+A Reading the Bones |QID|13093| |N|Accept Reading the Bones|
+A Deep in the Bowels of The Underhalls |QID|13042| |N|Accept Deep in the Bowels of The Underhalls|
+T Reading the Bones  |QID|13093| |N|Return to The Bone Witch in Icecrown.|
+
+C Vandalizing Jotunheim  |QID|13084| |N|Duke Lankral at The Shadow Vault wants you to burn 10 Vrykul Banners.|
+C Crush Dem Vrykuls!  |QID|12992| |N|Vile at The Shadow Vault wants you to slay any 15 vrykul in the greater Jotunheim region.|
+C Leave Our Mark  |QID|12995| |N|Baron Sliver at The Shadow Vault wishes you to plant 15 Ebon Blade Banners near the corpses of vrykul found within the greater Jotunheim region.|
+C Ebon Blade Prisoners  |QID|12982| |N|Vaelen the Flayed at The Shadow Vault wants you to free 8 Ebon Blade Prisoners. They can be found in the cages throughout the greater Jotunheim region.|
+
+A Revenge for the Vargul  |QID|13059| |N|Accept Revenge for the Vargul|
+C Revenge for the Vargul  |QID|13059| |N|Bethod Feigr in The Underhalls wants you to throw down his sword to challenge Thane Illskar and then kill him in The Circle of Suffering.|
+A The Sum is Greater than the Parts  |QID|13043| |N|Accept The Sum is Greater than the Parts|
+
+C The Sum is Greater than the Parts  |QID|13043| |N|Mount and take control of Nergeld. Defend it from the denizens of the Hall of Horrors until Dr. Terrible shows himself.$B$BUse Nergeld to slay the doctor, and then return to The Bone Witch in Njorndar Village.|
+
+T Revenge for the Vargul  |QID|13059| |N|Return to Bethod Feigr at the Underhalls in Icecrown.|
+
+T Leave Our Mark  |QID|12995| |N|Return to Baron Sliver at The Shadow Vault in Icecrown.|
+T Crush Dem Vrykuls! |QID|12992| |N|Return to Vile at The Shadow Vault in Icecrown.|
+A Vile Like Fire! |QID|13071| |N|Accept Vile Like Fire!|
+T Ebon Blade Prisoners |QID|12982| |N|Return to Vaelen the Flayed at the Shadow Vault in Icecrown.|
+T Vandalizing Jotunheim |QID|13084| |N|Return to Duke Lankral at The Shadow Vault in Icecrown.|
+A Shoot 'Em Up |NODEBUG| |QID|13069| |N|Accept Shoot 'Em Up|
+
+C Shoot 'Em Up |NODEBUG|  |QID|13069| |N|The Leaper at The Shadow Vault wants you to use a Jotunheim Rapid-Fire Harpoon to shoot down 15 Jotunheim Proto-Drakes and their riders.|
+
+C Vile Like Fire!  |QID|13071| |N|Vile at The Shadow Vault wants you to steal a Njorndar Proto-Drake and use it to set fire to 8 vrykul buildings in the greater Jotunheim region.$B$BBalargarde Fortress, due to its nature, cannot be set ablaze.|
+
+T Vile Like Fire!  |QID|13071| |N|Return to Vile at The Shadow Vault in Icecrown.|
+T Shoot 'Em Up |QID|13069| |N|Return to The Leaper at The Shadow Vault in Icecrown.|
+
+T Deep in the Bowels of The Underhalls  |QID|13042| |N|Return to The Bone Witch at Njorndar Village in Icecrown.|
+T The Sum is Greater than the Parts |QID|13043| |N|Return to The Bone Witch at Njorndar Village in Icecrown.|
+A The Art of Being a Water Terror |QID|13091| |N|Accept The Art of Being a Water Terror|
+
+C The Art of Being a Water Terror  |QID|13091| |N|The Bone Witch in Njorndar Village wants you to possess a Water Terror and use it to slay 10 vrykul in the greater Jotunheim region.$B$BQualifying vrykul are Jotunheim Sleep-Watchers, Jotunheim Warriors, Mjordin Water Magi, Njorndar Spear-Sisters, and Valhalas Vargul.|
+
+T The Art of Being a Water Terror  |QID|13091| |N|Return to The Bone Witch at Njorndar Village in Icecrown.|
+A Through the Eye |QID|13121| |N|Accept Through the Eye|
+
+C Through the Eye  |QID|13121| |N|The Bone Witch in Njorndar Village has tasked you with using the Eye of the Lich King to gain information.|
+
+T Through the Eye  |QID|13121| |N|Return to The Bone Witch at Njorndar Village in Icecrown.|
+A Find the Ancient Hero |QID|13133| |N|Accept Find the Ancient Hero|
+
+C Find the Ancient Hero  |QID|13133| |N|The Bone Witch at Njorndar Village wants you to return with Iskalder.|
+
+T Find the Ancient Hero  |QID|13133| |N|Return to The Bone Witch at Njorndar Village in Icecrown.|
+A Not-So-Honorable Combat |QID|13137| |N|Accept Not-So-Honorable Combat|
+
+C Not-So-Honorable Combat  |QID|13137| |N|The Bone Witch in Njorndar Village wants you to defeat Iskalder upon Battlescar Spire.|
+
+T Not-So-Honorable Combat  |QID|13137| |N|Return to The Bone Witch at Njorndar Village in Icecrown.|
+A Banshee's Revenge |QID|13142| |N|Accept Banshee's Revenge|
+
+C Banshee's Revenge  |QID|13142| |N|The Bone Witch at Njorndar Village has asked you to exact her revenge by challenging and defeating Overthane Balargarde.|
+
+T Banshee's Revenge  |QID|13142| |N|Return to The Bone Witch at Njorndar Village in Icecrown.|
+A Battle at Valhalas |QID|13213| |N|Accept Battle at Valhalas|
+
+T Battle at Valhalas  |QID|13213| |N|\n|
+]]
+end)

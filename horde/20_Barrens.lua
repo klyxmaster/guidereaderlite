@@ -1,0 +1,37 @@
+
+GuideReaderLite_RegisterGuide("The Barrens (20)", "Stonetalon Mountains (20-21)", "Horde", function()
+return [[
+F Orgrimmar
+f Grab flight point |T|
+
+R The Crossroads
+h The Crossroads |T| |N|Make this Inn your home|
+A Consumed by Hatred |QID|899|  |T| |N|Accept Consumed by Hatred|
+A Lost in Battle |QID|4921| |T| |N|Accept Lost in Battle|
+
+C Lost in Battle |QID|4921|  |R|Blood Elf, Troll, Undead, Orc| |N|Find Mankrik's wife and then return to him in the Crossroads.|
+R Thunder Bluff |N|Continue on the road south to Camp Taurajo. Grab the flight point, take the road west into Mulgore, then north at Bloodhoof Village.| |R|Blood Elf, Troll, Undead, Orc|
+F Thunder Bluff |R|Tauren|
+A The Sacred Flame (Part 1) |QID|1195|  |Z|Thunder Bluff| |T| |N|Accept The Sacred Flame|
+
+F Camp Taurajo
+A Tribes at War |QID|878|  |T| |N|Accept Tribes at War|
+A Melor Sends Word |QID|1130| |T| |N|Accept Melor Sends Word|
+
+C Lost in Battle |QID|4921|  |R|Tauren| |N|Find Mankrik's wife and then return to him in the Crossroads.|
+C Tribes at War |QID|878| |N|Kill 6 Bristleback Water Seekers, 12 Bristleback Thornweavers and 12 Bristleback Geomancers and return to Mangletooth at Camp Taurajo in the Barrens.|
+C Consumed by Hatred |QID|899| |N|Bring 60 Bristleback Quilboar Tusks to Mankrik at the Crossroads.|
+
+T Tribes at War |QID|878|  |T| |N|Return to Mangletooth at Camp Taurajo in The Barrens.|
+A Blood Shards of Agamaggan |QID|5052| |T| |N|Accept Blood Shards of Agamaggan|
+T Blood Shards of Agamaggan |QID|5052| |T| |N|Return to Mangletooth at Camp Taurajo in The Barrens.|
+A Betrayal from Within (Part 1) |QID|879| |T| |N|Accept Betrayal from Within|
+
+T Consumed by Hatred |QID|899|  |T| |N|Return to Mankrik in The Barrens.|
+T Lost in Battle |QID|4921| |T| |N|Return to Mankrik in The Barrens.|
+A Report to Kadrak |QID|6541| |T| |N|Accept Report to Kadrak|
+A Egg Hunt |QID|868| |T| |N|Accept Egg Hunt|
+
+R Ratchet
+A Ziz Fizziks |QID|1483| |T| |N|Accept Ziz Fizziks|
+]] end)

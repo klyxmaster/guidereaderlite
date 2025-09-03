@@ -1,0 +1,106 @@
+GuideReaderLite_RegisterGuide("Desolace (32-34)", "Stranglethorn Vale (34-36)", "Horde", function()
+return [[
+H Orgrimmar |QID|1432| |N|Hearth back|
+T The Swarm Grows (Part 1) |QID|1145|  |Z|Orgrimmar| |N|\n|
+A The Swarm Grows (Part 2) |QID|1146| |NORAF| |N|Accept The Swarm Grows|
+A Alliance Relations (Part 1) |QID|1431|  |Z|Orgrimmar| |N|Accept Alliance Relations|
+T Alliance Relations (Part 1) |QID|1431|  |Z|Orgrimmar| |N|\n|
+A Alliance Relations (Part 2) |QID|1432| |N|Accept Alliance Relations|
+
+R Desolace |N|Fly to Stonetalon Mountains and run southwest|
+
+A Bone Collector |QID|5501|  |NORAF| |N|Accept Bone Collector|
+
+T Alliance Relations (Part 2) |QID|1432| |N|\n|
+A Alliance Relations (Part 3) |QID|1433| |N|Accept Alliance Relations|
+T Alliance Relations (Part 3) |QID|1433| |N|\n|
+A The Burning of Spirits |QID|1435| |N|Accept The Burning of Spirits|
+T The Kolkar of Desolace |QID|1362| |NORAF| |N|\n|
+A Khan Dez'hepah |QID|1365| |N|Accept Khan Dez'hepah|
+A Gelkis Alliance |QID|1368|  |NORAF| |N|Accept Gelkis Alliance|
+
+A Kodo Roundup |QID|5561| |N|Accept Kodo Roundup|
+C Kodo Roundup |QID|5561| |N|Bring five Tamed Kodos and the Kodo Kombobulator back to Smeed Scrabblescrew at Scrabblescrew's Camp.|
+C Bone Collector |QID|5501| |NORAF| |N|Bring 10 Kodo Bones from the Kodo Graveyard to Bibbly F'utzbuckle at Kormek's Hut.|
+T Kodo Roundup |QID|5561| |N|Return to Smeed Scrabblescrew at Scrabblescrew's Camp in Desolace.|
+
+R Shadowprey Village |N|Follow the road west, down on the shore (24,71).| |QID|6143|
+A Hunting in Stranglethorn |QID|5763| |N|Accept Hunting in Stranglethorn|
+A Hand of Iruxos |QID|5381| |N|Accept Hand of Iruxos|
+h Shadowprey Village |QID|6143| |N|Make this Inn your home|
+A Other Fish to Fry |QID|6143| |N|Accept Other Fish to Fry|
+A Clam Bait |QID|6142| |NORAF| |N|Accept Clam Bait|
+f Grab flight point |N|Out on the pier|
+
+N Run north in water |N|Travel north in the water collecting 10 Clam Meat from the clams on the bottom| |ITEM|15924 10| |NORAF|
+A Sceptre of Light  |QID|5741| |N|Accept Sceptre of Light|
+
+N Drainin' souls |N|Make sure to use the Burning Gem on any cultists as they die for "The Burning of Spirits".| |QID|1435|
+C Hand of Iruxos |QID|5381|  |U|6436| |N|Retrieve the Demon Box from Thunder Axe Fortress, and return it, along with the Demon Pick to Taiga Wisemane in Shadowprey Village.$B|
+C Sceptre of Light |QID|5741|  |U|6436| |N|Get the Sceptre of Light and then return it to Azore Aldamort at the tower in Ethel Rethor.$B|
+C The Burning of Spirits |QID|1435| |U|6436| |N|Return the Burning Gem and 15 Infused Burning Gems to Maurin Bonesplitter in Desolace.|
+A The Corrupter (Part 1) |QID|1480| |U|20310| |N|Accept The Corrupter|
+
+T Bone Collector |QID|5501|  |NORAF| |N|Return to Bibbly F'utzbuckle in Desolace.|
+
+T The Burning of Spirits |QID|1435| |N|\n|
+T The Corrupter (Part 1) |QID|1480| |N|\n|
+A The Corrupter (Part 2) |QID|1481| |N|Accept The Corrupter|
+A Befouled by Satyr |QID|1434| |N|Accept Befouled by Satyr|
+
+C Befouled by Satyr |QID|1434| |N|Slay 7 Hatefury Rogues, 7 Hatefury Felsworn, 7 Hatefury Betrayers, and 7 Hatefury Hellcallers, and return to Takata Steelblade in Desolace.|
+C The Corrupter (Part 2) |QID|1481| |N|Bring a Shadowstalker Scalp to Maurin Bonesplitter in Desolace.|
+C Khan Dez'hepah |QID|1365| |N|Bring Khan Dez'hepah's Head to Felgur Twocuts in Desolace.|
+
+T Khan Dez'hepah |QID|1365| |N|Return to Felgur Twocuts at Ghost Walker Post in Desolace.|
+A Centaur Bounty |QID|1366| |NORAF| |N|Accept Centaur Bounty|
+T Befouled by Satyr |QID|1434| |N|Return to Takata Steelblade at Ghost Walker Post in Desolace.|
+A Alliance Relations (Part 4) |QID|1436| |N|Accept Alliance Relations|
+T The Corrupter (Part 2) |QID|1481| |N|Return to Maurin Bonesplitter at Ghost Walker Post in Desolace.|
+A The Corrupter (Part 3) |QID|1482| |N|Accept The Corrupter|
+
+T Sceptre of Light |QID|5741| |N|Return to Azore Aldamort at Ethel Rethor in Desolace.|
+A Book of the Ancients |QID|6027| |N|Accept Book of the Ancients|
+A Claim Rackmore's Treasure! |QID|6161| |N|Accept Claim Rackmore's Treasure!|
+
+C Clam Bait |QID|6142| |NORAF| |N|Find 10 pieces of Soft-shelled Clam Meat and bring it back to Mai'Lahii at Shadowprey Village.|
+C Claim Rackmore's Treasure!  |QID|6161| |N|Find Rackmore's Silver Key.  Find Rackmore's Golden Key.  Find and open Rackmore's Chest.|
+
+T Claim Rackmore's Treasure! |QID|6161| |N|Return to Rackmore's Chest at Sar'theris Strand in Desolace.|
+C Book of the Ancients |QID|6027| |N|Get the Book of the Ancients and return it to Azore Aldamort at the tower in Ethel Rethor.$B|
+C Other Fish to Fry |QID|6143| |N|Slay 7 Slitherblade Myrmidon, 7 Slitherblade Naga, and 5 Slitherblade Sorceresses, and then talk to Drulzegar at Shadowprey in Desolace.|
+C The Corrupter (Part 3) |QID|1482| |N|Bring an Oracle Crystal to Maurin Bonesplitter in Desolace.|
+
+T Book of the Ancients |QID|6027| |N|Return to Azore Aldamort at Ethel Rethor in Desolace.|
+
+T The Corrupter (Part 3) |QID|1482| |N|Return to Maurin Bonesplitter at Ghost Walker Post in Desolace.|
+A The Corrupter (Part 4) |QID|1484| |N|Accept The Corrupter|
+T The Corrupter (Part 4) |QID|1484| |N|\n|
+
+C Gelkis Alliance |QID|1368|  |NORAF| |N|Gain a Friendly reputation with the Gelkis, then speak with Uthek the Wise.|
+T Gelkis Alliance |QID|1368|  |NORAF| |N|Speak with Uthek the Wise at Gelkis Village in Desolace.|
+A Stealing Supplies |QID|1370| |NORAF| |N|Accept Stealing Supplies|
+
+C Stealing Supplies  |QID|1370| |NORAF| |N|Bring 6 bags of Crudely Dried Meat to Uthek the Wise in the Gelkis Village.|
+C Centaur Bounty |QID|1366| |NORAF| |N|Bring 15 Centaur Ears to Felgur Twocuts in Desolace.|
+
+T Centaur Bounty |QID|1366| |NORAF| |N|Return to Felgur Twocuts at Ghost Walker Post in Desolace.|
+
+H Shadowprey Village |QID|6143| |N|Hearth back|
+T Hand of Iruxos |QID|5381| |N|Return to Taiga Wisemane at Shadowprey Village in Desolace.|
+T Other Fish to Fry |QID|6143| |N|Return to Drulzegar Skraghook at Shadowprey Village in Desolace.|
+T Clam Bait |QID|6142| |NORAF| |N|Return to Mai'Lahii at Shadowprey Village in Desolace.|
+T Stealing Supplies  |QID|1370| |NORAF| |N|Return to Uthek the Wise at Gelkis Village in Desolace.|
+
+F Thunder Bluff |RAF|
+T Steelsnap |QID|1131|  |Z|Thunder Bluff| |RAF| |N|Return to Melor Stonehoof at Hunter Rise in Thunder Bluff.|
+
+F Orgrimmar |RAF|
+T Alliance Relations (Part 4)  |QID|1436| |Z|Orgrimmar| |RAF| |N|\n|
+
+F Ratchet |N|Bring Kravel's Parts Order to Wharfmaster Dizzywig at Ratchet in the Barrens.||QID|1111|
+T Goblin Sponsorship (Part 1) |QID|1178| |NORAF| |N|\n|
+A Goblin Sponsorship (Part 2) |QID|1180| |NORAF| |N|Accept Goblin Sponsorship|
+T Wharfmaster Dizzywig |QID|1111|  |Z|The Barrens| |N|\n|
+A Parts for Kravel |QID|1112| |NORAF| |N|Accept Parts for Kravel|
+]] end)

@@ -1,0 +1,205 @@
+
+GuideReaderLite_RegisterGuide("The Barrens (12-20)", "Stonetalon Mountains (20-21)", "Horde", function()
+return [[
+R Razor Hill |R|Undead|
+A Conscript of the Horde |R|Undead| |QID|840| |T| |N|Accept Conscript of the Horde|
+
+T Conscript of the Horde |QID|840|  |R|Orc, Troll, Undead| |N|\n|
+A Crossroads Conscription |QID|842| |R|Orc, Troll, Undead| |N|Accept Crossroads Conscription|
+T Ak'Zeloth |QID|809|  |R|Orc, Troll| |N|\n|
+
+T Crossroads Conscription |QID|842|  |R|Orc, Troll, Undead| |T| |N|\n|
+
+T Sergra Darkthorn |O| |QID|860| |T| |N|\n|
+
+A Meats to Orgrimmar |QID|6365| |R|Orc, Troll| |T| |N|Accept Meats to Orgrimmar|
+T Meats to Orgrimmar |QID|6365| |R|Orc, Troll| |T| |N|\n|
+A Ride to Orgrimmar |QID|6384| |R|Orc, Troll| |T| |N|Accept Ride to Orgrimmar|
+T Ride to Orgrimmar |QID|6384| |R|Orc, Troll| |T| |N|\n|
+A Doras the Wind Rider Master |QID|6385| |R|Orc, Troll| |T| |N|Accept Doras the Wind Rider Master|
+T Doras the Wind Rider Master |QID|6385| |R|Orc, Troll| |T| |N|\n|
+
+N Ghostlands? |N|You may wish to level until 20 in Ghostlands instead of the Barrens.  There are some very nice rewards from Tranquillien for all classes.  If you wish to do this, fly to Undercity from Orgrimmar, then port to Silvermoon, then run south to the Ghostlands.  Switch over to the Ghostlands guide, of course.| |NORAF|
+
+A Return to the Crossroads. |QID|6386| |T| |R|Orc, Troll| |N|Accept Return to the Crossroads.|
+T Return to the Crossroads. |QID|6386| |T| |R|Orc, Troll| |N|\n|
+
+A Plainstrider Menace |QID|844| |T| |NORAF| |N|Accept Plainstrider Menace|
+A Raptor Thieves |QID|869| |T| |NORAF| |N|Accept Raptor Thieves|
+h The Crossroads |T| |N|Make this Inn your home|
+A Disrupt the Attacks |QID|871| |T| |N|Accept Disrupt the Attacks|
+
+N Kill crap... |N|Kill any raptors you come across for "Raptor Thieves" and plainstriders for "Plainstrider Menace"| |NORAF|
+C Disrupt the Attacks |QID|871| |N|Of the Razormane tribe, kill 8 Water Seekers, 8 Thornweavers and 3 Hunters, and then return to Thork in the Crossroads.|
+
+T Disrupt the Attacks |QID|871|  |T| |N|Return to Thork in The Barrens.|
+A The Disruption Ends |QID|872| |T| |N|Accept The Disruption Ends|
+A Supplies for the Crossroads |QID|5041| |T| |N|Accept Supplies for the Crossroads|
+A Wharfmaster Dizzywig |QID|1492| |T| |N|Accept Wharfmaster Dizzywig|
+
+C The Disruption Ends  |QID|872| |N|Kill 8 Razormane Geomancers, 8 Razormane Defenders, and Kreenig Snarlsnout.$B$BThen bring Kreenig Snarlsnout's Tusk to Thork at the Crossroads.|
+C Supplies for the Crossroads |QID|5041| |N|Find and return Crossroads' Supply Crates to Thork in the Barrens.|
+C Plainstrider Menace |QID|844| |NORAF| |N|Collect 7 Plainstrider Beaks and return them to Sergra Darkthorn in the Crossroads.|
+
+A Southsea Freebooters |QID|887|  |T| |N|Accept Southsea Freebooters|
+A Samophlange (Part 1) |QID|894| |T| |N|Accept Samophlange|
+A WANTED: Baron Longshore |QID|895|  |T| |N|Accept WANTED: Baron Longshore|
+
+C Southsea Freebooters |QID|887| |N|Kill 12 Southsea Brigands and 6 Southsea Cannoneers for Gazlowe in Ratchet.|
+
+T Southsea Freebooters |QID|887|  |T| |N|Return to Gazlowe in The Barrens.|
+A The Missing Shipment (Part 1) |QID|890| |T| |N|Accept The Missing Shipment|
+T The Missing Shipment (Part 1) |QID|890| |T| |N|\n|
+A The Missing Shipment (Part 2) |QID|892| |T| |N|Accept The Missing Shipment|
+T Wharfmaster Dizzywig |QID|1492| |T| |N|\n|
+A Miner's Fortune |QID|896| |T| |N|Accept Miner's Fortune|
+T The Missing Shipment (Part 2) |QID|892|  |T| |N|\n|
+A Stolen Booty |QID|888| |T| |NORAF| |N|Accept Stolen Booty|
+A Raptor Horns |QID|865| |T| |NORAF| |N|Accept Raptor Horns|
+A The Guns of Northwatch |QID|891| |T| |NORAF| |N|Accept The Guns of Northwatch|
+
+C Stolen Booty |QID|888|  |NORAF| |N|Retrieve the Shipment of Boots and Telescopic Lens for Gazlowe in Ratchet.|
+C WANTED: Baron Longshore |QID|895|  |NORAF| |N|Bring the head of Baron Longshore to Gazlowe in Ratchet.|
+
+T The Disruption Ends |QID|872| |U|6948|  |T| |NORAF| |N|Return to Thork in The Barrens.|
+T The Disruption Ends |QID|872|  |T| |RAF| |N|Return to Thork in The Barrens.|
+T Supplies for the Crossroads |QID|5041| |T| |N|Return to Thork in The Barrens.|
+A Harpy Raiders |QID|867|  |T| |NORAF| |N|Accept Harpy Raiders|
+T Plainstrider Menace |QID|844| |T| |NORAF| |N|Return to Sergra Darkthorn at The Crossroads in The Barrens.|
+A The Zhevra |QID|845| |T| |NORAF| |N|Accept The Zhevra|
+T The Barrens Oases |QID|886| |O| |T| |N|\n|
+A The Forgotten Pools |QID|870| |T| |N|Accept The Forgotten Pools|
+A Fungal Spores |QID|848| |T| |N|Accept Fungal Spores|
+
+N Kill Zhevra... |N|Kill any you come across for "The Zhevra"| |NORAF|
+
+A Kolkar Leaders |QID|850| |N|Accept Kolkar Leaders|
+A Centaur Bracers |QID|855| |NORAF| |N|Accept Centaur Bracers|
+
+N Fungal Spores |N|Collect what you can at the oasis, but don't worry about collecting them all here.| |RAF|
+C Kolkar Leaders |QID|850| |N|Bring Barak's Head to Regthar Deathgate, west of the Crossroads.|
+C The Forgotten Pools |QID|870| |N|Report back to Tonga Runetotem with your findings.|
+C Fungal Spores |QID|848|  |NORAF| |N|Bring 4 Fungal Spores to Apothecary Helbrim at the Crossroads.|
+C Harpy Raiders |QID|867|  |NORAF| |N|Collect 8 Witchwing talons.$B$BReturn them to Darsok Swiftdagger at the Crossroads.|
+
+T Kolkar Leaders |QID|850| |N|Return to Regthar Deathgate in The Barrens.|
+A Verog the Dervish |QID|851| |N|Accept Verog the Dervish|
+
+C The Zhevra |QID|845|  |NORAF| |N|Slay Zhevra Runners to collect 4 Zhevra Hooves for Sergra Darkthorn in the Crossroads.|
+
+T Fungal Spores |QID|848|  |T| |NORAF| |N|Return to Apothecary Helbrim in The Barrens.|
+A Apothecary Zamah |QID|853| |T| |NORAF| |N|Accept Apothecary Zamah|
+T Harpy Raiders |QID|867| |T| |NORAF| |N|Return to Darsok Swiftdagger in The Barrens.|
+A Harpy Lieutenants |QID|875| |T| |NORAF| |N|Accept Harpy Lieutenants|
+T The Zhevra |QID|845| |T| |NORAF| |N|Return to Sergra Darkthorn at The Crossroads in The Barrens.|
+A Prowlers of the Barrens |QID|903| |T| |NORAF| |N|Accept Prowlers of the Barrens|
+T The Forgotten Pools |QID|870| |T| |NORAF| |N|Return to Tonga Runetotem in The Barrens.|
+T The Forgotten Pools |QID|870| |T|  |RAF| |N|Return to Tonga Runetotem in The Barrens.|
+A The Stagnant Oasis |QID|877| |T| |N|Accept The Stagnant Oasis|
+A Lost in Battle |QID|4921| |T| |N|Accept Lost in Battle|
+
+T Apothecary Zamah |QID|853| |Z|Thunder Bluff|  |NORAF| |N|\n|
+A Lessons Anew |QID|6126| |Z|Thunder Bluff|  |C|DRUID| |N|Accept Lessons Anew|
+T Lessons Anew |QID|6126| |Z|Moonglade|  |C|DRUID| |N|\n|
+A The Principal Source |QID|6127| |C|DRUID| |N|Accept The Principal Source|
+
+C Prowlers of the Barrens |QID|903|  |NORAF| |N|Collect 7 Prowler Claws from Savannah Prowlers for Sergra Darkthorn in the Crossroads.|
+C Harpy Lieutenants |QID|875|  |NORAF| |N|Collect 6 Harpy Lieutenant Rings from Witchwing Slayers and return them to Darsok Swiftdagger at the Crossroads.|
+C The Principal Source |QID|6127| |C|DRUID| |U|15842| |N|Use the Empty Dreadmist Peak Sampler to draw a sample of water from a pool at the top of the peak.$B$BDeliver the Filled Dreadmist Peak Sampler to Tonga Runetotem at the Crossroads, Barrens.|
+
+T Samophlange (Part 1) |QID|894|  |NORAF| |N|\n|
+T Samophlange (Part 1) |QID|894|  |RAF| |N|\n|
+A Samophlange (Part 2) |QID|900| |N|Accept Samophlange|
+C Samophlange (Part 2) |QID|900| |N|Close off the Fuel Control Valve, the Regulator Valve and the Main Control Valve then use the control console again.|
+T Samophlange (Part 2) |QID|900| |N|Return to Control Console in The Barrens.|
+A Samophlange (Part 3) |QID|901| |N|Accept Samophlange|
+C Samophlange (Part 3) |QID|901| |N|Get the Console Key from Tinkerer Sniggles to use on the control console.|
+T Samophlange (Part 3) |QID|901| |N|Return to Control Console in The Barrens.|
+A Samophlange (Part 4) |QID|902| |N|Accept Samophlange|
+A Ignition |QID|858| |N|Accept Ignition|
+C Ignition |QID|858| |N|Get the Ignition Key and bring it to Wizzlecrank.|
+T Ignition |QID|858| |N|Seek out Wizzlecrank's Shredder at the Sludge Fen in the Barrens.|
+A The Escape |QID|863| |N|Accept The Escape|
+C The Escape |QID|863| |N|Protect Wizzlecrank and the stolen goblin shredder on the way to Sputtervalve in Ratchet.|
+
+C Miner's Fortune |QID|896| |N|Retrieve the Cats Eye Emerald from one of the Venture Co. Overseers or Enforcers for Wharfmaster Dizzywig at Ratchet.|
+
+T Harpy Lieutenants |QID|875|  |NORAF| |N|Return to Darsok Swiftdagger in The Barrens.|
+A Serena Bloodfeather |QID|876| |NORAF| |N|Accept Serena Bloodfeather|
+T Prowlers of the Barrens |QID|903| |NORAF| |N|Return to Sergra Darkthorn at The Crossroads in The Barrens.|
+A Echeyakee |QID|881| |NORAF| |N|Accept Echeyakee|
+T The Principal Source |QID|6127| |C|DRUID| |N|Return to Tonga Runetotem in The Barrens.|
+A Gathering the Cure |QID|6128| |C|DRUID| |N|Accept Gathering the Cure|
+
+H The Crossroads |RAF| |N|Hearth back|
+
+C The Stagnant Oasis |QID|877| |N|Return to Tonga at The Crossroads, after investigating the Stagnant Oasis.|
+C Verog the Dervish |QID|851| |N|Bring Verog's Head to Regthar Deathgate, west of the Crossroads.|
+C Centaur Bracers |QID|855| |NORAF| |N|Bring 15 Centaur Bracers to Regthar Deathgate, west of the Crossroads.|
+C Fungal Spores |QID|848|  |RAF| |N|Bring 4 Fungal Spores to Apothecary Helbrim at the Crossroads.|
+
+C Lost in Battle |QID|4921| |N|Find Mankrik's wife and then return to him in the Crossroads.|
+A Tribes at War |QID|878|  |T| |N|Accept Tribes at War|
+
+T Miner's Fortune |QID|896|  |T| |N|Return to Wharfmaster Dizzywig at Ratchet in The Barrens.|
+T The Escape |QID|863| |T| |N|Return to Sputtervalve at Ratchet in The Barrens.|
+T Samophlange (Part 4) |QID|902|  |T| |N|\n|
+A Ziz Fizziks |QID|1483| |T| |N|Accept Ziz Fizziks|
+T Stolen Booty |QID|888| |T| |NORAF| |N|Return to Gazlowe in The Barrens.|
+T WANTED: Baron Longshore |QID|895| |T| |NORAF| |N|Return to Gazlowe in The Barrens.|
+T WANTED: Baron Longshore |QID|895| |T| |RAF| |N|Return to Gazlowe in The Barrens.|
+A Chen's Empty Keg |U|4926| |O| |QID|822| |RAF| |T| |N|Accept Chen's Empty Keg|
+T Chen's Empty Keg |O| |QID|822| |RAF| |T| |N|Return to Brewmaster Drohn at Ratchet in the Barrens.|
+
+T Fungal Spores |QID|848|  |T| |RAF| |N|Return to Apothecary Helbrim in The Barrens.|
+A Apothecary Zamah |QID|853| |T| |RAF| |N|Accept Apothecary Zamah|
+T Apothecary Zamah |QID|853| |Z|Thunder Bluff|  |RAF| |N|\n|
+T The Stagnant Oasis |QID|877|  |T| |N|Return to Tonga Runetotem in The Barrens.|
+A Altered Beings |QID|880| |T| |NORAF| |N|Accept Altered Beings|
+T Lost in Battle |QID|4921| |T| |N|Return to Mankrik in The Barrens.|
+
+T Verog the Dervish |QID|851| |N|Return to Regthar Deathgate in The Barrens.|
+T Centaur Bracers |QID|855| |NORAF| |N|Return to Regthar Deathgate in The Barrens.|
+
+C Serena Bloodfeather  |QID|876| |NORAF| |N|Slay Serena Bloodfeather and return her head to Darsok Swiftdagger at the Crossroads.|
+C Echeyakee |QID|881| |NORAF| |N|Bring Echeyakee's Hide to Sergra Darkthorn at the Crossroads.|
+C Raptor Thieves |QID|869| |NORAF| |N|Bring 12 Raptor Heads to Gazrog at the Crossroads.|
+
+T Raptor Thieves |QID|869|  |T| |NORAF| |N|Return to Gazrog at the Crossroads in The Barrens.|
+A Stolen Silver |QID|3281| |T| |NORAF| |N|Accept Stolen Silver|
+T Echeyakee |QID|881| |T| |NORAF| |N|Return to Sergra Darkthorn at The Crossroads in The Barrens.|
+A The Angry Scytheclaws |QID|905| |T| |NORAF| |N|Accept The Angry Scytheclaws|
+T Serena Bloodfeather |QID|876| |T| |NORAF| |N|Return to Darsok Swiftdagger in The Barrens.|
+A Letter to Jin'Zil |QID|1060| |T| |NORAF| |N|Accept Letter to Jin'Zil|
+A Consumed by Hatred |QID|899| |T| |NORAF| |N|Accept Consumed by Hatred|
+
+C Altered Beings |QID|880|  |NORAF| |N|Bring 8 Altered Snapjaw Shells to Tonga Runetotem at the Crossroads.|
+C The Angry Scytheclaws |QID|905|  |NORAF| |N|Kill Sunscale raptors and collect their feathers. Use the feathers on the 3 Scytheclaw nests. Return to Sergra Darkthorn in the Crossroads.|
+C Raptor Horns |QID|865| |NORAF| |N|Gather 5 Intact Raptor Horns from Sunscale Scytheclaws, and bring them to Mebok Mizzyrix in Ratchet.|
+
+C Tribes at War |QID|878| |N|Kill 6 Bristleback Water Seekers, 12 Bristleback Thornweavers and 12 Bristleback Geomancers and return to Mangletooth at Camp Taurajo in the Barrens.|
+C Consumed by Hatred |QID|899| |NORAF| |N|Bring 60 Bristleback Quilboar Tusks to Mankrik at the Crossroads.|
+C Stolen Silver |QID|3281|  |NORAF| |N|Bring the Stolen Silver to Gazrog in the Crossroads.|
+C The Guns of Northwatch |QID|891|  |NORAF| |N|Captain Thalo'thas Brightsun of Ratchet wants you to collect 10 Theramore Medals and slay Captain Fairmount, Cannoneer Whessan and Cannoneer Smythe.|
+A Free From the Hold |QID|898|  |NORAF| |N|Accept Free From the Hold|
+C Free From the Hold |QID|898| |NORAF| |N|Safely escort Gilthares Firebough back to Captain Brightsun in Ratchet.|
+
+T The Guns of Northwatch |QID|891|  |NORAF| |T| |N|Return to Captain Thalo'thas Brightsun in The Barrens.|
+T Free From the Hold |QID|898| |NORAF| |T| |N|Return to Captain Thalo'thas Brightsun in The Barrens.|
+T Raptor Horns |QID|865| |NORAF| |T| |N|Return to Mebok Mizzyrix in The Barrens.|
+A Deepmoss Spider Eggs |QID|1069| |NORAF| |T| |N|Accept Deepmoss Spider Eggs|
+A Chen's Empty Keg |U|4926| |O| |QID|822| |NORAF| |T| |N|Accept Chen's Empty Keg|
+T Chen's Empty Keg |O| |QID|822| |NORAF| |T| |N|Return to Brewmaster Drohn at Ratchet in the Barrens.|
+
+T Tribes at War |QID|878|  |T| |N|Return to Mangletooth at Camp Taurajo in The Barrens.|
+A Blood Shards of Agamaggan |QID|5052| |T| |N|Accept Blood Shards of Agamaggan|
+T Blood Shards of Agamaggan |QID|5052| |T| |N|Return to Mangletooth at Camp Taurajo in The Barrens.|
+A Betrayal from Within (Part 1) |QID|879| |T| |N|Accept Betrayal from Within|
+
+T Stolen Silver |QID|3281|  |T| |NORAF| |N|Return to Gazrog in The Barrens.|
+T The Angry Scytheclaws |QID|905| |T| |NORAF| |N|Return to Sergra Darkthorn at The Crossroads in The Barrens.|
+A Jorn Skyseer |QID|3261| |T| |NORAF| |N|Accept Jorn Skyseer|
+T Consumed by Hatred |QID|899| |T| |NORAF| |N|Return to Mankrik in The Barrens.|
+T Altered Beings |QID|880| |T| |NORAF| |N|Return to Tonga Runetotem in The Barrens.|
+A Egg Hunt |QID|868| |T| |N|Accept Egg Hunt|
+]] end)

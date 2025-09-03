@@ -1,0 +1,11 @@
+## Interface: 30300
+## Title: GuideReaderLite
+## Notes: Simple leveling guide reader
+## Version: 1.0
+## SavedVariablesPerCharacter: GuideReaderLiteDB
+## X-Category: Quest
+
+GuideReaderLite.lua
+alliance\alliance.xml
+horde\horde.xml  
+neutral\neutral.xml

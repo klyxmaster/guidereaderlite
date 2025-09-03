@@ -1,0 +1,33 @@
+GuideReaderLite_RegisterGuide("Thousand Needles (25-26)", "Ashenvale (26-27)", "Horde", function()
+return [[
+T Message to Freewind Post |QID|4542| |N|\n|
+A Pacify the Centaur |QID|4841| |N|Accept Pacify the Centaur|
+A Wind Rider |QID|4767| |NORAF| |N|Accept Wind Rider|
+A Alien Egg |QID|4821| |N|Accept Alien Egg|
+A Wanted - Arnak Grimtotem |QID|5147| |N|Accept Wanted - Arnak Grimtotem|
+h Freewind Post |RAF| |N|Make this Inn your home|
+
+C Pacify the Centaur |QID|4841| |N|Kill 12 Galak Scouts, 10 Galak Wranglers, and 6 Galak Windchasers, and then return to Cliffwatcher Longhorn in Freewind Post.|
+A Test of Faith |QID|1149| |N|Accept Test of Faith|
+C Test of Faith |QID|1149| |N|If you have faith, leap from the planks overlooking Thousand Needles.|
+T Test of Faith |QID|1149| |N|Return to Dorn Plainstalker at Windbreak Canyon in Thousand Needles.|
+C A New Ore Sample |QID|1153|  |NORAF| |N|Find an Unrefined Ore Sample on a Gravelsnout Digger or Surveyor and bring it to Tatternack Steelforge at Camp Taurajo in the Barrens.|
+C Alien Egg |QID|4821| |N|Return the Alien Egg to Hagar Lightninghoof in Freewind Post.|
+
+T Pacify the Centaur |QID|4841| |N|Return to Cliffwatcher Longhorn at Freewind Post in Thousand Needles.|
+A Grimtotem Spying |QID|5064| |N|Accept Grimtotem Spying|
+T Alien Egg |QID|4821| |N|Return to Hagar Lightninghoof at Freewind Post in Thousand Needles.|
+A Serpent Wild |QID|4865| |N|Accept Serpent Wild|
+
+T A New Ore Sample |QID|1153|  |Z|The Barrens| |NORAF| |N|Return to Tatternack Steelforge at Camp Taurajo in The Barrens.|
+T Enraged Thunder Lizards |QID|907| |O| |NORAF| |N|Return to Jorn Skyseer at Camp Taurajo in The Barrens.|
+A Cry of the Thunderhawk |QID|913| |O| |PRE|Enraged Thunder Lizards| |NORAF| |N|Accept Cry of the Thunderhawk|
+C Cry of the Thunderhawk |QID|913| |O| |PRE|Enraged Thunder Lizards| |NORAF| |N|Find and slay a Thunderhawk, return its wings to Jorn Skyseer at Camp Taurajo.|
+T Cry of the Thunderhawk |QID|913| |O| |PRE|Enraged Thunder Lizards| |NORAF| |N|Return to Jorn Skyseer at Camp Taurajo in The Barrens.|
+
+T Melor Sends Word |QID|1130|  |Z|Thunder Bluff| |N|\n|
+A Steelsnap |QID|1131| |N|Accept Steelsnap|
+T The Elder Crone |QID|1063| |N|\n|
+]]
+end)
+

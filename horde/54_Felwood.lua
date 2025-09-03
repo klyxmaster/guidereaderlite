@@ -1,0 +1,54 @@
+
+GuideReaderLite_RegisterGuide("Felwood (54)", "Winterspring (54-55)", "Horde", function()
+return [[
+F Splintertree Post
+
+R Felwood |N|Head west out of town.  At the fork near the retreat head north out of the zone (55.75, 29.50)| |Z|Ashenvale|
+
+R Emerald Sanctuary |N|Just ahead, north of the road (51,81)|
+A Forces of Jaedenar |QID|5155| |N|Accept Forces of Jaedenar|
+A Verifying the Corruption |QID|5156| |N|Accept Verifying the Corruption|
+A Timbermaw Ally |QID|8460| |N|Accept Timbermaw Ally|
+
+A Cleansing Felwood  |QID|4102| |NORAF| |N|Accept Cleansing Felwood|
+
+R Bloodvenom Post |N|(34,52)|
+A Well of Corruption |QID|4505| |N|Accept Well of Corruption|
+A A Husband's Last Battle |QID|6162| |N|Accept A Husband's Last Battle|
+
+C Forces of Jaedenar  |QID|5155| |N|Enter Jaedenar and slay 4 Jaedenar Hounds, 4 Jaedenar Guardsmen, 6 Jaedenar Adepts, and 6 Jaedenar Cultists before returning to Greta Mosshoof in Felwood.|
+C Well of Corruption  |QID|4505| |N|Collect a sample of corrupted water from the Jadefire Satyrs' moonwell and bring it to Winna Hazzard at Bloodvenom Post.|
+
+C A Husband's Last Battle |QID|6162| |N|Kill Overlord Ror and return his claw to Dreka'Sur at Bloodvenom Post in Felwood.|
+C Timbermaw Ally |QID|8460| |N|Grazle wants you to prove yourself by killing 6 Deadwood Warriors, 6 Deadwood Pathfinders, and 6 Deadwood Gardeners.  Return to him in southern Felwood near the Emerald Sanctuary when you are done.|
+
+T Timbermaw Ally |QID|8460| |N|Return to Grazle at Emerald Sanctuary in Felwood.|
+A Speak to Nafien |QID|8462| |N|Accept Speak to Nafien|
+T Forces of Jaedenar |QID|5155| |N|Return to Greta Mosshoof at Emerald Sanctuary in Felwood.|
+A Collection of the Corrupt Water |QID|5157| |N|Accept Collection of the Corrupt Water|
+
+T Well of Corruption |QID|4505| |N|Return to Winna Hazzard at Bloodvenom Post  in Felwood.|
+A Corrupted Sabers |QID|4506| |N|Accept Corrupted Sabers|
+T A Husband's Last Battle |QID|6162| |N|Return to Dreka'Sur at Bloodvenom Post  in Felwood.|
+A Wild Guardians |QID|4741| |N|Accept Wild Guardians|
+
+C Collection of the Corrupt Water  |U|12922| |QID|5157| |N|Take the Empty Canteen to the Moon Well in the center of Jaedenar and fill it before returning to Greta Mosshoof in Felwood.|
+C Verifying the Corruption |QID|5156| |N|Seek out and destroy 2 Entropic Beasts and 2 Entropic Horrors while exploring Shatter Scar Vale. After checking to see if the craters there are still filled with corrupt fel water, return to Taronn Redfeather in Felwood.|
+C Cleansing Felwood |QID|4102| |NORAF| |N|Bring 15 Blood Amber to Maybess Riverbreeze in Felwood.|
+
+T Speak to Nafien  |QID|8462| |N|\n|
+A Deadwood of the North |QID|8461| |N|Accept Deadwood of the North|
+C Deadwood of the North |QID|8461| |N|Nafien would like you to kill 6 Deadwood Den Watchers, 6 Deadwood Avengers, and 6 Deadwood Shamans.  Return to him in northern Felwood near the entrance to Timbermaw Hold.|
+T Deadwood of the North |QID|8461| |N|Return to Nafien near Felpaw Village in Felwood.|
+A Speak to Salfa |QID|8465| |N|Accept Speak to Salfa|
+
+R Winterspring |N|Thru the cave!|
+T Speak to Salfa |QID|8465| |N|\n|
+A Winterfall Activity |QID|8464| |N|Accept Winterfall Activity|
+T The New Springs  |Z|Winterspring| |QID|980| |N|\n|
+A Strange Sources |QID|4842| |N|Accept Strange Sources|
+T It's a Secret to Everybody (Part 3) |QID|3908| |N|\n|
+A Threat of the Winterfall |QID|5082| |N|Accept Threat of the Winterfall|
+]]
+end)
+
