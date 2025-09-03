@@ -6,6 +6,7 @@ luac.out
 *.zip
 *.tar.gz
 
+
 # Object files
 *.o
 *.os
@@ -38,4 +39,4 @@ luac.out
 *.i*86
 *.x86_64
 *.hex
-
+*.bat
