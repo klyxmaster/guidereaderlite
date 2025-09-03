@@ -1,3 +1,22 @@
+--[[
+    GuideReaderLite
+    Copyright (C) 2025 Richard Scorpio
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program. If not, see <https://www.gnu.org/licenses/>.
+]]
+
+
 GuideReaderLiteDB = GuideReaderLiteDB or {}
 --GuideReaderLiteSavedVars = GuideReaderLiteSavedVars or {}
 
@@ -932,11 +951,21 @@ function GRL:NextStep()
     if not self.actions then return end
     local i = self.current or 1
     i = i + 1
+
     if i > #self.actions then
-        self:ShowGuidePicker()
-        say("|cff55ff55Guide complete! Please select the next guide to continue.|r")
-        return
-    end
+		local cur = self.currentGuide
+		local rec = cur and self.guides[cur]
+		local nxt = rec and rec.next
+		if nxt and self.guides[nxt] then
+			say("|cff55ff55Guide complete – loading next:|r " .. nxt)
+			self:LoadGuide(nxt)
+		else
+			self:ShowGuidePicker()
+			say("|cff55ff55Guide complete! Please select the next guide to continue.|r")
+		end
+		return
+	end
+
     while i <= #self.actions and not self:IsStepForPlayer(i) do
         i = i + 1
     end
@@ -990,6 +1019,21 @@ function GRL:AutoAdvance(force)
             self:UpdateStatusFrame()
             self:ShowPointer()
         end
+		
+		else
+			-- i > #self.actions : guide finished via auto-advance
+			local cur = self.currentGuide
+			local rec = cur and self.guides[cur]
+			local nxt = rec and rec.next
+			if nxt and self.guides[nxt] then
+				say("|cff55ff55Guide complete – loading next:|r " .. nxt)
+				self:LoadGuide(nxt)
+			else
+				self:ShowGuidePicker()
+				say("|cff55ff55Guide complete! Please select the next guide to continue.|r")
+			end
+		end
+
     end
 end
 

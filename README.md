@@ -1,7 +1,11 @@
 # GuideReaderLite
 
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 **GuideReaderLite** is a free, lightweight in-game leveling guide reader for **World of Warcraft: Wrath of the Lich King (3.3.5a)**.  
 Supports **all classes, 1–80**, designed primarily for private server players.
+
+
 
 ---
 
@@ -20,6 +24,17 @@ Supports **all classes, 1–80**, designed primarily for private server players.
 
 ---
 
+## Notes
+This addon was **written entirely from scratch**, though some design influence came from classic addons such as *TourGuide*.  
+It’s my own work, but I’m giving credit where inspiration is due.
+
+---
+
+## Why I Built This
+I created GuideReaderLite partly as a way to teach myself Lua, even if the language feels dated today. At the same time, I noticed there weren’t many strong leveling guides left for the original 3.3.5a era, so I decided to revive the quest routes I had written years ago and give them a proper addon home. I also don’t play retail anymore after twenty years, and with how different modern Lua coding has become, I wasn’t interested in rewriting everything. This project is built purely for private servers, to keep the WotLK experience alive in the way I still enjoy it.
+
+---
+
 ## Disclaimer
 This addon is built for educational and nostalgic use on **WotLK 3.3.5a private servers**.  
 It is **not affiliated with Blizzard Entertainment** and **not designed for retail WoW**.
@@ -27,4 +42,11 @@ It is **not affiliated with Blizzard Entertainment** and **not designed for reta
 ---
 
 ## License
-Released under the **MIT License** – feel free to share, modify, and contribute.
+## License
+- **Addon code (Lua):** Released under the [GNU General Public License v3.0 (GPLv3)](https://www.gnu.org/licenses/gpl-3.0).  
+  This ensures the code stays open-source and improvements remain shareable.  
+
+- **Guide content:** Provided for personal and educational use.  
+  Some portions are based on older community guides that are no longer available.  
+  As these are heavily modified and still evolving, no formal license is applied yet.
+
