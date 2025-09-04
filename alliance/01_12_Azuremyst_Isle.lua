@@ -213,6 +213,6 @@ C Call of Fire (Part 3)  |C|Shaman| |QO|1| |QID|9467| |N|Retrieve Hauteur's Ashe
 U Orb of Returning |C|Shaman| |U|24335|
 T Call of Fire (Part 3)  |C|Shaman|  |QID|9467| |N|Return to Temper at Emberglade in Azuremyst Isle.|  |M|59.65 17.97|
 A Call of Fire (Part 4)  |C|Shaman|  |QID|9468| |N|Accept Call of Fire|  |M|59.65 17.97|
-N Guide Complete |N|Press Next and select a guide to continue.| |GP|1|
+
 ]]
 end)

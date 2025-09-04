@@ -48,6 +48,9 @@ local charDB = GRL.db.char[realmName][playerName]
 ---------------------------------------------------------------
 -- Utils
 ---------------------------------------------------------------
+local function _recent(tstamp, win) return tstamp and (GetTime() - tstamp) <= (win or 45) end
+
+
 local function _norm(x)
     x = tostring(x or "")
     x = x:gsub("^%s+", ""):gsub("%s+$", ""):lower()
@@ -122,22 +125,47 @@ end
 ---------------------------------------------------------------
 -- Faction Helpers & Class/Race Filtering
 ---------------------------------------------------------------
+-- Hearthstone / Astral Recall cast detection (3.3.5a uses spell *name*, not ID)
 GRL._hearthAt = GRL._hearthAt or nil
-GRL._lastBindTime = GRL._lastBindTime or nil
+local HEARTH = (GetSpellInfo and GetSpellInfo(8690)) or "Hearthstone"
+local ASTRAL = (GetSpellInfo and GetSpellInfo(556)) or "Astral Recall"
 
 GRL._hearthFrame = GRL._hearthFrame or CreateFrame("Frame")
 GRL._hearthFrame:RegisterEvent("UNIT_SPELLCAST_SUCCEEDED")
-GRL._hearthFrame:SetScript("OnEvent", function(_, _, unit, _, _, _, spellID)
+GRL._hearthFrame:SetScript("OnEvent", function(_, _, unit, spell)  -- WotLK: (unit, spell, rank, lineID)
     if unit ~= "player" then return end
-    if spellID == 8690 or spellID == 556 or spellID == 3286 then
+    if spell == HEARTH or spell == ASTRAL then
         GRL._hearthAt = GetTime()
         if GRL.After then
-            GRL:After(0.1, function()
+            GRL:After(0.10, function()
                 if GRL.AutoAdvance then GRL:AutoAdvance() end
             end)
         end
     end
 end)
+
+
+-- Detect "set hearth/home" via system message and advance
+GRL._bindFrame = GRL._bindFrame or CreateFrame("Frame")
+GRL._bindFrame:RegisterEvent("CHAT_MSG_SYSTEM")
+GRL._bindFrame:SetScript("OnEvent", function(_, _, msg)
+    -- Build a loose, locale-safe pattern from the global string
+    local pat1 = (ERR_NEW_HOME or "Your home has been set to %s."):gsub("%%s", ".+")
+    local pat2 = (ERR_DEATHBIND_SUCCESS or "You are now bound to this location."):gsub("%%s", ".+")
+    local pat3 = (ERR_DEATHBIND_SUCCESS_S or "You are now bound to %s."):gsub("%%s", ".+")
+
+    if msg and (msg:find(pat1) or msg:find(pat2) or msg:find(pat3)) then
+        GRL._lastBindTime = GetTime()
+        -- optional: remember the location for debugging/matching
+        GRL._lastBindLoc = (GetBindLocation and GetBindLocation()) or GRL._lastBindLoc
+        if GRL.After then
+            GRL:After(0.10, function()
+                if GRL.AutoAdvance then GRL:AutoAdvance() end
+            end)
+        end
+    end
+end)
+
 
 local function GRL_PlayerHasBuff(match)
     if not match or match == "" then return false end
@@ -580,18 +608,24 @@ function GRL:IsStepDone(i)
                 result = true
             end
         end
-        if a == "H" then
-            if self._hearthAt and (GetTime() - self._hearthAt) < 30 then
+         if a == "H" then
+            -- hearth/astral fired recently
+            if self._hearthAt and (GetTime() - self._hearthAt) <= 90 then
                 result = true
             end
         end
         if a == "h" then
+            -- either bound very recently OR current bind location matches |N|
             local bindLoc = GetBindLocation and GetBindLocation()
-            local expectedLoc = t.N or ""
-            if expectedLoc ~= "" and bindLoc and string.find(bindLoc:lower(), expectedLoc:lower(), 1, true) then
-                result = true
+            local expectedLoc = (t.N or ""):gsub("^%s+",""):gsub("%s+$","")
+            if bindLoc and expectedLoc ~= "" then
+                local bl = bindLoc:lower()
+                local ex = expectedLoc:lower()
+                if bl:find(ex, 1, true) then
+                    result = true
+                end
             end
-            if self._lastBindTime and (GetTime() - self._lastBindTime) < 30 then
+            if self._lastBindTime and (GetTime() - self._lastBindTime) <= 45 then
                 result = true
             end
         end
@@ -1013,29 +1047,27 @@ function GRL:AutoAdvance(force)
             i = i + 1
         until i > #self.actions or (self:IsStepForPlayer(i) and not self:IsStepDone(i))
         
-        if i <= #self.actions and i ~= oldCurrent then
+                if i <= #self.actions and i ~= oldCurrent then
             self.current = i
             self:RememberStep()
             self:UpdateStatusFrame()
             self:ShowPointer()
+        else
+            -- i > #self.actions : guide finished via auto-advance
+            local cur = self.currentGuide
+            local rec = cur and self.guides[cur]
+            local nxt = rec and rec.next
+            if nxt and self.guides[nxt] then
+                say("|cff55ff55Guide complete – loading next:|r " .. nxt)
+                self:LoadGuide(nxt)
+            else
+                self:ShowGuidePicker()
+                say("|cff55ff55Guide complete! Please select the next guide to continue.|r")
+            end
         end
-		
-		else
-			-- i > #self.actions : guide finished via auto-advance
-			local cur = self.currentGuide
-			local rec = cur and self.guides[cur]
-			local nxt = rec and rec.next
-			if nxt and self.guides[nxt] then
-				say("|cff55ff55Guide complete – loading next:|r " .. nxt)
-				self:LoadGuide(nxt)
-			else
-				self:ShowGuidePicker()
-				say("|cff55ff55Guide complete! Please select the next guide to continue.|r")
-			end
-		end
-
     end
 end
+
 
 ---------------------------------------------------------------
 -- Events & Slash Commands

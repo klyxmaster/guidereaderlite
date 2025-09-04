@@ -227,7 +227,7 @@ A The Bounty of Teldrassil |QID|6341| |R|Night Elf| |M|56.2,92.4| |Z|Teldrassil|
 T The Bounty of Teldrassil |QID|6341| |M|58.4,94.0| |Z|Teldrassil| |N|Turn in to Vesprystus (Hippogryph Master).|
 A Flight to Auberdine |QID|6342| |M|58.4,94.0| |Z|Teldrassil|
 T Flight to Auberdine |QID|6342| |Z|Darkshore| |N|Fly to Auberdine and turn in to Laird inside the inn.|
-N Guide Complete |N|Press Next and select a guide to continue.| |GP|1|
+
 ]]
 end)
 

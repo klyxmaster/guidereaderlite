@@ -178,7 +178,7 @@ A Ironband's Compound     |C|Warrior|  |QID|1681| |N|Accept Ironband's Compound|
 R Dun Morogh |C|Warrior|
 C Ironband's Compound  |C|Warrior| |QO|1| |QID|1681| |N|Bring a load of Umbral Ore to Tormus Deepforge in Ironforge.|  |M|48.64 42.48|
 T Ironband's Compound     |C|Warrior|  |QID|1681| |N|Return to Tormus Deepforge in Dun Morogh.|  |M|48.64 42.48|
-N Guide Complete |N|Press Next and select a guide to continue.| |GP|1|
+
 ]]
 end)
 

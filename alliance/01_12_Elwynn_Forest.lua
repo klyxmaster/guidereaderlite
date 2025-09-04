@@ -55,61 +55,64 @@ T Bounty on Garrick Padfoot     |QID|6| 	|M|48.06,43.44| |N|Return to Deputy Wil
 T Grape Manifest     |QID|3905| 	|M|49.4 41.4| |N|Bring the Grape Manifest to Brother Neals top floor in Northshire Abbey.|
 A Rest and Relaxation     |QID|2158| 	|M|45.6 47.8| |N|Head out of Northshire Valley and Accept Rest and Relaxation as you leave.|
 
+|Z| Elwynn Forest|
 R Run to Goldshire |N|Stay on the road to avoid mobs. Click NEXT when you arrive.|  |M|42.2 65.8|
 T Report to Goldshire     |QID|54| 	|M|42.2 65.8| |N|Take Marshal McBride's Documents to Marshal Dughan in Goldshire.|
 A The Fargodeep Mine     |QID|62| 	|M|42.2 65.8| |N|Accept The Fargodeep Mine|
-A Gold Dust Exchange     |QID|47| 	|M|42.2 67.2| |N|Accept Gold Dust Exchange|
-T Rest and Relaxation     |QID|2158| 	|M|43.8 65.8| |N|\n|
+A Gold Dust Exchange     |QID|47| 	|M|42.2 67.2| |N|Accept Gold Dust Exchange from Remy by the fense|
+T Rest and Relaxation     |QID|2158| 	|M|43.8 65.8| |N|Go in the Inn and talk to the innkeeper|
 h Goldshire  |M|43.8,65.8| |N|Make this Inn your home|
 A Kobold Candles     |QID|60| 	|M|43.2 65.8| |N|Accept Kobold Candles|
-T In Favor of the Light        |C|Priest| |QID|5623| |R|Human|  |M|43.4 65.6| |N|\n|
+T In Favor of the Light        |C|Priest| |QID|5623| |R|Human|  |M|43.4 65.6| |N|Visit Priestess upstairs in the Inn|
 A Garments of the Light        |C|Priest| |QID|5625| |R|Human|	|M|43.4 65.6| |N|Accept Garments of the Light|
-C Garments of the Light 	 |C|Priest| |QID|5624| |R|Human| |M|48.0 67.6| |N|Find Guard Roberts and heal his wounds using Lesser Heal (Rank 2). Afterwards, grant him Power Word: Fortitude and then return to Priestess Josetta in Goldshire.|
+G Garments of the Light 	 |C|Priest| |QID|5624| |R|Human| |M|48.0 67.6| |N|Find Guard Roberts and heal his wounds using Lesser Heal (Rank 2). Afterwards, grant him Power Word: Fortitude and then return to Priestess Josetta in Goldshire.|
 T Garments of the Light  	    |C|Priest| |QID|5625| |R|Human| |M|43.4 65.6| |N|Return to Maxan Anvol at Shimmer Ridge in Dun Morogh.|
 
-A Lost Necklace     |QID|85| 	|M|43.0 85.8| |N|Accept Lost Necklace|
-T Lost Necklace     |QID|85| 	|M|43.0 85.8| |N|\n|
+A Lost Necklace     |QID|85| 	|M|34.6 84.2| |N|Speak with Bernice  - Accept Lost Necklace|
+T Lost Necklace     |QID|85| 	|M|43.0 85.8| |N|Speak with Billy Maclure.|
 A Pie for Billy     |QID|86| 	|M|34.6 84.2| |N|Accept Pie for Billy|
-A Young Lovers     |QID|106|  	|M|34.6 84.2| |N|Accept Young Lovers|
+A Young Lovers     |QID|106|  	|M|43.0 89.6| |N|Accept Young Lovers|
 C Pie for Billy |QID|86| 	|M|41.8 86.6| |N|Bring 4 Chunks of Boar Meat to Auntie Bernice Stonefield at the Stonefield's Farm.|
 T Pie for Billy     |QID|86| 	 	|M|34.6 84.2| |N|Return to "Auntie"" Bernice Stonefield at the Stonefield Farm in Elwynn Forest."|
 A Back to Billy     |QID|84| 	 	|M|34.6 84.2| |N|Accept Back to Billy|
-A Princess Must Die!     |QID|88| |M|34.6 84.6| |N|Accept Princess Must Die!|
-T Young Lovers     |QID|106| 	|M|29.8 86.0| |N|\n|
+A Princess Must Die!     |QID|88| |M|34.6 84.6| |N|Speak with Ma Stonefield - Accept Princess Must Die!|
+T Young Lovers     |QID|106| 	|M|29.8 86.0| |N|Give Maybell's Love Letter to Tommy Joe Stonefield.|
 A Speak with Gramma     |QID|111|  	|M|29.8 86.0| |N|Accept Speak with Gramma|
-T Speak with Gramma     |QID|111| 		|M|34.8 83.8| |N|\n|
+T Speak with Gramma     |QID|111| 		|M|34.8 83.8| |N|Speak with Gramma Stonefield.|
 A Note to William     |QID|107| 	|M|34.8 83.8| |N|Accept Note to William|
 
-T Back to Billy     |QID|84|  	|M|43.0 85.8| |N|\n|
+T Back to Billy     |QID|84|  	|M|43.0 85.8| |N|Bring the Pork Belly Pie to Billy Maclure at the Maclure Vineyards.|
 A Goldtooth     |QID|87|  	|M|43.0 85.8| |N|Accept Goldtooth|
 
-C Goldtooth |QID|87| 	|M|41,78| |N|Bring Bernice's Necklace to "Auntie"" Bernice Stonefield at the Stonefield Farm."|
-C Gold Dust Exchange |QID|47| 		|M|39,81| |N|Bring 10 Gold Dust to Remy "Two Times"" in Goldshire.  Gold Dust is gathered from Kobolds in Elwynn Forest."|
-C Kobold Candles |QID|60| 			|M|39,81| |N|Bring 8 Large Candles to William Pestle in Goldshire.|
-C The Fargodeep Mine |QID|62| 	|M| 38,81| |N|Explore the Fargodeep Mine, then return to Marshal Dughan in Goldshire.|
+C Adventure in the Mine |QID|47,87,60,62| 	|M|40.4 78.2|  |N| Kill Goldtooth for Necklace\n- Kill Kobolds for 10 Gold Dust and 8 Large Candles\nExplore the mine while you are here| |QO|1,1,1,1|
+
 
 H Goldshire |N|Hearth back|
-T Note to William     |QID|107| |N|\n|  |M|43.32 65.70|
+T Note to William     |QID|107| |N|Take Gramma Stonefield's Note to William Pestle.|  |M|43.32 65.70|
+T Kobold Candles     |QID|60| |N|Return to William Pestle at Goldshire in Elwynn Forest.|  |M|43.32 65.70|
 A Collecting Kelp     |QID|112| |N|Accept Collecting Kelp|  |M|43.32 65.70|
 T Gold Dust Exchange     |QID|47| |N|Return to Remy "Two Times"" at Goldshire in Elwynn Forest."|  |M|42.14 67.26|
 A A Fishy Peril     |QID|40| |N|Accept A Fishy Peril|  |M|42.14 67.26|
-T A Fishy Peril     |QID|40| |N|\n|  |M|42.11 65.93|
+T A Fishy Peril     |QID|40| |N|Remy "Two Times" wants you to speak with Marshal Dughan in Goldshire.|  |M|42.11 65.93|
 A Further Concerns     |QID|35| |N|Accept Further Concerns|  |M|42.11 65.93|
 T The Fargodeep Mine     |QID|62| |N|Return to Marshal Dughan at Goldshire in Elwynn Forest.|  |M|42.11 65.93|
 A The Jasperlode Mine     |QID|76| |N|Accept The Jasperlode Mine|  |M|42.11 65.93|
-T Kobold Candles     |QID|60| |N|Return to William Pestle at Goldshire in Elwynn Forest.|  |M|43.32 65.70|
+
 A Shipment to Stormwind     |QID|61| |N|Accept Shipment to Stormwind|  |M|43.32 65.70|
 
-C Collecting Kelp |QID|112| |N|Bring 4 Crystal Kelp Fronds to William Pestle in Goldshire.|  |M|43.32 65.70|
+C Collecting Kelp |QID|112| |N|Bring 4 Crystal Kelp Fronds from the murlocs in the lade east of Goldshire.|  |M|52.4 65.0|
+C The Jasperlode Mine |QID|76| |N|Explore the Jasperlode Mine, then report back to Marshal Dughan in Goldshire.|  |M| 62,53|
 
-T Further Concerns     |QID|35| |N|\n|  |M|73.97 72.18|
-A Find the Lost Guards     |QID|37| |N|Accept Find the Lost Guards|  |M|73.97 72.18|
-A Protect the Frontier     |QID|52| |N|Accept Protect the Frontier|  |M|73.97 72.18|
 
-A Red Linen Goods     |QID|83| |N|Accept Red Linen Goods|  |M|79.46 68.79|
-A A Bundle of Trouble     |QID|5545| |N|Accept A Bundle of Trouble|  |M|81.38 66.11|
+T Further Concerns     |QID|35| |N|Marshal Dughan wants you to speak with Guard Thomas.|  |M|74.0 72.2|
+A Find the Lost Guards     |QID|37| |N|Accept Find the Lost Guards|  |M|74.0 72.2|
+A Protect the Frontier     |QID|52| |N|Accept Protect the Frontier|  |M|74.0 72.2|
+
+A Red Linen Goods     |QID|83| |N|Accept Red Linen Goods|  |M|79.6 68.6|
+A A Bundle of Trouble     |QID|5545| |N|Accept A Bundle of Trouble|  |M|81.4 66.0|
 
 N Kill any bears you find
-C The Jasperlode Mine |QID|76| |N|Explore the Jasperlode Mine, then report back to Marshal Dughan in Goldshire.|  |M|42.11 65.93|
+
+
 ]]
 end)
