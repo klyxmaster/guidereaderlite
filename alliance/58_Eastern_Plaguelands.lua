@@ -4,19 +4,19 @@ T Demon Dogs |N|Slay 20 Plaguehound Runts, 5 Plaguehounds and 5 Frenzied Plagueh
 T Blood Tinged Skies |N|Slay 30 Plaguebats and return to Tirion Fordring.|    |QID|5543|  |M|4.73,38.40|
 T Carrion Grubbage |N|Seek out the Carrion Grubs and Devourers of the region.|    |QID|5544|  |M|4.73,38.40|
 
-A Accept Redemption from Tirion Fordring |N|Listen to what Tirion Fordring has to say.|    |QID|5742|  |M|4.73,38.40|
+A Accept Accept Redemption |N|Go to Tirion Fordring and accept Accept Redemption|    |QID|5742|  |M|4.73,38.40|
 C Redemption |QID|5742| |N|Listen to Tirion Fordring’s tale.| |M|4.73,38.40|
 T Redemption |N|Listen to what Tirion Fordring has to say.|    |QID|5742|  |M|4.73,38.40|
-A Accept Of Forgotten Memories from Tirion Fordring |N|Travel to the Undercroft - at the southernmost section of the Eastern Plaguelands - and recover Taelan's Hammer.|    |QID|5781|  |M|4.73,38.40|
+A Accept Accept Of Forgotten Memories |N|Go to Tirion Fordring and accept Accept Of Forgotten Memories|    |QID|5781|  |M|4.73,38.40|
 
 C Of Forgotten Memories |QID|5781| |N|Travel to the Undercroft in southern EPL and recover Taelan’s Hammer.| |M|24.0,78.0|
 C Zaeldarr the Outcast |QID|6021| |N|Kill Zaeldarr in the Undercroft and loot Zaeldarr’s Head.| |M|24.0,78.0|
 
 T Of Forgotten Memories |N|Travel to the Undercroft - at the southernmost section of the Eastern Plaguelands - and recover Taelan's Hammer.|    |QID|5781|  |M|4.73,38.40|
-A Accept Of Lost Honor from Tirion Fordring |N|Travel to Northdale, in the northeastern region of the Eastern Plaguelands, and recover the Symbol of Lost Honor.|    |QID|5845|  |M|4.73,38.40|
+A Accept Accept Of Lost Honor |N|Go to Tirion Fordring and accept Accept Of Lost Honor|    |QID|5845|  |M|4.73,38.40|
 
 T Uncle Carlin |N|Find Carlin Redpath.|    |QID|5241|  |M|75.74,53.84|
-A Accept Villains of Darrowshire from Carlin Redpath |N|Bring the Skull of Horgus and the Shattered Sword of Marduk to Carlin Redpath at Light's Hope Chapel.|    |QID|5181|  |M|75.74,53.84|
+A Accept Accept Villains of Darrowshire |N|Go to Carlin Redpath and accept Accept Villains of Darrowshire|    |QID|5181|  |M|75.74,53.84|
 T Zaeldarr the Outcast |N|Bring Zaeldarr's Head to Caretaker Alen at Light's Hope Chapel.|    |QID|6021|  |M|73.85,57.77|
 
 C Villains of Darrowshire |QID|5181| |N|Collect the Skull of Horgus and the Shattered Sword of Marduk.| |M|75.74,53.84|

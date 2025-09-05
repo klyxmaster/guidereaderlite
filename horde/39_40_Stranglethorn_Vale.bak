@@ -1,0 +1,56 @@
+GuideReaderLite_RegisterGuide("Stranglethorn Vale (39-40)", "Badlands (40-41)", "Horde", function()
+return [[
+b Booty Bay
+A Accept The Bloodsail Buccaneers (Part 1) from First Mate Crazz |N|First Mate Crazz wants you to check the cove north of Booty Bay.|    |QID|595| |T|  |M|28.10 76.22|
+
+T The Bloodsail Buccaneers (Part 1) |N|First Mate Crazz wants you to check the cove north of Booty Bay.|    |QID|595| |RAF|  |M|28.10 76.22|
+A Accept The Bloodsail Buccaneers (Part 2) from Bloodsail Correspondence |N|Report your findings to First Mate Crazz in Booty Bay.|    |QID|597| |RAF|  |M|28.10 76.22|
+T The Bloodsail Buccaneers (Part 2) |N|Report your findings to First Mate Crazz in Booty Bay.|    |QID|597| |RAF| |T|  |M|28.10 76.22|
+A Accept The Bloodsail Buccaneers (Part 3) from First Mate Crazz |N|Report the planned Bloodsail attack to Fleet Master Seahorn.|    |QID|599| |RAF| |T|  |M|28.10 76.22|
+T The Bloodsail Buccaneers (Part 3) |N|Report the planned Bloodsail attack to Fleet Master Seahorn.|    |QID|599| |RAF| |T|  |M|27.17 77.01|
+A Accept The Bloodsail Buccaneers (Part 4) from Fleet Master Seahorn |N|Fleet Master Seahorn in Booty Bay wants you to kill 10 Bloodsail Swashbucklers and bring back the Bloodsail Charts and the Bloodsail Orders.|    |QID|604| |RAF| |T|  |M|27.17 77.01|
+
+A Accept Scaring Shaky from Sea Wolf" MacKinley |N|Bring 5 Mistvale Giblets to "Shaky" Phillipe in Booty Bay.|    |QID|606| |NORAF| |T|  |M|27.78 77.07|
+h Booty Bay |T| |N|Make this Inn your home|
+T The Rumormonger  |N|Talk to Krazek at Booty Bay in Stranglethorn Vale.|    |QID|1115| |NORAF| |T|  |M|26.94 77.21|
+A Accept Dream Dust in the Swamp from Krazek |N|Bring 10 Specks of Dream Dust to Krazek in Booty Bay.|    |QID|1116| |NORAF| |T|  |M|26.94 77.21|
+
+F Grom'gol Base Camp
+T The Troll Witchdoctor |N|Take the Defiant Orc Head to Kin'weelay in the Grom'gol Base Camp in Stranglethorn Vale.|    |QID|1240| |T|  |M|32.27 27.71|
+A Accept Marg Speaks from Bubbling Cauldron |N|Bring the Jeweled Pendant to Nazeer in Brackenwall Village.|    |QID|1261| |T|  |M|35.21 30.66|
+
+C Raptor Mastery (Part 4) |QID|197| |RAF| |N|Hemet Nesingwary Jr. wants you to kill Tethis, an elusive, dangerous raptor in Stranglethorn.|  |M|35.66 10.81|
+C Raptor Mastery (Part 3)  |QID|196| |NORAF| |N|Hemet Nesingwary Jr. wants you to kill 10 Jungle Stalkers.|  |M|35.66 10.81|
+C Mok'thardin's Enchantment (Part 2)  |QID|572| |NORAF| |N|Bring 10 Jungle Stalker Feathers to Far Seer Mok'thardin at the Grom'gol base camp.|  |M|32.12 29.24|
+
+T Mok'thardin's Enchantment (Part 2)  |N|Bring 10 Jungle Stalker Feathers to Far Seer Mok'thardin at the Grom'gol base camp.|    |QID|572| |NORAF| |T|  |M|32.12 29.24|
+A Accept Mok'thardin's Enchantment (Part 3) from Far Seer Mok'thardin |N|Bring an Aged Gorilla Sinew to Far Seer Mok'thardin in Grom'gol.|    |QID|571| |NORAF| |T|  |M|32.12 29.24|
+
+C Panther Mastery (Part 3) |QID|193| |N|Sir S. J. Erlgadin of Nesingwary's Expedition wants you to bring him the Fang of Bhag'thera.|  |M|35.55 10.55|
+
+T Panther Mastery (Part 3) |N|Sir S.|    |QID|193|  |M|35.55 10.55|
+T Raptor Mastery (Part 3) |N|Hemet Nesingwary Jr.|    |QID|196| |NORAF|  |M|35.66 10.81|
+A Accept Raptor Mastery (Part 4) from Hemet Nesingwary Jr. |N|Hemet Nesingwary Jr.|    |QID|197| |NORAF|  |M|35.66 10.81|
+T Raptor Mastery (Part 4) |N|Hemet Nesingwary Jr.|    |QID|197| |RAF|  |M|35.66 10.81|
+A Accept Big Game Hunter from Hemet Nesingwary Jr. |N|Hemet Nesingwary Jr.|    |QID|208| |RAF|  |M|35.66 10.81|
+
+H Booty Bay |SZ|The Salty Sailor Tavern| |N|Hearth back|
+T The Bloodsail Buccaneers (Part 1) |N|First Mate Crazz wants you to check the cove north of Booty Bay.|    |QID|595| |NORAF|  |M|28.10 76.22|
+A Accept The Bloodsail Buccaneers (Part 2) from Bloodsail Correspondence |N|Report your findings to First Mate Crazz in Booty Bay.|    |QID|597| |NORAF|  |M|28.10 76.22|
+
+C Scaring Shaky  |QID|606| |NORAF| |N|Bring 5 Mistvale Giblets to "Shaky"" Phillipe in Booty Bay."|  |M|26.90 73.59|
+C Mok'thardin's Enchantment (Part 3)  |QID|571| |NORAF| |N|Bring an Aged Gorilla Sinew to Far Seer Mok'thardin in Grom'gol.|  |M|32.12 29.24|
+
+T The Bloodsail Buccaneers (Part 2) |N|Report your findings to First Mate Crazz in Booty Bay.|    |QID|597| |NORAF| |T|  |M|28.10 76.22|
+A Accept The Bloodsail Buccaneers (Part 3) from First Mate Crazz |N|Report the planned Bloodsail attack to Fleet Master Seahorn.|    |QID|599| |NORAF| |T|  |M|28.10 76.22|
+T Scaring Shaky |N|Bring 5 Mistvale Giblets to "Shaky" Phillipe in Booty Bay.|    |QID|606| |NORAF| |T|  |M|26.90 73.59|
+A Accept Return to MacKinley from Shaky" Phillipe |N|Bring Shaky's Payment to "Sea Wolf" MacKinley.|    |QID|607| |NORAF| |T|  |M|26.90 73.59|
+T Return to MacKinley |N|Bring Shaky's Payment to "Sea Wolf" MacKinley.|    |QID|607| |NORAF| |T|  |M|27.78 77.07|
+T The Bloodsail Buccaneers (Part 3) |N|Report the planned Bloodsail attack to Fleet Master Seahorn.|    |QID|599| |NORAF| |T|  |M|27.17 77.01|
+A Accept The Bloodsail Buccaneers (Part 4) from Fleet Master Seahorn |N|Fleet Master Seahorn in Booty Bay wants you to kill 10 Bloodsail Swashbucklers and bring back the Bloodsail Charts and the Bloodsail Orders.|    |QID|604| |NORAF| |T|  |M|27.17 77.01|
+
+F Grom'gol Base Camp |NORAF|
+T Mok'thardin's Enchantment (Part 3) |N|Bring an Aged Gorilla Sinew to Far Seer Mok'thardin in Grom'gol.|    |QID|571| |NORAF| |T|  |M|32.12 29.24|
+A Accept Mok'thardin's Enchantment (Part 4) from Far Seer Mok'thardin |N|Far Seer Mok'thardin of Grom'gol needs Holy Spring Water.|    |QID|573| |NORAF| |T|  |M|32.12 29.24|
+]]
+end)
