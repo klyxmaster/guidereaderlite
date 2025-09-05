@@ -356,108 +356,66 @@ _G["GuideReaderLite_RegisterGuide"] = function(name, nextzone, faction, textProv
 end
 
 ---------------------------------------------------------------
--- Minimal UI (Status Frame) – Modernized Look (gold header + dark panel)
+-- Minimal UI (Status Frame)
 ---------------------------------------------------------------
--- =========================
--- Status Frame (clean)
--- =========================
 local f = CreateFrame("Frame", "GuideReaderLiteStatus", UIParent)
 GRL.status = f
-f:SetSize(420, 170)
+f:SetSize(380, 150)
 f:SetPoint("CENTER")
-f:SetFrameStrata("DIALOG")
-
--- Dark panel + classic gold edge
 f:SetBackdrop({
-  bgFile   = "Interface\\ChatFrame\\ChatFrameBackground",
-  edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
-  tile = false, edgeSize = 14,
-  insets = { left=8, right=8, top=8, bottom=8 },
+    bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background",
+    edgeFile = "Interface\\DialogFrame\\UI-DialogBox-Border",
+    --tile = true, tileSize = 16, edgeSize = 16,
+	tile = false, edgeSize = 16,
+    insets = {left = 4, right = 4, top = 4, bottom = 4}
 })
-f:SetBackdropColor(0, 0, 0, 0.88)
-f:SetBackdropBorderColor(0.95, 0.80, 0.25, 1)
-
--- Movable
+f:SetBackdropColor(1, 1, 1, 1)
+--f:SetBackdropColor(0, 0, 0, 0.85)
 f:EnableMouse(true)
 f:SetMovable(true)
 f:RegisterForDrag("LeftButton")
 f:SetScript("OnDragStart", f.StartMoving)
-f:SetScript("OnDragStop",  f.StopMovingOrSizing)
+f:SetScript("OnDragStop", f.StopMovingOrSizing)
+f:Show()
 
--- Header bar (gold gradient)
-f.header = f:CreateTexture(nil, "ARTWORK")
-f.header:SetPoint("TOPLEFT",  8, -8)
-f.header:SetPoint("TOPRIGHT", -8, -8)
-f.header:SetHeight(28)
-f.header:SetTexture("Interface\\Buttons\\WHITE8x8")
-f.header:SetGradientAlpha("VERTICAL",
-  0.28, 0.22, 0.06, 1,   -- top
-  0.15, 0.12, 0.03, 1)   -- bottom
-
--- Thin header border (to match the screenshot style)
-local hb = CreateFrame("Frame", nil, f)
-hb:SetFrameLevel(f:GetFrameLevel() + 2)
-hb:SetPoint("TOPLEFT",     f.header, "TOPLEFT",     -5,  5)
-hb:SetPoint("BOTTOMRIGHT", f.header, "BOTTOMRIGHT",  5, -5)
-hb:SetBackdrop({
-  edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
-  edgeSize = 12,
-  insets   = { left=3, right=3, top=3, bottom=3 },
-})
-hb:SetBackdropBorderColor(0.95, 0.80, 0.25, 1)
-
--- Divider under header
-f.divider = f:CreateTexture(nil, "ARTWORK")
-f.divider:SetTexture("Interface\\Buttons\\WHITE8x8")
-f.divider:SetVertexColor(1.0, 0.85, 0.25, 0.25)
-f.divider:SetPoint("TOPLEFT",  f.header, "BOTTOMLEFT",  0, -6)
-f.divider:SetPoint("TOPRIGHT", f.header, "BOTTOMRIGHT", 0, -6)
-f.divider:SetHeight(1)
-
--- Title on header
-f.title = f:CreateFontString(nil, "OVERLAY", "GameFontNormalLarge")
-f.title:SetPoint("LEFT", f.header, "LEFT", 10, 0)
+-- Title (addon name)
+f.title = f:CreateFontString(nil, "ARTWORK", "GameFontNormal")
+f.title:SetPoint("TOPLEFT", 16, -10)
 f.title:SetText("Guide Reader Lite")
-f.title:SetTextColor(1, 0.85, 0.2, 1)
+f.title:SetFont("Fonts\\FRIZQT__.TTF", 20, "OUTLINE")
+f.title:SetTextColor(1, 0.5, 0, 1)
 
--- Guide name
+-- Subtitle (guide name)
 f.guideName = f:CreateFontString(nil, "ARTWORK", "GameFontHighlight")
-f.guideName:SetPoint("TOPLEFT", f.header, "BOTTOMLEFT", 10, -10)
-f.guideName:SetPoint("RIGHT", f, "RIGHT", -18, 0)
-f.guideName:SetJustifyH("LEFT")
+f.guideName:SetPoint("TOPLEFT", f.title, "BOTTOMLEFT", 0, -2)
 f.guideName:SetText("")
+f.guideName:SetFont("Fonts\\FRIZQT__.TTF", 14)
 
 -- Step text
 f.text = f:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
-f.text:SetPoint("TOPLEFT",  f.guideName, "BOTTOMLEFT", 0, -8)
-f.text:SetPoint("RIGHT",    f, "RIGHT", -18, 0)
+f.text:SetPoint("TOPLEFT", f.guideName, "BOTTOMLEFT", 0, -6)
 f.text:SetJustifyH("LEFT")
 f.text:SetJustifyV("TOP")
+f.text:SetWidth(340)
 f.text:SetText("No guide loaded.")
 
--- Prev / Next
 f.prev = CreateFrame("Button", nil, f, "UIPanelButtonTemplate")
-f.prev:SetSize(80, 22)
-f.prev:SetPoint("BOTTOMLEFT", 12, 12)
-f.prev:SetText("« Prev")
+f.prev:SetSize(60, 20); f.prev:SetPoint("BOTTOMLEFT", 16, 10); f.prev:SetText("« Prev")
 f.prev:SetScript("OnClick", function() GRL:PrevStep() end)
 
 f.next = CreateFrame("Button", nil, f, "UIPanelButtonTemplate")
-f.next:SetSize(80, 22)
-f.next:SetPoint("BOTTOMRIGHT", -12, 12)
-f.next:SetText("Next »")
+f.next:SetSize(60, 20); f.next:SetPoint("BOTTOMRIGHT", -16, 10); f.next:SetText("Next »")
 f.next:SetScript("OnClick", function() GRL:NextStep() end)
 
-f:Show()
-
--- Auto-resize to content
 function GRL:ResizeStatusFrame()
-  local f = self.status
-  if not f or not f.text or not f.title then return end
-  local th  = f.text:GetStringHeight()  or 0
-  local gnh = f.guideName and f.guideName:GetStringHeight() or 0
-  local chrome = 28 + 44 + 28  -- header + spacing + buttons
-  f:SetHeight(math.max(120, chrome + gnh + th))
+    local f = self.status
+    if not f or not f.text or not f.title then return end
+    local th  = f.text:GetStringHeight()  or 0
+    local tth = f.title:GetStringHeight() or 0
+    local gnh = f.guideName and f.guideName:GetStringHeight() or 0
+    local padTop, gapTitle, gapGuide, gapText, btnRow, padBot, minH = 12, 6, 8, 8, 24, 10, 110
+    local needed = padTop + tth + gapTitle + gnh + gapGuide + th + gapText + btnRow + padBot
+    f:SetHeight(math.max(minH, needed))
 end
 
 ---------------------------------------------------------------
