@@ -1,21 +1,21 @@
 GuideReaderLite_RegisterGuide("Azshara (52-53)", "Felwood (53-54)", "Alliance", function()
 return [[
-A Accept Accept Arcane Runes |N|Go to Tymor and accept Accept Arcane Runes|    |QID|3449|   |M|76.9,92.3|
+A Accept Accept Arcane Runes |N|Go to Tymor and accept Accept Arcane Runes|    |QID|3449|   |M|13.8,88.8|
 
-A Accept Accept The Hunter's Charm |N|Go to Deremiis and accept Accept The Hunter's Charm|    |C|Hunter| |QID|8151|   |M|42.4,42.6|
+A Accept Accept The Hunter's Charm |N|Go to Deremiis and accept Accept The Hunter's Charm|    |C|Hunter| |QID|8151|   |M|26.8,45.5|
 A Accept Accept Cenarion Aid |N|Go to Fallat and accept Accept Cenarion Aid|    |C|Priest| |QID|8254|   |M|42.4,42.6|
 A Accept Accept A Simple Request |N|Go to Elara and accept Accept A Simple Request|    |C|Rogue| |QID|8233|   |M|77.4,65.3|
-T A Simple Request  |N|Speak with Lord Jorach Ravenholdt in Ravenholdt Manor.|    |C|Rogue| |QID|8233|   |M|86.0,78.9|
-A Accept Accept Sealed Azure Bag |N|Go to Lord Jorach Ravenholdt and accept Accept Sealed Azure Bag|    |C|Rogue| |QID|8234|   |M|86.0,78.9|
+T A Simple Request  |N|Speak with Lord Jorach Ravenholdt in Ravenholdt Manor.|    |C|Rogue| |QID|8233|   |M|86.1,79|
+A Accept Accept Sealed Azure Bag |N|Go to Lord Jorach Ravenholdt and accept Accept Sealed Azure Bag|    |C|Rogue| |QID|8234|   |M|86.1,79|
 
 F Azshara |N|Fly to Forest Song or Astranaar, then run east if you don’t have the FP.|
 
-A Accept Accept Spiritual Unrest |N|Go to Loh'atu and accept Accept Spiritual Unrest|    |QID|5535|   |M|11.4,78.2|
-A Accept Accept A Land Filled with Hatred |N|Go to Loh'atu and accept Accept A Land Filled with Hatred|    |QID|5536|   |M|11.4,78.2|
+A Accept Accept Spiritual Unrest |N|Go to Loh'atu and accept Accept Spiritual Unrest|    |QID|5535|   |M|11.4,78.1|
+A Accept Accept A Land Filled with Hatred |N|Go to Loh'atu and accept Accept A Land Filled with Hatred|    |QID|5536|   |M|11.4,78.1|
 C Spiritual Unrest  |QID|5535| |N|Slay 6 Highborne Apparitions and 6 Highborne Lichlings.|  |M|11.4,78.2|
 C A Land Filled with Hatred  |QID|5536| |N|Slay 6 Haldarr Satyrs, 2 Tricksters, and 2 Felsworn.|  |M|11.4,78.2|
-T Spiritual Unrest   |N|Destroy 6 Highborne Apparitions and 6 Highborne Lichlings before returning to Loh'atu in Azshara.|    |QID|5535|   |M|11.4,78.2|
-T A Land Filled with Hatred   |N|Kill 6 Haldarr Satyr, 2 Haldarr Tricksters, 2 Haldarr Felsworn and then return to Loh'atu on the border of Ashenvale.|    |QID|5536|   |M|11.4,78.2|
+T Spiritual Unrest   |N|Destroy 6 Highborne Apparitions and 6 Highborne Lichlings before returning to Loh'atu in Azshara.|    |QID|5535|   |M|11.4,78.1|
+T A Land Filled with Hatred   |N|Kill 6 Haldarr Satyr, 2 Haldarr Tricksters, 2 Haldarr Felsworn and then return to Loh'atu on the border of Ashenvale.|    |QID|5536|   |M|11.4,78.1|
 
 ; Mage quest intro
 R Azshara Tower |C|Mage| |N|Talk to Sanath Lim-Yo north of the tower (28.1,50.1) for a free teleport.|
@@ -28,27 +28,27 @@ N Get Markri Rubbing    |N|At the Temple of Zin-Malor (south).|  |ITEM|10565|  |
 N Get Sael'hai Rubbing  |N|On the southern terraces along the coast.|  |ITEM|10566|  |M|42.0,64.7|
 
 ; ---- Signal for Pickup ----
-A Accept Accept An Easy Pickup |N|Go to Tymor and accept Accept An Easy Pickup|    |QID|3450|   |M|77.0,91.2|
-A Accept Accept Signal for Pickup |N|Go to Xiggs Fuselighter and accept Accept Signal for Pickup|    |QID|3451|   |M|77.0,91.2|
-T Signal for Pickup   |N|Speak to Xiggs Fuselighter and get a Standard Issue Flare Gun from him in Ironforge.|    |QID|3451|   |M|77.0,91.2|
-T Arcane Runes        |N|Using the Drawing Kit, make rubbings of the Rune of Beth'Amara, the Rune of Jin'yael, the Rune of Markri, and the Rune of Sael'hai before heading to the small island off of the southern peninsula of Azshara and signaling Pilot Xiggs Fuselighter to pick them up.|    |QID|3449|   |M|77.0,91.2|
-A Return to Tymor     |N|Return Tymor's Drawing Kit to him in Ironforge.|    |QID|3461|   |M|77.0,91.2|
+A Accept Accept An Easy Pickup |N|Go to Tymor and accept Accept An Easy Pickup|    |QID|3450|   |M|13.8,88.8|
+A Accept Accept Signal for Pickup |N|Go to Xiggs Fuselighter and accept Accept Signal for Pickup|    |QID|3451|   |M|62.4,36.2|
+T Signal for Pickup   |N|Speak to Xiggs Fuselighter and get a Standard Issue Flare Gun from him in Ironforge.|    |QID|3451|   |M|62.4,36.2|
+T Arcane Runes        |N|Using the Drawing Kit, make rubbings of the Rune of Beth'Amara, the Rune of Jin'yael, the Rune of Markri, and the Rune of Sael'hai before heading to the small island off of the southern peninsula of Azshara and signaling Pilot Xiggs Fuselighter to pick them up.|    |QID|3449|   |M|13.8,88.8|
+A Return to Tymor     |N|Return Tymor's Drawing Kit to him in Ironforge.|    |QID|3461|   |M|13.8,88.8|
 
 ; Class quests
-T The Hunter's Charm  |N|Speak to Ogtinc in Azshara.|    |C|Hunter| |QID|8151|   |M|42.4,42.6|
-A Accept Accept Courser Antlers |N|Go to Ogtinc and accept Accept Courser Antlers|    |C|Hunter| |QID|8153|   |M|42.4,42.6|
+T The Hunter's Charm  |N|Speak to Ogtinc in Azshara.|    |C|Hunter| |QID|8151|   |M|42.4,42.7|
+A Accept Accept Courser Antlers |N|Go to Ogtinc and accept Accept Courser Antlers|    |C|Hunter| |QID|8153|   |M|42.4,42.7|
 C Courser Antlers  |C|Hunter| |QID|8153| |N|Collect Perfect Courser Antlers.|  |M|42.4,42.6|
-T Courser Antlers  |N|Bring a pair of Perfect Courser Antlers to Ogtinc in Azshara.|    |C|Hunter| |QID|8153|   |M|42.4,42.6|
-A Accept Accept Wavethrashing |N|Go to Ogtinc and accept Accept Wavethrashing|    |C|Hunter| |QID|8231|   |M|42.4,42.6|
+T Courser Antlers  |N|Bring a pair of Perfect Courser Antlers to Ogtinc in Azshara.|    |C|Hunter| |QID|8153|   |M|42.4,42.7|
+A Accept Accept Wavethrashing |N|Go to Ogtinc and accept Accept Wavethrashing|    |C|Hunter| |QID|8231|   |M|42.4,42.7|
 C Wavethrashing  |C|Hunter| |QID|8231| |N|Collect 6 Wavethrasher Scales.|  |M|42.4,42.6|
-T Wavethrashing  |N|Bring 6 Wavethrasher Scales to Ogtinc in Azshara.|    |C|Hunter| |QID|8231|   |M|42.4,42.6|
+T Wavethrashing  |N|Bring 6 Wavethrasher Scales to Ogtinc in Azshara.|    |C|Hunter| |QID|8231|   |M|42.4,42.7|
 
-T Cenarion Aid  |N|Seek out Ogtinc in Azshara.|    |C|Priest| |QID|8254|   |M|42.4,42.6|
-A Accept Accept Of Coursers We Know |N|Go to Ogtinc and accept Accept Of Coursers We Know|    |C|Priest| |QID|8255|   |M|42.4,42.6|
+T Cenarion Aid  |N|Seek out Ogtinc in Azshara.|    |C|Priest| |QID|8254|   |M|42.4,42.7|
+A Accept Accept Of Coursers We Know |N|Go to Ogtinc and accept Accept Of Coursers We Know|    |C|Priest| |QID|8255|   |M|42.4,42.7|
 C Of Coursers We Know  |C|Priest| |QID|8255| |N|Collect 4 Healthy Courser Glands.|  |M|42.4,42.6|
-T Of Coursers We Know  |N|Acquire 4 Healthy Courser Glands and bring them to Ogtinc in Azshara.|    |C|Priest| |QID|8255|   |M|42.4,42.6|
-A Accept Accept The Ichor of Undeath |N|Go to Ogtinc and accept Accept The Ichor of Undeath|    |C|Priest| |QID|8256|   |M|42.4,42.6|
-T The Ichor of Undeath  |N|Acquire an Ichor of Undeath for Ogtinc in Azshara.|    |C|Priest| |QID|8256|   |M|42.4,42.6|
+T Of Coursers We Know  |N|Acquire 4 Healthy Courser Glands and bring them to Ogtinc in Azshara.|    |C|Priest| |QID|8255|   |M|42.4,42.7|
+A Accept Accept The Ichor of Undeath |N|Go to Ogtinc and accept Accept The Ichor of Undeath|    |C|Priest| |QID|8256|   |M|42.4,42.7|
+T The Ichor of Undeath  |N|Acquire an Ichor of Undeath for Ogtinc in Azshara.|    |C|Priest| |QID|8256|   |M|42.4,42.7|
 
 C Sealed Azure Bag  |C|Rogue| |QID|8234| |N|Loot from Timbermaw Shaman, then deliver to Archmage Xylem.|  |M|29.3,40.2|
 T Sealed Azure Bag  |N|Retrieve the Sealed Azure Bag from the Timbermaw Shaman in Azshara.|    |C|Rogue| |QID|8234|   |M|29.3,40.2|

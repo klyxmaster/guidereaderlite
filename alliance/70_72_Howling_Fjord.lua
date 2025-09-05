@@ -3,109 +3,109 @@ GuideReaderLite_RegisterGuide("Howling Fjord (70-72)", "Dragonblight (72-73)", "
 return [[
 N Important note! |N|There are a number of quests in Northrend that will send you to the next quest hub. These quests usually send you off flying the moment you accept them. Be wary if you accept quests before TG tells you to, especially if you're near a flightmaster. Be sure you grab flight points before quests, in case you grab one of these and need to fly back!| |QID|11427| |M|64.43,46.95|
 
-A Accept Accept Hell Has Frozen Over... |N|Go to Macalroy and accept Accept Hell Has Frozen Over...|    |QID|11228|  |M|61.05,62.60|
-T Hell Has Frozen Over... |N|Speak with Vice Admiral Keller at Valgarde Port.|    |QID|11228|  |M|60.54,61.07|
-A Accept Accept If Valgarde Falls... |N|Go to Vice Admiral Keller and accept Accept If Valgarde Falls...|    |QID|11243|  |M|60.54,61.07|
+A Accept Accept Hell Has Frozen Over... |N|Go to Macalroy and accept Accept Hell Has Frozen Over...|    |QID|11228|  |M|60.8,62.5|
+T Hell Has Frozen Over... |N|Speak with Vice Admiral Keller at Valgarde Port.|    |QID|11228|  |M|60.4,61.1|
+A Accept Accept If Valgarde Falls... |N|Go to Vice Admiral Keller and accept Accept If Valgarde Falls...|    |QID|11243|  |M|60.4,61.1|
 
 C If Valgarde Falls... |QID|11243| |QO|1| |N|Slay 12 Dragonflayer Invaders or Dragonflayer Worgs around Valgarde Port.| |M|60.4,61.2|
-T If Valgarde Falls... |N|Vice Admiral Keller at Valgarde Port in the Howling Fjord wants you to slay 12 Dragonflayer Invaders or Dragonflayer Worgs.|    |QID|11243|  |M|60.54,61.07|
-A Accept Accept Rescuing the Rescuers |N|Go to Vice Admiral Keller and accept Accept Rescuing the Rescuers|    |QID|11244|  |M|60.54,61.07|
+T If Valgarde Falls... |N|Vice Admiral Keller at Valgarde Port in the Howling Fjord wants you to slay 12 Dragonflayer Invaders or Dragonflayer Worgs.|    |QID|11243|  |M|60.4,61.1|
+A Accept Accept Rescuing the Rescuers |N|Go to Vice Admiral Keller and accept Accept Rescuing the Rescuers|    |QID|11244|  |M|60.4,61.1|
 
 C Rescuing the Rescuers |QID|11244| |N|Rescue 8 Valgarde Scouts impaled along the roads north of Valgarde.| |M|60.4,61.2|
-T Rescuing the Rescuers |N|Vice Admiral Keller at Valgarde Port in the Howling Fjord wants you to rescue 8 Valgarde Scouts that have been impaled and left for dead.|    |QID|11244|  |M|60.54,61.07|
-A Accept Accept Prisoners of Wyrmskull |N|Go to Vice Admiral Keller and accept Accept Prisoners of Wyrmskull|    |QID|11255|  |M|60.54,61.07|
-A Accept Accept The Human League |N|Go to Beltrand McSorf and accept Accept The Human League|    |QID|11273|  |M|60.17,61.03|
-A Accept Accept The Path to Payback |N|Go to Guard Captain Zorek and accept Accept The Path to Payback|    |QID|11420|  |M|60.12,62.43|
-A Accept Accept Into the World of Spirits |N|Go to Thoralius the Wise and accept Accept Into the World of Spirits|    |QID|11333|  |M|59.80,61.48|
+T Rescuing the Rescuers |N|Vice Admiral Keller at Valgarde Port in the Howling Fjord wants you to rescue 8 Valgarde Scouts that have been impaled and left for dead.|    |QID|11244|  |M|60.4,61.1|
+A Accept Accept Prisoners of Wyrmskull |N|Go to Vice Admiral Keller and accept Accept Prisoners of Wyrmskull|    |QID|11255|  |M|60.4,61.1|
+A Accept Accept The Human League |N|Go to Beltrand McSorf and accept Accept The Human League|    |QID|11273|  |M|60.2,61|
+A Accept Accept The Path to Payback |N|Go to Guard Captain Zorek and accept Accept The Path to Payback|    |QID|11420|  |M|60.1,62.4|
+A Accept Accept Into the World of Spirits |N|Go to Thoralius the Wise and accept Accept Into the World of Spirits|    |QID|11333|  |M|59.9,61.5|
 
-A Accept Accept Daggercap Divin' |N|Go to Harold Lagras and accept Accept Daggercap Divin'|    |QID|11443|  |M|62.80,58.54|
+A Accept Accept Daggercap Divin' |N|Go to Harold Lagras and accept Accept Daggercap Divin'|    |QID|11443|  |M|62.2,57.3|
 U Put on the Diving Helm |U|34082| |QID|11443| |N|Equip the Diving Helm from your bags.| |M|62.80,58.54|
 C Into the World of Spirits |QID|11333| |N|Find Thoralius’ Reagent Pouch while in the spirit world.| |M|59.80,61.48|
 C Daggercap Divin' |QID|11443| |N|Recover 10 Valgarde Supply Crates from the bottom of Daggercap Bay.| |M|62.80,58.54|
-T Daggercap Divin' |N|Harold Lagras at the bottom of Daggercap Bay wants you to recover 10 Valgarde Supply Crates.|    |QID|11443|  |M|62.80,58.54|
+T Daggercap Divin' |N|Harold Lagras at the bottom of Daggercap Bay wants you to recover 10 Valgarde Supply Crates.|    |QID|11443|  |M|62.2,57.3|
 
-T The Human League |N|Search Wyrmskull Village for Pulroy.|    |QID|11273|  |M|59.19,54.57|
-A Accept Accept Zedd's Probably Dead |N|Go to Pulroy the Archaeologist and accept Accept Zedd's Probably Dead|    |QID|11274|  |M|59.19,54.57|
-T Zedd's Probably Dead |N|Search Wyrmskull Village for Zedd.|    |QID|11274|  |M|56.63,52.38|
-A Accept Accept And Then There Were Two... |N|Go to Zedd and accept Accept And Then There Were Two...|    |QID|11276|  |M|56.63,52.38|
+T The Human League |N|Search Wyrmskull Village for Pulroy.|    |QID|11273|  |M|59.1,54.5|
+A Accept Accept Zedd's Probably Dead |N|Go to Pulroy the Archaeologist and accept Accept Zedd's Probably Dead|    |QID|11274|  |M|59.1,54.5|
+T Zedd's Probably Dead |N|Search Wyrmskull Village for Zedd.|    |QID|11274|  |M|56.6,52.5|
+A Accept Accept And Then There Were Two... |N|Go to Zedd and accept Accept And Then There Were Two...|    |QID|11276|  |M|56.6,52.5|
 
-T And Then There Were Two... |N|Search the Utgarde Catacombs for Glorenfeld.|    |QID|11276|  |M|56.94,53.75|
-A Accept Accept The Depths of Depravity |N|Go to Glorenfeld and accept Accept The Depths of Depravity|    |QID|11277|  |M|56.94,53.75|
-A Accept Accept The Shining Light |N|Go to Ares the Oathbound and accept Accept The Shining Light|    |QID|11288|  |M|59.34,55.42|
+T And Then There Were Two... |N|Search the Utgarde Catacombs for Glorenfeld.|    |QID|11276|  |M|56.9,53.7|
+A Accept Accept The Depths of Depravity |N|Go to Glorenfeld and accept Accept The Depths of Depravity|    |QID|11277|  |M|56.9,53.7|
+A Accept Accept The Shining Light |N|Go to Ares the Oathbound and accept Accept The Shining Light|    |QID|11288|  |M|59.3,55.4|
 C The Shining Light |QID|11288| |N|Recover the Sacred Artifact inside the Utgarde Catacombs (timed).| |M|59.34,55.42|
-T The Shining Light |N|Ares the Oathbound in the Utgarde Catacombs wants you to recover the Sacred Artifact.|    |QID|11288|  |M|59.34,55.42|
-A Accept Accept Guided by Honor |N|Go to Ares the Oathbound and accept Accept Guided by Honor|    |QID|11289|  |M|59.34,55.42|
+T The Shining Light |N|Ares the Oathbound in the Utgarde Catacombs wants you to recover the Sacred Artifact.|    |QID|11288|  |M|59.3,55.4|
+A Accept Accept Guided by Honor |N|Go to Ares the Oathbound and accept Accept Guided by Honor|    |QID|11289|  |M|59.3,55.4|
 C The Path to Payback |QID|11420| |N|Recover the Harpoon Operation Manual in Wyrmskull Village structures.| |M|60.12,62.43|
 C The Depths of Depravity |QID|11277| |QO|1| |N|Collect 10 Wyrmskull Tablets inside the catacombs.| |M|56.94,53.75|
-T The Depths of Depravity |N|Glorenfeld at the Utgarde Catacombs wants you to collect 10 Wyrmskull Tablets.|    |QID|11277|  |M|56.94,53.75|
-A Accept Accept The Ring of Judgement |N|Go to Glorenfeld and accept Accept The Ring of Judgement|    |QID|11299|  |M|56.94,53.75|
-T The Ring of Judgement |N|Find Daegarn in the Ring of Judgement located inside the Utgarde Catacombs.|    |QID|11299|  |M|55.72,57.37|
-A Accept Accept Stunning Defeat at the Ring |N|Go to Daegarn and accept Accept Stunning Defeat at the Ring|    |QID|11300|  |M|55.72,57.37|
+T The Depths of Depravity |N|Glorenfeld at the Utgarde Catacombs wants you to collect 10 Wyrmskull Tablets.|    |QID|11277|  |M|56.9,53.7|
+A Accept Accept The Ring of Judgement |N|Go to Glorenfeld and accept Accept The Ring of Judgement|    |QID|11299|  |M|56.9,53.7|
+T The Ring of Judgement |N|Find Daegarn in the Ring of Judgement located inside the Utgarde Catacombs.|    |QID|11299|  |M|55.7,57.3|
+A Accept Accept Stunning Defeat at the Ring |N|Go to Daegarn and accept Accept Stunning Defeat at the Ring|    |QID|11300|  |M|55.7,57.3|
 C Stunning Defeat at the Ring |QID|11300| |QO|1| |N|Defeat arena gladiators and Oluf the Violent; recover the Ancient Cipher.| |M|55.72,57.37|
-T Stunning Defeat at the Ring |N|Defeat the gladiators at the Ring of Judgement and face Oluf the Violent.|    |QID|11300|  |M|56.94,53.75|
-A Accept Accept Return to Valgarde |N|Go to Glorenfeld and accept Accept Return to Valgarde|    |QID|11278|  |M|56.94,53.75|
+T Stunning Defeat at the Ring |N|Defeat the gladiators at the Ring of Judgement and face Oluf the Violent.|    |QID|11300|  |M|56.9,53.7|
+A Accept Accept Return to Valgarde |N|Go to Glorenfeld and accept Accept Return to Valgarde|    |QID|11278|  |M|56.9,53.7|
 C Prisoners of Wyrmskull |QID|11255| |N|Free 3 Captured Valgarde Prisoners in Wyrmskull Village.| |M|58.0,56.5|
 
-T Return to Valgarde |N|Take Glorenfeld's Package to Beltrand McSorf at Valgarde Port.|    |QID|11278|  |M|60.17,61.03|
-A Accept Accept The Explorers' League Outpost |N|Go to Beltrand McSorf and accept Accept The Explorers' League Outpost|    |QID|11448|  |M|60.17,61.03|
-T Prisoners of Wyrmskull |N|Vice Admiral Keller at Valgarde Port in the Howling Fjord wants you to rescue 3 Captured Valgarde Prisoners.|    |QID|11255|  |M|60.54,61.07|
-A Accept Accept Dragonflayer Battle Plans |N|Go to Vice Admiral Keller and accept Accept Dragonflayer Battle Plans|    |QID|11290|  |M|60.54,61.07|
-T The Path to Payback |N|Guard Captain Zorek at Valgarde in Howling Fjord wants you to recover the Harpoon Operation Manual.|    |QID|11420|  |M|60.12,62.43|
-A Accept Accept Locating the Mechanism |N|Go to Guard Captain Zorek and accept Accept Locating the Mechanism|    |QID|11426|  |M|60.12,62.43|
-T Guided by Honor |N|Return the Sacred Artifact to Lord Irulon Trueblade at Valgarde.|    |QID|11289|  |M|59.74,62.44|
-T Into the World of Spirits |N|Thoralius the Wise at Valgarde wants you to find his Reagent Pouch.|    |QID|11333|  |M|59.80,61.48|
-A Accept Accept The Echo of Ymiron |N|Go to Thoralius the Wise and accept Accept The Echo of Ymiron|    |QID|11343|  |M|59.80,61.48|
+T Return to Valgarde |N|Take Glorenfeld's Package to Beltrand McSorf at Valgarde Port.|    |QID|11278|  |M|60.2,61|
+A Accept Accept The Explorers' League Outpost |N|Go to Beltrand McSorf and accept Accept The Explorers' League Outpost|    |QID|11448|  |M|60.2,61|
+T Prisoners of Wyrmskull |N|Vice Admiral Keller at Valgarde Port in the Howling Fjord wants you to rescue 3 Captured Valgarde Prisoners.|    |QID|11255|  |M|60.4,61.1|
+A Accept Accept Dragonflayer Battle Plans |N|Go to Vice Admiral Keller and accept Accept Dragonflayer Battle Plans|    |QID|11290|  |M|60.4,61.1|
+T The Path to Payback |N|Guard Captain Zorek at Valgarde in Howling Fjord wants you to recover the Harpoon Operation Manual.|    |QID|11420|  |M|60.1,62.4|
+A Accept Accept Locating the Mechanism |N|Go to Guard Captain Zorek and accept Accept Locating the Mechanism|    |QID|11426|  |M|60.1,62.4|
+T Guided by Honor |N|Return the Sacred Artifact to Lord Irulon Trueblade at Valgarde.|    |QID|11289|  |M|59.8,62.4|
+T Into the World of Spirits |N|Thoralius the Wise at Valgarde wants you to find his Reagent Pouch.|    |QID|11333|  |M|59.9,61.5|
+A Accept Accept The Echo of Ymiron |N|Go to Thoralius the Wise and accept Accept The Echo of Ymiron|    |QID|11343|  |M|59.9,61.5|
 
-A Accept Accept Fresh Legs |N|Go to Scout Valory and accept Accept Fresh Legs|    |QID|11251|  |M|55.96,55.79|
+A Accept Accept Fresh Legs |N|Go to Scout Valory and accept Accept Fresh Legs|    |QID|11251|  |M|56,55.8|
 C Dragonflayer Battle Plans |QID|11290| |QO|1| |N|Loot the Dragonflayer Battle Plans from Wyrmskull structures.| |M|58.0,56.5|
 C The Echo of Ymiron |QID|11343| |U|33637| |N|Use the Spectrecles and search Wyrmskull for Ymiron’s secrets.| |M|58.0,56.5|
 C Locating the Mechanism |QID|11426| |QO|1| |N|Obtain a Harpoon Control Mechanism from Wyrmskull Npcs.| |M|58.0,56.5|
-T Fresh Legs |N|Scout Valory wants you to investigate the sounds of battle coming from the northeast of Wyrmskull Village.|    |QID|11251|  |M|59.38,49.07|
+T Fresh Legs |N|Scout Valory wants you to investigate the sounds of battle coming from the northeast of Wyrmskull Village.|    |QID|11251|  |M|59.5,48.9|
 
-T Dragonflayer Battle Plans |N|Vice Admiral Keller at Valgarde Port in the Howling Fjord has asked that you bring him the Dragonflayer Battle Plans.|    |QID|11290|  |M|60.54,61.07|
-A Accept Accept To Westguard Keep! |N|Go to Vice Admiral Keller and accept Accept To Westguard Keep!|    |QID|11291|  |M|60.54,61.07|
-T The Echo of Ymiron |N|Thoralius the Wise wants you to search Wyrmskull Village while you are in the spirit world and find information about the Secrets of Wyrmskull.|    |QID|11343|  |M|59.80,61.48|
-A Accept Accept Anguish of Nifflevar |N|Go to Thoralius the Wise and accept Accept Anguish of Nifflevar|    |QID|11344|  |M|59.80,61.48|
-T Locating the Mechanism |N|Guard Captain Zorek at Valgarde in Howling Fjord wants you to bring him a Harpoon Control Mechanism.|    |QID|11426|  |M|60.12,62.43|
-A Accept Accept Meet Lieutenant Icehammer... |N|Go to Guard Captain Zorek and accept Accept Meet Lieutenant Icehammer...|    |QID|11427|  |M|60.12,62.43|
+T Dragonflayer Battle Plans |N|Vice Admiral Keller at Valgarde Port in the Howling Fjord has asked that you bring him the Dragonflayer Battle Plans.|    |QID|11290|  |M|60.4,61.1|
+A Accept Accept To Westguard Keep! |N|Go to Vice Admiral Keller and accept Accept To Westguard Keep!|    |QID|11291|  |M|60.4,61.1|
+T The Echo of Ymiron |N|Thoralius the Wise wants you to search Wyrmskull Village while you are in the spirit world and find information about the Secrets of Wyrmskull.|    |QID|11343|  |M|59.9,61.5|
+A Accept Accept Anguish of Nifflevar |N|Go to Thoralius the Wise and accept Accept Anguish of Nifflevar|    |QID|11344|  |M|59.9,61.5|
+T Locating the Mechanism |N|Guard Captain Zorek at Valgarde in Howling Fjord wants you to bring him a Harpoon Control Mechanism.|    |QID|11426|  |M|60.1,62.4|
+A Accept Accept Meet Lieutenant Icehammer... |N|Go to Guard Captain Zorek and accept Accept Meet Lieutenant Icehammer...|    |QID|11427|  |M|60.1,62.4|
 
-T Meet Lieutenant Icehammer... |N|Guard Captain Zorek wants you to take the Harpoon Control Mechanism to Lieutenant Icehammer stationed outside of Nifflevar.|    |QID|11427|  |M|64.43,46.95|
-A Accept Accept Drop It then Rock It! |N|Go to Lieutenant Icehammer and accept Accept Drop It then Rock It!|    |QID|11429|  |M|64.43,46.95|
+T Meet Lieutenant Icehammer... |N|Guard Captain Zorek wants you to take the Harpoon Control Mechanism to Lieutenant Icehammer stationed outside of Nifflevar.|    |QID|11427|  |M|64.4,46.9|
+A Accept Accept Drop It then Rock It! |N|Go to Lieutenant Icehammer and accept Accept Drop It then Rock It!|    |QID|11429|  |M|64.4,46.9|
 C Drop It then Rock It! |QID|11429| |U|34051| |N|Plant the Alliance Banner in Baleheim and defend it, then recover the banner.| |M|65.3,41.5|
-T Drop It then Rock It! |N|Lieutenant Icehammer in the Howling Fjord wants you to place the Alliance Banner in Baleheim and then defend the banner against attackers.|    |QID|11429|  |M|64.43,46.95|
-A Accept Accept Harpoon Master Yavus |N|Go to Lieutenant Icehammer and accept Accept Harpoon Master Yavus|    |QID|11430|  |M|64.43,46.95|
+T Drop It then Rock It! |N|Lieutenant Icehammer in the Howling Fjord wants you to place the Alliance Banner in Baleheim and then defend the banner against attackers.|    |QID|11429|  |M|64.4,46.9|
+A Accept Accept Harpoon Master Yavus |N|Go to Lieutenant Icehammer and accept Accept Harpoon Master Yavus|    |QID|11430|  |M|64.4,46.9|
 
 C Harpoon Master Yavus |QID|11430| |QO|1| |N|Slay Harpoon Master Yavus at Nifflevar.| |M|67.6,54.7|
 C Anguish of Nifflevar |QID|11344| |U|33774| |N|Use the Spectrecles and uncover the Secrets of Nifflevar.| |M|67.6,54.7|
-T Harpoon Master Yavus |N|Lieutenant Icehammer in the Howling Fjord wants you to slay Harpoon Master Yavus at Nifflevar.|    |QID|11430|  |M|64.43,46.95|
-A Accept Accept It Goes to 11... |N|Go to Lieutenant Icehammer and accept Accept It Goes to 11...|    |QID|11421|  |M|64.43,46.95|
+T Harpoon Master Yavus |N|Lieutenant Icehammer in the Howling Fjord wants you to slay Harpoon Master Yavus at Nifflevar.|    |QID|11430|  |M|64.4,46.9|
+A Accept Accept It Goes to 11... |N|Go to Lieutenant Icehammer and accept Accept It Goes to 11...|    |QID|11421|  |M|64.4,46.9|
 C It Goes to 11... |QID|11421| |U|34032| |N|Destroy the Longhouse, Dockhouse, Storage, and 8 Dragonflayer Defenders in Nifflevar.| |M|67.6,54.7|
-T It Goes to 11... |N|Lieutenant Icehammer in the Howling Fjord wants you to destroy the Dragonflayer Longhouse, Dragonflayer Dockhouse, Dragonflayer Storage Facility and 8 Dragonflayer Defenders.|    |QID|11421|  |M|64.43,46.95|
-A Accept Accept Let's Go Surfing Now |N|Go to Lieutenant Icehammer and accept Accept Let's Go Surfing Now|    |QID|11436|  |M|64.43,46.95|
+T It Goes to 11... |N|Lieutenant Icehammer in the Howling Fjord wants you to destroy the Dragonflayer Longhouse, Dragonflayer Dockhouse, Dragonflayer Storage Facility and 8 Dragonflayer Defenders.|    |QID|11421|  |M|64.4,46.9|
+A Accept Accept Let's Go Surfing Now |N|Go to Lieutenant Icehammer and accept Accept Let's Go Surfing Now|    |QID|11436|  |M|64.4,46.9|
 C Let's Go Surfing Now |QID|11436| |N|Use a large Vrykul Harpoon Gun in Nifflevar to launch to Valgarde, then report victory.| |M|67.6,54.7|
 
-T Let's Go Surfing Now |N|Use the large Vrykul Harpoon Gun in Nifflevar to launch yourself into Valgarde.|    |QID|11436|  |M|60.12,62.43|
-T Anguish of Nifflevar |N|Thoralius the Wise wants you to search Nifflevar while you are in the spirit world and find information about the Secrets of Nifflevar.|    |QID|11344|  |M|59.80,61.48|
+T Let's Go Surfing Now |N|Use the large Vrykul Harpoon Gun in Nifflevar to launch yourself into Valgarde.|    |QID|11436|  |M|60.1,62.4|
+T Anguish of Nifflevar |N|Thoralius the Wise wants you to search Nifflevar while you are in the spirit world and find information about the Secrets of Nifflevar.|    |QID|11344|  |M|59.9,61.5|
 
 F Explorers' League Outpost |N|Deliver McSorf's Bundle to Stanwad at the Explorers' League Outpost in Howling Fjord.|    |QID|11448|  |M|74.95,65.41|
-T The Explorers' League Outpost |N|Deliver McSorf's Bundle to Stanwad at the Explorers' League Outpost in Howling Fjord.|    |QID|11448|  |M|74.95,65.41|
-A Accept Accept Problems on the High Bluff |N|Go to Stanwad and accept Accept Problems on the High Bluff|    |QID|11474|  |M|74.95,65.41|
-T Problems on the High Bluff |N|Speak with Walt.|    |QID|11474|  |M|75.05,65.51|
-A Accept Accept Tools to Get the Job Done |N|Go to Walt and accept Accept Tools to Get the Job Done|    |QID|11475|  |M|75.05,65.51|
-A Accept Accept Trust is Earned |N|Go to Hidalgo the Master Falconer and accept Accept Trust is Earned|    |QID|11460|  |M|75.27,64.97|
+T The Explorers' League Outpost |N|Deliver McSorf's Bundle to Stanwad at the Explorers' League Outpost in Howling Fjord.|    |QID|11448|  |M|74.9,65.4|
+A Accept Accept Problems on the High Bluff |N|Go to Stanwad and accept Accept Problems on the High Bluff|    |QID|11474|  |M|74.9,65.4|
+T Problems on the High Bluff |N|Speak with Walt.|    |QID|11474|  |M|75,65.4|
+A Accept Accept Tools to Get the Job Done |N|Go to Walt and accept Accept Tools to Get the Job Done|    |QID|11475|  |M|75,65.4|
+A Accept Accept Trust is Earned |N|Go to Hidalgo the Master Falconer and accept Accept Trust is Earned|    |QID|11460|  |M|75.3,65|
 
-A Accept Accept Out of My Element? |N|Go to Donny and accept Accept Out of My Element?|    |QID|11477|  |M|78.81,48.87|
+A Accept Accept Out of My Element? |N|Go to Donny and accept Accept Out of My Element?|    |QID|11477|  |M|78.8,48.9|
 C Tools to Get the Job Done |QID|11475| |N|Recover Walt’s Building Tools from nearby camps.| |M|75.05,65.51|
 C Out of My Element? |QID|11477| |N|Kill 10 Iron Rune Destroyers, 5 Iron Rune Laborers, and 2 Iron Rune Sages.| |M|78.81,48.87|
-T Out of My Element? |N|Donny at Ivald's Ruin in the Howling Fjord wants you to kill 10 Iron Rune Destroyers, 5 Iron Rune Laborers and 2 Iron Rune Sages.|    |QID|11477|  |M|78.81,48.87|
+T Out of My Element? |N|Donny at Ivald's Ruin in the Howling Fjord wants you to kill 10 Iron Rune Destroyers, 5 Iron Rune Laborers and 2 Iron Rune Sages.|    |QID|11477|  |M|78.8,48.9|
 
 N Find a Fjord Grub |QID|11460| |N|Look under loose rocks for a Fjord Grub while returning.| |M|75.27,64.97|
 C Trust is Earned |QID|11460| |N|Feed a Fjord Grub to one of Hidalgo’s falcons in the cage.| |M|75.27,64.97|
-T Trust is Earned |N|Hidalgo at the Explorers' League Outpost in the Howling Fjord wants you to find a Fjord Grub and feed it to one of the falcons in the cage by his feet.|    |QID|11460|  |M|75.27,64.97|
-A Accept Accept The Ransacked Caravan |N|Go to Hidalgo the Master Falconer and accept Accept The Ransacked Caravan|    |QID|11465|  |M|75.27,64.97|
-T Tools to Get the Job Done |N|Walt at the Explorers' League Outpost in the Howling Fjord wants you to recover his Building Tools.|    |QID|11475|  |M|75.05,65.51|
-A Accept Accept We Can Rebuild It |N|Go to Walt and accept Accept We Can Rebuild It|    |QID|11483|  |M|75.05,65.51|
-A Accept Accept We Have the Technology |N|Go to Walt and accept Accept We Have the Technology|    |QID|11484|  |M|75.05,65.51|
+T Trust is Earned |N|Hidalgo at the Explorers' League Outpost in the Howling Fjord wants you to find a Fjord Grub and feed it to one of the falcons in the cage by his feet.|    |QID|11460|  |M|75.3,65|
+A Accept Accept The Ransacked Caravan |N|Go to Hidalgo the Master Falconer and accept Accept The Ransacked Caravan|    |QID|11465|  |M|75.3,65|
+T Tools to Get the Job Done |N|Walt at the Explorers' League Outpost in the Howling Fjord wants you to recover his Building Tools.|    |QID|11475|  |M|75,65.4|
+A Accept Accept We Can Rebuild It |N|Go to Walt and accept Accept We Can Rebuild It|    |QID|11483|  |M|75,65.4|
+A Accept Accept We Have the Technology |N|Go to Walt and accept Accept We Have the Technology|    |QID|11484|  |M|75,65.4|
 
 C The Ransacked Caravan |QID|11465| |U|34111| |N|Use the Trained Rock Falcon to collect 5 Fjord Turkeys.| |M|75.27,64.97|
 K Shoveltusks |QID|11484| |N|Kill shoveltusks for a Pristine Shoveltusk Hide and Steel Ribbing.| |M|74.0,63.0|
@@ -114,95 +114,95 @@ N Large Barrel |QID|11483| |QO|1| |N|Loot a Large Barrel from Nifflevar.| |M|67.
 C We Have the Technology |QID|11484| |N|Bring Walt a Pristine Shoveltusk Hide and Steel Ribbing.| |M|75.05,65.51|
 C We Can Rebuild It |QID|11483| |N|Bring Walt a Large Barrel, Industrial Strength Rope, and Dark Iron Ingots.| |M|75.05,65.51|
 
-T The Ransacked Caravan |N|Hidalgo at the Explorers' League Outpost in the Howling Fjord wants you to use the Trained Rock Falcon to recover 5 Fjord Turkeys.|    |QID|11465|  |M|75.27,64.97|
-A Accept Accept Falcon Versus Hawk |N|Go to Hidalgo the Master Falconer and accept Accept Falcon Versus Hawk|    |QID|11468|  |M|75.27,64.97|
-T We Can Rebuild It |N|Walt at the Explorers' League Outpost in the Howling Fjord wants you to bring him a Large Barrel, Industrial Strength Rope and Dark Iron Ingots.|    |QID|11483|  |M|75.05,65.51|
-T We Have the Technology |N|Walt at the Explorers' League Outpost in the Howling Fjord wants you to bring him a Pristine Shoveltusk Hide and Steel Ribbing.|    |QID|11484|  |M|75.05,65.51|
-A Accept Accept Iron Rune Constructs and You: Rocket Jumping |N|Go to Walt and accept Accept Iron Rune Constructs and You: Rocket Jumping|    |QID|11485|  |M|75.05,65.51|
+T The Ransacked Caravan |N|Hidalgo at the Explorers' League Outpost in the Howling Fjord wants you to use the Trained Rock Falcon to recover 5 Fjord Turkeys.|    |QID|11465|  |M|75.3,65|
+A Accept Accept Falcon Versus Hawk |N|Go to Hidalgo the Master Falconer and accept Accept Falcon Versus Hawk|    |QID|11468|  |M|75.3,65|
+T We Can Rebuild It |N|Walt at the Explorers' League Outpost in the Howling Fjord wants you to bring him a Large Barrel, Industrial Strength Rope and Dark Iron Ingots.|    |QID|11483|  |M|75,65.4|
+T We Have the Technology |N|Walt at the Explorers' League Outpost in the Howling Fjord wants you to bring him a Pristine Shoveltusk Hide and Steel Ribbing.|    |QID|11484|  |M|75,65.4|
+A Accept Accept Iron Rune Constructs and You: Rocket Jumping |N|Go to Walt and accept Accept Iron Rune Constructs and You: Rocket Jumping|    |QID|11485|  |M|75,65.4|
 C Iron Rune Constructs and You: Rocket Jumping |QID|11485| |N|Use the construct’s Rocket Jump ability near Walt’s Iron Rune Carving. Dismiss via pet window afterward.| |M|75.05,65.51|
-T Iron Rune Constructs and You: Rocket Jumping |N|Walt at the Explorers' League Outpost in the Howling Fjord wants you to use the Iron Rune Construct's Rocket Jump ability at Walt's Iron Rune Carving.|    |QID|11485|  |M|75.05,65.51|
-A Accept Accept Iron Rune Constructs and You: Collecting Data |N|Go to Walt and accept Accept Iron Rune Constructs and You: Collecting Data|    |QID|11489|  |M|75.05,65.51|
+T Iron Rune Constructs and You: Rocket Jumping |N|Walt at the Explorers' League Outpost in the Howling Fjord wants you to use the Iron Rune Construct's Rocket Jump ability at Walt's Iron Rune Carving.|    |QID|11485|  |M|75,65.4|
+A Accept Accept Iron Rune Constructs and You: Collecting Data |N|Go to Walt and accept Accept Iron Rune Constructs and You: Collecting Data|    |QID|11489|  |M|75,65.4|
 C Iron Rune Constructs and You: Collecting Data |QID|11489| |N|Use the Collect Data ability near the Iron Dwarf Relic. Dismiss after.| |M|75.05,65.51|
-T Iron Rune Constructs and You: Collecting Data |N|Walt at the Explorers' League Outpost in the Howling Fjord wants you to use the Iron Rune Construct's Collect Data ability while standing near the Iron Dwarf Relic.|    |QID|11489|  |M|75.05,65.51|
-A Accept Accept Iron Rune Constructs and You: The Bluff |N|Go to Walt and accept Accept Iron Rune Constructs and You: The Bluff|    |QID|11491|  |M|75.05,65.51|
+T Iron Rune Constructs and You: Collecting Data |N|Walt at the Explorers' League Outpost in the Howling Fjord wants you to use the Iron Rune Construct's Collect Data ability while standing near the Iron Dwarf Relic.|    |QID|11489|  |M|75,65.4|
+A Accept Accept Iron Rune Constructs and You: The Bluff |N|Go to Walt and accept Accept Iron Rune Constructs and You: The Bluff|    |QID|11491|  |M|75,65.4|
 C Iron Rune Constructs and You: The Bluff |QID|11491| |N|Use Bluff ability on Lebronski after walking on his rug. Dismiss afterward.| |M|75.05,65.51|
-T Iron Rune Constructs and You: The Bluff |N|Walt at the Explorers' League Outpost in the Howling Fjord wants you to use the Iron Rune Construct's Bluff ability on Lebronski after you've walked on his rug.|    |QID|11491|  |M|75.05,65.51|
-A Accept Accept Lightning Infused Relics |N|Go to Walt and accept Accept Lightning Infused Relics|    |QID|11494|  |M|75.05,65.51|
-A Accept Accept The Delicate Sound of Thunder |N|Go to Walt and accept Accept The Delicate Sound of Thunder|    |QID|11495|  |M|75.05,65.51|
+T Iron Rune Constructs and You: The Bluff |N|Walt at the Explorers' League Outpost in the Howling Fjord wants you to use the Iron Rune Construct's Bluff ability on Lebronski after you've walked on his rug.|    |QID|11491|  |M|75,65.4|
+A Accept Accept Lightning Infused Relics |N|Go to Walt and accept Accept Lightning Infused Relics|    |QID|11494|  |M|75,65.4|
+A Accept Accept The Delicate Sound of Thunder |N|Go to Walt and accept Accept The Delicate Sound of Thunder|    |QID|11495|  |M|75,65.4|
 
 C The Delicate Sound of Thunder |QID|11495| |N|Use the Iron Rune Construct to explore the thundering cave at Baelgun’s Excavation. Dismiss afterward.| |M|73.0,63.0|
 C Lightning Infused Relics |QID|11494| |N|Collect 15 sets of Iron Rune Data using the construct’s Collect Data ability. Dismiss afterward.| |M|73.0,63.0|
 C Falcon Versus Hawk |QID|11468| |U|34121| |N|Capture 10 Fjord Hawks with the Trained Rock Falcon.| |M|75.27,64.97|
 
-T Lightning Infused Relics |N|Walt at the Explorers' League Outpost in the Howling Fjord wants you to use the Iron Rune Construct's Collect Data ability to collect 15 sets of Iron Rune Data.|    |QID|11494|  |M|75.05,65.51|
-T The Delicate Sound of Thunder |N|Walt at the Explorers' League Outpost in the Howling Fjord wants you to use the Iron Rune Construct to explore the thundering cave at Baelgun's Excavation Site.|    |QID|11495|  |M|75.05,65.51|
-A Accept Accept News |N|Go to Walt and accept Accept News|    |QID|11501|  |M|75.05,65.51|
-T Falcon Versus Hawk |N|Hidalgo at the Explorers' League Outpost in the Howling Fjord wants you to use your Trained Rock Falcon to capture 10 Fjord Hawks.|    |QID|11468|  |M|75.27,64.97|
-A Accept Accept There Exists No Honor Among Birds |N|Go to Hidalgo the Master Falconer and accept Accept There Exists No Honor Among Birds|    |QID|11470|  |M|75.27,64.97|
+T Lightning Infused Relics |N|Walt at the Explorers' League Outpost in the Howling Fjord wants you to use the Iron Rune Construct's Collect Data ability to collect 15 sets of Iron Rune Data.|    |QID|11494|  |M|75,65.4|
+T The Delicate Sound of Thunder |N|Walt at the Explorers' League Outpost in the Howling Fjord wants you to use the Iron Rune Construct to explore the thundering cave at Baelgun's Excavation Site.|    |QID|11495|  |M|75,65.4|
+A Accept Accept News |N|Go to Walt and accept Accept News|    |QID|11501|  |M|75,65.4|
+T Falcon Versus Hawk |N|Hidalgo at the Explorers' League Outpost in the Howling Fjord wants you to use your Trained Rock Falcon to capture 10 Fjord Hawks.|    |QID|11468|  |M|75.3,65|
+A Accept Accept There Exists No Honor Among Birds |N|Go to Hidalgo the Master Falconer and accept Accept There Exists No Honor Among Birds|    |QID|11470|  |M|75.3,65|
 C There Exists No Honor Among Birds |QID|11470| |U|34124| |N|Collect 8 Fjord Hawk Eggs using the Trained Rock Falcon.| |M|75.27,64.97|
-T There Exists No Honor Among Birds |N|Hidalgo at the Explorers' League Outpost in the Howling Fjord wants you to use your Trained Rock Falcon to capture 8 Fjord Hawk Eggs.|    |QID|11470|  |M|75.27,64.97|
+T There Exists No Honor Among Birds |N|Hidalgo at the Explorers' League Outpost in the Howling Fjord wants you to use your Trained Rock Falcon to capture 8 Fjord Hawk Eggs.|    |QID|11470|  |M|75.3,65|
 
 F Westguard Keep |N|Destroy 15 Proto-Drake Eggs and 15 Proto-Whelps, and then return to Captain Adams at Westguard Keep.|    |QID|11157|  |M|28.87,44.23|
 
-A Accept Accept The Clutches of Evil |N|Go to Captain Adams and accept Accept The Clutches of Evil|    |QID|11157|  |M|28.87,44.23|
-T To Westguard Keep! |N|Take the Dragonflayer Battle Plans to Captain Adams at Westguard Keep in the Howling Fjord.|    |QID|11291|  |M|28.87,44.23|
-T News From the East |N|Speak with Captain Adams at Westguard Keep.|    |QID|11501|  |M|28.87,44.23|
-A Accept Accept Shoveltusk Soup Again? |N|Go to Chef Kettleblack and accept Accept Shoveltusk Soup Again?|    |QID|11155|  |M|31.17,40.84|
-A Accept Accept One Size Does Not Fit All |N|Go to Cannoneer Ely and accept Accept One Size Does Not Fit All|    |QID|11190|  |M|33.97,43.80|
+A Accept Accept The Clutches of Evil |N|Go to Captain Adams and accept Accept The Clutches of Evil|    |QID|11157|  |M|28.9,44.1|
+T To Westguard Keep! |N|Take the Dragonflayer Battle Plans to Captain Adams at Westguard Keep in the Howling Fjord.|    |QID|11291|  |M|28.9,44.1|
+T News From the East |N|Speak with Captain Adams at Westguard Keep.|    |QID|11501|  |M|28.9,44.1|
+A Accept Accept Shoveltusk Soup Again? |N|Go to Chef Kettleblack and accept Accept Shoveltusk Soup Again?|    |QID|11155|  |M|31.2,40.9|
+A Accept Accept One Size Does Not Fit All |N|Go to Cannoneer Ely and accept Accept One Size Does Not Fit All|    |QID|11190|  |M|33.9,43.8|
 
-A Accept Accept Root Causes |N|Go to Ember Clutch Ancient and accept Accept Root Causes|    |QID|11182|  |M|41.22,49.28|
+A Accept Accept Root Causes |N|Go to Ember Clutch Ancient and accept Accept Root Causes|    |QID|11182|  |M|36.4,48.4|
 C Root Causes |QID|11182| |N|Slay 5 Dragonflayer Handlers and Skeld Drakeson at Ember Clutch.| |M|41.22,49.28|
 C The Clutches of Evil |QID|11157| |N|Destroy 15 Proto-Drake Eggs and slay 15 Proto-Whelps at Ember Clutch.| |M|41.22,49.28|
-T Root Causes |N|Slay 5 Dragonflayer Handlers and Skeld Drakeson.|    |QID|11182|  |M|41.22,49.28|
-T The Clutches of Evil |N|Destroy 15 Proto-Drake Eggs and 15 Proto-Whelps, and then return to Captain Adams at Westguard Keep.|    |QID|11157|  |M|28.87,44.23|
-A Accept Accept Mage-Lieutenant Malister |N|Go to Captain Adams and accept Accept Mage-Lieutenant Malister|    |QID|11187|  |M|28.87,44.23|
-T Mage-Lieutenant Malister |N|Captain Adams has asked you to speak with his advisor, Mage-Lieutenant Malister, at Westguard Keep.|    |QID|11187|  |M|28.94,44.19|
-A Accept Accept Two Wrongs... |N|Go to Mage-Lieutenant Malister and accept Accept Two Wrongs...|    |QID|11188|  |M|28.94,44.19|
+T Root Causes |N|Slay 5 Dragonflayer Handlers and Skeld Drakeson.|    |QID|11182|  |M|36.4,48.4|
+T The Clutches of Evil |N|Destroy 15 Proto-Drake Eggs and 15 Proto-Whelps, and then return to Captain Adams at Westguard Keep.|    |QID|11157|  |M|28.9,44.1|
+A Accept Accept Mage-Lieutenant Malister |N|Go to Captain Adams and accept Accept Mage-Lieutenant Malister|    |QID|11187|  |M|28.9,44.1|
+T Mage-Lieutenant Malister |N|Captain Adams has asked you to speak with his advisor, Mage-Lieutenant Malister, at Westguard Keep.|    |QID|11187|  |M|29,44.2|
+A Accept Accept Two Wrongs... |N|Go to Mage-Lieutenant Malister and accept Accept Two Wrongs...|    |QID|11188|  |M|29,44.2|
 C Two Wrongs... |QID|11188| |U|33119| |N|Use Malister’s Torch to destroy 3 Proto-Drakes.| |M|28.94,44.19|
-T Two Wrongs... |N|Mage-Lieutenant Malister at Westguard Keep has tasked you with the destruction of 3 Proto-Drakes.|    |QID|11188|  |M|28.94,44.19|
-A Accept Accept Report to Scout Knowles |N|Go to Captain Adams and accept Accept Report to Scout Knowles|    |QID|11199|  |M|28.87,44.23|
-A Accept Accept Orfus of Kamagua |N|Go to Lunk-tusk and accept Accept Orfus of Kamagua|    |QID|11573|  |M|32.28,46.79|
+T Two Wrongs... |N|Mage-Lieutenant Malister at Westguard Keep has tasked you with the destruction of 3 Proto-Drakes.|    |QID|11188|  |M|29,44.2|
+A Accept Accept Report to Scout Knowles |N|Go to Captain Adams and accept Accept Report to Scout Knowles|    |QID|11199|  |M|28.9,44.1|
+A Accept Accept Orfus of Kamagua |N|Go to Lunk-tusk and accept Accept Orfus of Kamagua|    |QID|11573|  |M|32.3,46.8|
 
-T Report to Scout Knowles |N|Captain Adams has asked you to report to Scout Knowles at the Ember Spear Tower.|    |QID|11199|  |M|44.47,57.59|
-A Accept Accept Mission: Eternal Flame |N|Go to Scout Knowles and accept Accept Mission: Eternal Flame|    |QID|11202|  |M|44.47,57.59|
+T Report to Scout Knowles |N|Captain Adams has asked you to report to Scout Knowles at the Ember Spear Tower.|    |QID|11199|  |M|44.4,57.6|
+A Accept Accept Mission: Eternal Flame |N|Go to Scout Knowles and accept Accept Mission: Eternal Flame|    |QID|11202|  |M|44.4,57.6|
 C Mission: Eternal Flame |QID|11202| |U|33164| |N|Use Ever-burning Torches to destroy 4 Plague Tanks at Halgrind.| |M|44.47,57.59|
-T Mission: Eternal Flame |N|Scout Knowles at the Ember Spear Tower has recommended that you use the Ever-burning Torches to destroy the four Plague Tanks surrounding Halgrind.|    |QID|11202|  |M|44.47,57.59|
-A Accept Accept Mission: Package Retrieval |N|Go to Scout Knowles and accept Accept Mission: Package Retrieval|    |QID|11327|  |M|44.47,57.59|
+T Mission: Eternal Flame |N|Scout Knowles at the Ember Spear Tower has recommended that you use the Ever-burning Torches to destroy the four Plague Tanks surrounding Halgrind.|    |QID|11202|  |M|44.4,57.6|
+A Accept Accept Mission: Package Retrieval |N|Go to Scout Knowles and accept Accept Mission: Package Retrieval|    |QID|11327|  |M|44.4,57.6|
 C Mission: Package Retrieval |QID|11327| |N|Recover the Apothecary’s Package from inside Halgrind.| |M|44.47,57.59|
-T Mission: Package Retrieval |N|Scout Knowles has asked you to retrieve the Apothecary's Package from inside Halgrind.|    |QID|11327|  |M|44.47,57.59|
-A Accept Accept Mission: Forsaken Intel |N|Go to Scout Knowles and accept Accept Mission: Forsaken Intel|    |QID|11328|  |M|44.47,57.59|
+T Mission: Package Retrieval |N|Scout Knowles has asked you to retrieve the Apothecary's Package from inside Halgrind.|    |QID|11327|  |M|44.4,57.6|
+A Accept Accept Mission: Forsaken Intel |N|Go to Scout Knowles and accept Accept Mission: Forsaken Intel|    |QID|11328|  |M|44.4,57.6|
 
-T Orfus of Kamagua |N|Find Orfus of Kamagua at the Ancient Lift in Howling Fjord.|    |QID|11573|  |M|40.24,60.25|
-A Accept Accept The Dead Rise! |N|Go to Orfus of Kamagua and accept Accept The Dead Rise!|    |QID|11504|  |M|40.24,60.25|
+T Orfus of Kamagua |N|Find Orfus of Kamagua at the Ancient Lift in Howling Fjord.|    |QID|11573|  |M|40.3,60.3|
+A Accept Accept The Dead Rise! |N|Go to Orfus of Kamagua and accept Accept The Dead Rise!|    |QID|11504|  |M|40.3,60.3|
 C The Dead Rise! |QID|11504| |N|Collect 4 clues: Fengir’s, Rodin’s, Isuldof’s, Windan’s.| |M|40.24,60.25|
-T The Dead Rise! |N|Orfus of Kamagua at the Ancient Lift in the Howling Fjord wants you to find Fengir's Clue, Rodin's Clue, Isuldof's Clue and Windan's Clue.|    |QID|11504|  |M|40.24,60.25|
-A Accept Accept Elder Atuik and Kamagua |N|Go to Orfus of Kamagua and accept Accept Elder Atuik and Kamagua|    |QID|11507|  |M|40.24,60.25|
-T Elder Atuik and Kamagua |N|Orfus of Kamagua in the Howling Fjord wants you to deliver Orfus's Bundle to Elder Atuik at Kamagua.|    |QID|11507|  |M|25.02,56.96|
-A Accept Accept Grezzix Spindlesnap |N|Go to Elder Atuik and accept Accept Grezzix Spindlesnap|    |QID|11508|  |M|25.02,56.96|
-A Accept Accept Feeding the Survivors |N|Go to Elder Atuik and accept Accept Feeding the Survivors|    |QID|11456|  |M|25.02,56.96|
+T The Dead Rise! |N|Orfus of Kamagua at the Ancient Lift in the Howling Fjord wants you to find Fengir's Clue, Rodin's Clue, Isuldof's Clue and Windan's Clue.|    |QID|11504|  |M|40.3,60.3|
+A Accept Accept Elder Atuik and Kamagua |N|Go to Orfus of Kamagua and accept Accept Elder Atuik and Kamagua|    |QID|11507|  |M|40.3,60.3|
+T Elder Atuik and Kamagua |N|Orfus of Kamagua in the Howling Fjord wants you to deliver Orfus's Bundle to Elder Atuik at Kamagua.|    |QID|11507|  |M|25,57|
+A Accept Accept Grezzix Spindlesnap |N|Go to Elder Atuik and accept Accept Grezzix Spindlesnap|    |QID|11508|  |M|25,57|
+A Accept Accept Feeding the Survivors |N|Go to Elder Atuik and accept Accept Feeding the Survivors|    |QID|11456|  |M|25,57|
 
 C Feeding the Survivors |QID|11456| |N|Obtain 6 Island Shoveltusk Meat.| |M|25.02,56.96|
-T Feeding the Survivors |N|Elder Atuik at Kamagua in Howling Fjord wants you to obtain 6 pieces of Island Shoveltusk Meat from Island Shoveltusk in the Isle of Spears.|    |QID|11456|  |M|25.02,56.96|
-A Accept Accept Arming Kamagua |N|Go to Elder Atuik and accept Accept Arming Kamagua|    |QID|11457|  |M|25.02,56.96|
+T Feeding the Survivors |N|Elder Atuik at Kamagua in Howling Fjord wants you to obtain 6 pieces of Island Shoveltusk Meat from Island Shoveltusk in the Isle of Spears.|    |QID|11456|  |M|25,57|
+A Accept Accept Arming Kamagua |N|Go to Elder Atuik and accept Accept Arming Kamagua|    |QID|11457|  |M|25,57|
 C Arming Kamagua |QID|11457| |N|Obtain 3 Chimaera Horns.| |M|25.02,56.96|
-T Arming Kamagua |N|Elder Atuik wants you to obain 3 Chimaera Horns.|    |QID|11457|  |M|25.02,56.96|
-A Accept Accept Avenge Iskaal |N|Go to Elder Atuik and accept Accept Avenge Iskaal|    |QID|11458|  |M|25.02,56.96|
+T Arming Kamagua |N|Elder Atuik wants you to obain 3 Chimaera Horns.|    |QID|11457|  |M|25,57|
+A Accept Accept Avenge Iskaal |N|Go to Elder Atuik and accept Accept Avenge Iskaal|    |QID|11458|  |M|25,57|
 
-T Grezzix Spindlesnap |N|Speak with Grezzix Spindlesnap.|    |QID|11508|  |M|23.08,62.66|
-A Accept Accept Street "Cred" |N|Go to Grezzix Spindlesnap and accept Accept Street "Cred"|    |QID|11509|  |M|23.08,62.66|
-T Street "Cred" |N|Speak with "Silvermoon" Harry at Scalawag Point about the missing Vrykul artifacts.|    |QID|11509|  |M|35.09,80.94|
-A Accept Accept "Scoodles" |N|Go to Silvermoon" Harry and accept Accept "Scoodles"|    |QID|11510|  |M|35.09,80.94|
-A Accept Accept Forgotten Treasure |N|Go to Handsome Terry and accept Accept Forgotten Treasure|    |QID|11434|  |M|35.60,80.23|
+T Grezzix Spindlesnap |N|Speak with Grezzix Spindlesnap.|    |QID|11508|  |M|23.1,62.6|
+A Accept Accept Street "Cred" |N|Go to Grezzix Spindlesnap and accept Accept Street "Cred"|    |QID|11509|  |M|23.1,62.6|
+T Street "Cred" |N|Speak with "Silvermoon" Harry at Scalawag Point about the missing Vrykul artifacts.|    |QID|11509|  |M|35.1,80.9|
+A Accept Accept "Scoodles" |N|Go to Silvermoon" Harry and accept Accept "Scoodles"|    |QID|11510|  |M|35.1,80.9|
+A Accept Accept Forgotten Treasure |N|Go to Handsome Terry and accept Accept Forgotten Treasure|    |QID|11434|  |M|35.6,80.3|
 
 C "Scoodles" |QID|11510| |N|Kill “Scoodles” the orca and recover Sin’dorei Scrying Crystal.| |M|36.0,81.0|
 C Forgotten Treasure |QID|11434| |U|34076| |N|Recover 1 Amani Vase and 1 Eagle Figurine from the southern wreck.| |M|37.0,84.0|
-T Forgotten Treasure |N|Handsome Terry at Scalawag Point wants you to bring him 1 Amani Vase and 1 Eagle Figurine from the shipwreck to the south.|    |QID|11434|  |M|35.60,80.23|
-A Accept Accept The Fragrance of Money |N|Go to Handsome Terry and accept Accept The Fragrance of Money|    |QID|11455|  |M|35.60,80.23|
-T "Scoodles" |N|Silvermoon" Harry at Scalawag Point wants you to recover his Sin'dorei Scrying Crystal from the orca, "Scoodles.|    |QID|11510|  |M|35.09,80.94|
-A Accept Accept The Staff of Storm's Fury |N|Go to Silvermoon" Harry and accept Accept The Staff of Storm's Fury|    |QID|11511|  |M|35.09,80.94|
-A Accept Accept The Frozen Heart of Isuldof |N|Go to Silvermoon" Harry and accept Accept The Frozen Heart of Isuldof|    |QID|11512|  |M|35.09,80.94|
-A Accept Accept The Lost Shield of the Aesirites |N|Go to Silvermoon" Harry and accept Accept The Lost Shield of the Aesirites|    |QID|11519|  |M|35.09,80.94|
-A Accept Accept The Ancient Armor of the Kvaldir |N|Go to Silvermoon" Harry and accept Accept The Ancient Armor of the Kvaldir|    |QID|11567|  |M|35.09,80.94|
+T Forgotten Treasure |N|Handsome Terry at Scalawag Point wants you to bring him 1 Amani Vase and 1 Eagle Figurine from the shipwreck to the south.|    |QID|11434|  |M|35.6,80.3|
+A Accept Accept The Fragrance of Money |N|Go to Handsome Terry and accept Accept The Fragrance of Money|    |QID|11455|  |M|35.6,80.3|
+T "Scoodles" |N|Silvermoon" Harry at Scalawag Point wants you to recover his Sin'dorei Scrying Crystal from the orca, "Scoodles.|    |QID|11510|  |M|35.1,80.9|
+A Accept Accept The Staff of Storm's Fury |N|Go to Silvermoon" Harry and accept Accept The Staff of Storm's Fury|    |QID|11511|  |M|35.1,80.9|
+A Accept Accept The Frozen Heart of Isuldof |N|Go to Silvermoon" Harry and accept Accept The Frozen Heart of Isuldof|    |QID|11512|  |M|35.1,80.9|
+A Accept Accept The Lost Shield of the Aesirites |N|Go to Silvermoon" Harry and accept Accept The Lost Shield of the Aesirites|    |QID|11519|  |M|35.1,80.9|
+A Accept Accept The Ancient Armor of the Kvaldir |N|Go to Silvermoon" Harry and accept Accept The Ancient Armor of the Kvaldir|    |QID|11567|  |M|35.1,80.9|
 
 ]]
 end)

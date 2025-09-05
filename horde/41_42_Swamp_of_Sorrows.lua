@@ -2,31 +2,31 @@ GuideReaderLite_RegisterGuide("Swamp of Sorrows (41-42)", "Stranglethorn Vale (4
 return [[
 R Swamp of Sorrows |NORAF|
 K Noboru the Cudgel |ITEM|6196| |NORAF|
-A Noboru the Cudgel |N|Bring Noboru's Cudgel to the leader of The Harborage in the Swamp of Sorrows.|    |U|6196| |QID|1392| |NORAF|  |M|25.98 31.40|
-T Noboru the Cudgel  |N|Bring Noboru's Cudgel to the leader of The Harborage in the Swamp of Sorrows.|    |QID|1392| |NORAF|  |M|25.98 31.40|
-A Accept Draenethyst Crystals |N|Go to Magtoor and accept Draenethyst Crystals|    |QID|1389| |NORAF|  |M|25.98 31.40|
+A Noboru the Cudgel |N|Bring Noboru's Cudgel to the leader of The Harborage in the Swamp of Sorrows.|    |U|6196| |QID|1392| |NORAF|  |M|26,31.6|
+T Noboru the Cudgel  |N|Bring Noboru's Cudgel to the leader of The Harborage in the Swamp of Sorrows.|    |QID|1392| |NORAF|  |M|26,31.6|
+A Accept Draenethyst Crystals |N|Go to Magtoor and accept Draenethyst Crystals|    |QID|1389| |NORAF|  |M|26,31.6|
 
 R Stonard |N|(45,54)| |NORAF|
 h Stonard |NORAF| |N|Make this Inn your home|
-A Accept Lack of Surplus |N|Go to Tok'Kar and accept Lack of Surplus|    |T| |QID|699| |NORAF|  |M|81.32 80.97|
-A Accept Little Morsels |N|Go to Cersei Dusksinger and accept Little Morsels|    |T| |QID|9440| |NORAF|  |M|47.81 54.95|
-T Report to Helgrum |N|Bring Neeka's Report to Helgrum the Swift in Stonard.|    |T| |QID|1420| |NORAF|  |M|47.74 55.20|
-A Accept Pool of Tears |N|Go to Fel'zerul and accept Pool of Tears|    |T| |QID|1424| |NORAF|  |M|47.93 54.78|
+A Accept Lack of Surplus |N|Go to Tok'Kar and accept Lack of Surplus|    |T| |QID|699| |NORAF|  |M|81.3,80.3|
+A Accept Little Morsels |N|Go to Cersei Dusksinger and accept Little Morsels|    |T| |QID|9440| |NORAF|  |M|47.2,54.3|
+T Report to Helgrum |N|Bring Neeka's Report to Helgrum the Swift in Stonard.|    |T| |QID|1420| |NORAF|  |M|47.8,55.2|
+A Accept Pool of Tears |N|Go to Fel'zerul and accept Pool of Tears|    |T| |QID|1424| |NORAF|  |M|47.9,55|
 
 C Lack of Surplus  |QID|699| |NORAF| |N|Bring 6 Sawtooth Snapper Claws to Tok'Kar in the Swamp of Sorrows.|  |M|81.32 80.97|
 C Pool of Tears  |QID|1424| |NORAF| |N|Fel'zerul in Stonard wants you to gather 5 Atal'ai Artifacts.|  |M|47.93 54.78|
 
-T Lack of Surplus  |N|Bring 6 Sawtooth Snapper Claws to Tok'Kar in the Swamp of Sorrows.|    |QID|699| |NORAF|  |M|81.32 80.97|
+T Lack of Surplus  |N|Bring 6 Sawtooth Snapper Claws to Tok'Kar in the Swamp of Sorrows.|    |QID|699| |NORAF|  |M|81.3,80.3|
 
 C Dream Dust in the Swamp  |QID|1116| |NORAF| |N|Bring 10 Specks of Dream Dust to Krazek in Booty Bay.  Dream Dust is gathered from the dragon whelps of the Swamp of Sorrows.|  |M|26.94 77.21|
 C Little Morsels  |QID|9440| |NORAF| |N|Feed the Fel-Tainted Morsels to the Lost Ones' captured animals.  Then return the leftovers to Cersei Dusksinger at Stonard in the Swamp of Sorrows.|  |M|47.81 54.95|
 C Draenethyst Crystals |QID|1389| |NORAF| |N|Bring 6 Draenethyst crystals to Magtoor at The Harborage in the Swamp of Sorrows.|  |M|25.98 31.40|
 
-T Draenethyst Crystals  |N|Bring 6 Draenethyst crystals to Magtoor at The Harborage in the Swamp of Sorrows.|    |QID|1389| |NORAF|  |M|25.98 31.40|
+T Draenethyst Crystals  |N|Bring 6 Draenethyst crystals to Magtoor at The Harborage in the Swamp of Sorrows.|    |QID|1389| |NORAF|  |M|26,31.6|
 
 H Stonard |NORAF| |N|Hearth back|
-T Little Morsels |N|Feed the Fel-Tainted Morsels to the Lost Ones' captured animals.|    |T| |QID|9440| |NORAF|  |M|47.81 54.95|
-T Pool of Tears |N|Fel'zerul in Stonard wants you to gather 5 Atal'ai Artifacts.|    |T| |QID|1424| |NORAF|  |M|47.93 54.78|
-A Accept The Atal'ai Exile |N|Go to Fel'zerul and accept The Atal'ai Exile|    |T| |QID|1429| |NORAF|  |M|47.93 54.78|
+T Little Morsels |N|Feed the Fel-Tainted Morsels to the Lost Ones' captured animals.|    |T| |QID|9440| |NORAF|  |M|47.2,54.3|
+T Pool of Tears |N|Fel'zerul in Stonard wants you to gather 5 Atal'ai Artifacts.|    |T| |QID|1424| |NORAF|  |M|47.9,55|
+A Accept The Atal'ai Exile |N|Go to Fel'zerul and accept The Atal'ai Exile|    |T| |QID|1429| |NORAF|  |M|47.9,55|
 ]]
 end)
