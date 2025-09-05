@@ -1,267 +1,267 @@
 GuideReaderLite_RegisterGuide("Bloodmyst Isle (12-20)", "Darkshore (20-21 Draenei)", "Alliance", function()
 return [[
-T Elekks Are Serious Business   |QID|9625| |N|\n|  |M|63.03 87.90|
-A The Kessel Run   |QID|9663| |N|Accept The Kessel Run|  |M|62.99 87.54|
+T Elekks Are Serious Business |QID|9625| |M|63.03,87.90| |N|Return to Vorkhan the Elekk Herder at Kessel's Crossing.|
+A The Kessel Run |QID|9663| |M|62.99,87.54| |N|Accept The Kessel Run.|
 
-N Warn Azure Watch |QID|9663| |QO|Exarch Menelaous Warned: 1/1| |N|Exarch Menelaous is on the hill at the west edge of the watch|  |M|62.99 87.54|
-T Warn Your People  |R|Draenei|  |QID|9622| |N|\n|  |M|47.11 50.60|
-T Call of Fire (Part 4)  |C|Shaman| |R|Draenei|  |QID|9468| |N|\n|  |M|48.05 50.42|
-A Call of Fire (Part 5)  |C|Shaman| |R|Draenei|  |QID|9461| |N|Accept Call of Fire|  |M|48.05 50.42|
-T Strength of One  |C|Warrior| |R|Draenei|  |QID|9582| |N|Return to Ruada at Azure Watch in Azuremyst Isle.|  |M|50.02 50.52|
-A Behomat  |C|Warrior| |R|Draenei|  |QID|10350| |N|Accept Behomat|  |M|50.02 50.52|
+N Warn Azure Watch |QID|9663| |QO|Exarch Menelaous Warned: 1/1| |M|47.11,50.60| |N|Warn Exarch Menelaous on the hill west of Azure Watch.|
+T Warn Your People |QID|9622| |R|Draenei| |M|47.11,50.60| |N|Report to Exarch Menelaous at Azure Watch.|
+T Call of Fire (Part 4) |QID|9468| |C|Shaman| |R|Draenei| |M|48.05,50.42| |N|Return to Tuluun at Azure Watch.|
+A Call of Fire (Part 5) |QID|9461| |C|Shaman| |R|Draenei| |M|48.05,50.42| |N|Accept Call of Fire (Part 5).|
+T Strength of One |QID|9582| |C|Warrior| |R|Draenei| |M|50.02,50.52| |N|Return to Ruada at Azure Watch.|
+A Behomat |QID|10350| |C|Warrior| |R|Draenei| |M|50.02,50.52| |N|Accept Behomat.|
 
-N Warn Odesyus' Landing |QID|9663| |QO|Admiral Odesyus Warned: 1/1| |N|Admiral Odesyus, in Odesyus' landing.|  |M|62.99 87.54|
+N Warn Odesyus' Landing |QID|9663| |QO|Admiral Odesyus Warned: 1/1| |M|47.04,70.21| |N|Warn Admiral Odesyus at Odesyus' Landing.|
 
-T The Kessel Run   |QID|9663| |N|Return to Kessel in Bloodmyst Isle.|  |M|62.99 87.54|
-A Declaration of Power   |QID|9666| |N|Accept Declaration of Power|  |M|62.99 87.54|
-A Alien Predators   |QID|9634| |N|Accept Alien Predators|  |M|63.03 87.90|
-A A Favorite Treat   |QID|9624| |N|Accept A Favorite Treat|  |M|63.43 88.79|
+T The Kessel Run |QID|9663| |M|62.99,87.54| |N|Return to Kessel at Kessel's Crossing.|
+A Declaration of Power |QID|9666| |M|62.99,87.54| |N|Accept Declaration of Power.|
+A Alien Predators |QID|9634| |M|63.03,87.90| |N|Accept Alien Predators.|
+A A Favorite Treat |QID|9624| |M|63.43,88.79| |N|Accept A Favorite Treat.|
 
-N Sand Pears |N|Grab any Sand Pears you come across for "A Favorite Treat"| |QID|9624|  |M|63.43 88.79|
+N Sand Pears |QID|9624| |M|63.43,88.79| |N|Grab any Sand Pears you come across for “A Favorite Treat.”|
 
-C Alien Predators  |QO|1| |QID|9634| |N|Kill 10 Bloodmyst Hatchlings then return to Vorkhan the Elekk Herder at Kessel's Crossing on Bloodmyst Isle.|  |M|63.03 87.90|
+C Alien Predators |QID|9634| |QO|1| |M|63.0,87.9| |N|Kill 10 Bloodmyst Hatchlings near Kessel's Crossing.|
 
-T Alien Predators   |QID|9634| |N|Return to Vorkhan the Elekk Herder at Beryl Coast in Bloodmyst Isle.|  |M|63.03 87.90|
-A Saving Princess Stillpine   |QID|9667| |N|Accept Saving Princess Stillpine|  |M|68.26 80.99|
-K Highchief Bristlelimb |N|Release Princess Stillpine from her cage and then speak with Stillpine Ambassador Frasaboo at Blood Watch.$B$BYou must kill High Chief Bristlelimb for the key that opens the cage.| |ITEM|24099| |QID|9667|  |M|55.16 55.95|
-C Saving Princess Stillpine  |QO|1| |QID|9667| |N|Release Princess Stillpine from her cage and then speak with Stillpine Ambassador Frasaboo at Blood Watch.$B$BYou must kill High Chief Bristlelimb for the key that opens the cage.|  |M|55.16 55.95|
-C Declaration of Power  |U|24084| |QO|1| |QID|9666| |N|Kessel at Kessel's Crossing on Bloodmyst Isle wants you to kill Lord Xiz at Wrathscale Lair and drive the Draenei Banner through his dead body.|  |M|62.99 87.54|
-C A Favorite Treat  |QO|1| |QID|9624| |N|Aonar at Kessel's Crossing wants you to bring him 10 Sand Pears.|  |M|63.43 88.79|
+T Alien Predators |QID|9634| |M|63.03,87.90| |N|Return to Vorkhan the Elekk Herder at Kessel's Crossing.|
+A Saving Princess Stillpine |QID|9667| |M|68.26,80.99| |N|Accept Saving Princess Stillpine from Stillpine Ambassador Frasaboo (Blood Watch).|
+K Highchief Bristlelimb |QID|9667| |M|55.16,55.95| |ITEM|24099| |N|Kill Highchief Bristlelimb for the key, then free the Princess.|
+C Saving Princess Stillpine |QID|9667| |QO|1| |M|55.16,55.95| |N|Free Princess Stillpine and speak to Ambassador Frasaboo at Blood Watch.|
+C Declaration of Power |QID|9666| |QO|1| |U|24084| |M|67.2,83.0| |N|Kill Lord Xiz at Wrathscale Lair and plant the Draenei Banner in his corpse.|
+C A Favorite Treat |QID|9624| |QO|1| |M|63.43,88.79| |N|Collect 10 Sand Pears for Aonar.|
 
-T Declaration of Power   |QID|9666| |N|Return to Kessel at Kessel's Crossing in Bloodmyst Isle.|  |M|62.99 87.54|
-A Report to Exarch Admetius   |QID|9668| |N|Accept Report to Exarch Admetius|  |M|62.99 87.54|
-T A Favorite Treat   |QID|9624| |N|Return to Aonar at Beryl Coast in Bloodmyst Isle.|  |M|63.43 88.79|
+T Declaration of Power |QID|9666| |M|62.99,87.54| |N|Return to Kessel at Kessel's Crossing.|
+A Report to Exarch Admetius |QID|9668| |M|62.99,87.54| |N|Accept Report to Exarch Admetius.|
+T A Favorite Treat |QID|9624| |M|63.43,88.79| |N|Return to Aonar at Kessel's Crossing.|
 
-R Blood Watch |N|Speak with Exarch Admetius at Blood Watch.| |QID|9668|  |M|52.68 53.21|
-A Beds, Bandages, and Beyond  |T| | |9603| |  |QID|9603| |N|Accept Beds, Bandages, and Beyond|  |M|55.85 59.81|
-h Blood Watch |T| |QID|9649| |N|Make this Inn your home|  |M|56.42 56.82|
-A Know Thine Enemy  |T| |  |QID|9567| |N|Accept Know Thine Enemy|  |M|55.08 57.99|
-A Catch and Release  |T| |  |QID|9629| |N|Accept Catch and Release|  |M|53.24 57.74|
-A Constrictor Vines  |T| |  |QID|9643| |N|Accept Constrictor Vines|  |M|55.86 57.00|
-A The Bear Necessities  |T| |  |QID|9580| |N|Accept The Bear Necessities|  |M|55.86 57.00|
-A Mac'Aree Mushroom Menagerie  |T| |  |QID|9648| |N|Accept Mac'Aree Mushroom Menagerie|  |M|56.42 56.82|
+R Blood Watch |QID|9668| |M|52.68,53.21| |N|Speak with Exarch Admetius at Blood Watch.|
+A Beds, Bandages, and Beyond |QID|9603| |M|55.85,59.81| |N|Accept Beds, Bandages, and Beyond.|
+h Blood Watch |QID|9649| |M|56.42,56.82| |N|Make Blood Watch your home.|
+A Know Thine Enemy |QID|9567| |M|55.08,57.99| |N|Accept Know Thine Enemy.|
+A Catch and Release |QID|9629| |M|53.24,57.74| |N|Accept Catch and Release.|
+A Constrictor Vines |QID|9643| |M|55.86,57.00| |N|Accept Constrictor Vines.|
+A The Bear Necessities |QID|9580| |M|55.86,57.00| |N|Accept The Bear Necessities.|
+A Mac'Aree Mushroom Menagerie |QID|9648| |M|56.42,56.82| |N|Accept Mac'Aree Mushroom Menagerie.|
 
-T Beds, Bandages, and Beyond  |T| | |9603| |  |QID|9603| |N|\n|  |M|57.68 53.87|
-A On the Wings of a Hippogryph  |T| | |9604| |  |QID|9604| |N|Accept On the Wings of a Hippogryph|  |M|57.68 53.87|
-F The Exodar |N|Purchase a hippogryph ride to the Exodar from Laando.||QID|9604|  |M|57.02 50.08|
-T On the Wings of a Hippogryph  |T| | |9604| |  |QID|9604| |N|\n|  |M|57.02 50.08|
-A Hippogryph Master Stephanos  |T| | |9605| |  |QID|9605| |N|Accept Hippogryph Master Stephanos|  |M|57.02 50.08|
-T Control  |C|Mage| |R|Draenei|  |QID|9595| |N|Return to Bati at the Vault of Lights in the Exodar.|  |M|46.35 63.48|
-T Call of Fire (Part 5)  |C|Shaman| |T| | |9461| |  |QID|9461| |N|\n|  |M|32.87 54.50|
-A Call of Fire (Part 6)  |C|Shaman| |T| | |9555| |  |QID|9555| |N|Accept Call of Fire|  |M|32.87 54.50|
-T Call of Fire (Part 6)  |C|Shaman| |T| | |9555| |  |QID|9555| |N|\n|  |M|29.72 33.26|
-T Behomat  |C|Warrior| |T| | |10350| |  |QID|10350| |N|\n|  |M|55.59 82.27|
-T Hippogryph Master Stephanos  |T| | |9605| |  |QID|9605| |N|\n|  |M|68.34 63.50|
-A Return to Topher Loaal  |T| | |9606| |  |QID|9606| |N|Accept Return to Topher Loaal|  |M|68.34 63.50|
-F Blood Watch |N|Speak with Stephanos to purchase a hippogryph ride back to Blood Watch.||R|Draenei| |QID|9606|  |M|55.85 59.81|
-T Return to Topher Loaal  |T| | |9606| |  |QID|9606| |N|\n|  |M|55.85 59.81|
+T Beds, Bandages, and Beyond |QID|9603| |M|57.68,53.87| |N|Turn in to Topher Loaal at the Flight Master.|
+A On the Wings of a Hippogryph |QID|9604| |M|57.68,53.87| |N|Accept On the Wings of a Hippogryph.|
+F The Exodar |QID|9604| |M|57.02,50.08| |N|Fly to The Exodar.|
+T On the Wings of a Hippogryph |QID|9604| |M|57.02,50.08| |N|Report to Kioni.|
+A Hippogryph Master Stephanos |QID|9605| |M|57.02,50.08| |N|Accept Hippogryph Master Stephanos.|
+T Control |QID|9595| |C|Mage| |R|Draenei| |M|46.35,63.48| |Z|The Exodar| |N|Return to Bati in the Vault of Lights.|
+T Call of Fire (Part 5) |QID|9461| |C|Shaman| |M|32.87,54.50| |Z|The Exodar| |N|Return to the shaman trainer.|
+A Call of Fire (Part 6) |QID|9555| |C|Shaman| |M|32.87,54.50| |Z|The Exodar| |N|Accept Call of Fire (Part 6).|
+T Call of Fire (Part 6) |QID|9555| |C|Shaman| |M|29.72,33.26| |Z|The Exodar| |N|Turn in at the Crystal Hall.|
+T Behomat |QID|10350| |C|Warrior| |M|55.59,82.27| |Z|The Exodar| |N|Speak to Behomat.|
+T Hippogryph Master Stephanos |QID|9605| |M|68.34,63.50| |Z|The Exodar| |N|Turn in to Stephanos.|
+A Return to Topher Loaal |QID|9606| |M|68.34,63.50| |Z|The Exodar| |N|Accept Return to Topher Loaal.|
+F Blood Watch |QID|9606| |M|68.34,63.50| |Z|The Exodar| |N|Fly back to Blood Watch.|
+T Return to Topher Loaal |QID|9606| |M|55.85,59.81| |N|Return to Topher Loaal.|
 
-T Report to Exarch Admetius  |T| |  |QID|9668| |N|\n|  |M|52.68 53.21|
-A What Argus Means to Me  |T| |  |QID|9693| |N|Accept What Argus Means to Me|  |M|52.68 53.21|
-A Learning from the Crystals  |T| |  |QID|9581| |N|Accept Learning from the Crystals|  |M|52.59 53.21|
-T Saving Princess Stillpine  |T| |  |QID|9667| |N|Return to Stillpine Ambassador Frasaboo at Blood Watch in Bloodmyst Isle.|  |M|55.16 55.95|
-T What Argus Means to Me  |T| |  |QID|9693| |N|\n|  |M|55.42 55.27|
-A Blood Watch  |T| |  |QID|9694| |N|Accept Blood Watch|  |M|55.42 55.27|
+T Report to Exarch Admetius |QID|9668| |M|52.68,53.21| |N|Report to Exarch Admetius.|
+A What Argus Means to Me |QID|9693| |M|52.68,53.21| |N|Accept What Argus Means to Me.|
+A Learning from the Crystals |QID|9581| |M|52.59,53.21| |N|Accept Learning from the Crystals.|
+T Saving Princess Stillpine |QID|9667| |M|55.16,55.95| |N|Return to Ambassador Frasaboo.|
+T What Argus Means to Me |QID|9693| |M|55.42,55.27| |N|Turn in to Vindicator Boros.|
+A Blood Watch |QID|9694| |M|55.42,55.27| |N|Accept Blood Watch.|
 
-C Blood Watch  |QO|1| |QID|9694| |N|Vindicator Boros at Blood Watch wants you to slay 10 Sunhawk Spies.|  |M|55.42 55.27|
+C Blood Watch |QID|9694| |QO|1| |M|55.42,55.27| |N|Slay 10 Sunhawk Spies around Blood Watch.|
 
-T Blood Watch  |T| |  |QID|9694| |N|Return to Vindicator Boros at Blood Watch in Bloodmyst Isle.|  |M|55.42 55.27|
-A Intercepting the Message  |T| |  |QID|9779| |N|Accept Intercepting the Message|  |M|55.42 55.27|
+T Blood Watch |QID|9694| |M|55.42,55.27| |N|Return to Vindicator Boros.|
+A Intercepting the Message |QID|9779| |M|55.42,55.27| |N|Accept Intercepting the Message.|
 
-N Find an Aquatic Stinkhorn |N|Head southeast to the stream.  The fish drop it also!| |ITEM|24041| |QID|9648|  |M|56.42 56.82|
-C Learning from the Crystals  |U|23875| |QO|1| |QID|9581| |N|Get an Impact Site Crystal Sample using the Crystal Mining Pick on the Impact Site Crystal and bring it to Harbinger Mikolaas in Blood Watch.|  |M|52.59 53.21|
-C Catch and Release  |U|23995| |QID|9629| |N|Morae at Blood Watch wants you to 'mark' 6 Blacksilt Scouts using the Murloc Tagger.|  |M|53.24 57.74|
+N Find an Aquatic Stinkhorn |QID|9648| |ITEM|24041| |M|56.42,56.82| |N|Along the stream; fish can drop it too.|
+C Learning from the Crystals |QID|9581| |QO|1| |U|23875| |M|44.2,45.3| |N|Use the Crystal Mining Pick on an Impact Site Crystal.|
+C Catch and Release |QID|9629| |U|23995| |M|41.1,21.3| |N|Tag 6 Blacksilt Scouts with the Murloc Tagger.|
 
-T Catch and Release  |T| |  |QID|9629| |N|Return to Morae at Blood Watch in Bloodmyst Isle.|  |M|53.24 57.74|
-A Victims of Corruption  |T| |  |QID|9574| |N|Accept Victims of Corruption|  |M|53.24 57.74|
-A Cruelfin's Necklace  |O| | |23870| | |QID|9576| |N|Accept Cruelfin's Necklace|  |M|53.24 57.74|
-T Cruelfin's Necklace  |O| |  |QID|9576| |N|\n|  |M|53.24 57.74|
-T Learning from the Crystals  |T| |  |QID|9581| |N|Return to Harbinger Mikolaas at Blood Watch in Bloodmyst Isle.|  |M|52.59 53.21|
-A The Missing Survey Team  |T| |  |QID|9620| |N|Accept The Missing Survey Team|  |M|52.59 53.21|
+T Catch and Release |QID|9629| |M|53.24,57.74| |N|Return to Morae.|
+A Victims of Corruption |QID|9574| |M|53.24,57.74| |N|Accept Victims of Corruption.|
+A Cruelfin's Necklace |QID|9576| |O| |M|41.4,20.7| |N|Accept Cruelfin's Necklace (from Cruelfin’s Drop).|
+T Cruelfin's Necklace |QID|9576| |O| |M|53.24,57.74| |N|Return to Morae.|
+T Learning from the Crystals |QID|9581| |M|52.59,53.21| |N|Return to Harbinger Mikolaas.|
+A The Missing Survey Team |QID|9620| |M|52.59,53.21| |N|Accept The Missing Survey Team.|
 
-N Shrooms... |N|Keep an eye out for the mushrooms needed for "Mac'Aree Mushroom Menagerie"| |QID|9648|  |M|56.42 56.82|
+N Shrooms... |QID|9648| |M|56.42,56.82| |N|Collect mushrooms for “Mac’Aree Mushroom Menagerie.”|
 
-K Tzerak |N|Kill 8 Nazzivus Satyr and 8 Nazzivus Felsworn, then bring Tzerak's Armor Plate to Vindicator Aalesia in Blood Watch.| |ITEM|23900| |QID|9594|  |M|55.08 57.99|
-A Signs of the Legion  |U|23900| |QID|9594| |N|Accept Signs of the Legion|  |M|55.08 57.99|
-C Know Thine Enemy  |QO|1| |QID|9567| |N|Find the Nazzivus Monument in Nazzivian and retrieve a Nazzivus Monument Glyph. Return to Vindicator Aalesia in Blood Watch when you have one of the glyphs.|  |M|55.08 57.99|
-C Signs of the Legion  |QO|1| |QID|9594| |N|Kill 8 Nazzivus Satyr and 8 Nazzivus Felsworn, then bring Tzerak's Armor Plate to Vindicator Aalesia in Blood Watch.|  |M|55.08 57.99|
+K Tzerak |QID|9594| |M|36.8,72.6| |ITEM|23900| |N|Kill Nazzivus mobs; loot Tzerak’s Armor Plate.|
+A Signs of the Legion |QID|9594| |U|23900| |N|Accept Signs of the Legion.|
+C Know Thine Enemy |QID|9567| |QO|1| |M|36.9,72.6| |N|Loot a Nazzivus Monument Glyph at Nazzivian.|
+C Signs of the Legion |QID|9594| |QO|1| |M|36.9,72.6| |N|Kill 8 Nazzivus Satyrs and 8 Felsworn.|
 
-N Find a Fel Cone Fungus |N|Around Nazzivian| |ITEM|24043| |QID|9648|  |M|56.42 56.82|
+N Find a Fel Cone Fungus |QID|9648| |ITEM|24043| |M|36.9,72.6| |N|Around Nazzivian.|
 
-C Victims of Corruption  |QO|1| |QID|9574| |N|Bring 6 pieces of Crystallized Bark to Morae in Blood Watch.|  |M|53.24 57.74|
+C Victims of Corruption |QID|9574| |QO|1| |M|51.0,60.5| |N|Collect 6 Crystallized Bark from Corrupted Treants.|
 
-T Victims of Corruption  |T| |  |QID|9574| |N|Return to Morae at Blood Watch in Bloodmyst Isle.|  |M|53.24 57.74|
-T Know Thine Enemy  |T| |  |QID|9567| |N|Return to Vindicator Aalesia at Blood Watch in Bloodmyst Isle.|  |M|55.08 57.99|
-T Signs of the Legion  |T| |  |QID|9594| |N|Return to Vindicator Aalesia at Blood Watch in Bloodmyst Isle.|  |M|55.08 57.99|
-A Containing the Threat  |T| |  |QID|9569| |N|Accept Containing the Threat|  |M|55.08 57.99|
+T Victims of Corruption |QID|9574| |M|53.24,57.74| |N|Return to Morae.|
+T Know Thine Enemy |QID|9567| |M|55.08,57.99| |N|Return to Vindicator Aalesia.|
+T Signs of the Legion |QID|9594| |M|55.08,57.99| |N|Return to Vindicator Aalesia.|
+A Containing the Threat |QID|9569| |M|55.08,57.99| |N|Accept Containing the Threat.|
 
-T The Missing Survey Team   |QID|9620| |N|\n|  |M|61.18 48.75|
-A Salvaging the Data   |QID|9628| |N|Accept Salvaging the Data|  |M|61.18 48.75|
-C Salvaging the Data  |QID|9628| |N|Obtain the Survey Data Crystal from the Wrathscale near the dead cartographers and return it to Harbinger Mikolaas at Blood Watch.|  |M|52.59 53.21|
+T The Missing Survey Team |QID|9620| |M|61.18,48.75| |N|Find the dead cartographers east of Bladewood.|
+A Salvaging the Data |QID|9628| |M|61.18,48.75| |N|Accept Salvaging the Data.|
+C Salvaging the Data |QID|9628| |M|61.2,48.7| |N|Loot the Survey Data Crystal from Wrathscale. Return to Mikolaas.|
 
-N Find a Ruinous Polyspore |ITEM|24042| |QID|9648|  |M|56.42 56.82|
-N Find a Blood Mushroom |N|All over between the Ruins of Loreth'Aran and Nazzivian| |ITEM|24040| |QID|9648|  |M|56.42 56.82|
+N Find a Ruinous Polyspore |QID|9648| |ITEM|24042| |M|56.42,56.82| |N|Often in caves/ruins.|
+N Find a Blood Mushroom |QID|9648| |ITEM|24040| |M|56.42,56.82| |N|Between Loreth’Aran and Nazzivian.|
 
-T Salvaging the Data  |T| |  |QID|9628| |N|Return to Harbinger Mikolaas at Blood Watch in Bloodmyst Isle.|  |M|52.59 53.21|
-A The Second Sample  |T| |  |QID|9584| |N|Accept The Second Sample|  |M|52.59 53.21|
-T Mac'Aree Mushroom Menagerie  |T| |  |QID|9648| |N|Return to Jessera of Mac'Aree at Blood Watch in Bloodmyst Isle.|  |M|56.42 56.82|
-A Ysera's Tears  |T| |  |QID|9649| |N|Accept Ysera's Tears|  |M|56.42 56.82|
+T Salvaging the Data |QID|9628| |M|52.59,53.21| |N|Return to Harbinger Mikolaas.|
+A The Second Sample |QID|9584| |M|52.59,53.21| |N|Accept The Second Sample.|
+T Mac'Aree Mushroom Menagerie |QID|9648| |M|56.42,56.82| |N|Return to Jessera of Mac'Aree.|
+A Ysera's Tears |QID|9649| |M|56.42,56.82| |N|Accept Ysera’s Tears.|
 
-C The Second Sample  |U|23876| |QO|1| |QID|9584| |N|Get an Altered Crystal Sample using the Crystal Mining Pick on the Altered Bloodmyst Crystal and bring it to Harbinger Mikolaas in Blood Watch.|  |M|52.59 53.21|
-C Intercepting the Message  |QO|1| |QID|9779| |N|Kill Sunhawk elves until you find the Sunhawk Missive, then return it to Vindicator Boros at Blood Watch.|  |M|55.42 55.27|
+C The Second Sample |QID|9584| |QO|1| |U|23876| |M|42.1,21.2| |N|Use the pick on an Altered Bloodmyst Crystal.|
+C Intercepting the Message |QID|9779| |QO|1| |M|55.0,58.5| |N|Kill Sunhawk for the Missive.|
 
-T Intercepting the Message  |T| |  |QID|9779| |N|Return to Vindicator Boros at Blood Watch in Bloodmyst Isle.|  |M|55.42 55.27|
-A Translations...  |T| |  |QID|9696| |N|Accept Translations...|  |M|55.42 55.27|
-T Translations...  |T| |  |QID|9696| |N|\n|  |M|54.44 54.45|
-A Audience with the Prophet  |T| |  |QID|9698| |N|Accept Audience with the Prophet|  |M|54.44 54.45|
-F The Exodar |N|Take the Translated Sunhawk Missive to Prophet Velen at the Exodar.||QID|9698|  |M|32.87 54.50|
-T Audience with the Prophet  |Z|The Exodar| |T| |  |QID|9698| |N|\n|  |M|32.87 54.50|
-A Truth or Fiction  |T| |  |QID|9699| |N|Accept Truth or Fiction|  |M|32.87 54.50|
-F Blood Watch |N|Take Velen's Orders to Vindicator Boros at Blood Watch.||QID|9699|  |M|55.42 55.27|
-T Truth or Fiction  |T| |  |QID|9699| |N|\n|  |M|55.42 55.27|
-A I Shoot Magic Into the Darkness  |T| |  |QID|9700| |N|Accept I Shoot Magic Into the Darkness|  |M|55.42 55.27|
+T Intercepting the Message |QID|9779| |M|55.42,55.27| |N|Return to Vindicator Boros.|
+A Translations... |QID|9696| |M|55.42,55.27| |N|Accept Translations...|
+T Translations... |QID|9696| |M|54.44,54.45| |N|Turn in to Interrogator Elysia.|
+A Audience with the Prophet |QID|9698| |M|54.44,54.45| |N|Accept Audience with the Prophet.|
+F The Exodar |QID|9698| |M|57.02,50.08| |N|Fly to The Exodar with the Missive.|
+T Audience with the Prophet |QID|9698| |M|32.87,54.50| |Z|The Exodar| |N|Turn in to Prophet Velen.|
+A Truth or Fiction |QID|9699| |M|32.87,54.50| |Z|The Exodar| |N|Accept Truth or Fiction.|
+F Blood Watch |QID|9699| |M|68.34,63.50| |Z|The Exodar| |N|Fly back to Blood Watch.|
+T Truth or Fiction |QID|9699| |M|55.42,55.27| |N|Turn in to Vindicator Boros.|
+A I Shoot Magic Into the Darkness |QID|9700| |M|55.42,55.27| |N|Accept I Shoot Magic Into the Darkness.|
 
-T The Second Sample  |T| |  |QID|9584| |N|Return to Harbinger Mikolaas at Blood Watch in Bloodmyst Isle.|  |M|52.59 53.21|
-A The Final Sample  |T| |  |QID|9585| |N|Accept The Final Sample|  |M|52.59 53.21|
-A WANTED: Deathclaw  |T| |  |QID|9646| |N|Accept WANTED: Deathclaw|  |M|52.59 53.21|
+T The Second Sample |QID|9584| |M|52.59,53.21| |N|Return to Harbinger Mikolaas.|
+A The Final Sample |QID|9585| |M|52.59,53.21| |N|Accept The Final Sample.|
+A WANTED: Deathclaw |QID|9646| |M|55.74,59.97| |N|Accept WANTED: Deathclaw (Wanted Poster).|
 
-A The Missing Expedition  |T| |  |QID|9669| |N|Accept The Missing Expedition|  |M|53.24 57.03|
-N Urgent Delivery |N|Talk to Messenger Hermesius, he wanders about Blood Watch.  Then check your mail for a quest-starting item.  You cannot get this quest if you did not do Admiral Odesyus' quests in Azuremyst.| |T| |ITEM|24132| |QID|9672|  |M|79.15 22.65|
-A The Bloodcurse Legacy  |U|24132| |T| | |QID|9672| |N|Accept The Bloodcurse Legacy|  |M|79.15 22.65|
-A Explorers' League, Is That Something for Gnomes?  |T| |  |QID|10063| |N|Accept Explorers' League, Is That Something for Gnomes?|  |M|56.32 54.23|
+A The Missing Expedition |QID|9669| |M|53.24,57.03| |N|Accept The Missing Expedition.|
+N Urgent Delivery |QID|9672| |ITEM|24132| |M|55.0,56.0| |T| |N|Speak to Messenger Hermesius (patrols). Check mail for quest starter (requires Odesyus chain).|
+A The Bloodcurse Legacy |QID|9672| |U|24132| |T| |N|Accept The Bloodcurse Legacy (letter).|
+A Explorers' League, Is That Something for Gnomes? |QID|10063| |M|56.32,54.23| |N|Accept from Clopper Wizbang.|
 
-N Kill crap... |N|Kill any Elder Brown Bears and Mutated Constrictors you come across for "The Bear Necessities" and "Constrictor Vines"| |QID|9643|  |M|55.86 57.00|
+N Kill crap... |QID|9643| |M|55.86,57.00| |N|Kill Elder Brown Bears and Mutated Constrictors as you go.|
 
-T Explorers' League, Is That Something for Gnomes?   |QID|10063| |N|\n|  |M|42.15 21.22|
-A Pilfered Equipment   |QID|9548| |N|Accept Pilfered Equipment|  |M|42.15 21.22|
-A Artifacts of the Blacksilt   |QID|9549| |N|Accept Artifacts of the Blacksilt|  |M|42.15 21.22|
-C Pilfered Equipment  |QO|1| |QID|9548| |N|Bring Clopper's Equipment back to Clopper Wizbang, who is hiding in a beached turtle shell.|  |M|42.15 21.22|
-C Artifacts of the Blacksilt  |QO|1| |QID|9549| |N|Bring 3 Crude Murloc Idols and 6 Crude Murloc Knives to Clopper Wizbang, who is hiding in a beached turtle shell.|  |M|42.15 21.22|
-T Pilfered Equipment   |QID|9548| |N|Return to Clopper Wizbang in Bloodmyst Isle.|  |M|42.15 21.22|
-T Artifacts of the Blacksilt   |QID|9549| |N|Return to Clopper Wizbang in Bloodmyst Isle.|  |M|42.15 21.22|
-A A Map to Where?  |U|23837| |QID|9550| |N|Accept A Map to Where?|
+T Explorers' League, Is That Something for Gnomes? |QID|10063| |M|42.15,21.22| |N|Turn in to Clopper Wizbang (beached turtle).|
+A Pilfered Equipment |QID|9548| |M|42.15,21.22| |N|Accept Pilfered Equipment.|
+A Artifacts of the Blacksilt |QID|9549| |M|42.15,21.22| |N|Accept Artifacts of the Blacksilt.|
+C Pilfered Equipment |QID|9548| |QO|1| |M|42.2,21.3| |N|Recover Clopper’s Equipment near the beached turtle.|
+C Artifacts of the Blacksilt |QID|9549| |QO|1| |M|40.8,20.3| |N|Collect 3 Idols and 6 Knives from Blacksilt murlocs.|
+T Pilfered Equipment |QID|9548| |M|42.15,21.22| |N|Return to Clopper Wizbang.|
+T Artifacts of the Blacksilt |QID|9549| |M|42.15,21.22| |N|Return to Clopper Wizbang.|
+A A Map to Where? |QID|9550| |U|23837| |N|Accept A Map to Where? (from the tattered map).|
 
-C The Bear Necessities  |QO|1| |QID|9580| |N|Bring 8 Elder Brown Bear Flanks to Tracker Lyceon in Blood Watch.|  |M|55.86 57.00|
-C Constrictor Vines  |QO|1| |QID|9643| |N|Tracker Lyceon at Blood Watch wants you to bring him 6 Thorny Constrictor Vines.|  |M|55.86 57.00|
+C The Bear Necessities |QID|9580| |QO|1| |M|49.0,39.0| |N|Collect 8 Elder Brown Bear Flanks.|
+C Constrictor Vines |QID|9643| |QO|1| |M|45.0,42.0| |N|Collect 6 Thorny Constrictor Vines.|
 
-C I Shoot Magic Into the Darkness  |QO|1| |QID|9700| |N|Vindicator Boros at Blood Watch wants you to locate the Sun Portal Site and slay 5 Void Anomalies.|  |M|55.42 55.27|
+C I Shoot Magic Into the Darkness |QID|9700| |QO|1| |M|55.8,81.1| |N|Find the Sun Portal Site and kill 5 Void Anomalies.|
 
-A Restoring Sanctity   |QID|9687| |N|Accept Restoring Sanctity|  |M|74.47 33.46|
+A Restoring Sanctity |QID|9687| |M|74.47,33.46| |N|Accept Restoring Sanctity from Prince Toreth (Wyrmscar Island).|
 
-C Restoring Sanctity  |QID|9687| |N|Prince Toreth on Wyrmscar Island wants you to recover 8 Dragon Bones.|  |M|74.47 33.46|
-T A Map to Where?   |QID|9550| |N|\n|
-A Deciphering the Book   |QID|9557| |N|Accept Deciphering the Book|  |M|54.66 53.94|
+C Restoring Sanctity |QID|9687| |M|74.4,33.5| |N|Collect 8 Dragon Bones on Wyrmscar Island.|
+T A Map to Where? |QID|9550| |M|61.2,41.8| |N|Turn in at the rune-inscribed tablet.|
+A Deciphering the Book |QID|9557| |M|54.66,53.94| |N|Accept Deciphering the Book from Anchorite Paetheus.|
 
-T Deciphering the Book  |T| |  |QID|9557| |N|\n|  |M|54.66 53.94|
-A Nolkai's Words  |T| |  |QID|9561| |N|Accept Nolkai's Words|  |M|54.66 53.94|
-T I Shoot Magic Into the Darkness  |T| |  |QID|9700| |N|Return to Vindicator Boros at Blood Watch in Bloodmyst Isle.|  |M|55.42 55.27|
-A The Cryo-Core  |T| |  |QID|9703| |N|Accept The Cryo-Core|  |M|55.64 55.22|
-T The Bear Necessities  |T| |  |QID|9580| |N|Return to Tracker Lyceon at Blood Watch in Bloodmyst Isle.|  |M|55.86 57.00|
-T Constrictor Vines  |T| |  |QID|9643| |N|Return to Tracker Lyceon at Blood Watch in Bloodmyst Isle.|  |M|55.86 57.00|
-A Culling the Flutterers  |T| |  |QID|9647| |N|Accept Culling the Flutterers|  |M|55.86 57.00|
-A Searching for Galaen  |T| |  |QID|9578| |N|Accept Searching for Galaen|  |M|53.24 57.74|
+T Deciphering the Book |QID|9557| |M|54.66,53.94| |N|Turn in to Anchorite Paetheus.|
+A Nolkai's Words |QID|9561| |M|54.66,53.94| |N|Accept Nolkai's Words.|
+T I Shoot Magic Into the Darkness |QID|9700| |M|55.42,55.27| |N|Return to Vindicator Boros.|
+A The Cryo-Core |QID|9703| |M|55.64,55.22| |N|Accept The Cryo-Core from Vindicator Kuros.|
+T The Bear Necessities |QID|9580| |M|55.86,57.00| |N|Return to Tracker Lyceon.|
+T Constrictor Vines |QID|9643| |M|55.86,57.00| |N|Return to Tracker Lyceon.|
+A Culling the Flutterers |QID|9647| |M|55.86,57.00| |N|Accept Culling the Flutterers.|
+A Searching for Galaen |QID|9578| |M|53.24,57.74| |N|Accept Searching for Galaen.|
 
-N Kill flutterbys |N|Kill any Royal Blue Flutterers you come across for "Culling the Flutterers"| |QID|9647|  |M|55.86 57.00|
+N Kill flutterbys |QID|9647| |M|55.86,57.00| |N|Kill Royal Blue Flutterers as you travel.|
 
-T Searching for Galaen   |QID|9578| |N|\n|  |M|37.50 61.24|
-A Galaen's Fate   |QID|9579| |N|Accept Galaen's Fate|  |M|37.50 61.24|
-A Galaen's Journal - The Fate of Vindicator Saruan   |QID|9706| |N|Accept Galaen's Journal - The Fate of Vindicator Saruan|  |M|55.64 55.22|
-C Galaen's Fate  |QO|1| |QID|9579| |N|Bring Galaen's Amulet to Morae at Blood Watch.|  |M|53.24 57.74|
-C The Cryo-Core  |QID|9703| |N|Vindicator Kuros at Blood Watch wants you to recover 12 boxes of Medical Supplies.|  |M|55.64 55.22|
+T Searching for Galaen |QID|9578| |M|37.50,61.24| |N|Find Galaen’s body in the Cryo-Core.|
+A Galaen's Fate |QID|9579| |M|37.50,61.24| |N|Accept Galaen’s Fate.|
+A Galaen's Journal - The Fate of Vindicator Saruan |QID|9706| |M|37.5,61.2| |N|Accept Galaen’s Journal.|
+C Galaen's Fate |QID|9579| |QO|1| |M|53.24,57.74| |N|Bring Galaen’s Amulet to Morae at Blood Watch.|
+C The Cryo-Core |QID|9703| |M|38.0,61.0| |N|Collect 12 Medical Supplies in the Cryo-Core area.|
 
-T Galaen's Fate  |T| | |T| |  |QID|9579| |N|Return to Morae at Blood Watch in Bloodmyst Isle.|  |M|53.24 57.74|
-T The Cryo-Core   |QID|9703| |N|Return to Vindicator Kuros at Blood Watch in Bloodmyst Isle.|  |M|55.64 55.22|
-T Galaen's Journal - The Fate of Vindicator Saruan  |T| |  |QID|9706| |N|\n|  |M|55.64 55.22|
-A Matis the Cruel  |T| |  |QID|9711| |N|Accept Matis the Cruel|  |M|55.64 55.22|
-A Don't Drink the Water  |T| |  |QID|9748| |N|Accept Don't Drink the Water|  |M|55.55 55.41|
-A What We Know...  |R|Draenei| |T| |  |QID|9753| |N|Accept What We Know...|  |M|55.55 55.41|
-T What We Know...  |R|Draenei| |T| |  |QID|9753| |N|\n|  |M|52.68 53.21|
-A What We Don't Know...  |R|Draenei| |T| |  |QID|9756| |N|Accept What We Don't Know...|  |M|52.68 53.21|
-C What We Don't Know...  |R|Draenei| |T| | |QID|9756| |N|Speak to a Captured Sunhawk Agent at Blood Watch and recover Sunhawk Information. Return to Exarch Admetius when the task is complete.|  |M|52.68 53.21|
-T What We Don't Know...  |R|Draenei| |T| |  |QID|9756| |N|Return to Exarch Admetius in Bloodmyst Isle.|  |M|52.68 53.21|
-A Vindicator's Rest  |R|Draenei| |T| |  |QID|9760| |N|Accept Vindicator's Rest|  |M|52.68 53.21|
-A Talk to the Hand  |T| |  |QID|10064| |N|Accept Talk to the Hand|  |M|52.59 53.21|
-A Fouled Water Spirits  |T| |  |QID|10067| |N|Accept Fouled Water Spirits|  |M|30.75 46.85|
-A Oh, the Tangled Webs They Weave  |T| |  |QID|10066| |N|Accept Oh, the Tangled Webs They Weave|  |M|30.75 46.85|
+T Galaen's Fate |QID|9579| |M|53.24,57.74| |N|Return to Morae.|
+T The Cryo-Core |QID|9703| |M|55.64,55.22| |N|Return to Vindicator Kuros.|
+T Galaen's Journal - The Fate of Vindicator Saruan |QID|9706| |M|55.64,55.22| |N|Turn in to Vindicator Kuros.|
+A Matis the Cruel |QID|9711| |M|55.64,55.22| |N|Accept Matis the Cruel.|
+A Don't Drink the Water |QID|9748| |M|55.55,55.41| |N|Accept Don’t Drink the Water from Vindicator Aesom.|
+A What We Know... |QID|9753| |R|Draenei| |M|55.55,55.41| |N|Accept What We Know...|
+T What We Know... |QID|9753| |R|Draenei| |M|52.68,53.21| |N|Turn in to Exarch Admetius.|
+A What We Don't Know... |QID|9756| |R|Draenei| |M|52.68,53.21| |N|Accept What We Don’t Know...|
+C What We Don't Know... |QID|9756| |R|Draenei| |M|54.4,54.2| |N|Question a Captured Sunhawk Agent in Blood Watch.|
+T What We Don't Know... |QID|9756| |R|Draenei| |M|52.68,53.21| |N|Return to Exarch Admetius.|
+A Vindicator's Rest |QID|9760| |R|Draenei| |M|52.68,53.21| |N|Accept Vindicator’s Rest.|
+A Talk to the Hand |QID|10064| |M|52.59,53.21| |N|Accept Talk to the Hand from Harbinger Mikolaas.|
+A Fouled Water Spirits |QID|10067| |M|30.75,46.85| |N|Accept Fouled Water Spirits at Vindicator’s Rest.|
+A Oh, the Tangled Webs They Weave |QID|10066| |M|30.75,46.85| |N|Accept Oh, the Tangled Webs They Weave.|
 
-C The Final Sample  |U|23877| |QO|1| |QID|9585| |N|Get an Axxarian Crystal Sample using the Crystal Mining Pick on the Axxarien Crystal and bring it to Harbinger Mikolaas in Blood Watch.|  |M|52.59 53.21|
-C Containing the Threat  |QO|1| |QID|9569| |N|Kill 5 Axxarien Shadowstalkers, 5 Axxarien Hellcallers, and Zevrax, then gather 5 Corrupted Crystals and return to Vindicator Aalesia in Blood Watch.|  |M|55.08 57.99|
+C The Final Sample |QID|9585| |QO|1| |U|23877| |M|41.3,29.7| |N|Use the pick on an Axxarien Crystal.|
+C Containing the Threat |QID|9569| |QO|1| |M|41.3,29.7| |N|Kill 5 Shadowstalkers, 5 Hellcallers, Zevrax, and gather 5 Corrupted Crystals.|
 
-C Matis the Cruel  |U|24278| |QID|9711| |N|Vindicator Kuros at Blood Watch wants you to capture Matis the Cruel.|  |M|55.64 55.22|
+C Matis the Cruel |QID|9711| |U|24278| |M|44.6,43.8| |N|Use the flare to call for help; snare/capture Matis the Cruel.|
 
-T Talk to the Hand   |QID|10064| |N|\n|  |M|30.26 45.92|
-A Cutting a Path   |QID|10065| |N|Accept Cutting a Path|  |M|30.26 45.92|
-A Critters of the Void   |QID|9741| |N|Accept Critters of the Void|  |M|30.24 45.87|
-T Vindicator's Rest  |R|Draenei|  |QID|9760| |N|\n|  |M|30.75 46.85|
+T Talk to the Hand |QID|10064| |M|30.26,45.92| |N|Turn in to Scout Jorli at Vindicator’s Rest.|
+A Cutting a Path |QID|10065| |M|30.26,45.92| |N|Accept Cutting a Path.|
+A Critters of the Void |QID|9741| |M|30.24,45.87| |N|Accept Critters of the Void.|
+T Vindicator's Rest |QID|9760| |R|Draenei| |M|30.75,46.85| |N|Report to Vindicator Corin.|
 
-N Kill more crap... |N|Kill any Mutated Tanglers and Enraged Ravagers you come across for "Oh, the Tangled Webs They Weave" and "Cutting a Path"| |QID|10065|  |M|30.26 45.92|
+N Kill more crap... |QID|10065| |M|30.26,45.92| |N|Kill Mutated Tanglers and Enraged Ravagers while questing.|
 
-A They're Alive! Maybe...   |QID|9670| |N|Accept They're Alive! Maybe...|  |M|24.88 34.35|
-C They're Alive! Maybe...  |QID|9670| |N|Researcher Cornelius has asked that you free 5 Expedition Researchers.|  |M|24.88 34.35|
-C The Missing Expedition  |QO|1| |QID|9669| |N|Kill 8 Myst Spinners, 8 Myst Leechers and their leader, Zarakh. Return to Achelus at Blood Watch when the task is complete.|  |M|53.24 57.03|
-T They're Alive! Maybe...   |QID|9670| |N|Return to Researcher Cornelius at Amberweb Pass in Bloodmyst Isle.|  |M|24.88 34.35|
+A They're Alive! Maybe... |QID|9670| |M|24.88,34.35| |N|Accept from Researcher Cornelius at Amberweb Pass.|
+C They're Alive! Maybe... |QID|9670| |M|24.9,34.3| |N|Free 5 Expedition Researchers.|
+C The Missing Expedition |QID|9669| |QO|1| |M|18.5,37.6| |N|Kill 8 Myst Spinners, 8 Myst Leechers, and Zarakh.|
+T They're Alive! Maybe... |QID|9670| |M|24.88,34.35| |N|Return to Researcher Cornelius.|
 
-C Fouled Water Spirits  |QO|1| |QID|10067| |N|Kill 6 Fouled Water Spirits and return to Vindicator Corin at Vindicator's Rest.|  |M|30.75 46.85|
-C Don't Drink the Water  |U|24318| |QID|9748| |N|Vindicator Aesom at Blood Watch wants you to use the Water Sample Flask to get a Bloodmyst Water Sample.|  |M|55.55 55.41|
-C WANTED: Deathclaw  |QO|1| |QID|9646| |N|Bring Deathclaw's Paw to Harbinger Mikolaas in Blood Watch.|  |M|52.59 53.21|
+C Fouled Water Spirits |QID|10067| |QO|1| |M|30.7,47.5| |N|Kill 6 Fouled Water Spirits.|
+C Don't Drink the Water |QID|9748| |U|24318| |M|34.0,33.8| |N|Use the Water Sample Flask at the Foul Pool.|
+C WANTED: Deathclaw |QID|9646| |QO|1| |M|37.8,30.2| |N|Kill Deathclaw and loot the paw.|
 
-T Nolkai's Words   |QID|9561| |N|\n|  |M|54.66 53.94|
+T Nolkai's Words |QID|9561| |M|61.2,41.8| |N|Turn in at Nolkai’s Tomb (gravestone).|
 
-T Restoring Sanctity   |QID|9687| |N|Return to Prince Toreth at Wyrmscar Island in Bloodmyst Isle.|  |M|74.47 33.46|
-A Into the Dream   |QID|9688| |N|Accept Into the Dream|  |M|74.47 33.46|
-N More shrooms... |N|Keep an eye out on Wyrmscar Island for Ysera's Tears| |QID|9649|  |M|56.42 56.82|
-C Into the Dream  |QO|1| |QID|9688| |N|Prince Toreth at Wyrmscar Island has asked that you slay 5 Viridian Whelps and 5 Viridian Broodlings.|  |M|74.47 33.46|
-T The Bloodcurse Legacy  |O| |  |QID|9672| |N|\n|  |M|79.15 22.65|
-A The Bloodcursed Naga  |O| |  |QID|9674| |N|Accept The Bloodcursed Naga|  |M|79.15 22.65|
-C The Bloodcursed Naga  |O| | |9674|  | |QO|1| |QID|9674| |N|Captain Edward Hanes on Wyrmscar Island wants you to kill 10 Bloodcursed Naga.$B|  |M|79.15 22.65|
-T The Bloodcursed Naga  |O| |  |QID|9674| |N|Return to Captain Edward Hanes at Wyrmscar Island in Bloodmyst Isle.|  |M|79.15 22.65|
-A The Hopeless Ones...  |O| |  |QID|9682| |N|Accept The Hopeless Ones...|  |M|79.15 22.65|
-C The Hopeless Ones...  |O| | |QID|9682| |N|Captain Edward Hanes on Wyrmscar Island wants you to recover 4 Bloodcursed Souls.|  |M|79.15 22.65|
-N Refresh The Captain's Kiss |N|Talk to the turnin NPC and have him recast the spell on you, it'll help for traveling to the next part.| |QID|9683|  |M|79.15 22.65|
-T The Hopeless Ones...  |O| |  |QID|9682| |N|Return to Captain Edward Hanes at Wyrmscar Island in Bloodmyst Isle.|  |M|79.15 22.65|
-A Ending the Bloodcurse  |O| |  |QID|9683| |N|Accept Ending the Bloodcurse|  |M|79.15 22.65|
-T Into the Dream   |QID|9688| |N|Return to Prince Toreth at Wyrmscar Island in Bloodmyst Isle.|  |M|74.47 33.46|
-C Ending the Bloodcurse  |O| | |QO|1| |QID|9683| |N|Captain Edward Hanes on Wyrmscar Island wants you to destroy the Statue of Queen Azshara and kill Atoph the Bloodcursed.|  |M|79.15 22.65|
-T Ending the Bloodcurse  |O| |  |QID|9683| |N|Return to Captain Edward Hanes at Wyrmscar Island in Bloodmyst Isle.|  |M|79.15 22.65|
+T Restoring Sanctity |QID|9687| |M|74.47,33.46| |N|Return to Prince Toreth on Wyrmscar Island.|
+A Into the Dream |QID|9688| |M|74.47,33.46| |N|Accept Into the Dream.|
+N More shrooms... |QID|9649| |M|74.4,33.5| |N|Watch for Ysera’s Tears on Wyrmscar Island.|
+C Into the Dream |QID|9688| |QO|1| |M|73.0,20.5| |N|Slay 5 Viridian Whelps and 5 Viridian Broodlings.|
+T The Bloodcurse Legacy |QID|9672| |O| |M|79.15,22.65| |N|Turn in to Captain Edward Hanes on the islet.|
+A The Bloodcursed Naga |QID|9674| |O| |M|79.15,22.65| |N|Accept The Bloodcursed Naga.|
+C The Bloodcursed Naga |QID|9674| |O| |QO|1| |M|79.1,22.6| |N|Kill 10 Bloodcursed Naga.|
+T The Bloodcursed Naga |QID|9674| |O| |M|79.15,22.65| |N|Return to Captain Edward Hanes.|
+A The Hopeless Ones... |QID|9682| |O| |M|79.15,22.65| |N|Accept The Hopeless Ones...|
+C The Hopeless Ones... |QID|9682| |O| |M|79.1,22.6| |N|Recover 4 Bloodcursed Souls.|
+N Refresh The Captain's Kiss |QID|9683| |M|79.15,22.65| |N|Ask the Captain to refresh the swim buff.|
+T The Hopeless Ones... |QID|9682| |O| |M|79.15,22.65| |N|Return to Captain Edward Hanes.|
+A Ending the Bloodcurse |QID|9683| |O| |M|79.15,22.65| |N|Accept Ending the Bloodcurse.|
+T Into the Dream |QID|9688| |M|74.47,33.46| |N|Return to Prince Toreth.|
+C Ending the Bloodcurse |QID|9683| |O| |QO|1| |M|86.0,54.5| |N|Destroy the statue and kill Atoph the Bloodcursed.|
+T Ending the Bloodcurse |QID|9683| |O| |M|79.15,22.65| |N|Return to the Captain.|
 
-C Ysera's Tears  |QID|9649| |N|Jessera of Mac'Aree at Blood Watch wants 2 Ysera's Tears.|  |M|56.42 56.82|
+C Ysera's Tears |QID|9649| |M|74.0,28.0| |N|Collect 2 Ysera’s Tears on Wyrmscar Island.|
 
-H Blood Watch  |QID|9649| |N|Hearth back|  |M|56.42 56.82|
-T Containing the Threat  |T| |  |QID|9569| |N|Return to Vindicator Aalesia at Blood Watch in Bloodmyst Isle.|  |M|55.08 57.99|
-T The Missing Expedition  |T| |  |QID|9669| |N|Return to Achelus at Blood Watch in Bloodmyst Isle.|  |M|53.24 57.03|
-T WANTED: Deathclaw  |T| |  |QID|9646| |N|Return to Harbinger Mikolaas in Bloodmyst Isle.|  |M|52.59 53.21|
-T The Final Sample  |T| |  |QID|9585| |N|Return to Harbinger Mikolaas in Bloodmyst Isle.|  |M|52.59 53.21|
-T Don't Drink the Water  |T| |  |QID|9748| |N|Return to Vindicator Aesom at Blood Watch in Bloodmyst Isle.|  |M|55.55 55.41|
-A Limits of Physical Exhaustion  |T| |  |QID|9746| |N|Accept Limits of Physical Exhaustion|  |M|55.55 55.41|
-T Matis the Cruel  |T| |  |QID|9711| |N|Return to Vindicator Kuros at Blood Watch in Bloodmyst Isle.|  |M|55.64 55.22|
-T Ysera's Tears  |T| |  |QID|9649| |N|Return to Jessera of Mac'Aree at Blood Watch in Bloodmyst Isle.|  |M|56.42 56.82|
+H Blood Watch |QID|9649| |N|Hearth back.|
+T Containing the Threat |QID|9569| |M|55.08,57.99| |N|Return to Vindicator Aalesia.|
+T The Missing Expedition |QID|9669| |M|53.24,57.03| |N|Return to Achelus.|
+T WANTED: Deathclaw |QID|9646| |M|52.59,53.21| |N|Return to Harbinger Mikolaas.|
+T The Final Sample |QID|9585| |M|52.59,53.21| |N|Return to Harbinger Mikolaas.|
+T Don't Drink the Water |QID|9748| |M|55.55,55.41| |N|Return to Vindicator Aesom.|
+A Limits of Physical Exhaustion |QID|9746| |M|55.55,55.41| |N|Accept Limits of Physical Exhaustion.|
+T Matis the Cruel |QID|9711| |M|55.64,55.22| |N|Return to Vindicator Kuros.|
+T Ysera's Tears |QID|9649| |M|56.42,56.82| |N|Return to Jessera of Mac’Aree.|
 
-C Limits of Physical Exhaustion  |QO|1| |QID|9746| |N|Vindicator Aesom at Blood Watch wants you to slay 10 Sunhawk Pyromancers and 10 Sunhawk Defenders.$B|  |M|55.55 55.41|
+C Limits of Physical Exhaustion |QID|9746| |QO|1| |M|53.0,56.0| |N|Kill 10 Sunhawk Pyromancers and 10 Sunhawk Defenders.|
 
-T Limits of Physical Exhaustion  |T| |  |QID|9746| |N|Return to Vindicator Aesom at Blood Watch in Bloodmyst Isle.|  |M|55.55 55.41|
-A The Sun Gate  |T| |  |QID|9740| |N|Accept The Sun Gate|  |M|55.55 55.41|
+T Limits of Physical Exhaustion |QID|9746| |M|55.55,55.41| |N|Return to Vindicator Aesom.|
+A The Sun Gate |QID|9740| |M|55.55,55.41| |N|Accept The Sun Gate.|
 
-C The Sun Gate  |QO|1| |QID|9740| |N|Vindicator Aesom at Blood Watch wants you to destroy the Sun Gate.|  |M|55.55 55.41|
-C Critters of the Void  |QO|1| |QID|9741| |N|Kill 12 Void Critters and report to Vindicator Aesom at Blood Watch.$B|  |M|55.55 55.41|
+C The Sun Gate |QID|9740| |QO|1| |M|18.7,64.0| |N|Destroy the Sun Gate in the Ruins of Loreth’Aran.|
+C Critters of the Void |QID|9741| |QO|1| |M|18.7,64.0| |N|Kill 12 Void Critters near the Sun Gate.|
 
-C Oh, the Tangled Webs They Weave  |QO|1| |QID|10066| |N|Kill 8 Mutated Tanglers and report to Vindicator Corin at Vindicator's Rest.|  |M|30.75 46.85|
-C Cutting a Path  |QO|1| |QID|10065| |N|Kill 10 Enraged Ravagers and return to Scout Jorli at Vindicator's Rest.|  |M|30.26 45.92|
+C Oh, the Tangled Webs They Weave |QID|10066| |QO|1| |M|31.0,49.0| |N|Kill 8 Mutated Tanglers.|
+C Cutting a Path |QID|10065| |QO|1| |M|31.0,49.0| |N|Kill 10 Enraged Ravagers.|
 
-T Oh, the Tangled Webs They Weave   |QID|10066| |N|Return to Vindicator Corin in Bloodmyst Isle.|  |M|30.75 46.85|
-T Cutting a Path   |QID|10065| |N|Return to Scout Jorli at Vindicator's Rest in Bloodmyst Isle.|  |M|30.26 45.92|
-T Fouled Water Spirits   |QID|10067| |N|Return to Vindicator Corin in Bloodmyst Isle.|  |M|30.75 46.85|
+T Oh, the Tangled Webs They Weave |QID|10066| |M|30.75,46.85| |N|Return to Vindicator Corin.|
+T Cutting a Path |QID|10065| |M|30.26,45.92| |N|Return to Scout Jorli.|
+T Fouled Water Spirits |QID|10067| |M|30.75,46.85| |N|Return to Vindicator Corin.|
 
-N Try to "End their world"... |QID|9759| |N|It's worth trying this quest once, if you fail just abandon it.  Make sure you grab "Clearing the Way" first, as you'll likely complete it along the way.  If you're a healing class try to let him tank mobs and heal him if needed.|  |M|52.68 53.21|
+N Try to "End their world"... |QID|9759| |M|52.68,53.21| |N|Optional escort “Ending Their World.” If you fail, abandon. Grab “Clearing the Way” first if available.|
 
-C Culling the Flutterers  |QO|1| |QID|9647| |N|Tracker Lyceon at Blood Watch wants you to kill 10 Royal Blue Flutterers.|  |M|55.86 57.00|
+C Culling the Flutterers |QID|9647| |QO|1| |M|55.0,60.0| |N|Kill 10 Royal Blue Flutterers.|
 
-T The Sun Gate  |T| |  |QID|9740| |N|Return to Vindicator Aesom at Blood Watch in Bloodmyst Isle.|  |M|55.55 55.41|
-T Critters of the Void  |T| |  |QID|9741| |N|Return to Vindicator Aesom at Blood Watch in Bloodmyst Isle.|  |M|55.55 55.41|
-T Culling the Flutterers  |T| |  |QID|9647| |N|Return to Tracker Lyceon at Blood Watch in Bloodmyst Isle.|  |M|55.86 57.00|
-A Newfound Allies  |T| |  |QID|9632| |N|Accept Newfound Allies|  |M|54.66 53.94|
+T The Sun Gate |QID|9740| |M|55.55,55.41| |N|Return to Vindicator Aesom.|
+T Critters of the Void |QID|9741| |M|55.55,55.41| |N|Return to Vindicator Aesom.|
+T Culling the Flutterers |QID|9647| |M|55.86,57.00| |N|Return to Tracker Lyceon.|
+A Newfound Allies |QID|9632| |M|54.66,53.94| |N|Accept Newfound Allies from Anchorite Paetheus.|
 
 F The Exodar
-T Newfound Allies   |QID|9632| |N|\n|  |M|24.18 54.35|
-A The Way to Auberdine   |QID|9633| |N|Accept The Way to Auberdine|  |M|24.18 54.35|
+T Newfound Allies |QID|9632| |M|24.18,54.35| |Z|The Exodar| |N|Turn in to Huntress Kella Nightbow.|
+A The Way to Auberdine |QID|9633| |M|24.18,54.35| |Z|The Exodar| |N|Accept The Way to Auberdine.|
 ]]
 end)

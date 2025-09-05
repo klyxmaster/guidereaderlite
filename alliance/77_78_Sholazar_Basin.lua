@@ -1,278 +1,286 @@
 GuideReaderLite_RegisterGuide("Sholazar Basin (77-78)", "The Storm Peaks (78-80)", "Alliance", function()
 return [[
-N Flight... |N|At this point, you should either already be 77, or very close.  If you aren't, you might want to do some dailies, an instance, or hit up the starting zone you skipped.  From here forward, the guides will assume you have flight, and give directions accordingly.  A number of quests will REQUIRE flight to complete.| |QID|12521|  |M|39.68 58.66|
+N Flight... |QID|12521| |N|From here on, the guide assumes you have Cold Weather Flying. Several quests REQUIRE flight.|
 
-F Dalaran |N|Talk to Archmage Pentarus when you're ready to leave for Sholazar Basin.||QID|12521|  |M|39.68 58.66|
-A Where in the World is Hemet Nesingwary?  |Z|Dalaran| |M|31.04,25.7| |QID|12521| |N|Accept Where in the World is Hemet Nesingwary?|
+F Dalaran |QID|12521| |N|Talk to Archmage Pentarus when ready to leave for Sholazar.| |M|39.68,58.66|
+A Where in the World is Hemet Nesingwary? |QID|12521| |Z|Dalaran| |N|From Archmage Pentarus.| |M|31.0,25.7|
 
-T Where in the World is Hemet Nesingwary?  |M|52.2,15.72| |QID|12521| |N|\n|
-A Welcome to Sholazar Basin  |M|52.2,15.72| |QID|12489| |N|Accept Welcome to Sholazar Basin|
+T Where in the World is Hemet Nesingwary? |QID|12521| |N|To Hemet at Nesingwary Base Camp.| |M|27.1,58.6|
+A Welcome to Sholazar Basin |QID|12489| |N|From Hemet.| |M|27.1,58.6|
 
-T Welcome to Sholazar Basin  |M|52.2,0.83| |QID|12489| |N|\n|
-A It Could Be Anywhere!  |M|52.05,0.56| |QID|12624| |N|Accept It Could Be Anywhere!|
-A Venture Co. Misadventure  |M|51.55,1.01| |QID|12524| |N|Accept Venture Co. Misadventure|
-A Need an Engine, Take an Engine  |M|52.29,1.23| |QID|12522| |N|Accept Need an Engine, Take an Engine|
-C Need an Engine, Take an Engine  |QO|1| |QID|12522| |N|Weslex Quickwrench at the Nesingwary Base Camp wants you to bring him a Flying Machine Engine.|  |M|25.35 58.47|
-T Need an Engine, Take an Engine  |M|52.29,1.23| |QID|12522| |N|Return to Weslex Quickwrench at Nesingwary Base Camp in Sholazar Basin.|
-A Have a Part, Give a Part  |M|52.29,1.23| |QID|12523| |N|Accept Have a Part, Give a Part|
+T Welcome to Sholazar Basin |QID|12489| |N|To Adventure Coordinator.| |M|27.1,58.6|
+A It Could Be Anywhere! |QID|12624| |N|From “Chad” (random drops anywhere in Basin).| |M|27.0,58.6|
+A Venture Co. Misadventure |QID|12524| |N|From Debaar.| |M|27.0,59.0|
+A Need an Engine, Take an Engine |QID|12522| |N|From Weslex Quickwrench.| |M|27.2,58.7|
 
-A Engineering a Disaster  |M|58.1,10.83| |QID|12688| |N|Accept Engineering a Disaster|
-C Engineering a Disaster  |QID|12688| |N|Help Engineer Helice escape from Swindlegrin's Dig, then speak with Hemet Nesingwary at the Nesingwary Base Camp.|  |M|27.10 58.64|
-C Have a Part, Give a Part  |QO|1| |QID|12523| |N|Bring 7 Venture Co. Spare Parts to Weslex Quickwrench at the Nesingwary Base Camp.|  |M|25.35 58.47|
-C Venture Co. Misadventure  |QO|1| |QID|12524| |N|Debaar at the Nesingwary Base Camp wants you to kill 15 Venture Company members. You may kill either Venture Co. Ruffians or Venture Co. Excavators.|  |M|27.25 59.89|
+C Need an Engine, Take an Engine |QID|12522| |N|Loot a Flying Machine Engine at Swindlegrin’s Dig.| |M|35.0,47.4|
+T Need an Engine, Take an Engine |QID|12522| |N|To Weslex at Base Camp.| |M|27.2,58.7|
+A Have a Part, Give a Part |QID|12523| |N|From Weslex.| |M|27.2,58.7|
 
-T Engineering a Disaster  |M|52.2,0.83| |QID|12688| |N|Return to Hemet Nesingwary at Nesingwary Base Camp in Sholazar Basin.|
-T Venture Co. Misadventure  |M|51.55,1.01| |QID|12524| |N|Return to Debaar at Nesingwary Base Camp in Sholazar Basin.|
-A Wipe That Grin Off His Face  |M|51.55,1.01| |QID|12525| |N|Accept Wipe That Grin Off His Face|
-T Have a Part, Give a Part  |M|52.29,1.23| |QID|12523| |N|Return to Weslex Quickwrench at Nesingwary Base Camp in Sholazar Basin.|
-A Aerial Surveillance  |M|52.3,1.17| |QID|12696| |N|Accept Aerial Surveillance|
+A Engineering a Disaster |QID|12688| |N|From Engineer Helice (escort inside Swindlegrin’s Dig).| |M|36.4,50.5|
+C Engineering a Disaster |QID|12688| |N|Escort Helice out; then speak to Hemet at Base Camp.| |M|27.1,58.6|
+C Have a Part, Give a Part |QID|12523| |N|Collect 7 Venture Co. Spare Parts around the dig.| |M|35.0,47.4|
+C Venture Co. Misadventure |QID|12524| |N|Kill 15 Venture Co. mobs at Swindlegrin’s Dig.| |M|35.0,47.4|
 
-C Wipe That Grin Off His Face  |QO|1| |QID|12525| |N|Kill Foreman Swindlegrin and Meatpie and return to Debaar at the Nesingwary Base Camp.|  |M|27.25 59.89|
+T Engineering a Disaster |QID|12688| |N|To Hemet.| |M|27.1,58.6|
+T Venture Co. Misadventure |QID|12524| |N|To Debaar.| |M|27.0,59.0|
+A Wipe That Grin Off His Face |QID|12525| |N|From Debaar.| |M|27.0,59.0|
+T Have a Part, Give a Part |QID|12523| |N|To Weslex.| |M|27.2,58.7|
+A Aerial Surveillance |QID|12696| |N|From Weslex.| |M|27.2,58.7|
 
-T Wipe That Grin Off His Face  |M|51.55,1.01| |QID|12525| |N|Return to Debaar at Nesingwary Base Camp in Sholazar Basin.|
-A Kick, What Kick?  |M|51.54,0.81| |QID|12589| |N|Accept Kick, What Kick?|
-C Kick, What Kick?  |U|38573| |QID|12589| |N|Using the RJR Rifle, shoot the apple on top of Lucky Wilhelm's head, then speak with Drostan.|  |M|27.08 59.90|
-T Kick, What Kick?  |M|51.54,0.81| |QID|12589| |N|Return to Drostan at Nesingwary Base Camp in Sholazar Basin.|
-A The Great Hunter's Challenge  |M|51.54,0.81| |QID|12592| |N|Accept The Great Hunter's Challenge|
-A Dreadsaber Mastery: Becoming a Predator  |M|52.0,0.32| |QID|12549| |N|Accept Dreadsaber Mastery: Becoming a Predator|
-A Rhino Mastery: The Test  |M|52.2,0.83| |QID|12520| |N|Accept Rhino Mastery: The Test|
+C Wipe That Grin Off His Face |QID|12525| |N|Kill Foreman Swindlegrin & Meatpie at the dig.| |M|35.0,47.4|
+T Wipe That Grin Off His Face |QID|12525| |N|To Debaar at Base Camp.| |M|27.0,59.0|
 
-C Rhino Mastery: The Test  |QO|1| |QID|12520| |N|Kill 15 Shardhorn Rhinos and return to Hemet Nesingwary at the Nesingwary Base Camp.|  |M|27.10 58.64|
-C Dreadsaber Mastery: Becoming a Predator  |QO|1| |QID|12549| |N|Kill 15 Dreadsabers and return to Buck Cantwell at the Nesingwary Base Camp.|  |M|26.67 59.03|
+A Kick, What Kick? |QID|12589| |N|From Drostan.| |M|27.0,58.8|
+C Kick, What Kick? |QID|12589| |U|38573| |N|Shoot the apple off Lucky Wilhelm’s head, then talk to Drostan.| |M|27.1,59.9|
+T Kick, What Kick? |QID|12589| |N|To Drostan.| |M|27.0,58.8|
+A The Great Hunter's Challenge |QID|12592| |N|From Drostan.| |M|27.0,58.8|
 
-T Dreadsaber Mastery: Becoming a Predator  |M|52.0,0.32| |QID|12549| |N|Return to Buck Cantwell at Nesingwary Base Camp in Sholazar Basin.|
-A Dreadsaber Mastery: Stalking the Prey  |M|52.0,0.32| |QID|12550| |N|Accept Dreadsaber Mastery: Stalking the Prey|
-T Rhino Mastery: The Test  |M|52.2,0.83| |QID|12520| |N|Return to Hemet Nesingwary at Nesingwary Base Camp in Sholazar Basin.|
-A Rhino Mastery: The Chase  |M|52.2,0.83| |QID|12526| |N|Accept Rhino Mastery: The Chase|
-A A Steak Fit for a Hunter  |M|51.75,0.38| |QID|12804| |N|Accept A Steak Fit for a Hunter|
-A Some Make Lemonade, Some Make Liquor  |M|51.45,0.46| |QID|12634| |N|Accept Some Make Lemonade, Some Make Liquor|
-A Crocolisk Mastery: The Trial  |M|51.55,1.01| |QID|12551| |N|Accept Crocolisk Mastery: The Trial|
+A Dreadsaber Mastery: Becoming a Predator |QID|12549| |N|From Buck Cantwell.| |M|27.4,59.0|
+A Rhino Mastery: The Test |QID|12520| |N|From Hemet.| |M|27.1,58.6|
 
-T Rhino Mastery: The Chase  |M|48.05,0.95| |QID|12526| |N|\n|
-A An Offering for Soo-rahm  |M|48.05,0.95| |QID|12543| |N|Accept An Offering for Soo-rahm|
+C Rhino Mastery: The Test |QID|12520| |N|Kill 15 Shardhorn Rhinos.| |M|31.0,54.0|
+C Dreadsaber Mastery: Becoming a Predator |QID|12549| |N|Kill 15 Dreadsabers.| |M|29.0,62.0|
 
-C Dreadsaber Mastery: Stalking the Prey  |QID|12550| |N|Buck Cantwell at the Nesingwary Base Camp wants you to identify 3 Shango Tracks from the Dreadsaber Tracks near Bittertide Lake.|  |M|26.67 59.03|
+T Dreadsaber Mastery: Becoming a Predator |QID|12549| |N|To Buck.| |M|27.4,59.0|
+A Dreadsaber Mastery: Stalking the Prey |QID|12550| |N|From Buck.| |M|27.4,59.0|
+T Rhino Mastery: The Test |QID|12520| |N|To Hemet.| |M|27.1,58.6|
+A Rhino Mastery: The Chase |QID|12526| |N|From Hemet.| |M|27.1,58.6|
+A A Steak Fit for a Hunter |QID|12804| |N|From Korg the Cleaver.| |M|27.3,58.7|
+A Some Make Lemonade, Some Make Liquor |QID|12634| |N|From Grimbooze Thunderbrew.| |M|27.1,59.0|
+A Crocolisk Mastery: The Trial |QID|12551| |N|From Debaar.| |M|27.0,59.0|
 
-C Some Make Lemonade, Some Make Liquor  |QO|1| |QID|12634| |N|Bring 1 Orange, 2 Banana Bunches, and 1 Papaya to Grimbooze Thunderbrew at the Nesingwary Base Camp.|  |M|26.78 60.07|
-C An Offering for Soo-rahm  |QO|1| |QID|12543| |N|Bring 5 Intact Cobra Fangs to Oracle Soo-rahm, near the Bones of Nozronn.|  |M|25.59 66.54|
-C Crocolisk Mastery: The Trial  |QO|1| |QID|12551| |N|Kill 15 Mangal Crocolisks and return to Debaar at the Nesingwary Encampment.|  |M|27.25 59.89|
+T Rhino Mastery: The Chase |QID|12526| |N|To Oracle Soo-rahm (southeast of camp).| |M|42.0,42.0|
+A An Offering for Soo-rahm |QID|12543| |N|From Soo-rahm.| |M|42.0,42.0|
 
-T An Offering for Soo-rahm  |M|48.05,0.95| |QID|12543| |N|Return to Oracle Soo-rahm in Sholazar Basin.|
-A The Bones of Nozronn  |M|48.05,0.95| |QID|12544| |N|Accept The Bones of Nozronn|
-C The Bones of Nozronn  |U|38519| |QID|12544| |N|Use Soo-rahm's Incense near the Bones of Nozronn, then return to Hemet Nesingwary at Nesingwary's Base Camp with the information you learned.|  |M|27.10 58.64|
+C Dreadsaber Mastery: Stalking the Prey |QID|12550| |N|Find 3 Shango Tracks near Bittertide Lake.| |M|33.0,50.0|
+C Some Make Lemonade, Some Make Liquor |QID|12634| |N|Gather 1 Orange, 2 Banana Bunches, 1 Papaya.| |M|25.0,60.0|
+C An Offering for Soo-rahm |QID|12543| |N|Collect 5 Intact Cobra Fangs.| |M|41.0,40.0|
+C Crocolisk Mastery: The Trial |QID|12551| |N|Kill 15 Mangal Crocolisks.| |M|44.0,63.0|
 
-C A Steak Fit for a Hunter  |QO|1| |QID|12804| |N|Bring 5 Longneck Grazer Steaks to Korg the Cleaver at the Nesingwary Base Camp.|  |M|26.71 59.51|
+T An Offering for Soo-rahm |QID|12543| |N|To Soo-rahm.| |M|42.0,42.0|
+A The Bones of Nozronn |QID|12544| |N|From Soo-rahm.| |M|42.0,42.0|
+C The Bones of Nozronn |QID|12544| |U|38519| |N|Use Soo-rahm’s Incense at the Bones, learn the vision.| |M|47.0,42.5|
 
-T Some Make Lemonade, Some Make Liquor  |M|51.45,0.46| |QID|12634| |N|Return to Grimbooze Thunderbrew at Nesingwary Base Camp in Sholazar Basin.|
-A Still At It  |M|51.45,0.46| |QID|12644| |N|Accept Still At It|
-C Still At It  |QO|1| |QID|12644| |N|Successfully complete the distillation process and bring the completed Thunderbrew's Jungle Punch to Grimbooze Thunderbrew at the Nesingwary Base Camp.|  |M|26.78 60.07|
-T Still At It  |M|51.45,0.46| |QID|12644| |N|Return to Grimbooze Thunderbrew at Nesingwary Base Camp in Sholazar Basin.|
-A The Taste Test  |M|51.45,0.46| |QID|12645| |N|Accept The Taste Test|
-T A Steak Fit for a Hunter  |M|51.75,0.38| |QID|12804| |N|Return to Korg the Cleaver at Nesingwary Base Camp in Sholazar Basin.|
-T The Great Hunter's Challenge  |M|51.54,0.81| |QID|12592| |N|Return to Drostan at Nesingwary Base Camp in Sholazar Basin.|
-T Crocolisk Mastery: The Trial  |M|51.55,1.01| |QID|12551| |N|Return to Debaar at Nesingwary Base Camp in Sholazar Basin.|
-A Crocolisk Mastery: The Plan  |M|51.55,1.01| |QID|12560| |N|Accept Crocolisk Mastery: The Plan|
-T Dreadsaber Mastery: Stalking the Prey  |M|52.0,0.32| |QID|12550| |N|Return to Buck Cantwell at Nesingwary Base Camp in Sholazar Basin.|
-A Dreadsaber Mastery: Ready to Pounce  |M|52.0,0.32| |QID|12558| |N|Accept Dreadsaber Mastery: Ready to Pounce|
-T The Bones of Nozronn  |M|52.2,0.83| |QID|12544| |N|Return to Hemet Nesingwary at Nesingwary Base Camp in Sholazar Basin.|
-A Rhino Mastery: The Kill  |M|52.2,0.83| |QID|12556| |N|Accept Rhino Mastery: The Kill|
+C A Steak Fit for a Hunter |QID|12804| |N|Loot 5 Longneck Grazer Steaks.| |M|36.0,65.0|
 
-C Crocolisk Mastery: The Plan  |QO|1| |QID|12560| |N|Bring 5 Sandfern fronds to Debaar at the Nesingwary Base Camp.|  |M|27.25 59.89|
-T Crocolisk Mastery: The Plan  |M|51.55,1.01| |QID|12560| |N|Return to Debaar at Nesingwary Base Camp in Sholazar Basin.|
-A Crocolisk Mastery: The Ambush  |M|51.55,1.01| |QID|12569| |N|Accept Crocolisk Mastery: The Ambush|
+T Some Make Lemonade, Some Make Liquor |QID|12634| |N|To Grimbooze at Base Camp.| |M|27.1,59.0|
+A Still At It |QID|12644| |N|From Grimbooze.| |M|27.1,59.0|
+C Still At It |QID|12644| |N|Complete the distillation mini-game; bring Jungle Punch to Grimbooze.| |M|27.1,59.0|
+T Still At It |QID|12644| |N|To Grimbooze.| |M|27.1,59.0|
+A The Taste Test |QID|12645| |N|From Grimbooze.| |M|27.1,59.0|
 
-C The Taste Test  |U|38697| |QID|12645| |N|Offer a sample of Thunderbrew's Jungle Punch to Hemet Nesingwary, Hadrius Harlowe, and Tamara Wobblesprocket, then return to Grimbooze Thunderbrew at the Nesingwary Base Camp.|  |M|26.78 60.07|
+T A Steak Fit for a Hunter |QID|12804| |N|To Korg.| |M|27.3,58.7|
+T The Great Hunter's Challenge |QID|12592| |N|To Drostan.| |M|27.0,58.8|
+T Crocolisk Mastery: The Trial |QID|12551| |N|To Debaar.| |M|27.0,59.0|
+A Crocolisk Mastery: The Plan |QID|12560| |N|From Debaar.| |M|27.0,59.0|
+T Dreadsaber Mastery: Stalking the Prey |QID|12550| |N|To Buck.| |M|27.4,59.0|
+A Dreadsaber Mastery: Ready to Pounce |QID|12558| |N|From Buck.| |M|27.4,59.0|
+T The Bones of Nozronn |QID|12544| |N|To Hemet.| |M|27.1,58.6|
+A Rhino Mastery: The Kill |QID|12556| |N|From Hemet.| |M|27.1,58.6|
 
-T Aerial Surveillance  |M|24.89,92.36| |QID|12696| |N|\n|
-A An Embarassing Incident  |M|24.89,92.36| |QID|12699| |N|Accept An Embarassing Incident|
-A Force of Nature  |M|24.89,92.36| |QID|12803| |N|Accept Force of Nature|
-A The Part-time Hunter  |M|24.57,91.72| |QID|12654| |N|Accept The Part-time Hunter|
-C An Embarassing Incident  |U|40390| |QID|12699| |N|Look for Vic's Keys inside the lake at River's Heart.|  |M|49.95 61.53|
-C Crocolisk Mastery: The Ambush  |U|38564| |QO|1| |QID|12569| |N|Bring Bushwhacker's Jaw to Debaar at the Nesingwary Base Camp.|  |M|27.25 59.89|
-T An Embarassing Incident  |M|24.89,92.36| |QID|12699| |N|Return to Pilot Vic at Lakeside Landing in Sholazar Basin.|
-A Reconnaissance Flight  |M|24.89,92.36| |QID|12671| |N|Accept Reconnaissance Flight|
-C Reconnaissance Flight  |QID|12671| |N|Help Pilot Vic complete the Reconnaissance Flight.|  |M|49.95 61.53|
-T Reconnaissance Flight  |M|24.89,92.36| |QID|12671| |N|Speak to Pilot Vic at Lakside Landing in Sholazar Basin.|
+C Crocolisk Mastery: The Plan |QID|12560| |N|Collect 5 Sandfern (river islets south).| |M|47.0,66.0|
+T Crocolisk Mastery: The Plan |QID|12560| |N|To Debaar.| |M|27.0,59.0|
+A Crocolisk Mastery: The Ambush |QID|12569| |N|From Debaar.| |M|27.0,59.0|
 
-C The Part-time Hunter  |QO|1| |QID|12654| |N|Bring Pitch's Remains to Tamara Wobblesprocket at Lakeside Landing.|  |M|50.48 62.13|
-A Playing Along  |M|16.83,91.66| |QID|12528| |N|Accept Playing Along|
+C The Taste Test |QID|12645| |U|38697| |N|Give Jungle Punch to Hemet, Hadrius Harlowe, and Tamara Wobblesprocket (at Base Camp).| |M|27.1,59.0|
 
-T Playing Along  |M|20.84,86.29| |QID|12528| |N|\n|
-A The Ape Hunter's Slave  |M|20.84,86.29| |QID|12529| |N|Accept The Ape Hunter's Slave|
-A Tormenting the Softknuckles  |QID|12530| |N|Accept Tormenting the Softknuckles|  |M|54.99 69.11|
-C Tormenting the Softknuckles  |U|38467| |QO|1| |QID|12530| |N|Goregek has given you a Softknuckle Poker for use on Softknuckles to draw the Hardknuckle Matriarch out of hiding. Slay the Hardknuckle Matriarch and report her death to High-Shaman Rajak at Frenzyheart Hill.$B$BIf you lose Goregek's Shackles, speak to Elder Harkek in Frenzyheart Hill.|  |M|54.99 69.11|
-C The Ape Hunter's Slave  |U|38619| |QO|1| |QID|12529| |N|Kill 8 Hardknuckle Foragers and 6 Hardknuckle Chargers for High-Shaman Rakjak at Frenzyheart Hill.$B$BIf you lose Goregek's Shackles, speak to Elder Harkek in Frenzyheart Hill.|  |M|54.99 69.11|
-T The Ape Hunter's Slave  |M|20.84,86.29| |QID|12529| |N|Return to High-Shaman Rakjak at Frenzyheart Hill in Sholazar Basin.|
-T Tormenting the Softknuckles  |M|20.84,86.29| |QID|12530| |N|Return to High-Shaman Rakjak at Frenzyheart Hill in Sholazar Basin.|
+T Aerial Surveillance |QID|12696| |N|To Pilot Vic at Lakeside Landing.| |M|50.0,61.5|
+A An Embarrassing Incident |QID|12699| |N|From Pilot Vic.| |M|50.0,61.5|
+A Force of Nature |QID|12803| |N|From the Avatar marker (quest item later).| |M|50.0,61.5|
+A The Part-time Hunter |QID|12654| |N|From Tamara Wobblesprocket.| |M|50.5,62.1|
 
-A The Wasp Hunter's Apprentice  |M|20.84,86.29| |QID|12533| |N|Accept The Wasp Hunter's Apprentice|
-A The Sapphire Queen  |M|20.53,85.67| |QID|12534| |N|Accept The Sapphire Queen|
-C The Sapphire Queen  |U|38621| |QO|1| |QID|12534| |N|Bring the Stinger of the Sapphire Queen to High-Shaman Rakjak at Frenzyheart Hill.$B$BIf you lose Dajik's Worn Chalk, speak to Elder Harkek in Frenzyheart Hill.|  |M|54.99 69.11|
-C The Wasp Hunter's Apprentice  |U|38621| |QO|1| |QID|12533| |N|Kill 6 Sapphire Hive Wasps and 9 Sapphire Hive Drones for High-Shaman Rakjak in Frenzyheart Hill.$B$BIf you lose Dajik's Worn Chalk, speak to Elder Harkek in Frenzyheart Hill.|  |M|54.99 69.11|
-T The Wasp Hunter's Apprentice  |M|20.84,86.29| |QID|12533| |N|Return to High-Shaman Rakjak at Frenzyheart Hill in Sholazar Basin.|
-T The Sapphire Queen  |M|20.84,86.29| |QID|12534| |N|Return to High-Shaman Rakjak at Frenzyheart Hill in Sholazar Basin.|
-A Flown the Coop!  |M|20.53,85.67| |QID|12532| |N|Accept Flown the Coop!|
-C Flown the Coop!  |QID|12532| |N|Capture 12 Chicken Escapees for Elder Harkek.$B$BIf you lose Dajik's Worn Chalk, speak to Elder Harkek in Frenzyheart Hill.|  |M|55.50 69.68|
-T Flown the Coop!  |M|20.53,85.67| |QID|12532| |N|Return to Elder Harkek at Frenzyheart Hill in Sholazar Basin.|
+C An Embarrassing Incident |QID|12699| |U|40390| |N|Dive for Vic’s Keys at River’s Heart.| |M|49.9,61.5|
+C Crocolisk Mastery: The Ambush |QID|12569| |U|38564| |N|Use Sandfern Bait at the marked spot; kill Bushwhacker for his Jaw.| |M|46.5,63.3|
+T An Embarrassing Incident |QID|12699| |N|To Pilot Vic.| |M|50.0,61.5|
+A Reconnaissance Flight |QID|12671| |N|From Pilot Vic.| |M|50.0,61.5|
+C Reconnaissance Flight |QID|12671| |N|Ride with Vic; defend; land back at Lakeside.| |M|50.0,61.5|
+T Reconnaissance Flight |QID|12671| |N|To Pilot Vic.| |M|50.0,61.5|
 
-A The Underground Menace  |M|20.53,85.67| |QID|12531| |N|Accept The Underground Menace|
-A Mischief in the Making  |M|20.84,86.29| |QID|12535| |N|Accept Mischief in the Making|
-C The Underground Menace  |U|38621| |QO|1| |QID|12531| |N|Locate Serfex under the sands of the southern river, slay him, and bring his claw to High-Shaman Rakjak at Frenzyheart Hill.$B$BIf you lose Dajik's Worn Chalk, speak to Elder Harkek in Frenzyheart Hill.|  |M|54.99 69.11|
-C Mischief in the Making  |U|38621| |QID|12535| |N|High-Shaman Rakjak at Frenzyheart Hill wants 8 Skyreach Crystal Clusters.|  |M|54.99 69.11|
-T The Underground Menace  |M|20.84,86.29| |QID|12531| |N|Return to High-Shaman Rakjak at Frenzyheart Hill in Sholazar Basin.|
-T Mischief in the Making  |M|20.84,86.29| |QID|12535| |N|Return to High-Shaman Rakjak at Frenzyheart Hill in Sholazar Basin.|
+C The Part-time Hunter |QID|12654| |N|Kill Pitch and loot his Remains.| |M|50.5,77.0|
+A Playing Along |QID|12528| |N|From Tracker Gekgek (auto-start nearby).| |M|50.2,76.6|
 
-A A Rough Ride  |M|20.84,86.29| |QID|12536| |N|Accept A Rough Ride|
-C A Rough Ride  |QID|12536| |N|Ride the captive crocolisk to Mistwhisper Refuge and then speak to Zepik for further instructions.$B$BIf you lose Zepik's Hunting Horn, speak to Elder Harkek in Frenzyheart Hill.|  |M|54.99 69.11|
-T A Rough Ride  |U|38621| |QID|12536| |N|Speak to Zepik the Gorloc Hunter. Zepik can be summoned using Zepik's Hunting Horn if he is not nearby.|  |M|54.99 69.11|
-A Lightning Definitely Strikes Twice  |U|38621| |QID|12537| |N|Accept Lightning Definitely Strikes Twice|
-A The Mist Isn't Listening  |U|38621| |QID|12538| |N|Accept The Mist Isn't Listening|
-C Lightning Definitely Strikes Twice  |U|38510| |QID|12537| |N|Zepik wants you to smash the Skyreach Crystal Clusters in front of the Mistwhisper weather shrine.$B$BIf you lose Zepik's Hunting Horn, speak to Elder Harkek in Frenzyheart Hill.|
-C The Mist Isn't Listening  |U|38621| |QO|1| |QID|12538| |N|Zepik wants you to kill 12 Mistwhisper Gorlocs.$B$BIf you lose Zepik's Hunting Horn, speak to Elder Harkek in Frenzyheart Hill.|
-T Lightning Definitely Strikes Twice  |U|38621| |QID|12537| |N|Speak to Zepik the Gorloc Hunter. Zepik can be summoned using Zepik's Hunting Horn if he is not nearby.|
-T The Mist Isn't Listening  |U|38621| |QID|12538| |N|Speak to Zepik the Gorloc Hunter. Zepik can be summoned using Zepik's Hunting Horn if he is not nearby.|
-A Hoofing It  |QID|12539| |N|Accept Hoofing It|  |M|54.99 69.11|
+T Playing Along |QID|12528| |N|To High-Shaman Rakjak at Frenzyheart Hill.| |M|55.0,69.2|
+A The Ape Hunter's Slave |QID|12529| |N|From Rakjak.| |M|55.0,69.2|
+A Tormenting the Softknuckles |QID|12530| |N|From Elder Harkek.| |M|55.0,69.1|
 
-C Rhino Mastery: The Kill  |QO|1| |QID|12556| |N|Bring Farunn's Horn to Hemet Nesingwary at the Nesingwary Base Camp.|  |M|27.10 58.64|
-C Dreadsaber Mastery: Ready to Pounce  |QO|1| |QID|12558| |N|Bring Shango's Pelt to Buck Cantwell at the Nesingwary Base Camp.|  |M|26.67 59.03|
+C Tormenting the Softknuckles |QID|12530| |U|38467| |N|Poke Softknuckles to summon Hardknuckle Matriarch; kill her.| |M|66.0,73.0|
+C The Ape Hunter's Slave |QID|12529| |U|38619| |N|Kill 8 Hardknuckle Foragers & 6 Chargers.| |M|64.0,73.0|
 
-T Rhino Mastery: The Kill  |M|52.2,0.83| |QID|12556| |N|Return to Hemet Nesingwary at Nesingwary Base Camp in Sholazar Basin.|
-T Dreadsaber Mastery: Ready to Pounce  |M|52.0,0.32| |QID|12558| |N|Return to Buck Cantwell at Nesingwary Base Camp in Sholazar Basin.|
-T Crocolisk Mastery: The Ambush  |M|51.55,1.01| |QID|12569| |N|Return to Debaar at Nesingwary Base Camp in Sholazar Basin.|
-T The Taste Test  |M|51.45,0.46| |QID|12645| |N|Return to Grimbooze Thunderbrew at Nesingwary Base Camp in Sholazar Basin.|
-T It Could Be Anywhere!  |M|52.05,0.56| |QID|12624| |N|Return to Chad at Nesingwary Base Camp in Sholazar Basin.|
-A In Search of Bigger Game  |M|52.2,0.83| |QID|12595| |N|Accept In Search of Bigger Game|
+T The Ape Hunter's Slave |QID|12529| |N|To Rakjak.| |M|55.0,69.2|
+T Tormenting the Softknuckles |QID|12530| |N|To Rakjak.| |M|55.0,69.2|
 
-T Hoofing It  |M|20.84,86.29| |QID|12539| |N|\n|
-A Just Following Orders  |M|20.84,86.29| |QID|12540| |N|Accept Just Following Orders|
-N Check the quartermaster |N|You will eventually have to pick a faction, so while you're here check out the rewards the quartermaster has.| |QID|12540|  |M|58.48 62.49|
-C Just Following Orders  |QID|12540| |N|Locate an Injured Rainspeaker Oracle for High-Shaman Rakjak at Frenzyheart Hill.$B|  |M|58.48 62.49|
-T Just Following Orders  |M|24.38,82.08| |QID|12540| |N|Speak to the Injured Rainspeaker Oracle north of Frenzyheart Hill in Sholazar Basin.|
-A Fortunate Misunderstandings  |M|24.38,82.08| |QID|12570| |N|Accept Fortunate Misunderstandings|
-C Fortunate Misunderstandings  |QID|12570| |N|Escort the Injured Rainspeaker Oracle to Rainspaker Canopy and speak to High-Oracle Soo-say.|  |M|54.59 56.36|
-T Fortunate Misunderstandings  |M|27.66,86.77| |QID|12570| |N|Speak to High-Oracle Soo-say at Rainspeaker Canopy in Sholazar Basin.|
+A The Wasp Hunter's Apprentice |QID|12533| |N|From Rakjak.| |M|55.0,69.2|
+A The Sapphire Queen |QID|12534| |N|From Dajik.| |M|55.0,69.1|
+C The Wasp Hunter's Apprentice |QID|12533| |U|38621| |N|Kill 6 Wasps & 9 Drones at Sapphire Hive.| |M|59.0,79.0|
+C The Sapphire Queen |QID|12534| |U|38621| |N|Kill the Sapphire Queen and loot her Stinger.| |M|59.0,79.0|
+T The Wasp Hunter's Apprentice |QID|12533| |N|To Rakjak.| |M|55.0,69.2|
+T The Sapphire Queen |QID|12534| |N|To Rakjak.| |M|55.0,69.2|
 
-A Make the Bad Snake Go Away  |M|27.66,86.77| |QID|12571| |N|Accept Make the Bad Snake Go Away|
-A Gods like Shiny Things  |QID|12572| |N|Accept Gods like Shiny Things|  |M|54.59 56.36|
-N Check the quartermaster |N|Again, you're going to have to pick a side, so check this quartermaster to see if you like their items better.  Note that the egg can spawn minipets or a rare mount, while the tanuki's jar can spawn potions, alcohol, and a drink that turns you into a tanuki for a short time.| |QID|12572|  |M|54.59 56.36|
-C Gods like Shiny Things  |U|38622| |QO|1| |QID|12572| |N|Collect 6 of the treasures that Lafoo digs up and bring them to High-Oracle Soo-say in Rainspeaker Canopy.$B$BIf you lose Lafoo's Bug Bag, speak to High-Oracle Soo-say in Rainspeaker Canopy.|  |M|54.59 56.36|
-C Make the Bad Snake Go Away  |QO|1| |QID|12571| |N|High-Oracle Soo-say in Rainspeaker Canopy wants you to kill Venomtip and 10 Emperor Cobras.$B$BIf you lose Lafoo's Bug Bag, speak to High-Oracle Soo-say in Rainspeaker Canopy.|  |M|54.59 56.36|
-T Make the Bad Snake Go Away  |M|27.66,86.77| |QID|12571| |N|Return to High-Oracle Soo-say at Rainspeaker Canopy in Sholazar Basin.|
-A Making Peace  |M|27.66,86.77| |QID|12573| |N|Accept Making Peace|
-T Gods like Shiny Things  |M|27.66,86.77| |QID|12572| |N|Return to High-Oracle Soo-say at Rainspeaker Canopy in Sholazar Basin.|
-C Making Peace  |QID|12573| |N|High-Oracle Soo-say at Rainspeaker Canopy wants you to give a peace offering to Shaman Vekjik and then return with his response.$B$BIf you lose Lafoo's Bug Bag, speak to High-Oracle Soo-say in Rainspeaker Canopy.|  |M|54.59 56.36|
-T The Part-time Hunter  |M|24.57,91.72| |QID|12654| |N|Return to Tamara Wobblesprocket at Lakeside Landing in Sholazar Basin.|
-T Making Peace  |M|27.66,86.77| |QID|12573| |N|Return to High-Oracle Soo-say at Rainspeaker Canopy in Sholazar Basin.|
-A Back So Soon?  |M|27.66,86.77| |QID|12574| |N|Accept Back So Soon?|
+A Flown the Coop! |QID|12532| |N|From Elder Harkek.| |M|55.0,69.1|
+C Flown the Coop! |QID|12532| |N|Catch 12 Chicken Escapees around the hill.| |M|55.0,69.1|
+T Flown the Coop! |QID|12532| |N|To Elder Harkek.| |M|55.0,69.1|
 
-T Back So Soon?  |M|62.71,18.64| |QID|12574| |N|\n|
-A The Lost Mistwhisper Treasure  |M|62.71,18.64| |QID|12575| |N|Accept The Lost Mistwhisper Treasure|
-A Forced Hand  |M|62.71,18.64| |QID|12576| |N|Accept Forced Hand|
+A The Underground Menace |QID|12531| |N|From Elder Harkek.| |M|55.0,69.1|
+A Mischief in the Making |QID|12535| |N|From Rakjak.| |M|55.0,69.2|
+C The Underground Menace |QID|12531| |U|38621| |N|Kill Serfex under the sands; loot his Claw.| |M|53.0,74.0|
+C Mischief in the Making |QID|12535| |U|38621| |N|Gather 8 Skyreach Crystal Clusters (cliffs).| |M|56.0,68.0|
+T The Underground Menace |QID|12531| |N|To Rakjak.| |M|55.0,69.2|
+T Mischief in the Making |QID|12535| |N|To Rakjak.| |M|55.0,69.2|
 
-T In Search of Bigger Game  |M|67.94,18.86| |QID|12595| |N|\n|
-A Sharpening Your Talons  |M|67.94,18.86| |QID|12603| |N|Accept Sharpening Your Talons|
-A Securing the Bait  |M|67.94,18.86| |QID|12605| |N|Accept Securing the Bait|
-A Burning to Help  |M|67.96,18.54| |QID|12683| |N|Accept Burning to Help|
+A A Rough Ride |QID|12536| |N|From Rakjak.| |M|55.0,69.2|
+C A Rough Ride |QID|12536| |N|Ride the captive croc to Mistwhisper Refuge; talk to Zepik.| |M|57.0,70.0|
+T A Rough Ride |QID|12536| |U|38621| |N|To Zepik the Gorloc Hunter (use his horn if needed).|
 
-C The Lost Mistwhisper Treasure  |U|38623| |QO|1| |QID|12575| |N|Kill Warlord Tartek and retrieve the Mistwhisper Treasure for Mistcaller Soo-gan at Mistwhisper Refuge.$B$BIf you lose Jaloot's Favorite Crystal, speak to High-Oracle Soo-say in Rainspeaker Canopy.|  |M|42.15 38.65|
-C Forced Hand  |U|38623| |QO|1| |QID|12576| |N|Kill 8 Frenzyheart Spearbearers and 6 Frenzyheart Scavengers for Mistcaller Soo-gan at Mistwhisper Refuge.$B$BIf you lose Jaloot's Favorite Crystal, speak to High-Oracle Soo-say in Rainspeaker Canopy.|  |M|42.15 38.65|
+A Lightning Definitely Strikes Twice |QID|12537| |U|38621| |N|From Zepik.|
+A The Mist Isn't Listening |QID|12538| |U|38621| |N|From Zepik.|
+C Lightning Definitely Strikes Twice |QID|12537| |U|38510| |N|Shatter Crystal Clusters at the Mistwhisper weather shrine.|
+C The Mist Isn't Listening |QID|12538| |U|38621| |N|Kill 12 Mistwhisper Gorlocs.|
+T Lightning Definitely Strikes Twice |QID|12537| |U|38621| |N|To Zepik.|
+T The Mist Isn't Listening |QID|12538| |U|38621| |N|To Zepik.|
+A Hoofing It |QID|12539| |N|From Zepik; return to Frenzyheart Hill on foot.|
 
-C Burning to Help  |U|39164| |QO|1| |QID|12683| |N|Colvin Norrington at Dorian's Outpost wants you to take 5 Hydra Sputum Samples and kill 5 Bittertide Hydra.|  |M|42.07 28.66|
+C Rhino Mastery: The Kill |QID|12556| |N|Kill Farunn; loot Farunn’s Horn.| |M|48.0,44.0|
+C Dreadsaber Mastery: Ready to Pounce |QID|12558| |N|Kill Shango; loot Shango’s Pelt.| |M|32.0,35.0|
 
-T The Lost Mistwhisper Treasure  |M|62.71,18.64| |QID|12575| |N|Return to Mistcaller Soo-gan at Mistwhisper Refuge in Sholazar Basin.|
-T Forced Hand  |M|62.71,18.64| |QID|12576| |N|Return to Mistcaller Soo-gan at Mistwhisper Refuge in Sholazar Basin.|
-A Home Time!  |M|62.71,18.64| |QID|12577| |N|Accept Home Time!|
+T Rhino Mastery: The Kill |QID|12556| |N|To Hemet at Base Camp.| |M|27.1,58.6|
+T Dreadsaber Mastery: Ready to Pounce |QID|12558| |N|To Buck.| |M|27.4,59.0|
+T Crocolisk Mastery: The Ambush |QID|12569| |N|To Debaar.| |M|27.0,59.0|
+T The Taste Test |QID|12645| |N|To Grimbooze.| |M|27.1,59.0|
+T It Could Be Anywhere! |QID|12624| |N|To “Chad”.| |M|27.0,58.6|
+A In Search of Bigger Game |QID|12595| |N|From Hemet.| |M|27.1,58.6|
 
-C Securing the Bait  |QO|1| |QID|12605| |N|Bring 6 Primordial Hatchlings to Dorian Drakestalker at Dorian's Outpost.|  |M|42.34 28.70|
-C Sharpening Your Talons  |QO|1| |QID|12603| |N|Kill 6 Primordial Drakes and then speak with Dorian Drakestalker at Dorian's Outpost.|  |M|42.34 28.70|
+T Hoofing It |QID|12539| |N|To Rakjak at Frenzyheart Hill.| |M|55.0,69.2|
+A Just Following Orders |QID|12540| |N|From Rakjak.| |M|55.0,69.2|
+N Check the quartermaster |QID|12540| |N|You’ll soon pick a faction; preview Frenzyheart rewards here.|
+C Just Following Orders |QID|12540| |N|Find and speak to an Injured Rainspeaker Oracle north of the hill.| |M|55.5,64.0|
+T Just Following Orders |QID|12540| |N|To the Injured Rainspeaker Oracle.| |M|54.4,56.4|
+A Fortunate Misunderstandings |QID|12570| |N|From the Oracle.|
+C Fortunate Misunderstandings |QID|12570| |N|Escort to Rainspeaker Canopy; talk to High-Oracle Soo-say.| |M|54.6,56.4|
+T Fortunate Misunderstandings |QID|12570| |N|To High-Oracle Soo-say.| |M|54.6,56.4|
 
-T Sharpening Your Talons  |M|67.94,18.86| |QID|12603| |N|Return to Dorian Drakestalker at Dorian's Outpost in Sholazar Basin.|
-T Securing the Bait  |M|67.94,18.86| |QID|12605| |N|Return to Dorian Drakestalker at Dorian's Outpost in Sholazar Basin.|
-A Reagent Agent  |M|67.96,18.54| |QID|12681| |N|Accept Reagent Agent|
-T Burning to Help  |M|67.96,18.54| |QID|12683| |N|Return to Colvin Norrington at Dorian's Outpost in Sholazar Basin.|
-A A Mammoth Undertaking  |M|67.84,18.59| |QID|12607| |N|Accept A Mammoth Undertaking|
-A My Pet Roc  |M|67.84,18.59| |QID|12658| |N|Accept My Pet Roc|
-C A Mammoth Undertaking  |U|38627| |QO|1| |QID|12607| |N|Bring a Shattertusk Mammoth to Zootfizzle at Dorian's Outpost.|  |M|42.11 28.89|
-T A Mammoth Undertaking  |M|67.84,18.59| |QID|12607| |N|Return to Zootfizzle at Dorian's Outpost in Sholazar Basin.|
-A Post-partum Aggression  |M|67.94,18.86| |QID|12614| |N|Accept Post-partum Aggression|
+A Make the Bad Snake Go Away |QID|12571| |N|From Soo-say.| |M|54.6,56.4|
+A Gods like Shiny Things |QID|12572| |N|From Soo-say (Lafoo companion).| |M|54.6,56.4|
+N Check the quartermaster |QID|12572| |N|Preview Oracles rewards (egg, etc.).|
+C Gods like Shiny Things |QID|12572| |U|38622| |N|Let Lafoo dig treasures; collect 6.| |M|54.6,56.4|
+C Make the Bad Snake Go Away |QID|12571| |N|Kill Venomtip and 10 Emperor Cobras.| |M|56.0,52.0|
+T Make the Bad Snake Go Away |QID|12571| |N|To Soo-say.| |M|54.6,56.4|
+A Making Peace |QID|12573| |N|From Soo-say.| |M|54.6,56.4|
+T Gods like Shiny Things |QID|12572| |N|To Soo-say.| |M|54.6,56.4|
+C Making Peace |QID|12573| |N|Give peace offering to Shaman Vekjik (nearby) and return.| |M|51.3,64.6|
+T The Part-time Hunter |QID|12654| |N|To Tamara at Lakeside Landing.| |M|50.5,62.1|
+T Making Peace |QID|12573| |N|To Soo-say.| |M|54.6,56.4|
+A Back So Soon? |QID|12574| |N|From Soo-say.| |M|54.6,56.4|
 
-C Post-partum Aggression  |QO|1| |QID|12614| |N|Kill Broodmother Slivina and return to Dorian Drakestalker at Dorian's Outpost.|  |M|42.34 28.70|
-C Reagent Agent  |QO|1| |QID|12681| |N|Bring 5 Twisted Roc Claws to Colvin Norrington at Dorian's Outpost.|  |M|42.07 28.66|
-C My Pet Roc  |QO|1| |QID|12658| |N|Bring 7 Roc Eggs to Zootfizzle at Dorian's Outpost.|  |M|42.11 28.89|
+T Back So Soon? |QID|12574| |N|To Mistcaller Soo-gan at Mistwhisper Refuge.| |M|42.1,38.7|
+A The Lost Mistwhisper Treasure |QID|12575| |N|From Soo-gan.| |M|42.1,38.7|
+A Forced Hand |QID|12576| |N|From Soo-gan.| |M|42.1,38.7|
 
-T Post-partum Aggression  |M|67.94,18.86| |QID|12614| |N|Return to Dorian Drakestalker at Dorian's Outpost in Sholazar Basin.|
-T Reagent Agent  |M|67.96,18.54| |QID|12681| |N|Return to Colvin Norrington at Dorian's Outpost in Sholazar Basin.|
-T My Pet Roc  |M|67.84,18.59| |QID|12658| |N|Return to Zootfizzle at Dorian's Outpost in Sholazar Basin.|
+T In Search of Bigger Game |QID|12595| |N|To Dorian Drakestalker at Dorian’s Outpost.| |M|42.3,28.7|
+A Sharpening Your Talons |QID|12603| |N|From Dorian.| |M|42.3,28.7|
+A Securing the Bait |QID|12605| |N|From Dorian.| |M|42.3,28.7|
+A Burning to Help |QID|12683| |N|From Colvin Norrington.| |M|42.1,28.7|
 
-T Home Time!  |M|27.66,86.77| |QID|12577| |N|\n|
-A The Angry Gorloc  |M|27.66,86.77| |QID|12578| |N|Accept The Angry Gorloc|
+C The Lost Mistwhisper Treasure |QID|12575| |U|38623| |N|Kill Warlord Tartek; loot the Treasure.| |M|41.6,19.4|
+C Forced Hand |QID|12576| |U|38623| |N|Kill 8 Spearbearers & 6 Scavengers.| |M|42.0,35.0|
+C Burning to Help |QID|12683| |U|39164| |N|Collect 5 Hydra Sputum & kill 5 Bittertide Hydra.| |M|41.0,44.0|
 
-T Force of Nature  |M|31.81,74.75| |QID|12803| |N|\n|
-A An Issue of Trust  |M|31.81,74.75| |QID|12561| |N|Accept An Issue of Trust|
+T The Lost Mistwhisper Treasure |QID|12575| |N|To Soo-gan.| |M|42.1,38.7|
+T Forced Hand |QID|12576| |N|To Soo-gan.| |M|42.1,38.7|
+A Home Time! |QID|12577| |N|From Soo-gan.| |M|42.1,38.7|
 
-C The Angry Gorloc  |U|38624| |QID|12578| |N|Travel to Mosswalker Village and speak to Moodle once you've arrived.$B$BIf you lose Moodle's Stress Ball, speak to High-Oracle Soo-say in Rainspeaker Canopy.|  |M|54.59 56.36|
-T The Angry Gorloc  |U|38624| |QID|12578| |N|Speak to Moodle. Moodle can be summoned using Moodle's Stress Ball if he is not nearby.|  |M|54.59 56.36|
-A The Mosswalker Savior  |U|38624| |QID|12580| |N|Accept The Mosswalker Savior|
-A Lifeblood of the Mosswalker Shrine  |U|38624| |QID|12579| |N|Accept Lifeblood of the Mosswalker Shrine|
-C The Mosswalker Savior  |U|38624| |QID|12580| |N|Moodle wants you to rescue 6 of the Mosswalker Victims in Mosswalker Village, though some of them may no longer be alive to save.$B$BIf you lose Moodle's Stress Ball, speak to High-Oracle Soo-say in Rainspeaker Canopy.|
-T The Mosswalker Savior  |U|38624| |QID|12580| |N|Speak to Moodle. Moodle can be summoned using Moodle's Stress Ball if he is not nearby.|
+C Securing the Bait |QID|12605| |N|Collect 6 Primordial Hatchlings (nests).| |M|43.5,37.0|
+C Sharpening Your Talons |QID|12603| |N|Kill 6 Primordial Drakes.| |M|44.0,33.0|
 
-C An Issue of Trust  |QO|1| |QID|12561| |N|Obtain Freya's trust by destroying 6 Blighted Corpses and 10 Bonescythe Ravagers in the Lost Lands.|  |M|64.57 48.60|
-T An Issue of Trust  |M|31.81,74.75| |QID|12561| |N|Return to Avatar of Freya at Rainspeaker Rapids in Sholazar Basin.|
-A Returned Sevenfold  |M|31.81,74.75| |QID|12611| |N|Accept Returned Sevenfold|
-C Returned Sevenfold  |U|38657| |QO|1| |QID|12611| |N|The Avatar of Freya wants you defeat Thalgran Blightbringer by using Freya's Ward to reflect his Deathbolts back to him sevenfold.|  |M|64.57 48.60|
-T Returned Sevenfold  |M|31.81,74.75| |QID|12611| |N|Return to Avatar of Freya at Rainspeaker Rapids in Sholazar Basin.|
-A The Fallen Pillar  |M|31.81,74.75| |QID|12612| |N|Accept The Fallen Pillar|
-A Salvaging Life's Strength  |M|31.81,74.75| |QID|12805| |N|Accept Salvaging Life's Strength|
+T Sharpening Your Talons |QID|12603| |N|To Dorian.| |M|42.3,28.7|
+T Securing the Bait |QID|12605| |N|To Dorian.| |M|42.3,28.7|
+A Reagent Agent |QID|12681| |N|From Colvin.| |M|42.1,28.7|
+T Burning to Help |QID|12683| |N|To Colvin.| |M|42.1,28.7|
+A A Mammoth Undertaking |QID|12607| |N|From Zootfizzle.| |M|42.2,28.6|
+A My Pet Roc |QID|12658| |N|From Zootfizzle.| |M|42.2,28.6|
 
-T The Fallen Pillar  |M|25.53,74.14| |QID|12612| |N|\n|
-A Cultist Incursion  |M|25.53,74.14| |QID|12608| |N|Accept Cultist Incursion|
-C Salvaging Life's Strength  |U|40397| |QO|1| |QID|12805| |N|The Avatar of Freya wants you to go to the Sundered Shard to the southeast and use the Lifeforce Gem on 8 destroyed Lifeblood Elementals.|  |M|64.57 48.60|
-C Lifeblood of the Mosswalker Shrine  |U|38624| |QO|1| |QID|12579| |N|Moodle wants you to collect 10 Lifeblood Shards, but stay away from the cave inside of the pillar itself.$B$BIf you lose Moodle's Stress Ball, speak to High-Oracle Soo-say in Rainspeaker Canopy.|
+C A Mammoth Undertaking |QID|12607| |U|38627| |N|Control a Shattertusk Mammoth and bring it back to Zootfizzle.| |M|40.5,26.5|
+T A Mammoth Undertaking |QID|12607| |N|To Zootfizzle.| |M|42.2,28.6|
+A Post-partum Aggression |QID|12614| |N|From Dorian.| |M|42.3,28.7|
 
-T Lifeblood of the Mosswalker Shrine  |U|38624| |QID|12579| |N|Speak to Moodle. Moodle can be summoned using Moodle's Stress Ball if he is not nearby.|
-A A Hero's Burden  |U|38624| |QID|12581| |N|Accept A Hero's Burden|
-N A Hero's Burden |N|This is a group quest, but some classes may be able to solo it.  If you choose to do it now, head down into the Sundered Shard and kill the lich (72.21, 56.99).  This is also the quest where you pick a faction mid-fight, so be ready to save the gorlock or the tanuki.  If you want to switch factions, just come do this quest again on another day.| |QID|12581|
+C Post-partum Aggression |QID|12614| |N|Kill Broodmother Slivina.| |M|41.0,32.0|
+C Reagent Agent |QID|12681| |N|Collect 5 Twisted Roc Claws.| |M|40.0,35.0|
+C My Pet Roc |QID|12658| |N|Collect 7 Roc Eggs.| |M|39.5,30.0|
 
-T Cultist Incursion  |M|31.81,74.75| |QID|12608| |N|\n|
-T Salvaging Life's Strength  |M|31.81,74.75| |QID|12805| |N|Return to Avatar of Freya at Rainspeaker Rapids in Sholazar Basin.|
-A Exterminate the Intruders  |M|31.81,74.75| |QID|12617| |N|Accept Exterminate the Intruders|
-A Weapons of Destruction  |M|31.81,74.75| |QID|12660| |N|Accept Weapons of Destruction|
+T Post-partum Aggression |QID|12614| |N|To Dorian.| |M|42.3,28.7|
+T Reagent Agent |QID|12681| |N|To Colvin.| |M|42.1,28.7|
+T My Pet Roc |QID|12658| |N|To Zootfizzle.| |M|42.2,28.6|
 
-C Weapons of Destruction  |QO|1| |QID|12660| |N|The Avatar of Freya wants you to go to the Death's Hand Encampment to the northwest and destroy 4 Unstable Explosives.|  |M|64.57 48.60|
-C Exterminate the Intruders  |QO|1| |QID|12617| |N|The Avatar of Freya at the Rainspeaker Rapids wants you to go to the Death's Hand Encampment to the northwest and slay 8 Cultist Infiltrators.|  |M|64.57 48.60|
+T Home Time! |QID|12577| |N|To Soo-say at Rainspeaker Canopy.| |M|54.6,56.4|
+A The Angry Gorloc |QID|12578| |N|From Soo-say.| |M|54.6,56.4|
 
-T Exterminate the Intruders  |M|31.81,74.75| |QID|12617| |N|Return to Avatar of Freya at Rainspeaker Rapids in Sholazar Basin.|
-T Weapons of Destruction  |M|31.81,74.75| |QID|12660| |N|Return to Avatar of Freya at Rainspeaker Rapids in Sholazar Basin.|
-A The Lifewarden's Wrath  |M|31.81,74.75| |QID|12620| |N|Accept The Lifewarden's Wrath|
-C The Lifewarden's Wrath  |U|38684| |QID|12620| |N|The Avatar of Freya at the Rainspeaker Rapids wants you to use Freya's Horn atop of the Glimmering Pillar.|  |M|64.57 48.60|
-T The Lifewarden's Wrath  |M|31.81,74.75| |QID|12620| |N|Return to Avatar of Freya at Rainspeaker Rapids in Sholazar Basin.|
-A Freya's Pact  |M|31.81,74.75| |QID|12621| |N|Accept Freya's Pact|
-C Freya's Pact  |QID|12621| |N|Listen to what the Avatar of Freya has to say.|  |M|64.57 48.60|
-T Freya's Pact  |M|31.81,74.75| |QID|12621| |N|Return to Avatar of Freya at Rainspeaker Rapids in Sholazar Basin.|
-A Powering the Waygate - The Maker's Perch  |M|31.81,74.75| |QID|12559| |N|Accept Powering the Waygate - The Maker's Perch|
+T Force of Nature |QID|12803| |N|To Avatar of Freya at Rainspeaker Rapids.| |M|64.6,48.6|
+A An Issue of Trust |QID|12561| |N|From Avatar of Freya.| |M|64.6,48.6|
 
-C Powering the Waygate - The Maker's Perch  |QID|12559| |N|The Avatar of Freya at the Rainspeaker Rapids wants you to go to the Maker's Perch and use the Activation Switch Gamma.|  |M|64.57 48.60|
+C The Angry Gorloc |QID|12578| |U|38624| |N|Go to Mosswalker Village; speak to Moodle on arrival.| |M|75.0,52.0|
+T The Angry Gorloc |QID|12578| |U|38624| |N|To Moodle (use Stress Ball if needed).|
+A The Mosswalker Savior |QID|12580| |U|38624| |N|From Moodle.|
+A Lifeblood of the Mosswalker Shrine |QID|12579| |U|38624| |N|From Moodle.|
+C The Mosswalker Savior |QID|12580| |U|38624| |N|Rescue 6 Mosswalker Victims (some may be dead).|
+T The Mosswalker Savior |QID|12580| |U|38624| |N|To Moodle.|
 
-T Powering the Waygate - The Maker's Perch  |M|31.81,74.75| |QID|12559| |N|Return to Avatar of Freya at Rainspeaker Rapids in Sholazar Basin.|
-A Powering the Waygate - The Maker's Overlook  |M|31.81,74.75| |QID|12613| |N|Accept Powering the Waygate - The Maker's Overlook|
+C An Issue of Trust |QID|12561| |N|Kill 6 Blighted Corpses & 10 Bonescythe Ravagers in the Lost Lands.| |M|66.0,49.0|
+T An Issue of Trust |QID|12561| |N|To Avatar of Freya.| |M|64.6,48.6|
+A Returned Sevenfold |QID|12611| |N|From Freya.| |M|64.6,48.6|
+C Returned Sevenfold |QID|12611| |U|38657| |N|Reflect Thalgran Blightbringer’s Deathbolts 7x with Freya’s Ward.| |M|66.0,49.0|
+T Returned Sevenfold |QID|12611| |N|To Freya.| |M|64.6,48.6|
+A The Fallen Pillar |QID|12612| |N|From Freya.| |M|64.6,48.6|
+A Salvaging Life's Strength |QID|12805| |N|From Freya.| |M|64.6,48.6|
 
-A A Timeworn Coffer  |M|27.95,55.67| |QID|12691| |N|Accept A Timeworn Coffer|
+T The Fallen Pillar |QID|12612| |N|To the Marker at the Glimmering Pillar.| |M|49.9,61.5|
+A Cultist Incursion |QID|12608| |N|From the same Marker.| |M|49.9,61.5|
+C Salvaging Life's Strength |QID|12805| |U|40397| |N|Use the Lifeforce Gem on 8 destroyed Lifeblood Elementals (Sundered Shard).| |M|70.0,58.0|
+C Lifeblood of the Mosswalker Shrine |QID|12579| |U|38624| |N|Collect 10 Lifeblood Shards (avoid the pillar cave).| |M|68.0,58.0|
+T Lifeblood of the Mosswalker Shrine |QID|12579| |U|38624| |N|To Moodle.|
+A A Hero's Burden |QID|12581| |U|38624| |N|From Moodle (group quest; faction choice happens mid-fight).|
+N A Hero's Burden |QID|12581| |N|Optional now. The lich is inside the Sundered Shard; this event is how you choose Oracles vs. Frenzyheart. You can redo on a later day to switch.|
 
-C Powering the Waygate - The Maker's Overlook  |QID|12613| |N|The Avatar of Freya wants you to head to the Maker's Overlook in eastern Sholazar Basin and use the Activation Switch Theta.|  |M|64.57 48.60|
-C A Timeworn Coffer  |QO|1| |QID|12691| |N|Obtain a Huge Stone Key from the nearby Sholazar Guardians and bring it to the Timeworn Coffer at the Maker's Overlook.|
-T A Timeworn Coffer  |M|27.95,55.67| |QID|12691| |N|Return to Timeworn Coffer on the Maker's Overlook in Sholazar Basin.|
-T Powering the Waygate - The Maker's Overlook  |M|31.81,74.75| |QID|12613| |N|Return to Avatar of Freya at Rainspeaker Rapids in Sholazar Basin.|
-A The Etymidian  |M|31.81,74.75| |QID|12548| |N|Accept The Etymidian|
+T Cultist Incursion |QID|12608| |N|To Avatar of Freya.| |M|64.6,48.6|
+T Salvaging Life's Strength |QID|12805| |N|To Freya.| |M|64.6,48.6|
+A Exterminate the Intruders |QID|12617| |N|From Freya.| |M|64.6,48.6|
+A Weapons of Destruction |QID|12660| |N|From Freya.| |M|64.6,48.6|
 
-T The Etymidian   |QID|12548| |N|\n|  |M|47.38 9.21|
-A The Activation Rune   |QID|12547| |N|Accept The Activation Rune|  |M|47.38 9.21|
-C The Activation Rune  |Z|The Shaper's Terrace| |QO|1| |QID|12547| |N|Obtain the Omega Rune inside the Shaper's Terrace and bring it to The Etymidian.|  |M|47.38 9.21|
-T The Activation Rune   |QID|12547| |N|Return to The Etymidian in Un'Goro Crater.|  |M|47.38 9.21|
-A Back Through the Waygate   |QID|12797| |N|Accept Back Through the Waygate|  |M|47.38 9.21|
-T Back Through the Waygate  |M|31.81,74.75| |QID|12797| |N|Return to Avatar of Freya at Rainspeaker Rapids in Sholazar Basin.|
-A Reclamation  |M|31.81,74.75| |QID|12546| |N|Accept Reclamation|
-C Reclamation  |U|38709| |QO|1| |QID|12546| |N|Go to the Avalanche in Sholazar Basin and use the Omega Rune to deploy Etymidian.  Use him to slay 200 Scourge Minions, Bythius the Flesh-Shaper, Urgreth of the Thousand Tombs and Hailscorn.$B$BSpeak to the Avatar of Freya in Sholazar Basin when you've completed this task.|  |M|64.57 48.60|
-T Reclamation  |M|31.81,74.75| |QID|12546| |N|Return to Avatar of Freya at Rainspeaker Rapids in Sholazar Basin.|
+C Weapons of Destruction |QID|12660| |N|Destroy 4 Unstable Explosives at Death’s Hand Encampment.| |M|73.0,50.0|
+C Exterminate the Intruders |QID|12617| |N|Kill 8 Cultist Infiltrators there.| |M|73.0,50.0|
+T Exterminate the Intruders |QID|12617| |N|To Freya.| |M|64.6,48.6|
+T Weapons of Destruction |QID|12660| |N|To Freya.| |M|64.6,48.6|
+A The Lifewarden's Wrath |QID|12620| |N|From Freya.| |M|64.6,48.6|
+C The Lifewarden's Wrath |QID|12620| |U|38684| |N|Use Freya’s Horn atop the Glimmering Pillar.| |M|49.9,61.5|
+T The Lifewarden's Wrath |QID|12620| |N|To Freya.| |M|64.6,48.6|
+A Freya's Pact |QID|12621| |N|From Freya.| |M|64.6,48.6|
+C Freya's Pact |QID|12621| |N|Listen to Freya.| |M|64.6,48.6|
+T Freya's Pact |QID|12621| |N|To Freya.| |M|64.6,48.6|
+A Powering the Waygate - The Maker's Perch |QID|12559| |N|From Freya.| |M|64.6,48.6|
+
+C Powering the Waygate - The Maker's Perch |QID|12559| |N|Use Activation Switch Gamma at the Perch (NW cliffs).| |M|26.0,35.5|
+T Powering the Waygate - The Maker's Perch |QID|12559| |N|To Freya.| |M|64.6,48.6|
+A Powering the Waygate - The Maker's Overlook |QID|12613| |N|From Freya.| |M|64.6,48.6|
+
+A A Timeworn Coffer |QID|12691| |N|From the Coffer at Maker’s Overlook (needs key).| |M|80.3,55.8|
+C Powering the Waygate - The Maker's Overlook |QID|12613| |N|Use Activation Switch Theta at the Overlook (east cliffs).| |M|80.3,55.8|
+C A Timeworn Coffer |QID|12691| |N|Farm Huge Stone Key from Sholazar Guardians; open the Coffer.| |M|80.3,55.8|
+T A Timeworn Coffer |QID|12691| |N|At the Coffer.| |M|80.3,55.8|
+T Powering the Waygate - The Maker's Overlook |QID|12613| |N|To Freya.| |M|64.6,48.6|
+A The Etymidian |QID|12548| |N|From Freya.| |M|64.6,48.6|
+
+T The Etymidian |QID|12548| |Z|Un'Goro Crater| |N|To The Etymidian at the Shaper’s Terrace.| |M|47.4,9.2|
+A The Activation Rune |QID|12547| |Z|Un'Goro Crater| |N|From The Etymidian.| |M|47.4,9.2|
+C The Activation Rune |QID|12547| |Z|The Shaper's Terrace| |N|Obtain the Omega Rune inside the Terrace.| |M|47.4,9.2|
+T The Activation Rune |QID|12547| |Z|Un'Goro Crater| |N|To The Etymidian.| |M|47.4,9.2|
+A Back Through the Waygate |QID|12797| |Z|Un'Goro Crater| |N|From The Etymidian.| |M|47.4,9.2|
+
+T Back Through the Waygate |QID|12797| |N|To Avatar of Freya.| |M|64.6,48.6|
+A Reclamation |QID|12546| |N|From Freya.| |M|64.6,48.6|
+C Reclamation |QID|12546| |U|38709| |N|At The Avalanche, use the Omega Rune to deploy Etymidian; kill 200 Scourge, Bythius, Urgreth, and Hailscorn.| |M|73.0,24.0|
+T Reclamation |QID|12546| |N|To Avatar of Freya at Rainspeaker Rapids.| |M|64.6,48.6|
+
+
+
+
 ]]
 end)

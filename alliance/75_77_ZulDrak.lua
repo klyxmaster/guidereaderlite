@@ -1,316 +1,310 @@
 GuideReaderLite_RegisterGuide("Zul'Drak (75-77)", "Sholazar Basin (77-78)", "Alliance", function()
 return [[
-A Reallocating Resources  |Z|Grizzly Hills|  |QID|12770| |N|Accept Reallocating Resources|  |M|59.42 26.00|
-T Reallocating Resources  |M|19.19,99.89| |QID|12770| |N|\n|
-A This Just In: Fire Still Hot!  |M|18.46,99.88| |QID|12859| |N|Accept This Just In: Fire Still Hot!|
-A Trolls Is Gone Crazy!  |M|21.96,80.68| |QID|12861| |N|Accept Trolls Is Gone Crazy!|
-A In Search Of Answers  |M|21.91,80.64| |QID|12902| |N|Accept In Search Of Answers|
+A Reallocating Resources |Z|Grizzly Hills| |QID|12770| |N|From Gryan Stoutmantle at Westfall Brigade Encampment.| |M|59.42,26.00|
+T Reallocating Resources |QID|12770| |N|To the Argent NPC at Light's Breach.| |M|32.0,75.5|
 
-T In Search Of Answers  |M|17.58,83.98| |QID|12902| |N|\n|
-A Orders From Drakuru  |M|17.58,83.98| |QID|12883| |N|Accept Orders From Drakuru|
-C This Just In: Fire Still Hot!  |U|41131| |QID|12859| |N|Elder Shaman Moky at Light's Breach in Zul'Drak wants you to use the Rageclaw Fire Extinguisher to douse 15 hut fires at Rageclaw Den.$B|  |M|32.02 75.60|
-C Trolls Is Gone Crazy!  |U|41161| |QID|12861| |N|Chief Rageclaw at Light's Breach in Zul'Drak wants you to use the Drakuru "Lock Openers"" found on various Drakuru trolls to free 8 Captured Rageclaw."|  |M|32.18 75.64|
+A This Just In: Fire Still Hot! |QID|12859| |N|From Elder Shaman Moky at Light's Breach.| |M|32.0,75.5|
+A Trolls Is Gone Crazy! |QID|12861| |N|From Chief Rageclaw at Light's Breach.| |M|32.0,75.6|
+A In Search Of Answers |QID|12902| |N|From Crusader Lord Lantinga at Light's Breach.| |M|32.1,75.7|
 
-T This Just In: Fire Still Hot!  |M|18.46,99.88| |QID|12859| |N|Return to Elder Shaman Moky at Light's Breach in Zul'Drak.|
-T Trolls Is Gone Crazy!  |M|21.96,80.68| |QID|12861| |N|Return to Chief Rageclaw at Light's Breach in Zul'Drak.|
-T Orders From Drakuru  |M|21.91,80.64| |QID|12883| |N|Return to Crusader Lord Lantinga at Light's Breach in Zul'Drak.|
-A The Ebon Watch  |M|21.91,80.64| |QID|12884| |N|Accept The Ebon Watch|
-A Crusader Forward Camp  |M|21.91,80.64| |QID|12894| |N|Accept Crusader Forward Camp|
+T In Search Of Answers |QID|12902| |N|To the Scroll Rack in the nearby camp.| |M|17.6,84.0|
+A Orders From Drakuru |QID|12883| |N|From the Orders on the Scroll Rack.| |M|17.6,84.0|
 
-T Crusader Forward Camp  |M|25.61,90.56| |QID|12894| |N|\n|
-A That's What Friends Are For...  |M|25.61,90.56| |QID|12903| |N|Accept That's What Friends Are For...|
-A Making Something Out Of Nothing  |M|25.66,90.49| |QID|12901| |N|Accept Making Something Out Of Nothing|
+C This Just In: Fire Still Hot! |QID|12859| |U|41131| |N|Use the Rageclaw Fire Extinguisher to douse 15 hut fires at Rageclaw Den.| |M|32.0,75.6|
+C Trolls Is Gone Crazy! |QID|12861| |U|41161| |N|Use Drakuru “Lock Openers” (from Drakuru trolls) to free 8 Captured Rageclaw.| |M|32.2,75.6|
 
-A A Great Storm Approaches  |M|30.35,83.15| |QID|12912| |N|Accept A Great Storm Approaches|
-A Light Won't Grant Me Vengeance  |M|29.55,80.02| |QID|12904| |N|Accept Light Won't Grant Me Vengeance|
-N Find Burr |QID|12903| |QO|Burr found: 1/1| |N|A bit further to the west (15.57, 59.46)|  |M|25.28 63.96|
-C Making Something Out Of Nothing  |QID|12901| |N|Engineer Reed at Crusader Forward Camp in Zul'Drak has asked that you recover 10 pieces of Scourge Scrap Metal.|  |M|25.23 63.88|
-C That's What Friends Are For...  |QID|12903| |N|Crusader MacKellar at Crusader Forward Camp has asked that you find Crusader Dargath, Gerk and Burr.|  |M|25.28 63.96|
+T This Just In: Fire Still Hot! |QID|12859| |N|To Elder Shaman Moky at Light's Breach.| |M|32.0,75.5|
+T Trolls Is Gone Crazy! |QID|12861| |N|To Chief Rageclaw at Light's Breach.| |M|32.0,75.6|
+T Orders From Drakuru |QID|12883| |N|To Crusader Lord Lantinga at Light's Breach.| |M|32.1,75.7|
+A The Ebon Watch |QID|12884| |N|From Crusader Lord Lantinga.| |M|32.1,75.7|
+A Crusader Forward Camp |QID|12894| |N|From Crusader Lord Lantinga.| |M|32.1,75.7|
 
-T That's What Friends Are For...  |M|25.61,90.56| |QID|12903| |N|Return to Crusader MacKellar at Crusader Forward Camp in Zul'Drak.|
-T Making Something Out Of Nothing  |M|25.66,90.49| |QID|12901| |N|Return to Engineer Reed at Crusader Forward Camp in Zul'Drak.|
-T A Great Storm Approaches  |M|25.66,90.49| |QID|12912| |N|\n|
-A Gymer's Salvation  |M|25.66,90.49| |QID|12914| |N|Accept Gymer's Salvation|
+T Crusader Forward Camp |QID|12894| |N|To Crusader MacKellar at Crusader Forward Camp.| |M|25.6,65.0|
+A That's What Friends Are For... |QID|12903| |N|From Crusader MacKellar.| |M|25.6,65.0|
+A Making Something Out Of Nothing |QID|12901| |N|From Engineer Reed.| |M|25.7,65.0|
 
-C Gymer's Salvation  |QO|1| |QID|12914| |N|Engineer Reed at Crusader Forward Camp in Zul'Drak wants you to bring him 6 Banshee Essence and 6 Diatomaceous Earth.|  |M|25.23 63.88|
+A A Great Storm Approaches |QID|12912| |N|From Gymer (cage area).| |M|30.4,61.9|
+A Light Won't Grant Me Vengeance |QID|12904| |N|From Gerk at Thrym’s End.| |M|29.6,60.0|
 
-T The Ebon Watch  |M|19.57,75.07| |QID|12884| |N|Report to Stefan Vadu at Ebon Watch in Zul'Drak.|
-A Kickin' Nass and Takin' Manes  |M|19.57,75.07| |QID|12630| |N|Accept Kickin' Nass and Takin' Manes|
-C Kickin' Nass and Takin' Manes  |U|38659| |QO|1| |QID|12630| |N|Stefan in Ebon Watch wants you to use Nass to collect 10 hair samples from Withered Trolls.$b$bIf you lose Nass, return to Stefan to recover him.|  |M|14.06 73.80|
-A An Invitation, of Sorts...  |U|38660| |QID|12631| |N|Accept An Invitation, of Sorts...|  |M|14.06 73.80|
-A Darkness Calling  |U|38673| |QID|12633| |N|Accept Darkness Calling|  |M|14.06 73.80|
+N Find Burr |QID|12903| |QO|1| |N|Find Burr (west of camp).| |M|25.3,64.0|
+C Making Something Out Of Nothing |QID|12901| |N|Loot 10 Scourge Scrap Metal around the Forward Camp.| |M|25.2,63.9|
+C That's What Friends Are For... |QID|12903| |N|Find Dargath, Gerk, and Burr.| |M|25.3,64.0|
 
-T Kickin' Nass and Takin' Manes  |M|19.57,75.07| |QID|12630| |N|Return to Stefan Vadu at Ebon Watch in Zul'Drak.|
-T An Invitation, of Sorts...  |M|19.57,75.07| |QID|12631| |N|\n|
-A Near Miss  |O| | |M|19.57,75.07| |QID|12637| |N|Accept Near Miss|
-T Darkness Calling  |M|19.57,75.07| |QID|12633| |N|\n|
-A Close Call  |O| | |M|19.57,75.07| |QID|12638| |N|Accept Close Call|
-C Near Miss  |O| | |QID|12637| |N|Stefan at Ebon Watch wants you to take the Unliving Choker to Bloodrose Datura.|  |M|14.06 73.80|
-C Close Call  |O| | |QID|12638| |N|Stefan at Ebon Watch wants you to take the Writhing Choker to Bloodrose Datura.|  |M|14.06 73.80|
-A Taking a Stand  |M|19.42,75.38| |QID|12795| |N|Accept Taking a Stand|
-T Near Miss  |M|19.57,75.07| |QID|12637| |N|Return to Stefan Vadu at Ebon Watch in Zul'Drak.|
-A You Can Run, But You Can't Hide  |O| | |M|19.57,75.07| |QID|12629| |N|Accept You Can Run, But You Can't Hide|
-T Close Call  |M|19.57,75.07| |QID|12638| |N|Return to Stefan Vadu at Ebon Watch in Zul'Drak.|
-A Silver Lining  |O| | |M|19.57,75.07| |QID|12643| |N|Accept Silver Lining|
-C You Can Run, But You Can't Hide  |O| | |QO|1| |QID|12629| |N|Stefan in Ebon Watch asked you to go to the Reliquary of Agony to collect 5 Putrid Abomination Guts from the Putrid Abominations and 5 Gooey Ghoul Drools.|  |M|14.06 73.80|
-C Silver Lining  |O| | |QO|1| |QID|12643| |N|Stefan in Ebon Watch asked you to go to the Reliquary of Agony to collect 5 Putrid Abomination Guts from the Putrid Abominations and 5 Gooey Ghoul Drools.|  |M|14.06 73.80|
-T You Can Run, But You Can't Hide  |O| | |M|19.57,75.07| |QID|12629| |N|Return to Stefan Vadu at Ebon Watch in Zul'Drak.|
-A Dressing Down  |O| | |M|19.57,75.07| |QID|12648| |N|Accept Dressing Down|
-T Silver Lining  |O| | |M|19.57,75.07| |QID|12643| |N|Return to Stefan Vadu at Ebon Watch in Zul'Drak.|
-A Suit Up!  |O| | |M|19.57,75.07| |QID|12649| |N|Accept Suit Up!|
+T That's What Friends Are For... |QID|12903| |N|To Crusader MacKellar.| |M|25.6,65.0|
+T Making Something Out Of Nothing |QID|12901| |N|To Engineer Reed.| |M|25.7,65.0|
+T A Great Storm Approaches |QID|12912| |N|To Engineer Reed.| |M|25.7,65.0|
+A Gymer's Salvation |QID|12914| |N|From Engineer Reed.| |M|25.7,65.0|
+C Gymer's Salvation |QID|12914| |N|Collect 6 Banshee Essence and 6 Diatomaceous Earth.| |M|25.2,63.9|
 
-C Dressing Down  |O| | |38699| | |QID|12648| |N|Stefan at Ebon Watch wants you to use the Ensorceled Choker to apply the Scourge disguise.$b$bWhile in Scourge form, you are to purchase Bitter Plasma from Gristlegut.$b$bIf you lose your Ensorcelled Choker, return to Stefan at Ebon Watch to get another.|  |M|14.06 73.80|
-C Suit Up!  |O| | |38699| | |QID|12649| |N|Stefan at Ebon Watch wants you to use the Ensorcelled Choker to apply the Scourge disguise.$b$bWhile in Scourge form, you are to purchase Bitter Plasma from Gristlegut.$b$bIf you lose your Ensorcelled Choker, return to Stefan at Ebon Watch to get another.|  |M|14.06 73.80|
-A Feedin' Da Goolz  |U|38699| |M|18.56,83.08| |QID|12652| |N|Accept Feedin' Da Goolz|
-C Feedin' Da Goolz  |U|38701| |QID|12652| |N|Gristlegut at the Reliquary of Agony wants you to use Bowels and Brains Bowl next to 10 Decaying Ghouls.|  |M|19.86 75.45|
-T Feedin' Da Goolz  |U|38699| |M|18.56,83.08| |QID|12652| |N|Return to Gristlegut at the Reliquary of Agony in Zul'Drak.|
+T The Ebon Watch |QID|12884| |N|To Stefan Vadu at Ebon Watch.| |M|14.0,73.8|
+A Kickin' Nass and Takin' Manes |QID|12630| |N|From Stefan Vadu.| |M|14.0,73.8|
+C Kickin' Nass and Takin' Manes |QID|12630| |U|38659| |N|Use Nass to gather 10 Hair Samples from Withered Trolls.| |M|14.0,73.8|
+A An Invitation, of Sorts... |QID|12631| |U|38660| |N|Starts from the Unliving Choker drop.|
+A Darkness Calling |QID|12633| |U|38673| |N|Starts from the Writhing Choker drop.|
 
-T Dressing Down  |O| | |M|19.57,75.07| |QID|12648| |N|Return to Stefan Vadu at Ebon Watch in Zul'Drak.|
-T Suit Up!  |O| | |M|19.57,75.07| |QID|12649| |N|Return to Stefan Vadu at Ebon Watch in Zul'Drak.|
-A Infiltrating Voltarus  |M|19.57,75.07| |QID|12661| |N|Accept Infiltrating Voltarus|
+T Kickin' Nass and Takin' Manes |QID|12630| |N|To Stefan Vadu.| |M|14.0,73.8|
+T An Invitation, of Sorts... |QID|12631| |N|To Stefan Vadu.| |M|14.0,73.8|
+T Darkness Calling |QID|12633| |N|To Stefan Vadu.| |M|14.0,73.8|
+A Near Miss |QID|12637| |O| |N|From Stefan Vadu (Unliving Choker follow-up).| |M|14.0,73.8|
+A Close Call |QID|12638| |O| |N|From Stefan Vadu (Writhing Choker follow-up).| |M|14.0,73.8|
+C Near Miss |QID|12637| |O| |N|Take the Unliving Choker to Bloodrose Datura (nearby).| |M|14.1,73.9|
+C Close Call |QID|12638| |O| |N|Take the Writhing Choker to Bloodrose Datura.| |M|14.1,73.9|
+T Near Miss |QID|12637| |O| |N|To Stefan Vadu.| |M|14.0,73.8|
+T Close Call |QID|12638| |O| |N|To Stefan Vadu.| |M|14.0,73.8|
+A You Can Run, But You Can't Hide |QID|12629| |O| |N|From Stefan Vadu.| |M|14.0,73.8|
+A Silver Lining |QID|12643| |O| |N|From Stefan Vadu.| |M|14.0,73.8|
+C You Can Run, But You Can't Hide |QID|12629| |O| |N|Collect 5 Putrid Abomination Guts & 5 Gooey Ghoul Drool at the Reliquary of Agony.| |M|19.8,75.5|
+C Silver Lining |QID|12643| |O| |N|Same area/items as above.| |M|19.8,75.5|
+T You Can Run, But You Can't Hide |QID|12629| |O| |N|To Stefan Vadu.| |M|14.0,73.8|
+T Silver Lining |QID|12643| |O| |N|To Stefan Vadu.| |M|14.0,73.8|
+A Dressing Down |QID|12648| |O| |N|From Stefan Vadu.| |M|14.0,73.8|
+A Suit Up! |QID|12649| |O| |N|From Stefan Vadu.| |M|14.0,73.8|
+C Dressing Down |QID|12648| |O| |U|38699| |N|Use the Ensorcelled Choker to disguise and buy Bitter Plasma from Gristlegut.| |M|19.9,75.5|
+C Suit Up! |QID|12649| |O| |U|38699| |N|Use the Ensorcelled Choker to acquire the Scourge disguise (repeat if lost at Stefan).| |M|19.9,75.5|
+A Feedin' Da Goolz |QID|12652| |U|38699| |N|From Gristlegut (while disguised) at Reliquary of Agony.| |M|18.6,83.1|
+C Feedin' Da Goolz |QID|12652| |U|38701| |N|Use the Bowels and Brains Bowl next to 10 Decaying Ghouls.| |M|19.9,75.5|
+T Feedin' Da Goolz |QID|12652| |U|38699| |N|To Gristlegut.| |M|18.6,83.1|
+T Dressing Down |QID|12648| |O| |N|To Stefan Vadu.| |M|14.0,73.8|
+T Suit Up! |QID|12649| |O| |N|To Stefan Vadu.| |M|14.0,73.8|
+A Infiltrating Voltarus |QID|12661| |N|From Stefan Vadu.| |M|14.0,73.8|
+T Gymer's Salvation |QID|12914| |N|To Engineer Reed at Crusader Forward Camp.| |M|25.7,65.0|
+A Our Only Hope |QID|12916| |N|From Engineer Reed.| |M|25.7,65.0|
+C Light Won't Grant Me Vengeance |QID|12904| |N|Kill 15 Vargul at Thrym’s End.| |M|17.6,57.5|
+T Light Won't Grant Me Vengeance |QID|12904| |N|To Gerk at Thrym’s End.| |M|29.6,60.0|
+C Our Only Hope |QID|12916| |N|Use the Jumbo Seaforium Charge to free Gymer at Thrym’s End, then speak to him.| |M|19.9,56.2|
+T Our Only Hope |QID|12916| |N|To Gymer (follow-up).| |M|30.4,61.9|
+A The Storm King's Vengeance |QID|12919| |N|From Gymer.| |M|30.4,61.9|
+C The Storm King's Vengeance |QID|12919| |N|Ride Gymer; kill 100 Scourge and slay Algar the Chosen, Thrym, and Prince Navarius.| |M|25.3,64.0|
+T The Storm King's Vengeance |QID|12919| |N|To Crusader MacKellar at Crusader Forward Camp.| |M|25.6,65.0|
 
-T Gymer's Salvation  |M|25.66,90.49| |QID|12914| |N|Return to Engineer Reed at Crusader Forward Camp in Zul'Drak.|
-A Our Only Hope  |M|25.66,90.49| |QID|12916| |N|Accept Our Only Hope|
-C Light Won't Grant Me Vengeance  |QO|1| |QID|12904| |N|Gerk at Thrym's End in Zul'Drak wants you to kill 15 Vargul.$B|  |M|17.64 57.54|
-T Light Won't Grant Me Vengeance  |M|29.55,80.02| |QID|12904| |N|Return to Gerk at Thrym's End in Zul'Drak.|
-C Our Only Hope  |QID|12916| |N|Speak to Gymer at Thrym's End in Zul'Drak once you have used the Jumbo Seaforium Charge to open the Scourge Enclosure that is holding him prisoner.|  |M|19.91 56.24|
-T Our Only Hope  |M|30.35,83.15| |QID|12916| |N|Return to Gymer at Thrym's End in Zul'Drak.|
-A The Storm King's Vengeance  |M|30.35,83.15| |QID|12919| |N|Accept The Storm King's Vengeance|
-C The Storm King's Vengeance  |QO|1| |QID|12919| |N|Speak with Gymer to begin.$B$BWhile riding Gymer, destroy 100 Scourge and kill Algar the Chosen, Thrym and Prince Navarius. Report to Crusader MacKellar at Crusader Forward Camp should you succeed.|  |M|25.28 63.96|
-T The Storm King's Vengeance  |M|25.61,90.56| |QID|12919| |N|Return to Crusader MacKellar at Crusader Forward Camp in Zul'Drak.|
+; Voltarus & Ebon Watch collaboration
+A Dark Horizon |QID|12664| |U|38699| |N|From Overlord Drakuru at Voltarus (while disguised).| |M|27.1,46.2|
+C Dark Horizon |QID|12664| |U|38699| |N|Speak to Gorebag for the tour of Zul’Drak.| |M|27.1,46.2|
+T Dark Horizon |QID|12664| |U|38699| |N|To Overlord Drakuru at Voltarus.| |M|27.1,46.2|
+T Infiltrating Voltarus |QID|12661| |U|41390| |N|Back to Stefan Vadu at Ebon Watch.| |M|14.0,73.8|
+A So Far, So Bad |QID|12669| |N|From Stefan Vadu.| |M|14.0,73.8|
+A It Rolls Downhill |QID|12673| |U|38699| |N|From Drakuru at Voltarus (disguised).| |M|27.1,46.2|
+C It Rolls Downhill |QID|12673| |U|39157| |N|Use Scepter of Suggestion on Blight Geists to harvest 7 Blight Crystals.| |M|27.1,46.2|
+T It Rolls Downhill |QID|12673| |U|38699| |N|To Drakuru at Voltarus.| |M|27.1,46.2|
+C So Far, So Bad |QID|12669| |U|39154| |N|At Reliquary of Pain, use Diluting Additive on 5 Blight Cauldrons (while on Drakuru tasks).| |M|19.9,75.5|
+T So Far, So Bad |QID|12669| |U|41390| |N|To Stefan Vadu at Ebon Watch.| |M|14.0,73.8|
+A Hazardous Materials |QID|12677| |N|From Stefan Vadu.| |M|14.0,73.8|
 
-A Dark Horizon  |U|38699| |M|36.53,93.04| |QID|12664| |N|Accept Dark Horizon|
-C Dark Horizon  |U|38699| |QID|12664| |N|Drakuru in Voltarus wants you to speak to Gorebag and take the tour of Zul'Drak.|  |M|27.07 46.16|
-T Dark Horizon  |U|38699| |M|36.53,93.04| |QID|12664| |N|Return to Overlord Drakuru at Voltarus in Zul'Drak.|
-T Infiltrating Voltarus  |U|41390| |M|19.57,75.07| |QID|12661| |N|Return to Stefan Vadu at Ebon Watch in Zul'Drak.|
-A So Far, So Bad  |M|19.57,75.07| |QID|12669| |N|Accept So Far, So Bad|
-A It Rolls Downhill  |U|38699| |M|36.53,93.04| |QID|12673| |N|Accept It Rolls Downhill|
-C It Rolls Downhill  |U|39157| |QO|1| |QID|12673| |N|Overlord Drakuru in Voltarus wants you to use the Scepter of Suggestion on the Blight Geists and then order them to harvest 7 Blight Crystals.|  |M|27.07 46.16|
-T It Rolls Downhill  |U|38699| |M|36.53,93.04| |QID|12673| |N|Return to Overlord Drakuru at Voltarus in Zul'Drak.|
-C So Far, So Bad  |U|39154| |QID|12669| |N|Stefan at Ebon Watch wants you to return to Drakuru and complete any tasks he has for you.$b$bWhile at the Reliquary of Pain, you are to use the Diluting Additive on 5 Blight Cauldrons.$b$bIf you lose your Ensorcelled Choker, return to Stefan at Ebon Watch to get another.|  |M|14.06 73.80|
-T So Far, So Bad  |U|41390| |M|19.57,75.07| |QID|12669| |N|Return to Stefan Vadu at Ebon Watch in Zul'Drak.|
-A Hazardous Materials  |M|19.57,75.07| |QID|12677| |N|Accept Hazardous Materials|
+A Zero Tolerance |QID|12686| |U|38699| |N|From Drakuru at Voltarus.| |M|27.1,46.2|
+C Zero Tolerance |QID|12686| |U|39206| |N|Empower a Servant of Drakuru and use it to defeat Darmuk at the Reliquary of Pain.| |M|27.1,46.2|
+T Zero Tolerance |QID|12686| |U|38699| |N|To Drakuru at Voltarus.| |M|27.1,46.2|
+C Hazardous Materials |QID|12677| |U|38699| |N|While at Voltarus, steal 5 Harvested Blight Crystals.| |M|27.1,46.2|
+T Hazardous Materials |QID|12677| |U|41390| |N|To Stefan Vadu at Ebon Watch.| |M|14.0,73.8|
+A Sabotage |QID|12676| |N|From Stefan Vadu.| |M|14.0,73.8|
 
-A Zero Tolerance  |U|38699| |M|36.53,93.04| |QID|12686| |N|Accept Zero Tolerance|
-C Zero Tolerance  |U|39206| |QO|1| |QID|12686| |N|Drakuru in Voltarus wants you to go to the Reliquary of Pain and use the Scepter of Empowerment on a Servant of Drakuru. You are then to use its abilities to defeat Darmuk.|  |M|27.07 46.16|
-T Zero Tolerance  |M|36.53,93.04| |QID|12686| |N|Return to Overlord Drakuru at Voltarus in Zul'Drak.|
-C Hazardous Materials  |U|38699| |QO|1| |QID|12677| |N|Stefan at Ebon Watch wants you to go to Voltarus and complete any tasks Drakuru has for you. While there, you are to steal 5 Harvested Blight Crystals.$b$bIf you lose your Ensorcelled Choker, return to Stefan at Ebon Watch to get another.|  |M|14.06 73.80|
-T Hazardous Materials  |U|41390| |M|19.57,75.07| |QID|12677| |N|Return to Stefan Vadu at Ebon Watch in Zul'Drak.|
-A Sabotage  |M|19.57,75.07| |QID|12676| |N|Accept Sabotage|
-A Fuel for the Fire  |U|38699| |M|36.53,93.04| |QID|12690| |N|Accept Fuel for the Fire|
-C Fuel for the Fire  |U|39238| |QO|1| |QID|12690| |N|Drakuru in Voltarus wants you to use the Scepter of Command on Bloated Abominations and then use their abilities at the Frigid Breach to kill 60 Drakkari Skullcrushers and lure out 3 Drakkari Chieftains.$b$bChieftains will appear when enough Skullcrushers have been slain.|  |M|27.07 46.16|
-N Blow up scouragewagons |QID|12676| |QO|Scouragewagons destroyed: 5/5| |U|39165| |N|All around, use the explosives on the scourgewagons, then get clear.|  |M|14.06 73.80|
-T Fuel for the Fire  |U|38699| |M|36.53,93.04| |QID|12690| |N|Return to Overlord Drakuru at Voltarus in Zul'Drak.|
-A Disclosure  |U|38699| |M|36.53,93.04| |QID|12710| |N|Accept Disclosure|
-C Disclosure  |U|38699| |QID|12710| |N|Drakuru in Voltarus wants you to take the teleporter to his upper chamber.|  |M|27.07 46.16|
-T Disclosure  |U|38699| |M|36.53,93.04| |QID|12710| |N|Return to Overlord Drakuru at Voltarus in Zul'Drak.|
-C Sabotage  |QID|12676| |N|Stefan at Ebon Watch wants you to perform another task for Drakuru.$b$bAdditionally, you are to use the Explosive Charges on 5 Scourgewagons at the  Reliquary of Pain.$b$bIf you lose your Ensorcelled Choker, return to Stefan at Ebon Watch to get another.|  |M|14.06 73.80|
-T Sabotage  |U|41390| |M|19.57,75.07| |QID|12676| |N|Return to Stefan Vadu at Ebon Watch in Zul'Drak.|
-A Betrayal  |M|19.57,75.07| |QID|12713| |N|Accept Betrayal|
-C Betrayal  |U|39664| |QO|1| |QID|12713| |N|Stefan in Ebon Watch wants you to defeat Drakuru.$b$bIf you lose your Ensorcelled Choker, return to Stefan at Ebon Watch to get another.|  |M|14.06 73.80|
-U Port back down, quickly! |U|43059| |N|Use [Drakuru's Last Wish] to port down.  It only lasts 3 minutes, so be quick about it.| |QID|12713|  |M|14.06 73.80|
-T Betrayal  |U|41390| |M|19.57,75.07| |QID|12713| |N|Return to Stefan Vadu at Ebon Watch in Zul'Drak.|
+A Fuel for the Fire |QID|12690| |U|38699| |N|From Drakuru at Voltarus.| |M|27.1,46.2|
+C Fuel for the Fire |QID|12690| |U|39238| |N|Command Bloated Abominations to kill 60 Skullcrushers and lure out 3 Chieftains at Frigid Breach.| |M|27.1,46.2|
+T Fuel for the Fire |QID|12690| |U|38699| |N|To Drakuru at Voltarus.| |M|27.1,46.2|
 
-T Taking a Stand  |M|26.57,89.33| |QID|12795| |N|\n|
-A Defend the Stand  |M|26.57,89.33| |QID|12503| |N|Accept Defend the Stand|
-A Parachutes for the Argent Crusade  |M|26.57,89.33| |QID|12740| |N|Accept Parachutes for the Argent Crusade|
-C Parachutes for the Argent Crusade  |U|39615| |QID|12740| |N|Commander Falstaav at The Argent Stand has asked you to equip 10 Argent Crusaders or Argent Shieldmen out in the courtyard with parachutes.|  |M|39.42 66.96|
-C Defend the Stand  |QID|12503| |N|Commander Falstaav has tasked you with the destruction of any 10 Scourge in the courtyard at The Argent Stand.|  |M|39.42 66.96|
+A Disclosure |QID|12710| |U|38699| |N|From Drakuru.| |M|27.1,46.2|
+C Disclosure |QID|12710| |U|38699| |N|Use the teleporter to Drakuru’s upper chamber.| |M|27.1,46.2|
+T Disclosure |QID|12710| |U|38699| |N|To Drakuru at Voltarus.| |M|27.1,46.2|
 
-T Defend the Stand  |M|26.57,89.33| |QID|12503| |N|Return to Commander Falstaav at Argent Stand in Zul'Drak.|
-T Parachutes for the Argent Crusade  |M|26.57,89.33| |QID|12740| |N|Return to Commander Falstaav at Argent Stand in Zul'Drak.|
-A Pa'Troll  |M|26.75,90.34| |QID|12596| |N|Accept Pa'Troll|
-A New Orders for Sergeant Stackhammer  |M|26.75,90.34| |QID|12505| |N|Accept New Orders for Sergeant Stackhammer|
-A Trouble at the Altar of Sseratus  |M|27.29,90.64| |QID|12506| |N|Accept Trouble at the Altar of Sseratus|
-A The Blessing of Zim'Abwa  |M|27.29,90.64| |QID|12565| |N|Accept The Blessing of Zim'Abwa|
+C Sabotage |QID|12676| |U|39165| |N|Use Explosive Charges on 5 Scourge wagons at the Reliquary of Pain.| |M|19.9,75.5|
+T Sabotage |QID|12676| |U|41390| |N|To Stefan Vadu at Ebon Watch.| |M|14.0,73.8|
+A Betrayal |QID|12713| |N|From Stefan Vadu.| |M|14.0,73.8|
+C Betrayal |QID|12713| |U|39664| |N|Defeat Drakuru (event at Voltarus).| |M|27.1,46.2|
+N Use Drakuru’s Last Wish |QID|12713| |U|43059| |N|Teleport down quickly (3-minute duration).|
+T Betrayal |QID|12713| |U|41390| |N|To Stefan Vadu at Ebon Watch.| |M|14.0,73.8|
+T Taking a Stand |QID|12795| |N|To Commander Falstaav at The Argent Stand.| |M|39.4,66.9|
+A Defend the Stand |QID|12503| |N|From Commander Falstaav.| |M|39.4,66.9|
+A Parachutes for the Argent Crusade |QID|12740| |N|From Commander Falstaav.| |M|39.4,66.9|
+C Parachutes for the Argent Crusade |QID|12740| |U|39615| |N|Equip 10 Crusaders/Shieldmen with parachutes in the courtyard.| |M|39.4,66.9|
+C Defend the Stand |QID|12503| |N|Kill 10 Scourge in the courtyard.| |M|39.4,66.9|
+T Defend the Stand |QID|12503| |N|To Commander Falstaav.| |M|39.4,66.9|
+T Parachutes for the Argent Crusade |QID|12740| |N|To Commander Falstaav.| |M|39.4,66.9|
 
-T The Blessing of Zim'Abwa  |M|23.47,86.07| |QID|12565| |N|Deliver the Drakkari Offerings to Zim'Abwa, southwest of Argent Stand in Zul'Drak.|
-T New Orders for Sergeant Stackhammer  |M|36.54,90.5| |QID|12505| |N|Return to Sergeant Stackhammer at Frigid Breach in Zul'Drak.|
-A Argent Crusade, We Are Leaving!  |M|36.54,90.5| |QID|12504| |N|Accept Argent Crusade, We Are Leaving!|
-A Mopping Up  |M|36.53,90.45| |QID|12508| |N|Accept Mopping Up|
-C Trouble at the Altar of Sseratus  |QID|12506| |N|Hexxer Ubungo at The Argent Stand has asked you to investigate the main altar building at the Altar of Sseratus.|  |M|40.53 65.61|
-C Argent Crusade, We Are Leaving!  |QID|12504| |N|Sergeant Stackhammer at the Altar of Sseratus wants you to speak with 10 of his Argent Soldiers and tell them to report back to him.|  |M|40.42 48.29|
-C Mopping Up  |QO|1| |QID|12508| |N|Corporal Maga at the Altar of Sseratus wants you to kill any combination of 10 Champions of Sseratus, Priests of Sseratus, or Drakkari Snake Handlers.|  |M|40.36 48.21|
-A Strange Mojo  |U|38321| |QID|12507| |N|Accept Strange Mojo|  |M|40.53 65.61|
-T Argent Crusade, We Are Leaving!  |M|36.54,90.5| |QID|12504| |N|Return to Sergeant Stackhammer at the Altar of Sseratus in Zul'Drak.|
-T Mopping Up  |M|36.53,90.45| |QID|12508| |N|Return to Corporal Maga at the Altar of Sseratus in Zul'Drak.|
+A Pa'Troll |QID|12596| |N|From Commander Kunz.| |M|40.3,66.6|
+A New Orders for Sergeant Stackhammer |QID|12505| |N|From Commander Kunz.| |M|40.3,66.6|
+A Trouble at the Altar of Sseratus |QID|12506| |N|From Hexxer Ubungo.| |M|40.5,65.6|
+A The Blessing of Zim'Abwa |QID|12565| |N|From Altar turn-in starter.| |M|40.5,65.6|
+T The Blessing of Zim'Abwa |QID|12565| |N|Offerings to Zim’Abwa (southwest).| |M|23.5,86.1|
 
-A Lab Work  |M|34.46,84.07| |QID|12557| |N|Accept Lab Work|
-C Lab Work  |QID|12557| |N|Alchemist Finklestein at Heb'Valok wants you to find a Muddy Mire Maggot, a Withered Batwing, an Amberseed, and some Chilled Serpent Mucus from within his laboratory.|  |M|35.02 52.11|
-T Lab Work  |M|34.46,84.07| |QID|12557| |N|Return to Alchemist Finklestein at Heb'Valok in Zul'Drak.|
-A Siphoning the Spirits  |M|34.39,84.78| |QID|12799| |N|Accept Siphoning the Spirits|
-C Siphoning the Spirits  |QO|1| |QID|12799| |N|Captain Arnath at Heb'Valok wants you to collect 5 Ancient Ectoplasms from the Lost Drakkari Spirits at the Pools of Zha'Jin.|  |M|35.62 52.23|
-T Siphoning the Spirits  |M|34.39,84.78| |QID|12799| |N|Return to Captain Arnath at Heb'Valok in Zul'Drak.|
-A Stocking the Shelves  |M|34.39,84.78| |QID|12609| |N|Accept Stocking the Shelves|
-A Clipping Their Wings  |M|34.39,84.78| |QID|12610| |N|Accept Clipping Their Wings|
-C Clipping Their Wings  |QO|1| |QID|12610| |N|Captain Arnath in Heb'Valok has asked you to collect 7 Unblemished Bat Wings from Zul'Drak Bats.|  |M|35.62 52.23|
-C Stocking the Shelves  |QO|1| |QID|12609| |N|Captain Arnath in Heb'Valok asked you to collect 7 units of Fresh Spider Ichor from the Trapdoor Crawlers in Zul'Drak.|  |M|35.62 52.23|
-T Stocking the Shelves  |M|34.39,84.78| |QID|12609| |N|Return to Captain Arnath at Heb'Valok in Zul'Drak.|
-T Clipping Their Wings  |M|34.39,84.78| |QID|12610| |N|Return to Captain Arnath at Heb'Valok in Zul'Drak.|
+T New Orders for Sergeant Stackhammer |QID|12505| |N|To Sergeant Stackhammer at Frigid Breach.| |M|36.5,70.5|
+A Argent Crusade, We Are Leaving! |QID|12504| |N|From Sergeant Stackhammer.| |M|36.5,70.5|
+A Mopping Up |QID|12508| |N|From Corporal Maga.| |M|36.5,70.5|
 
-T Trouble at the Altar of Sseratus  |M|27.29,90.64| |QID|12506| |N|Return to Hexxer Ubungo at Argent Stand in Zul'Drak.|
-T Strange Mojo  |M|27.29,90.64| |QID|12507| |N|Return to Hexxer Ubungo at The Dead Fields in Zul'Drak.|
-A Precious Elemental Fluids  |M|27.29,90.64| |QID|12510| |N|Accept Precious Elemental Fluids|
-A The Drakkari Do Not Need Water Elementals!  |M|25.52,90.23| |QID|12562| |N|Accept The Drakkari Do Not Need Water Elementals!|
+C Trouble at the Altar of Sseratus |QID|12506| |N|Investigate the main altar building.| |M|40.5,65.6|
+C Argent Crusade, We Are Leaving! |QID|12504| |N|Speak with 10 Argent Soldiers to send them back.| |M|40.4,48.3|
+C Mopping Up |QID|12508| |N|Kill 10 (Champions/Priests/Snake Handlers) at the altar area.| |M|40.4,48.2|
+A Strange Mojo |QID|12507| |U|38321| |N|From Strange Mojo drop at the altar.| |M|40.5,65.6|
 
-A Something for the Pain   |QID|12597| |N|Accept Something for the Pain|  |M|48.80 78.90|
+T Argent Crusade, We Are Leaving! |QID|12504| |N|To Sergeant Stackhammer.| |M|36.5,70.5|
+T Mopping Up |QID|12508| |N|To Corporal Maga.| |M|36.5,70.5|
+T Trouble at the Altar of Sseratus |QID|12506| |N|To Hexxer Ubungo at Argent Stand.| |M|40.5,65.6|
+T Strange Mojo |QID|12507| |N|To Hexxer Ubungo.| |M|40.5,65.6|
 
-C Precious Elemental Fluids  |QID|12510| |N|Hexxer Ubungo at The Argent Stand wants you to acquire 3 Precious Elemental Fluids.|  |M|40.53 65.61|
-C The Drakkari Do Not Need Water Elementals!  |QO|1| |QID|12562| |N|Sub-Lieutenant Jax at The Argent Stand has asked you to kill 10 Drakkari Water Binders.|  |M|40.18 68.94|
-C Something for the Pain  |QO|1| |QID|12597| |N|Captain Brandon at Drak'Sotra wants you to collect 5 Mature Water-Poppies from Drak'Sotra Fields.|  |M|48.80 78.90|
+; Heb'Valok side tasks
+A Lab Work |QID|12557| |N|From Alchemist Finklestein at Heb’Valok.| |M|34.5,84.1|
+C Lab Work |QID|12557| |N|Find 1 Muddy Mire Maggot, 1 Withered Batwing, 1 Amberseed, 1 Chilled Serpent Mucus in the lab.| |M|34.5,84.1|
+T Lab Work |QID|12557| |N|To Alchemist Finklestein.| |M|34.5,84.1|
+A Siphoning the Spirits |QID|12799| |N|From Captain Arnath.| |M|34.4,84.8|
+C Siphoning the Spirits |QID|12799| |N|Collect 5 Ancient Ectoplasms at Pools of Zha'Jin.| |M|35.6,52.2|
+T Siphoning the Spirits |QID|12799| |N|To Captain Arnath.| |M|34.4,84.8|
+A Stocking the Shelves |QID|12609| |N|From Captain Arnath.| |M|34.4,84.8|
+A Clipping Their Wings |QID|12610| |N|From Captain Arnath.| |M|34.4,84.8|
+C Clipping Their Wings |QID|12610| |N|Collect 7 Unblemished Bat Wings.| |M|35.6,52.2|
+C Stocking the Shelves |QID|12609| |N|Collect 7 Fresh Spider Ichor from Trapdoor Crawlers.| |M|35.6,52.2|
+T Stocking the Shelves |QID|12609| |N|To Captain Arnath.| |M|34.4,84.8|
+T Clipping Their Wings |QID|12610| |N|To Captain Arnath.| |M|34.4,84.8|
 
-T Something for the Pain   |QID|12597| |N|Return to Captain Brandon at Drak'Sotra in Zul'Drak.|  |M|48.80 78.90|
+; Drak'Sotra webworks chain
+A Something for the Pain |QID|12597| |N|From Captain Brandon at Drak’Sotra.| |M|48.8,78.9|
+C Something for the Pain |QID|12597| |N|Collect 5 Mature Water-Poppies at the fields.| |M|48.8,78.9|
+T Something for the Pain |QID|12597| |N|To Captain Brandon.| |M|48.8,78.9|
 
-A Throwing Down   |QID|12598| |N|Accept Throwing Down|  |M|58.08 72.43|
-A Leave No One Behind   |QID|12512| |N|Accept Leave No One Behind|  |M|58.68 72.49|
+A Throwing Down |QID|12598| |N|From Captain Rupert.| |M|58.1,72.4|
+A Leave No One Behind |QID|12512| |N|From Dr. Rogers.| |M|58.7,72.5|
+C Throwing Down |QID|12598| |U|38574| |N|Use High Impact Grenades at 5 Nerubian Craters.| |M|58.1,72.4|
+C Leave No One Behind |QID|12512| |U|38330| |N|Bandage/escort Lamoof, Jonathan, Josephine back to Dr. Rogers.| |M|58.7,72.5|
+T Leave No One Behind |QID|12512| |N|To Dr. Rogers.| |M|58.7,72.5|
+T Throwing Down |QID|12598| |N|To Captain Rupert.| |M|58.1,72.4|
 
-C Throwing Down  |U|38574| |QID|12598| |N|Captain Rupert at Drak'Sotra wants you to use High Impact Grenades near 5 Nerubian Craters.|  |M|58.08 72.43|
-C Leave No One Behind  |U|38330| |QID|12512| |N|Dr. Rogers at Drak'Sotra wants you to find Crusader Lamoof, Crusader Jonathan, and Crusader Josephine. Use the Crusader's Bandage on them, and escort them safely back to him.|  |M|58.68 72.49|
+A Cocooned! |QID|12606| |N|From Captain Rupert.| |M|58.1,72.4|
+A Death to the Necromagi |QID|12552| |N|From Sergeant Moonshard.| |M|58.1,72.1|
+A Skimmer Spinnerets |QID|12553| |N|From Specialist Cogwheel.| |M|58.3,72.1|
+C Cocooned! |QID|12606| |N|Open cocoons to free 3 Captive Footmen.| |M|58.1,72.4|
+C Skimmer Spinnerets |QID|12553| |N|Collect 5 Intact Skimmer Spinnerets.| |M|58.3,72.1|
+C Death to the Necromagi |QID|12552| |N|Kill 8 Hath’ar Necromagi.| |M|58.1,72.1|
+T Cocooned! |QID|12606| |N|To Captain Rupert.| |M|58.1,72.4|
+T Death to the Necromagi |QID|12552| |N|To Sergeant Moonshard.| |M|58.1,72.1|
+A Malas the Corrupter |QID|12554| |N|From Sergeant Moonshard.| |M|58.1,72.1|
+A Pure Evil |QID|12584| |N|From Captain Rupert.| |M|58.1,72.4|
+T Skimmer Spinnerets |QID|12553| |N|To Specialist Cogwheel.| |M|58.3,72.1|
+A Crashed Sprayer |QID|12583| |N|From Specialist Cogwheel.| |M|58.3,72.1|
+C Crashed Sprayer |QID|12583| |N|Collect Plague Sprayer Parts.| |M|58.3,72.1|
+T Crashed Sprayer |QID|12583| |N|To Specialist Cogwheel.| |M|58.3,72.1|
+A A Tangled Skein |QID|12555| |N|From Specialist Cogwheel.| |M|58.3,72.1|
+C A Tangled Skein |QID|12555| |U|38515| |N|Destroy 5 Plague Sprayers with the Thrower.| |M|58.3,72.1|
+C Pure Evil |QID|12584| |N|Collect 10 Chunks of Saronite near Argent Stand.| |M|41.0,66.6|
+C Malas the Corrupter |QID|12554| |N|Kill Malas and loot his head.| |M|61.0,78.0|
+T A Tangled Skein |QID|12555| |N|To Specialist Cogwheel.| |M|58.3,72.1|
+T Malas the Corrupter |QID|12554| |N|To Sergeant Moonshard.| |M|58.1,72.1|
 
-T Leave No One Behind   |QID|12512| |N|Return to Dr. Rogers at Drak'Sotra in Zul'Drak.|  |M|58.68 72.49|
-T Throwing Down   |QID|12598| |N|Return to Captain Rupert at Drak'Sotra in Zul'Drak.|  |M|58.08 72.43|
-A Cocooned!   |QID|12606| |N|Accept Cocooned!|  |M|58.08 72.43|
-A Death to the Necromagi   |QID|12552| |N|Accept Death to the Necromagi|  |M|58.06 72.05|
-A Skimmer Spinnerets   |QID|12553| |N|Accept Skimmer Spinnerets|  |M|58.26 72.05|
+T The Drakkari Do Not Need Water Elementals! |QID|12562| |N|To Sub-Lieutenant Jax at Argent Stand.| |M|40.2,68.9|
+T Pure Evil |QID|12584| |N|To Eitrigg at Argent Stand.| |M|40.9,66.6|
+T Precious Elemental Fluids |QID|12510| |N|To Hexxer Ubungo.| |M|40.5,65.6|
+A Mushroom Mixer |QID|12514| |N|From Hexxer Ubongo.| |M|40.5,65.6|
+A Gluttonous Lurkers |QID|12527| |N|From Alchemist Finklestein (Heb’Valok).| |M|34.5,84.1|
 
-C Cocooned!  |QID|12606| |N|Captain Rupert wants you to open the Nerubian Cocoons in Drak'Sotra and return to him once you have freed 3 Captive Footmen.|  |M|58.08 72.43|
-C Skimmer Spinnerets  |QO|1| |QID|12553| |N|Specialist Cogwheel at Drak'Sotra has asked you to collect 5 Intact Skimmer Spinnerets.|  |M|58.26 72.05|
-C Death to the Necromagi  |QO|1| |QID|12552| |N|Sergeant Moonshard at Drak'Sotra has asked you to destroy 8 Hath'ar Necromagi.|  |M|58.06 72.05|
+A Creature Comforts |QID|12599| |N|From Captain Grondel at Drak’Agal.| |M|48.2,63.9|
+C Gluttonous Lurkers |QID|12527| |U|38380| |N|Deliver 5 Basilisk Crystals to Finklestein (from basilisks).| |M|35.0,52.1|
+C Mushroom Mixer |QID|12514| |N|Collect 10 Muddlecap Fungus.| |M|40.5,65.6|
+C Creature Comforts |QID|12599| |N|Gather 20 Dead Thornwood.| |M|48.2,63.9|
+T Creature Comforts |QID|12599| |N|To Captain Grondel.| |M|48.2,63.9|
 
-T Cocooned!   |QID|12606| |N|Return to Captain Rupert at Drak'Sotra in Zul'Drak.|  |M|58.08 72.43|
-T Death to the Necromagi   |QID|12552| |N|Return to Sergeant Moonshard at Drak'Sotra in Zul'Drak.|  |M|58.06 72.05|
-A Malas the Corrupter   |QID|12554| |N|Accept Malas the Corrupter|  |M|58.06 72.05|
-A Pure Evil   |QID|12584| |N|Accept Pure Evil|  |M|58.08 72.43|
-T Skimmer Spinnerets   |QID|12553| |N|Return to Specialist Cogwheel at Drak'Sotra in Zul'Drak.|  |M|58.26 72.05|
-A Crashed Sprayer   |QID|12583| |N|Accept Crashed Sprayer|  |M|58.26 72.05|
-C Crashed Sprayer  |QO|1| |QID|12583| |N|Specialist Cogwheel at Drak'Sotra has asked you to collect Plague Sprayer Parts.|  |M|58.26 72.05|
-T Crashed Sprayer   |QID|12583| |N|Return to Specialist Cogwheel at Drak'Sotra in Zul'Drak.|  |M|58.26 72.05|
-A A Tangled Skein   |QID|12555| |N|Accept A Tangled Skein|  |M|58.26 72.05|
-C A Tangled Skein  |U|38515| |QID|12555| |N|Specialist Cogwheel at Drak'Sotra has asked you to use the Tangled Skein Thrower in order to cause the destruction of 5 Plague Sprayers.|  |M|58.26 72.05|
-C Pure Evil  |QO|1| |QID|12584| |N|Captain Rupert has asked you to collect 10 Chunks of Saronite and deliver them to Eitrigg at The Argent Stand.|  |M|40.98 66.64|
-C Malas the Corrupter  |QID|12554| |N|Sergeant Moonshard at Drak'Sotra insists that you return with the Head of the Corrupter.|  |M|58.06 72.05|
+T Mushroom Mixer |QID|12514| |N|To Hexxer Ubungo at Argent Stand.| |M|40.5,65.6|
+A Too Much of a Good Thing |QID|12516| |N|From Hexxer Ubungo.| |M|40.5,65.6|
+T Pa'Troll |QID|12596| |N|To Commander Kunz.| |M|40.3,66.6|
+C Too Much of a Good Thing |QID|12516| |U|38332| |N|Use the item then kill the Muddled Prophet of Sseratus.| |M|40.5,65.6|
+T Gluttonous Lurkers |QID|12527| |N|To Finklestein at Heb’Valok.| |M|34.5,84.1|
+T Too Much of a Good Thing |QID|12516| |N|To Hexxer Ubungo.| |M|40.5,65.6|
+A To the Witch Doctor |QID|12623| |N|From Hexxer Ubungo.| |M|40.5,65.6|
 
-T A Tangled Skein   |QID|12555| |N|Return to Specialist Cogwheel at Drak'Sotra in Zul'Drak.|  |M|58.26 72.05|
-T Malas the Corrupter   |QID|12554| |N|Return to Sergeant Moonshard at Drak'Sotra in Zul'Drak.|  |M|58.06 72.05|
+T To the Witch Doctor |QID|12623| |N|To Witch Doctor Khufu at Zim’Torga.| |M|59.5,58.1|
+A Breaking Through Jin'Alai |QID|12627| |N|From Witch Doctor Khufu.| |M|59.5,58.1|
+A The Blessing of Zim'Torga |QID|12615| |N|From Zim’Torga altar.| |M|59.5,58.1|
+T The Blessing of Zim'Torga |QID|12615| |N|Offerings at Zim’Torga.| |M|59.5,58.1|
+A The Leaders at Jin'Alai |QID|12622| |N|From Scalper Ahunae.| |M|59.2,56.2|
 
-T The Drakkari Do Not Need Water Elementals!  |M|25.52,90.23| |QID|12562| |N|Return to Sub-Lieutenant Jax at the Argent Stand in Zul'Drak.|
-T Pure Evil  |M|26.74,91.01| |QID|12584| |N|Return to Eitrigg at the Argent Stand in Zul'Drak.|
-T Precious Elemental Fluids  |M|27.29,90.64| |QID|12510| |N|Return to Hexxer Ubungo at Argent Stand in Zul'Drak.|
-A Mushroom Mixer  |M|27.29,90.64| |QID|12514| |N|Accept Mushroom Mixer|
-A Gluttonous Lurkers  |M|27.54,91.6| |QID|12527| |N|Accept Gluttonous Lurkers|
+C Breaking Through Jin'Alai |QID|12627| |N|Disturb the Blue, Green, Purple, and Red Cauldrons.| |M|59.5,58.1|
+C The Leaders at Jin'Alai |QID|12622| |N|Retrieve the Treasures of Kutube’sa, Gawanil, and Chulo the Mad.| |M|59.2,56.2|
+T Breaking Through Jin'Alai |QID|12627| |N|To Witch Doctor Khufu.| |M|59.5,58.1|
+A To Speak With Har'koa |QID|12628| |N|From Witch Doctor Khufu.| |M|59.5,58.1|
+A Relics of the Snow Leopard Goddess |QID|12635| |N|From Chronicler To’kini.| |M|60.0,57.9|
+T The Leaders at Jin'Alai |QID|12622| |N|To Scalper Ahunae.| |M|59.2,56.2|
 
-A Creature Comforts  |M|28.2,99.75| |QID|12599| |N|Accept Creature Comforts|
-C Gluttonous Lurkers  |U|38380| |QID|12527| |N|Deliver 5 Basilisk Crystals to Alchemist Finklestein in the shrine at Heb'Valok.|  |M|35.02 52.11|
-C Mushroom Mixer  |QO|1| |QID|12514| |N|Collect 10 Muddlecap Fungus and deliver them to Hexxer Ubungo at The Argent Stand.|  |M|40.53 65.61|
-C Creature Comforts  |QO|1| |QID|12599| |N|Captain Grondel at Drak'Agal wants you to bring him 20 pieces of Dead Thornwood.|  |M|48.15 63.89|
-T Creature Comforts  |M|28.2,99.75| |QID|12599| |N|Return to Captain Grondel at Drak'Agal in Zul'Drak.|
+T To Speak With Har'koa |QID|12628| |N|To Har’koa at the Altar of Har’koa.| |M|63.7,70.4|
+A But First My Offspring |QID|12632| |N|From Har’koa.| |M|63.7,70.4|
+C But First My Offspring |QID|12632| |U|38676| |N|Use Har’koa’s Whisker on her children’s corpses.| |M|63.7,70.4|
+C Relics of the Snow Leopard Goddess |QID|12635| |N|Collect 10 Har’koan Relics (around Zim’Torga/Har’koa).| |M|60.0,57.9|
+T But First My Offspring |QID|12632| |N|To Har’koa.| |M|63.7,70.4|
+A Spirit of Rhunok |QID|12642| |N|From Har’koa.| |M|63.7,70.4|
 
-T Mushroom Mixer  |M|27.29,90.64| |QID|12514| |N|Return to Hexxer Ubungo at Argent Stand in Zul'Drak.|
-A Too Much of a Good Thing  |M|27.29,90.64| |QID|12516| |N|Accept Too Much of a Good Thing|
-T Pa'Troll  |M|26.75,90.34| |QID|12596| |N|Return to Commander Kunz at Argent Stand in Zul'Drak.|
-C Too Much of a Good Thing  |U|38332| |QO|1| |QID|12516| |N|Slay the Muddled Prophet of Sseratus and then return to Hexxer Ubungo at The Argent Stand.|  |M|40.53 65.61|
-T Gluttonous Lurkers  |M|34.46,84.07| |QID|12527| |N|Return to Alchemist Finklestein at the shrine at Heb'Valok in Zul'Drak.|
-T Too Much of a Good Thing  |M|27.29,90.64| |QID|12516| |N|Return to Hexxer Ubungo at Argent Stand in Zul'Drak.|
-A To the Witch Doctor  |M|27.29,90.64| |QID|12623| |N|Accept To the Witch Doctor|
+T Relics of the Snow Leopard Goddess |QID|12635| |N|To Chronicler To’kini at Zim’Torga.| |M|60.0,57.9|
+A Plundering Their Own |QID|12650| |N|From Chronicler To’kini.| |M|60.0,57.9|
+A Sealing the Rifts |QID|12640| |N|From Scalper Ahunae.| |M|59.2,56.2|
+A The Frozen Earth |QID|12639| |N|From Element-Tamer Dagoda.| |M|59.4,56.4|
+A The Blessing of Zim'Rhuk |QID|12655| |N|From Altar starter.| |M|59.5,58.1|
+T The Blessing of Zim'Rhuk |QID|12655| |N|Offerings at Zim’Rhuk.| |M|59.5,58.1|
 
-T To the Witch Doctor   |QID|12623| |N|\n|  |M|59.50 58.05|
-A Breaking Through Jin'Alai   |QID|12627| |N|Accept Breaking Through Jin'Alai|  |M|59.50 58.05|
-A The Blessing of Zim'Torga   |QID|12615| |N|Accept The Blessing of Zim'Torga|  |M|59.50 58.05|
-T The Blessing of Zim'Torga   |QID|12615| |N|Deliver the Drakkari Offerings to Zim'Torga at Zim'Torga in Zul'Drak.|  |M|59.50 58.05|
-A The Leaders at Jin'Alai   |QID|12622| |N|Accept The Leaders at Jin'Alai|  |M|59.15 56.20|
+T Spirit of Rhunok |QID|12642| |N|To Spirit of Rhunok at the Altar of Rhunok.| |M|53.4,39.0|
+A My Prophet, My Enemy |QID|12646| |N|From Spirit of Rhunok.| |M|53.4,39.0|
+C My Prophet, My Enemy |QID|12646| |N|Acquire Arctic Bear God Mojo (quest objective nearby).| |M|53.4,39.0|
+T My Prophet, My Enemy |QID|12646| |N|To Spirit of Rhunok.| |M|53.4,39.0|
+A An End to the Suffering |QID|12647| |N|From Spirit of Rhunok.| |M|53.4,39.0|
+C An End to the Suffering |QID|12647| |U|38696| |N|Use Tormentor’s Incense to awaken Rhunok’s body, then slay him with the granted power.| |M|53.4,39.0|
+T An End to the Suffering |QID|12647| |N|To Spirit of Rhunok.| |M|53.4,39.0|
+A Back to Har'koa |QID|12653| |N|From Spirit of Rhunok.| |M|53.4,39.0|
 
-C Breaking Through Jin'Alai  |QID|12627| |N|Witch Doctor Khufu at Zim'Torga has asked you to disturb the Blue Cauldron, Green Cauldron, Purple Cauldron, and Red Cauldron.|  |M|59.50 58.05|
-C The Leaders at Jin'Alai  |QO|1| |QID|12622| |N|Scalper Ahunae at Zim'Torga has asked you to retrieve the Treasure of Kutube'sa, the Treasure of Gawanil, and the Treasure of Chulo the Mad.|  |M|59.15 56.20|
+C Plundering Their Own |QID|12650| |N|Collect 7 Rhunokian Artifacts.| |M|60.0,57.9|
+C Sealing the Rifts |QID|12640| |N|Seal 7 Elemental Rifts.| |M|59.2,56.2|
+C The Frozen Earth |QID|12639| |N|Collect 7 Essence of the Frozen Earth.| |M|59.4,56.4|
+T Plundering Their Own |QID|12650| |N|To Chronicler To’kini.| |M|60.0,57.9|
+T The Frozen Earth |QID|12639| |N|To Element-Tamer Dagoda.| |M|59.4,56.4|
+T Sealing the Rifts |QID|12640| |N|To Scalper Ahunae.| |M|59.2,56.2|
+A Scalps! |QID|12659| |N|From Scalper Ahunae.| |M|59.2,56.2|
+A Bringing Down Heb'Jin |QID|12662| |N|From Element-Tamer Dagoda.| |M|59.4,56.4|
 
-T Breaking Through Jin'Alai   |QID|12627| |N|Return to Witch Doctor Khufu at Zim'Torga in Zul'Drak.|  |M|59.50 58.05|
-A To Speak With Har'koa   |QID|12628| |N|Accept To Speak With Har'koa|  |M|59.50 58.05|
-A Relics of the Snow Leopard Goddess   |QID|12635| |N|Accept Relics of the Snow Leopard Goddess|  |M|59.98 57.93|
-T The Leaders at Jin'Alai   |QID|12622| |N|Return to Scalper Ahunae at Zim'Torga in Zul'Drak.|  |M|59.15 56.20|
+T Back to Har'koa |QID|12653| |N|To Har’koa.| |M|63.7,70.4|
+A I Sense a Disturbance |QID|12665| |N|From Har’koa.| |M|63.7,70.4|
+C I Sense a Disturbance |QID|12665| |N|Ride one of Har’koa’s children stealthily into the Altar of Quetz’lun, then return.| |M|63.7,70.4|
+T I Sense a Disturbance |QID|12665| |N|To Har’koa.| |M|63.7,70.4|
+A Preparations for the Underworld |QID|12666| |N|From Har’koa.| |M|63.7,70.4|
+C Preparations for the Underworld |QID|12666| |N|Collect 8 Sacred Adornments.| |M|63.7,70.4|
+T Preparations for the Underworld |QID|12666| |N|To Har’koa.| |M|63.7,70.4|
+A Seek the Wind Serpent Goddess |QID|12667| |N|From Har’koa.| |M|63.7,70.4|
+T Seek the Wind Serpent Goddess |QID|12667| |N|To Quetz’lun’s Spirit at the Altar of Quetz’lun.| |M|75.4,58.6|
+A Setting the Stage |QID|12672| |N|From Quetz’lun’s Spirit.| |M|75.4,58.6|
+C Setting the Stage |QID|12672| |N|Collect 10 Underworld Power Fragments.| |M|75.4,58.6|
+T Setting the Stage |QID|12672| |N|To Quetz’lun’s Spirit.| |M|75.4,58.6|
+A Foundation for Revenge |QID|12668| |N|From Quetz’lun’s Spirit.| |M|75.4,58.6|
+C Foundation for Revenge |QID|12668| |N|Slay 12 Quetz’lun Worshippers/Serpent-Touched Berserkers near Soul Fonts.| |M|75.4,58.6|
+T Foundation for Revenge |QID|12668| |N|To Quetz’lun’s Spirit.| |M|75.4,58.6|
+A Hell Hath a Fury |QID|12674| |N|From Quetz’lun’s Spirit.| |M|75.4,58.6|
+C Hell Hath a Fury |QID|12674| |U|39158| |N|Hex then slay High Priest Mu’funu, High Priestess Tua-Tua, and High Priest Hawinni.| |M|75.4,58.6|
+T Hell Hath a Fury |QID|12674| |N|To Quetz’lun’s Spirit.| |M|75.4,58.6|
+A One Last Thing |QID|12675| |N|From Quetz’lun’s Spirit.| |M|75.4,58.6|
+T One Last Thing |QID|12675| |N|To Har’koa.| |M|63.7,70.4|
+A Blood of a Dead God |QID|12684| |N|From Har’koa.| |M|63.7,70.4|
 
-T To Speak With Har'koa   |QID|12628| |N|\n|  |M|63.72 70.42|
-A But First My Offspring   |QID|12632| |N|Accept But First My Offspring|  |M|63.72 70.42|
-C But First My Offspring  |U|38676| |QID|12632| |N|Har'koa has asked you to use her whisker on the corpses of her children to free and resurrect them. Return to her at the Altar of Har'koa when you are done.|  |M|63.72 70.42|
-C Relics of the Snow Leopard Goddess  |QID|12635| |N|Chronicler To'kini at Zim'Torga wants you to recover 10 Har'koan Relics.|  |M|59.98 57.93|
-T But First My Offspring   |QID|12632| |N|Return to Har'koa at the Altar of Har'koa in Zul'Drak.|  |M|63.72 70.42|
-A Spirit of Rhunok   |QID|12642| |N|Accept Spirit of Rhunok|  |M|63.72 70.42|
+C Scalps! |QID|12659| |U|38731| |N|Use Ahunae’s Knife to scalp 10 Heb’Drakkar trolls (loot first!).| |M|59.2,56.2|
+C Bringing Down Heb'Jin |QID|12662| |U|39041| |N|Kill Heb’Jin.| |M|59.4,56.4|
+C Blood of a Dead God |QID|12684| |N|Collect 7 Blood of Mam’toth.| |M|63.7,70.4|
+T Blood of a Dead God |QID|12684| |N|To Har’koa.| |M|63.7,70.4|
+A You Reap What You Sow |QID|12685| |N|From Har’koa.| |M|63.7,70.4|
+C You Reap What You Sow |QID|12685| |U|39187| |N|Slay the Drained Prophet of Quetz’lun, then return to Zim’Torga.| |M|59.5,58.1|
 
-T Relics of the Snow Leopard Goddess   |QID|12635| |N|Return to Chronicler To'kini at Zim'Torga in Zul'Drak.|  |M|59.98 57.93|
-A Plundering Their Own   |QID|12650| |N|Accept Plundering Their Own|  |M|59.98 57.93|
-A Sealing the Rifts   |QID|12640| |N|Accept Sealing the Rifts|  |M|59.15 56.20|
-A The Frozen Earth   |QID|12639| |N|Accept The Frozen Earth|  |M|59.40 56.41|
-A The Blessing of Zim'Rhuk   |QID|12655| |N|Accept The Blessing of Zim'Rhuk|  |M|59.50 58.05|
+T You Reap What You Sow |QID|12685| |N|To Witch Doctor Khufu at Zim’Torga.| |M|59.5,58.1|
+T Bringing Down Heb'Jin |QID|12662| |N|To Element-Tamer Dagoda.| |M|59.4,56.4|
+T Scalps! |QID|12659| |N|To Scalper Ahunae.| |M|59.2,56.2|
+A Wooly Justice |QID|12707| |N|From Scalper Ahunae.| |M|59.2,56.2|
+A Enchanted Tiki Warriors |QID|12708| |N|From Element-Tamer Dagoda.| |M|59.4,56.4|
+A The Key of Warlord Zol'Maz |QID|12712| |N|From Har’koa (Zim’Torga hub).| |M|63.7,70.4|
+A Hexed Caches |QID|12709| |N|From Chronicler To’kini.| |M|60.0,57.9|
 
-T The Blessing of Zim'Rhuk   |QID|12655| |N|Deliver the Drakkari Offerings to Zim'Rhuk in Zim'Rhuk in Zul'Drak.|  |M|59.50 58.05|
+C The Key of Warlord Zol'Maz |QID|12712| |U|39314| |N|Acquire the Key from Zol’Maz Stronghold.| |M|63.7,70.4|
+C Hexed Caches |QID|12709| |U|39305| |N|Collect 12 Zol’Maz Stronghold Caches.| |M|60.0,57.9|
+C Enchanted Tiki Warriors |QID|12708| |N|Destroy 12 Enchanted Tiki Warriors.| |M|59.4,56.4|
+C Wooly Justice |QID|12707| |U|39268| |N|Calm and ride an Enraged Mammoth; trample 12 Mam’toth Disciples.| |M|59.2,56.2|
 
-T Spirit of Rhunok   |QID|12642| |N|\n|  |M|53.38 39.01|
-A My Prophet, My Enemy   |QID|12646| |N|Accept My Prophet, My Enemy|  |M|53.38 39.01|
-C My Prophet, My Enemy  |QID|12646| |N|The Spirit of Rhunok at the Altar of Rhunok has asked you to acquire his Arctic Bear God Mojo.|  |M|53.38 39.01|
-T My Prophet, My Enemy   |QID|12646| |N|Return to Spirit of Rhunok at the Altar of Rhunok in Zul'Drak.|  |M|53.38 39.01|
-A An End to the Suffering   |QID|12647| |N|Accept An End to the Suffering|  |M|53.38 39.01|
-C An End to the Suffering  |U|38696| |QO|1| |QID|12647| |N|The Spirit of Rhunok has asked you to use the Tormentor's Incense to awaken his body. You are then to slay Rhunok using the power that his spirit has imbued you with.$B$BIf for some reason you lose the Mojo of Rhunok aura, you can return to the Spirit of Rhunok to have it reapplied.|  |M|53.38 39.01|
-T An End to the Suffering   |QID|12647| |N|Return to Spirit of Rhunok at the Altar of Rhunok in Zul'Drak.|  |M|53.38 39.01|
-A Back to Har'koa   |QID|12653| |N|Accept Back to Har'koa|  |M|53.38 39.01|
+T Wooly Justice |QID|12707| |N|To Scalper Ahunae.| |M|59.2,56.2|
+T Enchanted Tiki Warriors |QID|12708| |N|To Element-Tamer Dagoda.| |M|59.4,56.4|
+T The Key of Warlord Zol'Maz |QID|12712| |N|To Har’koa (Zim’Torga hub).| |M|63.7,70.4|
+A Rampage |QID|12721| |N|From Har’koa.| |M|63.7,70.4|
+T Hexed Caches |QID|12709| |N|To Chronicler To’kini.| |M|60.0,57.9|
+A Just Checkin' |QID|13099| |N|From Chronicler To’kini.| |M|60.0,57.9|
 
-C Plundering Their Own  |QID|12650| |N|Chronicler To'kini at Zim'Torga wants you to recover 7 Rhunokian Artifacts.|  |M|59.98 57.93|
-C Sealing the Rifts  |QID|12640| |N|Scalper Ahunae at Zim'Torga has asked you to seal 7 Elemental Rifts.|  |M|59.15 56.20|
-C The Frozen Earth  |QO|1| |QID|12639| |N|Element-Tamer Dagoda at Zim'Torga wants you to collect 7 Essence of the Frozen Earth.|  |M|59.40 56.41|
+C Rampage |QID|12721| |N|Free Akali, then report back to Khufu.| |M|59.5,58.1|
+T Just Checkin' |QID|13099| |N|To the Argent NPC at Gundrak entrance area.| |M|70.1,20.9|
+T Rampage |QID|12721| |N|To Witch Doctor Khufu at Zim’Torga.| |M|59.5,58.1|
 
-T Plundering Their Own   |QID|12650| |N|Return to Chronicler To'kini at Zim'Torga in Zul'Drak.|  |M|59.98 57.93|
-T The Frozen Earth   |QID|12639| |N|Return to Element-Tamer Dagoda at Zim'Torga in Zul'Drak.|  |M|59.40 56.41|
-T Sealing the Rifts   |QID|12640| |N|Return to Scalper Ahunae at Zim'Torga in Zul'Drak.|  |M|59.15 56.20|
-A Scalps!   |QID|12659| |N|Accept Scalps!|  |M|59.15 56.20|
-A Bringing Down Heb'Jin   |QID|12662| |N|Accept Bringing Down Heb'Jin|  |M|59.40 56.41|
 
-T Back to Har'koa   |QID|12653| |N|\n|  |M|63.72 70.42|
-A I Sense a Disturbance   |QID|12665| |N|Accept I Sense a Disturbance|  |M|63.72 70.42|
-C I Sense a Disturbance  |QID|12665| |N|Har'koa has asked you to determine what has happened to Quetz'lun. Speak to her to be able to ride one of her children stealthily into the Altar of Quetz'lun.$B$BReturn to her at the Altar of Har'koa once you have done so.|  |M|63.72 70.42|
-T I Sense a Disturbance   |QID|12665| |N|Return to Har'koa at the Altar of Har'koa in Zul'Drak.|  |M|63.72 70.42|
-A Preparations for the Underworld   |QID|12666| |N|Accept Preparations for the Underworld|  |M|63.72 70.42|
-C Preparations for the Underworld  |QO|1| |QID|12666| |N|Har'koa wants you to collect 8 Sacred Adornments. Deliver them to her at the Altar of Har'koa.|  |M|63.72 70.42|
-T Preparations for the Underworld   |QID|12666| |N|Return to Har'koa at the Altar of Har'koa in Zul'Drak.|  |M|63.72 70.42|
-A Seek the Wind Serpent Goddess   |QID|12667| |N|Accept Seek the Wind Serpent Goddess|  |M|63.72 70.42|
-T Seek the Wind Serpent Goddess   |QID|12667| |N|\n|  |M|75.39 58.62|
-A Setting the Stage   |QID|12672| |N|Accept Setting the Stage|  |M|75.39 58.62|
-C Setting the Stage  |QO|1| |QID|12672| |N|Quetz'lun's Spirit has demanded that you collect 10 Underworld Power Fragments. Return to her at the Altar of Quetz'lun only when you have done so.|  |M|75.39 58.62|
-T Setting the Stage   |QID|12672| |N|Return to Quetz'lun's Spirit at the Altar of Quetz'lun in Zul'Drak.|  |M|75.39 58.62|
-A Foundation for Revenge   |QID|12668| |N|Accept Foundation for Revenge|  |M|75.39 58.62|
-C Foundation for Revenge  |QID|12668| |N|Quetz'lun's Spirit has tasked you with the destruction of 12 trolls, either Quetz'lun Worshippers or Serpent-Touched Berserkers, near her Soul Fonts.$B$BOnly after you have accomplished this should you return to her at the Altar of Quetz'lun.|  |M|75.39 58.62|
-T Foundation for Revenge   |QID|12668| |N|Return to Quetz'lun's Spirit at the Altar of Quetz'lun in Zul'Drak.|  |M|75.39 58.62|
-A Hell Hath a Fury   |QID|12674| |N|Accept Hell Hath a Fury|  |M|75.39 58.62|
-C Hell Hath a Fury  |U|39158| |QO|1| |QID|12674| |N|Quetz'lun's Spirit at the Altar of Quetz'lun wants you to use Quetz'lun's Hexxing Stick upon High Priest Mu'funu, High Priestess Tua-Tua, and High Priest Hawinni. Once you have done this, slay them.|  |M|75.39 58.62|
-T Hell Hath a Fury   |QID|12674| |N|Return to Quetz'lun's Spirit at the Altar of Quetz'lun in Zul'Drak.|  |M|75.39 58.62|
-A One Last Thing   |QID|12675| |N|Accept One Last Thing|  |M|75.39 58.62|
-T One Last Thing   |QID|12675| |N|Return to Har'koa at the Altar of Har'koa in Zul'Drak.|  |M|63.72 70.42|
-A Blood of a Dead God   |QID|12684| |N|Accept Blood of a Dead God|  |M|63.72 70.42|
-C Scalps!  |U|38731| |QO|1| |QID|12659| |N|Scalper Ahunae at Zim'Torga wants you to use Ahunae's Knife to scalp 10 Heb'Drakkar trolls.$B$BThe scalper reminds you that you should loot them first.|  |M|59.15 56.20|
-C Bringing Down Heb'Jin  |U|39041| |QO|1| |QID|12662| |N|Element-Tamer Dagoda at Zim'Torga wants you to kill Heb'Jin.|  |M|59.40 56.41|
-C Blood of a Dead God  |QO|1| |QID|12684| |N|Har'koa has asked you to collect 7 Blood of Mam'toth. Return them to her at the Altar of Har'koa.|  |M|63.72 70.42|
-T Blood of a Dead God   |QID|12684| |N|Return to Har'koa at the Altar of Har'koa in Zul'Drak.|  |M|63.72 70.42|
-A You Reap What You Sow   |QID|12685| |N|Accept You Reap What You Sow|  |M|63.72 70.42|
-C You Reap What You Sow  |U|39187| |QO|1| |QID|12685| |N|Slay the Drained Prophet of Quetz'lun and then inform Witch Doctor Khufu at Zim'Torga.|  |M|59.50 58.05|
 
-T You Reap What You Sow   |QID|12685| |N|Return to Witch Doctor Khufu at Zim'Torga in Zul'Drak.|  |M|59.50 58.05|
-T Bringing Down Heb'Jin   |QID|12662| |N|Return to Element-Tamer Dagoda at Zim'Torga in Zul'Drak.|  |M|59.40 56.41|
-T Scalps!   |QID|12659| |N|Return to Scalper Ahunae at Zim'Torga in Zul'Drak.|  |M|59.15 56.20|
-A Wooly Justice   |QID|12707| |N|Accept Wooly Justice|  |M|59.15 56.20|
-A Enchanted Tiki Warriors   |QID|12708| |N|Accept Enchanted Tiki Warriors|  |M|59.40 56.41|
-A The Key of Warlord Zol'Maz   |QID|12712| |N|Accept The Key of Warlord Zol'Maz|  |M|63.72 70.42|
-A Hexed Caches   |QID|12709| |N|Accept Hexed Caches|  |M|59.98 57.93|
-
-C The Key of Warlord Zol'Maz  |U|39314| |QID|12712| |N|Har'koa at Zim'Torga has asked you to acquire the Key of Warlord Zol'Maz.|  |M|63.72 70.42|
-C Hexed Caches  |U|39305| |QID|12709| |N|Chronicler To'kini at Zim'Torga has asked you to acquire 12 Zol'Maz Stronghold Caches.|  |M|59.98 57.93|
-C Enchanted Tiki Warriors  |QO|1| |QID|12708| |N|Element-Tamer Dagoda at Zim'Torga has asked you to destroy 12 Enchanted Tiki Warriors.|  |M|59.40 56.41|
-C Wooly Justice  |U|39268| |QID|12707| |N|Scalper Ahunae at Zim'Torga wants you to use the Medallion of Mam'toth to calm and ride an Enraged Mammoth. You are then to trample 12 Mam'toth Disciples to death.|  |M|59.15 56.20|
-
-T Wooly Justice   |QID|12707| |N|Return to Scalper Ahunae at Zim'Torga in Zul'Drak.|  |M|59.15 56.20|
-T Enchanted Tiki Warriors   |QID|12708| |N|Return to Element-Tamer Dagoda at Zim'Torga in Zul'Drak.|  |M|59.40 56.41|
-T The Key of Warlord Zol'Maz   |QID|12712| |N|Return to Har'koa at Zim'Torga in Zul'Drak.|  |M|63.72 70.42|
-A Rampage   |QID|12721| |N|Accept Rampage|  |M|63.72 70.42|
-T Hexed Caches   |QID|12709| |N|Return to Chronicler To'kini at Zim'Torga in Zul'Drak.|  |M|59.98 57.93|
-A Just Checkin'   |QID|13099| |N|Accept Just Checkin'|  |M|59.98 57.93|
-
-C Rampage  |QID|12721| |N|Har'koa at Zim'Torga has asked you to free Akali and then to inform Witch Doctor Khufu at Zim'Torga.|  |M|59.50 58.05|
-T Just Checkin'   |QID|13099| |N|\n|  |M|70.06 20.92|
-T Rampage   |QID|12721| |N|Return to Witch Doctor Khufu at Zim'Torga in Zul'Drak.|  |M|59.50 58.05|
 ]]
 end)

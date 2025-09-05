@@ -1,101 +1,102 @@
 GuideReaderLite_RegisterGuide("Wetlands (25-27)", "Redridge Mountains (27-28)", "Alliance", function()
 return [[
-F Auberdine |N|Take the mysterious fossil to Chief Archaeologist Greywhisker in Darnassus.||QID|741|  |M|31.24 84.51|
-T WANTED: Murkdeep!  |T| | |M|42.18,26.02| |QID|4740| |N|Return to Sentinel Glynda Nal'Shea at Auberdine in Darkshore.|
-T The Absent Minded Prospector (Part 2)  |T| | |M|43.43,25.54| |QID|731| |N|Return to Archaeologist Hollee at Auberdine in Darkshore.|
-A The Absent Minded Prospector (Part 3)  |T| | |M|43.43,25.54| |QID|741| |N|Accept The Absent Minded Prospector|
-F Darnassus |N|Take the mysterious fossil to Chief Archaeologist Greywhisker in Darnassus.||QID|741|  |M|31.24 84.51|
-T The Absent Minded Prospector (Part 3)  |T| | |741| | |Z|Darnassus| |M|3.07,37.57| |QID|741| |N|\n|
-A The Absent Minded Prospector (Part 4)  |T| | |M|3.07,37.57| |QID|942| |N|Accept The Absent Minded Prospector|
+F Auberdine |N|Take the mysterious fossil to Chief Archaeologist Greywhisker in Darnassus.| |QID|741| |M|31.24,84.51|
+T WANTED: Murkdeep! |QID|4740| |T| |N|Return to Sentinel Glynda Nal'Shea at Auberdine in Darkshore.| |M|42.18,26.02|
+T The Absent Minded Prospector (Part 2) |QID|731| |T| |N|Return to Archaeologist Hollee at Auberdine in Darkshore.| |M|43.43,25.54|
+A The Absent Minded Prospector (Part 3) |QID|741| |T| |N|Accept The Absent Minded Prospector.| |M|43.43,25.54|
 
-F Loch Modan |N|Traverse Dun Algaz.||QID|455| |NORAF|  |M|10.10 56.90|
-R Loch Modan |N|Traverse Dun Algaz.$B$BKill 8 Dragonmaw Scouts and 6 Dragonmaw Grunts.$B$BReport to Valstag Ironjaw in Menethil Harbor.| |RAF| | |QID|455|  |M|10.10 56.90|
-A The Alagaz Gauntlet   |QID|455| |N|Accept The Algaz Gauntlet|  |M|25.44 10.38|
-C The Alagaz Gauntlet  |QO|1| |QID|455| |N|Traverse Dun Algaz.$B$BKill 8 Dragonmaw Scouts and 6 Dragonmaw Grunts.$B$BReport to Valstag Ironjaw in Menethil Harbor.|  |M|10.10 56.90|
+F Darnassus |N|Take the mysterious fossil to Chief Archaeologist Greywhisker in Darnassus.| |QID|741| |M|31.24,84.51|
+T The Absent Minded Prospector (Part 3) |QID|741| |T| |Z|Darnassus| |N|Return to Chief Archaeologist Greywhisker in Craftsmen’s Terrace.| |M|3.07,37.57|
+A The Absent Minded Prospector (Part 4) |QID|942| |T| |N|Accept The Absent Minded Prospector.| |M|3.07,37.57|
 
-R Menethil Harbor |N|Traverse Dun Algaz.$B$BKill 8 Dragonmaw Scouts and 6 Dragonmaw Grunts.$B$BReport to Valstag Ironjaw in Menethil Harbor.| |QID|455|  |M|10.10 56.90|
-A Claws from the Deep  |T| |  |QID|279| |N|Accept Claws from the Deep|  |M|8.31 58.53|
-A Young Crocolisk Skins  |T| | |484| |  |QID|484| |N|Accept Young Crocolisk Skins|  |M|8.55 55.74|
-T The Alagaz Gauntlet  |T| |  |QID|455| |N|Return to Valstag Ironjaw at Menethil Harbor in Wetlands.|  |M|10.10 56.90|
-A War Banners  |T| | |464| |  |QID|464| |N|Accept War Banners|  |M|9.86 57.49|
-A Digging Through the Ooze  |T| |  |QID|470| |N|Accept Digging Through the Ooze|  |M|11.80 57.99|
-A The Third Fleet  |T| |  |QID|288| |N|Accept The Third Fleet|  |M|10.89 59.67|
-A The Greenwarden  |T| |  |QID|463| |N|Accept The Greenwarden|  |M|10.89 59.67|
-h Deepwater Tavern |T| |QID|286| |N|Make this Inn your home|  |M|8.31 58.53|
-C The Third Fleet  |T| | |288|  | |QID|288| |N|Buy First Mate Fitzsimmons a Flagon of Mead.|  |M|10.89 59.67|
-T The Absent Minded Prospector (Part 4)  |T| |  |QID|942| |N|\n|  |M|10.84 60.43|
-A The Absent Minded Prospector (Part 5)  |T| |  |QID|943| |N|Accept The Absent Minded Prospector|  |M|10.84 60.43|
-T The Third Fleet  |T| |  |QID|288| |N|Return to First Mate Fitzsimmons at Menethil Harbor in Wetlands.|  |M|10.89 59.67|
-A The Cursed Crew  |T| |  |QID|289| |N|Accept The Cursed Crew|  |M|10.89 59.67|
-A In Search of The Excavation Team (Part 1)  |NODEBUG| |  |QID|305| |N|Accept In Search of The Excavation Team|  |M|11.50 52.17|
+F Loch Modan |NORAF| |N|Traverse Dun Algaz.| |QID|455| |M|10.10,56.90|
+R Loch Modan |RAF| |N|Traverse Dun Algaz. Kill 8 Dragonmaw Scouts and 6 Dragonmaw Grunts. Report to Valstag Ironjaw in Menethil Harbor.| |QID|455| |M|10.10,56.90|
+A The Algaz Gauntlet |QID|455| |N|Accept The Algaz Gauntlet.| |M|25.44,10.38|
+C The Algaz Gauntlet |QID|455| |QO|1| |N|Traverse Dun Algaz. Kill 8 Dragonmaw Scouts and 6 Dragonmaw Grunts. Report to Valstag Ironjaw in Menethil Harbor.| |M|10.10,56.90|
 
-N Kill young crocs... |N|Kill any Young Crocolisks you come across for "Young Crocolisk Skins"| |QID|484| |NORAF|  |M|8.55 55.74|
-C Claws from the Deep  |QO|1| |QID|279| |N|Kill 12 Bluegill Murlocs.$B$BSlay Gobbler and take his head.$B$BBring Gobbler's Head to Karl Boran in Menethil Harbor.|  |M|8.31 58.53|
+R Menethil Harbor |QID|455| |N|Head to Menethil Harbor and speak to Valstag Ironjaw.| |M|10.10,56.90|
+A Claws from the Deep |QID|279| |T| |N|Accept Claws from the Deep.| |M|8.31,58.53|
+A Young Crocolisk Skins |QID|484| |T| |N|Accept Young Crocolisk Skins.| |M|8.55,55.74|
+T The Algaz Gauntlet |QID|455| |T| |N|Return to Valstag Ironjaw at Menethil Harbor in Wetlands.| |M|10.10,56.90|
+A War Banners |QID|464| |T| |N|Accept War Banners.| |M|9.86,57.49|
+A Digging Through the Ooze |QID|470| |T| |N|Accept Digging Through the Ooze.| |M|11.80,57.99|
+A The Third Fleet |QID|288| |T| |N|Accept The Third Fleet.| |M|10.89,59.67|
+A The Greenwarden |QID|463| |T| |N|Accept The Greenwarden.| |M|10.89,59.67|
+h Deepwater Tavern |QID|286| |T| |N|Make this Inn your home.| |M|8.31,58.53|
+C The Third Fleet |QID|288| |T| |N|Buy First Mate Fitzsimmons a Flagon of Mead.| |M|10.89,59.67|
+T The Absent Minded Prospector (Part 4) |QID|942| |T| |N|Return to Archaeologist Flagongut at the docks office.| |M|10.84,60.43|
+A The Absent Minded Prospector (Part 5) |QID|943| |T| |N|Accept The Absent Minded Prospector.| |M|10.84,60.43|
+T The Third Fleet |QID|288| |T| |N|Return to First Mate Fitzsimmons at Menethil Harbor.| |M|10.89,59.67|
+A The Cursed Crew |QID|289| |T| |N|Accept The Cursed Crew.| |M|10.89,59.67|
+A In Search of The Excavation Team (Part 1) |QID|305| |NODEBUG| |N|Accept In Search of The Excavation Team.| |M|11.50,52.17|
 
-T In Search of The Excavation Team (Part 1)  |NODEBUG| |  |QID|305| |N|\n|  |M|38.91 52.34|
-A In Search of The Excavation Team (Part 2)  |NODEBUG| |  |QID|306| |N|Accept In Search of The Excavation Team|  |M|38.91 52.34|
-A Ormer's Revenge (Part 1)   |QID|294| |N|Accept Ormer's Revenge|  |M|38.18 50.89|
-N Get the fossil |ITEM|5234| |N|For "The Absent Minded Prospector (Part 5)"| |QID|943|  |M|10.84 60.43|
+N Kill young crocs... |QID|484| |NORAF| |N|Kill any Young Crocolisks you come across for “Young Crocolisk Skins.”| |M|8.55,55.74|
+C Claws from the Deep |QID|279| |QO|1| |N|Kill 12 Bluegill Murlocs and slay Gobbler for his head, then return to Karl Boran.| |M|8.31,58.53|
 
-C Ormer's Revenge (Part 1)  |QO|1| |QID|294| |N|Ormer Ironbraid at the Whelgar Excavation Site wants you to kill 10 Mottled Screechers and 10 Mottled Raptors.|  |M|38.18 50.89|
-T Ormer's Revenge (Part 1)   |QID|294| |N|Return to Ormer Ironbraid at Whelgar's Excavation Site in Wetlands.|  |M|38.18 50.89|
-A Ormer's Revenge (Part 2)   |QID|295| |N|Accept Ormer's Revenge|  |M|38.18 50.89|
-A Uncovering the Past   |QID|299| |N|Accept Uncovering the Past|  |M|38.81 52.39|
-N Keep an eye out for relics |QID|299|  |M|38.81 52.39|
-C Uncovering the Past  |QID|299| |N|Prospector Whelgar wants you to scour the excavation site in search of the 4 missing tablet fragments: Ados, Modr, Golm and Neru.|  |M|38.81 52.39|
-C Ormer's Revenge (Part 2)  |QO|1| |QID|295| |N|Ormer Ironbraid wants you to kill 10 Mottled Scytheclaw raptors and 10 Mottled Razormaw raptors then return to him at the Whelgar Excavation Site.|  |M|38.18 50.89|
-T Ormer's Revenge (Part 2)   |QID|295| |N|Return to Ormer Ironbraid at Whelgar's Excavation Site in Wetlands.|  |M|38.18 50.89|
-A Ormer's Revenge (Part 3)   |QID|296| |N|Accept Ormer's Revenge|  |M|38.18 50.89|
-C Ormer's Revenge (Part 3)  |QO|1| |QID|296| |N|Ormer Ironbraid at the Whelgar Excavation Site wants you to kill Sarltooth and return to him with one of his talons once the task is fulfilled.|  |M|38.18 50.89|
-T Uncovering the Past   |QID|299| |N|Return to Prospector Whelgar at Whelgar's Excavation Site in Wetlands.|  |M|38.81 52.39|
-T Ormer's Revenge (Part 3)   |QID|296| |N|Return to Ormer Ironbraid at Whelgar's Excavation Site in Wetlands.|  |M|38.18 50.89|
+T In Search of The Excavation Team (Part 1) |QID|305| |NODEBUG| |N|Speak with the survivors at Whelgar’s Excavation Site.| |M|38.91,52.34|
+A In Search of The Excavation Team (Part 2) |QID|306| |NODEBUG| |N|Accept In Search of The Excavation Team.| |M|38.91,52.34|
+A Ormer's Revenge (Part 1) |QID|294| |N|Accept Ormer's Revenge.| |M|38.18,50.89|
+N Get the fossil |QID|943| |ITEM|5234| |N|Loot the Stone of Relu and Flagongut’s Fossil for “The Absent Minded Prospector (Part 5).”| |M|10.84,60.43|
 
-C The Absent Minded Prospector (Part 5)  |QO|1| |QID|943| |N|Archaeologist Flagongut in Menethil Harbor wants you to bring him the Stone of Relu and Flagongut's Fossil.|  |M|10.84 60.43|
+C Ormer's Revenge (Part 1) |QID|294| |QO|1| |N|Kill 10 Mottled Screechers and 10 Mottled Raptors, then return to Ormer.| |M|38.18,50.89|
+T Ormer's Revenge (Part 1) |QID|294| |N|Return to Ormer Ironbraid at Whelgar’s Excavation Site.| |M|38.18,50.89|
+A Ormer's Revenge (Part 2) |QID|295| |N|Accept Ormer's Revenge.| |M|38.18,50.89|
+A Uncovering the Past |QID|299| |N|Accept Uncovering the Past.| |M|38.81,52.39|
+N Keep an eye out for relics |QID|299| |N|Collect the four tablet fragments (Ados, Modr, Golm, Neru) around the dig site.| |M|38.81,52.39|
+C Uncovering the Past |QID|299| |N|Find all four tablet fragments and return to Prospector Whelgar.| |M|38.81,52.39|
+C Ormer's Revenge (Part 2) |QID|295| |QO|1| |N|Kill 10 Mottled Scytheclaws and 10 Mottled Razormaws, then return to Ormer.| |M|38.18,50.89|
+T Ormer's Revenge (Part 2) |QID|295| |N|Return to Ormer Ironbraid at Whelgar’s Excavation Site.| |M|38.18,50.89|
+A Ormer's Revenge (Part 3) |QID|296| |N|Accept Ormer's Revenge.| |M|38.18,50.89|
+C Ormer's Revenge (Part 3) |QID|296| |QO|1| |N|Kill Sarltooth and bring one of his talons back to Ormer.| |M|38.18,50.89|
+T Uncovering the Past |QID|299| |N|Return to Prospector Whelgar at the dig site.| |M|38.81,52.39|
+T Ormer's Revenge (Part 3) |QID|296| |N|Return to Ormer Ironbraid at Whelgar’s Excavation Site.| |M|38.18,50.89|
 
-C War Banners  |NORAF|  | |QO|1| |QID|464| |N|Bring 8 Dragonmaw War Banners to Captain Stoutfist.|  |M|9.86 57.49|
-A Daily Delivery   |QID|469| |N|Accept Daily Delivery|  |M|49.92 39.37|
-T The Greenwarden   |QID|463| |N|\n|  |M|56.37 40.40|
-A Tramping Paws   |QID|276| |N|Accept Tramping Paws|  |M|56.37 40.40|
-C Tramping Paws  |QO|1| |QID|276| |N|Kill 15 Mosshide Gnolls and 10 Mosshide Mongrels, then return to Rethiel the Greenwarden in the Wetlands.|  |M|56.37 40.40|
-T Tramping Paws   |QID|276| |N|Return to Rethiel the Greenwarden at the Green Belt in Wetlands.|  |M|56.37 40.40|
-A Fire Taboo   |QID|277| |N|Accept Fire Taboo|  |M|56.37 40.40|
-C Fire Taboo  |NORAF|  | |QO|1| |QID|277| |N|Bring Rethiel the Greenwarden 9 Crude Flints.|  |M|56.37 40.40|
-C Young Crocolisk Skins  |NORAF|  | |QID|484| |N|Obtain 4 Young Crocolisk Skins for James Halloran in Menethil Harbor.|  |M|8.55 55.74|
-T Fire Taboo   |QID|277| |N|Return to Rethiel the Greenwarden at the Green Belt in Wetlands.|  |M|56.37 40.40|
-A Blisters on The Land  |NODEBUG| | |275| |  |QID|275| |N|Accept Blisters on The Land|  |M|56.37 40.40|
+C The Absent Minded Prospector (Part 5) |QID|943| |QO|1| |N|Bring the Stone of Relu and Flagongut’s Fossil to Archaeologist Flagongut in Menethil Harbor.| |M|10.84,60.43|
 
-H Menethil Harbor  |SZ|Deepwater Tavern| |QID|286| |N|Hearth back|  |M|8.31 58.53|
-T The Absent Minded Prospector (Part 5)  |T| |  |QID|943| |N|Return to Archaeologist Flagongut at Menethil Harbor in Wetlands.|  |M|10.84 60.43|
-T Claws from the Deep  |T| |  |QID|279| |N|Return to Karl Boran at Menethil Harbor in Wetlands.|  |M|8.31 58.53|
-A Reclaiming Goods  |T| |  |QID|281| |N|Accept Reclaiming Goods|  |M|8.31 58.53|
-T Young Crocolisk Skins  |T| | |484| |  |QID|484| |N|Return to James Halloran at Menethil Harbor in Wetlands.|  |M|8.55 55.74|
-A Apprentice's Duties  |T| | |471| |  |QID|471| |N|Accept Apprentice's Duties|  |M|8.55 55.74|
-T Daily Delivery  |T| |  |QID|469| |N|\n|  |M|8.55 55.74|
-T War Banners  |T| | |464| |  |QID|464| |N|Return to Captain Stoutfist at Menethil Harbor in Wetlands.|  |M|9.86 57.49|
-A Nek'rosh's Gambit  |T| | |465| |  |QID|465| |N|Accept Nek'rosh's Gambit|  |M|9.86 57.49|
-T In Search of The Excavation Team (Part 2)  |NODEBUG| |  |QID|306| |N|\n|  |M|11.50 52.17|
+C War Banners |QID|464| |NORAF| |QO|1| |N|Bring 8 Dragonmaw War Banners to Captain Stoutfist in Menethil Harbor.| |M|9.86,57.49|
+A Daily Delivery |QID|469| |N|Accept Daily Delivery.| |M|49.92,39.37|
+T The Greenwarden |QID|463| |N|Report to Rethiel the Greenwarden at the Green Belt.| |M|56.37,40.40|
+A Tramping Paws |QID|276| |N|Accept Tramping Paws.| |M|56.37,40.40|
+C Tramping Paws |QID|276| |QO|1| |N|Kill 15 Mosshide Gnolls and 10 Mosshide Mongrels, then return to the Greenwarden.| |M|56.37,40.40|
+T Tramping Paws |QID|276| |N|Return to Rethiel the Greenwarden.| |M|56.37,40.40|
+A Fire Taboo |QID|277| |N|Accept Fire Taboo.| |M|56.37,40.40|
+C Fire Taboo |QID|277| |NORAF| |QO|1| |N|Bring 9 Crude Flints to the Greenwarden.| |M|56.37,40.40|
+C Young Crocolisk Skins |QID|484| |NORAF| |N|Obtain 4 Young Crocolisk Skins for James Halloran.| |M|8.55,55.74|
+T Fire Taboo |QID|277| |N|Return to Rethiel the Greenwarden.| |M|56.37,40.40|
+A Blisters on The Land |QID|275| |NODEBUG| |N|Accept Blisters on The Land.| |M|56.37,40.40|
 
-N Kill stealth elementals... |QID|275| |N|Kill any Fen Creepers you come across for "Blisters on The Land".  They stealth and follow the shallow waters in the west half of the zone.| |NORAF|  |M|56.37 40.40|
+H Menethil Harbor |QID|286| |SZ|Deepwater Tavern| |N|Hearth back.| |M|8.31,58.53|
+T The Absent Minded Prospector (Part 5) |QID|943| |T| |N|Return to Archaeologist Flagongut in Menethil Harbor.| |M|10.84,60.43|
+T Claws from the Deep |QID|279| |T| |N|Return to Karl Boran in Menethil Harbor.| |M|8.31,58.53|
+A Reclaiming Goods |QID|281| |T| |N|Accept Reclaiming Goods.| |M|8.31,58.53|
+T Young Crocolisk Skins |QID|484| |T| |N|Return to James Halloran in Menethil Harbor.| |M|8.55,55.74|
+A Apprentice's Duties |QID|471| |T| |N|Accept Apprentice's Duties.| |M|8.55,55.74|
+T Daily Delivery |QID|469| |T| |N|Return to James Halloran in Menethil Harbor.| |M|8.55,55.74|
+T War Banners |QID|464| |T| |N|Return to Captain Stoutfist in Menethil Harbor.| |M|9.86,57.49|
+A Nek'rosh's Gambit |QID|465| |T| |N|Accept Nek'rosh's Gambit.| |M|9.86,57.49|
+T In Search of The Excavation Team (Part 2) |QID|306| |NODEBUG| |N|Return to the Menethil Harbor dig liaison.| |M|11.50,52.17|
 
-T Reclaiming Goods   |QID|281| |N|\n|  |M|8.31 58.53|
-A The Search Continues   |QID|284| |N|Accept The Search Continues|
-T The Search Continues   |QID|284| |N|\n|
-A Search More Hovels   |QID|285| |N|Accept Search More Hovels|
-T Search More Hovels   |QID|285| |N|\n|
-A Return the Statuette   |QID|286| |N|Accept Return the Statuette|  |M|8.31 58.53|
+N Kill stealth elementals... |QID|275| |NORAF| |N|Kill Fen Creepers along the shallow western waters for “Blisters on The Land.”| |M|56.37,40.40|
 
-C The Cursed Crew  |QO|1| |QID|289| |N|Kill 13 Cursed Sailors, 5 Cursed Marines and First Mate Snellig.  Bring Snellig's Snuffbox to First Mate Fitzsimmons in Menethil Harbor.|  |M|10.89 59.67|
-C Apprentice's Duties  |NORAF|  | |QO|1| |QID|471| |N|Collect 6 Giant Crocolisk Skins and bring them to James Halloran in Menethil Harbor.|  |M|8.55 55.74|
-C Blisters on The Land  |NODEBUG| | |275| | |QO|1| |QID|275| |N|Kill 8 Fen Creepers, then return to Rethiel the Greenwarden in the Wetlands.|  |M|56.37 40.40|
-C Digging Through the Ooze  |QO|1| |QID|470| |N|One of the oozes at Ironbeard's Tomb has Sida's bag, retrieve it and bring it back to her in Menethil Harbor.|  |M|11.80 57.99|
+T Reclaiming Goods |QID|281| |N|Turn in at the Menethil crates by the murloc hovels.| |M|8.31,58.53|
+A The Search Continues |QID|284| |N|Accept The Search Continues.|
+T The Search Continues |QID|284| |N|Check the next hovel for the statuette.|
+A Search More Hovels |QID|285| |N|Accept Search More Hovels.|
+T Search More Hovels |QID|285| |N|Search the last hovel.|
+A Return the Statuette |QID|286| |N|Accept Return the Statuette.| |M|8.31,58.53|
 
-T Blisters on The Land  |NODEBUG| | |275| |  |QID|275| |N|Return to Rethiel the Greenwarden at the Green Belt in Wetlands.|  |M|56.37 40.40|
+C The Cursed Crew |QID|289| |QO|1| |N|Kill 13 Cursed Sailors, 5 Cursed Marines, and First Mate Snellig; bring Snellig’s Snuffbox to First Mate Fitzsimmons.| |M|10.89,59.67|
+C Apprentice's Duties |QID|471| |NORAF| |QO|1| |N|Collect 6 Giant Crocolisk Skins and return to James Halloran.| |M|8.55,55.74|
+C Blisters on The Land |QID|275| |NODEBUG| |QO|1| |N|Kill 8 Fen Creepers, then return to the Greenwarden.| |M|56.37,40.40|
+C Digging Through the Ooze |QID|470| |QO|1| |N|Retrieve Sida’s Bag from an ooze at Ironbeard’s Tomb and return to her in Menethil Harbor.| |M|11.80,57.99|
 
-H Menethil Harbor  |SZ|Deepwater Tavern| |QID|286| |N|Hearth back|  |M|8.31 58.53|
-T The Cursed Crew  |T| |  |QID|289| |N|Return to First Mate Fitzsimmons at Menethil Harbor in Wetlands.|  |M|10.89 59.67|
-A Lifting the Curse  |T| |  |QID|290| |N|Accept Lifting the Curse|  |M|10.89 59.67|
-T Digging Through the Ooze  |T| |  |QID|470| |N|Return to Sida at Menethil Harbor in Wetlands.|  |M|11.80 57.99|
-T Apprentice's Duties  |T| | |471| |  |QID|471| |N|Return to James Halloran at Menethil Harbor in Wetlands.|  |M|8.55 55.74|
-T Return the Statuette  |T| |  |QID|286| |N|\n|  |M|8.31 58.53|
+T Blisters on The Land |QID|275| |NODEBUG| |N|Return to Rethiel the Greenwarden.| |M|56.37,40.40|
+
+H Menethil Harbor |QID|286| |SZ|Deepwater Tavern| |N|Hearth back.| |M|8.31,58.53|
+T The Cursed Crew |QID|289| |T| |N|Return to First Mate Fitzsimmons in Menethil Harbor.| |M|10.89,59.67|
+A Lifting the Curse |QID|290| |T| |N|Accept Lifting the Curse.| |M|10.89,59.67|
+T Digging Through the Ooze |QID|470| |T| |N|Return to Sida in Menethil Harbor.| |M|11.80,57.99|
+T Apprentice's Duties |QID|471| |T| |N|Return to James Halloran in Menethil Harbor.| |M|8.55,55.74|
+T Return the Statuette |QID|286| |T| |N|Return the Statuette to Karl Boran at the docks office.| |M|8.31,58.53|
 ]]
 end)

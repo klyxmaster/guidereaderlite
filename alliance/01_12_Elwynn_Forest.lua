@@ -111,6 +111,86 @@ A Protect the Frontier     |QID|52| |N|Accept Protect the Frontier|  |M|74.0 72.
 A Red Linen Goods     |QID|83| |N|Accept Red Linen Goods|  |M|79.6 68.6|
 A A Bundle of Trouble     |QID|5545| |N|Accept A Bundle of Trouble|  |M|81.4 66.0|
 
+T Find the Lost Guard   |QID|37| 	|N|Run just west of the waterfall at  touch the mangled body and turn in “Find the Lost Guards”|   |M|72,60| |QO|1|
+A Discover Rolf's Fate 	|QID|45|  	|N|Accept Rolf's Fate from the lost guards body| |M|72,60| |QO|1|
+T Discover Rolf's Fate 	|QID|45|	|N|On the east shore of Stone Cairn Lake in the middle of a murloc village.  Approach from the east for best results.|  |M|79.8, 55.6|
+A Report to Thomas 		|QID|71|	|N|Accept Report to Thomas|	 |M|79.8, 55.6|
+
+C A Bundle of Trouble 	|QID|5545,52|	|N|North of the campe kill 8 prowlers, 5 young forest bears and collect wood|   |QO|1,1,1|  |82,60|
+
+T A Bundle of Trouble 	|QID|5545|	|N|Bring 8 Bundles of Wood to Raelen at the Eastvale Logging Camp.|  |M|81.4 66.0|
+T Report to Thomas  	|QID|71| 	|N|Deliver Rolf and Malakai's Medallions to Guard Thomas at the eastern Elwynn bridge.|	 |M|74.0 72.2|
+A Deliver Thomas' Report |QID|39|	|N|accept Deliver Thomas' Report |	|M|74.0 72.2|
+T Protect the Frontier |QID|52|		|N|Kill 8 Prowlers and 5 Young Forest Bears, and then return to Guard Thomas at the east Elwynn bridge.|	|M|74.0 72.2|
+
+C Princess and Linen Goods |QID|88,83|	|N|KIll the princess for the neckless At the Brackwell Pumpkin Patch. Kill bandits for their "Red Bandanas"\n\nTIP: Princess can't jump the fense, kite her back and forth to kll her|	|QO|1,1,|	|M|70.6 79.0|
+T Red Linen Goods |QID|83| |N|Bring 6 Red Linen Bandanas to Sara Timberlain at the Eastvale Logging Camp.|	|M|79.6 68.6|
+
+H Goldshire |N|Hearth to Lion's Pride Inn|
+A Speak with Jennea |C|Mage| |QID|1860| |R|Human| |N|Accept Speak with Jennea|
+A Seek out SI: 7 |C|Rogue| |QID|2205| |R|Human| |N|Accept Seek out SI: 7|
+A Gakin's Summons |C|Warlock| |QID|1717| |R|Human| |N|Accept Gakin's Summons|
+
+T Collecting Kelp |QID|112| |N|Bring 4 Crystal Kelp Fronds to William Pestle in Goldshire.|  |M|43.2 65.8|
+A The Escape |QID|114| |N|Accept The Escape|	 |M|43.2 65.8|
+T Deliver Thomas' Report |QID|39| |N|Take Thomas' Report to Marshal Dughan in Goldshire.|	|M|42.2 65.8|
+T The Jasperlode Mine |QID|76| |N|Scout the Jasperlode Mine and report back to Marshal Dughan in Goldshire.|	|M|42.2 65.8|
+A Westbrook Garrison Needs Help! |QID|239| |N|Accept Westbrook Garrison Needs Help!|	|M|42.2 65.8|
+A Elmore's Task |QID|1097| |N|Accept Elmore's Task|	|M|41.6 65.6|
+
+A A Warrior's Training |C|Warrior| |QID|1638| |R|Human| |N|Accept A Warrior's Training|
+
+T The Escape |QID|114| |N|Report back to Maybell Maclure at the Maclure Vineyards.|	|M|43.0 89.6|
+T Goldtooth |QID|87| |N|Bring Bernice's Necklace to Bernice Stonefield at the Stonefield Farm.|		|M|34.6 84.2|
+T Princess Must Die! |QID|88| |N|Bring Princess’s Brass Collar to Ma Stonefield at the Stonefield Farm.|	|M|34.6 84.6|
+
+T Westbrook Garrison Needs Help! |QID|239| |N|Report to Deputy Rainer at Westbrook Garrison.|	|M|24.2 74.6|
+A Riverpaw Gnoll Bounty |QID|11| |N|Accept Riverpaw Gnoll Bounty from Deputy Rainer at Westbrook Garrison.| |M|24.2,74.5| |Z|Elwynn Forest|
+C Riverpaw Gnoll Bounty |QID|11| |N|Kill Riverpaw Gnolls and collect 8 Gnoll Armbands.| |M|26.0,86.0| |Z|Elwynn Forest|
+T Riverpaw Gnoll Bounty |QID|11| |N|Bring 8 Gnoll Armbands to Deputy Rainer at Westbrook Garrison.| |M|24.2,74.5| |Z|Elwynn Forest|
+
+R Westfall |N|Run west to Westfall.| |M|19.9,77.1| |Z|Elwynn Forest|
+A Furlbrow's Deed |U|1972| |O| |QID|184| |N|Accept Furlbrow's Deed from the item drop.| |M|59.9,19.4| |Z|Westfall|
+T Furlbrow's Deed |O| |QID|184| |N|Bring Furlbrow's Deed to Farmer Furlbrow.| |M|59.9,19.4| |Z|Westfall|
+A Report to Gryan Stoutmantle |QID|109| |N|Accept Report to Gryan Stoutmantle from Farmer Furlbrow.| |M|59.9,19.4| |Z|Westfall|
+A Westfall Stew |QID|38| |N|Accept Westfall Stew from Salma Saldean at Saldean's Farm.| |M|56.4,30.5| |Z|Westfall|
+T Westfall Stew |QID|38| |N|Bring the ingredients to Salma Saldean at Saldean's Farm.| |M|56.4 30.6| |Z|Westfall|
+T Report to Gryan Stoutmantle |QID|109| |N|Report to Gryan Stoutmantle at Sentinel Hill.| |M|56.3,47.6| |Z|Westfall|
+A A Swift Message |QID|6181| |R|Human| |N|Accept A Swift Message inside the tower.| |M|56.3,47.6| |Z|Westfall|
+T A Swift Message |QID|6181| |R|Human| |N|Deliver A Swift Message to Osric Strang in Stormwind City.| |M|56.4,52.6|
+A Continue to Stormwind |QID|6281| |R|Human| |N|Accept Continue to Stormwind from Osric Strang.| |M|56.6 52.6| |Z|Stormwind City|
+
+F Stormwind City |N|Fly to Stormwind.| |M|56.6,52.6| |Z|Westfall|
+T Shipment to Stormwind |QID|61| |N|Deliver William’s Shipment to Morgan Pestle in the Trade District.| |M|56.2,64.0| |Z|Stormwind City|
+A Wine Shop Advert |QID|332| |N|Accept Wine Shop Advert from Suzetta Gallina outside Gallina Winery.| |M|60.2,76.8| |Z|Stormwind City|
+A Harlan Needs a Resupply |QID|333| |N|Accept Harlan Needs a Resupply from Harlan Bagley near Weller's Arsenal.| |M|55.1,56.2| |Z|Stormwind City|
+h Stormwind City |N|Set your hearthstone in Stormwind City at the inn.| |M|52.6,65.6| |Z|Stormwind City|
+T Wine Shop Advert |QID|332| |N|Bring the Wine Ticket to Suzetta Gallina along the Canals.| |M|52.4,67.6| |Z|Stormwind City|
+T Harlan Needs a Resupply |QID|333| |N|Bring the Cloth Request to Rema Schneider at the Canal Tailor & Fit Shop.| |M|49.6,55.6| |Z|Stormwind City|
+A Package for Thurman |QID|334| |N|Accept Package for Thurman from Rema Schneider.| |M|49.6,55.6| |Z|Stormwind City|
+T Package for Thurman |QID|334| |N|Deliver Thurman’s Sewing Kit to Thurman Schneider at Larson Clothiers in the Mage Quarter.| |M|42.5,76.2| |Z|Stormwind City|
+
+T Speak with Jennea |C|Mage| |QID|1860| |R|Human| |N|Report to Jennea Cannon in the Mage Quarter.| |M|39.6,79.6| |Z|Stormwind City|
+A Mirror Lake |C|Mage| |QID|1861| |R|Human| |N|Accept Mirror Lake.| |M|39.6,79.6| |Z|Stormwind City|
+
+T Gakin's Summons |C|Warlock| |QID|1717| |R|Human| |N|Speak with Gakin the Darkbinder in the Mage Quarter.| |M|39.2,84.0| |Z|Stormwind City|
+A Surena Caledon |C|Warlock| |QID|1688| |R|Human| |N|Accept Surena Caledon.| |M|39.2,84.0| |Z|Stormwind City|
+
+T Continue to Stormwind |QID|6281| |R|Human| |N|Report to Osric Strang at Limited Immunity in Old Town.| |M|74.2,47.4| |Z|Stormwind City|
+A Dungar Longdrink |QID|6261| |R|Human| |N|Accept Dungar Longdrink.| |M|74.2,47.4| |Z|Stormwind City|
+
+T Seek out SI: 7 |C|Rogue| |QID|2205| |R|Human| |N|Report to Keryn Sylvius at SI:7 in Old Town.| |M|76.0,59.6| |Z|Stormwind City|
+A Snatch and Grab |C|Rogue| |QID|2206| |R|Human| |N|Accept Snatch and Grab.| |M|76.0,59.6| |Z|Stormwind City|
+
+T A Warrior's Training |C|Warrior| |QID|1638| |R|Human| |N|Report to Lyria Du Lac in Old Town.| |M|77.2,53.2| |Z|Stormwind City|
+A Bartleby the Drunk |C|Warrior| |QID|1639| |R|Human| |N|Accept Bartleby the Drunk.| |M|77.2,53.2| |Z|Stormwind City|
+T Bartleby the Drunk |C|Warrior| |QID|1639| |R|Human| |N|Confront Bartleby at the Pig and Whistle Tavern.| |M|76.6,52.6| |Z|Stormwind City|
+A Beat Bartleby |C|Warrior| |QID|1640| |R|Human| |N|Accept Beat Bartleby.| |M|76.6,52.6| |Z|Stormwind City|
+T Beat Bartleby |C|Warrior| |QID|1640| |R|Human| |N|Defeat Bartleby and speak to him again.| |M|76.6,52.6| |Z|Stormwind City|
+A Bartleby's Mug |C|Warrior| |QID|1665| |R|Human| |N|Accept Bartleby's Mug.| |M|76.6,52.6| |Z|Stormwind City|
+T Bartleby's Mug |C|Warrior| |QID|1665| |R|Human| |N|Bring Bartleby’s Mug back to Lyria Du Lac in Old Town.| |M|77.2,53.2| |Z|Stormwind City|
+A Marshal Haggard |C|Warrior| |QID|1666| |R|Human| |N|Accept Marshal Haggard.| |M|77.2,53.2| |Z|Stormwind City|
+
 N Kill any bears you find
 
 

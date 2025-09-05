@@ -228,6 +228,54 @@ local function GRL_AreObjectivesDone(qid, which)
     end
 end
 
+-- Return an array of objective rows: { text=..., got=number|nil, need=number|nil, done=bool }
+local function GRL_GetObjectiveRows(qid)
+    local idx = GRL_FindQuestLogIndexByID(qid)
+    if not idx then return {} end
+    local num = (GetNumQuestLeaderBoards and GetNumQuestLeaderBoards(idx)) or 0
+    local rows = {}
+    for i = 1, num do
+        local text, typ, done = GetQuestLogLeaderBoard(i, idx)
+        local got, need = text and text:match("(%d+)%s*/%s*(%d+)")
+        rows[i] = {
+            text = text or "",
+            got = got and tonumber(got) or nil,
+            need = need and tonumber(need) or nil,
+            done = (done == 1 or done == true)
+        }
+    end
+    return rows
+end
+
+-- Format a compact progress string for a quest, honoring optional which-objective filter (QO)
+local function GRL_FormatObjectiveProgress(qid, which)
+    local rows = GRL_GetObjectiveRows(qid)
+    local parts = {}
+
+    local function add_obj(ix)
+        local o = rows[ix]
+        if not o then return end
+        if o.got and o.need then
+            table.insert(parts, string.format("%d/%d", o.got, o.need))
+        else
+            table.insert(parts, o.done and "(done)" or "(…)")
+        end
+    end
+
+    if type(which) == "table" and #which > 0 then
+        for _, ix in ipairs(which) do add_obj(ix) end
+    else
+        -- Aggregate all objectives if no QO filter given
+        local g, n, any = 0, 0, false
+        for _, o in ipairs(rows) do
+            if o.got and o.need then g = g + o.got; n = n + o.need; any = true end
+        end
+        if any then table.insert(parts, string.format("%d/%d", g, n)) end
+    end
+    return table.concat(parts, ", ")
+end
+
+
 function GRL:GetPlayerFaction()
     local f = UnitFactionGroup and UnitFactionGroup("player")
     local _, race = UnitRace and UnitRace("player")
@@ -931,6 +979,39 @@ function GRL:UpdateStatusFrame()
 		note = note .. "\n|cffffcc00Also:|r " .. lbl
 	  end
 	end
+	
+	    -- Show live objective counts for "C" steps (supports single QID or multi-QID C lines)
+    if a == "C" and tt and (tt.qid or (tt.qids and #tt.qids > 0)) then
+        local lines = {}
+
+        if tt.qids and #tt.qids > 1 then
+            -- Multi-quest C: try to map QO per quest if author provided a 1:1 list; otherwise reuse single QO for all
+            for i_q, qid in ipairs(tt.qids) do
+                local qo = nil
+                if type(tt.QO) == "table" then
+                    if #tt.QO == #tt.qids then qo = { tt.QO[i_q] }
+                    elseif #tt.QO == 1 then qo = tt.QO
+                    end
+                end
+                local prog = GRL_FormatObjectiveProgress(qid, qo)
+                if prog and prog ~= "" then
+                    local label = (self:_FindQuestTextByQID(qid) or ("QID "..tostring(qid)))
+                    table.insert(lines, "|cffaaffaa"..label.."|r "..prog)
+                end
+            end
+        else
+            -- Single quest C
+            local prog = GRL_FormatObjectiveProgress(tt.qid, tt.QO)
+            if prog and prog ~= "" then
+                table.insert(lines, "|cffaaffaaProgress:|r "..prog)
+            end
+        end
+
+        if #lines > 0 then
+            note = note .. "\n" .. table.concat(lines, "\n")
+        end
+    end
+
 
 
     self.status.text:SetText(top..note)
@@ -1087,9 +1168,11 @@ GRL.frame:SetScript("OnEvent", function(_, ev, ...)
     if type(h) == "function" then h(GRL, ...) end
 end)
 
-GRL:RegisterEvent("QUEST_LOG_UPDATE", function(self) 
-    if self.AutoAdvance then self:AutoAdvance() end 
+GRL:RegisterEvent("QUEST_LOG_UPDATE", function(self)
+    self:UpdateStatusFrame()
+    if self.AutoAdvance then self:AutoAdvance() end
 end)
+
 
 GRL:RegisterEvent("BAG_UPDATE_COOLDOWN", function(self) 
     if self.AutoAdvance then self:AutoAdvance() end

@@ -49,4 +49,9 @@ It is **not affiliated with Blizzard Entertainment** and **not designed for reta
 - **Guide content:** Provided for personal and educational use.  
   Some portions are based on older community guides that are no longer available.  
   As these are heavily modified and still evolving, no formal license is applied yet.
+  
+---
+
+## TODO:
+- **Classes** Currently these are not done, but I do have them in place, I route and test my guide with a priest. But once I am happy with all the new updates I will go back and clean up the classes.   
 
