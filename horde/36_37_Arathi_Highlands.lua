@@ -2,13 +2,13 @@ GuideReaderLite_RegisterGuide("Arathi Highlands (36-37)", "Alterac Mountains (37
 return [[
 F Hammerfall |NORAF|
 h Hammerfall |NORAF| |N|Make this Inn your home|
-T Trollbane  |QID|638| |NORAF| |N|\n|
-A Foul Magics |QID|673| |NORAF| |N|Accept Foul Magics|
-A Guile of the Raptor (Part 1) |QID|701| |NORAF| |N|Accept Guile of the Raptor|
-A The Princess Trapped  |QID|642| |NORAF| |N|Accept The Princess Trapped|
+T Trollbane  |N|Travel to Hammerfall in the Arathi Highlands and speak with Zengu.||QID|638| |NORAF| 
+A Accept Foul Magics from Tor'gan |N|Retrieve Marez Cowl's Bloodstone Orb and bring it to Tor'gan in Hammerfall.||QID|673| |NORAF| 
+A Accept Guile of the Raptor (Part 1) from Tor'gan |N|Acquire 12 Raptor Hearts from Highland Fleshstalkers for Tor'gan.||QID|701| |NORAF| 
+A Accept The Princess Trapped from Shards of Myzrael |N|Gather 12 Motes of Myzrael, then bring them to the Iridescent Shards in Drywhisker Gorge.||QID|642| |NORAF| 
 C The Princess Trapped  |QID|642| |NORAF| |N|Gather 12 Motes of Myzrael, then bring them to the Iridescent Shards in Drywhisker Gorge.|
-T The Princess Trapped  |QID|642| |NORAF| |N|Find the Iridescent Shards at Drywhisker Gorge in Arathi Highlands.|
-A Stones of Binding |QID|651| |NORAF| |N|Accept Stones of Binding|
+T The Princess Trapped  |N|Gather 12 Motes of Myzrael, then bring them to the Iridescent Shards in Drywhisker Gorge.||QID|642| |NORAF| 
+A Accept Stones of Binding from Iridescent Shards |N|Gather the Burning Key, the Cresting Key and the Thundering Key from the Stone of West Binding, the Stone of East Binding and the Stone of Outer Binding.||QID|651| |NORAF| 
 
 N Get Cresting Key |N|From Stone of East Binding (66,29)| |QID|651| |QO|Cresting Key: 1/1| |NORAF|
 C To Steal From Thieves  |NODEBUG| |QID|1164| |NORAF| |N|Bring Kenata, Fardel, and Marcel Dabyrie's Heads to Genavie Callow in Undercity.|
@@ -19,15 +19,15 @@ C The Hammer May Fall  |QID|676| |NORAF| |N|Kill 8 Boulderfist Ogres and 10 Boul
 
 C Foul Magics  |QID|673| |NORAF| |N|Retrieve Marez Cowl's Bloodstone Orb and bring it to Tor'gan in Hammerfall.|
 C Stones of Binding  |QID|651| |NORAF| |N|Gather the Burning Key, the Cresting Key and the Thundering Key from the Stone of West Binding, the Stone of East Binding and the Stone of Outer Binding.$B$BBring them to the Stone of Inner Binding.|
-T Stones of Binding  |QID|651| |NORAF| |N|Go to Stone of Inner Binding at Circle of Inner Binding in Arathi Highlands.|
+T Stones of Binding  |N|Gather the Burning Key, the Cresting Key and the Thundering Key from the Stone of West Binding, the Stone of East Binding and the Stone of Outer Binding.||QID|651| |NORAF| 
 
 H Hammerfall |NORAF| |N|Hearth back|
-T Foul Magics |QID|673| |NORAF| |N|Return to Tor'gan at Hammerfall in Arathi Highlands.|
-T The Hammer May Fall |QID|676| |NORAF| |N|Return to Drum Fel at Hammerfall in Arathi Highlands.|
-T Guile of the Raptor (Part 1) |QID|701| |NORAF| |N|Return to Tor'gan at Hammerfall in Arathi Highlands.|
-A Guile of the Raptor (Part 2) |QID|702| |NORAF| |N|Accept Guile of the Raptor|
-T Guile of the Raptor (Part 2) |QID|702| |NORAF| |N|\n|
-A Guile of the Raptor (Part 3) |QID|847| |NORAF| |N|Accept Guile of the Raptor|
-T Guile of the Raptor (Part 3) |QID|847| |NORAF| |N|\n|
+T Foul Magics |N|Retrieve Marez Cowl's Bloodstone Orb and bring it to Tor'gan in Hammerfall.||QID|673| |NORAF| 
+T The Hammer May Fall |N|Kill 8 Boulderfist Ogres and 10 Boulderfist Enforcers, then find Drum Fel in the Hammerfall outpost in Arathi Highlands.||QID|676| |NORAF| 
+T Guile of the Raptor (Part 1) |N|Acquire 12 Raptor Hearts from Highland Fleshstalkers for Tor'gan.||QID|701| |NORAF| 
+A Accept Guile of the Raptor (Part 2) from Tor'gan |N|Give Tor'gan's Orb to Gor'mul at Hammerfall in Arathi Highlands.||QID|702| |NORAF| 
+T Guile of the Raptor (Part 2) |N|Give Tor'gan's Orb to Gor'mul at Hammerfall in Arathi Highlands.||QID|702| |NORAF| 
+A Accept Guile of the Raptor (Part 3) from Gor'mul |N|Speak with Tor'gan at Hammerfall in Arathi Highlands.||QID|847| |NORAF| 
+T Guile of the Raptor (Part 3) |N|Speak with Tor'gan at Hammerfall in Arathi Highlands.||QID|847| |NORAF| 
 ]]
 end)

@@ -1,211 +1,211 @@
 GuideReaderLite_RegisterGuide("Dustwallow Marsh (37-38)", "Stranglethorn Vale (38-40)", "Alliance", function()
 return [[
-F Theramore Isle |QID|11191| |N|Fly/boat to Theramore.| |M|72.11,47.05|
-A This Old Lighthouse |QID|11191| |N|Accept from Lieutenant Aden at Theramore.| |M|68.25,51.81|
-T This Old Lighthouse |QID|11191| |N|Turn in to Babs Fizzletorque at the lighthouse.| |M|72.11,47.05|
-A Thresher Oil |QID|11192| |N|Accept from Babs at the lighthouse.| |M|72.11,47.05|
+F Theramore Isle |N|Speak to Babs Fizzletorque at the lighthouse on the island east of Theramore.|    |QID|11191|  |M|72.11,47.05|
+A Accept This Old Lighthouse from Sergeant Amelyn |N|Speak to Babs Fizzletorque at the lighthouse on the island east of Theramore.|    |QID|11191|  |M|68.25,51.81|
+T This Old Lighthouse |N|Speak to Babs Fizzletorque at the lighthouse on the island east of Theramore.|    |QID|11191|  |M|72.11,47.05|
+A Accept Thresher Oil from Babs Fizzletorque |N|Bring 4 containers of Thresher Oil to Babs Fizzletorque at the lighthouse near Theramore.|    |QID|11192|  |M|72.11,47.05|
 C Thresher Oil |QID|11192| |QO|1| |N|Collect 4 Thresher Oil.| |M|72.11,47.05|
-T Thresher Oil |QID|11192| |N|Return to Babs.| |M|72.11,47.05|
-A Dastardly Denizens of the Deep |QID|11193| |N|Accept from Babs.| |M|72.11,47.05|
-T Dastardly Denizens of the Deep |QID|11193| |N|Turn in to "Dirty" Michael Crowe on the docks.| |M|69.24,51.89|
-A Is it Real? |QID|11194| |N|Accept from "Dirty" Michael Crowe.| |M|69.24,51.89|
+T Thresher Oil |N|Bring 4 containers of Thresher Oil to Babs Fizzletorque at the lighthouse near Theramore.|    |QID|11192|  |M|72.11,47.05|
+A Accept Dastardly Denizens of the Deep from Babs Fizzletorque |N|Bring Dastardly Denizens of the Deep to "Dirty" Michael Crowe on the Theramore docks.|    |QID|11193|  |M|72.11,47.05|
+T Dastardly Denizens of the Deep |N|Bring Dastardly Denizens of the Deep to "Dirty" Michael Crowe on the Theramore docks.|    |QID|11193|  |M|69.24,51.89|
+A Accept Is it Real? from Dirty" Michael Crowe |N|Talk to Nat Pagle at Nat's Landing in Dustwallow Marsh.|    |QID|11194|  |M|69.24,51.89|
 
-A Traitors Among Us |QID|11126| |N|Accept from Calia Hastings near the docks.| |M|68.33,51.04|
+A Accept Traitors Among Us from Calia Hastings |N|Confront 5 Deserter Agitators and return to Calia Hastings near the docks in Theramore.|    |QID|11126|  |M|68.33,51.04|
 C Traitors Among Us |QID|11126| |N|Confront 5 Deserter Agitators.| |M|68.33,51.04|
-T Traitors Among Us |QID|11126| |N|Return to Calia.| |M|68.33,51.04|
-A Propaganda War |QID|11128| |N|Accept from Calia.| |M|68.33,51.04|
+T Traitors Among Us |N|Confront 5 Deserter Agitators and return to Calia Hastings near the docks in Theramore.|    |QID|11126|  |M|68.33,51.04|
+A Accept Propaganda War from Calia Hastings |N|Bring the Deserter Propaganda to Calia Hastings near the docks in Theramore.|    |QID|11128|  |M|68.33,51.04|
 C Propaganda War |QID|11128| |QO|1| |N|Collect Deserter Propaganda.| |M|68.33,51.04|
-T Propaganda War |QID|11128| |N|Return to Calia.| |M|68.33,51.04|
-A Discrediting the Deserters |QID|11133| |N|Accept from Calia.| |M|68.33,51.04|
+T Propaganda War |N|Bring the Deserter Propaganda to Calia Hastings near the docks in Theramore.|    |QID|11128|  |M|68.33,51.04|
+A Accept Discrediting the Deserters from Calia Hastings |N|Calia Hastings wants you to distribute the Altered Leaflets to 6 Theramore Guards, then report back to her near the docks in Theramore.|    |QID|11133|  |M|68.33,51.04|
 C Discrediting the Deserters |QID|11133| |N|Distribute Altered Leaflets to 6 Theramore Guards.| |M|68.33,51.04|
-T Discrediting the Deserters |QID|11133| |N|Return to Calia.| |M|68.33,51.04|
-A The End of the Deserters |QID|11134| |N|Accept from Calia.| |M|68.33,51.04|
+T Discrediting the Deserters |N|Calia Hastings wants you to distribute the Altered Leaflets to 6 Theramore Guards, then report back to her near the docks in Theramore.|    |QID|11133|  |M|68.33,51.04|
+A Accept The End of the Deserters from Calia Hastings |N|Capture Gavis Greyshield, then report to Calia Hastings near the docks in Theramore.|    |QID|11134|  |M|68.33,51.04|
 C The End of the Deserters |QID|11134| |N|Capture Gavis Greyshield.| |M|68.33,51.04|
-T The End of the Deserters |QID|11134| |N|Return to Calia.| |M|68.33,51.04|
+T The End of the Deserters |N|Capture Gavis Greyshield, then report to Calia Hastings near the docks in Theramore.|    |QID|11134|  |M|68.33,51.04|
 
 h Theramore Isle |QID|11142| |N|Set your hearth.| |M|66.27,49.04|
-A They Call Him Smiling Jim |QID|1282| |N|Accept from Guard Lasiter.| |M|66.15,46.07|
-A Tabetha's Farm |QID|11212| |N|Accept from Guard Lasiter.| |M|66.15,46.07|
-T They Call Him Smiling Jim |QID|1282| |N|Turn in to Sergeant Amelyn.| |M|68.21,48.62|
-A Inspecting the Ruins |QID|11123| |N|Accept from Sergeant Amelyn.| |M|68.21,48.62|
-T The Missing Diplomat (Part 13) |QID|1264| |N|Turn in to Jaina/Archmage Tervosh at the tower base.| |M|68.02,48.71|
-A The Missing Diplomat (Part 14) |QID|1265| |N|Accept follow-up.| |M|68.02,48.71|
-A A Disturbing Development |QID|11136| |N|Accept from Captain Wymor at Sentry Point.| |M|65.07,47.13|
+A Accept They Call Him Smiling Jim from Guard Byron |N|Speak with Captain Garran Vimes on the top floor of Foothold Citadel.|    |QID|1282|  |M|66.15,46.07|
+A Accept Tabetha's Farm from Guard Byron |N|Speak with Tabetha at her farm in the Quagmire.|    |QID|11212|  |M|66.15,46.07|
+T They Call Him Smiling Jim |N|Speak with Captain Garran Vimes on the top floor of Foothold Citadel.|    |QID|1282|  |M|68.21,48.62|
+A Accept Inspecting the Ruins from Captain Garran Vimes |N|Speak to Inspector Tarem at the Shady Rest Inn.|    |QID|11123|  |M|68.21,48.62|
+T The Missing Diplomat (Part 13) |N|Find Commander Samaul in Dustwallow Marsh.|    |QID|1264|  |M|68.02,48.71|
+A Accept The Missing Diplomat (Part 14) from Commander Samaul |N|Search Sentry Point for any sign of Private Hendel.|    |QID|1265|  |M|68.02,48.71|
+A Accept A Disturbing Development from Lieutenant Aden |N|Report to Captain Wymor at Sentry Point.|    |QID|11136|  |M|65.07,47.13|
 
-T The Missing Diplomat (Part 14) |QID|1265| |N|Turn in to Archmage Tervosh (top of tower).| |M|66.42,49.26|
-A The Missing Diplomat (Part 15) |QID|1266| |N|Accept follow-up.| |M|66.42,49.26|
-T A Disturbing Development |QID|11136| |N|Turn in at Sentry Point.| |M|59.66,41.03|
-A Defias in Dustwallow? |QID|11137| |N|Accept from Captain Wymor.| |M|59.66,41.03|
+T The Missing Diplomat (Part 14) |N|Search Sentry Point for any sign of Private Hendel.|    |QID|1265|  |M|66.42,49.26|
+A Accept The Missing Diplomat (Part 15) from Archmage Tervosh |N|Find Private Hendel in Dustwallow Marsh.|    |QID|1266|  |M|66.42,49.26|
+T A Disturbing Development |N|Report to Captain Wymor at Sentry Point.|    |QID|11136|  |M|59.66,41.03|
+A Accept Defias in Dustwallow? from Captain Wymor |N|Obtain the Defias Orders from Garn Mathers and bring them to Captain Wymor at Sentry Point.|    |QID|11137|  |M|59.66,41.03|
 C Defias in Dustwallow? |QID|11137| |N|Obtain Defias Orders from Garn Mathers.| |M|59.66,41.03|
-T Defias in Dustwallow? |QID|11137| |N|Return to Captain Wymor.| |M|59.66,41.03|
-A Renn McGill |QID|11138| |N|Accept from Captain Wymor.| |M|59.66,41.03|
+T Defias in Dustwallow? |N|Obtain the Defias Orders from Garn Mathers and bring them to Captain Wymor at Sentry Point.|    |QID|11137|  |M|59.66,41.03|
+A Accept Renn McGill from Captain Wymor |N|Bring the Defias Orders to Renn McGill in the waters off the Dreadmurk Shore.|    |QID|11138|  |M|59.66,41.03|
 
-A Marsh Frog Legs |QID|1218| |N|Accept from “Swamp Eye” Jarl at Witch Hill.| |M|55.44,26.27|
-A What's Haunting Witch Hill? |QID|11180| |N|Accept from Mordant Grimsby.| |M|55.58,26.14|
-A The Orc Report |QID|1219| |N|Pick up near Sentry Point if you haven’t.| |M|65.07,47.13|
+A Accept Marsh Frog Legs from Swamp Eye" Jarl |N|Bring 10 Marsh Frog Legs to "Swamp Eye" Jarl in Dustwallow Marsh.|    |QID|1218|  |M|55.44,26.27|
+A Accept What's Haunting Witch Hill? from Mordant Grimsby |N|Mordant Grimsby at Swamplight Manor wants you to gather information from 10 Risen Husks or Risen Spirits.|    |QID|11180|  |M|55.58,26.14|
+A Accept The Orc Report from Loose Dirt |N|Bring the Spy's Report to Lieutenant Aden in Theramore.|    |QID|1219|  |M|65.07,47.13|
 
 C Marsh Frog Legs |QID|1218| |QO|1| |N|Collect 10 Marsh Frog Legs.| |M|55.44,26.27|
 C What's Haunting Witch Hill? |QID|11180| |QO|1| |N|Gather information from 10 Risen Husks/Spirits.| |M|55.58,26.14|
-T Marsh Frog Legs |QID|1218| |N|Return to “Swamp Eye” Jarl.| |M|55.44,26.27|
-A Jarl Needs Eyes |QID|1206| |N|Accept from Jarl.| |M|55.44,26.27|
-T What's Haunting Witch Hill? |QID|11180| |N|Return to Mordant.| |M|55.58,26.14|
-A The Witch's Bane |QID|11181| |N|Accept from Mordant.| |M|55.58,26.14|
+T Marsh Frog Legs |N|Bring 10 Marsh Frog Legs to "Swamp Eye" Jarl in Dustwallow Marsh.|    |QID|1218|  |M|55.44,26.27|
+A Accept Jarl Needs Eyes from Swamp Eye" Jarl |N|Bring 20 Unpopped Darkmist Eyes to "Swamp Eye" Jarl at the Swamplight Manor.|    |QID|1206|  |M|55.44,26.27|
+T What's Haunting Witch Hill? |N|Mordant Grimsby at Swamplight Manor wants you to gather information from 10 Risen Husks or Risen Spirits.|    |QID|11180|  |M|55.58,26.14|
+A Accept The Witch's Bane from Mordant Grimsby |N|Bring 9 sprigs of Witchbane to Mordant Grimsby at Swamplight Manor.|    |QID|11181|  |M|55.58,26.14|
 C The Witch's Bane |QID|11181| |QO|1| |N|Collect 9 Witchbane sprigs.| |M|55.58,26.14|
-T The Witch's Bane |QID|11181| |N|Return to Mordant.| |M|55.58,26.14|
-A Cleansing Witch Hill |QID|11183| |N|Accept from Mordant.| |M|55.58,26.14|
+T The Witch's Bane |N|Bring 9 sprigs of Witchbane to Mordant Grimsby at Swamplight Manor.|    |QID|11181|  |M|55.58,26.14|
+A Accept Cleansing Witch Hill from Mordant Grimsby |N|Mordant Grimsby at Swamplight Manor wants you to plant the torch at the end of the dock and defeat anything that appears.|    |QID|11183|  |M|55.58,26.14|
 C Cleansing Witch Hill |QID|11183| |U|33113| |N|Plant the torch at dock end and defeat the spawn.| |M|55.58,26.14|
-T Cleansing Witch Hill |QID|11183| |N|Return to Mordant.| |M|55.58,26.14|
+T Cleansing Witch Hill |N|Mordant Grimsby at Swamplight Manor wants you to plant the torch at the end of the dock and defeat anything that appears.|    |QID|11183|  |M|55.58,26.14|
 
-A Raptor Captor |QID|11146| |N|Accept from Sergeant Lukas at North Point Tower.| |M|46.66,23.05|
-T The Missing Diplomat (Part 15) |QID|1266| |N|Turn in to Private Hendel’s camp.| |M|45.25,24.63|
-A The Missing Diplomat (Part 16) |QID|1324| |N|Accept follow-up.| |M|45.25,24.63|
+A Accept Raptor Captor from Sergeant Lukas |N|Sergeant Lukas at North Point Tower wants you to capture 6 raptors.|    |QID|11146|  |M|46.66,23.05|
+T The Missing Diplomat (Part 15) |N|Find Private Hendel in Dustwallow Marsh.|    |QID|1266|  |M|45.25,24.63|
+A Accept The Missing Diplomat (Part 16) from Private Hendel |N|Defeat Private Hendel in Dustwallow Marsh.|    |QID|1324|  |M|45.25,24.63|
 C The Missing Diplomat (Part 16) |QID|1324| |N|Defeat Private Hendel, then speak to Tervosh.| |M|66.42,49.26|
-T The Missing Diplomat (Part 16) |QID|1324| |N|Return to Archmage Tervosh.| |M|66.42,49.26|
+T The Missing Diplomat (Part 16) |N|Defeat Private Hendel in Dustwallow Marsh.|    |QID|1324|  |M|66.42,49.26|
 
 C Raptor Captor |QID|11146| |U|33069| |N|Capture 6 Bloodfen Raptors/Screechers.| |M|46.66,23.05|
-A Stinky's Escape |QID|1222| |N|Escort “Stinky” Ignatz.| |M|46.88,17.52|
+A Accept Stinky's Escape from Stinky" Ignatz |N|Escort "Stinky" Ignatz, then speak with Morgan Stern in Theramore.|    |QID|1222|  |M|46.88,17.52|
 C Stinky's Escape |QID|1222| |N|Escort complete, then report to Morgan Stern in Theramore.| |M|66.34,45.47|
 
-T Raptor Captor |QID|11146| |N|Return to Sergeant Lukas.| |M|46.66,23.05|
-A Prisoners of the Grimtotems |QID|11145| |N|Accept from Lukas.| |M|46.66,23.05|
-A Unleash the Raptors |QID|11147| |N|Accept from Lukas.| |M|46.66,23.05|
+T Raptor Captor |N|Sergeant Lukas at North Point Tower wants you to capture 6 raptors.|    |QID|11146|  |M|46.66,23.05|
+A Accept Prisoners of the Grimtotems from Sergeant Lukas |N|Sergeant Lukas at North Point Tower wants you to free 5 Theramore Prisoners.|    |QID|11145|  |M|46.66,23.05|
+A Accept Unleash the Raptors from Sergeant Lukas |N|Sergeant Lukas at North Point Tower wants you to place the Raptor Bait near the windmill in Blackhoof Village.|    |QID|11147|  |M|46.66,23.05|
 C Prisoners of the Grimtotems |QID|11145| |N|Free 5 Theramore Prisoners.| |M|46.66,23.05|
 C Unleash the Raptors |QID|11147| |U|33070| |N|Place Raptor Bait near the windmill in Blackhoof Village.| |M|46.66,23.05|
 C Jarl Needs Eyes |QID|1206| |QO|1| |N|Collect 20 Unpopped Darkmist Eyes.| |M|55.44,26.27|
-T Prisoners of the Grimtotems |QID|11145| |N|Return to Lukas.| |M|46.66,23.05|
-T Unleash the Raptors |QID|11147| |N|Return to Lukas.| |M|46.66,23.05|
+T Prisoners of the Grimtotems |N|Sergeant Lukas at North Point Tower wants you to free 5 Theramore Prisoners.|    |QID|11145|  |M|46.66,23.05|
+T Unleash the Raptors |N|Sergeant Lukas at North Point Tower wants you to place the Raptor Bait near the windmill in Blackhoof Village.|    |QID|11147|  |M|46.66,23.05|
 
-A Hungry! |QID|1177| |N|Accept from Mudcrush Durtfeet (northern marsh).| |M|35.15,38.26|
-T Inspecting the Ruins |QID|11123| |N|Turn in at Shady Rest Inn ruins.| |M|29.79,47.67|
-A Suspicious Hoofprints |QID|1284| |N|Accept near the ruins.| |M|68.21,48.62|
-A Lieutenant Paval Reethe (Part 1) |QID|1252| |N|Accept at the ruins.| |M|68.21,48.62|
-A The Black Shield (Part 1) |QID|1253| |N|Accept at the guard post.| |M|68.21,48.62|
+A Accept Hungry! from Mudcrush Durtfeet |N|Mudcrush Durtfeet in northern Dustwallow wants 8 Mirefin Heads.|    |QID|1177|  |M|35.15,38.26|
+T Inspecting the Ruins |N|Speak to Inspector Tarem at the Shady Rest Inn.|    |QID|11123|  |M|29.79,47.67|
+A Accept Suspicious Hoofprints from Suspicious Hoofprint |N|Report about the suspicious prints at the Shady Rest Inn to Captain Garran Vimes in Theramore.|    |QID|1284|  |M|68.21,48.62|
+A Accept Lieutenant Paval Reethe (Part 1) from Theramore Guard Badge |N|Bring Reethe's Badge to Captain Garran Vimes in Theramore.|    |QID|1252|  |M|68.21,48.62|
+A Accept The Black Shield (Part 1) from Black Shield |N|Bring the Blackened Iron Shield to Captain Garran Vimes in Theramore.|    |QID|1253|  |M|68.21,48.62|
 
-A Direhorn Raiders |QID|11156| |N|Accept from Apprentice Morlann at Tabetha’s Farm area.| |M|46.10,57.43|
-A The Zeppelin Crash |QID|11172| |N|Accept from Moxie Steelgrille (Beezil’s Wreck).| |M|53.57,56.92|
-T Tabetha's Farm |QID|11212| |N|Turn in to Tabetha.| |M|46.06,57.09|
-A The Grimtotem Weapon |QID|11169| |N|Accept from Apprentice Garion.| |M|46.05,57.24|
-A The Reagent Thief |QID|11173| |N|Accept from Apprentice Garion.| |M|46.05,57.24|
+A Accept Direhorn Raiders from Apprentice Morlann |N|Kill 12 Direhorn Grimtotems and return to Apprentice Morlann at Tabetha's Farm.|    |QID|11156|  |M|46.10,57.43|
+A Accept The Zeppelin Crash from Apprentice Morlann |N|Speak with Moxie Steelgrille at Beezil's Wreck.|    |QID|11172|  |M|53.57,56.92|
+T Tabetha's Farm |N|Speak with Tabetha at her farm in the Quagmire.|    |QID|11212|  |M|46.06,57.09|
+A Accept The Grimtotem Weapon from Apprentice Garion |N|Apprentice Garion at Tabetha's Farm wants you to test the Captured Totem on 10 Mottled Drywallow Crocolisks or Drywallow Daggermaws.|    |QID|11169|  |M|46.05,57.24|
+A Accept The Reagent Thief from Apprentice Garion |N|Bring 6 vials of Marsh Venom to Apprentice Garion at Tabetha's Farm.|    |QID|11173|  |M|46.05,57.24|
 C The Grimtotem Weapon |QID|11169| |U|33101| |N|Test the totem on 10 Drywallow crocs.| |M|46.05,57.24|
 C The Reagent Thief |QID|11173| |QO|1| |N|Collect 6 Marsh Venom.| |M|46.05,57.24|
 C Direhorn Raiders |QID|11156| |QO|1| |N|Kill 12 Direhorn Grimtotems.| |M|46.10,57.43|
 K Apothecary Cylla |QID|11185| |N|Loot the Sealed Letter.| |ITEM|33114| |M|45.47,57.76|
-A The Apothecary's Letter |QID|11185| |U|33114| |N|Accept from the Sealed Letter.| |M|45.47,57.76|
-T Direhorn Raiders |QID|11156| |N|Return to Morlann.| |M|46.10,57.43|
-T The Grimtotem Weapon |QID|11169| |N|Return to Garion.| |M|46.05,57.24|
-T The Reagent Thief |QID|11173| |N|Return to Garion.| |M|46.05,57.24|
-T The Apothecary's Letter |QID|11185| |N|Turn in to Andello Porter (The Quagmire).| |M|45.47,57.76|
+A The Apothecary's Letter |N|Bring the Sealed Letter to Andello Porter at Tabetha's Farm.|    |QID|11185| |U|33114|  |M|45.47,57.76|
+T Direhorn Raiders |N|Kill 12 Direhorn Grimtotems and return to Apprentice Morlann at Tabetha's Farm.|    |QID|11156|  |M|46.10,57.43|
+T The Grimtotem Weapon |N|Apprentice Garion at Tabetha's Farm wants you to test the Captured Totem on 10 Mottled Drywallow Crocolisks or Drywallow Daggermaws.|    |QID|11169|  |M|46.05,57.24|
+T The Reagent Thief |N|Bring 6 vials of Marsh Venom to Apprentice Garion at Tabetha's Farm.|    |QID|11173|  |M|46.05,57.24|
+T The Apothecary's Letter |N|Bring the Sealed Letter to Andello Porter at Tabetha's Farm.|    |QID|11185|  |M|45.47,57.76|
 
-T The Zeppelin Crash |QID|11172| |N|Turn in to Moxie at Beezil’s Wreck.| |M|53.57,56.92|
-A Corrosion Prevention |QID|11174| |N|Accept from Moxie.| |M|53.57,56.92|
-A Secure the Cargo! |QID|11207| |N|Accept from Moxie.| |M|53.57,56.92|
+T The Zeppelin Crash |N|Speak with Moxie Steelgrille at Beezil's Wreck.|    |QID|11172|  |M|53.57,56.92|
+A Accept Corrosion Prevention from Moxie Steelgrille |N|Moxie Steelgrille wants you to dissolve 10 oozes and report back to her at Beezil's Wreck.|    |QID|11174|  |M|53.57,56.92|
+A Accept Secure the Cargo! from Moxie Steelgrille |N|Moxie Steelgrille at Beezil's Wreck wants you to recover 8 pieces of Zeppelin Cargo.|    |QID|11207|  |M|53.57,56.92|
 C Corrosion Prevention |QID|11174| |U|33108| |N|Dissolve 10 oozes while charged.| |M|53.57,56.92|
 C Secure the Cargo! |QID|11207| |N|Recover 8 Zeppelin Cargo.| |M|53.57,56.92|
-T Corrosion Prevention |QID|11174| |N|Return to Moxie.| |M|53.57,56.92|
-T Secure the Cargo! |QID|11207| |N|Return to Moxie.| |M|53.57,56.92|
-A Delivery for Drazzit |QID|11208| |N|Accept from Moxie.| |M|53.57,56.92|
+T Corrosion Prevention |N|Moxie Steelgrille wants you to dissolve 10 oozes and report back to her at Beezil's Wreck.|    |QID|11174|  |M|53.57,56.92|
+T Secure the Cargo! |N|Moxie Steelgrille at Beezil's Wreck wants you to recover 8 pieces of Zeppelin Cargo.|    |QID|11207|  |M|53.57,56.92|
+A Accept Delivery for Drazzit from Moxie Steelgrille |N|Take the Zeppelin Cargo to Drazzit Dripvalve at Mudsprocket.|    |QID|11208|  |M|53.57,56.92|
 
-T Is it Real? |QID|11194| |N|Turn in to Nat Pagle at Nat’s Landing.| |M|58.76,60.17|
-A Nat's Bargain |QID|11209| |N|Accept from Nat.| |M|58.76,60.17|
+T Is it Real? |N|Talk to Nat Pagle at Nat's Landing in Dustwallow Marsh.|    |QID|11194|  |M|58.76,60.17|
+A Accept Nat's Bargain from Nat Pagle |N|Nat Pagle at Nat's Landing wants you to test his new fish bait.|    |QID|11209|  |M|58.76,60.17|
 C Nat's Bargain |QID|11209| |U|33166| |N|Test Nat’s bait.| |M|58.76,60.17|
-T Nat's Bargain |QID|11209| |N|Return to Nat.| |M|58.76,60.17|
-A Oh, It's Real |QID|11210| |N|Accept from Nat.| |M|58.76,60.17|
+T Nat's Bargain |N|Nat Pagle at Nat's Landing wants you to test his new fish bait.|    |QID|11209|  |M|58.76,60.17|
+A Accept Oh, It's Real from Nat Pagle |N|Speak with Major Mills at the docks in Theramore.|    |QID|11210|  |M|58.76,60.17|
 
 R Mudsprocket |QID|11217| |N|Run to Mudsprocket.| |M|42.33,72.93|
-T Delivery for Drazzit |QID|11208| |N|Turn in to Drazzit Dripvalve.| |M|42.33,72.93|
-A WANTED: Goreclaw the Ravenous |QID|11184| |N|Accept from the board.| |M|42.33,72.93|
-A Catch a Dragon by the Tail |QID|11217| |N|Accept from Gizzix Grimegurgle.| |M|41.54,72.99|
-A Bloodfen Feathers |QID|11158| |N|Accept from Brogg.| |M|41.86,73.97|
+T Delivery for Drazzit |N|Take the Zeppelin Cargo to Drazzit Dripvalve at Mudsprocket.|    |QID|11208|  |M|42.33,72.93|
+A Accept WANTED: Goreclaw the Ravenous from Wanted Poster |N|Kill Goreclaw the Ravenous and report to Drazzit Dripvalve at Mudsprocket.|    |QID|11184|  |M|42.33,72.93|
+A Accept Catch a Dragon by the Tail from Gizzix Grimegurgle |N|Gizzix Grimegurgle at Mudsprocket wants you to bring him 8 Wyrmtail stalks.|    |QID|11217|  |M|41.54,72.99|
+A Accept Bloodfen Feathers from Brogg |N|Bring 5 Bloodfen Feathers to Brogg at Mudsprocket.|    |QID|11158|  |M|41.86,73.97|
 C WANTED: Goreclaw the Ravenous |QID|11184| |QO|1| |N|Kill Goreclaw.| |M|44.0,66.0|
 C Bloodfen Feathers |QID|11158| |QO|1| |N|Collect 5 Bloodfen Feathers.| |M|42.0,70.0|
-T WANTED: Goreclaw the Ravenous |QID|11184| |N|Return to Drazzit.| |M|42.33,72.93|
-T Bloodfen Feathers |QID|11158| |N|Return to Brogg.| |M|41.86,73.97|
-A Banner of the Stonemaul |QID|11160| |N|Accept from Brogg.| |M|41.86,73.97|
-A The Essence of Enmity |QID|11161| |N|Accept from Brogg.| |M|41.86,73.97|
+T WANTED: Goreclaw the Ravenous |N|Kill Goreclaw the Ravenous and report to Drazzit Dripvalve at Mudsprocket.|    |QID|11184|  |M|42.33,72.93|
+T Bloodfen Feathers |N|Bring 5 Bloodfen Feathers to Brogg at Mudsprocket.|    |QID|11158|  |M|41.86,73.97|
+A Accept Banner of the Stonemaul from Brogg |N|Retrieve the Stonemaul Banner and bring it to Brogg at Mudsprocket.|    |QID|11160|  |M|41.86,73.97|
+A Accept The Essence of Enmity from Brogg |N|Bring 10 Black Dragonkin Essences to Brogg at Mudsprocket.|    |QID|11161|  |M|41.86,73.97|
 C Banner of the Stonemaul |QID|11160| |U|33088| |N|Retrieve the Stonemaul Banner.| |M|43.0,66.0|
 C The Essence of Enmity |QID|11161| |U|33088| |N|Collect 10 Black Dragonkin Essences.| |M|46.0,75.0|
-T Banner of the Stonemaul |QID|11160| |N|Return to Brogg.| |M|41.86,73.97|
-T The Essence of Enmity |QID|11161| |N|Return to Brogg.| |M|41.86,73.97|
-A Spirits of Stonemaul Hold |QID|11159| |N|Accept from Brogg.| |M|41.86,73.97|
+T Banner of the Stonemaul |N|Retrieve the Stonemaul Banner and bring it to Brogg at Mudsprocket.|    |QID|11160|  |M|41.86,73.97|
+T The Essence of Enmity |N|Bring 10 Black Dragonkin Essences to Brogg at Mudsprocket.|    |QID|11161|  |M|41.86,73.97|
+A Accept Spirits of Stonemaul Hold from Brogg |N|Brogg, at Mudsprocket, wants you to put 10 Stonemaul Spirits to rest.|    |QID|11159|  |M|41.86,73.97|
 C Spirits of Stonemaul Hold |QID|11159| |N|Put 10 Stonemaul Spirits to rest.| |M|43.0,66.0|
-T Spirits of Stonemaul Hold |QID|11159| |N|Return to Brogg.| |M|41.86,73.97|
-A Challenge to the Black Flight |QID|11162| |N|Accept from Brogg.| |M|41.86,73.97|
+T Spirits of Stonemaul Hold |N|Brogg, at Mudsprocket, wants you to put 10 Stonemaul Spirits to rest.|    |QID|11159|  |M|41.86,73.97|
+A Accept Challenge to the Black Flight from Brogg |N|Plant the Stonemaul Banner near the entrance to Onyxia's Lair, wait for Onyxia's response, then return to Brogg at Mudsprocket.|    |QID|11162|  |M|41.86,73.97|
 C Challenge to the Black Flight |QID|11162| |U|33095| |N|Plant the banner near Onyxia’s Lair entrance, then survive the response.| |M|52.0,75.8|
 C Catch a Dragon by the Tail |QID|11217| |QO|1| |N|Collect 8 Wyrmtail Stalks.| |M|41.54,72.99|
-T Challenge to the Black Flight |QID|11162| |N|Return to Brogg.| |M|41.86,73.97|
-T Catch a Dragon by the Tail |QID|11217| |N|Return to Gizzix.| |M|41.54,72.99|
+T Challenge to the Black Flight |N|Plant the Stonemaul Banner near the entrance to Onyxia's Lair, wait for Onyxia's response, then return to Brogg at Mudsprocket.|    |QID|11162|  |M|41.86,73.97|
+T Catch a Dragon by the Tail |N|Gizzix Grimegurgle at Mudsprocket wants you to bring him 8 Wyrmtail stalks.|    |QID|11217|  |M|41.54,72.99|
 
-T Oh, It's Real |QID|11210| |N|Turn in to Major Mills on the docks.| |M|69.70,51.22|
-A Take Down Tethyr! |QID|11198| |N|Accept from Major Mills.| |M|69.70,51.22|
+T Oh, It's Real |N|Speak with Major Mills at the docks in Theramore.|    |QID|11210|  |M|69.70,51.22|
+A Accept Take Down Tethyr! from Major Mills |N|Major Mills at the Theramore docks wants you to defeat Tethyr.|    |QID|11198|  |M|69.70,51.22|
 C Take Down Tethyr! |QID|11198| |QO|1| |N|Defeat Tethyr event.| |M|69.70,51.22|
-T Take Down Tethyr! |QID|11198| |N|Return to Major Mills.| |M|69.70,51.22|
-T Suspicious Hoofprints |QID|1284| |N|Turn in at the guard post.| |M|68.21,48.62|
-T Lieutenant Paval Reethe (Part 1) |QID|1252| |N|Turn in.| |M|68.21,48.62|
-A Lieutenant Paval Reethe (Part 2) |QID|1259| |N|Accept follow-up.| |M|68.21,48.62|
-T The Black Shield (Part 1) |QID|1253| |N|Turn in.| |M|68.21,48.62|
-A The Black Shield (Part 2) |QID|1319| |N|Accept follow-up.| |M|68.21,48.62|
-T Lieutenant Paval Reethe (Part 2) |QID|1259| |N|Turn in to Captain Vimes.| |M|68.05,48.11|
-A Daelin's Men |QID|1285| |N|Accept from Captain Vimes.| |M|68.05,48.11|
-T Daelin's Men |QID|1285| |N|Turn in at the guard post.| |M|68.21,48.62|
-A The Deserters (Part 1) |QID|1286| |N|Accept at the guard post.| |M|68.21,48.62|
-T Stinky's Escape |QID|1222| |N|Turn in to Morgan Stern on the shore.| |M|66.34,45.47|
-T The Orc Report |QID|1219| |N|Turn in to Captain Wymor at Sentry Point.| |M|65.07,47.13|
-A Captain Vimes |QID|1220| |N|Accept from Sergeant Amelyn.| |M|68.21,48.62|
-A Mission to Mudsprocket |QID|11214| |N|Accept from Captain Wymor.| |M|65.07,47.13|
-T The Black Shield (Part 2) |QID|1319| |N|Turn in to Captain Vimes.| |M|64.75,50.43|
-A The Black Shield (Part 3) |QID|1320| |N|Accept from Captain Vimes.| |M|64.75,50.43|
-T The Black Shield (Part 3) |QID|1320| |N|Turn in at the guard post.| |M|68.21,48.62|
-T Captain Vimes |QID|1220| |N|Turn in at the guard post.| |M|68.21,48.62|
+T Take Down Tethyr! |N|Major Mills at the Theramore docks wants you to defeat Tethyr.|    |QID|11198|  |M|69.70,51.22|
+T Suspicious Hoofprints |N|Report about the suspicious prints at the Shady Rest Inn to Captain Garran Vimes in Theramore.|    |QID|1284|  |M|68.21,48.62|
+T Lieutenant Paval Reethe (Part 1) |N|Bring Reethe's Badge to Captain Garran Vimes in Theramore.|    |QID|1252|  |M|68.21,48.62|
+A Accept Lieutenant Paval Reethe (Part 2) from Captain Garran Vimes |N|Find out more about Reethe from Adjutant Tesoran in Theramore.|    |QID|1259|  |M|68.21,48.62|
+T The Black Shield (Part 1) |N|Bring the Blackened Iron Shield to Captain Garran Vimes in Theramore.|    |QID|1253|  |M|68.21,48.62|
+A Accept The Black Shield (Part 2) from Captain Garran Vimes |N|Show the Blackened Iron Shield to Caz Twosprocket in Theramore.|    |QID|1319|  |M|68.21,48.62|
+T Lieutenant Paval Reethe (Part 2) |N|Find out more about Reethe from Adjutant Tesoran in Theramore.|    |QID|1259|  |M|68.05,48.11|
+A Accept Daelin's Men from Adjutant Tesoran |N|Return the information about Reethe to Captain Garran Vimes in Theramore.|    |QID|1285|  |M|68.05,48.11|
+T Daelin's Men |N|Return the information about Reethe to Captain Garran Vimes in Theramore.|    |QID|1285|  |M|68.21,48.62|
+A Accept The Deserters (Part 1) from Captain Garran Vimes |N|Get information about Reethe from Balos Jacken and the deserters in Dustwallow Marsh.|    |QID|1286|  |M|68.21,48.62|
+T Stinky's Escape |N|Escort "Stinky" Ignatz, then speak with Morgan Stern in Theramore.|    |QID|1222|  |M|66.34,45.47|
+T The Orc Report |N|Bring the Spy's Report to Lieutenant Aden in Theramore.|    |QID|1219|  |M|65.07,47.13|
+A Accept Captain Vimes from Lieutenant Aden |N|Bring the Spy's Report to Captain Garran Vimes.|    |QID|1220|  |M|68.21,48.62|
+A Accept Mission to Mudsprocket from Lieutenant Aden |N|Speak with Drazzit Dripvalve at Mudsprocket.|    |QID|11214|  |M|65.07,47.13|
+T The Black Shield (Part 2) |N|Show the Blackened Iron Shield to Caz Twosprocket in Theramore.|    |QID|1319|  |M|64.75,50.43|
+A Accept The Black Shield (Part 3) from Caz Twosprocket |N|Speak with Captain Garran Vimes in Theramore.|    |QID|1320|  |M|64.75,50.43|
+T The Black Shield (Part 3) |N|Speak with Captain Garran Vimes in Theramore.|    |QID|1320|  |M|68.21,48.62|
+T Captain Vimes |N|Bring the Spy's Report to Captain Garran Vimes.|    |QID|1220|  |M|68.21,48.62|
 
-T Jarl Needs Eyes |QID|1206| |N|Return to “Swamp Eye” Jarl.| |M|55.44,26.27|
-A Jarl Needs a Blade |QID|1203| |N|Accept from Jarl.| |M|55.44,26.27|
+T Jarl Needs Eyes |N|Bring 20 Unpopped Darkmist Eyes to "Swamp Eye" Jarl at the Swamplight Manor.|    |QID|1206|  |M|55.44,26.27|
+A Accept Jarl Needs a Blade from Swamp Eye" Jarl |N|Bring Razorspine's Sword to "Swamp Eye" Jarl at Swamplight Manor.|    |QID|1203|  |M|55.44,26.27|
 C Jarl Needs a Blade |QID|1203| |QO|1| |N|Bring Razorspine's Sword to Jarl.| |M|55.44,26.27|
 C Hungry! |QID|1177| |N|Collect 8 Mirefin Heads for Mudcrush.| |M|35.15,38.26|
 
-T Renn McGill |QID|11138| |N|Turn in at Dreadmurk Shore.| |M|63.74,17.04|
-A Secondhand Diving Gear |QID|11139| |N|Accept from Renn.| |M|63.74,17.04|
+T Renn McGill |N|Bring the Defias Orders to Renn McGill in the waters off the Dreadmurk Shore.|    |QID|11138|  |M|63.74,17.04|
+A Accept Secondhand Diving Gear from Renn McGill |N|Bring the Tool Kit and Damaged Diving Gear to Renn McGill in the Dustwallow Marsh.|    |QID|11139|  |M|63.74,17.04|
 C Secondhand Diving Gear |QID|11139| |QO|1| |N|Recover Tool Kit and Damaged Diving Gear.| |M|63.74,17.04|
-T Secondhand Diving Gear |QID|11139| |N|Return to Renn.| |M|63.74,17.04|
-A Recover the Cargo! |QID|11140| |N|Accept from Renn.| |M|63.74,17.04|
+T Secondhand Diving Gear |N|Bring the Tool Kit and Damaged Diving Gear to Renn McGill in the Dustwallow Marsh.|    |QID|11139|  |M|63.74,17.04|
+A Accept Recover the Cargo! from Renn McGill |N|Bring 6 Salvaged Strongboxes to Renn McGill in Dustwallow Marsh.|    |QID|11140|  |M|63.74,17.04|
 U Open the supplies |QID|11140| |U|33045| |N|Open Renn’s supplies.| |M|63.74,17.04|
 U Put on the Diving Gear |QID|11140| |U|33040| |N|Equip the Diving Gear.| |M|63.74,17.04|
 C Recover the Cargo! |QID|11140| |QO|1| |U|33044| |N|Recover 6 Salvaged Strongboxes underwater.| |M|63.74,17.04|
-T Recover the Cargo! |QID|11140| |N|Return to Renn.| |M|63.74,17.04|
-A Jaina Must Know |QID|11141| |N|Accept from Renn.| |M|63.74,17.04|
+T Recover the Cargo! |N|Bring 6 Salvaged Strongboxes to Renn McGill in Dustwallow Marsh.|    |QID|11140|  |M|63.74,17.04|
+A Accept Jaina Must Know from Renn McGill |N|Speak with Lady Jaina Proudmoore in Theramore.|    |QID|11141|  |M|63.74,17.04|
 
-T Jarl Needs a Blade |QID|1203| |N|Return to “Swamp Eye” Jarl.| |M|55.44,26.27|
-T Hungry! |QID|1177| |N|Return to Mudcrush Durtfeet.| |M|35.15,38.26|
-T The Deserters (Part 1) |QID|1286| |N|Turn in to Adjutant Tindel (outside Theramore).| |M|36.09,54.31|
-A The Deserters (Part 2) |QID|1287| |N|Accept from Adjutant Tindel.| |M|36.09,54.31|
+T Jarl Needs a Blade |N|Bring Razorspine's Sword to "Swamp Eye" Jarl at Swamplight Manor.|    |QID|1203|  |M|55.44,26.27|
+T Hungry! |N|Mudcrush Durtfeet in northern Dustwallow wants 8 Mirefin Heads.|    |QID|1177|  |M|35.15,38.26|
+T The Deserters (Part 1) |N|Get information about Reethe from Balos Jacken and the deserters in Dustwallow Marsh.|    |QID|1286|  |M|36.09,54.31|
+A Accept The Deserters (Part 2) from Balos Jacken |N|Speak with Captain Garran Vimes in Theramore about Reethe.|    |QID|1287|  |M|36.09,54.31|
 
 H Theramore Isle |QID|11142| |N|Hearth back.| |M|66.27,49.04|
-T Jaina Must Know |QID|11141| |N|Turn in to Lady Jaina Proudmoore.| |M|66.27,49.04|
-A Survey Alcaz Island |QID|11142| |N|Accept from Jaina.| |M|66.27,49.04|
-T The Deserters (Part 2) |QID|1287| |N|Turn in at the guard post.| |M|68.21,48.62|
-A A Grim Connection |QID|11143| |N|Accept there.| |M|68.21,48.62|
+T Jaina Must Know |N|Speak with Lady Jaina Proudmoore in Theramore.|    |QID|11141|  |M|66.27,49.04|
+A Accept Survey Alcaz Island from Lady Jaina Proudmoore |N|Speak to Cassa Crimsonwing and use one of her gryphons to survey Alcaz Island.|    |QID|11142|  |M|66.27,49.04|
+T The Deserters (Part 2) |N|Speak with Captain Garran Vimes in Theramore about Reethe.|    |QID|1287|  |M|68.21,48.62|
+A Accept A Grim Connection from Captain Garran Vimes |N|Report to Captain Darill at North Point.|    |QID|11143|  |M|68.21,48.62|
 C Survey Alcaz Island |QID|11142| |N|Speak to Cassa Crimsonwing for a gryphon tour, then report back to Jaina.| |M|66.27,49.04|
-T Survey Alcaz Island |QID|11142| |N|Return to Jaina.| |M|66.27,49.04|
+T Survey Alcaz Island |N|Speak to Cassa Crimsonwing and use one of her gryphons to survey Alcaz Island.|    |QID|11142|  |M|66.27,49.04|
 
-T A Grim Connection |QID|11143| |N|Turn in to Captain Darill at North Point Tower.| |M|46.62,24.60|
-A Confirming the Suspicion |QID|11144| |N|Accept from Captain Darill.| |M|46.62,24.60|
-A Arms of the Grimtotems |QID|11148| |N|Accept from Captain Darill.| |M|46.62,24.60|
+T A Grim Connection |N|Report to Captain Darill at North Point.|    |QID|11143|  |M|46.62,24.60|
+A Accept Confirming the Suspicion from Captain Darill |N|Bring the Grimtotem Battle Plan to Captain Darill at North Point Tower.|    |QID|11144|  |M|46.62,24.60|
+A Accept Arms of the Grimtotems from Captain Darill |N|Captain Darill at North Point Tower wants you to bring him 7 Blackhoof Armaments.|    |QID|11148|  |M|46.62,24.60|
 C Arms of the Grimtotems |QID|11148| |QO|1| |N|Collect 7 Blackhoof Armaments.| |M|46.62,24.60|
 C Confirming the Suspicion |QID|11144| |U|33050| |N|Use the flare to reveal the courier; loot the Grimtotem Battle Plan.| |M|46.62,24.60|
-T Confirming the Suspicion |QID|11144| |N|Return to Captain Darill.| |M|46.62,24.60|
-T Arms of the Grimtotems |QID|11148| |N|Return to Captain Darill.| |M|46.62,24.60|
-A Tabetha's Assistance |QID|11149| |N|Accept from Captain Darill.| |M|46.62,24.60|
+T Confirming the Suspicion |N|Bring the Grimtotem Battle Plan to Captain Darill at North Point Tower.|    |QID|11144|  |M|46.62,24.60|
+T Arms of the Grimtotems |N|Captain Darill at North Point Tower wants you to bring him 7 Blackhoof Armaments.|    |QID|11148|  |M|46.62,24.60|
+A Accept Tabetha's Assistance from Captain Darill |N|Speak with Tabetha at her farm.|    |QID|11149|  |M|46.62,24.60|
 
-T Tabetha's Assistance |QID|11149| |N|Turn in to Tabetha.| |M|46.06,57.09|
-A Raze Direhorn Post! |QID|11150| |N|Accept from Tabetha.| |M|46.06,57.09|
+T Tabetha's Assistance |N|Speak with Tabetha at her farm.|    |QID|11149|  |M|46.06,57.09|
+A Accept Raze Direhorn Post! from Tabetha |N|Burn the North Tent, East Tent, and the Northeast Tent at Direhorn Post, then return to Tabetha at her farm.|    |QID|11150|  |M|46.06,57.09|
 C Raze Direhorn Post! |QID|11150| |U|33072| |N|Burn the North, East, and Northeast tents at Direhorn Post.| |M|46.06,57.09|
-T Raze Direhorn Post! |QID|11150| |N|Return to Tabetha.| |M|46.06,57.09|
-A Justice for the Hyals |QID|11151| |N|Accept from Tabetha.| |M|46.06,57.09|
+T Raze Direhorn Post! |N|Burn the North Tent, East Tent, and the Northeast Tent at Direhorn Post, then return to Tabetha at her farm.|    |QID|11150|  |M|46.06,57.09|
+A Accept Justice for the Hyals from Tabetha |N|Speak to Captain Garran Vimes at Foothold Citadel in Theramore.|    |QID|11151|  |M|46.06,57.09|
 
-T Mission to Mudsprocket |QID|11214| |N|Turn in to Drazzit in Mudsprocket.| |M|42.33,72.93|
+T Mission to Mudsprocket |N|Speak with Drazzit Dripvalve at Mudsprocket.|    |QID|11214|  |M|42.33,72.93|
 
-T Justice for the Hyals |QID|11151| |N|Turn in to Captain Vimes at Foothold Citadel.| |M|68.21,48.62|
-A Peace at Last |QID|11152| |N|Accept from Captain Vimes.| |M|68.21,48.62|
+T Justice for the Hyals |N|Speak to Captain Garran Vimes at Foothold Citadel in Theramore.|    |QID|11151|  |M|68.21,48.62|
+A Accept Peace at Last from Captain Garran Vimes |N|Captain Garran Vimes at Foothold Citadel wants you to lay the Wreath at the Hyal Family Monument.|    |QID|11152|  |M|68.21,48.62|
 C Peace at Last |QID|11152| |N|Lay the wreath at the Hyal Family Monument.| |M|63.66,42.13|
-T Peace at Last |QID|11152| |N|Return to Captain Vimes.| |M|68.21,48.62|
+T Peace at Last |N|Captain Garran Vimes at Foothold Citadel wants you to lay the Wreath at the Hyal Family Monument.|    |QID|11152|  |M|68.21,48.62|
 ]]
 end)

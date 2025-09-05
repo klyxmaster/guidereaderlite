@@ -1,0 +1,83 @@
+GuideReaderLite_RegisterGuide("Western Plaguelands (56)", "Eastern Plaguelands (56-57)", "Horde", function()
+return [[
+F Undercity
+A Accept A Call to Arms: The Plaguelands! from Harbinger Balthazad |QID|5094| |N|Accept A Call to Arms: The Plaguelands!|
+h Undercity |N|Make this Inn your home|
+
+R The Bulwark
+T A Call to Arms: The Plaguelands! |QID|5094| |N|\n|
+A Accept Scarlet Diversions from High Executor Derrington |QID|5096| |N|Accept Scarlet Diversions|
+N Get a Flame in a Bottle |N|From the Box of Incendiaries| |ITEM|12814|
+T The Everlook Report |QID|6029| |N|\n|
+N Get a Commission |N|Talk to the quartermaster and get a commission, you should have this equipped any time you are in the plaguelands.  Turn in any scourgestones you get when you are in town if you have a full stack.| |ITEM|12846|
+A Accept The So-Called Mark of the Lightbringer from Mehlar Dawnblade |QID|9443| |N|Accept The So-Called Mark of the Lightbringer|
+A Accept A Plague Upon Thee (Part 1) from Mickey Levine |QID|5901| |NORAF| |N|Accept A Plague Upon Thee|
+
+C Scarlet Diversions |QID|5096| |N|Proceed to the Scarlet Crusade's base camp between Felstone Field and Dalson's Tears and destroy their command tent.$B$BPlace the Scourge banner at the camp, and then return to High Executor Derrington at the Bulwark, Western Plaguelands.|
+
+T Scarlet Diversions  |QID|5096| |N|Return to High Executor Derrington at The Bulwark in Tirisfal Glades.|
+A Accept All Along the Watchtowers from High Executor Derrington |QID|5098| |N|Accept All Along the Watchtowers|
+A Accept The Scourge Cauldrons from High Executor Derrington |QID|5228| |N|Accept The Scourge Cauldrons|
+T The Scourge Cauldrons |QID|5228| |N|\n|
+A Accept Target: Felstone Field from Shadow Priestess Vandis |QID|5229| |N|Accept Target: Felstone Field|
+
+C Target: Felstone Field |QID|5229| |N|Go to Felstone Field in Western Plaguelands to locate and defeat the Cauldron Lord present there.  It may have a key that will allow access to the cauldron.  You must have the Empty Felstone Field Bottle with you to secure a sample of the poisons used inside the cauldron.|
+T Target: Felstone Field |QID|5229| |N|Unlock the Scourge Cauldron at Felstone Field in Western Plaguelands.|
+A Accept Return to the Bulwark (Part 1) from Scourge Cauldron |QID|5230| |N|Accept Return to the Bulwark|
+
+A Accept Better Late Than Never (Part 1) from Janice Felstone |QID|5021| |N|Accept Better Late Than Never|
+T Better Late Than Never (Part 1) |QID|5021| |N|\n|
+A Accept Better Late Than Never (Part 2) from Janice's Parcel |QID|5023| |N|Accept Better Late Than Never|
+
+H Undercity |N|Hearth back|
+T Better Late Than Never |QID|5023| |N|\n|
+A Accept The Jeremiah Blues from Royal Overseer Bauhaus |QID|5049| |N|Accept The Jeremiah Blues|
+T The Jeremiah Blues |QID|5049| |N|\n|
+A Accept Good Luck Charm from Jeremiah Payson |QID|5050| |N|Accept Good Luck Charm|
+
+T Return to the Bulwark (Part 1) |QID|5230| |N|\n|
+A Accept Target: Dalson's Tears from Shadow Priestess Vandis |QID|5231| |N|Accept Target: Dalson's Tears|
+
+T Good Luck Charm |QID|5050| |N|\n|
+A Accept Two Halves Become One from Janice Felstone |QID|5051| |N|Accept Two Halves Become One|
+C Two Halves Become One |QID|5051| |N|Locate the other half of the Good Luck Charm somewhere on the Felstone Farm in Western Plaguelands and reassemble it.$B$BGive the Good Luck Charm to Janice Felstone on the Felstone Farm, Western Plaguelands.|
+T Two Halves Become One |QID|5051| |N|Return to Janice Felstone at Felstone Field in Western Plaguelands.|
+
+C Target: Dalson's Tears |QID|5231| |N|Go to Dalson's Tears in Western Plaguelands to locate and defeat the Cauldron Lord present there, and use its key to gain access to the cauldron.  You must have the Empty Dalson's Tears Bottle with you to secure a sample of the poisons used inside the cauldron.|
+T Target: Dalson's Tears |QID|5231| |N|Unlock the Scourge Cauldron in Western Plaguelands.|
+A Accept Return to the Bulwark (Part 2) from Scourge Cauldron |QID|5232| |N|Accept Return to the Bulwark|
+
+N Read Mrs. Dalson's Diary |N|On the floor in the barn (47.8, 50.7).  Nothing to accept, just read the book.|
+K Wandering Skeleton |N|Patrols around the house and barn, you are looking for the outhouse key.  Scarlets might kill this mob.| |ITEM|12738|
+K Farmer Dalson |N|Open the outhouse, get his key| |ITEM|12739|
+N Open cabinet |N|Locked cabinet upstairs in the house.| |ITEM|13474|
+
+T Return to the Bulwark (Part 2) |QID|5232| |N|\n|
+A Accept Target: Writhing Haunt from Shadow Priestess Vandis |QID|5233| |N|Accept Target: Writhing Haunt|
+
+C Target: Writhing Haunt |QID|5233| |N|Go to the Writhing Haunt in Western Plaguelands to locate and defeat the Cauldron Lord present there, and use its key to gain access to the cauldron.  You must have the Empty Writhing Haunt Bottle with you to secure a sample of the poisons used inside the cauldron.|
+T Target: Writhing Haunt |QID|5233| |N|Unlock the Scourge Cauldron at Darrowmere Lake in Western Plaguelands.|
+A Accept Return to the Bulwark (Part 3) from Scourge Cauldron |QID|5234| |N|Accept Return to the Bulwark|
+
+A Accept The Wildlife Suffers Too (Part 1) from Mulgris Deepriver |QID|4984| |N|Accept The Wildlife Suffers Too|
+C The Wildlife Suffers Too (Part 1) |QID|4984| |N|Destroy 8 Diseased Wolves, and then return to Mulgris Deepriver at the Writhing Haunt, Western Plaguelands.$B$B|
+T The Wildlife Suffers Too (Part 1) |QID|4984| |N|Return to Mulgris Deepriver at Darrowmere Lake in Western Plaguelands.|
+A Accept The Wildlife Suffers Too (Part 2) from Mulgris Deepriver |QID|4985| |N|Accept The Wildlife Suffers Too|
+C The Wildlife Suffers Too (Part 2) |QID|4985| |N|Destroy 8 Diseased Grizzlies, and then return to Mulgris Deepriver at the Writhing Haunt, Western Plaguelands.|
+
+f New flight point! |N|There is now a flight point on the east end of the road (69.2, 49.7).  Zip over there and fly back to the WARK!|
+T Return to the Bulwark (Part 3) |QID|5234| |N|\n|
+A Accept Target: Gahrron's Withering from Shadow Priestess Vandis |QID|5235| |N|Accept Target: Gahrron's Withering|
+
+C Target: Gahrron's Withering |QID|5235| |N|Go to Gahrron's Withering in Western Plaguelands to locate and defeat the Cauldron Lord present there, and use its key to gain access to the cauldron.  You must have the Empty Gahrron's Withering Bottle with you to secure a sample of the poisons used inside the cauldron.|
+T Target: Gahrron's Withering |QID|5235| |N|Unlock the Scourge Cauldron at Gahrron's Withering in Western Plaguelands.|
+A Accept Return to the Bulwark (Part 4) from Scourge Cauldron |QID|5236| |N|Accept Return to the Bulwark|
+
+T The Wildlife Suffers Too (Part 2) |QID|4985| |N|Return to Mulgris Deepriver at Darrowmere Lake in Western Plaguelands.|
+
+T Return to the Bulwark (Part 4) |QID|5236| |N|\n|
+A Accept Scholomance from High Executor Derrington |QID|838| |N|Accept Scholomance|
+T Scholomance |QID|838| |N|\n|
+A Accept Skeletal Fragments from Apothecary Dithers |QID|964| |NORAF| |N|Accept Skeletal Fragments|
+]]
+end)

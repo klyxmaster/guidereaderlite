@@ -1,0 +1,24 @@
+GuideReaderLite_RegisterGuide("Stranglethorn Vale (47)", "Searing Gorge (47-48)", "Horde", function()
+return [[
+F Booty Bay |N|via zeppelin to Grom'gol| |NORAF|
+A Accept Whiskey Slim's Lost Grog from Whiskey Slim |T| |QID|580| |NORAF| |N|Accept Whiskey Slim's Lost Grog|
+h Booty Bay |T| |NORAF| |N|Make this Inn your home|
+T Back to Booty Bay |T| |QID|1118| |NORAF| |N|\n|
+T Deliver to MacKinley |T| |QID|2874| |NORAF| |N|\n|
+A Accept The Captain's Chest from Captain Hecklebury Smotts |T| |QID|614| |NORAF| |N|Accept The Captain's Chest|
+
+C The Captain's Chest  |QID|614| |NORAF| |N|Bring Smotts' Chest to Hecklebury Smotts in Booty Bay.|
+N Loot the bottles on the beach |ITEM|4098| |NORAF|
+A Message in a Bottle (Part 1) |U|4098| |QID|594| |NORAF| |N|Accept Message in a Bottle|
+T Message in a Bottle (Part 1)  |QID|594| |NORAF| |N|Find the author of the message in a bottle somewhere in Stranglethorn Vale.|
+A Accept Message in a Bottle (Part 2) from Princess Poobah |QID|630| |NORAF| |N|Accept Message in a Bottle|
+C Message in a Bottle (Part 2)  |QID|630| |NORAF| |N|Slay King Mukla and return to Princess Poobah with the Key to free her.|
+T Message in a Bottle (Part 2) |QID|630| |NORAF| |N|Return to Princess Poobah at Jaguero Isle in Stranglethorn Vale.|
+C The Bloodsail Buccaneers (Part 5)  |QID|608| |NORAF| |N|Fleet-Master Seahorn in Booty Bay wants you to kill Captain Stillwater, Captain Keelhaul and Fleet Master Firallon.|
+A Cortello's Riddle (Part 1)  |U|4056| |QID|624| |NORAF| |N|Accept Cortello's Riddle|
+
+H Booty Bay |NORAF| |N|Hearth back|
+T The Bloodsail Buccaneers (Part 5) |T| |QID|608| |NORAF| |N|Return to Fleet Master Seahorn at Booty Bay in Stranglethorn Vale.|
+T The Captain's Chest |T| |QID|614| |NORAF| |N|Return to Captain Hecklebury Smotts at Booty Bay in Stranglethorn Vale.|
+]]
+end)

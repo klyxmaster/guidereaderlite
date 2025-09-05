@@ -3,9 +3,9 @@ return [[
 h Telaar |QID|9940| |N|Set your Hearthstone at the inn in Telaar to speed later turn-ins.| |M|54.74 70.88|
 
 R Nesingwary Safari |QID|9854| |N|Ride to the safari camp to start the hunting trifecta.| |M|71.57 40.52|
-A Windroc Mastery (Part 1) |QID|9854| |N|Accept from Shado 'Fitz' Farstrider at Nesingwary Safari.| |M|71.57 40.52|
-A Clefthoof Mastery (Part 1) |QID|9789| |N|Accept from Hemet Nesingwary at Nesingwary Safari.| |M|71.52 40.82|
-A Talbuk Mastery (Part 1) |QID|9857| |N|Accept from Harold Lane at Nesingwary Safari.| |M|71.38 40.62|
+A Accept Windroc Mastery (Part 1) from Shado 'Fitz' Farstrider |N|Kill 12 Windrocs and then return to Fitz at the Nesingwary Safari in Nagrand.|    |QID|9854|  |M|71.57 40.52|
+A Accept Clefthoof Mastery (Part 1) from Hemet Nesingwary |N|Hunt down 12 Clefthoof and return to Hemet Nesingwary at Nesingwary's Safari in Nagrand to prove yourself.|    |QID|9789|  |M|71.52 40.82|
+A Accept Talbuk Mastery (Part 1) from Harold Lane |N|Kill 12 Talbuk Stags and then return to Harold Lane at the Nesingwary Safari in Nagrand.|    |QID|9857|  |M|71.38 40.62|
 
 N Rep tokens... |QID|9882| |N|While questing: loot Oshu'gun Crystal Fragments for Consortium rep and Obsidian Warbeads for Kurenai/Consortium.|
 
@@ -13,58 +13,58 @@ C Windroc Mastery (Part 1) |QID|9854| |QO|1| |N|Slay 12 Windrocs for Fitz.| |M|6
 C Talbuk Mastery (Part 1) |QID|9857| |QO|1| |N|Slay 12 Talbuk Stags for Harold Lane.| |M|67.00 47.00|
 C Clefthoof Mastery (Part 1) |QID|9789| |QO|1| |N|Slay 12 Clefthoof for Hemet.| |M|66.00 43.00|
 
-T Windroc Mastery (Part 1) |QID|9854| |N|Return to Fitz with 12 Windrocs slain.| |M|71.57 40.52|
-A Windroc Mastery (Part 2) |QID|9855| |N|Accept from Fitz at Nesingwary Safari.| |M|71.57 40.52|
-T Clefthoof Mastery (Part 1) |QID|9789| |N|Return to Hemet with 12 Clefthoof slain.| |M|71.52 40.82|
-A Clefthoof Mastery (Part 2) |QID|9850| |N|Accept from Hemet Nesingwary.| |M|71.52 40.82|
-T Talbuk Mastery (Part 1) |QID|9857| |N|Return to Harold Lane with 12 Talbuk Stags slain.| |M|71.38 40.62|
-A Talbuk Mastery (Part 2) |QID|9858| |N|Accept from Harold Lane.| |M|71.38 40.62|
+T Windroc Mastery (Part 1) |N|Kill 12 Windrocs and then return to Fitz at the Nesingwary Safari in Nagrand.|    |QID|9854|  |M|71.57 40.52|
+A Accept Windroc Mastery (Part 2) from Shado 'Fitz' Farstrider |N|Hunt down 12 Ravenous Windrocs and then return to Fitz at the Nesingwary Safari in Nagrand.|    |QID|9855|  |M|71.57 40.52|
+T Clefthoof Mastery (Part 1) |N|Hunt down 12 Clefthoof and return to Hemet Nesingwary at Nesingwary's Safari in Nagrand to prove yourself.|    |QID|9789|  |M|71.52 40.82|
+A Accept Clefthoof Mastery (Part 2) from Hemet Nesingwary |N|Kill 12 Clefthoof Bulls and then speak to Hemet Nesingwary at Nesingwary's Safari in Nagrand about your prowess.|    |QID|9850|  |M|71.52 40.82|
+T Talbuk Mastery (Part 1) |N|Kill 12 Talbuk Stags and then return to Harold Lane at the Nesingwary Safari in Nagrand.|    |QID|9857|  |M|71.38 40.62|
+A Accept Talbuk Mastery (Part 2) from Harold Lane |N|Hunt down 12 Talbuk Thorngrazers and then return to Harold Lane at the Nesingwary Safari in Nagrand.|    |QID|9858|  |M|71.38 40.62|
 
 R Throne of the Elements |QID|9861| |N|Ride to the elemental plateau north of Garadar.| |M|60.50 22.37|
-A The Howling Wind |QID|9861| |U|24504| |N|Accept from the item (drops from Nagrand air elementals). Turn in nearby.| |M|60.50 22.37|
-T The Howling Wind |QID|9861| |N|Turn in the distress call to Elementalist Morgh at the Throne of the Elements.| |M|60.50 22.37|
-A Murkblood Corrupters |QID|9862| |N|Accept from Elementalist Morgh at the Throne of the Elements.| |M|60.50 22.37|
-A The Underneath |QID|9818| |N|Accept from Elementalist Untrag; speak with Gordawg at the stone.| |M|60.66 22.65|
-A A Rare Bean |QID|9800| |N|Accept from Elementalist Lo'ap at the Throne of the Elements.| |M|60.80 22.38|
-A Muck Diving |QID|9815| |N|Accept from Elementalist Lo'ap at the Throne of the Elements.| |M|60.80 22.38|
-T The Underneath |QID|9818| |N|Return to Gordawg after hearing him out.| |M|61.33 24.82|
-A The Tortured Earth |QID|9819| |N|Accept from Gordawg at the Throne of the Elements.| |M|61.33 24.82|
+A The Howling Wind |N|Find someone at the Throne of the Elements that knows how to speak Kalimag and show them the Howling Wind.|    |QID|9861| |U|24504|  |M|60.50 22.37|
+T The Howling Wind |N|Find someone at the Throne of the Elements that knows how to speak Kalimag and show them the Howling Wind.|    |QID|9861|  |M|60.50 22.37|
+A Accept Murkblood Corrupters from Elementalist Morgh |N|Elementalist Morgh at the Throne of the Elements in Nagrand wants you to slay 5 Murkblood Putrifiers.|    |QID|9862|  |M|60.50 22.37|
+A Accept The Underneath from Elementalist Untrag |N|Communicate with Gordawg.|    |QID|9818|  |M|60.66 22.65|
+A Accept A Rare Bean from Elementalist Lo'ap |N|Elementalist Lo'ap at the Throne of the Elements in Nagrand wants you to bring him 8 Digested Caracoli.|    |QID|9800|  |M|60.80 22.38|
+A Accept Muck Diving from Elementalist Lo'ap |N|Elementalist Lo'ap at the Throne of the Elements in Nagrand wants you to retrieve 5 Muck-ridden Cores.|    |QID|9815|  |M|60.80 22.38|
+T The Underneath |N|Communicate with Gordawg.|    |QID|9818|  |M|61.33 24.82|
+A Accept The Tortured Earth from Gordawg |N|Gordawg at the Throne of the Elements in Nagrand has asked that you destroy 10 Tortured Earth Spirits.|    |QID|9819|  |M|61.33 24.82|
 
 C Talbuk Mastery (Part 2) |QID|9858| |QO|1| |N|Slay 12 Talbuk Thorngrazers for Harold Lane.| |M|69.00 38.00|
 C A Rare Bean |QID|9800| |QO|1| |N|Collect 8 Digested Caracoli from dung piles for Lo'ap.| |M|56.00 35.00|
 C Clefthoof Mastery (Part 2) |QID|9850| |QO|1| |N|Slay 12 Clefthoof Bulls for Hemet.| |M|64.00 47.00|
 
 R Aeris Landing |QID|9913| |N|Head to the Consortium camp south of Oshu'gun.| |M|31.36 57.79|
-A The Consortium Needs You! |QID|9913| |N|Accept from Gezhe at Aeris Landing.| |M|31.36 57.79|
-A Matters of Security |QID|9925| |N|Accept from Zerid at Aeris Landing.| |M|30.78 58.13|
-A Stealing from Thieves |QID|9882| |N|Accept from Gezhe at Aeris Landing.| |M|31.36 57.79|
-A Gava'xi |QID|9900| |N|Accept from Zerid at Aeris Landing.| |M|30.78 58.13|
+A Accept The Consortium Needs You! from Consortium Recruiter |N|Report to Gezhe at Aeris Landing in Nagrand.|    |QID|9913|  |M|31.36 57.79|
+A Accept Matters of Security from Zerid |N|Zerid at Aeris Landing in Nagrand wants you to kill 8 Voidspawn near Oshu'gun.|    |QID|9925|  |M|30.78 58.13|
+A Accept Stealing from Thieves from Gezhe |N|Obtain 10 Oshu'gun Crystal Fragments and bring them to Gezhe at Aeris Landing in Nagrand.|    |QID|9882|  |M|31.36 57.79|
+A Accept Gava'xi from Zerid |N|Slay Gava'xi near Oshu'gun and return to Zerid at Aeris Landing in Nagrand.|    |QID|9900|  |M|30.78 58.13|
 C Matters of Security |QID|9925| |QO|1| |N|Kill 8 Voidspawns near Oshu'gun for Zerid.| |M|36.00 66.00|
 C Stealing from Thieves |QID|9882| |QO|1| |N|Loot 10 Oshu'gun Crystal Fragments for Gezhe.| |M|35.00 68.00|
 C Gava'xi |QID|9900| |QO|1| |N|Slay Gava'xi (voidwalker) east of Oshu'gun for Zerid.| |M|42.00 73.00|
-T Matters of Security |QID|9925| |N|Return to Zerid with 8 Voidspawns slain.| |M|30.78 58.13|
-T Stealing from Thieves |QID|9882| |N|Return to Gezhe with 10 Crystal Fragments.| |M|31.36 57.79|
-T Gava'xi |QID|9900| |N|Return to Zerid with Gava'xi slain.| |M|30.78 58.13|
-T The Consortium Needs You! |QID|9913| |N|Report to Gezhe at Aeris Landing completed.| |M|31.36 57.79|
+T Matters of Security |N|Zerid at Aeris Landing in Nagrand wants you to kill 8 Voidspawn near Oshu'gun.|    |QID|9925|  |M|30.78 58.13|
+T Stealing from Thieves |N|Obtain 10 Oshu'gun Crystal Fragments and bring them to Gezhe at Aeris Landing in Nagrand.|    |QID|9882|  |M|31.36 57.79|
+T Gava'xi |N|Slay Gava'xi near Oshu'gun and return to Zerid at Aeris Landing in Nagrand.|    |QID|9900|  |M|30.78 58.13|
+T The Consortium Needs You! |N|Report to Gezhe at Aeris Landing in Nagrand.|    |QID|9913|  |M|31.36 57.79|
 
 R Telaar |QID|9917| |N|Ride back to Telaar for the ogre/Kil'sorrow chains.| |M|55.05 70.53|
-A The Ravaged Caravan |QID|9956| |N|Accept from Huntress Kima in Telaar.| |M|54.24 72.27|
-A Wanted: Giselda the Crone |QID|9936| |N|Accept from the Telaar Wanted Poster.| |M|54.74 70.88|
-A Wanted: Zorbo the Advisor |QID|9940| |N|Accept from the Telaar Wanted Poster.| |M|54.74 70.88|
-A Do My Eyes Deceive Me |QID|9917| |N|Accept from Huntress Bintook in Telaar.| |M|55.05 70.53|
-A The Throne of the Elements |QID|9869| |N|Accept from Elementalist Ioki at Telaar (breadcrumb).| |M|55.52 68.78|
-A Stopping the Spread |QID|9874| |N|Accept from Otonbu the Sage in Telaar.| |M|54.48 72.08|
-A Solving the Problem |QID|9878| |N|Accept from Poli'lukluk the Wiser in Telaar.| |M|54.47 72.31|
-A I Must Have Them! |QID|10109| |N|Accept from Wazat at the goblin camp south of Telaar (optional but efficient en-route).| |M|61.72 67.05|
+A Accept The Ravaged Caravan from Huntress Kima |N|Huntress Kima at Telaar in Nagrand wants you to recover 10 Telaar Supply Crates.|    |QID|9956|  |M|54.24 72.27|
+A Accept Wanted: Giselda the Crone from Telaar Bulletin Board |N|Slay Giselda the Crone and any combination of 10 Kil'sorrow Agents.|    |QID|9936|  |M|54.74 70.88|
+A Accept Wanted: Zorbo the Advisor from Telaar Bulletin Board |N|Slay Zorbo the Advisor, 5 Warmaul Shaman and 5 Warmaul Reavers.|    |QID|9940|  |M|54.74 70.88|
+A Accept Do My Eyes Deceive Me from Huntress Bintook |N|Huntress Bintook at Telaar in Nagrand wants you to recover Boulderfist Plans.|    |QID|9917|  |M|55.05 70.53|
+A Accept The Throne of the Elements from Elementalist Ioki |N|Elementalist Ioki wants you to travel to the Throne of the Elements and speak with Elementalist Sharvak.|    |QID|9869|  |M|55.52 68.78|
+A Accept Stopping the Spread from Otonbu the Sage |N|Otonbu the Sage at Telaar in Nagrand wants you to use the Torch of Liquid Fire to destroy 10 Sunspring Villager corpses.|    |QID|9874|  |M|54.48 72.08|
+A Accept Solving the Problem from Poli'lukluk the Wiser |N|Poli'lukluk the Wiser at Telaar in Nagrand wants you to kill 10 Murkblood Scavengers and 5 Murkblood Raiders.|    |QID|9878|  |M|54.47 72.31|
+A Accept I Must Have Them! from Wazat |N|Wazat across from Clan Watch in southern Nagrand wants you to bring him 3 Air Elemental Gases.|    |QID|10109|  |M|61.72 67.05|
 
 C Do My Eyes Deceive Me |QID|9917| |N|Recover the Boulderfist Plans from Boulderfist ogres for Bintook.| |M|73.00 70.00|
-T Do My Eyes Deceive Me |QID|9917| |N|Return to Bintook with the Boulderfist Plans recovered.| |M|55.05 70.53|
-A Not On My Watch! |QID|9918| |N|Accept from Huntress Bintook.| |M|55.05 70.53|
+T Do My Eyes Deceive Me |N|Huntress Bintook at Telaar in Nagrand wants you to recover Boulderfist Plans.|    |QID|9917|  |M|55.05 70.53|
+A Accept Not On My Watch! from Huntress Bintook |N|Huntress Bintook at Telaar in Nagrand wants you to speak to Lump.|    |QID|9918|  |M|55.05 70.53|
 C Not On My Watch! |QID|9918| |QO|1| |N|Interrogate Lump, then report back to Bintook.| |M|62.00 71.00|
-T Not On My Watch! |QID|9918| |N|Return to Bintook after questioning Lump.| |M|55.05 70.53|
-A Mo'mor the Breaker |QID|9920| |N|Accept from Bintook.| |M|55.05 70.53|
-T Mo'mor the Breaker |QID|9920| |N|Report to Mo'mor the Breaker in Telaar.| |M|54.61 72.21|
-A The Ruins of Burning Blade |QID|9921| |N|Accept from Mo'mor the Breaker.| |M|54.61 72.21|
+T Not On My Watch! |N|Huntress Bintook at Telaar in Nagrand wants you to speak to Lump.|    |QID|9918|  |M|55.05 70.53|
+A Accept Mo'mor the Breaker from Huntress Bintook |N|Huntress Bintook at Telaar in Nagrand wants you to speak to Mo'mor the Breaker.|    |QID|9920|  |M|55.05 70.53|
+T Mo'mor the Breaker |N|Huntress Bintook at Telaar in Nagrand wants you to speak to Mo'mor the Breaker.|    |QID|9920|  |M|54.61 72.21|
+A Accept The Ruins of Burning Blade from Mo'mor the Breaker |N|Mo'mor the Breaker at Telaar in Nagrand wants you to kill 8 Boulderfist Crushers and 8 Boulderfist Mystics.|    |QID|9921|  |M|54.61 72.21|
 
 C Windroc Mastery (Part 2) |QID|9855| |N|Slay 12 Ravenous Windrocs for Fitz while moving between hubs.| |M|65.00 45.00|
 C Stopping the Spread |QID|9874| |QO|1| |U|24560| |N|Burn 10 Sunspring Villager corpses with the Torch for Otonbu.| |M|33.00 43.00|
@@ -73,70 +73,70 @@ C Murkblood Corrupters |QID|9862| |QO|1| |N|Slay 5 Murkblood Putrifiers for Elem
 C The Ravaged Caravan |QID|9956| |N|Recover 10 Telaar Supply Crates for Huntress Kima.| |M|31.00 57.00|
 C The Tortured Earth |QID|9819| |QO|1| |N|Destroy 10 Tortured Earth Spirits for Gordawg.| |M|50.00 60.00|
 
-T Murkblood Corrupters |QID|9862| |N|Return to Elementalist Morgh with 5 Putrifiers slain.| |M|60.50 22.37|
-T The Throne of the Elements |QID|9869| |N|Report delivered to the Throne of the Elements.| |M|60.66 22.10|
-T A Rare Bean |QID|9800| |N|Return to Elementalist Lo'ap with 8 Digested Caracoli.| |M|60.80 22.38|
-A Agitated Spirits of Skysong |QID|9804| |N|Accept from Elementalist Lo'ap.| |M|60.80 22.38|
-T The Tortured Earth |QID|9819| |N|Return to Gordawg after destroying 10 Tortured Earth Spirits.| |M|61.33 24.82|
-A Eating Damnation |QID|9821| |N|Accept from Gordawg.| |M|61.33 24.82|
+T Murkblood Corrupters |N|Elementalist Morgh at the Throne of the Elements in Nagrand wants you to slay 5 Murkblood Putrifiers.|    |QID|9862|  |M|60.50 22.37|
+T The Throne of the Elements |N|Elementalist Ioki wants you to travel to the Throne of the Elements and speak with Elementalist Sharvak.|    |QID|9869|  |M|60.66 22.10|
+T A Rare Bean |N|Elementalist Lo'ap at the Throne of the Elements in Nagrand wants you to bring him 8 Digested Caracoli.|    |QID|9800|  |M|60.80 22.38|
+A Accept Agitated Spirits of Skysong from Elementalist Lo'ap |N|Elementalist Lo'ap at the Throne of the Elements in Nagrand wants you to destroy 8 Lake Spirits.|    |QID|9804|  |M|60.80 22.38|
+T The Tortured Earth |N|Gordawg at the Throne of the Elements in Nagrand has asked that you destroy 10 Tortured Earth Spirits.|    |QID|9819|  |M|61.33 24.82|
+A Accept Eating Damnation from Gordawg |N|Gordawg at the Throne of the Elements in Nagrand has asked that you bring him 10 Enraged Crusher Cores.|    |QID|9821|  |M|61.33 24.82|
 
 C Eating Damnation |QID|9821| |QO|1| |N|Collect 10 Enraged Crusher Cores for Gordawg (from the giant rock elementals).| |M|44.00 64.00|
 C Agitated Spirits of Skysong |QID|9804| |QO|1| |N|Destroy 8 Lake Spirits at Skysong Lake for Lo'ap.| |M|34.00 50.00|
 
-T Eating Damnation |QID|9821| |N|Return to Gordawg with 10 Enraged Crusher Cores.| |M|61.33 24.82|
-A Shattering the Veil |QID|9849| |N|Accept from Gordawg.| |M|61.33 24.82|
-T Agitated Spirits of Skysong |QID|9804| |N|Return to Lo'ap with 8 Lake Spirits destroyed.| |M|60.80 22.38|
-A Blessing of Incineratus |QID|9805| |N|Accept from Elementalist Lo'ap.| |M|60.80 22.38|
+T Eating Damnation |N|Gordawg at the Throne of the Elements in Nagrand has asked that you bring him 10 Enraged Crusher Cores.|    |QID|9821|  |M|61.33 24.82|
+A Accept Shattering the Veil from Gordawg |N|Gordawg at the Throne of the Elements in Nagrand has asked that you slay 30 Minions of Gurok.|    |QID|9849|  |M|61.33 24.82|
+T Agitated Spirits of Skysong |N|Elementalist Lo'ap at the Throne of the Elements in Nagrand wants you to destroy 8 Lake Spirits.|    |QID|9804|  |M|60.80 22.38|
+A Accept Blessing of Incineratus from Elementalist Lo'ap |N|Elementalist Lo'ap at the Throne of the Elements in Nagrand wants you to destroy the Large Hut, the Western Hut, the Southern Hut and the Eastern Hut at Windyreed Village.|    |QID|9805|  |M|60.80 22.38|
 
-T Windroc Mastery (Part 2) |QID|9855| |N|Return to Fitz with 12 Ravenous Windrocs slain.| |M|71.57 40.52|
-T Clefthoof Mastery (Part 2) |QID|9850| |N|Return to Hemet with 12 Clefthoof Bulls slain.| |M|71.52 40.82|
-T Talbuk Mastery (Part 2) |QID|9858| |N|Return to Harold Lane with 12 Talbuk Thorngrazers slain.| |M|71.38 40.62|
+T Windroc Mastery (Part 2) |N|Hunt down 12 Ravenous Windrocs and then return to Fitz at the Nesingwary Safari in Nagrand.|    |QID|9855|  |M|71.57 40.52|
+T Clefthoof Mastery (Part 2) |N|Kill 12 Clefthoof Bulls and then speak to Hemet Nesingwary at Nesingwary's Safari in Nagrand about your prowess.|    |QID|9850|  |M|71.52 40.82|
+T Talbuk Mastery (Part 2) |N|Hunt down 12 Talbuk Thorngrazers and then return to Harold Lane at the Nesingwary Safari in Nagrand.|    |QID|9858|  |M|71.38 40.62|
 
 C Blessing of Incineratus |QID|9805| |QO|1| |U|24467| |N|Use the Living Fire to burn the Large, Western, Southern, and Eastern Huts at Windyreed Village for Lo'ap.| |M|72.00 51.00|
 
-T Blessing of Incineratus |QID|9805| |N|Return to Elementalist Lo'ap after burning the huts.| |M|60.80 22.38|
-A The Spirit Polluted |QID|9810| |N|Accept from Elementalist Lo'ap.| |M|60.80 22.38|
+T Blessing of Incineratus |N|Elementalist Lo'ap at the Throne of the Elements in Nagrand wants you to destroy the Large Hut, the Western Hut, the Southern Hut and the Eastern Hut at Windyreed Village.|    |QID|9805|  |M|60.80 22.38|
+A Accept The Spirit Polluted from Elementalist Lo'ap |N|Elementalist Lo'ap at the Throne of the Elements in Nagrand wants you to destroy Watoosun's Polluted Essence and 8 Lake Surgers.|    |QID|9810|  |M|60.80 22.38|
 C The Spirit Polluted |QID|9810| |QO|1| |N|Defeat Watoosun's Polluted Essence and slay 8 Lake Surgers for Lo'ap.| |M|40.00 30.00|
 C Shattering the Veil |QID|9849| |QO|1| |U|24501| |N|Use Gordawg's Boulder to summon and slay 30 Minions of Gurok for Gordawg.| |M|41.00 44.00|
 
 H Telaar |QID|9878| |N|Hearth back to Telaar for bulk turn-ins.| |M|54.74 70.88|
-T Solving the Problem |QID|9878| |N|Return to Poli'lukluk the Wiser with Murkblood slain.| |M|54.47 72.31|
-T Stopping the Spread |QID|9874| |N|Return to Otonbu the Sage after burning 10 corpses.| |M|54.48 72.08|
-T The Ravaged Caravan |QID|9956| |N|Return to Huntress Kima with 10 Supply Crates recovered.| |M|54.24 72.27|
+T Solving the Problem |N|Poli'lukluk the Wiser at Telaar in Nagrand wants you to kill 10 Murkblood Scavengers and 5 Murkblood Raiders.|    |QID|9878|  |M|54.47 72.31|
+T Stopping the Spread |N|Otonbu the Sage at Telaar in Nagrand wants you to use the Torch of Liquid Fire to destroy 10 Sunspring Villager corpses.|    |QID|9874|  |M|54.48 72.08|
+T The Ravaged Caravan |N|Huntress Kima at Telaar in Nagrand wants you to recover 10 Telaar Supply Crates.|    |QID|9956|  |M|54.24 72.27|
 
-A HELP! |QID|9923| |N|Accept from Corki’s Cage note near the ogre caves south of Telaar.| |M|72.53 70.74|
+A Accept HELP! from Corki |N|Find the Boulderfist Key and Free Corki.|    |QID|9923|  |M|72.53 70.74|
 C The Ruins of Burning Blade |QID|9921| |QO|1| |N|Slay 8 Boulderfist Crushers and 8 Boulderfist Mystics for Mo'mor.| |M|73.50 70.50|
 C HELP! |QID|9923| |N|Loot the Boulderfist Key and free Corki, then report to Arechron.| |M|73.00 70.00|
 
-T HELP! |QID|9923| |N|Return to Arechron after freeing Corki.| |M|55.48 68.70|
-A Corki's Gone Missing Again! |QID|9924| |N|Accept from Arechron.| |M|55.48 68.70|
-T The Ruins of Burning Blade |QID|9921| |N|Return to Mo'mor with ogres slain.| |M|54.61 72.21|
-A The Twin Clefts of Nagrand |QID|9922| |N|Accept from Mo'mor the Breaker.| |M|54.61 72.21|
+T HELP! |N|Find the Boulderfist Key and Free Corki.|    |QID|9923|  |M|55.48 68.70|
+A Accept Corki's Gone Missing Again! from Arechron |N|Arechron at Telaar has asked that you find and free Corki.|    |QID|9924|  |M|55.48 68.70|
+T The Ruins of Burning Blade |N|Mo'mor the Breaker at Telaar in Nagrand wants you to kill 8 Boulderfist Crushers and 8 Boulderfist Mystics.|    |QID|9921|  |M|54.61 72.21|
+A Accept The Twin Clefts of Nagrand from Mo'mor the Breaker |N|Mo'mor the Breaker at Telaar in Nagrand has asked that you slay 10 Boulderfist Warriors and 10 Boulderfist Mages.|    |QID|9922|  |M|54.61 72.21|
 
 C Corki's Gone Missing Again! |QID|9924| |N|Find Corki and free him again (key drops from Boulderfist ogres).| |M|49.50 57.00|
 C The Twin Clefts of Nagrand |QID|9922| |QO|1| |N|Slay 10 Boulderfist Warriors and 10 Boulderfist Mages for Mo'mor.| |M|46.00 57.00|
 C Muck Diving |QID|9815| |QO|1| |N|Retrieve 5 Muck-ridden Cores from Muck Spawns in Halaani Basin for Lo'ap.| |M|40.00 43.00|
 
-T Corki's Gone Missing Again! |QID|9924| |N|Return to Arechron after freeing Corki again.| |M|55.48 68.70|
-T The Twin Clefts of Nagrand |QID|9922| |N|Return to Mo'mor with ogres slain.| |M|54.61 72.21|
-A Diplomatic Measures |QID|10108| |N|Accept from Mo'mor the Breaker.| |M|54.61 72.21|
+T Corki's Gone Missing Again! |N|Arechron at Telaar has asked that you find and free Corki.|    |QID|9924|  |M|55.48 68.70|
+T The Twin Clefts of Nagrand |N|Mo'mor the Breaker at Telaar in Nagrand has asked that you slay 10 Boulderfist Warriors and 10 Boulderfist Mages.|    |QID|9922|  |M|54.61 72.21|
+A Accept Diplomatic Measures from Mo'mor the Breaker |N|Mo'mor the Breaker at Telaar in Nagrand has asked that you find and speak with Lantresor of the Blade in the Burning Blade Ruins.|    |QID|10108|  |M|54.61 72.21|
 
-T Diplomatic Measures |QID|10108| |N|Speak with Lantresor of the Blade at the Burning Blade Ruins.| |M|73.81 62.60|
-A Armaments for Deception |QID|9928| |N|Accept from Lantresor of the Blade.| |M|73.81 62.60|
-A Ruthless Cunning |QID|9927| |N|Accept from Lantresor of the Blade.| |M|73.81 62.60|
+T Diplomatic Measures |N|Mo'mor the Breaker at Telaar in Nagrand has asked that you find and speak with Lantresor of the Blade in the Burning Blade Ruins.|    |QID|10108|  |M|73.81 62.60|
+A Accept Armaments for Deception from Lantresor of the Blade |N|Lantresor of the Blade at the Burning Blade Ruins in Nagrand wants you to collect 10 Kil'sorrow Armaments.|    |QID|9928|  |M|73.81 62.60|
+A Accept Ruthless Cunning from Lantresor of the Blade |N|Lantresor of the Blade at the Burning Blade Ruins in Nagrand wants you to drive 10 Warmaul Ogre Banners through the bodies of Kil'sorrow members at Kil'sorrow Fortress.|    |QID|9927|  |M|73.81 62.60|
 
 C Wanted: Giselda the Crone |QID|9936| |QO|1| |U|25552| |N|Slay Giselda the Crone and any 10 Kil'sorrow agents for the Telaar Wanted poster.| |M|71.00 81.00|
 C Armaments for Deception |QID|9928| |QO|1| |N|Collect 10 Kil'sorrow Armaments at Kil’sorrow Fortress for Lantresor.| |M|70.50 79.50|
 C Ruthless Cunning |QID|9927| |U|25552| |N|Plant 10 Warmaul Ogre Banners on Kil’sorrow corpses for Lantresor.| |M|70.50 79.50|
 
-T Ruthless Cunning |QID|9927| |N|Return to Lantresor with banners planted.| |M|73.81 62.60|
-T Armaments for Deception |QID|9928| |N|Return to Lantresor with 10 Armaments.| |M|73.81 62.60|
-A Returning the Favor |QID|9931| |N|Accept from Lantresor.| |M|73.81 62.60|
-A Body of Evidence |QID|9932| |N|Accept from Lantresor.| |M|73.81 62.60|
+T Ruthless Cunning |N|Lantresor of the Blade at the Burning Blade Ruins in Nagrand wants you to drive 10 Warmaul Ogre Banners through the bodies of Kil'sorrow members at Kil'sorrow Fortress.|    |QID|9927|  |M|73.81 62.60|
+T Armaments for Deception |N|Lantresor of the Blade at the Burning Blade Ruins in Nagrand wants you to collect 10 Kil'sorrow Armaments.|    |QID|9928|  |M|73.81 62.60|
+A Accept Returning the Favor from Lantresor of the Blade |N|Lantresor of the Blade at the Burning Blade Ruins in Nagrand wants you to drive 10 Kil'sorrow Banners through the bodies of Warmaul ogres at the Laughing Skull Ruins.|    |QID|9931|  |M|73.81 62.60|
+A Accept Body of Evidence from Lantresor of the Blade |N|Lantresor of the Blade at the Burning Blade Ruins in Nagrand wants you to use the Damp Woolen Blanket at the Blazing Warmaul Pyre in the Laughing Skull Courtyard to signal his ogres.|    |QID|9932|  |M|73.81 62.60|
 
-T The Spirit Polluted |QID|9810| |N|Return to Lo'ap after cleansing Watoosun and 8 Surgers.| |M|60.80 22.38|
-T Shattering the Veil |QID|9849| |N|Return to Gordawg after slaying 30 Minions of Gurok.| |M|61.33 24.82|
-T Muck Diving |QID|9815| |N|Return to Lo'ap with 5 Muck-ridden Cores collected.| |M|60.80 22.38|
+T The Spirit Polluted |N|Elementalist Lo'ap at the Throne of the Elements in Nagrand wants you to destroy Watoosun's Polluted Essence and 8 Lake Surgers.|    |QID|9810|  |M|60.80 22.38|
+T Shattering the Veil |N|Gordawg at the Throne of the Elements in Nagrand has asked that you slay 30 Minions of Gurok.|    |QID|9849|  |M|61.33 24.82|
+T Muck Diving |N|Elementalist Lo'ap at the Throne of the Elements in Nagrand wants you to retrieve 5 Muck-ridden Cores.|    |QID|9815|  |M|60.80 22.38|
 
 C Body of Evidence |QID|9932| |U|25658| |N|Use the Damp Woolen Blanket at the Blazing Warmaul Pyre to stage evidence for Lantresor.| |M|46.50 24.50|
 C Wanted: Zorbo the Advisor |QID|9940| |QO|1| |U|25555| |N|Slay Zorbo the Advisor, 5 Warmaul Shamans, and 5 Warmaul Reavers at Warmaul Hill for the Telaar Wanted poster.| |M|46.00 24.00|
@@ -145,15 +145,15 @@ C Returning the Favor |QID|9931| |U|25555| |N|Plant 10 Kil'sorrow Banners on War
 C I Must Have Them! |QID|10109| |QO|1| |N|Collect 3 Air Elemental Gases for Wazat (from air elementals south of Telaar).| |M|61.72 67.05|
 
 H Telaar |QID|9940| |N|Hearth to Telaar for final turn-ins.| |M|54.74 70.88|
-T Wanted: Giselda the Crone |QID|9936| |N|Return to the Telaar Wanted poster with Giselda slain and 10 agents defeated.| |M|54.74 70.88|
-T Wanted: Zorbo the Advisor |QID|9940| |N|Return to the Telaar Wanted poster with Zorbo slain, plus 5 Shamans and 5 Reavers.| |M|54.74 70.88|
-A Fierce Enemies |QID|10476| |O| |N|Accept from the Telaar Wanted poster (turn in Warbeads).| |M|54.74 70.88|
-T Fierce Enemies |QID|10476| |N|Turn in 10 Obsidian Warbeads at the Telaar Wanted poster.| |M|54.74 70.88|
-T I Must Have Them! |QID|10109| |N|Return to Wazat with 3 Air Elemental Gases.| |M|61.72 67.05|
+T Wanted: Giselda the Crone |N|Slay Giselda the Crone and any combination of 10 Kil'sorrow Agents.|    |QID|9936|  |M|54.74 70.88|
+T Wanted: Zorbo the Advisor |N|Slay Zorbo the Advisor, 5 Warmaul Shaman and 5 Warmaul Reavers.|    |QID|9940|  |M|54.74 70.88|
+A Accept Fierce Enemies from Warden Moi'bff Jill |N|Warden Moi'bff Jill at Telaar wants you to obtain 10 Obsidian Warbeads from the various ogres that inhabit Nagrand.|    |QID|10476| |O|  |M|54.74 70.88|
+T Fierce Enemies |N|Warden Moi'bff Jill at Telaar wants you to obtain 10 Obsidian Warbeads from the various ogres that inhabit Nagrand.|    |QID|10476|  |M|54.74 70.88|
+T I Must Have Them! |N|Wazat across from Clan Watch in southern Nagrand wants you to bring him 3 Air Elemental Gases.|    |QID|10109|  |M|61.72 67.05|
 
-T Returning the Favor |QID|9931| |N|Return to Lantresor with banners planted on Warmaul ogres.| |M|73.81 62.60|
-T Body of Evidence |QID|9932| |N|Return to Lantresor after staging the scene at the Warmaul pyre.| |M|73.81 62.60|
-A Message to Telaar |QID|9933| |N|Accept from Lantresor of the Blade.| |M|73.81 62.60|
-T Message to Telaar |QID|9933| |N|Report Lantresor’s message to Arechron in Telaar.| |M|55.48 68.70|
+T Returning the Favor |N|Lantresor of the Blade at the Burning Blade Ruins in Nagrand wants you to drive 10 Kil'sorrow Banners through the bodies of Warmaul ogres at the Laughing Skull Ruins.|    |QID|9931|  |M|73.81 62.60|
+T Body of Evidence |N|Lantresor of the Blade at the Burning Blade Ruins in Nagrand wants you to use the Damp Woolen Blanket at the Blazing Warmaul Pyre in the Laughing Skull Courtyard to signal his ogres.|    |QID|9932|  |M|73.81 62.60|
+A Accept Message to Telaar from Lantresor of the Blade |N|Take the Burning Blade Peace Offering to Arechron at Telaar in Nagrand.|    |QID|9933|  |M|73.81 62.60|
+T Message to Telaar |N|Take the Burning Blade Peace Offering to Arechron at Telaar in Nagrand.|    |QID|9933|  |M|55.48 68.70|
 ]]
 end)

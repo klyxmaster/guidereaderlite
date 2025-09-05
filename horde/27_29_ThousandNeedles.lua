@@ -1,16 +1,16 @@
 GuideReaderLite_RegisterGuide("Thousand Needles (27-29)", "Hillsbrad Foothills (29-30)", "Horde", function()
 return [[
-T The Sacred Flame (Part 2) |QID|1196| |N|\n|
-A The Sacred Flame (Part 3) |QID|1197| |N|Accept The Sacred Flame|
-A A Different Approach |QID|9431| |N|Accept A Different Approach|
+T The Sacred Flame (Part 2) |N|Deliver the Filled Etched Phial to Rau Cliffrunner at the Freewind Post.||QID|1196| 
+A Accept The Sacred Flame (Part 3) from Rau Cliffrunner |N|Retrieve the Cloven Hoof for Rau Cliffrunner at the Freewind Post.||QID|1197| 
+A Accept A Different Approach from Magistrix Elosai |N|Gather 2 handfuls of Purifying Earth from Thundering Boulderkin and take them to Wizlo Bearingshiner at Whitereach Post.||QID|9431| 
 
 C The Sacred Flame (Part 3) |QID|1197| |N|Retrieve the Cloven Hoof for Rau Cliffrunner at the Freewind Post.|
 
-T Serpent Wild |QID|4865| |N|\n|
-A Sacred Fire |QID|5062| |NORAF| |N|Accept Sacred Fire|
-A Hypercapacitor Gizmo |QID|5151| |N|Accept Hypercapacitor Gizmo|
+T Serpent Wild |N|Report your findings to Motega Firemane at Whitereach Post in Thousand Needles.||QID|4865| 
+A Accept Sacred Fire from Motega Firemane |N|Gather 10 bushels of Incendia Agave, and then consult Magatha Grimtotem on Elder Rise in Thunderbluff.||QID|5062| |NORAF| 
+A Accept Hypercapacitor Gizmo from Wizlo Bearingshiner |N|Slay the beast and bring back the Hypercapacitor Gizmo and Panther Cage Key to Wizlo Bearingshiner.||QID|5151| 
 
-A Homeward Bound |QID|4770|  |NORAF| |N|Accept Homeward Bound|
+A Accept Homeward Bound from Pao'ka Swiftmountain |N|Escort Pao'ka Swiftmountain from Highperch, and then talk to Motega Firemane in Whitereach Post.||QID|4770|  |NORAF| 
 C Wind Rider |QID|4767| |NORAF| |N|Bring 10 Highperch Wyvern Eggs to Elu in Freewind Post.|
 C Homeward Bound |QID|4770| |NORAF| |N|Escort Pao'ka Swiftmountain from Highperch, and then talk to Motega Firemane in Whitereach Post.|
 C A Different Approach |QID|9431| |N|Gather 2 handfuls of Purifying Earth from Thundering Boulderkin and take them to Wizlo Bearingshiner at Whitereach Post.|
@@ -18,41 +18,41 @@ C Steelsnap |QID|1131| |N|Bring Steelsnap's Rib to Melor Stonehoof in Thunder Bl
 C Sacred Fire |QID|5062|  |NORAF| |N|Gather 10 bushels of Incendia Agave, and then consult Magatha Grimtotem on Elder Rise in Thunderbluff.|
 
 H Thunder Bluff |NORAF| |N|Hearth back|
-T Steelsnap |QID|1131|  |Z|Thunder Bluff| |NORAF| |N|Return to Melor Stonehoof at Hunter Rise in Thunder Bluff.|
-A Frostmaw |QID|1136| |NORAF| |N|Accept Frostmaw|
-T Sacred Fire |QID|5062|  |NORAF| |N|Return to Magatha Grimtotem in Thunder Bluff.|
-A Arikara |QID|5088| |NORAF| |N|Accept Arikara|
+T Steelsnap |N|Bring Steelsnap's Rib to Melor Stonehoof in Thunder Bluff.||QID|1131|  |Z|Thunder Bluff| |NORAF| 
+A Accept Frostmaw from Melor Stonehoof |N|Bring Frostmaw's Mane to Melor Stonehoof in Thunder Bluff.||QID|1136| |NORAF| 
+T Sacred Fire |N|Gather 10 bushels of Incendia Agave, and then consult Magatha Grimtotem on Elder Rise in Thunderbluff.||QID|5062|  |NORAF| 
+A Accept Arikara from Magatha Grimtotem |N|Slay Arikara.||QID|5088| |NORAF| 
 
-T Wind Rider |QID|4767|  |NORAF| |N|Return to Elu at Freewind Post in Thousand Needles.|
-T The Sacred Flame (Part 3) |QID|1197| |N|Return to Rau Cliffrunner at Freewind Post in Thousand Needles.|
+T Wind Rider |N|Bring 10 Highperch Wyvern Eggs to Elu in Freewind Post.||QID|4767|  |NORAF| 
+T The Sacred Flame (Part 3) |N|Retrieve the Cloven Hoof for Rau Cliffrunner at the Freewind Post.||QID|1197| 
 h Freewind Post |N|Make this Inn your home|
 
 C Grimtotem Spying |QID|5064| |N|Locate and retrieve the three Secret Notes in Darkcloud Pinnacle.|
 C Arikara |QID|5088|  |NORAF| |N|Slay Arikara. Bring her remains and the Incendia powder to Motega Firemane in Whitereach Post as proof of your deed.|
 C Wanted - Arnak Grimtotem |QID|5147| |N|Slay Arnak Grimtotem and bring proof of your deed to Cliffwatcher Longhorn in Freewind Post.|
-A Free at Last |QID|4904| |N|Accept Free at Last|
+A Accept Free at Last from Lakota Windsong |N|Escort Lakota Windsong from the Darkcloud Pinnacle, and then talk to Thalia Amberhide at Freewind Post.||QID|4904| 
 C Free at Last |QID|4904| |N|Escort Lakota Windsong from the Darkcloud Pinnacle, and then talk to Thalia Amberhide at Freewind Post.|
 
-T A Different Approach |QID|9431| |N|Return to Wizlo Bearingshiner at Whitereach Post in Thousand Needles.|
-A A Dip in the Moonwell |QID|9433| |N|Accept A Dip in the Moonwell|
-T Homeward Bound |QID|4770| |NORAF| |N|Return to Motega Firemane in Thousand Needles.|
-T Arikara |QID|5088| |NORAF| |N|Return to Motega Firemane at Whitereach Post in Thousand Needles.|
+T A Different Approach |N|Gather 2 handfuls of Purifying Earth from Thundering Boulderkin and take them to Wizlo Bearingshiner at Whitereach Post.||QID|9431| 
+A Accept A Dip in the Moonwell from Wizlo Bearingshiner |N|Use the Robotron Control while standing near the Concealed Command Console hidden in a small cluster of bushes on the rim of the needle closest to Thalanaar to take command of a Robotron 3000.||QID|9433| 
+T Homeward Bound |N|Escort Pao'ka Swiftmountain from Highperch, and then talk to Motega Firemane in Whitereach Post.||QID|4770| |NORAF| 
+T Arikara |N|Slay Arikara.||QID|5088| |NORAF| 
 
 C A Dip in the Moonwell |QID|9433| |N|Use the Robotron Control while standing near the Concealed Command Console hidden in a small cluster of bushes on the rim of the needle closest to Thalanaar to take command of a Robotron 3000. Pilot the robot to the western edge of Thousand Needles where the Alliance outpost of Thalanaar is located. Use the robot to collect a sample of the moonwell's water and return it to Wizlo Bearingshiner at Whitereach Post.|
 C Hypercapacitor Gizmo |QID|5151| |N|Slay the beast and bring back the Hypercapacitor Gizmo and Panther Cage Key to Wizlo Bearingshiner.|
 K Galak Messenger |ITEM|12564| |N|Spawns at the centaur camp (39.5, 33.4), runs to the road south of the Great Lift (30.6, 32.5), then follows the road west.|
-A Assassination Plot |QID|4881| |U|12564| |N|Accept Assassination Plot|
+A Assassination Plot |N|Warn Kanati Greycloud at Whitereach Post of the plot to kill him.||QID|4881| |U|12564| 
 
-T A Dip in the Moonwell |QID|9433| |N|Return to Wizlo Bearingshiner at Whitereach Post in Thousand Needles.|
-A Testing the Tonic |QID|9434| |N|Accept Testing the Tonic|
-T Hypercapacitor Gizmo |QID|5151| |N|Return to Wizlo Bearingshiner at Whitereach Post in Thousand Needles.|
-T Assassination Plot |QID|4881| |N|\n|
-A Protect Kanati Greycloud |QID|4966| |N|Accept Protect Kanati Greycloud|
+T A Dip in the Moonwell |N|Use the Robotron Control while standing near the Concealed Command Console hidden in a small cluster of bushes on the rim of the needle closest to Thalanaar to take command of a Robotron 3000.||QID|9433| 
+A Accept Testing the Tonic from Wizlo Bearingshiner |N|Deliver the Crate of Reagents to Magistrix Elosai at Freewind Post.||QID|9434| 
+T Hypercapacitor Gizmo |N|Slay the beast and bring back the Hypercapacitor Gizmo and Panther Cage Key to Wizlo Bearingshiner.||QID|5151| 
+T Assassination Plot |N|Warn Kanati Greycloud at Whitereach Post of the plot to kill him.||QID|4881| 
+A Accept Protect Kanati Greycloud from Kanati Greycloud |N|Protect Kanati Greycloud from the centaur attack.||QID|4966| 
 C Protect Kanati Greycloud |QID|4966| |N|Protect Kanati Greycloud from the centaur attack.|
-T Protect Kanati Greycloud |QID|4966| |N|Return to Kanati Greycloud at Whitereach Post in Thousand Needles.|
+T Protect Kanati Greycloud |N|Protect Kanati Greycloud from the centaur attack.||QID|4966| 
 
-T Testing the Tonic |QID|9434| |N|\n|
-T Grimtotem Spying |QID|5064| |N|Return to Cliffwatcher Longhorn at Freewind Post in Thousand Needles.|
-T Wanted - Arnak Grimtotem |QID|5147| |N|Return to Cliffwatcher Longhorn at Freewind Post in Thousand Needles.|
-T Free at Last |QID|4904| |N|Return to Thalia Amberhide at Freewind Post in Thousand Needles.|
+T Testing the Tonic |N|Deliver the Crate of Reagents to Magistrix Elosai at Freewind Post.||QID|9434| 
+T Grimtotem Spying |N|Locate and retrieve the three Secret Notes in Darkcloud Pinnacle.||QID|5064| 
+T Wanted - Arnak Grimtotem |N|Slay Arnak Grimtotem and bring proof of your deed to Cliffwatcher Longhorn in Freewind Post.||QID|5147| 
+T Free at Last |N|Escort Lakota Windsong from the Darkcloud Pinnacle, and then talk to Thalia Amberhide at Freewind Post.||QID|4904| 
 ]] end)

@@ -1,27 +1,27 @@
 GuideReaderLite_RegisterGuide("Western Plaguelands (58)", "Eastern Plaguelands (58)", "Alliance", function()
 return [[
-T The Eastern Plagues |QID|6185| |N|Return to Flint Shadowmore at Chillwind Camp.| |M|43.61,84.51|
-A The Blightcaller Cometh |QID|6186| |N|Accept The Blightcaller Cometh from Flint Shadowmore.| |M|43.61,84.51|
+T The Eastern Plagues |N|Scour the Eastern Plaguelands for clues as to the "Blightcaller" and the missing SI:7 agents.|    |QID|6185|  |M|43.61,84.51|
+A Accept The Blightcaller Cometh from Flint Shadowmore |N|Return to Stormwind and inform King Varian Wrynn of the fate of Nathanos Marris.|    |QID|6186|  |M|43.61,84.51|
 
-T Auntie Marlene |QID|5152| |N|Turn in to Marlene Redpath at Sorrow Hill.| |M|49.17,78.57|
-A A Strange Historian |QID|5153| |N|Accept A Strange Historian.| |M|49.17,78.57|
+T Auntie Marlene |N|Speak with Marlene, south of the Ruins of Andorhal.|    |QID|5152|  |M|49.17,78.57|
+A Accept A Strange Historian from Marlene Redpath |N|Bring Joseph's Wedding Ring to Chromie.|    |QID|5153|  |M|49.17,78.57|
 
 C A Strange Historian |QID|5153| |N|Retrieve Joseph’s Wedding Ring from the Grave at Sorrow Hill and bring it to Chromie.| |M|39.46,66.76|
-T A Strange Historian |QID|5153| |N|Return to Chromie at the Ruins of Andorhal.| |M|39.46,66.76|
-A The Annals of Darrowshire |QID|5154| |N|Accept The Annals of Darrowshire from Chromie.| |M|39.46,66.76|
-A A Matter of Time |QID|4971| |N|Accept A Matter of Time from Chromie.| |M|39.46,66.76|
+T A Strange Historian |N|Bring Joseph's Wedding Ring to Chromie.|    |QID|5153|  |M|39.46,66.76|
+A Accept The Annals of Darrowshire from Chromie |N|Bring the Annals of Darrowshire to Chromie in Andorhal.|    |QID|5154|  |M|39.46,66.76|
+A Accept A Matter of Time from Chromie |N|Use the Temporal Displacer near one of Andorhal's silos and uncover Temporal Parasites.|    |QID|4971|  |M|39.46,66.76|
 
 C A Matter of Time |QID|4971| |U|12627| |N|Use the Temporal Displacer near the silos in Andorhal, kill 10 Temporal Parasites, then return to Chromie.| |M|39.46,66.76|
 C The Annals of Darrowshire |QID|5154| |N|Collect the Annals of Darrowshire from Andorhal Town Hall and bring them to Chromie.| |M|39.46,66.76|
 
-T A Matter of Time |QID|4971| |N|Return to Chromie at the Ruins of Andorhal.| |M|39.46,66.76|
-A Counting Out Time |QID|4973| |N|Accept Counting Out Time from Chromie.| |M|39.46,66.76|
-T The Annals of Darrowshire |QID|5154| |N|Return to Chromie.| |M|39.46,66.76|
-A Brother Carlin |QID|5210| |N|Accept Brother Carlin from Chromie.| |M|39.46,66.76|
+T A Matter of Time |N|Use the Temporal Displacer near one of Andorhal's silos and uncover Temporal Parasites.|    |QID|4971|  |M|39.46,66.76|
+A Accept Counting Out Time from Chromie |N|Locate 5 Andorhal Watches amongst the rubble of the city, and return with them to Chromie in the Andorhal Inn, Western Plaguelands.|    |QID|4973|  |M|39.46,66.76|
+T The Annals of Darrowshire |N|Bring the Annals of Darrowshire to Chromie in Andorhal.|    |QID|5154|  |M|39.46,66.76|
+A Accept Brother Carlin from Chromie |N|Bring the Extended Annals of Darrowshire to Carlin Redpath in Eastern Plaguelands.|    |QID|5210|  |M|39.46,66.76|
 
 C Counting Out Time |QID|4973| |N|Find 5 Andorhal Watches in the ruined houses of Andorhal and return them to Chromie.| |M|39.46,66.76|
 C Skeletal Fragments |QID|5537| |N|Collect 15 Skeletal Fragments from undead and bring them to Alchemist Arbington at Chillwind Camp.| |M|42.66,83.77|
 
-T Counting Out Time |QID|4973| |N|Return to Chromie at the Ruins of Andorhal.| |M|39.46,66.76|
+T Counting Out Time |N|Locate 5 Andorhal Watches amongst the rubble of the city, and return with them to Chromie in the Andorhal Inn, Western Plaguelands.|    |QID|4973|  |M|39.46,66.76|
 ]]
 end)

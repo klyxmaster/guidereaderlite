@@ -1,36 +1,36 @@
 GuideReaderLite_RegisterGuide("Swamp of Sorrows (48-49)", "Tanaris (49-50)", "Horde", function()
 return [[
 F Stonard |N|Swamp of Sorrows| |NORAF|
-A Fall From Grace |QID|2784| |NODEBUG| |NORAF| |N|Accept Fall From Grace|
-T Fall From Grace |QID|2784| |NODEBUG| |NORAF| |N|Return to Fallen Hero of the Horde at Splinterspear Junction in Swamp of Sorrows.|
-A The Disgraced One  |QID|2621| |NORAF| |N|Accept The Disgraced One|
-T Cortello's Riddle (Part 1)  |QID|624| |NORAF| |N|Find the clue in the Swamp of Sorrows.|
-A Cortello's Riddle (Part 2) |QID|625| |NORAF| |N|Accept Cortello's Riddle|
+A Accept Fall From Grace from Fallen Hero of the Horde |N|Listen to the Fallen Hero of the Horde tell his story.||QID|2784| |NODEBUG| |NORAF| 
+T Fall From Grace |N|Listen to the Fallen Hero of the Horde tell his story.||QID|2784| |NODEBUG| |NORAF| 
+A Accept The Disgraced One from Fallen Hero of the Horde |N|Speak to Dispatch Commander Ruag at Stonard in Swamp of Sorrows.||QID|2621| |NORAF| 
+T Cortello's Riddle (Part 1)  |N|Solve the riddle!.||QID|624| |NORAF| 
+A Accept Cortello's Riddle (Part 2) from A Soggy Scroll |N|Solve the riddle!.||QID|625| |NORAF| 
 
-T The Disgraced One  |QID|2621| |NORAF| |N|\n|
-A The Missing Orders |QID|2622| |NORAF| |N|Accept The Missing Orders|
-T The Missing Orders  |QID|2622| |NORAF| |N|\n|
-A The Swamp Talker |QID|2623| |NORAF| |N|Accept The Swamp Talker|
+T The Disgraced One  |N|Speak to Dispatch Commander Ruag at Stonard in Swamp of Sorrows.||QID|2621| |NORAF| 
+A Accept The Missing Orders from Dispatch Commander Ruag |N|Speak to Bengor at Stonard in Swamp of Sorrows.||QID|2622| |NORAF| 
+T The Missing Orders  |N|Speak to Bengor at Stonard in Swamp of Sorrows.||QID|2622| |NORAF| 
+A Accept The Swamp Talker from Bengor |N|Retrieve the Warchief's Orders and return them to the Fallen Hero of the Horde.||QID|2623| |NORAF| 
 
 C The Swamp Talker  |QID|2623| |NORAF| |N|Retrieve the Warchief's Orders and return them to the Fallen Hero of the Horde.|
 K Jarquia |N|At around (94,50) or (92,65)| |NORAF|
 
-T The Swamp Talker  |QID|2623| |NORAF| |N|Return to Fallen Hero of the Horde at Splinterspear Junction in Swamp of Sorrows.|
-A A Tale of Sorrow  |QID|2801| |NORAF| |N|Accept A Tale of Sorrow|
-T A Tale of Sorrow  |QID|2801| |NORAF| |N|Return to Fallen Hero of the Horde at Splinterspear Junction in Swamp of Sorrows.|
+T The Swamp Talker  |N|Retrieve the Warchief's Orders and return them to the Fallen Hero of the Horde.||QID|2623| |NORAF| 
+A Accept A Tale of Sorrow from Fallen Hero of the Horde |N|Listen to the Fallen Hero of the Horde tell his story.||QID|2801| |NORAF| 
+T A Tale of Sorrow  |N|Listen to the Fallen Hero of the Horde tell his story.||QID|2801| |NORAF| 
 
 H The Salty Sailor Tavern  |NORAF| |N|Hearth back|
 F Brackenwall Village |N|Boat to Ratchet and fly down| |NORAF|
-A The Brood of Onyxia |T| |QID|1172| |NORAF| |N|Accept The Brood of Onyxia|
+A Accept The Brood of Onyxia from Draz'Zilb |N|Draz'Zilb in Brackenwall Village wants you to destroy 5 Eggs of Onyxia.||T| |QID|1172| |NORAF| 
 
 N Get Overdue Package |N|From the zeppelin crash (54,55) for "Ledger from Tanaris"| |Z|Dustwallow Marsh| |ITEM|11724| |NORAF|
 C The Brood of Onyxia  |Z|Dustwallow Marsh| |QID|1172| |NORAF| |N|Draz'Zilb in Brackenwall Village wants you to destroy 5 Eggs of Onyxia.|
-T Cortello's Riddle (Part 2)  |Z|Dustwallow Marsh| |QID|625| |NORAF| |N|Find the clue in Dustwallow Marsh.|
-A Cortello's Riddle (Part 3) |QID|626| |NORAF| |N|Accept Cortello's Riddle|
+T Cortello's Riddle (Part 2)  |N|Solve the riddle!.||Z|Dustwallow Marsh| |QID|625| |NORAF| 
+A Accept Cortello's Riddle (Part 3) from Musty Scroll |N|Solve the riddle!.||QID|626| |NORAF| 
 
-T The Brood of Onyxia  |T| |QID|1172| |NORAF| |N|Return to Draz'Zilb at Brackenwall Village in Dustwallow Marsh.|
-A Challenge Overlord Mok'Morokk |T| |QID|1173| |NORAF| |N|Accept Challenge Overlord Mok'Morokk|
+T The Brood of Onyxia  |N|Draz'Zilb in Brackenwall Village wants you to destroy 5 Eggs of Onyxia.||T| |QID|1172| |NORAF| 
+A Accept Challenge Overlord Mok'Morokk from Overlord Mok'Morokk |N|Defeat Mok'Morokk and report the news to Draz'Zilb in Brackenwall Village.||T| |QID|1173| |NORAF| 
 C Challenge Overlord Mok'Morokk  |T| |QID|1173| |NORAF| |N|Defeat Mok'Morokk and report the news to Draz'Zilb in Brackenwall Village.|
-T Challenge Overlord Mok'Morokk |T| |QID|1173| |NORAF| |N|Return to Draz'Zilb at Brackenwall Village in Dustwallow Marsh.|
+T Challenge Overlord Mok'Morokk |N|Defeat Mok'Morokk and report the news to Draz'Zilb in Brackenwall Village.||T| |QID|1173| |NORAF| 
 ]]
 end)

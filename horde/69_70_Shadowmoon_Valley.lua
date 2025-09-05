@@ -4,23 +4,23 @@ return [[
 F Stonebreaker Hold |N|Terokkar Forest|
 R Shadowmoon Village |N|East across the bridge, follow the road southeast in Shadowmoon Valley(30,32)|
 
-A Besieged! |QID|10595| |N|Accept Besieged!|
+A Accept Besieged! from Blood Guard Gulmok |N|Blood Guard Gulmok outside of Shadowmoon Village, wants you to kill 10 Infernal Attackers.||QID|10595| 
 C Besieged! |QID|10595| |N|Blood Guard Gulmok outside of Shadowmoon Village, wants you to kill 10 Infernal Attackers.|
-T Besieged! |QID|10595| |N|Return to Blood Guard Gulmok at Shadowmoon Village in Shadowmoon Valley.|
-A To Legion Hold |QID|10596| |N|Accept To Legion Hold|
-A The Sketh'lon Wreckage |T| |QID|10760| |N|Accept The Sketh'lon Wreckage|
-A What Strange Creatures... |T| |QID|10660| |N|Accept What Strange Creatures...|
-A The Hand of Gul'dan |T| |QID|10681| |N|Accept The Hand of Gul'dan|
-A A Haunted History |T| |QID|10624| |N|Accept A Haunted History|
-A A Grunt's Work... |T| |QID|10702| |N|Accept A Grunt's Work...|
+T Besieged! |N|Blood Guard Gulmok outside of Shadowmoon Village, wants you to kill 10 Infernal Attackers.||QID|10595| 
+A Accept To Legion Hold from Blood Guard Gulmok |N|Make your way to Legion Hold, locate the Legion Communication Device, and learn about the Legion's plans while in disguise.||QID|10596| 
+A Accept The Sketh'lon Wreckage from Sergeant Kargrul |N|Recover the Skethlon Commander's Journal Page 1, Skethlon Commander's Journal Page 2, and Skethlon Commander's Journal Page 3 from the Dark Conclave arakkoa at the Sketh'lon Wreckage to Sergeant Kargrul at Shadowmoon Village.||T| |QID|10760| 
+A Accept What Strange Creatures... from Researcher Tiorus |N|Researcher Tiorus at Shadowmoon Village in Shadowmoon Valley wants you to recover 8 Felfire Spleens.||T| |QID|10660| 
+A Accept The Hand of Gul'dan from Earthmender Splinthoof |N|Speak with Earthmender Torlok at the Altar of Damnation in Shadowmoon Valley.||T| |QID|10681| 
+A Accept A Haunted History from Chief Apothecary Hildagard |N|Chief Apothecary Hildagard at Shadowmoon Village in Shadowmoon Valley wants you to bring her 15 Ever-burning Ash samples.||T| |QID|10624| 
+A Accept A Grunt's Work... from Overlord Or'barokh |N|Overlord Or'barokh at Shadowmoon Village in Shadowmoon Valley wants you to kill 20 Shadowmoon Valley Wildlife.||T| |QID|10702| 
 h Shadowmoon Village |N|Make this Inn your home|
 
 N Kill crap... |N|Kill any Felboars, Vilewing Chimaeras and Scorchshell Pincers you come across for "A Grunt's Work..."  Also loot any [Ever-burning Ash] you see, and kill Diemetradons for "What Strange Creatures..."|
-T The Hand of Gul'dan  |QID|10681| |N|\n|
-A Enraged Spirits of Fire and Earth |QID|10458| |N|Accept Enraged Spirits of Fire and Earth|
+T The Hand of Gul'dan  |N|Speak with Earthmender Torlok at the Altar of Damnation in Shadowmoon Valley.||QID|10681| 
+A Accept Enraged Spirits of Fire and Earth from Earthmender Torlok |N|Earthmender Torlok at the Altar of Damnation in Shadowmoon Valley wants you to use the Totem of Spirits to capture 8 Earthen Souls and 8 Fiery Souls.||QID|10458| 
 C Enraged Spirits of Fire and Earth  |U|30094| |QID|10458| |N|Earthmender Torlok at the Altar of Damnation in Shadowmoon Valley wants you to use the Totem of Spirits to capture 8 Earthen Souls and 8 Fiery Souls.|
-T Enraged Spirits of Fire and Earth |QID|10458| |N|Return to Earthmender Torlok at the Altar of Damnation in Shadowmoon Valley.|
-A Enraged Spirits of Water |QID|10480| |N|Accept Enraged Spirits of Water|
+T Enraged Spirits of Fire and Earth |N|Earthmender Torlok at the Altar of Damnation in Shadowmoon Valley wants you to use the Totem of Spirits to capture 8 Earthen Souls and 8 Fiery Souls.||QID|10458| 
+A Accept Enraged Spirits of Water from Earthmender Torlok |N|Earthmender Torlok at the Altar of Damnation in Shadowmoon Valley wants you to use the Totem of Spirits to capture 5 Watery Souls.||QID|10480| 
 C Enraged Spirits of Water  |U|30094| |QID|10480| |N|Earthmender Torlok at the Altar of Damnation in Shadowmoon Valley wants you to use the Totem of Spirits to capture 5 Watery Souls.$B|
 
 C The Sketh'lon Wreckage  |QID|10760| |N|Recover the Skethlon Commander's Journal Page 1, Skethlon Commander's Journal Page 2, and Skethlon Commander's Journal Page 3 from the Dark Conclave arakkoa at the Sketh'lon Wreckage to Sergeant Kargrul at Shadowmoon Village.|
@@ -29,58 +29,58 @@ C A Haunted History  |QID|10624| |N|Chief Apothecary Hildagard at Shadowmoon Vil
 
 C To Legion Hold  |U|30638| |QID|10596| |N|Make your way to Legion Hold, locate the Legion Communication Device, and learn about the Legion's plans while in disguise. Return to Blood Guard Gulmok at Shadowmoon Village when you've completed your mission.|
 
-T A Haunted History  |T| |QID|10624| |N|Return to Chief Apothecary Hildagard at Shadowmoon Village in Shadowmoon Valley.|
-A Spectrecles |T| |QID|10625| |N|Accept Spectrecles|
-T What Strange Creatures... |T| |QID|10660| |N|Return to Researcher Tiorus at Shadowmoon Village in Shadowmoon Valley.|
-A Frankly, It Makes No Sense... |T| |QID|10672| |N|Accept Frankly, It Makes No Sense...|
+T A Haunted History  |N|Chief Apothecary Hildagard at Shadowmoon Village in Shadowmoon Valley wants you to bring her 15 Ever-burning Ash samples.||T| |QID|10624| 
+A Accept Spectrecles from Chief Apothecary Hildagard |N|Chief Apothecary Hildagard at Shadowmoon Village in Shadowmoon Valley wants you to slay 12 Shadowmoon Zealots.||T| |QID|10625| 
+T What Strange Creatures... |N|Researcher Tiorus at Shadowmoon Village in Shadowmoon Valley wants you to recover 8 Felfire Spleens.||T| |QID|10660| 
+A Accept Frankly, It Makes No Sense... from Researcher Tiorus |N|Researcher Tiorus at Shadowmoon Village in Shadowmoon Valley wants you to travel to the lava flow near the Ruins of Baa'ri and use the Arcano Control Unit to control an Arcano-Scorp, swim in the lava with the Arcano-Scorp, and tag 8 Greater Felfire Diemetradons.||T| |QID|10672| 
 
 U Put on your Spectrecles |U|30719| |T|
 C Spectrecles  |T| |QID|10625| |N|Chief Apothecary Hildagard at Shadowmoon Village in Shadowmoon Valley wants you to slay 12 Shadowmoon Zealots.|
-T Spectrecles |T| |QID|10625| |N|Return to Chief Apothecary Hildagard at Shadowmoon Village in Shadowmoon Valley.|
-A Teron Gorefiend - Lore and Legend |T| |QID|10633| |N|Accept Teron Gorefiend - Lore and Legend|
-T The Sketh'lon Wreckage |T| |QID|10760| |N|Return to Sergeant Kargrul at Shadowmoon Village in Shadowmoon Valley.|
-A Find the Deserter |T| |QID|10761| |N|Accept Find the Deserter|
-T To Legion Hold |QID|10596| |N|Return to Blood Guard Gulmok at Shadowmoon Village in Shadowmoon Valley.|
-A Setting Up the Bomb |QID|10597| |N|Accept Setting Up the Bomb|
+T Spectrecles |N|Chief Apothecary Hildagard at Shadowmoon Village in Shadowmoon Valley wants you to slay 12 Shadowmoon Zealots.||T| |QID|10625| 
+A Accept Teron Gorefiend - Lore and Legend from Chief Apothecary Hildagard |N|Chief Apothecary Hildagard at Shadowmoon Village in Shadowmoon Valley wants you to find the Ancient Shadowmoon Spirit.||T| |QID|10633| 
+T The Sketh'lon Wreckage |N|Recover the Skethlon Commander's Journal Page 1, Skethlon Commander's Journal Page 2, and Skethlon Commander's Journal Page 3 from the Dark Conclave arakkoa at the Sketh'lon Wreckage to Sergeant Kargrul at Shadowmoon Village.||T| |QID|10760| 
+A Accept Find the Deserter from Sergeant Kargrul |N|Locate Parshah in the Magma Fields and speak to him.||T| |QID|10761| 
+T To Legion Hold |N|Make your way to Legion Hold, locate the Legion Communication Device, and learn about the Legion's plans while in disguise.||QID|10596| 
+A Accept Setting Up the Bomb from Blood Guard Gulmok |N|Obtain a Fel Reaver Power Core and a Fel Reaver Armor Plate, then bring them to Blood Guard Gulmok at Shadowmoon Village.||QID|10597| 
 
-T Enraged Spirits of Water  |QID|10480| |N|Return to Earthmender Torlok at the Altar of Damnation in Shadowmoon Valley.|
-A Enraged Spirits of Air |QID|10481| |N|Accept Enraged Spirits of Air|
+T Enraged Spirits of Water  |N|Earthmender Torlok at the Altar of Damnation in Shadowmoon Valley wants you to use the Totem of Spirits to capture 5 Watery Souls.||QID|10480| 
+A Accept Enraged Spirits of Air from Earthmender Torlok |N|Earthmender Torlok at the Altar of Damnation in Shadowmoon Valley wants you to use the Totem of Spirits to capture 10 Airy Souls.||QID|10481| 
 
 C Frankly, It Makes No Sense...  |QID|10672| |N|Researcher Tiorus at Shadowmoon Village in Shadowmoon Valley wants you to travel to the lava flow near the Ruins of Baa'ri and use the Arcano Control Unit to control an Arcano-Scorp, swim in the lava with the Arcano-Scorp, and tag 8 Greater Felfire Diemetradons.|
 
-T Find the Deserter  |QID|10761| |N|\n|
-A Asghar's Totem |QID|10777| |N|Accept Asghar's Totem|
+T Find the Deserter  |N|Locate Parshah in the Magma Fields and speak to him.||QID|10761| 
+A Accept Asghar's Totem from Parshah |N|Bring the Sketh'lon War Totem to Parshah in the Magma Fields.||QID|10777| 
 C Asghar's Totem  |QID|10777| |N|Bring the Sketh'lon War Totem to Parshah in the Magma Fields.|
 
-T Asghar's Totem |QID|10777| |N|Return to Parshah at Magma Fields in Shadowmoon Valley.|
-A The Rod of Lianthe |QID|10778| |N|Accept The Rod of Lianthe|
+T Asghar's Totem |N|Bring the Sketh'lon War Totem to Parshah in the Magma Fields.||QID|10777| 
+A Accept The Rod of Lianthe from Parshah |N|Obtain Lianthe's Key from any of the blood elves at Eclipse Point and use it to open Lianthe's Strongbox and claim the Rod of Lianthe.||QID|10778| 
 
 K Overseer Ripsaw |N|Back at Legion Hold.  Near the fel reaver (22,35)| |ITEM|30756|
 C Setting Up the Bomb  |QID|10597| |N|Obtain a Fel Reaver Power Core and a Fel Reaver Armor Plate, then bring them to Blood Guard Gulmok at Shadowmoon Village.|
 
-T Setting Up the Bomb  |T| |QID|10597| |N|Return to Blood Guard Gulmok at Shadowmoon Village in Shadowmoon Valley.|
-A Blast the Infernals! |T| |QID|10598| |N|Accept Blast the Infernals!|
-T Frankly, It Makes No Sense... |T| |QID|10672| |N|Return to Researcher Tiorus at Shadowmoon Village in Shadowmoon Valley.|
-A Felspine the Greater |T| |QID|10673| |N|Accept Felspine the Greater|
-A Illidari-Bane Shard |U|30756| |T| |QID|10623| |N|Accept Illidari-Bane Shard|
-T Illidari-Bane Shard |T| |QID|10623| |N|\n|
+T Setting Up the Bomb  |N|Obtain a Fel Reaver Power Core and a Fel Reaver Armor Plate, then bring them to Blood Guard Gulmok at Shadowmoon Village.||T| |QID|10597| 
+A Accept Blast the Infernals! from Blood Guard Gulmok |N|Use the Fel Bomb while standing on the green glyph in Legion Hold to destroy the infernals, then report to Blood Guard Gulmok at Shadowmoon Village.||T| |QID|10598| 
+T Frankly, It Makes No Sense... |N|Researcher Tiorus at Shadowmoon Village in Shadowmoon Valley wants you to travel to the lava flow near the Ruins of Baa'ri and use the Arcano Control Unit to control an Arcano-Scorp, swim in the lava with the Arcano-Scorp, and tag 8 Greater Felfire Diemetradons.||T| |QID|10672| 
+A Accept Felspine the Greater from Researcher Tiorus |N|Researcher Tiorus at Shadowmoon Village in Shadowmoon Valley wants you to kill Felspine the Greater and recover Felspine's Hide.||T| |QID|10673| 
+A Illidari-Bane Shard |N|Bring the Illidari-Bane Shard to Grokom Deatheye at Shadowmoon Village.||U|30756| |T| |QID|10623| 
+T Illidari-Bane Shard |N|Bring the Illidari-Bane Shard to Grokom Deatheye at Shadowmoon Village.||T| |QID|10623| 
 
 C Blast the Infernals!  |U|30614| |QID|10598| |N|Use the Fel Bomb while standing on the green glyph in Legion Hold to destroy the infernals, then report to Blood Guard Gulmok at Shadowmoon Village.|
 
-T Blast the Infernals!  |T| |QID|10598| |N|Return to Blood Guard Gulmok at Shadowmoon Village in Shadowmoon Valley.|
-A The Deathforge |T| |QID|10599| |N|Accept The Deathforge|
+T Blast the Infernals!  |N|Use the Fel Bomb while standing on the green glyph in Legion Hold to destroy the infernals, then report to Blood Guard Gulmok at Shadowmoon Village.||T| |QID|10598| 
+A Accept The Deathforge from Blood Guard Gulmok |N|Report to Scout Zagran at Slag Watch.||T| |QID|10599| 
 
 C The Rod of Lianthe  |QID|10778| |N|Obtain Lianthe's Key from any of the blood elves at Eclipse Point and use it to open Lianthe's Strongbox and claim the Rod of Lianthe. Return the rod to Parshah in the Magma Fields.|
 C Enraged Spirits of Air  |U|30094| |QID|10481| |N|Earthmender Torlok at the Altar of Damnation in Shadowmoon Valley wants you to use the Totem of Spirits to capture 10 Airy Souls.|
 
-T Teron Gorefiend - Lore and Legend  |QID|10633| |N|\n|
-A Divination: Gorefiend's Cloak |QID|10635| |N|Accept Divination: Gorefiend's Cloak|
-A Divination: Gorefiend's Truncheon |QID|10636| |N|Accept Divination: Gorefiend's Truncheon|
+T Teron Gorefiend - Lore and Legend  |N|Chief Apothecary Hildagard at Shadowmoon Village in Shadowmoon Valley wants you to find the Ancient Shadowmoon Spirit.||QID|10633| 
+A Accept Divination: Gorefiend's Cloak from Ancient Shadowmoon Spirit |N|The Ancient Shadowmoon Spirit at the Altar of Shadows in southeast Shadowmoon Valley wants you to recover Gorefiend's Cloak.||QID|10635| 
+A Accept Divination: Gorefiend's Truncheon from Ancient Shadowmoon Spirit |N|The Ancient Shadowmoon Spirit at the Altar of Shadows in southeast Shadowmoon Valley wants you to recover Gorefiend's Truncheon.||QID|10636| 
 
-A The Ashtongue Tribe  |T| |QID|10619| |N|Accept The Ashtongue Tribe|
-A The Ashtongue Broken  |T| |QID|10807| |N|Accept The Ashtongue Broken|
-A Tablets of Baa'ri |T| |QID|10683| |N|Accept Tablets of Baa'ri|
-A Karabor Training Grounds |T| |QID|10687| |N|Accept Karabor Training Grounds|
+A Accept The Ashtongue Tribe from Vindicator Aluumen |N|Vindicator Aluumen wants you to go to the Ruins of Baa'ri and slay 3 Ashtongue Handlers, 4 Ashtongue Warriors and 6 Ashtongue Shaman.||T| |QID|10619| 
+A Accept The Ashtongue Broken from Varen the Reclaimer |N|Varen the Reclaimer wants you to go to the Ruins of Baa'ri and slay 3 Ashtongue Handlers, 4 Ashtongue Warriors and 6 Ashtongue Shaman.||T| |QID|10807| 
+A Accept Tablets of Baa'ri from Arcanist Thelis |N|Arcanist Thelis at the Sanctum of the Stars wants you to collect 12 Baa'ri Tablets from the ground and from Ashtongue Workers at the Ruins of Baa'ri.||T| |QID|10683| 
+A Accept Karabor Training Grounds from Larissa Sunstrike |N|Larissa Sunstrike at the Sanctum of the Stars wants you to obtain 8 Sunfury Glaives from the Demon Hunter Supplicants and Demon Hunter Initiates at the Ruins of Karabor, northeast of the Sanctum of the Stars.||T| |QID|10687| 
 
 C Felspine the Greater  |QID|10673| |N|Researcher Tiorus at Shadowmoon Village in Shadowmoon Valley wants you to kill Felspine the Greater and recover Felspine's Hide.$B|
 U Put on your Spectrecles |U|30719|
@@ -92,135 +92,135 @@ C The Ashtongue Broken |O|  |QID|10807| |N|Varen the Reclaimer wants you to go t
 C Tablets of Baa'ri |QID|10683| |N|Arcanist Thelis at the Sanctum of the Stars wants you to collect 12 Baa'ri Tablets from the ground and from Ashtongue Workers at the Ruins of Baa'ri.$B$BCompleting quests with the Scryers will cause your Aldor reputation level to decrease.|
 C Karabor Training Grounds  |QID|10687| |N|Larissa Sunstrike at the Sanctum of the Stars wants you to obtain 8 Sunfury Glaives from the Demon Hunter Supplicants and Demon Hunter Initiates at the Ruins of Karabor, northeast of the Sanctum of the Stars.$B$BCompleting quests for the Scryers will cause your Aldor reputation level to decrease.|
 
-T The Ashtongue Tribe |O|  |T| |QID|10619| |N|Return to Vindicator Aluumen at Altar of Sha'tar in Shadowmoon Valley.|
-T The Ashtongue Broken |O|  |T| |QID|10807| |N|Return to Varen the Reclaimer at the Sanctum of the Stars in Shadowmoon Valley.|
-A Oronu the Elder |T| |QID|10684| |N|Accept Oronu the Elder|
-T Tablets of Baa'ri |T| |QID|10683| |N|Return to Arcanist Thelis at the Sanctum of the Stars in Shadowmoon Valley.|
-T Karabor Training Grounds |T| |QID|10687| |N|Return to Larissa Sunstrike at the Sanctum of the Stars in Shadowmoon Valley.|
-A A Necessary Distraction |T| |QID|10688| |N|Accept A Necessary Distraction|
+T The Ashtongue Tribe |N|Vindicator Aluumen wants you to go to the Ruins of Baa'ri and slay 3 Ashtongue Handlers, 4 Ashtongue Warriors and 6 Ashtongue Shaman.||O|  |T| |QID|10619| 
+T The Ashtongue Broken |N|Varen the Reclaimer wants you to go to the Ruins of Baa'ri and slay 3 Ashtongue Handlers, 4 Ashtongue Warriors and 6 Ashtongue Shaman.||O|  |T| |QID|10807| 
+A Accept Oronu the Elder from Arcanist Thelis |N|Arcanist Thelis at the Sanctum of the Stars wants you to obtain the Orders from Akama from Oronu the Elder at the Ruins of Baa'ri.||T| |QID|10684| 
+T Tablets of Baa'ri |N|Arcanist Thelis at the Sanctum of the Stars wants you to collect 12 Baa'ri Tablets from the ground and from Ashtongue Workers at the Ruins of Baa'ri.||T| |QID|10683| 
+T Karabor Training Grounds |N|Larissa Sunstrike at the Sanctum of the Stars wants you to obtain 8 Sunfury Glaives from the Demon Hunter Supplicants and Demon Hunter Initiates at the Ruins of Karabor, northeast of the Sanctum of the Stars.||T| |QID|10687| 
+A Accept A Necessary Distraction from Larissa Sunstrike |N|Larissa Sunstrike wants you to return to the Ruins of Karabor and find a way to unleash Azaloth on his captors.||T| |QID|10688| 
 
-T Felspine the Greater  |T| |QID|10673| |N|Return to Researcher Tiorus at Shadowmoon Village in Shadowmoon Valley.|
-T Enraged Spirits of Air  |QID|10481| |N|Return to Earthmender Torlok at the Altar of Damnation in Shadowmoon Valley.|
-A Oronok Torn-heart |QID|10513| |N|Accept Oronok Torn-heart|
+T Felspine the Greater  |N|Researcher Tiorus at Shadowmoon Village in Shadowmoon Valley wants you to kill Felspine the Greater and recover Felspine's Hide.||T| |QID|10673| 
+T Enraged Spirits of Air  |N|Earthmender Torlok at the Altar of Damnation in Shadowmoon Valley wants you to use the Totem of Spirits to capture 10 Airy Souls.||QID|10481| 
+A Accept Oronok Torn-heart from Earthmender Torlok |N|Seek out Oronok Torn-heart on the Shattered Shelf - north of Coilskar Cistern.||QID|10513| 
 
-T Oronok Torn-heart  |QID|10513| |N|\n|
-A I Was A Lot Of Things... |NODEBUG| |QID|10514| |N|Accept I Was A Lot Of Things...|
+T Oronok Torn-heart  |N|Seek out Oronok Torn-heart on the Shattered Shelf - north of Coilskar Cistern.||QID|10513| 
+A Accept I Was A Lot Of Things... from Oronok Torn-heart |N|Oronok Torn-heart at Oronok's Farm in Shadowmoon Valley wants you to recover 10 Shadowmoon Tubers from the Shattered Plains.||NODEBUG| |QID|10514| 
 C I Was A Lot Of Things... |NODEBUG|  |U|30462| |QID|10514| |N|Oronok Torn-heart at Oronok's Farm in Shadowmoon Valley wants you to recover 10 Shadowmoon Tubers from the Shattered Plains.$B$BHe also wants Oronok's Boar Whistle back when you're done.|
-T I Was A Lot Of Things... |NODEBUG| |QID|10514| |N|Return to Oronok Torn-heart at Oronok's Farm in Shadowmoon Valley.|
-A A Lesson Learned |QID|10515| |N|Accept A Lesson Learned|
+T I Was A Lot Of Things... |N|Oronok Torn-heart at Oronok's Farm in Shadowmoon Valley wants you to recover 10 Shadowmoon Tubers from the Shattered Plains.||NODEBUG| |QID|10514| 
+A Accept A Lesson Learned from Oronok Torn-heart |N|Oronok Torn-heart at Oronok's Farm in Shadowmoon Valley wants you to destroy 10 Ravenous Flayer Eggs on the Shattered Plains.||QID|10515| 
 C A Lesson Learned  |QID|10515| |N|Oronok Torn-heart at Oronok's Farm in Shadowmoon Valley wants you to destroy 10 Ravenous Flayer Eggs on the Shattered Plains.|
-T A Lesson Learned |QID|10515| |N|Return to Oronok Torn-heart at Oronok's Farm in Shadowmoon Valley.|
-A The Cipher of Damnation - Truth and History |QID|10519| |N|Accept The Cipher of Damnation - Truth and History|
+T A Lesson Learned |N|Oronok Torn-heart at Oronok's Farm in Shadowmoon Valley wants you to destroy 10 Ravenous Flayer Eggs on the Shattered Plains.||QID|10515| 
+A Accept The Cipher of Damnation - Truth and History from Oronok Torn-heart |N|Oronok Torn-heart at Oronok's Farm in Shadowmoon Valley wants you to listen to his story.||QID|10519| 
 C The Cipher of Damnation - Truth and History  |QID|10519| |N|Oronok Torn-heart at Oronok's Farm in Shadowmoon Valley wants you to listen to his story. Speak to Oronok to begin hearing his story.|
-T The Cipher of Damnation - Truth and History |QID|10519| |N|Return to Oronok Torn-heart in Shadowmoon Valley.|
-A Grom'tor, Son of Oronok |QID|10521| |N|Accept Grom'tor, Son of Oronok|
-A Ar'tor, Son of Oronok |QID|10527| |N|Accept Ar'tor, Son of Oronok|
-A Borak, Son of Oronok |QID|10546| |N|Accept Borak, Son of Oronok|
+T The Cipher of Damnation - Truth and History |N|Oronok Torn-heart at Oronok's Farm in Shadowmoon Valley wants you to listen to his story.||QID|10519| 
+A Accept Grom'tor, Son of Oronok from Oronok Torn-heart |N|Find Grom'tor, Son of Oronok at Coilskar Point in Shadowmoon Valley.||QID|10521| 
+A Accept Ar'tor, Son of Oronok from Oronok Torn-heart |N|Find Ar'tor, Son of Oronok at Illidari Point in Shadowmoon Valley.||QID|10527| 
+A Accept Borak, Son of Oronok from Oronok Torn-heart |N|Find Borak, Son of Oronok near Eclipse Point in Shadowmoon Valley.||QID|10546| 
 
-T The Rod of Lianthe  |QID|10778| |N|Return to Parshah at Magma Fields in Shadowmoon Valley.|
-A Sketh'lon Feathers |QID|10780| |N|Accept Sketh'lon Feathers|
+T The Rod of Lianthe  |N|Obtain Lianthe's Key from any of the blood elves at Eclipse Point and use it to open Lianthe's Strongbox and claim the Rod of Lianthe.||QID|10778| 
+A Accept Sketh'lon Feathers from Parshah |N|Gather 8 Sketh'lon Feathers and bring them to Parshah in the Magma Fields.||QID|10780| 
 
-T The Deathforge  |QID|10599| |N|\n|
-A Minions of the Shadow Council |QID|10600| |N|Accept Minions of the Shadow Council|
+T The Deathforge  |N|Report to Scout Zagran at Slag Watch.||QID|10599| 
+A Accept Minions of the Shadow Council from Scout Zagran |N|Scout Zagran at Slag Watch wants you to kill 10 Deathforge Guardians and 5 Deathforge Summoners.||QID|10600| 
 C Minions of the Shadow Council  |QID|10600| |N|Scout Zagran at Slag Watch wants you to kill 10 Deathforge Guardians and 5 Deathforge Summoners.|
-T Minions of the Shadow Council |QID|10600| |N|Return to Scout Zagran at Slag Watch in Shadowmoon Valley.|
-A The Summoning Chamber |QID|10602| |N|Accept The Summoning Chamber|
-A The Fate of Kagrosh |QID|10601| |N|Accept The Fate of Kagrosh|
+T Minions of the Shadow Council |N|Scout Zagran at Slag Watch wants you to kill 10 Deathforge Guardians and 5 Deathforge Summoners.||QID|10600| 
+A Accept The Summoning Chamber from Scout Zagran |N|Obtain an Elemental Displacer from a Deathforge Smith or Deathforge Tinkerer and use it to disrupt the ritual in the summoning chamber.||QID|10602| 
+A Accept The Fate of Kagrosh from Scout Zagran |N|Scout Zagran at Slag Watch wants you to search the Deathforge for Kagrosh and recover Kagrosh's Pack.||QID|10601| 
 C The Fate of Kagrosh  |QID|10601| |N|Scout Zagran at Slag Watch wants you to search the Deathforge for Kagrosh and recover Kagrosh's Pack.|
 K Tinkerers and Smiths |N|Looking for an Elemental Displacer| |ITEM|30672|
 C The Summoning Chamber  |U|30672| |QID|10602| |N|Obtain an Elemental Displacer from a Deathforge Smith or Deathforge Tinkerer and use it to disrupt the ritual in the summoning chamber. Report to Scout Zagran at Slag Watch when you've completed your task.|
-T The Summoning Chamber |QID|10602| |N|Return to Scout Zagran at Slag Watch in Shadowmoon Valley.|
-T The Fate of Kagrosh |QID|10601| |N|Return to Scout Zagran at Slag Watch in Shadowmoon Valley.|
-A Bring Down the Warbringer! |QID|10603| |N|Accept Bring Down the Warbringer!|
+T The Summoning Chamber |N|Obtain an Elemental Displacer from a Deathforge Smith or Deathforge Tinkerer and use it to disrupt the ritual in the summoning chamber.||QID|10602| 
+T The Fate of Kagrosh |N|Scout Zagran at Slag Watch wants you to search the Deathforge for Kagrosh and recover Kagrosh's Pack.||QID|10601| 
+A Accept Bring Down the Warbringer! from Scout Zagran |N|Defeat Warbringer Razuun, recover Razuun's Orders, and report to Blood Guard Gulmok at Shadowmoon Village.||QID|10603| 
 C Bring Down the Warbringer!  |QID|10603| |N|Defeat Warbringer Razuun, recover Razuun's Orders, and report to Blood Guard Gulmok at Shadowmoon Village.|
-T Bring Down the Warbringer! |QID|10603| |N|Return to Blood Guard Gulmok at Shadowmoon Village in Shadowmoon Valley.|
-A Gaining Access |QID|10604| |N|Accept Gaining Access|
+T Bring Down the Warbringer! |N|Defeat Warbringer Razuun, recover Razuun's Orders, and report to Blood Guard Gulmok at Shadowmoon Village.||QID|10603| 
+A Accept Gaining Access from Blood Guard Gulmok |N|Bring a Legion Teleporter Control to Blood Guard Gulmok at Shadowmoon Village.||QID|10604| 
 
 C Gaining Access  |QID|10604| |N|Bring a Legion Teleporter Control to Blood Guard Gulmok at Shadowmoon Village. The Mo'arg Weaponsmiths at Legion Hold are known to carry the devices.|
 
-T Ar'tor, Son of Oronok |QID|10527| |N|\n|
-A Demonic Crystal Prisons |QID|10528| |N|Accept Demonic Crystal Prisons|
+T Ar'tor, Son of Oronok |N|Find Ar'tor, Son of Oronok at Illidari Point in Shadowmoon Valley.||QID|10527| 
+A Accept Demonic Crystal Prisons from Ar'tor, Son of Oronok |N|Seek out and slay Painmistress Gabrissa at Illidari Point and return to the corpse of Ar'tor, Son of Oronok with the Crystalline Key.||QID|10528| 
 C Demonic Crystal Prisons |QID|10528| |N|Seek out and slay Painmistress Gabrissa at Illidari Point and return to the corpse of Ar'tor, Son of Oronok with the Crystalline Key.|
-T Demonic Crystal Prisons |QID|10528| |N|Return to Ar'tor, Son of Oronok at Illidari Point in Shadowmoon Valley.|
-A Lohn'goron, Bow of the Torn-heart |QID|10537| |N|Accept Lohn'goron, Bow of the Torn-heart|
+T Demonic Crystal Prisons |N|Seek out and slay Painmistress Gabrissa at Illidari Point and return to the corpse of Ar'tor, Son of Oronok with the Crystalline Key.||QID|10528| 
+A Accept Lohn'goron, Bow of the Torn-heart from Spirit of Ar'tor |N|The Spirit of Ar'tor at Illidari Point in Shadowmoon Valley wants you to recover Lohn'goron, Bow of the Torn-heart from the demons of the area.||QID|10537| 
 C Lohn'goron, Bow of the Torn-heart |QID|10537| |N|The Spirit of Ar'tor at Illidari Point in Shadowmoon Valley wants you to recover Lohn'goron, Bow of the Torn-heart from the demons of the area.|
-T Lohn'goron, Bow of the Torn-heart |QID|10537| |N|Return to Spirit of Ar'tor at Illidari Point in Shadowmoon Valley.|
-A The Cipher of Damnation - Ar'tor's Charge |QID|10540| |N|Accept The Cipher of Damnation - Ar'tor's Charge|
+T Lohn'goron, Bow of the Torn-heart |N|The Spirit of Ar'tor at Illidari Point in Shadowmoon Valley wants you to recover Lohn'goron, Bow of the Torn-heart from the demons of the area.||QID|10537| 
+A Accept The Cipher of Damnation - Ar'tor's Charge from Spirit of Ar'tor |N|The Spirit of Ar'tor at Illidari Point in Shadowmoon Valley wants you to recover the Second Fragment of the Cipher of Damnation from Veneratus the Many.||QID|10540| 
 C The Cipher of Damnation - Ar'tor's Charge |QID|10540| |N|The Spirit of Ar'tor at Illidari Point in Shadowmoon Valley wants you to recover the Second Fragment of the Cipher of Damnation from Veneratus the Many.$B$BCreatures attacked or damaged by the Spirit Hunter will not yield loot or experience.|
-T The Cipher of Damnation - Ar'tor's Charge |QID|10540| |N|Return to Spirit of Ar'tor at Illidari Point in Shadowmoon Valley.|
-A The Cipher of Damnation - The Second Fragment Recovered |QID|10541| |N|Accept The Cipher of Damnation - The Second Fragment Recovered|
+T The Cipher of Damnation - Ar'tor's Charge |N|The Spirit of Ar'tor at Illidari Point in Shadowmoon Valley wants you to recover the Second Fragment of the Cipher of Damnation from Veneratus the Many.||QID|10540| 
+A Accept The Cipher of Damnation - The Second Fragment Recovered from Spirit of Ar'tor |N|Take Ar'tor's Lockbox to Oronok Torn-heart at Oronok's Farm in Shadowmoon Valley.||QID|10541| 
 
-T Gaining Access |QID|10604| |N|Return to Blood Guard Gulmok at Shadowmoon Village in Shadowmoon Valley.|
-A Invasion Point: Cataclysm |QID|10767| |N|Accept Invasion Point: Cataclysm|
-T Invasion Point: Cataclysm  |QID|10767| |N|\n|
-A The Art of Fel Reaver Maintenance |QID|10611| |N|Accept The Art of Fel Reaver Maintenance|
+T Gaining Access |N|Bring a Legion Teleporter Control to Blood Guard Gulmok at Shadowmoon Village.||QID|10604| 
+A Accept Invasion Point: Cataclysm from Blood Guard Gulmok |N|Report to Nakansi at Invasion Point: Cataclysm.||QID|10767| 
+T Invasion Point: Cataclysm  |N|Report to Nakansi at Invasion Point: Cataclysm.||QID|10767| 
+A Accept The Art of Fel Reaver Maintenance from Nakansi |N|Kill Doctor Maleficus and obtain the Doctor's Key.||QID|10611| 
 
-T Grom'tor, Son of Oronok |QID|10521| |N|\n|
-A The Cipher of Damnation - Grom'tor's Charge |QID|10522| |N|Accept The Cipher of Damnation - Grom'tor's Charge|
+T Grom'tor, Son of Oronok |N|Find Grom'tor, Son of Oronok at Coilskar Point in Shadowmoon Valley.||QID|10521| 
+A Accept The Cipher of Damnation - Grom'tor's Charge from Grom'tor, Son of Oronok |N|Grom'tor, Son of Oronok at Coilskar Point in Shadowmoon Valley wants you to recover the First Fragment of the Cipher of Damnation.||QID|10522| 
 C The Cipher of Damnation - Grom'tor's Charge |QID|10522| |N|Grom'tor, Son of Oronok at Coilskar Point in Shadowmoon Valley wants you to recover the First Fragment of the Cipher of Damnation.|
-T The Cipher of Damnation - Grom'tor's Charge |QID|10522| |N|Return to Grom'tor, Son of Oronok at Coilskar Point in Shadowmoon Valley.|
-A The Cipher of Damnation - The First Fragment Recovered |QID|10523| |N|Accept The Cipher of Damnation - The First Fragment Recovered|
+T The Cipher of Damnation - Grom'tor's Charge |N|Grom'tor, Son of Oronok at Coilskar Point in Shadowmoon Valley wants you to recover the First Fragment of the Cipher of Damnation.||QID|10522| 
+A Accept The Cipher of Damnation - The First Fragment Recovered from Grom'tor, Son of Oronok |N|Take Grom'tor's Lockbox to Oronok Torn-heart at Oronok's Farm in Shadowmoon Valley.||QID|10523| 
 
 C The Art of Fel Reaver Maintenance  |QID|10611| |N|Kill Doctor Maleficus and obtain the Doctor's Key. Use the key to open the Doctor's Strongbox to retrieve The Art of Fel Reaver Maintenance and deliver the book to Nakansi at Invasion Point Cataclysm.|
-T The Art of Fel Reaver Maintenance |QID|10611| |N|Return to Nakansi at Invasion Point: Cataclysm in Shadowmoon Valley.|
-A The Fel and the Furious |QID|10613| |N|Accept The Fel and the Furious|
+T The Art of Fel Reaver Maintenance |N|Kill Doctor Maleficus and obtain the Doctor's Key.||QID|10611| 
+A Accept The Fel and the Furious from Nakansi |N|Use a Fel Reaver Control Console to take control of a Fel Reaver Sentinel.||QID|10613| 
 C The Fel and the Furious |QID|10613| |N|Use a Fel Reaver Control Console to take control of a Fel Reaver Sentinel. Destroy 60 Deathforged Infernals before your fel reaver fails. When your mission is complete, report to Nakansi at Invasion Point: Cataclysm.|
-T The Fel and the Furious |QID|10613| |N|Return to Nakansi at Invasion Point: Cataclysm in Shadowmoon Valley.|
-A News of Victory |QID|10745| |N|Accept News of Victory|
-T News of Victory  |QID|10745| |N|\n|
+T The Fel and the Furious |N|Use a Fel Reaver Control Console to take control of a Fel Reaver Sentinel.||QID|10613| 
+A Accept News of Victory from Nakansi |N|Return to Shadowmoon Village and speak with Overlord Or'barokh.||QID|10745| 
+T News of Victory  |N|Return to Shadowmoon Village and speak with Overlord Or'barokh.||QID|10745| 
 
-T Borak, Son of Oronok |QID|10546| |N|\n|
-A Of Thistleheads and Eggs... |QID|10547| |N|Accept Of Thistleheads and Eggs...|
+T Borak, Son of Oronok |N|Find Borak, Son of Oronok near Eclipse Point in Shadowmoon Valley.||QID|10546| 
+A Accept Of Thistleheads and Eggs... from Borak, Son of Oronok |N|Borak, Son of Oronok at the bridge north of Eclipse Point wants you to find a Rotten Arakkoa Egg and deliver it to Tobias the Filth Gorger in Shattrath City, located in northwest Terokkar Forest.||QID|10547| 
 C Of Thistleheads and Eggs... |QID|10547| |N|Borak, Son of Oronok at the bridge north of Eclipse Point wants you to find a Rotten Arakkoa Egg and deliver it to Tobias the Filth Gorger in Shattrath City, located in northwest Terokkar Forest.|
 
 F Shattrath City
-T Of Thistleheads and Eggs...  |T| |QID|10547| |N|Seek out Tobias the Filth Gorger at Shattrath City in Terokkar Forest.|
-A The Bundle of Bloodthistle |T| |QID|10550| |N|Accept The Bundle of Bloodthistle|
+T Of Thistleheads and Eggs...  |N|Borak, Son of Oronok at the bridge north of Eclipse Point wants you to find a Rotten Arakkoa Egg and deliver it to Tobias the Filth Gorger in Shattrath City, located in northwest Terokkar Forest.||T| |QID|10547| 
+A Accept The Bundle of Bloodthistle from Tobias the Filth Gorger |N|Take the Bundle of Bloodthistle back to Borak, Son of Oronok at the bridge near Eclipse Point in Shadowmoon Valley.||T| |QID|10550| 
 
 H Shadowmoon Village |N|Hearth back|
-T The Bundle of Bloodthistle |QID|10550| |N|\n|
-A To Catch A Thistlehead |QID|10570| |NODEBUG| |N|Accept To Catch A Thistlehead|
+T The Bundle of Bloodthistle |N|Take the Bundle of Bloodthistle back to Borak, Son of Oronok at the bridge near Eclipse Point in Shadowmoon Valley.||QID|10550| 
+A Accept To Catch A Thistlehead from Borak, Son of Oronok |N|Borak, Son of Oronok at the bridge near Eclipse Point in Shadowmoon Valley wants you to recover the Stormrage Missive.||QID|10570| |NODEBUG| 
 C To Catch A Thistlehead |QID|10570| |NODEBUG| |N|Borak, Son of Oronok at the bridge near Eclipse Point in Shadowmoon Valley wants you to recover the Stormrage Missive.|
-T To Catch A Thistlehead |QID|10570| |NODEBUG| |N|Return to Borak, Son of Oronok in Shadowmoon Valley.|
-A The Shadowmoon Shuffle |QID|10576| |N|Accept The Shadowmoon Shuffle|
+T To Catch A Thistlehead |N|Borak, Son of Oronok at the bridge near Eclipse Point in Shadowmoon Valley wants you to recover the Stormrage Missive.||QID|10570| |NODEBUG| 
+A Accept The Shadowmoon Shuffle from Borak, Son of Oronok |N|Borak, Son of Oronok at the bridge near Eclipse Point in Shadowmoon Valley wants you to recover 6 pieces of Eclipsion Armor.||QID|10576| 
 C The Shadowmoon Shuffle |QID|10576| |N|Borak, Son of Oronok at the bridge near Eclipse Point in Shadowmoon Valley wants you to recover 6 pieces of Eclipsion Armor.$B|
-T The Shadowmoon Shuffle |QID|10576| |N|Return to Borak, Son of Oronok in Shadowmoon Valley.|
-A What Illidan Wants, Illidan Gets... |QID|10577| |N|Accept What Illidan Wants, Illidan Gets...|
+T The Shadowmoon Shuffle |N|Borak, Son of Oronok at the bridge near Eclipse Point in Shadowmoon Valley wants you to recover 6 pieces of Eclipsion Armor.||QID|10576| 
+A Accept What Illidan Wants, Illidan Gets... from Borak, Son of Oronok |N|Borak, Son of Oronok at the bridge near Eclipse Point in Shadowmoon Valley wants you to Deliver Illidan's Message to Grand Commander Ruusk at Eclipse Point.||QID|10577| 
 C What Illidan Wants, Illidan Gets... |QID|10577| |N|Borak, Son of Oronok at the bridge near Eclipse Point in Shadowmoon Valley wants you to Deliver Illidan's Message to Grand Commander Ruusk at Eclipse Point.|
-T What Illidan Wants, Illidan Gets... |QID|10577| |N|Return to Borak, Son of Oronok in Shadowmoon Valley.|
+T What Illidan Wants, Illidan Gets... |N|Borak, Son of Oronok at the bridge near Eclipse Point in Shadowmoon Valley wants you to Deliver Illidan's Message to Grand Commander Ruusk at Eclipse Point.||QID|10577| 
 
 C Sketh'lon Feathers  |QID|10780| |N|Gather 8 Sketh'lon Feathers and bring them to Parshah in the Magma Fields.|
-T Sketh'lon Feathers |QID|10780| |N|Return to Parshah at Magma Fields in Shadowmoon Valley.|
-A Imbuing the Headpiece |QID|10782| |N|Accept Imbuing the Headpiece|
+T Sketh'lon Feathers |N|Gather 8 Sketh'lon Feathers and bring them to Parshah in the Magma Fields.||QID|10780| 
+A Accept Imbuing the Headpiece from Parshah |N|Equip the Unfinished Headpiece, travel to the Altar of Damnation, and use it while standing near Gul'dan.||QID|10782| 
 C Imbuing the Headpiece  |QID|10782| |N|Equip the Unfinished Headpiece, travel to the Altar of Damnation, and use it while standing near Gul'dan. When the headpiece is energized, return to Parshah in the Magma Fields.|
-T Imbuing the Headpiece |QID|10782| |N|Return to Parshah at Magma Fields in Shadowmoon Valley.|
-A Thwart the Dark Conclave |QID|10808| |N|Accept Thwart the Dark Conclave|
+T Imbuing the Headpiece |N|Equip the Unfinished Headpiece, travel to the Altar of Damnation, and use it while standing near Gul'dan.||QID|10782| 
+A Accept Thwart the Dark Conclave from Parshah |N|Slay the Dark Conclave Ritualists and use the Staff of Parshah to end the Dark Conclave's summoning ritual, then return to Parshah in the Magma Fields.||QID|10808| 
 C Thwart the Dark Conclave  |QID|10808| |N|Slay the Dark Conclave Ritualists and use the Staff of Parshah to end the Dark Conclave's summoning ritual, then return to Parshah in the Magma Fields.|
-T Thwart the Dark Conclave |QID|10808| |N|Return to Parshah at Magma Fields in Shadowmoon Valley.|
+T Thwart the Dark Conclave |N|Slay the Dark Conclave Ritualists and use the Staff of Parshah to end the Dark Conclave's summoning ritual, then return to Parshah in the Magma Fields.||QID|10808| 
 
 C A Necessary Distraction  |U|30811| |QID|10688| |N|Larissa Sunstrike wants you to return to the Ruins of Karabor and find a way to unleash Azaloth on his captors.$B$BCompleting quests for the Scryers will cause your Aldor reputation level to decrease.|
 
 C Oronu the Elder  |QID|10684| |N|Arcanist Thelis at the Sanctum of the Stars wants you to obtain the Orders from Akama from Oronu the Elder at the Ruins of Baa'ri.$B$BCompleting quests for the Scryers will cause your Aldor reputation level to decrease.|
-T Oronu the Elder |QID|10684| |N|Return to Arcanist Thelis at the Sanctum of the Stars in Shadowmoon Valley.|
-A The Ashtongue Corruptors |QID|10685| |N|Accept The Ashtongue Corruptors|
+T Oronu the Elder |N|Arcanist Thelis at the Sanctum of the Stars wants you to obtain the Orders from Akama from Oronu the Elder at the Ruins of Baa'ri.||QID|10684| 
+A Accept The Ashtongue Corruptors from Arcanist Thelis |N|Obtain the four medallion fragments from Haalum, Eykenen, Lakaan and Uylaru and return to Arcanist Thelis at the Sanctum of the Stars in Shadowmoon Valley.||QID|10685| 
 C The Ashtongue Corruptors  |QID|10685| |N|Obtain the four medallion fragments from Haalum, Eykenen, Lakaan and Uylaru and return to Arcanist Thelis at the Sanctum of the Stars in Shadowmoon Valley.$B$BPerforming quests for the Scryers will cause your Aldor reputation level to decrease.|
-T The Ashtongue Corruptors |QID|10685| |N|Return to Arcanist Thelis at the Sanctum of the Stars in Shadowmoon Valley.|
-A The Warden's Cage |QID|10686| |N|Accept The Warden's Cage|
-T The Warden's Cage  |QID|10686| |N|\n|
-A Proof of Allegiance |QID|10622| |N|Accept Proof of Allegiance|
+T The Ashtongue Corruptors |N|Obtain the four medallion fragments from Haalum, Eykenen, Lakaan and Uylaru and return to Arcanist Thelis at the Sanctum of the Stars in Shadowmoon Valley.||QID|10685| 
+A Accept The Warden's Cage from Arcanist Thelis |N|Arcanist Thelis wants you to enter the Warden's Cage, south of the Ruins of Baa'ri and interrogate Sanoru on Akama's whereabouts.||QID|10686| 
+T The Warden's Cage  |N|Arcanist Thelis wants you to enter the Warden's Cage, south of the Ruins of Baa'ri and interrogate Sanoru on Akama's whereabouts.||QID|10686| 
+A Accept Proof of Allegiance from Sanoru |N|Slay Zandras at the Warden's Cage in Shadowmoon Valley and return to Sanoru.||QID|10622| 
 C Proof of Allegiance  |QID|10622| |N|Slay Zandras at the Warden's Cage in Shadowmoon Valley and return to Sanoru.|
-T Proof of Allegiance |QID|10622| |N|Return to Sanoru at Warden's Cage in Shadowmoon Valley.|
-A Akama |QID|10628| |N|Accept Akama|
-T Akama  |QID|10628| |N|\n|
+T Proof of Allegiance |N|Slay Zandras at the Warden's Cage in Shadowmoon Valley and return to Sanoru.||QID|10622| 
+A Accept Akama from Sanoru |N|Speak to Akama inside the hidden chamber in the Warden's Cage.||QID|10628| 
+T Akama  |N|Speak to Akama inside the hidden chamber in the Warden's Cage.||QID|10628| 
 
 C A Grunt's Work... |QID|10702| |N|Overlord Or'barokh at Shadowmoon Village in Shadowmoon Valley wants you to kill 20 Shadowmoon Valley Wildlife.$B$BThese creatures include Felboars, Vilewing Chimaera, and Scorchshell Pincer. Any combination will be sufficient.|
 C Divination: Gorefiend's Truncheon  |QID|10636| |N|The Ancient Shadowmoon Spirit at the Altar of Shadows in southeast Shadowmoon Valley wants you to recover Gorefiend's Truncheon.|
 
-T A Grunt's Work... |QID|10702| |N|Return to Overlord Or'barokh at Shadowmoon Village in Shadowmoon Valley.|
-T The Cipher of Damnation - The First Fragment Recovered |QID|10523| |N|\n|
-T The Cipher of Damnation - The Second Fragment Recovered |QID|10541| |N|\n|
-T A Necessary Distraction |QID|10688| |N|Return to Larissa Sunstrike at the Sanctum of the Stars in Shadowmoon Valley.|
-T Divination: Gorefiend's Truncheon |QID|10636| |N|Return to Ancient Shadowmoon Spirit at the Altar of Shadows in Shadowmoon Valley.|
-T Divination: Gorefiend's Cloak |QID|10635| |N|Return to Ancient Shadowmoon Spirit at the Altar of Shadows in Shadowmoon Valley.|
+T A Grunt's Work... |N|Overlord Or'barokh at Shadowmoon Village in Shadowmoon Valley wants you to kill 20 Shadowmoon Valley Wildlife.||QID|10702| 
+T The Cipher of Damnation - The First Fragment Recovered |N|Take Grom'tor's Lockbox to Oronok Torn-heart at Oronok's Farm in Shadowmoon Valley.||QID|10523| 
+T The Cipher of Damnation - The Second Fragment Recovered |N|Take Ar'tor's Lockbox to Oronok Torn-heart at Oronok's Farm in Shadowmoon Valley.||QID|10541| 
+T A Necessary Distraction |N|Larissa Sunstrike wants you to return to the Ruins of Karabor and find a way to unleash Azaloth on his captors.||QID|10688| 
+T Divination: Gorefiend's Truncheon |N|The Ancient Shadowmoon Spirit at the Altar of Shadows in southeast Shadowmoon Valley wants you to recover Gorefiend's Truncheon.||QID|10636| 
+T Divination: Gorefiend's Cloak |N|The Ancient Shadowmoon Spirit at the Altar of Shadows in southeast Shadowmoon Valley wants you to recover Gorefiend's Cloak.||QID|10635| 
 ]]
 end)

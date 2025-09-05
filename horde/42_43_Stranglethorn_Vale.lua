@@ -1,17 +1,17 @@
 GuideReaderLite_RegisterGuide("Stranglethorn Vale (42-43)", "Dustwallow Marsh (43-44)", "Horde", function()
 return [[
 F Booty Bay |NORAF|
-T Dream Dust in the Swamp |T| |QID|1116| |NORAF| |N|Return to Krazek at Wild Shore in Stranglethorn Vale.|
-A Tran'rek |T| |QID|2864| |N|Accept Tran'rek|
-A Rumors for Kravel |T| |QID|1117| |NORAF| |N|Accept Rumors for Kravel|
-A Up to Snuff |T| |QID|587| |NORAF| |N|Accept Up to Snuff|
+T Dream Dust in the Swamp |N|Bring 10 Specks of Dream Dust to Krazek in Booty Bay.||T| |QID|1116| |NORAF| 
+A Accept Tran'rek from Krazek |N|Speak with Tran'rek in Gadgetzan.||T| |QID|2864| 
+A Accept Rumors for Kravel from Krazek |N|Bring the Goblin Rumors to Kravel Koalbeard on the Shimmering Flats in Thousand Needles.||T| |QID|1117| |NORAF| 
+A Accept Up to Snuff from Deeg |N|Deeg in Booty Bay wants you to bring him 15 shares of Snuff.||T| |QID|587| |NORAF| 
 h Booty Bay |T| |N|Make this Inn your home|
-A Venture Company Mining |T| |QID|600| |NORAF| |N|Accept Venture Company Mining|
-A Zanzil's Secret |T| |QID|621| |NORAF| |N|Accept Zanzil's Secret|
-A Akiris by the Bundle |T| |QID|617| |NORAF| |N|Accept Akiris by the Bundle|
-A Voodoo Dues |T| |QID|609| |NORAF| |N|Accept Voodoo Dues|
-A Stoley's Debt |T| |QID|2872| |N|Accept Stoley's Debt|
-A Keep An Eye Out |T| |QID|576| |NORAF| |N|Accept Keep An Eye Out|
+A Accept Venture Company Mining from Crank Fizzlebub |N|Bring 10 Singing Blue Crystals to Crank Fizzlebub in Booty Bay.||T| |QID|600| |NORAF| 
+A Accept Zanzil's Secret from Crank Fizzlebub |N|Bring 12 samples of Zanzil's Mixture to Crank Fizzlebub in Booty Bay.||T| |QID|621| |NORAF| 
+A Accept Akiris by the Bundle from Privateer Bloads |N|Bring 10 Bundles of Akiris Reed to Privateer Bloads in Booty Bay.||T| |QID|617| |NORAF| 
+A Accept Voodoo Dues from Sea Wolf" MacKinley |N|Bring Maury's Clubbed Foot, Jon-Jon's Golden Spyglass, and Chucky's Huge Ring to "Sea Wolf" MacKinley in Booty Bay.||T| |QID|609| |NORAF| 
+A Accept Stoley's Debt from Sea Wolf" MacKinley |N|Speak with Stoley in Steamwheedle Port.||T| |QID|2872| 
+A Accept Keep An Eye Out from Dizzy One-Eye |N|Dizzy One-Eye in Booty Bay wants you to retrieve his eye from the Bloodsail Buccaneers.||T| |QID|576| |NORAF| 
 
 C The Bloodsail Buccaneers (Part 4)  |QID|604| |N|Fleet Master Seahorn in Booty Bay wants you to kill 10 Bloodsail Swashbucklers and bring back the Bloodsail Charts and the Bloodsail Orders.|
 C Up to Snuff |QID|587| |NORAF| |N|Deeg in Booty Bay wants you to bring him 15 shares of Snuff.|
@@ -25,21 +25,21 @@ C Voodoo Dues  |QID|609| |NORAF| |N|Bring Maury's Clubbed Foot, Jon-Jon's Golden
 C Zanzil's Secret |QID|621| |NORAF| |N|Bring 12 samples of Zanzil's Mixture to Crank Fizzlebub in Booty Bay.|
 C Venture Company Mining  |QID|600| |NORAF| |N|Bring 10 Singing Blue Crystals to Crank Fizzlebub in Booty Bay.|
 
-T Raptor Mastery (Part 4)  |QID|197| |NORAF| |N|Return to Hemet Nesingwary Jr. at Nesingwary's Expedition in Stranglethorn Vale.|
-A Big Game Hunter |QID|208| |NORAF| |N|Accept Big Game Hunter|
+T Raptor Mastery (Part 4)  |N|Hemet Nesingwary Jr.||QID|197| |NORAF| 
+A Accept Big Game Hunter from Hemet Nesingwary Jr. |N|Hemet Nesingwary Jr.||QID|208| |NORAF| 
 
-T Mok'thardin's Enchantment (Part 4)  |QID|573| |NORAF| |T| |N|Return to Far Seer Mok'thardin at Grom'gol Base Camp in Stranglethorn Vale.|
+T Mok'thardin's Enchantment (Part 4)  |N|Far Seer Mok'thardin of Grom'gol needs Holy Spring Water.||QID|573| |NORAF| |T| 
 C Big Game Hunter |QID|208| |N|Hemet Nesingwary Jr. wants you to bring him the head of King Bangalash, the great white tiger.|
-T Big Game Hunter |QID|208| |N|Return to Hemet Nesingwary Jr. at Nesingwary's Expedition in Stranglethorn Vale.|
+T Big Game Hunter |N|Hemet Nesingwary Jr.||QID|208| 
 
 H Booty Bay |SZ|The Salty Sailor Tavern| |N|Hearth back|
-T Venture Company Mining |T| |QID|600| |NORAF| |N|Return to Crank Fizzlebub at Booty Bay in Stranglethorn Vale.|
-T Zanzil's Secret |T| |QID|621| |NORAF| |N|Return to Crank Fizzlebub at Wild Shore in Stranglethorn Vale.|
-T Up to Snuff |T| |QID|587| |NORAF| |N|Return to Deeg at Booty Bay in Stranglethorn Vale.|
-T The Bloodsail Buccaneers (Part 4) |T| |QID|604| |N|Return to Fleet Master Seahorn at Booty Bay in Stranglethorn Vale.|
-A The Bloodsail Buccaneers (Part 5) |T| |QID|608| |NORAF| |N|Accept The Bloodsail Buccaneers|
-T Akiris by the Bundle |T| |QID|617| |NORAF| |N|Return to Privateer Bloads at Booty Bay in Stranglethorn Vale.|
-T Voodoo Dues |T| |QID|609| |NORAF| |N|Return to "Sea Wolf"" MacKinley at Booty Bay in Stranglethorn Vale."|
-T Keep An Eye Out |T| |QID|576| |NORAF| |N|Return to Dizzy One-Eye at Booty Bay in Stranglethorn Vale.|
+T Venture Company Mining |N|Bring 10 Singing Blue Crystals to Crank Fizzlebub in Booty Bay.||T| |QID|600| |NORAF| 
+T Zanzil's Secret |N|Bring 12 samples of Zanzil's Mixture to Crank Fizzlebub in Booty Bay.||T| |QID|621| |NORAF| 
+T Up to Snuff |N|Deeg in Booty Bay wants you to bring him 15 shares of Snuff.||T| |QID|587| |NORAF| 
+T The Bloodsail Buccaneers (Part 4) |N|Fleet Master Seahorn in Booty Bay wants you to kill 10 Bloodsail Swashbucklers and bring back the Bloodsail Charts and the Bloodsail Orders.||T| |QID|604| 
+A Accept The Bloodsail Buccaneers (Part 5) from Fleet Master Seahorn |N|Fleet-Master Seahorn in Booty Bay wants you to kill Captain Stillwater, Captain Keelhaul and Fleet Master Firallon.||T| |QID|608| |NORAF| 
+T Akiris by the Bundle |N|Bring 10 Bundles of Akiris Reed to Privateer Bloads in Booty Bay.||T| |QID|617| |NORAF| 
+T Voodoo Dues |N|Bring Maury's Clubbed Foot, Jon-Jon's Golden Spyglass, and Chucky's Huge Ring to "Sea Wolf" MacKinley in Booty Bay.||T| |QID|609| |NORAF| 
+T Keep An Eye Out |N|Dizzy One-Eye in Booty Bay wants you to retrieve his eye from the Bloodsail Buccaneers.||T| |QID|576| |NORAF| 
 ]]
 end)

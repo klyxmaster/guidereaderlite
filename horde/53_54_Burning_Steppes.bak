@@ -1,0 +1,38 @@
+GuideReaderLite_RegisterGuide("Burning Steppes (53-54)", "Felwood (54)", "Horde", function()
+return [[
+F Kargath |NORAF|
+T Vivian Lagrave |QID|4133| |NORAF| |N|\n|
+A Accept Dreadmaul Rock from Thal'trak Proudtusk |QID|3821| |NORAF| |N|Accept Dreadmaul Rock|
+A Accept The Rise of the Machines (Part 1) from Hierophant Theodora Mulvadania |QID|4061| |NORAF| |N|Accept The Rise of the Machines|
+
+F Burning Steppes |NORAF|
+A Accept Broodling Essence from Tinkee Steamboil |QID|4726| |NORAF| |N|Accept Broodling Essence|
+A Accept Tablet of the Seven from Maxwort Uberglint |QID|4296| |NORAF| |N|Accept Tablet of the Seven|
+
+C Broodling Essence  |QID|4726| |NORAF| |N|Bring 8 Broodling Essence and the Draco-Incarcinatrix 900 to Tinkee Steamboil at the Flame Crest in the Burning Steppes.|
+
+A Accept A Taste of Flame from Cyrus Therepentous |QID|4024| |NORAF| |N|Accept A Taste of Flame|
+T A Taste of Flame |QID|4024| |NORAF| |N|Return to Cyrus Therepentous at Slither Rock in the Burning Steppes.|
+T Dreadmaul Rock  |QID|3821| |NORAF| |N|\n|
+A Krom'Grul |QID|3822| |NORAF| |N|Accept Krom'Grul|
+
+C Krom'Grul  |QID|3822| |NORAF| |N|Recover Sha'ni's Nose-Ring from Krom'Grul and return it to Thal'trak in Kargath. Search the various caves and mines in Dreadmaul Rock.$B|
+C The Rise of the Machines (Part 1) |QID|4061| |NORAF| |N|Venture to the Burning Steppes and recover 10 Fractured Elemental Shards for Hierophant Theodora Mulvadania.$B$BYou recall Theodora mentioning the golems and elementals of that region as being a source for these shards.|
+C Tablet of the Seven |QID|4296| |NORAF| |N|Collect the Tablet Transcript.|
+
+T Tablet of the Seven |QID|4296| |NORAF| |N|Return to Maxwort Uberglint at Flame Crest in the Burning Steppes.|
+T Broodling Essence |QID|4726| |NORAF| |N|Return to Tinkee Steamboil at Flame Crest in the Burning Steppes.|
+A Accept Felnok Steelspring from Tinkee Steamboil |QID|4808| |NORAF| |N|Accept Felnok Steelspring|
+
+F Kargath |NORAF|
+T Krom'Grul |QID|3822| |NORAF| |N|Return to Thal'trak Proudtusk at Kargath in the Badlands.|
+T The Rise of the Machines (Part 1) |QID|4061| |NORAF| |N|Return to Hierophant Theodora Mulvadania at Kargath in Badlands.|
+A Accept The Rise of the Machines (Part 2) from Hierophant Theodora Mulvadania |QID|4062| |NORAF| |N|Accept The Rise of the Machines|
+C The Rise of the Machines (Part 2) |QID|4062| |NORAF| |N|Take the Elemental Shard Sample to Lotwil Veriatus.$B$BYou recall Theodora saying that Lotwil was stationed in a camp to the east.$B|
+T The Rise of the Machines (Part 2)  |Z|Badlands| |QID|4062| |NORAF| |N|Report to Lotwil Veriatus in Badlands.|
+
+H The Crossroads |NORAF| |N|Hearth back|
+F Orgrimmar |NORAF|
+T Bone-Bladed Weapons  |Z|Orgrimmar| |QID|4300| |NORAF| |N|Return to Jes'rimon in Orgrimmar.|
+]]
+end)

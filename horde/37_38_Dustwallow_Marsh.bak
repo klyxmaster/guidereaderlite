@@ -1,0 +1,146 @@
+GuideReaderLite_RegisterGuide("Dustwallow Marsh (37-38)", "Stranglethorn Vale (39-40)", "Horde", function()
+return [[
+F Thunder Bluff |N|Bring Deadmire's Tooth to Melor in Thunder Bluff.|    |QID|1205| |NORAF|
+T Frostmaw |QID|1136| |T| |NORAF| |N|Return to Melor Stonehoof at Hunter Rise in Thunder Bluff.|
+A Accept Deadmire from Melor Stonehoof |QID|1205| |T| |NORAF| |N|Accept Deadmire|
+
+F Camp Taurajo |N|Report about the suspicious prints at the Shady Rest Inn to Krog in Brackenwall Village.|    |QID|1268|
+R Shady Rest Inn |N|South of the road just after you enter Dustwallow Marsh| |QID|1268|
+
+A Accept Suspicious Hoofprints from Suspicious Hoofprint |QID|1268| |N|Accept Suspicious Hoofprints|
+A Accept Lieutenant Paval Reethe from Theramore Guard Badge |QID|1269| |N|Accept Lieutenant Paval Reethe|
+A Accept The Black Shield (Part 1) from Black Shield |QID|1251| |N|Accept The Black Shield|
+
+A Accept Hungry! from Mudcrush Durtfeet |QID|1177| |NORAF| |N|Accept Hungry!|
+
+T Lieutenant Paval Reethe |QID|1269| |T| |N|\n|
+T The Black Shield (Part 1) |QID|1251| |T| |N|\n|
+A Accept The Black Shield (Part 2) from Krog |QID|1321| |T| |N|Accept The Black Shield|
+T Suspicious Hoofprints |QID|1268| |T| |N|\n|
+T The Black Shield (Part 2) |QID|1321| |T| |N|\n|
+A Accept The Black Shield (Part 3) from Do'gol |QID|1322| |T| |N|Accept The Black Shield|
+h Brackenwall Village |T| |N|Make this Inn your home|
+A Accept Theramore Spies from Nazeer Bloodpike |T| |QID|1201| |N|Accept Theramore Spies|
+A Accept Check Up on Tabetha from Nazeer Bloodpike |T| |QID|11213| |N|Accept Check Up on Tabetha|
+A Accept Twilight of the Dawn Runner from Balandar Brightstar |T| |QID|9437| |N|Accept Twilight of the Dawn Runner|
+A Accept The Hermit of Witch Hill from Draz'Zilb |T| |QID|11225| |N|Accept The Hermit of Witch Hill|
+
+C Twilight of the Dawn Runner |QID|9437| |N|Balandar Brightstar in Brackenwall Village wants you to reclaim the Dawn Runner Cargo and rescue his first mate Ithania from forces of Theramore at North Point Tower.|
+
+T The Hermit of Witch Hill |QID|11225| |N|\n|
+A Accept Marsh Frog Legs from Swamp Eye" Jarl |QID|1218| |N|Accept Marsh Frog Legs|
+A Accept What's Haunting Witch Hill? from Mordant Grimsby |QID|11180| |N|Accept What's Haunting Witch Hill?|
+A Accept The Lost Report from Loose Dirt |QID|1238| |N|Accept The Lost Report|
+
+C Marsh Frog Legs |QID|1218| |N|Bring 10 Marsh Frog Legs to "Swamp Eye"" Jarl in Dustwallow Marsh."|
+C What's Haunting Witch Hill? |QID|11180| |N|Mordant Grimsby at Swamplight Manor wants you to gather information from 10 Risen Husks or Risen Spirits.|
+
+T Marsh Frog Legs |QID|1218| |N|Return to "Swamp Eye"" Jarl at Witch Hill in Dustwallow Marsh."|
+A Accept Jarl Needs Eyes from Swamp Eye" Jarl |QID|1206| |N|Accept Jarl Needs Eyes|
+T What's Haunting Witch Hill? |QID|11180| |N|Return to Mordant Grimsby at Swamplight Manor in Dustwallow Marsh.|
+A Accept The Witch's Bane from Mordant Grimsby |QID|11181| |N|Accept The Witch's Bane|
+
+C The Witch's Bane |QID|11181| |N|Bring 9 sprigs of Witchbane to Mordant Grimsby at Swamplight Manor.|
+
+T The Witch's Bane |QID|11181| |N|Return to Mordant Grimsby at Swamplight Manor in Dustwallow Marsh.|
+A Accept Cleansing Witch Hill from Mordant Grimsby |QID|11183| |N|Accept Cleansing Witch Hill|
+C Cleansing Witch Hill |QID|11183|  |U|33113| |N|Mordant Grimsby at Swamplight Manor wants you to plant the torch at the end of the dock and defeat anything that appears.|
+T Cleansing Witch Hill |QID|11183| |N|Return to Mordant Grimsby at Swamplight Manor in Dustwallow Marsh.|
+
+A Accept Stinky's Escape from Stinky" Ignatz |QID|1270| |N|Accept Stinky's Escape|
+C Stinky's Escape |QID|1270| |N|Escort "Stinky"" Ignatz, then speak with Mebok Mizzyrix in Ratchet."|
+
+C Jarl Needs Eyes  |QID|1206| |N|Bring 20 Unpopped Darkmist Eyes to "Swamp Eye"" Jarl at the Swamplight Manor."|
+C The Black Shield (Part 3) |QID|1322| |N|Acquire 5 Acidic Venom Sacs for Do'gol in Brackenwall Village.|
+C Theramore Spies  |QID|1201| |N|Kill 9 Theramore Infiltrators, then return to Nazeer Bloodpike in Brackenwall Village.|
+
+T Theramore Spies  |QID|1201| |T| |N|Return to Nazeer Bloodpike at Brackenwall Village in Dustwallow Marsh.|
+A Accept The Theramore Docks from Nazeer Bloodpike |QID|1202| |T| |N|Accept The Theramore Docks|
+T The Lost Report |QID|1238| |T| |N|\n|
+A Accept Help Mudsprocket from Nazeer Bloodpike |QID|11215| |T| |N|Accept Help Mudsprocket|
+T The Black Shield (Part 3) |QID|1322| |T| |N|Return to Do'gol at Brackenwall Village in Dustwallow Marsh.|
+A Accept The Black Shield (Part 4) from Do'gol |QID|1323| |T| |N|Accept The Black Shield|
+T The Black Shield (Part 4) |QID|1323| |T| |N|\n|
+A Accept The Black Shield (Part 5) from Krog |QID|1276| |T| |N|Accept The Black Shield|
+A Accept Inspecting the Ruins from Krog |QID|11124| |T| |N|Accept Inspecting the Ruins|
+T Twilight of the Dawn Runner |QID|9437| |T| |N|Return to Balandar Brightstar at Brackenwall Village in Dustwallow Marsh.|
+
+F Thunder Bluff |N|Speak with Krog at Brackenwall Village.|    |QID|11204|
+T The Black Shield (Part 5) |QID|1276| |T|  |Z|Thunder Bluff| |N|\n|
+A Accept Return to Krog from Mosarn |QID|11204| |T| |N|Accept Return to Krog|
+
+F Brackenwall Village |N|Speak with Krog at Brackenwall Village.|    |QID|11204|
+T Return to Krog |QID|11204| |T| |N|\n|
+A Accept More than Coincidence from Krog |QID|11200| |T| |N|Accept More than Coincidence|
+A Accept The Grimtotem Plot from Krog |QID|11201| |T| |N|Accept The Grimtotem Plot|
+
+C More than Coincidence |QID|11200| |N|Krog at Brackenwall Village wants you to bring him 7 Blackhoof Armaments.|
+C The Grimtotem Plot |QID|11201|  |U|33050| |N|Bring the Grimtotem Battle Plan to Krog at Brackenwall Village.|
+
+T Jarl Needs Eyes |QID|1206| |N|Return to "Swamp Eye"" Jarl at Swamplight Manor in Dustwallow Marsh."|
+A Accept Jarl Needs a Blade from Swamp Eye" Jarl |QID|1203| |N|Accept Jarl Needs a Blade|
+C Jarl Needs a Blade |QID|1203| |N|Bring Razorspine's Sword to "Swamp Eye"" Jarl at Swamplight Manor."|
+C Hungry! |QID|1177| |NORAF| |N|Mudcrush Durtfeet in northern Dustwallow wants 8 Mirefin Heads.|
+T Jarl Needs a Blade |QID|1203| |N|Return to "Swamp Eye"" Jarl at Swamplight Manor in Dustwallow Marsh."|
+A Accept The Severed Head from Loose Dirt |QID|1239| |N|Accept The Severed Head|
+
+C The Theramore Docks |QID|1202| |N|Bring the Captain's Documents to Nazeer Bloodpike in Brackenwall Village.|
+
+H Brackenwall Village |QID|11203| |N|Hearth back|
+T More than Coincidence |QID|11200| |T| |N|Return to Krog at Brackenwall Village in Dustwallow Marsh.|
+T The Grimtotem Plot |QID|11201| |T| |N|Return to Krog in Dustwallow Marsh.|
+A Accept Seek Out Tabetha from Krog |QID|11203| |T| |N|Accept Seek Out Tabetha|
+T The Theramore Docks |T| |QID|1202| |N|Return to Nazeer Bloodpike at Brackenwall Village in Dustwallow Marsh.|
+T The Severed Head |T| |QID|1239| |N|\n|
+A Accept The Troll Witchdoctor from Nazeer Bloodpike |T| |QID|1240| |N|Accept The Troll Witchdoctor|
+
+T Hungry!  |QID|1177| |NORAF| |N|Return to Mudcrush Durtfeet in Dustwallow Marsh.|
+T Inspecting the Ruins |QID|11124| |N|\n|
+
+T Seek Out Tabetha |QID|11203| |N|\n|
+A Accept Raze Direhorn Post! from Tabetha |QID|11205| |N|Accept Raze Direhorn Post!|
+T Check Up on Tabetha |QID|11213| |N|\n|
+A Accept The Grimtotem Weapon from Apprentice Garion |QID|11169| |N|Accept The Grimtotem Weapon|
+A Accept The Reagent Thief from Apprentice Garion |QID|11173| |NORAF| |N|Accept The Reagent Thief|
+A Accept Direhorn Raiders from Apprentice Morlann |QID|11156| |N|Accept Direhorn Raiders|
+A Accept The Zeppelin Crash from Apprentice Morlann |QID|11172| |N|Accept The Zeppelin Crash|
+
+C Raze Direhorn Post! |QID|11205| |U|33072| |N|Burn the North Tent, East Tent, and the Northeast Tent at Direhorn Post, then return to Tabetha at her farm.|
+C Direhorn Raiders |QID|11156| |N|Kill 12 Direhorn Grimtotems and return to Apprentice Morlann at Tabetha's Farm.|
+K Apothecary Cylla |ITEM|33115| |QID|11186| |N|In one of the huts.|
+A Signs of Treachery? |U|33115| |QID|11186| |N|Accept Signs of Treachery?|
+
+C The Grimtotem Weapon  |U|33101| |QID|11169| |N|Apprentice Garion at Tabetha's Farm wants you to test the Captured Totem on 10 Mottled Drywallow Crocolisks or Drywallow Daggermaws.|
+C The Reagent Thief  |QID|11173| |NORAF| |N|Bring 6 vials of Marsh Venom to Apprentice Garion at Tabetha's Farm.|
+
+T Raze Direhorn Post! |QID|11205| |N|Return to Tabetha at Tabetha's Farm in Dustwallow Marsh.|
+A Accept Justice Dispensed from Tabetha |QID|11206| |N|Accept Justice Dispensed|
+T The Grimtotem Weapon |QID|11169| |N|Return to Apprentice Garion at Tabetha's Farm in Dustwallow Marsh.|
+T Direhorn Raiders |QID|11156| |N|Return to Apprentice Morlann at Tabetha's Farm in Dustwallow Marsh.|
+T The Reagent Thief |QID|11173| |NORAF| |N|Return to Apprentice Garion at Tabetha's Farm in Dustwallow Marsh.|
+
+C Deadmire |QID|1205| |NORAF| |N|Bring Deadmire's Tooth to Melor in Thunder Bluff.|
+
+T The Zeppelin Crash |QID|11172| |N|\n|
+A Accept Corrosion Prevention from Moxie Steelgrille |QID|11174| |N|Accept Corrosion Prevention|
+A Accept Secure the Cargo! from Moxie Steelgrille |QID|11207| |NORAF| |N|Accept Secure the Cargo!|
+
+C Corrosion Prevention |U|33108|  |QID|11174| |N|Moxie Steelgrille wants you to dissolve 10 oozes and report back to her at Beezil's Wreck.|
+C Secure the Cargo! |QID|11207| |NORAF| |N|Moxie Steelgrille at Beezil's Wreck wants you to recover 8 pieces of Zeppelin Cargo.|
+C Razzeric's Tweaking  |QID|1187| |NORAF| |N|Retrieve the Seaforium Booster for Razzeric in the Shimmering Flats.|
+
+T Corrosion Prevention |QID|11174| |N|Return to Moxie Steelgrille at Beezil's Wreck in Dustwallow Marsh.|
+T Secure the Cargo! |QID|11207| |NORAF| |N|Return to Moxie Steelgrille at Beezil's Wreck in Dustwallow Marsh.|
+A Accept Delivery for Drazzit from Moxie Steelgrille |QID|11208| |NORAF| |N|Accept Delivery for Drazzit|
+
+T Help Mudsprocket |QID|11215|  |T| |N|\n|
+T Delivery for Drazzit |QID|11208| |T| |NORAF| |N|Return to Drazzit Dripvalve at Mudsprocket in Dustwallow Marsh.|
+
+F Thunder Bluff |NORAF|
+T Deadmire  |T| |QID|1205| |NORAF| |N|Return to Melor Stonehoof at Hunter Rise in Thunder Bluff.|
+
+F Ratchet
+T Stinky's Escape |T| |QID|1270| |N|Return to Mebok Mizzyrix in The Barrens.|
+]]
+end)
+

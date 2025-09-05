@@ -1,64 +1,64 @@
 GuideReaderLite_RegisterGuide("Winterspring (54-55)", "Western Plaguelands (56)", "Horde", function()
 return [[
 R Everlook |N|Follow the road east.|
-A Are We There, Yeti? (Part 1) |QID|3783| |NORAF| |N|Accept Are We There, Yeti?|
-A The Everlook Report |QID|6029| |N|Accept The Everlook Report|
-A Duke Nicholas Zverenhoff |QID|6030| |N|Accept Duke Nicholas Zverenhoff|
-A Sister Pamela |QID|5601| |N|Accept Sister Pamela|
-A Ursius of the Shardtooth |QID|5054| |N|Accept Ursius of the Shardtooth|
-T Felnok Steelspring |QID|4808| |NORAF| |N|\n|
-A Chillwind Horns |QID|4809| |NORAF| |N|Accept Chillwind Horns|
+A Accept Are We There, Yeti? (Part 1) from Umi Rumplesnicker |N|Collect 10 Thick Yeti Furs for Umi Rumplesnicker in Everlook.||QID|3783| |NORAF| 
+A Accept The Everlook Report from Gregor Greystone |N|Deliver the Everlook Report to Argent Officer Garush at the Bulwark, Western Plaguelands.||QID|6029| 
+A Accept Duke Nicholas Zverenhoff from Gregor Greystone |N|Deliver the book, "Studies in Spirit Speaking", to Duke Nicholas Zverenhoff at Light's Hope Chapel, Eastern Plaguelands.||QID|6030| 
+A Accept Sister Pamela from Jessica Redpath |N|Find Pamela Redpath in Darrowshire.||QID|5601| 
+A Accept Ursius of the Shardtooth from Storm Shadowhoof |N|Storm Shadowhoof at Everlook in Winterspring wants you to kill Ursius.||QID|5054| 
+T Felnok Steelspring |N|Give Tinkee's Letter to Felnok Steelspring at Everlook in Winterspring.||QID|4808| |NORAF| 
+A Accept Chillwind Horns from Felnok Steelspring |N|Collect 8 Uncracked Chillwind Horns.||QID|4809| |NORAF| 
 h Everlook |N|Make this Inn your home|
 
 C Ursius of the Shardtooth  |QID|5054| |N|Storm Shadowhoof at Everlook in Winterspring wants you to kill Ursius.|
-T Ursius of the Shardtooth |QID|5054| |N|Return to Storm Shadowhoof at Everlook in Winterspring.|
-A Brumeran of the Chillwind |QID|5055| |N|Accept Brumeran of the Chillwind|
+T Ursius of the Shardtooth |N|Storm Shadowhoof at Everlook in Winterspring wants you to kill Ursius.||QID|5054| 
+A Accept Brumeran of the Chillwind from Storm Shadowhoof |N|Storm Shadowhoof at Everlook in Winterspring wants you to kill Brumeran.||QID|5055| 
 C Brumeran of the Chillwind  |QID|5055| |N|Storm Shadowhoof at Everlook in Winterspring wants you to kill Brumeran.|
 
 C Strange Sources  |QID|4842| |N|Follow Donova Snowden's instructions, then report back.|
 
 H Everlook |N|Hearth back|
-T Brumeran of the Chillwind |QID|5055| |N|Return to Storm Shadowhoof at Everlook in Winterspring.|
+T Brumeran of the Chillwind |N|Storm Shadowhoof at Everlook in Winterspring wants you to kill Brumeran.||QID|5055| 
 C Are We There, Yeti? (Part 1) |QID|3783| |NORAF| |N|Collect 10 Thick Yeti Furs for Umi Rumplesnicker in Everlook.|
 C Threat of the Winterfall |QID|5082| |N|Donova Snowden in Winterspring wants you to kill 8 Winterfall Pathfinders, 8 Winterfall Den Watchers, and 8 Winterfall Totemics.|
 C Wild Guardians  |QID|4741| |N|Trull Failbane in Felwood wants you to hunt 13 Moontouched Owlbeasts.|
 C Chillwind Horns  |QID|4809| |NORAF| |N|Collect 8 Uncracked Chillwind Horns.|
 
-T Threat of the Winterfall  |QID|5082| |N|Return to Donova Snowden in Winterspring.|
-T Strange Sources |QID|4842| |N|Return to Donova Snowden in Winterspring.|
-A Winterfall Firewater |U|12771| |QID|5083| |N|Accept Winterfall Firewater|
-T Winterfall Firewater |QID|5083| |N|\n|
-A Falling to Corruption |QID|5084| |N|Accept Falling to Corruption|
+T Threat of the Winterfall  |N|Donova Snowden in Winterspring wants you to kill 8 Winterfall Pathfinders, 8 Winterfall Den Watchers, and 8 Winterfall Totemics.||QID|5082| 
+T Strange Sources |N|Follow Donova Snowden's instructions, then report back.||QID|4842| 
+A Winterfall Firewater |N|Bring the Empty Firewater Flask to Donova Snowden in Winterspring.||U|12771| |QID|5083| 
+T Winterfall Firewater |N|Bring the Empty Firewater Flask to Donova Snowden in Winterspring.||QID|5083| 
+A Accept Falling to Corruption from Donova Snowden |N|Search the Deadwood furbolg camp in northern Felwood for a clue.||QID|5084| 
 
-T Are We There, Yeti? (Part 1)  |QID|3783| |NORAF| |N|Return to Umi Rumplesnicker at Everlook in Winterspring.|
-A Are We There, Yeti? (Part 2) |QID|977| |NORAF| |N|Accept Are We There, Yeti?|
-T Chillwind Horns |QID|4809| |NORAF| |N|Return to Felnok Steelspring at Everlook in Winterspring.|
+T Are We There, Yeti? (Part 1)  |N|Collect 10 Thick Yeti Furs for Umi Rumplesnicker in Everlook.||QID|3783| |NORAF| 
+A Accept Are We There, Yeti? (Part 2) from Umi Rumplesnicker |N|Collect 2 Pristine Yeti Horns for Umi Rumplesnicker in Everlook.||QID|977| |NORAF| 
+T Chillwind Horns |N|Collect 8 Uncracked Chillwind Horns.||QID|4809| |NORAF| 
 
 C Winterfall Activity  |QID|8464| |N|Salfa wants you to kill 8 Winterfall Shaman, 8 Winterfall Den Watchers, and 8 Winterfall Ursa.  Salfa is located just outside the entrance to Timbermaw Hold in Winterspring.$B|
 C Are We There, Yeti? (Part 2)  |QID|977| |NORAF| |N|Collect 2 Pristine Yeti Horns for Umi Rumplesnicker in Everlook.|
 
 H Everlook |N|Hearth back|
-T Are We There, Yeti? (Part 2) |QID|977| |NORAF| |N|Return to Umi Rumplesnicker at Everlook in Winterspring.|
+T Are We There, Yeti? (Part 2) |N|Collect 2 Pristine Yeti Horns for Umi Rumplesnicker in Everlook.||QID|977| |NORAF| 
 
 F Bloodvenom Post
-T Wild Guardians  |QID|4741| |N|Return to Trull Failbane at Bloodvenom Post  in Felwood.|
+T Wild Guardians  |N|Trull Failbane in Felwood wants you to hunt 13 Moontouched Owlbeasts.||QID|4741| 
 
 F Emerald Sanctuary
-T Collection of the Corrupt Water  |QID|5157| |N|Return to Greta Mosshoof at Emerald Sanctuary in Felwood.|
-T Verifying the Corruption |QID|5156| |N|Return to Taronn Redfeather at Emerald Sanctuary in Felwood.|
-T Cleansing Felwood  |QID|4102| |NORAF| |N|Return to Maybess Riverbreeze in Felwood.|
+T Collection of the Corrupt Water  |N|Take the Empty Canteen to the Moon Well in the center of Jaedenar and fill it before returning to Greta Mosshoof in Felwood.||QID|5157| 
+T Verifying the Corruption |N|Seek out and destroy 2 Entropic Beasts and 2 Entropic Horrors while exploring Shatter Scar Vale.||QID|5156| 
+T Cleansing Felwood  |N|Bring 15 Blood Amber to Maybess Riverbreeze in Felwood.||QID|4102| |NORAF| 
 
 C Corrupted Sabers |QID|4506| |N|Take Winna's kitten to the corrupted moonwell, release it, then bring it back to Winna.$B$BOnce you have returned to Winna, click on the cat to release it to Winna.|
-T Corrupted Sabers  |QID|4506| |N|Return to Winna Hazzard at Bloodvenom Post  in Felwood.|
+T Corrupted Sabers  |N|Take Winna's kitten to the corrupted moonwell, release it, then bring it back to Winna.||QID|4506| 
 
-T Falling to Corruption  |Z|Felwood| |QID|5084| |N|\n|
-A Mystery Goo |QID|5085| |N|Accept Mystery Goo|
-A Deadwood Ritual Totem |O| |U|20741| |QID|8470| |N|Accept Deadwood Ritual Totem|
-T Deadwood Ritual Totem |O|  |QID|8470| |N|\n|
+T Falling to Corruption  |N|Search the Deadwood furbolg camp in northern Felwood for a clue.||Z|Felwood| |QID|5084| 
+A Accept Mystery Goo from Deadwood Cauldron |N|Report back to Donova Snowden with your findings.||QID|5085| 
+A Deadwood Ritual Totem |N|Take the Deadwood Ritual Totem inside Timbermaw Hold and see if one of the furbolgs there will find a use for the item.||O| |U|20741| |QID|8470| 
+T Deadwood Ritual Totem |N|Take the Deadwood Ritual Totem inside Timbermaw Hold and see if one of the furbolgs there will find a use for the item.||O|  |QID|8470| 
 
 R Winterspring
-T Winterfall Activity |QID|8464| |N|Return to Salfa in Winterspring.|
-T Mystery Goo  |Z|Winterspring| |QID|5085| |N|\n|
+T Winterfall Activity |N|Salfa wants you to kill 8 Winterfall Shaman, 8 Winterfall Den Watchers, and 8 Winterfall Ursa.||QID|8464| 
+T Mystery Goo  |N|Report back to Donova Snowden with your findings.||Z|Winterspring| |QID|5085| 
 
 H Everlook |N|Hearth back|
 ]]

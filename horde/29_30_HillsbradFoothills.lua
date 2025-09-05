@@ -4,9 +4,9 @@ F Orgrimmar |NORAF|
 h Orgrimmar |NORAF| |N|Make this Inn your home|
 
 R Hillsbrad Foothills |N|Take the zeppelin outside Orgrimmar to Undercity.  Run down thru Silverpine.| |NORAF|
-A Time To Strike |QID|494|  |NORAF| |N|Accept Time To Strike|
+A Accept Time To Strike from Deathstalker Lesh |N|Travel to Tarren Mill to deliver Deathstalker Lesh's message to High Executor Darthalia.||QID|494|  |NORAF| 
 
-T Time To Strike |QID|494|  |NORAF| |N|\n|
-A Regthar Deathgate |QID|1361| |NORAF| |N|Accept Regthar Deathgate|
-A The Hammer May Fall |QID|676| |NORAF| |N|Accept The Hammer May Fall|
+T Time To Strike |N|Travel to Tarren Mill to deliver Deathstalker Lesh's message to High Executor Darthalia.||QID|494|  |NORAF| 
+A Accept Regthar Deathgate from Krusk |N|Speak with Regthar Deathgate in the Barrens.||QID|1361| |NORAF| 
+A Accept The Hammer May Fall from Tallow |N|Kill 8 Boulderfist Ogres and 10 Boulderfist Enforcers, then find Drum Fel in the Hammerfall outpost in Arathi Highlands.||QID|676| |NORAF| 
 ]] end)
