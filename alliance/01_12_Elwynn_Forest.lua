@@ -163,9 +163,9 @@ A Accept Accept Continue to Stormwind |N|Go to Thor and accept Accept Continue t
 F Stormwind City |N|Fly to Stormwind.| |M|56.6,52.6| |Z|Westfall|
 T Shipment to Stormwind |N|Bring William's Shipment to Morgan Pestle in the Stormwind Trade District.|    |QID|61|  |M|63.2 74.6| |Z|Stormwind City|
 A Accept Accept Wine Shop Advert |N|Go to Renato Gallina and accept Accept Wine Shop Advert|    |QID|332|  |M|63.8 73.6| |Z|Stormwind City|
-A Accept Accept Harlan Needs a Resupply |N|Go to Harlan Bagley and accept Accept Harlan Needs a Resupply|    |QID|333|  |M|55.1,56.2| |Z|Stormwind City|
-h Stormwind City |N|Set your hearthstone in Stormwind City at the inn.| |M|52.6,65.6| |Z|Stormwind City|
-T Wine Shop Advert |N|Go to the Gallina Winery, and bring Suzetta Gallina the Wine Ticket for a free bottle of wine.|    |QID|332|  |M|52.4,67.6| |Z|Stormwind City|
+A Accept Accept Harlan Needs a Resupply |N|Go to Harlan Bagley and accept Accept Harlan Needs a Resupply|    |QID|333|  |M|62.6 68.6| |Z|Stormwind City|
+h Stormwind City |N|Set your hearthstone in Stormwind City at the inn.| |M|60.6 75.0| |Z|Stormwind City|
+T Wine Shop Advert |N|Go to the Gallina Winery, and bring Suzetta Gallina the Wine Ticket for a free bottle of wine.|    |QID|332|  |M|60.4 76.0| |Z|Stormwind City|
 T Harlan Needs a Resupply |N|Go to the Canal Tailor Shop and bring Rema Schneider the Cloth Request from Harlan Bagley.|    |QID|333|  |M|49.6,55.6| |Z|Stormwind City|
 A Accept Accept Package for Thurman |N|Go to Rema Schneider and accept Accept Package for Thurman|    |QID|334|  |M|49.6,55.6| |Z|Stormwind City|
 T Package for Thurman |N|Go to the Larson Clothiers in the Stormwind Mage Quarter, and give Thurman Schneider his Sewing Kit.|    |QID|334|  |M|42.5,76.2| |Z|Stormwind City|
