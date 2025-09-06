@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="ims/ss1.jpg">
-    <img src="ims/ss1.jpg" alt="GuideReaderLite Screenshot" width="400">
+  <a href="imgs/ss1.jpg">
+    <img src="imgs/ss1.jpg" alt="GuideReaderLite Screenshot" width="400">
   </a>
   <br>
   <em>In-game screenshot of GuideReaderLite</em>
