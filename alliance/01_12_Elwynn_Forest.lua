@@ -196,8 +196,9 @@ A In Defense of the King's Lands |Z|Loch Modan| |M|22.10,73.00| |QID|224| |N|Acc
 A The Trogg Threat |Z|Loch Modan| |M|23.20,73.20| |QID|267| |N|Climb the tower and accept from Captain Rugelfuss.|
 N Grab Thelsamar FP |Z|Loch Modan| |M|33.89,50.90| |N|Pick up the Thelsamar flight path.|
 A Rat Catching |Z|Loch Modan| |M|32.80,49.60| |QID|416| |N|Accept from Mountaineer Kadrell (patrolling Thelsamar road).|
-C In Defense of the King's Lands |Z|Loch Modan| |M|22.10,73.00| |QID|224| |N|Kill Stonesplinter Troggs north of the southern gate. |QO|1|
-C The Trogg Threat |Z|Loch Modan| |M|23.20,73.20| |QID|267| |N|Collect Trogg Stone Teeth while killing troggs. |QO|1|
+
+C Do King's Lands and Trogg Threat |M|33.6 75.4| |QID|224,267| |N|Kill Troggs and loot them for their teeth. |QO|1,1|  |Z|Loch Modan| 
+
 T In Defense of the King's Lands |Z|Loch Modan| |M|22.10,73.00| |QID|224| |N|Return to Mountaineer Cobbleflint.|
 T The Trogg Threat |Z|Loch Modan| |M|23.20,73.20| |QID|267| |N|Turn in at Captain Rugelfuss in the tower.|
 T Stormpike's Delivery |Z|Loch Modan| |M|59.70,34.00| |QID|353| |N|Turn in at Mountaineer Stormpike in the northern tower.|

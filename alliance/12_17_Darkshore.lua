@@ -18,11 +18,11 @@ A Accept Accept Tools of the Highborne |N|Go to Thundris Windweaver and accept A
 A Accept Accept Plagued Lands |N|Go to Tharnariun Treetender and accept Accept Plagued Lands|    |M|38.8,43.4| |QID|2118| |Z|Darkshore| 
 A Accept Accept How Big a Threat? (Part 1) |N|Go to Terenthis and accept Accept How Big a Threat? (Part 1)|    |M|39.3,43.4| |QID|984| |Z|Darkshore| 
 
-C Washed Ashore (Part 1) |QID|3524| |M|36.6,45.6| |Z|Darkshore| |N|Loot the Sea Creature Bones from the beached creature just south of Auberdine.|
-C Buzzbox 827 |QID|983| |QO|1| |M|36.9,44.1| |Z|Darkshore| |N|Collect 6 Crawler Legs from Darkshore Crawlers along the coast.|
+G Washed Ashore (Part 1) |QID|3524| |M|36.5 50.9| |Z|Darkshore| |N|Loot the Sea Creature Bones from the beached creature just south of Auberdine.|
+C Buzzbox 827 |QID|983| |QO|1| |M|36.9,49| |Z|Darkshore| |N|Collect 6 Crawler Legs from Darkshore Crawlers along the coast.|
 T Buzzbox 827 |N|Collect 6 Crawler Legs and place them in Buzzbox 827.|    |QID|983| |M|37,44.1| |Z|Darkshore| 
-A Accept Accept Buzzbox 411 |N|Go to Buzzbox 827 and accept Accept Buzzbox 411|    |QID|1001| |M|39.87,24.09| |Z|Darkshore| 
-T Washed Ashore (Part 1) |N|Recover Sea Creature Bones from the beached sea creature just south of Auberdine, and then return with it to Gwennyth Bly'Leggonde in Auberdine.|    |QID|3524| |M|36.6,45.6| |Z|Darkshore| 
+A Accept Accept Buzzbox 411 |N|Go to Buzzbox 827 and accept Accept Buzzbox 411|    |QID|1001| |M|36.7 46.3| |Z|Darkshore| 
+G Washed Ashore (Part 1) |N|Recover Sea Creature Bones from the beached sea creature just south of Auberdine, and then return with it to Gwennyth Bly'Leggonde in Auberdine.|    |QID|3524| |M|36.6,45.6| |Z|Darkshore| 
 A Accept Accept Washed Ashore (Part 2) |N|Go to Gwennyth Bly'Leggonde and accept Accept Washed Ashore (Part 2)|    |QID|4681| |M|36.6,45.6| |Z|Darkshore| 
 C Washed Ashore (Part 2) |QID|4681| |M|37.1,46.4| |Z|Darkshore| |N|Dive west of Auberdine to loot the Skeletal Sea Turtle remains.|
 C Buzzbox 411 |QID|1001| |QO|1| |M|35.5,43.0| |Z|Darkshore| |N|Kill Darkshore Threshers off the coast to get 3 Thresher Eyes.|
