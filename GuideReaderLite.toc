@@ -8,4 +8,3 @@
 GuideReaderLite.lua
 alliance\alliance.xml
 horde\horde.xml  
-neutral\neutral.xml

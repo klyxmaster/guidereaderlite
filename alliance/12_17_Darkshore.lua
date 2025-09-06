@@ -20,18 +20,21 @@ A Accept Accept How Big a Threat? (Part 1) |N|Go to Terenthis and accept Accept 
 
 G Washed Ashore (Part 1) |QID|3524| |M|36.5 50.9| |Z|Darkshore| |N|Loot the Sea Creature Bones from the beached creature just south of Auberdine.|
 C Buzzbox 827 |QID|983| |QO|1| |M|36.9,49| |Z|Darkshore| |N|Collect 6 Crawler Legs from Darkshore Crawlers along the coast.|
-T Buzzbox 827 |N|Collect 6 Crawler Legs and place them in Buzzbox 827.|    |QID|983| |M|37,44.1| |Z|Darkshore| 
+T Buzzbox 827 |N|Collect 6 Crawler Legs and place them in Buzzbox 827.|    |QID|983| |M|36.7 46.3| |Z|Darkshore| 
 A Accept Accept Buzzbox 411 |N|Go to Buzzbox 827 and accept Accept Buzzbox 411|    |QID|1001| |M|36.7 46.3| |Z|Darkshore| 
-G Washed Ashore (Part 1) |N|Recover Sea Creature Bones from the beached sea creature just south of Auberdine, and then return with it to Gwennyth Bly'Leggonde in Auberdine.|    |QID|3524| |M|36.6,45.6| |Z|Darkshore| 
-A Accept Accept Washed Ashore (Part 2) |N|Go to Gwennyth Bly'Leggonde and accept Accept Washed Ashore (Part 2)|    |QID|4681| |M|36.6,45.6| |Z|Darkshore| 
-C Washed Ashore (Part 2) |QID|4681| |M|37.1,46.4| |Z|Darkshore| |N|Dive west of Auberdine to loot the Skeletal Sea Turtle remains.|
-C Buzzbox 411 |QID|1001| |QO|1| |M|35.5,43.0| |Z|Darkshore| |N|Kill Darkshore Threshers off the coast to get 3 Thresher Eyes.|
-T Washed Ashore (Part 2) |N|Recover the Sea Turtle Remains from the Skeletal Sea Turtle in the waters west of Auberdine, and then speak with Gwennyth Bly'Leggonde back in Auberdine.|    |QID|4681| |M|36.6,45.6| |Z|Darkshore| 
+
+G Washed Ashore (Part 1) |N|Recover Sea Creature Bones from the beached sea creature just south of Auberdine, and then return with it to Gwennyth Bly'Leggonde in Auberdine.|    |QID|3524| |M|31.9 46.3| |Z|Darkshore| 
+
+A Accept Accept Washed Ashore (Part 2) |N|Go to Gwennyth Bly'Leggonde and accept Accept Washed Ashore (Part 2)|    |QID|4681| |M|36.6 45.6| |Z|Darkshore| 
+C Washed Ashore (Part 2) |QID|4681| |M|31.9 46.3| |Z|Darkshore| |N|Dive west of Auberdine to loot the Skeletal Sea Turtle remains.|
+C Buzzbox 411 |QID|1001| |QO|1| |M|37.6 31.6| |Z|Darkshore| |N|Kill Darkshore Threshers off the coast to get 3 Thresher Eyes.|
+
+T Washed Ashore (Part 2) |N|Recover the Sea Turtle Remains from the Skeletal Sea Turtle in the waters west of Auberdine, and then speak with Gwennyth Bly'Leggonde back in Auberdine.|    |QID|4681| |M|36.6 45.6| |Z|Darkshore| 
 A Accept Accept The Red Crystal |N|Go to Sentinel Glynda Nal'Shea and accept Accept The Red Crystal|    |QID|4811| |M|37.7,43.4| |Z|Darkshore| 
-T Buzzbox 411 |N|Collect 3 Thresher Eyes from Darkshore Threshers in the deep sea near Buzzbox 411.|    |QID|1001| |M|54.07,33.73| |Z|Darkshore| 
+T Buzzbox 411 |N|Collect 3 Thresher Eyes from Darkshore Threshers in the deep sea near Buzzbox 411.|    |QID|1001| |M|42.0 28.7| |Z|Darkshore| 
 A Accept Accept Buzzbox 323 |N|Go to Buzzbox 411 and accept Accept Buzzbox 323|    |QID|1002| |M|51.30,24.60| |Z|Darkshore| 
 
-R Go to Gwennyth Bly'Leggonde |QID|4723| |M|40.41,24.06| |Z|Darkshore| |N|Take the Sea Creature Bones to Gwennyth in Auberdine.|
+R Go to Gwennyth Bly'Leggonde |QID|4723| |M|36.6 45.6| |Z|Darkshore| |N|Take the Sea Creature Bones to Gwennyth in Auberdine.|
 T Beached Sea Creature (Part 1) |N|Take the Sea Creature Bones to Gwennyth Bly'Leggonde in Auberdine.|    |QID|4723| |M|36.6,45.6| |Z|Darkshore| 
 
 T Bashal'Aran (Part 1) |N|Find the source of the strange blue aura in the ruins of Bashal'Aran.|    |QID|954| |M|44.2,36.3| |Z|Darkshore| 
