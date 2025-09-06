@@ -1,3 +1,12 @@
+<p align="center">
+  <a href="ims/ss1.jpg">
+    <img src="ims/ss1.jpg" alt="GuideReaderLite Screenshot" width="400">
+  </a>
+  <br>
+  <em>In-game screenshot of GuideReaderLite</em>
+</p>
+
+
 # GuideReaderLite
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)

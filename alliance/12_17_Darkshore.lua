@@ -37,7 +37,7 @@ A Accept Accept Buzzbox 323 |N|Go to Buzzbox 411 and accept Accept Buzzbox 323| 
 R Go to Gwennyth Bly'Leggonde |QID|4723| |M|36.6 45.6| |Z|Darkshore| |N|Take the Sea Creature Bones to Gwennyth in Auberdine.|
 T Beached Sea Creature (Part 1) |N|Take the Sea Creature Bones to Gwennyth Bly'Leggonde in Auberdine.|    |QID|4723| |M|36.6,45.6| |Z|Darkshore| 
 
-T Bashal'Aran (Part 1) |N|Find the source of the strange blue aura in the ruins of Bashal'Aran.|    |QID|954| |M|44.2,36.3| |Z|Darkshore| 
+T Bashal'Aran (Part 1) |N|Find the source of the strange blue aura in the ruins of Bashal'Aran.|    |QID|954| |M|44.2 36.2| |Z|Darkshore| 
 A Accept Accept Bashal'Aran (Part 2) |N|Go to Asterion and accept Accept Bashal'Aran (Part 2)|    |QID|955| |M|44.2,36.3| |Z|Darkshore| 
 C Bashal'Aran (Part 2) |QID|955| |M|44.2,36.3| |Z|Darkshore| |N|Collect 8 Grell Earrings from grells around Bashal'Aran.|
 T Bashal'Aran (Part 2) |N|Acquire 8 Grell Earrings for Asterion in Bashal'Aran.|    |QID|955| |M|44.2,36.3| |Z|Darkshore| 
