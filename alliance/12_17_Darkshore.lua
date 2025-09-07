@@ -38,32 +38,36 @@ R Go to Gwennyth Bly'Leggonde |QID|4723| |M|36.6 45.6| |Z|Darkshore| |N|Take the
 T Beached Sea Creature (Part 1) |N|Take the Sea Creature Bones to Gwennyth Bly'Leggonde in Auberdine.|    |QID|4723| |M|36.6,45.6| |Z|Darkshore| 
 
 T Bashal'Aran (Part 1) |N|Find the source of the strange blue aura in the ruins of Bashal'Aran.|    |QID|954| |M|44.2 36.2| |Z|Darkshore| 
-A Accept Accept Bashal'Aran (Part 2) |N|Go to Asterion and accept Accept Bashal'Aran (Part 2)|    |QID|955| |M|44.2,36.3| |Z|Darkshore| 
+A Accept Accept Bashal'Aran (Part 2) |N|Go to Asterion and accept Accept Bashal'Aran (Part 2)|    |QID|955| |M|44.2,36.3| |Z|Darkshore|
+
 C Bashal'Aran (Part 2) |QID|955| |M|44.2,36.3| |Z|Darkshore| |N|Collect 8 Grell Earrings from grells around Bashal'Aran.|
 T Bashal'Aran (Part 2) |N|Acquire 8 Grell Earrings for Asterion in Bashal'Aran.|    |QID|955| |M|44.2,36.3| |Z|Darkshore| 
 A Accept Accept Bashal'Aran (Part 3) |N|Go to Asterion and accept Accept Bashal'Aran (Part 3)|    |QID|956| |M|44.2,36.3| |Z|Darkshore| 
-C Bashal'Aran (Part 3) |QID|956| |M|44.2,36.3| |Z|Darkshore| |N|Obtain the Ancient Moonstone Seal.|
+
+C Bashal'Aran (Part 3) |QID|956| |M|44.2,36.3| |Z|Darkshore| |N|KIll the satyr to Obtain the Ancient Moonstone Seal.|
 T Bashal'Aran (Part 3) |N|Obtain the Ancient Moonstone Seal and bring it to Asterion in Bashal'Aran.|    |QID|956| |M|44.2,36.3| |Z|Darkshore| 
 A Accept Accept Bashal'Aran (Part 4) |N|Go to Asterion and accept Accept Bashal'Aran (Part 4)|    |QID|957| |M|44.2,36.3| |Z|Darkshore| 
 C The Red Crystal |QID|4811| |M|47.3,48.7| |Z|Darkshore| |N|Find the large red crystal along the mountains east of Auberdine.|
-C How Big a Threat? (Part 1) |QID|984| |M|39.4,43.5| |Z|Darkshore| |N|Discover a corrupt furbolg camp to the southeast and return to Terenthis.|
+C How Big a Threat? (Part 1) |QID|984| |M|39,53| |Z|Darkshore| |N|Discover a corrupt furbolg camp to the southeast and return to Terenthis.|
 
 A Accept Accept The Fall of Ameth'Aran |N|Go to Sentinel Tysha Moonblade and accept Accept The Fall of Ameth'Aran|    |QID|953| |M|40.3,59.7| |Z|Darkshore| 
-C The Fall of Ameth'Aran |QID|953| |M|43.3,59.6| |Z|Darkshore| |N|Read the two Ameth'Aran tablets among the ruins.|
-C For Love Eternal |QID|963| |QO|1| |M|35.7,43.7| |Z|Darkshore| |N|Slay Anaya Dawnrunner and collect her pendant.|
-C Bashal'Aran (Part 4) |QID|957| |M|43.3,58.7| |Z|Darkshore| |N|Destroy the Ancient Moonstone Seal at the ancient flame in Ameth'Aran.|
-C Tools of the Highborne |QID|958| |M|37.4,40.1| |Z|Darkshore| |N|Collect 7 Highborne Relics from naga near the coast.|
+G The Fall of Ameth'Aran |QID|953| |M|43,59| |Z|Darkshore| |N|While going to each tablet kill Highborne and loot for 7 relics,\nAnd stop by this tablet here...|
+G The Fall of Ameth'Aran |QID|953| |M|43,63| |Z|Darkshore| |N|Keep killing Highborne for the relics, here is the other tablet. |
+G Bashal'Aran (Part 4) |QID|957| |M|42.40,61.84| |Z|Darkshore| |N|Destroy the Ancient Moonstone Seal at the ancient flame in Ameth'Aran.|
+C Tools of the Highborne |QID|958| |M|43.27,57.74| |Z|Darkshore| |N|Collect 7 Highborne Relics from naga near the coast.|
+C For Love Eternal |QID|963| |QO|1| |M|43.27,57.74| |Z|Darkshore| |N|Slay Anaya Dawnrunner and collect her pendant. She wanders this whole area.|
+
 C Plagued Lands |QID|2118| |U|7586| |M|38.8,43.4| |Z|Darkshore| |N|Use Tharnariun's Trap on a Rabid Thistle Bear to capture it alive.|
 
-T The Fall of Ameth'Aran |N|Study the tablets which tell of Ameth'Aran and of its fall, then return to Sentinel Tysha Moonblade in Darkshore.|    |QID|953| |M|40.3,59.7| |Z|Darkshore| 
+T The Fall of Ameth'Aran |N|Study the tablets which tell of Ameth'Aran and of its fall, then return to Sentinel Tysha Moonblade in Darkshore.|    |QID|953| |M|40.2 59.8| |Z|Darkshore| 
 H Auberdine |N|Hearth back.|
 
 T Plagued Lands |N|Capture a living Rabid Thistle Bear and bring it back to Tharnariun.|    |QID|2118| |M|38.8,43.4| |Z|Darkshore| 
-A Accept Accept Cleansing of the Infected |N|Go to Tharnariun Treetender and accept Accept Cleansing of the Infected|    |QID|2138| |M|38.8,43.4| |Z|Darkshore| 
+A Accept Accept Cleansing of the Infected |N|Go to Tharnariun Treetender and accept Accept Cleansing of the Infected. You'll have to wait until he is done speaking.|    |QID|2138| |M|38.8,43.4| |Z|Darkshore| 
 T How Big a Threat? (Part 1) |N|Find a corrupt furbolg camp in Darkshore and return to Terenthis in Auberdine.|    |QID|984| |M|39.3,43.4| |Z|Darkshore| 
 A Accept Accept How Big a Threat? (Part 2) |N|Go to Terenthis and accept Accept How Big a Threat? (Part 2)|    |QID|985| |M|39.3,43.4| |Z|Darkshore| 
 A Accept Accept Thundris Windweaver |N|Go to Terenthis and accept Accept Thundris Windweaver|    |QID|4761| |M|39.3,43.4| |Z|Darkshore| 
-A Accept Accept The Tower of Althalaxx (Part 1) |N|Go to Sentinel Elissa Starbreeze and accept Accept The Tower of Althalaxx (Part 1)|    |QID|965| |M|39.1,43.5| |Z|Darkshore| 
+A Accept Accept The Tower of Althalaxx (Part 1) |N|Go UPSTAIRS to Sentinel Elissa Starbreeze and accept Accept The Tower of Althalaxx (Part 1)|    |QID|965| |M|39.1,43.5| |Z|Darkshore| 
 T Tools of the Highborne |N|Retrieve 7 Highborne Relics for Thundris Windweaver in Auberdine.|    |QID|958| |M|37.4,40.2| |Z|Darkshore| 
 T Thundris Windweaver |N|Speak with Thundris Windweaver in Auberdine.|    |QID|4761| |M|37.4,40.2| |Z|Darkshore| 
 A Accept Accept The Cliffspring River |N|Go to Thundris Windweaver and accept Accept The Cliffspring River|    |QID|4762| |M|37.4,40.2| |Z|Darkshore| 
@@ -74,8 +78,8 @@ A Accept Accept Cave Mushrooms |N|Go to Barithras Moonshade and accept Accept Ca
 T For Love Eternal |N|Free the spirit of Anaya Dawnrunner and bring her pendant back to Cerellean Whiteclaw in Auberdine.|    |QID|963| |M|35.8,43.7| |Z|Darkshore| 
 T Beached Sea Creature (Part 1) |N|Take the Sea Creature Bones to Gwennyth Bly'Leggonde in Auberdine.|    |QID|4723| |M|36.6,45.6| |Z|Darkshore| 
 
-T Bashal'Aran (Part 4) |N|Destroy the Ancient Moonstone Seal at the ancient flame in Ameth'Aran, then return to Asterion in Bashal'Aran.|    |QID|957| |M|44.2,36.3| |Z|Darkshore| 
-C Cleansing of the Infected |QID|2138| |M|38.8,43.4| |Z|Darkshore| |N|Kill 20 Rabid Thistle Bears for Tharnariun.|
+T Bashal'Aran (Part 4) |N|Destroy the Ancient Moonstone Seal at the ancient flame in Ameth'Aran, then return to Asterion in Bashal'Aran.|    |QID|957| |M|44.2 36.2| |Z|Darkshore| 
+C Cleansing of the Infected |QID|2138| |M|39,60| |Z|Darkshore| |N|Kill 20 Rabid Thistle Bears for Tharnariun.|
 A Accept Accept Beached Sea Turtle (Part 1) |N|Go to Beached Sea Creature and accept Accept Beached Sea Turtle (Part 1)|    |QID|4725| |M|36.6,45.6| |Z|Darkshore| 
 C Buzzbox 323 |QID|1002| |QO|1| |M|50.4,22.6| |Z|Darkshore| |N|Collect 6 Moonstalker Fangs from Moonstalkers.|
 

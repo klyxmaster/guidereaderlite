@@ -48,6 +48,35 @@ local charDB = GRL.db.char[realmName][playerName]
 ---------------------------------------------------------------
 -- Utils
 ---------------------------------------------------------------
+
+local TT = TomTom
+
+local function add_tt(mapID, x_percent, y_percent, title)
+  if not TT then return end
+  if GRL._ttwp and TT.RemoveWaypoint then TT:RemoveWaypoint(GRL._ttwp) end
+  -- TomTom API expects 0–1, we export 0–100
+  GRL._ttwp = TT:AddWaypoint(mapID, x_percent/100, y_percent/100, { title = title or "Target" })
+end
+
+function GRL:SetHotspotWaypoint(questID, entryID)
+  -- prefer per-entry if you have it; fall back to best-per-quest
+  local rec
+  local by = _G.GRL_HOTSPOT_BYENTRY and _G.GRL_HOTSPOT_BYENTRY[questID]
+  if by and entryID and by[entryID] then
+    rec = by[entryID]
+  elseif _G.GRL_HOTSPOT_BEST then
+    rec = _G.GRL_HOTSPOT_BEST[questID]
+  end
+  if not rec then return end
+
+  local title = (rec.mob or "Target")
+  if rec.zone and rec.zone ~= "" then title = title .. " @ " .. rec.zone end
+  title = title .. (" (%.1f, %.1f)"):format(rec.x, rec.y)
+
+  add_tt(rec.map, rec.x, rec.y, title)
+end
+
+
 local function _recent(tstamp, win) return tstamp and (GetTime() - tstamp) <= (win or 45) end
 
 
@@ -1256,9 +1285,8 @@ GRL:RegisterEvent("PLAYER_LOGIN", function(self)
 	self.db.char[realmName] = self.db.char[realmName] or {}
 	self.db.char[realmName][playerName] = self.db.char[realmName][playerName] or {}
 	charDB = self.db.char[realmName][playerName]
-charDB.idx = charDB.idx or {}
-
-
+	charDB.idx = charDB.idx or {}
+	
     self:After(0.20, function()
         GRL:_HookTomTom()
         local tt = TomTom
