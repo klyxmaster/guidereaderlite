@@ -13,7 +13,7 @@ N Get a Commission |N|Talk to the quartermaster and get a commission, you should
 A Accept The So-Called Mark of the Lightbringer |N|Go to Mehlar Dawnblade and accept The So-Called Mark of the Lightbringer|    |QID|9443|  |M|83.2,71.3|
 A Accept A Plague Upon Thee (Part 1) |N|Go to Mickey Levine and accept A Plague Upon Thee (Part 1)|    |QID|5901| |NORAF|  |M|83.2,72.4|
 
-C Scarlet Diversions |QID|5096| |N|Proceed to the Scarlet Crusade's base camp between Felstone Field and Dalson's Tears and destroy their command tent.$B$BPlace the Scourge banner at the camp, and then return to High Executor Derrington at the Bulwark, Western Plaguelands.|  |M|83.13 68.94|
+C Scarlet Diversions |QID|5096| |N|Proceed to the Scarlet Crusade's base camp between Felstone Field and Dalson's Tears and destroy their command tent.$B$BPlace the Scourge banner at the camp, and then return to High Executor Derrington at the Bulwark, Western Plaguelands.|  |M|83.13,68.94|
 
 T Scarlet Diversions  |N|Proceed to the Scarlet Crusade's base camp between Felstone Field and Dalson's Tears and destroy their command tent.|    |QID|5096|  |M|83.1,69|
 A Accept All Along the Watchtowers |N|Go to High Executor Derrington and accept All Along the Watchtowers|    |QID|5098|  |M|83.1,69|
@@ -21,7 +21,7 @@ A Accept The Scourge Cauldrons |N|Go to High Executor Derrington and accept The 
 T The Scourge Cauldrons |N|Speak with Shadow Priestess Vandis at the Bulwark, Western Plaguelands.|    |QID|5228|  |M|83,71.8|
 A Accept Target: Felstone Field |N|Go to Shadow Priestess Vandis and accept Target: Felstone Field|    |QID|5229|  |M|83,71.8|
 
-C Target: Felstone Field |QID|5229| |N|Go to Felstone Field in Western Plaguelands to locate and defeat the Cauldron Lord present there.  It may have a key that will allow access to the cauldron.  You must have the Empty Felstone Field Bottle with you to secure a sample of the poisons used inside the cauldron.|  |M|83.04 71.91|
+C Target: Felstone Field |QID|5229| |N|Go to Felstone Field in Western Plaguelands to locate and defeat the Cauldron Lord present there.  It may have a key that will allow access to the cauldron.  You must have the Empty Felstone Field Bottle with you to secure a sample of the poisons used inside the cauldron.|  |M|83.04,71.91|
 T Target: Felstone Field |N|Go to Felstone Field in Western Plaguelands to locate and defeat the Cauldron Lord present there.|    |QID|5229|  |M|83,71.8|
 A Accept Return to the Bulwark (Part 1) |N|Go to Scourge Cauldron and accept Return to the Bulwark (Part 1)|    |QID|5230|  |M|83,71.8|
 
@@ -40,10 +40,10 @@ A Accept Target: Dalson's Tears |N|Go to Shadow Priestess Vandis and accept Targ
 
 T Good Luck Charm |N|Return to Janice Felstone in Western Plaguelands her Good Luck Half-Charm.|    |QID|5050|  |M|38.4,54.1|
 A Accept Two Halves Become One |N|Go to Janice Felstone and accept Two Halves Become One|    |QID|5051|  |M|38.4,54.1|
-C Two Halves Become One |QID|5051| |N|Locate the other half of the Good Luck Charm somewhere on the Felstone Farm in Western Plaguelands and reassemble it.$B$BGive the Good Luck Charm to Janice Felstone on the Felstone Farm, Western Plaguelands.|  |M|38.40 54.05|
+C Two Halves Become One |QID|5051| |N|Locate the other half of the Good Luck Charm somewhere on the Felstone Farm in Western Plaguelands and reassemble it.$B$BGive the Good Luck Charm to Janice Felstone on the Felstone Farm, Western Plaguelands.|  |M|38.40,54.05|
 T Two Halves Become One |N|Locate the other half of the Good Luck Charm somewhere on the Felstone Farm in Western Plaguelands and reassemble it.|    |QID|5051|  |M|38.4,54.1|
 
-C Target: Dalson's Tears |QID|5231| |N|Go to Dalson's Tears in Western Plaguelands to locate and defeat the Cauldron Lord present there, and use its key to gain access to the cauldron.  You must have the Empty Dalson's Tears Bottle with you to secure a sample of the poisons used inside the cauldron.|  |M|83.04 71.91|
+C Target: Dalson's Tears |QID|5231| |N|Go to Dalson's Tears in Western Plaguelands to locate and defeat the Cauldron Lord present there, and use its key to gain access to the cauldron.  You must have the Empty Dalson's Tears Bottle with you to secure a sample of the poisons used inside the cauldron.|  |M|83.04,71.91|
 T Target: Dalson's Tears |N|Go to Dalson's Tears in Western Plaguelands to locate and defeat the Cauldron Lord present there, and use its key to gain access to the cauldron.|    |QID|5231|  |M|83,71.8|
 A Accept Return to the Bulwark (Part 2) |N|Go to Scourge Cauldron and accept Return to the Bulwark (Part 2)|    |QID|5232|  |M|83,71.8|
 
@@ -55,21 +55,21 @@ N Open cabinet |N|Locked cabinet upstairs in the house.| |ITEM|13474|
 T Return to the Bulwark (Part 2) |N|Bring the Filled Dalson's Tears Bottle to Shadow Priestess Vandis at the Bulwark, Western Plaguelands.|    |QID|5232|  |M|83,71.8|
 A Accept Target: Writhing Haunt |N|Go to Shadow Priestess Vandis and accept Target: Writhing Haunt|    |QID|5233|  |M|83,71.8|
 
-C Target: Writhing Haunt |QID|5233| |N|Go to the Writhing Haunt in Western Plaguelands to locate and defeat the Cauldron Lord present there, and use its key to gain access to the cauldron.  You must have the Empty Writhing Haunt Bottle with you to secure a sample of the poisons used inside the cauldron.|  |M|83.04 71.91|
+C Target: Writhing Haunt |QID|5233| |N|Go to the Writhing Haunt in Western Plaguelands to locate and defeat the Cauldron Lord present there, and use its key to gain access to the cauldron.  You must have the Empty Writhing Haunt Bottle with you to secure a sample of the poisons used inside the cauldron.|  |M|83.04,71.91|
 T Target: Writhing Haunt |N|Go to the Writhing Haunt in Western Plaguelands to locate and defeat the Cauldron Lord present there, and use its key to gain access to the cauldron.|    |QID|5233|  |M|83,71.8|
 A Accept Return to the Bulwark (Part 3) |N|Go to Scourge Cauldron and accept Return to the Bulwark (Part 3)|    |QID|5234|  |M|83,71.8|
 
 A Accept The Wildlife Suffers Too (Part 1) |N|Go to Mulgris Deepriver and accept The Wildlife Suffers Too (Part 1)|    |QID|4984|  |M|53.7,64.7|
-C The Wildlife Suffers Too (Part 1) |QID|4984| |N|Destroy 8 Diseased Wolves, and then return to Mulgris Deepriver at the Writhing Haunt, Western Plaguelands.$B$B|  |M|53.73 64.66|
+C The Wildlife Suffers Too (Part 1) |QID|4984| |N|Destroy 8 Diseased Wolves, and then return to Mulgris Deepriver at the Writhing Haunt, Western Plaguelands.$B$B|  |M|53.73,64.66|
 T The Wildlife Suffers Too (Part 1) |N|Destroy 8 Diseased Wolves, and then return to Mulgris Deepriver at the Writhing Haunt, Western Plaguelands.|    |QID|4984|  |M|53.7,64.7|
 A Accept The Wildlife Suffers Too (Part 2) |N|Go to Mulgris Deepriver and accept The Wildlife Suffers Too (Part 2)|    |QID|4985|  |M|53.7,64.7|
-C The Wildlife Suffers Too (Part 2) |QID|4985| |N|Destroy 8 Diseased Grizzlies, and then return to Mulgris Deepriver at the Writhing Haunt, Western Plaguelands.|  |M|53.73 64.66|
+C The Wildlife Suffers Too (Part 2) |QID|4985| |N|Destroy 8 Diseased Grizzlies, and then return to Mulgris Deepriver at the Writhing Haunt, Western Plaguelands.|  |M|53.73,64.66|
 
 f New flight point! |N|There is now a flight point on the east end of the road (69.2, 49.7).  Zip over there and fly back to the WARK!|
 T Return to the Bulwark (Part 3) |N|Bring the Filled Writhing Haunt Bottle to Shadow Priestess Vandis at The Bulwark, Western Plaguelands.|    |QID|5234|  |M|83,71.8|
 A Accept Target: Gahrron's Withering |N|Go to Shadow Priestess Vandis and accept Target: Gahrron's Withering|    |QID|5235|  |M|83,71.8|
 
-C Target: Gahrron's Withering |QID|5235| |N|Go to Gahrron's Withering in Western Plaguelands to locate and defeat the Cauldron Lord present there, and use its key to gain access to the cauldron.  You must have the Empty Gahrron's Withering Bottle with you to secure a sample of the poisons used inside the cauldron.|  |M|83.04 71.91|
+C Target: Gahrron's Withering |QID|5235| |N|Go to Gahrron's Withering in Western Plaguelands to locate and defeat the Cauldron Lord present there, and use its key to gain access to the cauldron.  You must have the Empty Gahrron's Withering Bottle with you to secure a sample of the poisons used inside the cauldron.|  |M|83.04,71.91|
 T Target: Gahrron's Withering |N|Go to Gahrron's Withering in Western Plaguelands to locate and defeat the Cauldron Lord present there, and use its key to gain access to the cauldron.|    |QID|5235|  |M|83,71.8|
 A Accept Return to the Bulwark (Part 4) |N|Go to Scourge Cauldron and accept Return to the Bulwark (Part 4)|    |QID|5236|  |M|83,71.8|
 

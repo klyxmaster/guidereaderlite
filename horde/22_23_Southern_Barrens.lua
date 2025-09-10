@@ -12,11 +12,11 @@ A Accept Ishamuhale |N|Go to Jorn Skyseer and accept Ishamuhale|    |QID|882| |T
 T Dogran's Captivity |N|Bring Ken'zigla's Draught to Dogran in the Barrens.|    |QID|1515|  |C|Warlock|  |M|43.3,47.9|
 A Accept Love's Gift |N|Go to Grunt Dogran and accept Love's Gift|    |QID|1512| |C|Warlock|  |M|43.3,47.9|
 
-C Egg Hunt |QID|868|  |NORAF| |N|Bring 12 Silithid Eggs and the Digging Claw to Korran at the Crossroads.|  |M|51.07 29.63|
-C Betrayal from Within (Part 1) |QID|879| |N|Kill Nak, Kuz, and Lok Orcbane and bring their skulls to Mangletooth at Camp Taurajo in the Barrens.|  |M|44.55 59.26|
-C Weapons of Choice |QID|893|  |NORAF| |N|Bring a Razormane Backstabber, a Charred Razormane Wand and a Razormane War Shield to Tatternack Steelforge at Camp Taurajo in the Barrens.|  |M|45.10 57.68|
+C Egg Hunt |QID|868|  |NORAF| |N|Bring 12 Silithid Eggs and the Digging Claw to Korran at the Crossroads.|  |M|51.07,29.63|
+C Betrayal from Within (Part 1) |QID|879| |N|Kill Nak, Kuz, and Lok Orcbane and bring their skulls to Mangletooth at Camp Taurajo in the Barrens.|  |M|44.55,59.26|
+C Weapons of Choice |QID|893|  |NORAF| |N|Bring a Razormane Backstabber, a Charred Razormane Wand and a Razormane War Shield to Tatternack Steelforge at Camp Taurajo in the Barrens.|  |M|45.10,57.68|
 A Accept Gann's Reclamation |N|Go to Gann Stonespire and accept Gann's Reclamation|    |QID|843|  |M|45.8,78.2|
-C Gann's Reclamation |QID|843| |N|Gann Stonespire wants you to kill 15 Bael'dun Excavators and 5 Bael'dun Foremen.$b$bBring Khazgorm's Journal to Gann Stonespire.|  |M|45.89 77.00|
+C Gann's Reclamation |QID|843| |N|Gann Stonespire wants you to kill 15 Bael'dun Excavators and 5 Bael'dun Foremen.$b$bBring Khazgorm's Journal to Gann Stonespire.|  |M|45.89,77.00|
 T Gann's Reclamation |N|Gann Stonespire wants you to kill 15 Bael'dun Excavators and 5 Bael'dun Foremen.|    |QID|843|  |M|45.8,78.2|
 A Accept Revenge of Gann (Part 1) |N|Go to Gann Stonespire and accept Revenge of Gann (Part 1)|    |QID|846|  |M|45.8,78.2|
 
@@ -27,7 +27,7 @@ T Weapons of Choice |N|Bring a Razormane Backstabber, a Charred Razormane Wand a
 T Betrayal from Within (Part 2) |N|Bring Lok's Skull to Thork at the Crossroads in the Barrens.|    |QID|906|  |T|  |M|51.5,30.8|
 T Egg Hunt |N|Bring 12 Silithid Eggs and the Digging Claw to Korran at the Crossroads.|    |QID|868| |T| |NORAF|  |M|51.1,29.6|
 
-C Ishamuhale |QID|882|   |PRE|Jorn Skyseer| |U|10338| |NORAF| |N|Bring Ishamuhale's Fang to Jorn at Camp Taurajo.|  |M|44.86 59.14|
+C Ishamuhale |QID|882|   |PRE|Jorn Skyseer| |U|10338| |NORAF| |N|Bring Ishamuhale's Fang to Jorn at Camp Taurajo.|  |M|44.86,59.14|
 
 T Further Instructions (Part 1)  |N|Deliver the Sealed Envelope to Sputtervalve at Ratchet in the Barrens.|    |T| |QID|1094|  |M|63,37.2|
 A Accept Further Instructions (Part 2) |N|Go to Sputtervalve and accept Further Instructions (Part 2)|    |T| |QID|1095|  |M|63,37.2|
@@ -36,6 +36,6 @@ T Deepmoss Spider Eggs |N|Bring 15 Deepmoss Eggs to Mebok Mizzyrix in Ratchet.| 
 F Orgrimmar |C|Warlock|
 T Love's Gift |N|Bring the Dirt-caked Pendant to Gan'rul Bloodeye in Orgrimmar.|    |QID|1512| |T| |C|Warlock|  |Z|Orgrimmar|  |M|48.2,45.4|
 A Accept The Binding |N|Go to Gan'rul Bloodeye and accept The Binding|    |QID|1513| |T| |C|Warlock|  |M|48.2,45.4|
-C The Binding |QID|1513| |T| |C|Warlock| |U|6626|  |Z|Orgrimmar| |N|Using Dogran's Pendant, summon and subdue a succubus, then return Dogran's Pendant to Gan'rul Bloodeye in Orgrimmar.|  |M|48.25 45.28|
+C The Binding |QID|1513| |T| |C|Warlock| |U|6626|  |Z|Orgrimmar| |N|Using Dogran's Pendant, summon and subdue a succubus, then return Dogran's Pendant to Gan'rul Bloodeye in Orgrimmar.|  |M|48.25,45.28|
 T The Binding |N|Using Dogran's Pendant, summon and subdue a succubus, then return Dogran's Pendant to Gan'rul Bloodeye in Orgrimmar.|    |QID|1513| |T| |C|Warlock|  |Z|Orgrimmar|  |M|48.2,45.4|
 ]] end)

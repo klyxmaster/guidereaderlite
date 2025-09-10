@@ -5,8 +5,8 @@ R Azshara |N|Go east dur!| |NORAF|
 
 A Accept Spiritual Unrest |N|Go to Loh'atu and accept Spiritual Unrest|    |QID|5535| |NORAF|  |M|11.4,78.1|
 A Accept A Land Filled with Hatred |N|Go to Loh'atu and accept A Land Filled with Hatred|    |QID|5536| |NORAF|  |M|11.4,78.1|
-C Spiritual Unrest  |QID|5535| |NORAF| |N|Destroy 6 Highborne Apparitions and 6 Highborne Lichlings before returning to Loh'atu in Azshara.|  |M|11.37 78.17|
-C A Land Filled with Hatred  |QID|5536| |NORAF| |N|Kill 6 Haldarr Satyr, 2 Haldarr Tricksters, 2 Haldarr Felsworn and then return to Loh'atu on the border of Ashenvale.|  |M|11.37 78.17|
+C Spiritual Unrest  |QID|5535| |NORAF| |N|Destroy 6 Highborne Apparitions and 6 Highborne Lichlings before returning to Loh'atu in Azshara.|  |M|11.37,78.17|
+C A Land Filled with Hatred  |QID|5536| |NORAF| |N|Kill 6 Haldarr Satyr, 2 Haldarr Tricksters, 2 Haldarr Felsworn and then return to Loh'atu on the border of Ashenvale.|  |M|11.37,78.17|
 T Spiritual Unrest |N|Destroy 6 Highborne Apparitions and 6 Highborne Lichlings before returning to Loh'atu in Azshara.|    |QID|5535| |NORAF|  |M|11.4,78.1|
 T A Land Filled with Hatred |N|Kill 6 Haldarr Satyr, 2 Haldarr Tricksters, 2 Haldarr Felsworn and then return to Loh'atu on the border of Ashenvale.|    |QID|5536| |NORAF|  |M|11.4,78.1|
 

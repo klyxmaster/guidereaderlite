@@ -5,7 +5,7 @@ R Badlands |N|Take the zepplin to Undercity, fly to Hammerfall, then make the lo
 T Martek the Exiled  |N|Bring Fizzle's Letter to Martek the Exiled in the Badlands.|    |QID|1106| |NORAF|  |M|42.3,52.4|
 A Accept Indurium |N|Go to Martek the Exiled and accept Indurium|    |QID|1108| |NORAF|  |M|42.3,52.4|
 A Accept Barbecued Buzzard Wings |N|Go to Rigglefuzz and accept Barbecued Buzzard Wings|    |QID|703| |NORAF|  |M|42.4,53.1|
-C Indurium  |QID|1108| |NORAF| |N|Bring 10 Indurium Flakes to Martek the Exiled in the Badlands.|  |M|42.22 52.69|
+C Indurium  |QID|1108| |NORAF| |N|Bring 10 Indurium Flakes to Martek the Exiled in the Badlands.|  |M|42.22,52.69|
 T Indurium |N|Bring 10 Indurium Flakes to Martek the Exiled in the Badlands.|    |QID|1108| |NORAF|  |M|42.3,52.4|
 A Accept News for Fizzle |N|Go to Martek the Exiled and accept News for Fizzle|    |QID|1137| |NORAF|  |M|42.3,52.4|
 A Accept Study of the Elements: Rock (Part 1) |N|Go to Lotwil Veriatus and accept Study of the Elements: Rock (Part 1)|    |QID|710| |NORAF|  |M|25.8,44.4|
@@ -17,16 +17,16 @@ A Accept Report to Helgrum |N|Go to Neeka Bloodscar and accept Report to Helgrum
 A Accept Broken Alliances |N|Go to Gorn and accept Broken Alliances|    |QID|782| |NORAF|  |M|2.9,45.8|
 A Accept Badlands Reagent Run |N|Go to Jarkal Mossmeld and accept Badlands Reagent Run|    |QID|2258| |NORAF|  |M|2.6,46.1|
 
-C Barbecued Buzzard Wings |QID|703| |NORAF| |N|Bring 4 Buzzard Wings to Rigglefuzz.|  |M|42.39 52.93|
-C Coyote Thieves |QID|1419| |NORAF| |N|Bring 30 Coyote Jawbones to Neeka Bloodscar in Kargath.|  |M|6.48 47.18|
-C Broken Alliances |QID|782| |NORAF| |N|Kill Boss Tho'grun and bring the Sign of the Earth to Gorn in Kargath.|  |M|2.91 45.60|
-C Badlands Reagent Run |QID|2258| |NORAF| |N|Bring 5 Buzzard Gizzards, 10 Crag Coyote Fangs, and  5 Rock Elemental Shards to Jarkal Mossmeld in Kargath, Badlands.|  |M|2.42 46.06|
-C Unclaimed Baggage  |QID|9439| |NORAF| |N|Retrieve the Advisor's Pack and Advisor's Rapier from their holding places in the Angor Fortress and return them to Advisor Sarophas at Kargath.|  |M|6.00 48.06|
-C Study of the Elements: Rock (Part 1)  |QID|710| |NORAF| |N|Find 10 Small Stone Shards and bring them to Lotwil Veriatus in the Badlands.|  |M|25.95 44.87|
+C Barbecued Buzzard Wings |QID|703| |NORAF| |N|Bring 4 Buzzard Wings to Rigglefuzz.|  |M|42.39,52.93|
+C Coyote Thieves |QID|1419| |NORAF| |N|Bring 30 Coyote Jawbones to Neeka Bloodscar in Kargath.|  |M|6.48,47.18|
+C Broken Alliances |QID|782| |NORAF| |N|Kill Boss Tho'grun and bring the Sign of the Earth to Gorn in Kargath.|  |M|2.91,45.60|
+C Badlands Reagent Run |QID|2258| |NORAF| |N|Bring 5 Buzzard Gizzards, 10 Crag Coyote Fangs, and  5 Rock Elemental Shards to Jarkal Mossmeld in Kargath, Badlands.|  |M|2.42,46.06|
+C Unclaimed Baggage  |QID|9439| |NORAF| |N|Retrieve the Advisor's Pack and Advisor's Rapier from their holding places in the Angor Fortress and return them to Advisor Sarophas at Kargath.|  |M|6.00,48.06|
+C Study of the Elements: Rock (Part 1)  |QID|710| |NORAF| |N|Find 10 Small Stone Shards and bring them to Lotwil Veriatus in the Badlands.|  |M|25.95,44.87|
 
 T Study of the Elements: Rock (Part 1) |N|Find 10 Small Stone Shards and bring them to Lotwil Veriatus in the Badlands.|    |QID|710| |NORAF|  |M|25.8,44.4|
 A Accept Study of the Elements: Rock (Part 2) |N|Go to Lotwil Veriatus and accept Study of the Elements: Rock (Part 2)|    |QID|711| |NORAF|  |M|25.8,44.4|
-C Study of the Elements: Rock (Part 2) |QID|711| |NORAF| |N|Bring 3 Large Stone Slabs to Lotwil Veriatus in the Badlands.|  |M|25.95 44.87|
+C Study of the Elements: Rock (Part 2) |QID|711| |NORAF| |N|Bring 3 Large Stone Slabs to Lotwil Veriatus in the Badlands.|  |M|25.95,44.87|
 
 T Study of the Elements: Rock (Part 2)  |N|Bring 3 Large Stone Slabs to Lotwil Veriatus in the Badlands.|    |QID|711| |NORAF|  |M|25.8,44.4|
 T Unclaimed Baggage |N|Retrieve the Advisor's Pack and Advisor's Rapier from their holding places in the Angor Fortress and return them to Advisor Sarophas at Kargath.|    |QID|9439| |NORAF|  |M|5.9,48|

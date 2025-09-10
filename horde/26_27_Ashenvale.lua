@@ -18,18 +18,18 @@ T The Lost Pages |N|Find the 12 missing pages of the Shredder Operating Manual, 
 N Warsong Scout Update |N|Talk to the Warsong Scout (71.0, 68.3) for her report.| |ITEM|16764| |NORAF|
 
 K Sharptalon |ITEM|16305| |N|South of Splintertree Post (74,71).  He's level 31, so try kiting him to the guards at the nearby outpost.|
-C Ashenvale Outrunners |QID|6503| |N|Kill 9 Ashenvale Outrunners, then return to Kuray'bin at Splintertree Outpost.|  |M|71.11 68.12|
+C Ashenvale Outrunners |QID|6503| |N|Kill 9 Ashenvale Outrunners, then return to Kuray'bin at Splintertree Outpost.|  |M|71.11,68.12|
 T Ashenvale Outrunners |N|Kill 9 Ashenvale Outrunners, then return to Kuray'bin at Splintertree Outpost.|    |QID|6503|  |M|71.1,68.2|
 
 A Accept Torek's Assault |N|Go to Torek and accept Torek's Assault|    |QID|6544|  |M|64.6,75.4|
-C Torek's Assault |QID|6544| |N|Escort Torek on his attack against Silverwing Outpost and Duriel Moonfire, then report to Ertog Ragetusk at Splintertree Post.|  |M|73.03 62.47|
+C Torek's Assault |QID|6544| |N|Escort Torek on his attack against Silverwing Outpost and Duriel Moonfire, then report to Ertog Ragetusk at Splintertree Post.|  |M|73.03,62.47|
 
 K Shadumbra |ITEM|16304| |N|Find him patrolling the area between the path towards Astranaar and the path towards Felwood (56.1, 57.4) (63.1, 48.6)|
 K Laughing Sisters |N|Near the Raynewood Retreat (61,51), looking for [Etched Phial]| |ITEM|5867|
-C Ordanus |QID|1088|  |NORAF| |N|Bring Ordanus' head to Braelyn Firehand near Sun Rock Retreat.|  |M|45.94 60.42|
-C The Sacred Flame (Part 1) |QID|1195| |U|5867| |N|Return a Filled Etched Phial to Zangen Stonehoof in Thunder Bluff.|  |M|54.97 51.41|
+C Ordanus |QID|1088|  |NORAF| |N|Bring Ordanus' head to Braelyn Firehand near Sun Rock Retreat.|  |M|45.94,60.42|
+C The Sacred Flame (Part 1) |QID|1195| |U|5867| |N|Return a Filled Etched Phial to Zangen Stonehoof in Thunder Bluff.|  |M|54.97,51.41|
 
-C Stonetalon Standstill |QID|25| |N|Dispatch 12 Befouled Water Elementals at Mystral Lake, due east of the Talondeep Path and southwest of Splintertree Post.$B$BScout the gazebo on Mystral Lake that overlooks the nearby Alliance outpost.$B$BReturn to Mastok Wrilehiss at Splintertree Post, Ashenvale.|  |M|73.67 60.00|
+C Stonetalon Standstill |QID|25| |N|Dispatch 12 Befouled Water Elementals at Mystral Lake, due east of the Talondeep Path and southwest of Splintertree Post.$B$BScout the gazebo on Mystral Lake that overlooks the nearby Alliance outpost.$B$BReturn to Mastok Wrilehiss at Splintertree Post, Ashenvale.|  |M|73.67,60.00|
 K Tideress |ITEM|16408| |N|Find him patrolling the bottom of Mystral Lake and occasionally on the island in the centre.|
 A The Befouled Element |N|Bring the Befouled Water Globe to Mastok Wrilehiss at Splintertree Post, Ashenvale.|    |QID|1918| |U|16408|  |M|73.6,60|
 K Ursangous |ITEM|16303| |N|Find him patrolling the area northwest of Mystral Lake (42.1, 66.2)|
@@ -37,8 +37,8 @@ K Ursangous |ITEM|16303| |N|Find him patrolling the area northwest of Mystral La
 A Accept Vorsha the Lasher |N|Go to Muglash and accept Vorsha the Lasher|    |QID|6641|  |NORAF|  |M|9.6,27.7|
 A Accept Naga at the Zoram Strand |N|Go to Marukai and accept Naga at the Zoram Strand|    |QID|6442| |NORAF|  |M|11.7,34.8|
 
-C Vorsha the Lasher |QID|6641|  |NORAF| |N|Keep Muglash safe as he travels to the brazier. Help him by putting the brazier out, then protect him as you fight against the Naga.$B$BIf you are successful, return to the Zoram'gar Outpost and inform the Warsong Runner of the death of Vorsha the Lasher.|  |M|12.22 34.22|
-C Naga at the Zoram Strand |QID|6442| |NORAF| |N|Bring 20 Wrathtail Heads to Marukai along the Zoram Strand.|  |M|11.69 34.91|
+C Vorsha the Lasher |QID|6641|  |NORAF| |N|Keep Muglash safe as he travels to the brazier. Help him by putting the brazier out, then protect him as you fight against the Naga.$B$BIf you are successful, return to the Zoram'gar Outpost and inform the Warsong Runner of the death of Vorsha the Lasher.|  |M|12.22,34.22|
+C Naga at the Zoram Strand |QID|6442| |NORAF| |N|Bring 20 Wrathtail Heads to Marukai along the Zoram Strand.|  |M|11.69,34.91|
 
 T Vorsha the Lasher |N|Keep Muglash safe as he travels to the brazier.|    |QID|6641|  |NORAF|  |M|12.2,34.2|
 T Naga at the Zoram Strand |N|Bring 20 Wrathtail Heads to Marukai along the Zoram Strand.|    |QID|6442| |NORAF|  |M|11.7,34.8|
@@ -46,10 +46,10 @@ A Accept Between a Rock and a Thistlefur |N|Go to Karang Amakkar and accept Betw
 A Accept Troll Charm |N|Go to Mitsuwa and accept Troll Charm|    |QID|6462| |NORAF|  |M|11.7,34.8|
 N Warsong Runner Update |N|Talk to the Warsong Runner for his report.| |ITEM|16763| |NORAF|
 
-C Between a Rock and a Thistlefur |QID|216|  |NORAF| |N|Take down 8 Thistlefur Avengers and 8 Thistlefur Shaman; most are located east of Zoram Strand in Thistlefur Village.  Once completed, return to Karang Amakkar at Zoram'gar Outpost, Ashenvale.|  |M|11.90 34.54|
+C Between a Rock and a Thistlefur |QID|216|  |NORAF| |N|Take down 8 Thistlefur Avengers and 8 Thistlefur Shaman; most are located east of Zoram Strand in Thistlefur Village.  Once completed, return to Karang Amakkar at Zoram'gar Outpost, Ashenvale.|  |M|11.90,34.54|
 A Accept Freedom to Ruul |N|Go to Ruul Snowhoof and accept Freedom to Ruul|    |QID|6482|   |NORAF|  |M|38.5,37.5|
-C Troll Charm |QID|6462|  |NORAF| |N|Bring 8 Troll Charms to Mitsuwa at the Zoram'gar Outpost.|  |M|11.65 34.85|
-C Freedom to Ruul |QID|6482| |NORAF| |N|Escort Ruul, then speak with Yama Snowhoof in Splintertree Post.|  |M|74.11 60.92|
+C Troll Charm |QID|6462|  |NORAF| |N|Bring 8 Troll Charms to Mitsuwa at the Zoram'gar Outpost.|  |M|11.65,34.85|
+C Freedom to Ruul |QID|6482| |NORAF| |N|Escort Ruul, then speak with Yama Snowhoof in Splintertree Post.|  |M|74.11,60.92|
 
 T Torek's Assault |N|Escort Torek on his attack against Silverwing Outpost and Duriel Moonfire, then report to Ertog Ragetusk at Splintertree Post.|    |QID|6544|  |M|73.1,62.4|
 T Stonetalon Standstill |N|Dispatch 12 Befouled Water Elementals at Mystral Lake, due east of the Talondeep Path and southwest of Splintertree Post.|    |QID|25|  |M|73.6,60|
@@ -63,9 +63,9 @@ T Sharptalon's Claw |N|Bring Sharptalon's Claw to Senani Thunderheart at Splinte
 T Ursangous's Paw |N|Bring Ursangous's Paw to Senani Thunderheart at Splintertree Post, Ashenvale.|    |QID|23|  |M|73.7,61.4|
 T Shadumbra's Head |N|Bring Shadumbra's Head to Senani Thunderheart at Splintertree Post, Ashenvale.|    |QID|24|  |M|73.7,61.4|
 
-C Satyr Horns |QID|6441|  |NORAF| |N|Collect 16 Satyr Horns for Pixel in Splintertree Post.|  |M|73.06 61.48|
+C Satyr Horns |QID|6441|  |NORAF| |N|Collect 16 Satyr Horns for Pixel in Splintertree Post.|  |M|73.06,61.48|
 N Warsong Outrider Update |N|Find the Warsong Outrider patrolling on the road for her report.| |ITEM|16765| |NORAF|
-C Destroy the Legion |QID|9534| |N|Slay 6 Mannoroc Lashers, 6 Felguards and 6 Searing Infernals, and then return to Valusha at Splintertree Post in Ashenvale.|  |M|73.23 60.39|
+C Destroy the Legion |QID|9534| |N|Slay 6 Mannoroc Lashers, 6 Felguards and 6 Searing Infernals, and then return to Valusha at Splintertree Post in Ashenvale.|  |M|73.23,60.39|
 
 T Destroy the Legion |N|Slay 6 Mannoroc Lashers, 6 Felguards and 6 Searing Infernals, and then return to Valusha at Splintertree Post in Ashenvale.|    |QID|9534|  |M|73.3,60.4|
 T Satyr Horns |N|Collect 16 Satyr Horns for Pixel in Splintertree Post.|    |QID|6441| |NORAF|  |M|73.1,61.4|

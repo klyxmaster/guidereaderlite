@@ -18,14 +18,14 @@ T The Sunken Temple |N|Find Marvon Rivetseeker in Tanaris.|    |QID|3380|  |M|52
 A Accept The Stone Circle |N|Go to Marvon Rivetseeker and accept The Stone Circle|    |QID|3444| |NORAF|  |M|52.7,45.9|
 A Accept Gahz'ridian |N|Go to Marvon Rivetseeker and accept Gahz'ridian|    |QID|3161|  |M|52.7,45.9|
 
-C The Dunemaul Compound  |QID|5863| |N|Andi Lynn in Gadgetzan wants you to destroy the Dunemaul Compound by killing 10 Dunemaul Brutes, 10 Dunemaul Enforcers, and Gor'marok the Ravager.|  |M|52.82 27.40|
-C Gahz'ridian |QID|3161| |N|Marvon Rivetseeker in Tanaris wants you to collect 30 Gahz'ridian Ornaments.|  |M|52.71 45.92|
-C Noxious Lair Investigation  |QID|82| |NORAF| |N|Bring five Centipaar insect parts from the Noxious Lair to Alchemist Pestlezugg in Gadgetzan.|  |M|50.89 26.96|
-C Thistleshrub Valley  |QID|3362| |NORAF| |N|Tran'rek in Gadgetzan wants you to kill 8 Gnarled Thistleshrubs and 8 Thistleshrub Rootshapers.|  |M|51.57 26.76|
-C The Thirsty Goblin  |QID|2605| |NORAF| |N|Collect a Laden Dew Gland and bring it to Marin Noggenfogger in Gadgetzan.|  |M|51.81 28.66|
+C The Dunemaul Compound  |QID|5863| |N|Andi Lynn in Gadgetzan wants you to destroy the Dunemaul Compound by killing 10 Dunemaul Brutes, 10 Dunemaul Enforcers, and Gor'marok the Ravager.|  |M|52.82,27.40|
+C Gahz'ridian |QID|3161| |N|Marvon Rivetseeker in Tanaris wants you to collect 30 Gahz'ridian Ornaments.|  |M|52.71,45.92|
+C Noxious Lair Investigation  |QID|82| |NORAF| |N|Bring five Centipaar insect parts from the Noxious Lair to Alchemist Pestlezugg in Gadgetzan.|  |M|50.89,26.96|
+C Thistleshrub Valley  |QID|3362| |NORAF| |N|Tran'rek in Gadgetzan wants you to kill 8 Gnarled Thistleshrubs and 8 Thistleshrub Rootshapers.|  |M|51.57,26.76|
+C The Thirsty Goblin  |QID|2605| |NORAF| |N|Collect a Laden Dew Gland and bring it to Marin Noggenfogger in Gadgetzan.|  |M|51.81,28.66|
 
 A Accept Tooga's Quest |N|Go to Tooga and accept Tooga's Quest|    |QID|1560| |NORAF|  |M|30.8,71|
-C Tooga's Quest |QID|1560| |NORAF| |N|Show Tooga the way back to his wife, Torta.|  |M|66.58 25.67|
+C Tooga's Quest |QID|1560| |NORAF| |N|Show Tooga the way back to his wife, Torta.|  |M|66.58,25.67|
 T Tooga's Quest |N|Show Tooga the way back to his wife, Torta.|    |QID|1560| |NORAF|  |M|66.4,25.7|
 T Screecher Spirits |N|Capture the spirits of 3 screechers in Feralas, then return to Yeh'kinya in Steamwheedle Port.|    |QID|3520| |NORAF|  |M|66.9,22.4|
 
@@ -40,7 +40,7 @@ A Accept The Scrimshank Redemption |N|Go to Senior Surveyor Fizzledowser and acc
 T Thistleshrub Valley |N|Tran'rek in Gadgetzan wants you to kill 8 Gnarled Thistleshrubs and 8 Thistleshrub Rootshapers.|    |QID|3362| |NORAF|  |M|51.6,26.8|
 
 T Gahz'ridian |N|Marvon Rivetseeker in Tanaris wants you to collect 30 Gahz'ridian Ornaments.|    |QID|3161|  |M|52.7,45.9|
-C The Scrimshank Redemption  |QID|10| |NORAF| |N|Discover the fate of Junior Surveyor Scrimshank, and bring either him or his surveying equipment to Senior Surveyor Fizzledowser in Gadgetzan.|  |M|50.21 27.48|
+C The Scrimshank Redemption  |QID|10| |NORAF| |N|Discover the fate of Junior Surveyor Scrimshank, and bring either him or his surveying equipment to Senior Surveyor Fizzledowser in Gadgetzan.|  |M|50.21,27.48|
 A Find OOX-17/TN! |N|Bring the distress beacon to Oglethorpe's homing robot.|    |QID|351| |NORAF| |U|8623|   |M|59.9,61.7|
 T Find OOX-17/TN! |N|Bring the distress beacon to Oglethorpe's homing robot.|    |QID|351| |NORAF|   |M|59.9,61.7|
 

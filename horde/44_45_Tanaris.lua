@@ -33,19 +33,19 @@ A Accept Southsea Shakedown |N|Go to Security Chief Bilgewhizzle and accept Sout
 T Stoley's Debt |N|Speak with Stoley in Steamwheedle Port.|    |QID|2872|  |M|67.1,23.9|
 A Accept Stoley's Shipment |N|Go to Stoley and accept Stoley's Shipment|    |QID|2873|  |M|67.1,23.9|
 
-C Water Pouch Bounty |QID|1707| |NORAF| |N|Bring 5 Wastewander Water Pouches to Spigot Operator Luglunket in Gadgetzan.|  |M|52.49 28.45|
-C Wastewander Justice  |QID|1690| |N|Take down 10 Wastewander Bandits and Thieves east of Gadgetzan, then report back to Chief Engineer Bilgewhizzle.|  |M|52.46 28.51|
+C Water Pouch Bounty |QID|1707| |NORAF| |N|Bring 5 Wastewander Water Pouches to Spigot Operator Luglunket in Gadgetzan.|  |M|52.49,28.45|
+C Wastewander Justice  |QID|1690| |N|Take down 10 Wastewander Bandits and Thieves east of Gadgetzan, then report back to Chief Engineer Bilgewhizzle.|  |M|52.46,28.51|
 
-C WANTED: Andre Firebeard  |QID|2875| |N|Bring Andre's Head to Security Chief Bilgewhizzle in Steamwheedle Port.|  |M|67.06 23.89|
-C Stoley's Shipment  |QID|2873| |N|Bring Stoley's Shipment to Stoley in Steamwheedle Port.|  |M|67.11 23.98|
-C Pirate Hats Ahoy! |QID|8365| |NORAF| |N|Haughty Modiste wants you to collect 20 Southsea Pirate Hats and return them to her at Steamwheedle Port in Tanaris.|  |M|66.56 22.27|
-C Southsea Shakedown |QID|8366| |N|Security Chief Bilgewhizzle of Steamwheedle Port in Tanaris wants you to kill 10 Southsea Pirates, 10 Southsea Freebooters, 10 Southsea Dock Workers and 10 Southsea Swashbucklers.|  |M|67.06 23.89|
+C WANTED: Andre Firebeard  |QID|2875| |N|Bring Andre's Head to Security Chief Bilgewhizzle in Steamwheedle Port.|  |M|67.06,23.89|
+C Stoley's Shipment  |QID|2873| |N|Bring Stoley's Shipment to Stoley in Steamwheedle Port.|  |M|67.11,23.98|
+C Pirate Hats Ahoy! |QID|8365| |NORAF| |N|Haughty Modiste wants you to collect 20 Southsea Pirate Hats and return them to her at Steamwheedle Port in Tanaris.|  |M|66.56,22.27|
+C Southsea Shakedown |QID|8366| |N|Security Chief Bilgewhizzle of Steamwheedle Port in Tanaris wants you to kill 10 Southsea Pirates, 10 Southsea Freebooters, 10 Southsea Dock Workers and 10 Southsea Swashbucklers.|  |M|67.06,23.89|
 
 H Gadgetzan |N|Hearth back|
 T Water Pouch Bounty |N|Bring 5 Wastewander Water Pouches to Spigot Operator Luglunket in Gadgetzan.|    |QID|1707| |NORAF|  |M|52.4,28.4|
 T Wastewander Justice |N|Take down 10 Wastewander Bandits and Thieves east of Gadgetzan, then report back to Chief Engineer Bilgewhizzle.|    |QID|1690|  |M|52.4,28.4|
 A Accept More Wastewander Justice |N|Go to Chief Engineer Bilgewhizzle and accept More Wastewander Justice|    |QID|1691|  |M|52.4,28.4|
-C Gadgetzan Water Survey  |QID|992| |N|Use the untapped dowsing widget near the pool of water by Sandsorrow Watch.  Once you have collected the sample, return the tapped dowsing widget to Senior Surveyor Fizzledowser in Gadgetzan.|  |M|50.21 27.48|
+C Gadgetzan Water Survey  |QID|992| |N|Use the untapped dowsing widget near the pool of water by Sandsorrow Watch.  Once you have collected the sample, return the tapped dowsing widget to Senior Surveyor Fizzledowser in Gadgetzan.|  |M|50.21,27.48|
 T Gadgetzan Water Survey |N|Use the untapped dowsing widget near the pool of water by Sandsorrow Watch.|    |QID|992|  |M|50.2,27.4|
 
 T Pirate Hats Ahoy!  |N|Haughty Modiste wants you to collect 20 Southsea Pirate Hats and return them to her at Steamwheedle Port in Tanaris.|    |QID|8365| |NORAF|  |M|66.5,22.3|
@@ -56,8 +56,8 @@ T WANTED: Andre Firebeard |N|Bring Andre's Head to Security Chief Bilgewhizzle i
 A Ship Schedules |N|Report the Ship Schedules to an authority in Steamwheedle Port.|    |U|9250|  |QID|2876|  |M|67,23.9|
 T Ship Schedules |N|Report the Ship Schedules to an authority in Steamwheedle Port.|     |QID|2876|  |M|67,23.9|
 
-C More Wastewander Justice  |QID|1691| |N|Take down 10 Wastewander Shadow Mages, 8 Wastewander Rogues, and 6 Wastewander Assassins for Chief Engineer Bilgewhizzle in Gadgetzan.$B|  |M|52.46 28.51|
-C WANTED: Caliph Scorpidsting  |QID|2781| |N|Bring the head of Caliph Scorpidsting to Chief Engineer Bilgewhizzle in Gadgetzan.|  |M|52.46 28.51|
+C More Wastewander Justice  |QID|1691| |N|Take down 10 Wastewander Shadow Mages, 8 Wastewander Rogues, and 6 Wastewander Assassins for Chief Engineer Bilgewhizzle in Gadgetzan.$B|  |M|52.46,28.51|
+C WANTED: Caliph Scorpidsting  |QID|2781| |N|Bring the head of Caliph Scorpidsting to Chief Engineer Bilgewhizzle in Gadgetzan.|  |M|52.46,28.51|
 
 H Gadgetzan |N|Hearth back|
 T More Wastewander Justice |N|Take down 10 Wastewander Shadow Mages, 8 Wastewander Rogues, and 6 Wastewander Assassins for Chief Engineer Bilgewhizzle in Gadgetzan.|    |QID|1691|  |M|52.4,28.4|

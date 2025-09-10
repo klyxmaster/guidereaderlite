@@ -13,14 +13,14 @@ A Accept Little Morsels |N|Go to Cersei Dusksinger and accept Little Morsels|   
 T Report to Helgrum |N|Bring Neeka's Report to Helgrum the Swift in Stonard.|    |T| |QID|1420| |NORAF|  |M|47.8,55.2|
 A Accept Pool of Tears |N|Go to Fel'zerul and accept Pool of Tears|    |T| |QID|1424| |NORAF|  |M|47.9,55|
 
-C Lack of Surplus  |QID|699| |NORAF| |N|Bring 6 Sawtooth Snapper Claws to Tok'Kar in the Swamp of Sorrows.|  |M|81.32 80.97|
-C Pool of Tears  |QID|1424| |NORAF| |N|Fel'zerul in Stonard wants you to gather 5 Atal'ai Artifacts.|  |M|47.93 54.78|
+C Lack of Surplus  |QID|699| |NORAF| |N|Bring 6 Sawtooth Snapper Claws to Tok'Kar in the Swamp of Sorrows.|  |M|81.32,80.97|
+C Pool of Tears  |QID|1424| |NORAF| |N|Fel'zerul in Stonard wants you to gather 5 Atal'ai Artifacts.|  |M|47.93,54.78|
 
 T Lack of Surplus  |N|Bring 6 Sawtooth Snapper Claws to Tok'Kar in the Swamp of Sorrows.|    |QID|699| |NORAF|  |M|81.3,80.3|
 
-C Dream Dust in the Swamp  |QID|1116| |NORAF| |N|Bring 10 Specks of Dream Dust to Krazek in Booty Bay.  Dream Dust is gathered from the dragon whelps of the Swamp of Sorrows.|  |M|26.94 77.21|
-C Little Morsels  |QID|9440| |NORAF| |N|Feed the Fel-Tainted Morsels to the Lost Ones' captured animals.  Then return the leftovers to Cersei Dusksinger at Stonard in the Swamp of Sorrows.|  |M|47.81 54.95|
-C Draenethyst Crystals |QID|1389| |NORAF| |N|Bring 6 Draenethyst crystals to Magtoor at The Harborage in the Swamp of Sorrows.|  |M|25.98 31.40|
+C Dream Dust in the Swamp  |QID|1116| |NORAF| |N|Bring 10 Specks of Dream Dust to Krazek in Booty Bay.  Dream Dust is gathered from the dragon whelps of the Swamp of Sorrows.|  |M|26.94,77.21|
+C Little Morsels  |QID|9440| |NORAF| |N|Feed the Fel-Tainted Morsels to the Lost Ones' captured animals.  Then return the leftovers to Cersei Dusksinger at Stonard in the Swamp of Sorrows.|  |M|47.81,54.95|
+C Draenethyst Crystals |QID|1389| |NORAF| |N|Bring 6 Draenethyst crystals to Magtoor at The Harborage in the Swamp of Sorrows.|  |M|25.98,31.40|
 
 T Draenethyst Crystals  |N|Bring 6 Draenethyst crystals to Magtoor at The Harborage in the Swamp of Sorrows.|    |QID|1389| |NORAF|  |M|26,31.6|
 

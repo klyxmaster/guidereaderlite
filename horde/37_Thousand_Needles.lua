@@ -22,7 +22,7 @@ T Encrusted Tail Fins |N|Bring 10 Encrusted Tail Fins to Wizzle Brassbolts in th
 A Accept The Rumormonger |N|Go to Kravel Koalbeard and accept The Rumormonger|    |QID|1115| |NORAF|  |M|77.8,77.2|
 
 A Parts of the Swarm (Part 1) |N|Bring 1 Silithid Heart, 5 Silithid Talons, and 3 Intact Silithid Carapaces, to Korran at the Crossroads.|    |QID|1148| |NORAF| |U|5877|  |M|51.1,29.6|
-C Parts of the Swarm (Part 1) |QID|1148| |NORAF| |N|Bring 1 Silithid Heart, 5 Silithid Talons, and 3 Intact Silithid Carapaces, to Korran at the Crossroads.|  |M|51.07 29.63|
+C Parts of the Swarm (Part 1) |QID|1148| |NORAF| |N|Bring 1 Silithid Heart, 5 Silithid Talons, and 3 Intact Silithid Carapaces, to Korran at the Crossroads.|  |M|51.07,29.63|
 
 H The Crossroads |NORAF| |N|Hearth back|
 T Parts of the Swarm (Part 1) |N|Bring 1 Silithid Heart, 5 Silithid Talons, and 3 Intact Silithid Carapaces, to Korran at the Crossroads.|    |QID|1148| |NORAF| |T|  |M|51.1,29.6|

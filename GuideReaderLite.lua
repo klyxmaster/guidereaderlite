@@ -33,6 +33,7 @@ GRL.trace = GRL.trace or false
 GRL.frame = GRL.frame or CreateFrame("Frame", "GuideReaderLiteFrame", UIParent)
 GRL._sticky = GRL._sticky or {}
 
+GRL.AutoAdvance = true
 
 ---------------------------------------------------------------
 -- Per-Character State & DB
@@ -634,6 +635,8 @@ local function parseTags(seg)
     -- sticky flags (presence-only)
     t.S  = (t.S  ~= nil and t.S  ~= false)
     t.US = (t.US ~= nil and t.US ~= false)
+	t.AA = (t.AA ~= nil and t.AA ~= false) -- auto advance on directions
+
 	
     return t
 end
@@ -643,7 +646,9 @@ local function extractCoordsFromText(t, rawline)
     if not t then return end
     local coordStr = t.M or t.WM
     if not coordStr or coordStr == "" then return end
-    local x, y = tostring(coordStr):match("([%d%.]+)%s*[,%s]%s*([%d%.]+)")
+    -- Accept: "24,18"  "24.8, 18.2"  "24 18"  "24; 18"
+	local x, y = tostring(coordStr):match("(%d+%.?%d*)%s*[,;%s]+%s*(%d+%.?%d*)")
+
     if x and y then t._mx, t._my = tonumber(x), tonumber(y) end
 end
 
@@ -678,7 +683,7 @@ function GRL:IsStepDone(i)
         result = true
     end
 
-    if t.qid or (a == "C" and t.qids and #t.qids > 0) then
+    if t.qid or a == "H" or a == "h" or (a == "C" and t.qids and #t.qids > 0) then
 
         if self.turnedinquests[t.qid] then
             result = true
@@ -770,8 +775,13 @@ function GRL:IsStepDone(i)
     end
 
     if a == "R" then
-        result = false
-    end
+		if t.AA and self._arrivedAtStep == i then
+			result = true
+		else
+			result = false
+		end
+	end
+
 
     if a == "Z" then
         result = false
@@ -884,10 +894,13 @@ end
 
 
 
-function GRL:ShowPointer()
+function GRL:ShowPointer(idx, force)
+
     local i  = self.current or 1
     local t  = self.tags and self.tags[i]
     local a  = self.actions and self.actions[i]
+    -- Do NOT clear _arrivedAtStep here! It's cleared only on step change.
+
     self:DebugStepAdvance("ShowPointer: step", i, "coords", t and t._mx, t and t._my)
 	
 	if t and t._zonehint and t._zonehint ~= "" then
@@ -919,7 +932,7 @@ function GRL:ShowPointer()
         end
     end) end
 
-    if not t or not t._mx or not t._my or self:IsStepDone(i) then
+    if not t or not t._mx or not t._my or (self:IsStepDone(i) and not force) then
         local function renuke() if self._nukeTicket == ticket then self:_TTNuke() end end
         renuke()
         self:After(0.10, renuke)
@@ -946,6 +959,12 @@ function GRL:ShowPointer()
     self._nukeTicket = self._nukeTicket + 1
     self._allowArrow = true
 
+	-- Auto-advance on arrival for R steps with |AA|
+	if a == "R" and t and t.AA and t._mx and t._my then
+		self:_StartNavWatch(i, tonumber(t._mx), tonumber(t._my), 0.05) -- 0.05% threshold
+	end
+
+
     local function place(c, z)
         local uid, used
 
@@ -958,7 +977,8 @@ function GRL:ShowPointer()
             if ok and r then uid, used = r, "AddWaypoint %" end
         end
         if not uid and TomTom.AddWaypoint then
-            local ok, r = pcall(function() return TomTom:AddWaypoint(fx, fy, desc) end)
+            local ok, r = pcall(function() return TomTom:AddWaypoint(fx, fy, { title = tostring(desc) }) end)
+
             if ok and r then uid, used = r, "AddWaypoint frac" end
         end
         if not uid then
@@ -971,9 +991,13 @@ function GRL:ShowPointer()
                 if ok and r then uid, used = r, "AddMFWaypoint" end
             end
         end
+		
+		 if uid then
+			self._tt_uid = uid
+		end
 
         if uid and TomTom.SetCrazyArrow then
-            pcall(function() TomTom:SetCrazyArrow(uid, 5, desc) end)
+            pcall(function() TomTom:SetCrazyArrow(uid, 3, desc) end) -- hide arrow after 6feet
         end
         self:DebugStepAdvance("Pointer set with:", used or "none",
             string.format("pxy=%.2f,%.2f  fxy=%.2f,%.2f", px, py, fx, fy))
@@ -994,11 +1018,70 @@ function GRL:ShowPointer()
 		local z = (GetCurrentMapZone and GetCurrentMapZone()) or 0
 		place(c, z)
 	end
+	
+	end
 
+
+-- === Proximity watcher for |AA| (auto-advance on arrival) ===
+GRL._navWatchFrame = GRL._navWatchFrame or CreateFrame("Frame")
+GRL._navWatchTarget = GRL._navWatchTarget or nil
+
+local function _grl_GetPlayerXY()
+    local x, y = 0, 0
+    if SetMapToCurrentZone then SetMapToCurrentZone() end
+    if GetPlayerMapPosition then
+        local px, py = GetPlayerMapPosition("player")
+        if px and py then x, y = px, py end -- 0-1
+    end
+    return x, y
 end
 
+function GRL:_StartNavWatch(stepIndex, mx_percent, my_percent, thresh_percent)
+	DEFAULT_CHAT_FRAME:AddMessage(("GRL navwatch start: step=%s target=%.2f,%.2f thr=%.4f%%")
+    :format(stepIndex, mx_percent or -1, my_percent or -1, thresh_percent or -1))
+
+    -- Use map-percent only; 0.25% default is ~very close
+    local tx, ty = (mx_percent or 0)/100, (my_percent or 0)/100
+    local pct_thresh = (thresh_percent or 0.25) / 100  -- default 0.25%
+
+    self._navWatchTarget = { i = stepIndex, x = tx, y = ty, th = pct_thresh }
+
+    local acc = 0
+    GRL._navWatchFrame:SetScript("OnUpdate", function(_, dt)
+        acc = acc + (dt or 0)
+        if acc < 0.20 then return end  -- ~5x/sec
+        acc = 0
+
+        local t = GRL._navWatchTarget
+        if not t then return end
+        if (GRL.current or 0) ~= t.i then
+            GRL._navWatchTarget = nil
+            GRL._navWatchFrame:SetScript("OnUpdate", nil)
+            return
+        end
+
+        -- Pure map-percent distance (0..1)
+        local px, py = _grl_GetPlayerXY()
+        local dx, dy = (px - t.x), (py - t.y)
+		
+		DEFAULT_CHAT_FRAME:AddMessage(("GRL navwatch d2=%.6f  th2=%.6f  px=%.4f py=%.4f")
+  :format(dx*dx + dy*dy, t.th * t.th, px, py))
+
+
+        if (dx*dx + dy*dy) <= (t.th * t.th) then
+            GRL._arrivedAtStep = t.i
+            GRL._navWatchTarget = nil
+            GRL._navWatchFrame:SetScript("OnUpdate", nil)
+            if GRL.AutoAdvance then GRL:AutoAdvance(true) end
+        end
+    end)
+end
+
+
+
+
 function GRL:UpdateStatusFrame()
-    local i = self.current or 1
+    local i = idx or self.current or 1
     local total = #(self.actions or {})
     while i <= total and not self:IsStepForPlayer(i) do
         i = i + 1
@@ -1096,6 +1179,7 @@ end
 -- Per-Character Guide Save/Load Logic
 ---------------------------------------------------------------
 function GRL:LoadGuide(name, quiet)
+	self._arrivedAtStep = nil
     local rec = self.guides[name]
     if not rec then 
         if not quiet then say("|cffff5555guide not found:|r "..tostring(name)) end
@@ -1134,6 +1218,7 @@ function GRL:LoadGuide(name, quiet)
 end
 
 function GRL:NextStep()
+	self._arrivedAtStep = nil
     if not self.actions then return end
     local i = self.current or 1
     i = i + 1
@@ -1169,6 +1254,7 @@ function GRL:NextStep()
 end
 
 function GRL:PrevStep()
+	self._arrivedAtStep = nil
     if not self.actions then return end
     local i = self.current or 1
     repeat
@@ -1177,7 +1263,7 @@ function GRL:PrevStep()
     if i >= 1 then
         self.current = i
         self:RememberStep(); self:UpdateStatusFrame()
-        self:ShowPointer()
+        self:ShowPointer(self.current, true)
     end
 end
 
@@ -1390,4 +1476,176 @@ SlashCmdList.GUIDEREADERLITE = function(msg)
         return
     end
     say("unknown command")
+end
+
+-- === GRL Auto-Resume (append-only) ===
+GRL.auto_resume = false  -- set false to disable auto jump on login
+
+local function _grl_GetPlayerXY()
+  local x, y = 0, 0
+  local m = GetCurrentMapContinent and GetCurrentMapContinent() or 0
+  if SetMapToCurrentZone then SetMapToCurrentZone() end
+  if GetPlayerMapPosition then
+    local px, py = GetPlayerMapPosition("player")
+    if px and py then x, y = px*100, py*100 end  -- percent units
+  end
+  return x, y
+end
+
+function GRL:ResumeNearest()
+  if not (self.actions and self.tags) then return end
+  local zone = GetRealZoneText and GetRealZoneText() or nil
+  local px, py = _grl_GetPlayerXY()
+  local best_i, best_d2 = nil, 1e12
+
+  for i=1,#self.actions do
+    local t = self.tags[i]
+    if t then
+      local a = self.actions[i]
+      local qid = t.qid or (t.qids and t.qids[1])
+      -- hearth / flight / vendor steps are not great resume points; bias toward quest steps
+      local prefer = (a == "C" or a == "T" or a == "A")
+      -- consider only not-done steps
+      if not self:IsStepDone(i, true) then
+        local mx, my = t._mx, t._my
+        local zhint = t._zonehint
+        local zone_ok = (not zhint) or (zone and zhint == zone)
+        if mx and my and zone_ok then
+          local dx, dy = (mx - px), (my - py)
+          local d2 = dx*dx + dy*dy
+          -- prefer quest steps by shrinking their distance score
+          if prefer then d2 = d2 * 0.5 end
+          if d2 < best_d2 then best_i, best_d2 = i, d2 end
+        elseif (not best_i) and zone_ok and prefer then
+          -- no coords but good action in same zone: fallback candidate
+          best_i, best_d2 = i, 9e11
+        end
+      end
+    end
+  end
+
+  if best_i then
+    self.current = best_i
+	self:RememberStep()
+	self:UpdateStatusFrame()
+	self:ShowPointer()
+
+    self:DebugStepAdvance("AutoResume → step "..best_i)
+  end
+end
+
+-- run once on login, after everything loads
+do
+  local f = CreateFrame("Frame")
+  f:RegisterEvent("PLAYER_ENTERING_WORLD")
+  f:SetScript("OnEvent", function()
+    if GRL and GRL.auto_resume and not GRL._didAutoResume then
+      GRL._didAutoResume = true
+      GRL:After(1.0, function() GRL:ResumeNearest() end)
+    end
+  end)
+end
+
+-- /grl resume command
+SLASH_GRLRESUME1 = "/grlresume"
+SLASH_GRLRESUME2 = "/grlresume!"
+SLASH_GRLRESUME3 = "/grlresume1"
+SlashCmdList.GRLRESUME = function() if GRL then GRL:ResumeNearest() end end
+
+
+-- === GRL Hotspot Lead Mode (append-only) ===
+GRL.lead_mode = true   -- default ON. Toggle with /grl lead on|off
+
+-- prefer hotspots for C-steps (even if |M| exists)
+function GRL:_MaybeLeadWithHotspot(t)
+  if not self.lead_mode then return false end
+  if not t then return false end
+  local a = t.a or t._action
+  if a ~= "C" then return false end
+  local qid = t.qid or (t.qids and t.qids[1])
+  if not qid then return false end
+
+  if GRL_HOTSPOT_BYENTRY and t.entry and GRL_HOTSPOT_BYENTRY[qid] and GRL_HOTSPOT_BYENTRY[qid][t.entry] then
+    local r = GRL_HOTSPOT_BYENTRY[qid][t.entry]
+    if r and r.x and r.y then
+      add_tt(r.map, r.x, r.y, ("Hunt: %s"):format(r.mob or "targets"))
+      return true
+    end
+  end
+  if GRL_HOTSPOT_BEST and GRL_HOTSPOT_BEST[qid] then
+    local r = GRL_HOTSPOT_BEST[qid]
+    if r and r.x and r.y then
+      add_tt(r.map, r.x, r.y, ("Hunt: %s"):format(r.mob or "targets"))
+      return true
+    end
+  end
+  return false
+end
+
+-- Hook your pointer setter ONCE to prefer hotspots for C-steps.
+-- prefer hotspots for C steps, but FALL BACK cleanly
+if not GRL._lead_hooked then
+  GRL._lead_hooked = true
+  local _orig_ShowPointer = GRL.ShowPointer
+
+  function GRL:_MaybeLeadWithHotspot(t)
+    if not (self and self.lead_mode and t) then return false end
+
+    -- action must be C
+    local a = self.actions and self.actions[self.current]
+    if a ~= "C" then return false end
+
+    -- get qid
+    local qid = t.qid or (t.qids and t.qids[1])
+    if not qid then return false end
+
+    -- choose record (per-entry, then best)
+    local r
+    if GRL_HOTSPOT_BYENTRY and t.entry and GRL_HOTSPOT_BYENTRY[qid] then
+      r = GRL_HOTSPOT_BYENTRY[qid][t.entry]
+    end
+    if not r and GRL_HOTSPOT_BEST then r = GRL_HOTSPOT_BEST[qid] end
+    if not (r and type(r.x)=="number" and type(r.y)=="number") then
+      if GRL.lead_debug then DEFAULT_CHAT_FRAME:AddMessage("GRL lead: no hotspot for QID "..qid) end
+      return false
+    end
+
+    local map = r.map or (GetCurrentMapAreaID and GetCurrentMapAreaID()) or nil
+    if not map then
+      if GRL.lead_debug then DEFAULT_CHAT_FRAME:AddMessage("GRL lead: no map for QID "..qid) end
+      return false
+    end
+
+    if GRL.lead_debug then
+      DEFAULT_CHAT_FRAME:AddMessage(("GRL lead: QID %s → %.1f,%.1f (map %s)"):format(qid, r.x, r.y, tostring(map)))
+    end
+
+    -- your helper takes (mapID, x, y, title)
+    add_tt(map, r.x, r.y, ("Hunt: %s"):format(r.mob or "targets"))
+    return true
+  end
+
+  function GRL:ShowPointer(i, ...)
+    local idx = i or self.current
+    local t = self.tags and idx and self.tags[idx] or nil
+    if t and self:_MaybeLeadWithHotspot(t) then
+      return -- hotspot placed; skip normal pointer
+    end
+    -- IMPORTANT: pass idx on, so Prev/Next both work
+    return _orig_ShowPointer(self, idx, ...)
+  end
+end
+
+
+-- /grl lead on|off
+SLASH_GRLLEAD1="/grllead"
+SlashCmdList.GRLLEAD = function(msg)
+  msg = tostring(msg or ""):lower()
+  if msg:find("on") then GRL.lead_mode = true
+  elseif msg:find("off") then GRL.lead_mode = false
+  else
+    DEFAULT_CHAT_FRAME:AddMessage(("GRL lead_mode: %s (use /grllead on|off)"):format(GRL.lead_mode and "ON" or "OFF"))
+    return
+  end
+  DEFAULT_CHAT_FRAME:AddMessage(("GRL lead_mode set to %s"):format(GRL.lead_mode and "ON" or "OFF"))
 end

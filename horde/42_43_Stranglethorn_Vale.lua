@@ -13,23 +13,23 @@ A Accept Voodoo Dues |N|Go to Sea Wolf" MacKinley and accept Voodoo Dues|    |T|
 A Accept Stoley's Debt |N|Go to Sea Wolf" MacKinley and accept Stoley's Debt|    |T| |QID|2872|  |M|27.8,77.1|
 A Accept Keep An Eye Out |N|Go to Dizzy One-Eye and accept Keep An Eye Out|    |T| |QID|576| |NORAF|  |M|28.6,75.8|
 
-C The Bloodsail Buccaneers (Part 4)  |QID|604| |N|Fleet Master Seahorn in Booty Bay wants you to kill 10 Bloodsail Swashbucklers and bring back the Bloodsail Charts and the Bloodsail Orders.|  |M|27.17 77.01|
-C Up to Snuff |QID|587| |NORAF| |N|Deeg in Booty Bay wants you to bring him 15 shares of Snuff.|  |M|26.92 77.35|
-C Keep An Eye Out  |QID|576| |NORAF| |N|Dizzy One-Eye in Booty Bay wants you to retrieve his eye from the Bloodsail Buccaneers.|  |M|28.59 75.90|
+C The Bloodsail Buccaneers (Part 4)  |QID|604| |N|Fleet Master Seahorn in Booty Bay wants you to kill 10 Bloodsail Swashbucklers and bring back the Bloodsail Charts and the Bloodsail Orders.|  |M|27.17,77.01|
+C Up to Snuff |QID|587| |NORAF| |N|Deeg in Booty Bay wants you to bring him 15 shares of Snuff.|  |M|26.92,77.35|
+C Keep An Eye Out  |QID|576| |NORAF| |N|Dizzy One-Eye in Booty Bay wants you to retrieve his eye from the Bloodsail Buccaneers.|  |M|28.59,75.90|
 
-C Akiris by the Bundle  |QID|617| |NORAF| |N|Bring 10 Bundles of Akiris Reed to Privateer Bloads in Booty Bay.|  |M|26.76 76.38|
-C Mok'thardin's Enchantment (Part 4) |QID|573| |NORAF| |N|Far Seer Mok'thardin of Grom'gol needs Holy Spring Water.  He also wants you to kill 10 Naga Explorers.|  |M|32.12 29.24|
+C Akiris by the Bundle  |QID|617| |NORAF| |N|Bring 10 Bundles of Akiris Reed to Privateer Bloads in Booty Bay.|  |M|26.76,76.38|
+C Mok'thardin's Enchantment (Part 4) |QID|573| |NORAF| |N|Far Seer Mok'thardin of Grom'gol needs Holy Spring Water.  He also wants you to kill 10 Naga Explorers.|  |M|32.12,29.24|
 
-C Raptor Mastery (Part 4) |QID|197| |NORAF| |N|Hemet Nesingwary Jr. wants you to kill Tethis, an elusive, dangerous raptor in Stranglethorn.|  |M|35.66 10.81|
-C Voodoo Dues  |QID|609| |NORAF| |N|Bring Maury's Clubbed Foot, Jon-Jon's Golden Spyglass, and Chucky's Huge Ring to "Sea Wolf"" MacKinley in Booty Bay."|  |M|27.78 77.07|
-C Zanzil's Secret |QID|621| |NORAF| |N|Bring 12 samples of Zanzil's Mixture to Crank Fizzlebub in Booty Bay.|  |M|27.12 77.21|
-C Venture Company Mining  |QID|600| |NORAF| |N|Bring 10 Singing Blue Crystals to Crank Fizzlebub in Booty Bay.|  |M|27.12 77.21|
+C Raptor Mastery (Part 4) |QID|197| |NORAF| |N|Hemet Nesingwary Jr. wants you to kill Tethis, an elusive, dangerous raptor in Stranglethorn.|  |M|35.66,10.81|
+C Voodoo Dues  |QID|609| |NORAF| |N|Bring Maury's Clubbed Foot, Jon-Jon's Golden Spyglass, and Chucky's Huge Ring to "Sea Wolf"" MacKinley in Booty Bay."|  |M|27.78,77.07|
+C Zanzil's Secret |QID|621| |NORAF| |N|Bring 12 samples of Zanzil's Mixture to Crank Fizzlebub in Booty Bay.|  |M|27.12,77.21|
+C Venture Company Mining  |QID|600| |NORAF| |N|Bring 10 Singing Blue Crystals to Crank Fizzlebub in Booty Bay.|  |M|27.12,77.21|
 
 T Raptor Mastery (Part 4)  |N|Hemet Nesingwary Jr.|    |QID|197| |NORAF|  |M|35.7,10.8|
 A Accept Big Game Hunter |N|Go to Hemet Nesingwary Jr. and accept Big Game Hunter|    |QID|208| |NORAF|  |M|35.7,10.8|
 
 T Mok'thardin's Enchantment (Part 4)  |N|Far Seer Mok'thardin of Grom'gol needs Holy Spring Water.|    |QID|573| |NORAF| |T|  |M|32.1,29.2|
-C Big Game Hunter |QID|208| |N|Hemet Nesingwary Jr. wants you to bring him the head of King Bangalash, the great white tiger.|  |M|35.66 10.81|
+C Big Game Hunter |QID|208| |N|Hemet Nesingwary Jr. wants you to bring him the head of King Bangalash, the great white tiger.|  |M|35.66,10.81|
 T Big Game Hunter |N|Hemet Nesingwary Jr.|    |QID|208|  |M|35.7,10.8|
 
 H Booty Bay |SZ|The Salty Sailor Tavern| |N|Hearth back|

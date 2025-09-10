@@ -6,8 +6,8 @@ h Orgrimmar |NORAF| |N|Make this Inn your home|
 
 F Azshara |NORAF|
 A Accept Stealing Knowledge |N|Go to Jediga and accept Stealing Knowledge|    |QID|3517| |NORAF|  |M|22.5,51.4|
-C Stealing Knowledge  |QID|3517| |NORAF| |N|Find the Tablet of Beth'Amara, the Tablet of Jin'yael, the Tablet of Markri, and the Tablet of Sael'hai before returning to Jediga in Azshara.|  |M|22.56 51.42|
-C Seeping Corruption (Part 1)  |QID|3568| |NORAF| |N|Fill all 4 Empty Vials at the tide pools along the coast of the Ruins of Eldarath in Azshara before returning to Chemist Cuely.|  |M|48.71 71.39|
+C Stealing Knowledge  |QID|3517| |NORAF| |N|Find the Tablet of Beth'Amara, the Tablet of Jin'yael, the Tablet of Markri, and the Tablet of Sael'hai before returning to Jediga in Azshara.|  |M|22.56,51.42|
+C Seeping Corruption (Part 1)  |QID|3568| |NORAF| |N|Fill all 4 Empty Vials at the tide pools along the coast of the Ruins of Eldarath in Azshara before returning to Chemist Cuely.|  |M|48.71,71.39|
 T Stealing Knowledge |N|Find the Tablet of Beth'Amara, the Tablet of Jin'yael, the Tablet of Markri, and the Tablet of Sael'hai before returning to Jediga in Azshara.|    |QID|3517| |NORAF|  |M|22.5,51.4|
 A Accept Delivery to Archmage Xylem |N|Go to Jediga and accept Delivery to Archmage Xylem|    |QID|3561| |NORAF|  |M|22.5,51.4|
 A Accept Delivery to Magatha |N|Go to Jediga and accept Delivery to Magatha|    |QID|3518| |NORAF|  |M|22.5,51.4|

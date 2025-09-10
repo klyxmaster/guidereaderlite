@@ -16,11 +16,11 @@ A Accept A Bump in the Road |N|Go to Trackmaster Zherin and accept A Bump in the
 
 K Saltstone Basilisk |Q|A Bump in the Road| |QO|Saltstone Basilisk slain: 10/10| |N|All over the northwest quadrant of the flats (73,57).  Kill all the other mobs you come across as well, and gather parts.| |NORAF|
 K Saltstone Basilisk |Q|A Bump in the Road| |QO|Saltstone Basilisk slain: 10/10| |N|North at Weazel's Crator (78.5, 63.0).| |RAF|
-C Hardened Shells |QID|1105|  |NORAF| |N|Bring 9 Hardened Tortoise Shells to Wizzle Brassbolts in the Shimmering Flats.|  |M|78.14 77.12|
-C Salt Flat Venom |QID|1104|  |NORAF| |N|Bring 6 Salty Scorpid Venoms to Fizzle Brassbolts in the Shimmering Flats.|  |M|78.06 77.13|
-C A Bump in the Road |QID|1175| |N|Kill 10 Saltstone Basilisks, 10 Saltstone Crystalhides and 6 Saltstone Gazers for Trackmaster Zherin on the Shimmering Flats.|  |M|81.63 77.95|
-C Rocket Car Parts |QID|1110| |NORAF| |N|Bring 30 Rocket Car Parts to Kravel Koalbeard in the Shimmering Flats.|  |M|77.79 77.27|
-C Load Lightening |QID|1176|  |NORAF| |N|Get 10 Hollow Vulture Bones for Pozzik in the Shimmering Flats.|  |M|80.18 75.88|
+C Hardened Shells |QID|1105|  |NORAF| |N|Bring 9 Hardened Tortoise Shells to Wizzle Brassbolts in the Shimmering Flats.|  |M|78.14,77.12|
+C Salt Flat Venom |QID|1104|  |NORAF| |N|Bring 6 Salty Scorpid Venoms to Fizzle Brassbolts in the Shimmering Flats.|  |M|78.06,77.13|
+C A Bump in the Road |QID|1175| |N|Kill 10 Saltstone Basilisks, 10 Saltstone Crystalhides and 6 Saltstone Gazers for Trackmaster Zherin on the Shimmering Flats.|  |M|81.63,77.95|
+C Rocket Car Parts |QID|1110| |NORAF| |N|Bring 30 Rocket Car Parts to Kravel Koalbeard in the Shimmering Flats.|  |M|77.79,77.27|
+C Load Lightening |QID|1176|  |NORAF| |N|Get 10 Hollow Vulture Bones for Pozzik in the Shimmering Flats.|  |M|80.18,75.88|
 
 T A Bump in the Road |N|Kill 10 Saltstone Basilisks, 10 Saltstone Crystalhides and 6 Saltstone Gazers for Trackmaster Zherin on the Shimmering Flats.|    |QID|1175|  |M|81.6,77.8|
 T Load Lightening |N|Get 10 Hollow Vulture Bones for Pozzik in the Shimmering Flats.|    |QID|1176| |NORAF|  |M|80.1,75.8|

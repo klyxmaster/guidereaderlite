@@ -5,6 +5,7 @@
 ## SavedVariablesPerCharacter: GuideReaderLiteDB
 ## X-Category: Quest
 
+data\GRL_Hotspots.lua
 GuideReaderLite.lua
 alliance\alliance.xml
 horde\horde.xml  

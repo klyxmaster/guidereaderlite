@@ -11,13 +11,13 @@ T The Princess Trapped  |N|Gather 12 Motes of Myzrael, then bring them to the Ir
 A Accept Stones of Binding |N|Go to Iridescent Shards and accept Stones of Binding|    |QID|651| |NORAF| 
 
 N Get Cresting Key |N|From Stone of East Binding (66,29)| |QID|651| |QO|Cresting Key: 1/1| |NORAF|
-C To Steal From Thieves  |NODEBUG| |QID|1164| |NORAF| |N|Bring Kenata, Fardel, and Marcel Dabyrie's Heads to Genavie Callow in Undercity.|  |M|63.83 49.45|
+C To Steal From Thieves  |NODEBUG| |QID|1164| |NORAF| |N|Bring Kenata, Fardel, and Marcel Dabyrie's Heads to Genavie Callow in Undercity.|  |M|63.83,49.45|
 N Get Thundering Key |N|From Stone of Outer Binding (52,50)| |QID|651| |QO|Thundering Key: 1/1| |NORAF|
 
-C Guile of the Raptor (Part 1) |QID|701| |NORAF| |N|Acquire 12 Raptor Hearts from Highland Fleshstalkers for Tor'gan.|  |M|74.72 36.29|
-C The Hammer May Fall  |QID|676| |NORAF| |N|Kill 8 Boulderfist Ogres and 10 Boulderfist Enforcers, then find Drum Fel in the Hammerfall outpost in Arathi Highlands.|  |M|74.24 33.92|
+C Guile of the Raptor (Part 1) |QID|701| |NORAF| |N|Acquire 12 Raptor Hearts from Highland Fleshstalkers for Tor'gan.|  |M|74.72,36.29|
+C The Hammer May Fall  |QID|676| |NORAF| |N|Kill 8 Boulderfist Ogres and 10 Boulderfist Enforcers, then find Drum Fel in the Hammerfall outpost in Arathi Highlands.|  |M|74.24,33.92|
 
-C Foul Magics  |QID|673| |NORAF| |N|Retrieve Marez Cowl's Bloodstone Orb and bring it to Tor'gan in Hammerfall.|  |M|74.72 36.29|
+C Foul Magics  |QID|673| |NORAF| |N|Retrieve Marez Cowl's Bloodstone Orb and bring it to Tor'gan in Hammerfall.|  |M|74.72,36.29|
 C Stones of Binding  |QID|651| |NORAF| |N|Gather the Burning Key, the Cresting Key and the Thundering Key from the Stone of West Binding, the Stone of East Binding and the Stone of Outer Binding.$B$BBring them to the Stone of Inner Binding.|
 T Stones of Binding  |N|Gather the Burning Key, the Cresting Key and the Thundering Key from the Stone of West Binding, the Stone of East Binding and the Stone of Outer Binding.|    |QID|651| |NORAF| 
 

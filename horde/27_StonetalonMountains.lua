@@ -5,7 +5,7 @@ T Ordanus  |N|Bring Ordanus' head to Braelyn Firehand near Sun Rock Retreat.|   
 h Sun Rock Retreat |N|Make this Inn your home|
 A Accept Bloodfury Bloodline |N|Go to Maggran Earthbinder and accept Bloodfury Bloodline|    |QID|6283|  |M|47.2,61.1|
 
-C Bloodfury Bloodline  |QID|6283| |N|Maggran at Sun Rock Retreat wishes you to slay Bloodfury Ripper and bring her remains as proof of your deed.|  |M|47.20 61.16|
+C Bloodfury Bloodline  |QID|6283| |N|Maggran at Sun Rock Retreat wishes you to slay Bloodfury Ripper and bring her remains as proof of your deed.|  |M|47.20,61.16|
 
 H Sun Rock Retreat |N|Hearth back|
 T Bloodfury Bloodline |N|Maggran at Sun Rock Retreat wishes you to slay Bloodfury Ripper and bring her remains as proof of your deed.|    |QID|6283|  |M|47.2,61.1|

@@ -11,20 +11,20 @@ A Accept Raptor Mastery (Part 1) |N|Go to Hemet Nesingwary Jr. and accept Raptor
 A Accept Tiger Mastery (Part 1) |N|Go to Ajeck Rouack and accept Tiger Mastery (Part 1)|    |QID|185|  |M|35.6,10.7|
 A Accept Panther Mastery (Part 1) |N|Go to Sir S. J. Erlgadin and accept Panther Mastery (Part 1)|    |QID|190|  |M|35.6,10.6|
 
-C Tiger Mastery (Part 1) |QID|185| |N|Ajeck Rouack of Nesingwary's Expedition wants you to kill 10 Young Stranglethorn Tigers.|  |M|35.62 10.62|
+C Tiger Mastery (Part 1) |QID|185| |N|Ajeck Rouack of Nesingwary's Expedition wants you to kill 10 Young Stranglethorn Tigers.|  |M|35.62,10.62|
 T Tiger Mastery (Part 1) |N|Ajeck Rouack of Nesingwary's Expedition wants you to kill 10 Young Stranglethorn Tigers.|    |QID|185|  |M|35.6,10.7|
 A Accept Tiger Mastery (Part 2) |N|Go to Ajeck Rouack and accept Tiger Mastery (Part 2)|    |QID|186|  |M|35.6,10.7|
 
-C Panther Mastery (Part 1) |QID|190| |N|Sir S. J. Erlgadin of Nesingwary's Expedition wants you to kill 10 Young Panthers.|  |M|35.55 10.55|
-C Tiger Mastery (Part 2) |QID|186| |N|Ajeck Rouack of Nesingwary's Expedition wants you to kill 10 Stranglethorn Tigers.|  |M|35.62 10.62|
+C Panther Mastery (Part 1) |QID|190| |N|Sir S. J. Erlgadin of Nesingwary's Expedition wants you to kill 10 Young Panthers.|  |M|35.55,10.55|
+C Tiger Mastery (Part 2) |QID|186| |N|Ajeck Rouack of Nesingwary's Expedition wants you to kill 10 Stranglethorn Tigers.|  |M|35.62,10.62|
 
 T Panther Mastery (Part 1) |N|Sir S.|    |QID|190|  |M|35.6,10.6|
 A Accept Panther Mastery (Part 2) |N|Go to Sir S. J. Erlgadin and accept Panther Mastery (Part 2)|    |QID|191|  |M|35.6,10.6|
 T Tiger Mastery (Part 2) |N|Ajeck Rouack of Nesingwary's Expedition wants you to kill 10 Stranglethorn Tigers.|    |QID|186|  |M|35.6,10.7|
 A Accept Tiger Mastery (Part 3) |N|Go to Ajeck Rouack and accept Tiger Mastery (Part 3)|    |QID|187|  |M|35.6,10.7|
 
-C Panther Mastery (Part 2) |QID|191| |N|Sir S. J. Erlgadin of Nesingwary's Expedition wants you to kill 10 Panthers.|  |M|35.55 10.55|
-C Raptor Mastery (Part 1) |QID|194| |N|Hemet Nesingwary Jr. wants you to kill 10 Stranglethorn Raptors.|  |M|35.66 10.81|
+C Panther Mastery (Part 2) |QID|191| |N|Sir S. J. Erlgadin of Nesingwary's Expedition wants you to kill 10 Panthers.|  |M|35.55,10.55|
+C Raptor Mastery (Part 1) |QID|194| |N|Hemet Nesingwary Jr. wants you to kill 10 Stranglethorn Raptors.|  |M|35.66,10.81|
 
 T Panther Mastery (Part 2) |N|Sir S.|    |QID|191|  |M|35.6,10.6|
 A Accept Panther Mastery (Part 3) |N|Go to Sir S. J. Erlgadin and accept Panther Mastery (Part 3)|    |QID|192|  |M|35.6,10.6|
