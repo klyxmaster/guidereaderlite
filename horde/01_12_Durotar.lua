@@ -72,11 +72,11 @@ A Accept Dark Storms |N|Bring Fizzle's Claw to Orgnil Soulscar in Razor Hill.| |
 A Accept Vanquish the Betrayers |N|Kill 10 Kul Tiras Sailors, 8 Kul Tiras Marines and Lieutenant Benedict and return to Gar'Thok in Razor Hill.| |Z|Durotar| |QID|784|   |M|51.95,43.50|
 A Accept Encroachment |N|Kill 4 Razormane Quilboars, 4 Razormane Scouts, 4 Razormane Dustrunners and 4 Razormane Battleguards for Gar'Thok at Razor Hill.| |Z|Durotar| |QID|837|   |M|51.95,43.50|
 T A Peon's Burden |N|Bring Ukor's Burden to Innkeeper Grosk in Razor Hill.| |Z|Durotar| |QID|2161|   |M|51.51,41.64|
-H Razor Hill |Z|Durotar| 
+H Make Razor Hill your home. |Z|Durotar| 
 A Accept Break a Few Eggs |N|Bring 3 Taillasher Eggs to Cook Torka in Razor Hill.| |Z|Durotar| |QID|815|    |M|51.11,42.45|
-A Accept Carry Your Weight |N|Furl Scornbrow in the Razor Hill watchtower wants 8 Canvas Scraps.| |Z|Durotar| |QID|791|   |M|49.88,40.39|
+A Accept Carry Your Weight |N|Go up the tower in the back. Furl Scornbrow in the Razor Hill watchtower wants 8 Canvas Scraps.| |Z|Durotar| |QID|791|   |M|49.88,40.39|
 
-C Vanquish the Betrayers |Z|Durotar| |QID|784| |N|Southeast at Tiragarde Keep. Lieutenant Benedict is inside, upstairs (59.67, 58.36).| |Q|1|  |M|51.95,43.50|
+C Vanquish the Betrayers |Z|Durotar| |QID|784| |N|Southeast at Tiragarde Keep. Lieutenant Benedict is inside, upstairs.| |Q|1|  |M|59.6 58.2|
 A Accept The Admiral's Orders (Part 1) |N|Take Admiral Proudmoore's Orders to Gar'Thok in Razor Hill.| |Z|Durotar| |U|4881| |QID|830|  |M|51.95,43.50|
 
 T The Admiral's Orders (Part 1) |N|Take Admiral Proudmoore's Orders to Gar'Thok in Razor Hill.| |Z|Durotar| |QID|830|   |M|51.95,43.50|

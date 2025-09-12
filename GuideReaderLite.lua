@@ -698,11 +698,13 @@ function GRL:IsStepDone(i)
         result = true
     end
 
-    if t.qid or a == "H" or a == "h" or (a == "C" and t.qids and #t.qids > 0) then
+    if t.qid or a == "H" or a == "h" or a == "R" or (a == "C" and t.qids and #t.qids > 0) then
 
-        if self.turnedinquests[t.qid] then
-            result = true
-        end
+        -- Only relevant to T steps; guard nil QID
+		if a == "T" and t.qid and self.turnedinquests[t.qid] then
+			result = true
+		end
+
 		
 		-- Check for multiple quest objectives completed
         if a == "C" then
@@ -752,27 +754,30 @@ function GRL:IsStepDone(i)
 		end
 
 
-         if a == "H" then
-            -- hearth/astral fired recently
-            if self._hearthAt and (GetTime() - self._hearthAt) <= 90 then
-                result = true
-            end
-        end
-        if a == "h" then
-            -- either bound very recently OR current bind location matches |N|
-            local bindLoc = GetBindLocation and GetBindLocation()
-            local expectedLoc = (t.N or ""):gsub("^%s+",""):gsub("%s+$","")
-            if bindLoc and expectedLoc ~= "" then
-                local bl = bindLoc:lower()
-                local ex = expectedLoc:lower()
-                if bl:find(ex, 1, true) then
-                    result = true
-                end
-            end
-            if self._lastBindTime and (GetTime() - self._lastBindTime) <= 45 then
-                result = true
-            end
-        end
+        -- NOTE: Convention in our guides:
+		--   H = set hearth/home (bind)
+		--   h = hearth (use Hearthstone / Astral Recall)
+		if a == "H" then
+			-- set home: succeed when we just saw the bind message OR current bind location matches |N|
+			local bindLoc = GetBindLocation and GetBindLocation()
+			local expectedLoc = (t.N or ""):gsub("^%s+",""):gsub("%s+$","")
+			if bindLoc and expectedLoc ~= "" then
+				local bl = string.lower(bindLoc or "")
+				local ex = string.lower(expectedLoc or "")
+				if bl:find(ex, 1, true) then
+					result = true
+				end
+			end
+			if self._lastBindTime and (GetTime() - self._lastBindTime) <= 45 then
+				result = true
+			end
+		end
+		if a == "h" then
+			-- hearth used recently
+			if self._hearthAt and (GetTime() - self._hearthAt) <= 90 then
+				result = true
+			end
+		end
     end
 
     if a == "U" then
