@@ -467,8 +467,6 @@ f.text:SetPoint("TOPLEFT",  f.guideName, "BOTTOMLEFT", 0, -8)
 f.text:SetPoint("RIGHT",    f, "RIGHT", -18, 0)
 f.text:SetJustifyH("LEFT")
 f.text:SetJustifyV("TOP")
-f.text:SetWordWrap(true)
-f.text:SetNonSpaceWrap(true)   -- helps long tokens; safe to keep
 f.text:SetText("No guide loaded.")
 
 -- Prev / Next
@@ -753,31 +751,25 @@ function GRL:IsStepDone(i)
 
 
         if a == "A" then
-		-- Real accept OR (resume case) quest exists in log; never complete while gossip is open.
-		local ok = false
-		if t.qid and self._recentAccepted and _recent(self._recentAccepted[t.qid], 15) then
-			ok = true
-		else
-			local inlog = t.qid and GRL_FindQuestLogIndexByID and GRL_FindQuestLogIndexByID(t.qid)
-			if inlog and not self._inGossip then ok = true end
-		end
-		result = ok
-	end
-
-
-        if a == "T" then
-			-- Advance on actual turn-in; uses recent event or turned-in cache.
+			-- Advance on explicit accept OR (resume case) if the quest is already in your log,
+			-- but never while gossip is open (so NPC-click can’t complete it).
 			local ok = false
-			if t.qid then
-				if self.turnedinquests and self.turnedinquests[t.qid] then
-					ok = true
-				elseif self._recentTurnedIn and _recent(self._recentTurnedIn[t.qid], 10) then
-					ok = true
-				end
+			if t.qid and self._recentAccepted and _recent(self._recentAccepted[t.qid], 15) then
+				ok = true
+			elseif t.qid and not self._inGossip and GRL_FindQuestLogIndexByID(t.qid) then
+				ok = true
 			end
 			result = ok
 		end
 
+
+        if a == "T" then
+			if t.qid and (self.turnedinquests[t.qid]
+				or (self._recentTurnedIn and _recent(self._recentTurnedIn[t.qid], 10))) then
+				result = true
+			end
+			-- Do NOT treat "not in log" as turned-in; prevents premature advance on gossip.
+		end
 
 
         -- NOTE: Convention in our guides:
@@ -1220,10 +1212,7 @@ function GRL:UpdateStatusFrame()
 
 
 
-    local render = (top or "") .. (note or "")
-	render = render:gsub("\\n", "\n"):gsub("<br>", "\n")
-	self.status.text:SetText(render)
-
+    self.status.text:SetText(top..note)
     if self.status.guideName then
         self.status.guideName:SetText("|cffffff00"..guideName.."|r")
     end
@@ -1469,40 +1458,21 @@ GRL:RegisterEvent("PLAYER_LOGIN", function(self)
     self:UpdateStatusFrame()
 end)
 
-GRL:RegisterEvent("QUEST_ACCEPTED", function(self, ...)
-    -- Args are (questLogIndex, questID) on Classic; some cores flip them.
-    local a, b = ...
-    local qid = tonumber(b) or tonumber(a)
-    if not qid then return end
-
-    -- Make sure caches exist
-    self._recentAccepted = self._recentAccepted or {}
-
-    -- Stamp and nudge the stepper
-    self._recentAccepted[qid] = GetTime()
-
-    -- Advance immediately on the real accept event
+GRL:RegisterEvent("QUEST_ACCEPTED", function(self, questIndex, questID)
+    if type(questID) == "number" then
+        self._recentAccepted[questID] = GetTime()
+    end
     if self.AutoAdvance then self:AutoAdvance(true) end
 end)
 
-
-GRL:RegisterEvent("QUEST_TURNED_IN", function(self, ...)
-    -- Args are (questID, xp, money)
-    local qid = tonumber((...))
-    if not qid then return end
-
-    -- Ensure caches exist
-    self._recentTurnedIn = self._recentTurnedIn or {}
-    self.turnedinquests  = self.turnedinquests  or {}
-
-    -- Mark and stamp
-    self.turnedinquests[qid]  = true
-    self._recentTurnedIn[qid] = GetTime()
-
-    -- Advance immediately on turn-in
+GRL:RegisterEvent("QUEST_TURNED_IN", function(self, questID)
+    if type(questID) == "number" then
+        self.turnedinquests = self.turnedinquests or {}
+        self.turnedinquests[questID] = true
+        self._recentTurnedIn[questID] = GetTime()
+    end
     if self.AutoAdvance then self:AutoAdvance(true) end
 end)
-
 
 GRL:RegisterEvent("PLAYER_LEAVING_WORLD", function(self) 
     self:RememberStep()

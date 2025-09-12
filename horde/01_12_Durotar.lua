@@ -1,7 +1,7 @@
 GuideReaderLite_RegisterGuide("Durotar (1-12)", "The Barrens (12-20)", "Horde", function()
 return [[
-A Accept Your Place In The World |N|Speak with Gornek.| |Z|Durotar| |QID|4641| |NODEBUG|  |M|43.29,68.53|
-T Your Place In The World |N|Speak with Gornek.| |Z|Durotar| |QID|4641| |NODEBUG|  |M|42.06,68.33|
+A Accept Your Place In The World |N|Speak with Gornek.| |Z|Durotar| |QID|4641|   |M|43.29,68.53|
+T Your Place In The World |N|Speak with Gornek.| |Z|Durotar| |QID|4641|   |M|42.06,68.33|
 A Accept Cutting Teeth |N|Kill 8 Mottled Boars then return to Gornek at the Den.| |Z|Durotar| |QID|788|  |M|42.06,68.33|
 C Cutting Teeth |Z|Durotar| |QID|788| |Q|1|  |M|42.06,68.33|
 T Cutting Teeth |N|Kill 8 Mottled Boars then return to Gornek at the Den.| |Z|Durotar| |QID|788|  |M|42.06,68.33|
@@ -77,38 +77,53 @@ A Accept Break a Few Eggs |N|Bring 3 Taillasher Eggs to Cook Torka in Razor Hill
 A Accept Carry Your Weight |N|Go up the tower in the back. Furl Scornbrow in the Razor Hill watchtower wants 8 Canvas Scraps.| |Z|Durotar| |QID|791|   |M|49.88,40.39|
 
 C Vanquish the Betrayers |Z|Durotar| |QID|784| |N|Southeast at Tiragarde Keep. Lieutenant Benedict is inside, upstairs.| |Q|1|  |M|59.6 58.2|
+E Read the Aged Envelope in your bag.  |U|4881|  |AQ|830|  |N|Right-click the Aged Envelope to start “The Admiral's Orders”.|
+A The Admiral's Orders  |QID|830|
 A Accept The Admiral's Orders (Part 1) |N|Take Admiral Proudmoore's Orders to Gar'Thok in Razor Hill.| |Z|Durotar| |U|4881| |QID|830|  |M|51.95,43.50|
 
 T The Admiral's Orders (Part 1) |N|Take Admiral Proudmoore's Orders to Gar'Thok in Razor Hill.| |Z|Durotar| |QID|830|   |M|51.95,43.50|
 A Accept The Admiral's Orders (Part 2) |N|Deliver Admiral Proudmoore's Orders to Vol'jin in Thrall's chamber in Orgrimmar.| |Z|Durotar| |QID|831|   |M|51.95,43.50|
 T Vanquish the Betrayers |N|Kill 10 Kul Tiras Sailors, 8 Kul Tiras Marines and Lieutenant Benedict and return to Gar'Thok in Razor Hill.| |Z|Durotar| |QID|784|   |M|51.95,43.50|
-A Accept From The Wreckage.... |N|Gar'Thok of Razor Hill wants you to retrieve 3 Gnomish Tools from the wreckage off the coast.| |Z|Durotar| |QID|825|  |NODEBUG|   |M|51.95,43.50|
+A Accept From The Wreckage.... |N|Gar'Thok of Razor Hill wants you to retrieve 3 Gnomish Tools from the wreckage off the coast.| |Z|Durotar| |QID|825|     |M|51.95,43.50|
 
-C From The Wreckage.... |Z|Durotar| |QID|825| |N|East of Razor Hill, off the coast (62,50).| |NODEBUG|  |Q|1|  |M|51.95,43.50|
-C A Solvent Spirit |Z|Durotar| |QID|818| |N|Along the beaches.|  |Q|1|  |M|55.94,74.39|
+R Run Here for toolbox |N|Toolbox 1 locate here. Inside Ship by the cannon |   |M|65 50.0|   |TH|0.20|
+R Run Here for toolbox |N|Toolbox 2 locate here. |   |M|64.2 53.5|   |TH|0.20|
+R Run Here for toolbox |N|Toolbox 3 locate here. |   |M|62.0 55.4|   |TH|0.20|
+R Run Here for toolbox |N|There are more this way if you don't have them all. |   |M|62.5 60.6|   |TH|0.20|
 
-C Minshina's Skull |Z|Durotar| |QID|808| |N|Echo Isles main island; skull at ritual circle (67.51, 87.72).|  |Q|1|  |M|55.95,74.72|
-C Zalazane |Z|Durotar| |QID|826| |N|Zalazane near Minshina's skull (67.05, 87.15).|  |Q|1|  |M|55.95,74.72|
-C Break a Few Eggs |Z|Durotar| |QID|815| |N|Raptor eggs around edges of the main/other islands.|  |Q|1|  |M|51.11,42.45|
-C Practical Prey |Z|Durotar| |QID|817|  |Q|1|  |M|55.96,73.93|
+C From The Wreckage.... |Z|Durotar| |QID|825| |N|East of Razor Hill, off the coast |   |Q|1|  |M|64.5 50.0|
+C A Solvent Spirit |Z|Durotar| |QID|818| |N|Run up and down this beach and in the water here..|  |Q|1|  |M|60,71|
 
-C Thwarting Kolkar Aggression |N|Kolkar Crag items to burn at (49.84, 81.18), (46.22, 78.97), (47.68, 77.44).| |Z|Durotar| |QID|786|  |Q|1|  |M|54.24,73.28|
-C Carry Your Weight |Z|Durotar| |QID|791| |N|Keep killing centaurs for the scraps.|  |Q|1|  |M|49.88,40.39|
+C Minshina's Skull |Z|Durotar| |QID|808| |N|Echo Isles main island; skull at ritual circle.|  |Q|1|  |M|67.51,87.72|
+C Zalazane |Z|Durotar| |QID|826| |N|Zalazane loops around near Minshina's skull, Kill Trolls (Hexed and Voodoo).|  |Q|1,2,3|  |M|63,84|
+C Break a Few Eggs |Z|Durotar|  |N|The rapter eggs are around the trees here|  |QID|815| |N|Raptor eggs around edges of the main/other islands.|  |Q|1|  |M|63,84|
+C Practical Prey |Z|Durotar| |N|Kill tigers|  |QID|817|  |Q|1|  |M|55.96,73.93|
 
+R  Thwarting Kolkar Aggression |N|Attack plan: Valley of Trials here. |   |M|49.84, 81.18|   |TH|0.20|
+R  Thwarting Kolkar Aggression |N|Attack plan: Ogrimmar here. |   |M|46.22, 78.97|   |TH|0.20|
+R  Thwarting Kolkar Aggression |N|Attack plan: Sin'jin Village here. |   |M|47.68, 77.44|   |TH|0.20|
+;C Thwarting Kolkar Aggression |N|Kolkar Crag items to burn at | |Z|Durotar| |QID|786|  |Q|1|  |M|54.24,73.28|
+C Carry Your Weight |Z|Durotar| |QID|791| |N|Keep killing centaurs for the scraps.|  |Q|1|  |M|47,77|
+
+T Thwarting Kolkar Aggression |N|Lar Prowltusk outside of Sen'jin Village wants you to destroy the 3 sets of Attack Plans held within Kolkar Crag.| |Z|Durotar| |QID|786|   |M|54.24,73.28|
 T Minshina's Skull |N|Retrieve Minshina's skull from the circle of power on the Echo Isles.| |Z|Durotar| |QID|808|   |M|55.95,74.72|
 T Zalazane |N|Defeat Zalazane.| |Z|Durotar| |QID|826|   |M|55.95,74.72|
-N Save quest reward |N|You'll need the "Faintly Glowing Skull" for later quest "Burning Shadows".| |Z|Durotar| 
-T Practical Prey |N|Bring 4 Durotar Tiger Furs to Vel'rin Fang in Sen'jin Village.| |Z|Durotar| |QID|817|   |M|55.96,73.93|
+N Save quest reward |N|You'll need the "Faintly Glowing Skull" for later quest "Burning Shadows" Press NEXT to cont.| |Z|Durotar| 
 T A Solvent Spirit |N|Bring 4 Intact Makrura Eyes and 8 vials of Crawler Mucus to Master Vornal in Sen'jin Village.| |Z|Durotar| |QID|818|   |M|55.94,74.39|
-T Thwarting Kolkar Aggression |N|Lar Prowltusk outside of Sen'jin Village wants you to destroy the 3 sets of Attack Plans held within Kolkar Crag.| |Z|Durotar| |QID|786|   |M|54.24,73.28|
+T Practical Prey |N|Bring 4 Durotar Tiger Furs to Vel'rin Fang in Sen'jin Village.| |Z|Durotar| |QID|817|   |M|55.96,73.93|
 
-T From The Wreckage.... |N|Return to Gar'Thok in Razor Hill.| |Z|Durotar| |QID|825|  |NODEBUG|   |M|51.95,43.50|
+
+
+T From The Wreckage.... |N|Return to Gar'Thok in Razor Hill.| |Z|Durotar| |QID|825|     |M|51.95,43.50|
 T Break a Few Eggs |N|Bring 3 Taillasher Eggs to Cook Torka in Razor Hill.| |Z|Durotar| |QID|815|    |M|51.11,42.45|
 T Carry Your Weight |N|Furl Scornbrow in the Razor Hill watchtower wants 8 Canvas Scraps.| |Z|Durotar| |QID|791|    |M|49.88,40.39|
 
-C Encroachment |N|West of Razor Hill, camps both sides of road (47.60, 48.97) (43.80, 40.55).| |Z|Durotar| |QID|837| |Q|1|  |M|51.95,43.50|
+N There are two sets of camps to go to if you run out of mobs. \nPress NEXT to cont...
+R Encroachment |N|Check out campe here |   |M|47.60, 48.97|   |TH|0.20|
+R Encroachment |N|... and here. |   |M|43.80, 40.55|   |TH|0.20|
+C Encroachment |N|West of Razor Hill, camps both sides of road. Return back here if neede| |Z|Durotar| |QID|837| |Q|1,2|  |M|47.60, 48.97|
 
-A Accept Winds in the Desert |N|Retrieve 5 Sacks of Supplies and return them to Rezlak near Orgrimmar.| |Z|Durotar| |QID|834|   |M|46.37,22.94|
+A Accept Winds in the Desert |N|Retrieve 5 Sacks of Supplies and return them to Rezlak near Orgrimmar.| |Z|Durotar| |QID|834|   |M|46.4 23.0|
 C Winds in the Desert |Z|Durotar| |QID|834| |N|East, then south into Razorwind Canyon.|  |Q|1|  |M|46.37,22.94|
 T Winds in the Desert |N|Return them to Rezlak near Orgrimmar.| |Z|Durotar| |QID|834|   |M|46.37,22.94|
 A Accept Securing the Lines |N|Kill 12 Dustwind Savages and 8 Dustwind Storm Witches for Rezlak near Drygulch Ravine.| |Z|Durotar| |QID|835|   |M|46.37,22.94|
