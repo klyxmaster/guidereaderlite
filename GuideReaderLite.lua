@@ -795,12 +795,12 @@ function GRL:IsStepDone(i)
     end
 
     if a == "R" then
-		if t.AA and self._arrivedAtStep == i then
-			result = true
-		else
-			result = false
-		end
-	end
+        if self._arrivedAtStep == i then
+            result = true
+        else
+            result = false
+        end
+    end
 
 
     if a == "Z" then
@@ -979,9 +979,10 @@ function GRL:ShowPointer(idx, force)
     self._nukeTicket = self._nukeTicket + 1
     self._allowArrow = true
 
-	-- Auto-advance on arrival for R steps with |AA|
-	if a == "R" and t and t.AA and t._mx and t._my then
-		self:_StartNavWatch(i, tonumber(t._mx), tonumber(t._my), 0.05) -- 0.05% threshold
+	-- Auto-advance on arrival for all R steps (coords required)
+	if a == "R" and t and t._mx and t._my then
+		local thr = tonumber(t.TH) or 0.10  -- |TH| overrides arrival threshold (map percent)
+		self:_StartNavWatch(i, tonumber(t._mx), tonumber(t._my), thr)
 	end
 
 
@@ -1057,8 +1058,8 @@ local function _grl_GetPlayerXY()
 end
 
 function GRL:_StartNavWatch(stepIndex, mx_percent, my_percent, thresh_percent)
-	DEFAULT_CHAT_FRAME:AddMessage(("GRL navwatch start: step=%s target=%.2f,%.2f thr=%.4f%%")
-    :format(stepIndex, mx_percent or -1, my_percent or -1, thresh_percent or -1))
+	--DEFAULT_CHAT_FRAME:AddMessage(("GRL navwatch start: step=%s target=%.2f,%.2f thr=%.4f%%")
+    --:format(stepIndex, mx_percent or -1, my_percent or -1, thresh_percent or -1))
 
     -- Use map-percent only; 0.25% default is ~very close
     local tx, ty = (mx_percent or 0)/100, (my_percent or 0)/100
@@ -1084,8 +1085,8 @@ function GRL:_StartNavWatch(stepIndex, mx_percent, my_percent, thresh_percent)
         local px, py = _grl_GetPlayerXY()
         local dx, dy = (px - t.x), (py - t.y)
 		
-		DEFAULT_CHAT_FRAME:AddMessage(("GRL navwatch d2=%.6f  th2=%.6f  px=%.4f py=%.4f")
-  :format(dx*dx + dy*dy, t.th * t.th, px, py))
+		--DEFAULT_CHAT_FRAME:AddMessage(("GRL navwatch d2=%.6f  th2=%.6f  px=%.4f py=%.4f")
+	--:format(dx*dx + dy*dy, t.th * t.th, px, py))
 
 
         if (dx*dx + dy*dy) <= (t.th * t.th) then
