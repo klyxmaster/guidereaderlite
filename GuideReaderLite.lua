@@ -32,6 +32,10 @@ GRL.turnedinquests = GRL.turnedinquests or {}
 GRL.trace = GRL.trace or false
 GRL.frame = GRL.frame or CreateFrame("Frame", "GuideReaderLiteFrame", UIParent)
 GRL._sticky = GRL._sticky or {}
+GRL._inGossip = GRL._inGossip or false
+GRL._recentAccepted  = GRL._recentAccepted or {}
+GRL._recentTurnedIn  = GRL._recentTurnedIn or {}
+GRL._inGossip        = GRL._inGossip or false
 
 GRL.AutoAdvance = true
 
@@ -678,6 +682,17 @@ function GRL:IsStepDone(i)
     local t = self.tags and self.tags[i] or {}
     local a = self.actions and self.actions[i]
     local result = false
+	
+	-- Hold A/T while gossip is open unless we just saw the explicit event
+	if (a == "A" or a == "T") and self._inGossip then
+		local qid = t.qid
+		local ok_recent = (a == "A" and self._recentAccepted and qid and _recent(self._recentAccepted[qid], 10))
+					   or (a == "T" and self._recentTurnedIn and qid and _recent(self._recentTurnedIn[qid], 10))
+		if not ok_recent then
+			self:DebugStepAdvance("IsStepDone HOLD (gossip open) a=", a, "qid=", qid)
+			return false
+		end
+	end
 
     if not self:IsStepForPlayer(i) then
         result = true
@@ -719,19 +734,24 @@ function GRL:IsStepDone(i)
             end
         end
         if a == "A" then
-            local idx = GRL_FindQuestLogIndexByID(t.qid)
-            if idx then
-                result = true
-            end
-        end
+			-- Advance strictly on the explicit accept event for this QID.
+			-- (Prevents NPC click → advance without actually accepting.)
+			local recent = t.qid and self._recentAccepted and _recent(self._recentAccepted[t.qid], 15)
+			if recent then
+				result = true
+			end
+		end
+
+
         if a == "T" then
-            if t.qid and self.turnedinquests[t.qid] then
-                result = true
-            end
-            if t.qid and not GRL_FindQuestLogIndexByID(t.qid) then
-                result = true
-            end
-        end
+			if t.qid and (self.turnedinquests[t.qid]
+				or (self._recentTurnedIn and _recent(self._recentTurnedIn[t.qid], 10))) then
+				result = true
+			end
+			-- Do NOT treat "not in log" as turned-in; prevents premature advance on gossip.
+		end
+
+
          if a == "H" then
             -- hearth/astral fired recently
             if self._hearthAt and (GetTime() - self._hearthAt) <= 90 then
@@ -1081,7 +1101,7 @@ end
 
 
 function GRL:UpdateStatusFrame()
-    local i = idx or self.current or 1
+    local i = self.current or 1
     local total = #(self.actions or {})
     while i <= total and not self:IsStepForPlayer(i) do
         i = i + 1
@@ -1327,13 +1347,20 @@ end)
 
 GRL:RegisterEvent("QUEST_LOG_UPDATE", function(self)
     self:UpdateStatusFrame()
-    if self.AutoAdvance then self:AutoAdvance() end
+    -- Don’t advance steps just because we opened/are in gossip.
+    if self.AutoAdvance and not self._inGossip then
+        self:AutoAdvance()
+    end
 end)
 
 
 GRL:RegisterEvent("BAG_UPDATE_COOLDOWN", function(self) 
     if self.AutoAdvance then self:AutoAdvance() end
 end)
+
+GRL:RegisterEvent("GOSSIP_SHOW",   function(self) self._inGossip = true  end)
+GRL:RegisterEvent("GOSSIP_CLOSED", function(self) self._inGossip = false end)
+
 
 GRL:RegisterEvent("UNIT_AURA", function(self, unit) 
     if unit == "player" and self.AutoAdvance then self:AutoAdvance() end
@@ -1402,15 +1429,19 @@ GRL:RegisterEvent("PLAYER_LOGIN", function(self)
 end)
 
 GRL:RegisterEvent("QUEST_ACCEPTED", function(self, questIndex, questID)
-    if self.AutoAdvance then self:AutoAdvance() end
+    if type(questID) == "number" then
+        self._recentAccepted[questID] = GetTime()
+    end
+    if self.AutoAdvance then self:AutoAdvance(true) end
 end)
 
 GRL:RegisterEvent("QUEST_TURNED_IN", function(self, questID)
     if type(questID) == "number" then
         self.turnedinquests = self.turnedinquests or {}
         self.turnedinquests[questID] = true
+        self._recentTurnedIn[questID] = GetTime()
     end
-    if self.AutoAdvance then self:AutoAdvance() end
+    if self.AutoAdvance then self:AutoAdvance(true) end
 end)
 
 GRL:RegisterEvent("PLAYER_LEAVING_WORLD", function(self) 
