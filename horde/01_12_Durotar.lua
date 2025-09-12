@@ -124,11 +124,17 @@ R Encroachment |N|... and here. |   |M|43.80, 40.55|   |TH|0.20|
 C Encroachment |N|West of Razor Hill, camps both sides of road. Return back here if neede| |Z|Durotar| |QID|837| |Q|1,2|  |M|47.60, 48.97|
 
 A Accept Winds in the Desert |N|Retrieve 5 Sacks of Supplies and return them to Rezlak near Orgrimmar.| |Z|Durotar| |QID|834|   |M|46.4 23.0|
-C Winds in the Desert |Z|Durotar| |QID|834| |N|East, then south into Razorwind Canyon.|  |Q|1|  |M|46.37,22.94|
+
+C Winds in the Desert |Z|Durotar| |QID|834| |N|ONce here, the sacks are all over along the canyon walls|  |Q|1|  |M|49,22|
+
+
 T Winds in the Desert |N|Return them to Rezlak near Orgrimmar.| |Z|Durotar| |QID|834|   |M|46.37,22.94|
 A Accept Securing the Lines |N|Kill 12 Dustwind Savages and 8 Dustwind Storm Witches for Rezlak near Drygulch Ravine.| |Z|Durotar| |QID|835|   |M|46.37,22.94|
-C Securing the Lines |Z|Durotar| |QID|835| |N|Back down Razorwind Canyon to the south cave; then north up Drygulch Ravine.|  |Q|1|  |M|46.37,22.94|
-T Securing the Lines |N|To Rezlak near Drygulch Ravine.| |Z|Durotar| |QID|835|   |M|46.37,22.94|
+
+R Securing the Lines Start |N|Enter the canyon here| |Z|Durotar| |QID|835|   |M|49,22|   |TH|0.20|
+R Securing the Lines Start |N|Enter the passage here| |Z|Durotar| |QID|835|   |M|51.89,27.47|   |TH|0.20|
+C Securing the Lines |Z|Durotar| |QID|835| |N|run all over this area killing mobs here.|  |Q|1|  |M|54.09,27.51|
+T Securing the Lines |N|To Rezlak near Drygulch Ravine.| |Z|Durotar| |QID|835|   |M|46.4 23.0|
 
 A Accept Lost But Not Forgotten |N|Bring a sign of Kron's fate to Misha Tor'kren at the farmstead NW of Razor Hill.| |Z|Durotar| |QID|816|   |M|43.10,30.24|
 A Accept Need for a Cure |N|Find Kor'ghan in Orgrimmar and get the Venomtail Antidote.| |Z|Durotar| |QID|812|   |M|40.86,16.33|

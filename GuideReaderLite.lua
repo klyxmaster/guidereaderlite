@@ -766,7 +766,6 @@ function GRL:IsStepDone(i)
 
 
         if a == "T" then
-			-- Advance on actual turn-in; uses recent event or turned-in cache.
 			local ok = false
 			if t.qid then
 				if self.turnedinquests and self.turnedinquests[t.qid] then
@@ -1388,11 +1387,32 @@ end)
 
 GRL:RegisterEvent("QUEST_LOG_UPDATE", function(self)
     self:UpdateStatusFrame()
-    -- Don’t advance steps just because we opened/are in gossip.
+
+    -- Fallback: if we're on a T step and the quest vanished from the log (and we’re not in gossip),
+    -- treat that as a turn-in; stamps the caches and advances.
+    if not self._inGossip then
+        local i = self.currentStep
+        local t = i and self.tags and self.tags[i]
+        if t and t.a == "T" and t.qid then
+            self._seenInLog     = self._seenInLog     or {}
+            self._recentTurnedIn = self._recentTurnedIn or {}
+            self.turnedinquests   = self.turnedinquests   or {}
+
+            local inlog = GRL_FindQuestLogIndexByID and GRL_FindQuestLogIndexByID(t.qid)
+            if self._seenInLog[t.qid] and not inlog then
+                self.turnedinquests[t.qid]  = true
+                self._recentTurnedIn[t.qid] = GetTime()
+                if self.AutoAdvance then self:AutoAdvance(true) end
+            end
+            self._seenInLog[t.qid] = inlog and true or false
+        end
+    end
+
     if self.AutoAdvance and not self._inGossip then
         self:AutoAdvance()
     end
 end)
+
 
 
 GRL:RegisterEvent("BAG_UPDATE_COOLDOWN", function(self) 
@@ -1487,21 +1507,19 @@ end)
 
 
 GRL:RegisterEvent("QUEST_TURNED_IN", function(self, ...)
-    -- Args are (questID, xp, money)
-    local qid = tonumber((...))
+    -- Args are usually (questID, xp, money); some cores flip things.
+    local qid = tonumber((...)) or tonumber(select(1, ...)) or tonumber(select(2, ...))
     if not qid then return end
 
-    -- Ensure caches exist
-    self._recentTurnedIn = self._recentTurnedIn or {}
     self.turnedinquests  = self.turnedinquests  or {}
+    self._recentTurnedIn = self._recentTurnedIn or {}
 
-    -- Mark and stamp
     self.turnedinquests[qid]  = true
     self._recentTurnedIn[qid] = GetTime()
 
-    -- Advance immediately on turn-in
     if self.AutoAdvance then self:AutoAdvance(true) end
 end)
+
 
 
 GRL:RegisterEvent("PLAYER_LEAVING_WORLD", function(self) 
