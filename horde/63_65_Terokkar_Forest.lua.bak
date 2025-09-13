@@ -1,0 +1,236 @@
+
+GuideReaderLite_RegisterGuide("Terokkar Forest (63-65)", "Nagrand (65-67)", "Horde", function()
+return [[
+A A'dal  |N|Speak to A'dal, the leader of the Sha'tar, in the center of the Terrace of Light.|   |QID|10210|
+T A'dal |N|Speak to A'dal, the leader of the Sha'tar, in the center of the Terrace of Light.|   |QID|10210|
+A City of Light |N|Follow Khadgar's servant and listen to its story.|   |QID|10211|
+A Rather Be Fishin'  |N|Bring 8 Pristine Shimmerscale Eels to Seth in Shattrath City.|   |Z|Shattrath City| |QID|10037|
+T City of Light |N|Follow Khadgar's servant and listen to its story.|   |QID|10211|
+N Aldorks or Scrybabies? |N|You need to pick which faction you will gain rep with.  This is a decision YOU MUST MAKE FOR YOURSELF!  Pop open your web browser, go to wowwiki.com, click on "Aldor v Scryer" on the left, and look at the rewards for each faction.  Make sure you check the quest rewards and crafting recipes as well.  Select the appropriate quest from Khadgar once you've decided.|
+
+T Allegiance to the Aldor  |QID|10551|
+A Ishanah |N|Speak to Ishanah inside the Shrine of Unending Light at the Aldor Rise in Shattrath City.| |PRE|Allegiance to the Aldor| |QID|10554|
+T Ishanah |N|Speak to Ishanah inside the Shrine of Unending Light at the Aldor Rise in Shattrath City.| |QID|10554|
+A Restoring the Light |N|Ishanah wants you to go to the Arakkoa outpost east of Shattrath City and use the Blessed Vial to cleanse the Eastern Altar, the Western Altar and the Northern Altar.| |PRE|Ishanah| |QID|10021|
+
+T Allegiance to the Scryers  |QID|10552|
+A Voren'thal the Seer |N|Speak to Voren'thal the Seer inside the Seer's Library at the Scryer's Tier in Shattrath City.| |PRE|Allegiance to the Scryers| |QID|10553|
+T Voren'thal the Seer |N|Speak to Voren'thal the Seer inside the Seer's Library at the Scryer's Tier in Shattrath City.| |QID|10553|
+A Losing Gracefully |N|Magister Falris in Shattrath wants you to take the Vial of Sedative Serum to the Terrace of Light and pour it into Haronem's Regiment Cooking Pot.| |PRE|Voren'thal the Seer| |QID|10169|
+
+h Shattrath City |N|Inns are on Aldor and Scryer tiers.|
+
+T Losing Gracefully |N|Magister Falris in Shattrath wants you to take the Vial of Sedative Serum to the Terrace of Light and pour it into Haronem's Regiment Cooking Pot.| |QID|10169|
+
+C Rather Be Fishin' |N|Silmyr Lake, northeast of Shattrath.| |QID|10037|
+T What's Wrong at Cenarion Thicket? |N|Speak with one of the druids at the Cenarion Thicket in Terokkar Forest.|   |QID|9957|
+A Strange Energy |N|Collect 4 Teromoth Samples and 4 Vicious Teromoth Samples.|   |QID|9968|
+A Clues in the Thicket |N|Investigate the Strange Object next to the Broken Corpse to determine what might have befallen the Cenarion Thicket.|   |QID|9971|
+A It's Watching You!  |N|Kill Naphthal'ar and then return to Warden Treelos at the Cenarion Thicket in Terokkar Forest.|   |QID|9951|
+C Clues in the Thicket |N|The clue you're after is in the inn| |QID|9971|
+C It's Watching You! |N|Up the tower| |QID|9951|
+T It's Watching You! |N|Kill Naphthal'ar and then return to Warden Treelos at the Cenarion Thicket in Terokkar Forest.|   |QID|9951|
+C Strange Energy |N|Kill the moths in the thicket, and the ones south of the road| |QID|9968|
+T Strange Energy |N|Collect 4 Teromoth Samples and 4 Vicious Teromoth Samples.|   |QID|9968|
+T Clues in the Thicket |N|Investigate the Strange Object next to the Broken Corpse to determine what might have befallen the Cenarion Thicket.|   |QID|9971|
+A By Any Means Necessary |N|Find Empoor on the road between Tuurem and Shattrath City in Terokkar Forest.|   |QID|9978|
+C By Any Means Necessary |N|Empoor travels the road between Tuurem and Shattrath| |QID|9978|
+T By Any Means Necessary |N|Find Empoor on the road between Tuurem and Shattrath City in Terokkar Forest.|   |QID|9978|
+A Wind Trader Lathrai |N|Speak with Wind Trader Lathrai near the World's End Tavern in the Lower City section of Shattrath City.|   |QID|9979|
+
+R Stonebreaker Hold |N|(48,45)|
+T News from Zangarmarsh |N|Speak with Mokasa at Stonebreaker Hold in Terokkar Forest.|   |QID|9796|
+A Stymying the Arakkoa |N|Kill Ashkaz in Veil Reskk, Ayit in Veil Shienor, and Urdak in Veil Skith and return to Rokag at Stonebreaker Hold.|   |QID|9987|
+A Surrender to the Horde |N|Rokag wants you to seek out Rilak the Redeemed in the Lower City section of Shattrath City and demand that he and his people surrender to the Horde.|   |QID|10862|
+A Speak with Scout Neftis |N|Speak with Scout Neftis near the south entrance to Grangol'var Village in Terokkar Forest.|   |QID|10039|
+A Arakkoa War Path |N|Advisor Faila asks that you kill 14 Shienor Talonites and 6 Shienor Sorcerers and then return to her in Stonebreaker Hold.|   |QID|10868|
+A An Unwelcome Presence |N|Kill 12 Warped Peons and then report to Shadowstalker Kaide.|   |QID|10000|
+A Magical Disturbances |N|Kill 10 Warp Stalkers and return to Kurgatok at Stonebreaker Hold.|   |QID|10027|
+A Olemba Seed Oil |N|Bring 30 Olemba Seeds to Rakoria in Stonebreaker Hold.|   |QID|9993|
+A Vestments of the Wolf Spirit |N|Bring 12 Timber Worg Pelts to Malukaz at Stonebreaker Hold.|   |QID|10018|
+A Wanted: Bonelashers Dead!  |N|Kill 20 Bonelashers and then report to Mawg Grimshot at Stonebreaker Hold in Terokkar Forest.|   |QID|10034|
+
+F Shattrath City
+T Surrender to the Horde |N|Rokag wants you to seek out Rilak the Redeemed in the Lower City section of Shattrath City and demand that he and his people surrender to the Horde.|   |QID|10862|
+A The Eyes of Skettis |N|Bring the Eye of Reskk and the Eye of Shienor to Rilak the Redeemed in the Lower City section of Shattrath City.|   |QID|10847|
+T Wind Trader Lathrai |N|Speak with Wind Trader Lathrai near the World's End Tavern in the Lower City section of Shattrath City.|   |QID|9979|
+A A Personal Favor |N|Retrieve 5 of Lathrai's Stolen Goods.|   |QID|10112|
+
+N Collection Quests... |N|While you're running around, keep an eye out for Olemba Cones (bright blue things on the ground).  Also kill Warp Stalkers and Timber Worgs as you run across them.  And lastly, save any Arakkoa Feathers you get, you'll need them for a quest later for Lower City rep.|
+
+K Urdak |N|Head south out of Shattrath to Veil Skith.  Kill Urdak up in the trees (31.81, 42.33) for "Stymying the Arrakoa"| |QID|9987| |QO|Urdak slain: 1/1|
+C A Personal Favor |QID|10112|
+
+K Ashkaz |N|Kill Ashkaz at Veil Reskk for "Stymying the Arrakoa" - he's in the tree house near the north altar (49,16)| |QID|9987| |QO|Ashkaz slain: 1/1|
+C The Eyes of Skettis |N|Get the Eye of Veil Reskk up in the tree house near the north altar (49.90, 16.52).  Get the Eye of Veil Shienor from the tree house in Veil Shienor (57.90, 23.12).  Enter by going up the ramp inside the tree to the southeast (59.74, 25.15).| |QID|10847|
+C Restoring the Light  |N|Cleanse the 3 alters: West (48.11, 14.52), North (50.66, 16.55) and East (49.25, 20.32).  Try to end with the North alter.| |QID|10021|
+C Arakkoa War Path |QID|10868|
+
+H Shattrath City
+T Restoring the Light |N|Ishanah wants you to go to the Arakkoa outpost east of Shattrath City and use the Blessed Vial to cleanse the Eastern Altar, the Western Altar and the Northern Altar.| |QID|10021|
+T The Eyes of Skettis  |N|Bring the Eye of Reskk and the Eye of Shienor to Rilak the Redeemed in the Lower City section of Shattrath City.|   |QID|10847|
+A Seek Out Kirrik |N|Take Rilak's Missive to Kirrik the Awakened at the Refugee Caravan in the Bone Wastes.|   |QID|10849|
+T Rather Be Fishin'  |N|Bring 8 Pristine Shimmerscale Eels to Seth in Shattrath City.|   |QID|10037|
+T A Personal Favor |N|Retrieve 5 of Lathrai's Stolen Goods.|   |QID|10112|
+A Investigate Tuurem |N|Find the Sealed Box and then deliver it to Earthbinder Tavgren just outside of the Cenarion Thicket in Terokkar Forest.|   |QID|9990|
+
+F Stonebreaker Hold
+h Stonebreaker Hold
+C An Unwelcome Presence |N|East at the Bonechewer Ruins (66,53)| |QID|10000|
+C Magical Disturbances |QID|10027|
+C Vestments of the Wolf Spirit |QID|10018|
+
+T An Unwelcome Presence  |N|Kill 12 Warped Peons and then report to Shadowstalker Kaide.|   |QID|10000|
+A The Firewing Liaison |N|Locate and slay Lisaile Fireweaver, then return to Shadowstalker Kaide.|   |QID|10003|
+A What Happens in Terokkar Stays in Terokkar |N|Shadowstalker Kaide wants you to kill 10 Bonechewer Devastators and 6 Bonechewer Backbreakers.|   |QID|10008|
+C The Firewing Liaison |N|Lisaile Fireweaver is inside the only building in the ruins that has a roof (67.89, 53.33)| |QID|10003|
+A An Unseen Hand  |N|Bring the Fel Orc Plans to Rokag at Stonebreaker Hold in Terokkar Forest.|   |QID|10013|
+C What Happens in Terokkar Stays in Terokkar |QID|10008|
+T The Firewing Liaison  |N|Locate and slay Lisaile Fireweaver, then return to Shadowstalker Kaide.|   |QID|10003|
+T What Happens in Terokkar Stays in Terokkar |N|Shadowstalker Kaide wants you to kill 10 Bonechewer Devastators and 6 Bonechewer Backbreakers.|   |QID|10008|
+
+K Ayit |N|Kill Ayit at Veil Shienor for "Stymying the Arrakoa" - he's in a purple hut on the ground level (59.40, 23.53).| |QID|9987| |QO|Ayit slain: 1/1|
+C Investigate Tuurem |N|The Sealed Box is in one of the huts in Tuurem (54.00, 30.00)| |QID|9990|
+T Investigate Tuurem |N|Find the Sealed Box and then deliver it to Earthbinder Tavgren just outside of the Cenarion Thicket in Terokkar Forest.|   |QID|9990|
+A What Are These Things? |N|Deliver the Box of Parts to Tooki at Stonebreaker Hold in Terokkar Forest.|   |QID|9995|
+
+C Olemba Seed Oil |QID|9993|
+
+T Speak with Scout Neftis  |N|Speak with Scout Neftis near the south entrance to Grangol'var Village in Terokkar Forest.|   |QID|10039|
+A Who Are They? |N|While in disguise, speak with the Shadowy Initiate, the Shadowy Laborer and the Shadowy Advisor.|   |QID|10041|
+C Who Are They? |N|Shadowy Hunters are bad news, stay away from them.  Initiate (39.06, 39.68), Laborer (38.09, 41.09), Advisor (40.29, 39.05) inside the building.| |QID|10041|
+T Who Are They? |N|While in disguise, speak with the Shadowy Initiate, the Shadowy Laborer and the Shadowy Advisor.|   |QID|10041|
+A Kill the Shadow Council! |N|Kill 10 Shadowy Executioners, 10 Shadowy Summoners and Shadowmaster Grieve, and then return to Advisor Faila at Stonebreaker Hold in Terokkar Forest.|   |QID|10043|
+C Kill the Shadow Council! |N|Kill Shadowmaster Grieve in main building (40.09, 38.82)| |QID|10043|
+
+H Stonebreaker Hold
+T What Are These Things? |N|Deliver the Box of Parts to Tooki at Stonebreaker Hold in Terokkar Forest.|   |QID|9995|
+A Report to Stonebreaker Camp |N|Tooki wants you to report to Sergeant Chawni at Stonebreaker Camp in Terokkar Forest.|   |QID|10448|
+T Stymying the Arakkoa |N|Kill Ashkaz in Veil Reskk, Ayit in Veil Shienor, and Urdak in Veil Skith and return to Rokag at Stonebreaker Hold.|   |QID|9987|
+T Kill the Shadow Council! |N|Kill 10 Shadowy Executioners, 10 Shadowy Summoners and Shadowmaster Grieve, and then return to Advisor Faila at Stonebreaker Hold in Terokkar Forest.|   |QID|10043|
+T Arakkoa War Path |N|Advisor Faila asks that you kill 14 Shienor Talonites and 6 Shienor Sorcerers and then return to her in Stonebreaker Hold.|   |QID|10868|
+T Magical Disturbances |N|Kill 10 Warp Stalkers and return to Kurgatok at Stonebreaker Hold.|   |QID|10027|
+T An Unseen Hand |N|Bring the Fel Orc Plans to Rokag at Stonebreaker Hold in Terokkar Forest.|   |QID|10013|
+T Olemba Seed Oil |N|Bring 30 Olemba Seeds to Rakoria in Stonebreaker Hold.|   |QID|9993|
+A And Now, the Moment of Truth |N|Find Grek and ask him to try it on his weapon.|   |QID|10201|
+C And Now, the Moment of Truth |N|Grek is next to Wanted Poster| |QID|10201|
+T And Now, the Moment of Truth |N|Find Grek and ask him to try it on his weapon.|   |QID|10201|
+T Vestments of the Wolf Spirit |N|Bring 12 Timber Worg Pelts to Malukaz at Stonebreaker Hold.|   |QID|10018|
+A Patriarch Ironjaw |N|Bring Ironjaw's Pelt to Malukaz at Stonebreaker Hold.|   |QID|10023|
+
+T Report to Stonebreaker Camp  |N|Tooki wants you to report to Sergeant Chawni at Stonebreaker Camp in Terokkar Forest.|   |QID|10448|
+A Attack on Firewing Point |N|Kill 10 Firewing Defenders, 10 Firewing Bloodwarders, and 10 Firewing Warlocks.|   |QID|9997|
+C Patriarch Ironjaw |N|(67,35)| |QID|10023|
+A Escape from Firewing Point!  |N|Escort Isla Starmane to safety and then report to Advisor Faila at Stonebreaker Hold in Terokkar Forest.|   |QID|10052|
+C Escape from Firewing Point! |QID|10052|
+C Attack on Firewing Point |QID|9997|
+
+T Attack on Firewing Point  |N|Kill 10 Firewing Defenders, 10 Firewing Bloodwarders, and 10 Firewing Warlocks.|   |QID|9997|
+A The Final Code |N|Sergeant Chawni wants you to use the Final Code Sheet to set off the Mana Bomb.|   |QID|10447|
+C The Final Code |N|Inside the same building you found the escort in, just keep going up.| |QID|10447|
+
+T The Final Code  |N|Sergeant Chawni wants you to use the Final Code Sheet to set off the Mana Bomb.|   |QID|10447|
+A Letting Earthbinder Tavgren Know |N|Speak with Earthbinder Tavgren just outside the Cenarion Thicket in Terokkar Forest.|   |QID|10006|
+T Escape from Firewing Point! |N|Escort Isla Starmane to safety and then report to Advisor Faila at Stonebreaker Hold in Terokkar Forest.|   |QID|10052|
+T Patriarch Ironjaw |N|Bring Ironjaw's Pelt to Malukaz at Stonebreaker Hold.|   |QID|10023|
+A Welcoming the Wolf Spirit |N|Use the Ceremonial Incense near the candles in Malukaz's hut and observe the ceremony.|   |QID|10791|
+C Welcoming the Wolf Spirit |QID|10791|
+T Welcoming the Wolf Spirit |N|Use the Ceremonial Incense near the candles in Malukaz's hut and observe the ceremony.|   |QID|10791|
+
+F Shattrath City
+T Letting Earthbinder Tavgren Know  |N|Speak with Earthbinder Tavgren just outside the Cenarion Thicket in Terokkar Forest.|   |QID|10006|
+A Before Darkness Falls  |N|Mekeda at the Refugee Caravan wants you to kill 8 Cabal Skirmishers, 4 Cabal Spell-Weavers and 2 Cabal Initiates.|   |QID|10878|
+C Before Darkness Falls |N|South around the Shadow Stair (39.61, 56.25)| |QID|10878|
+A Cabal Orders  |N|Bring the Cabal Orders to Mekeda at the Refugee Caravan in the Bone Wastes.|   |U|31707| |QID|10880|
+T Cabal Orders  |N|Bring the Cabal Orders to Mekeda at the Refugee Caravan in the Bone Wastes.|   |QID|10880|
+T Before Darkness Falls |N|Mekeda at the Refugee Caravan wants you to kill 8 Cabal Skirmishers, 4 Cabal Spell-Weavers and 2 Cabal Initiates.|   |QID|10878|
+A The Shadow Tomb |N|Go into the Shadow Tomb, west of the Refugee Caravan and retrieve the Drape of Arunen, the Gavel of K'alen and the Scroll of Atalor.|   |QID|10881|
+T Seek Out Kirrik |N|Take Rilak's Missive to Kirrik the Awakened at the Refugee Caravan in the Bone Wastes.|   |QID|10849|
+A The Infested Protectors |N|Lakotae wants you to kill 25 Wood Mites and then return to him at the Refugee Caravan.|   |QID|10896|
+A Missing Friends |N|Ethan wants you to find 12 of his missing friends in Veil Skith and then return to him at the Refugee Caravan.|   |QID|10852|
+A Veil Skith: Darkstone of Terokk |N|Use the Rod of Purification on the Darkstone of Terokk in Veil Skith and return to Kirrik the Awakened at the Refugee Caravan in the Bone Wastes.|   |QID|10839|
+
+C Veil Skith: Darkstone of Terokk |N|North at Veil Skith (30.77, 42.03).| |U|31610| |QID|10839|
+C Missing Friends |N|You should have keys from your last visit here, if not kill arakkoa for them.| |QID|10852|
+C The Infested Protectors |N|Kill the infested/rotting treants around the edges of the Bone Wastes, then kill the mites that spawn from them.| |QID|10896|
+C The Shadow Tomb |N|The three items are in the three "wings" of the Shadow Tomb (30.95, 52.67)| |QID|10881|
+
+A Escaping the Tomb |N|Help Akuno find his way to the Refugee Caravan.|   |QID|10887|
+C Escaping the Tomb |QID|10887|
+
+T Escaping the Tomb  |N|Help Akuno find his way to the Refugee Caravan.|   |QID|10887|
+T The Infested Protectors |N|Lakotae wants you to kill 25 Wood Mites and then return to him at the Refugee Caravan.|   |QID|10896|
+T Veil Skith: Darkstone of Terokk |N|Use the Rod of Purification on the Darkstone of Terokk in Veil Skith and return to Kirrik the Awakened at the Refugee Caravan in the Bone Wastes.|   |QID|10839|
+A Veil Rhaze: Unliving Evil |N|Kill 4 Deathtalon Spirits, 4 Screeching Spirits and 2 Spirit Ravens and return to Kirrik the Awakened at the Refugee Caravan.|   |QID|10848|
+T The Shadow Tomb |N|Go into the Shadow Tomb, west of the Refugee Caravan and retrieve the Drape of Arunen, the Gavel of K'alen and the Scroll of Atalor.|   |QID|10881|
+T Missing Friends |N|Ethan wants you to find 12 of his missing friends in Veil Skith and then return to him at the Refugee Caravan.|   |QID|10852|
+A The Tomb of Lights |N|High Priest Orglum wants you to journey to the Tomb of Lights and kill 10 Ethereal Nethermancers and 10 Ethereal Plunderers and then return to him at the Refugee Caravan.|   |QID|10840|
+
+C The Tomb of Lights |N|To the east of the caravan| |QID|10840|
+C Wanted: Bonelashers Dead! |N|Mostly south and east of the caravan.  You can skip this if you don't want to run back to Allerian later for a single turnin.| |QID|10034|
+
+T The Tomb of Lights |N|High Priest Orglum wants you to journey to the Tomb of Lights and kill 10 Ethereal Nethermancers and 10 Ethereal Plunderers and then return to him at the Refugee Caravan.|   |QID|10840|
+A Recover the Bones |N|Collect 10 Restless Bones.|   |QID|10030|
+N Get boned... |N|Collect any bones you come across for "Recover the Bones"|
+
+C Veil Rhaze: Unliving Evil |N|West of the caravan (26,53)| |QID|10848|
+
+T Veil Rhaze: Unliving Evil |N|Kill 4 Deathtalon Spirits, 4 Screeching Spirits and 2 Spirit Ravens and return to Kirrik the Awakened at the Refugee Caravan.|   |QID|10848|
+A Veil Lithic: Preemptive Strike |N|Break the cursed eggs in Veil Lithic.|   |QID|10861|
+C Recover the Bones |QID|10030|
+T Recover the Bones  |N|Collect 10 Restless Bones.|   |QID|10030|
+A Helping the Lost Find Their Way |N|Destroy 10 Lost Spirits and 10 Broken Skeletons, and then speak with Soolaveen at the Refugee Caravan in the Bone Wastes of Terokkar Forest.|   |QID|10031|
+N Get lost... |N|Kill any skeletons you come across for "Helping the Lost Find Their Way"|
+
+C Veil Lithic: Preemptive Strike |N|Southwest of the caravan (23,71)| |QID|10861|
+A The Dread Relic  |N|Oakun wants you to travel east to the Derelict Caravan to recover the Dread Relic.|   |QID|10877|
+A An Improper Burial |N|Commander Ra'vaj at the Sha'tari Outpost in the Bone Wastes of Terokkar Forest wants you to burn 8 Slain Auchenai Warriors and 8 Slain Sha'tar Vindicators.|   |QID|10913|
+A Taken in the Night |N|Scout Navrin wants you to travel to the Netherweb Ridge and free 6 Webbed Sha'tar Warriors and then return to him at Sha'tari Base Camp.|   |QID|10873|
+A Digging Through Bones  |N|Escort Letoll and his crew and protect them while they make their dig.|   |QID|10922|
+C Digging Through Bones |QID|10922|
+T Digging Through Bones |N|Escort Letoll and his crew and protect them while they make their dig.|   |QID|10922|
+A Fumping  |N|Dwarfowitz at the Sha'tari Base Camp in the Bone Wastes wants you to bring him 8 Mature Bone Sifter Carcasses.|   |QID|10929|
+
+C An Improper Burial |N|Just east of the base camp.| |U|31769| |QID|10913|
+C The Dread Relic |N|The Derelict Caravan is east of the base camp (43.94, 76.50)| |QID|10877|
+C Fumping |N|Recommended you do the Fumping a bit east of the caravan, since the mobs around here are neutral (46,78).| |U|31810| |QID|10929|
+
+A For the Fallen  |N|Vindicator Haylen wants you to slay 20 Dreadfang Widows and then return to him just west of Netherweb Ridge.|   |QID|10920|
+C Taken in the Night |QID|10873|
+C For the Fallen |QID|10920|
+T For the Fallen |N|Vindicator Haylen wants you to slay 20 Dreadfang Widows and then return to him just west of Netherweb Ridge.|   |QID|10920|
+
+T Taken in the Night  |N|Scout Navrin wants you to travel to the Netherweb Ridge and free 6 Webbed Sha'tar Warriors and then return to him at Sha'tari Base Camp.|   |QID|10873|
+T Fumping |N|Dwarfowitz at the Sha'tari Base Camp in the Bone Wastes wants you to bring him 8 Mature Bone Sifter Carcasses.|   |QID|10929|
+T The Dread Relic |N|Oakun wants you to travel east to the Derelict Caravan to recover the Dread Relic.|   |QID|10877|
+T An Improper Burial |N|Commander Ra'vaj at the Sha'tari Outpost in the Bone Wastes of Terokkar Forest wants you to burn 8 Slain Auchenai Warriors and 8 Slain Sha'tar Vindicators.|   |QID|10913|
+A A Hero Is Needed |N|Commander Ra'vaj at the Sha'tari Outpost in the Bone Wastes of Terokkar Forest wants you to slay 12 Auchenai Initiates and 5 Auchenai Doomsayers.| |QID|10914|
+C A Hero Is Needed  |QID|10914|
+T A Hero Is Needed |N|Commander Ra'vaj at the Sha'tari Outpost in the Bone Wastes of Terokkar Forest wants you to slay 12 Auchenai Initiates and 5 Auchenai Doomsayers.| |QID|10914|
+A The Fallen Exarch |N|Commander Ra'vaj at the Sha'tari Outpost in the Bone Wastes of Terokkar Forest wants you to destroy the contents of the Auchenai Coffin.|   |QID|10915|
+C The Fallen Exarch |N|The west side of Auchindoun (35,66)| |QID|10915|
+A I See Dead Draenei  |N|Speak to Ramdor the Mad, standing on the bone pile outside of the Auchenai Crypts.|   |QID|10227|
+T I See Dead Draenei |N|Speak to Ramdor the Mad, standing on the bone pile outside of the Auchenai Crypts.|   |QID|10227|
+A Ezekiel |N|Find and speak with Ezekiel of Shattrath in Shattrath City.|   |QID|10228|
+T The Fallen Exarch |N|Commander Ra'vaj at the Sha'tari Outpost in the Bone Wastes of Terokkar Forest wants you to destroy the contents of the Auchenai Coffin.|   |QID|10915|
+
+T Veil Lithic: Preemptive Strike |N|Break the cursed eggs in Veil Lithic.|   |QID|10861|
+A Veil Shalas: Signal Fires |N|Kirrik the Awakened at the Refugee Caravan wants you to extinguish the four signal fires of Veil Shalas.|   |QID|10874|
+A Skywing  |N|Escort Skywing and report to Rilak the Redeemed in Shattrath City.|   |QID|10898|
+C Skywing |QID|10898|
+C Veil Shalas: Signal Fires |N|Veil Shalas is on the southeast side of the bone wastes (55,66). The signal fires are all around the treehuts. If you did Skywing you should've cleared three of them already, the last one is in the north set of huts.| |QID|10874|
+C Helping the Lost Find Their Way |N|East side of the wastes| |QID|10031|
+
+T Helping the Lost Find Their Way |N|Destroy 10 Lost Spirits and 10 Broken Skeletons, and then speak with Soolaveen at the Refugee Caravan in the Bone Wastes of Terokkar Forest.|   |QID|10031|
+T Veil Shalas: Signal Fires |N|Kirrik the Awakened at the Refugee Caravan wants you to extinguish the four signal fires of Veil Shalas.|   |QID|10874|
+A Return to Shattrath |N|Travel to Shattrath City and speak with Rilak the Redeemed in the Lower City.|   |QID|10889|
+
+T Ezekiel  |N|Find and speak with Ezekiel of Shattrath in Shattrath City.|   |QID|10228|
+T Return to Shattrath |N|Travel to Shattrath City and speak with Rilak the Redeemed in the Lower City.|   |QID|10889|
+T Skywing |N|Escort Skywing and report to Rilak the Redeemed in Shattrath City.|   |QID|10898|
+A The Skettis Offensive  |N|Hold off the attackers and speak with Rilak the Redeemed.|   |QID|10879|
+C The Skettis Offensive |QID|10879|
+T The Skettis Offensive |N|Hold off the attackers and speak with Rilak the Redeemed.|   |QID|10879|
+T Wanted: Bonelashers Dead!  |N|Kill 20 Bonelashers and then report to Mawg Grimshot at Stonebreaker Hold in Terokkar Forest.|   |QID|10034|
+]]
+end)

@@ -8,7 +8,7 @@ A Accept Securing the Shaleskin Shale |N|Go to Boots and accept Securing the Sha
 T Off To Area 52 |N|Deliver the Netherologist's Notes to Rocket-Chief Fuselage at Area 52 in the Netherstorm.|    |QID|10183|  |M|32.7,64.9|
 A Accept You're Hired! |N|Go to Rocket-Chief Fuselage and accept You're Hired!|    |QID|10186|  |M|32.7,64.9|
 h Area 52 |QID|10265| |N|Set your hearth at the Area 52 Inn.| |M|32.44,64.21|
-N Manaforge B'naar |T| |N|Pick up the Aldor or Scryer starter (B'naar) matching your faction choice.| 
+N Manaforge B'naar  |N|Pick up the Aldor or Scryer starter (B'naar) matching your faction choice.| 
 A Accept The Archmage's Staff |N|Go to Ravandwyr and accept The Archmage's Staff|    |QID|10173|  |M|31.4,66.2|
 
 A Accept Recharging the Batteries |N|Go to Bot-Specialist Alley and accept Recharging the Batteries|    |QID|10190|  |M|31.5,56.6|

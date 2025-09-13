@@ -71,9 +71,9 @@ C Shizzle's Flyer  |QO|1| |QID|4503| |N|Collect 8 Webbed Diemetradon Scales and 
 C Finding the Source  |U|12472| |QID|974| |N|Krakle in Un'Goro Crater wants you to find the hottest area of Fire Plume Ridge.$B$BWhenever you find a hot spot, right click the thermometer to check the temperature. Keep looking until you find the hottest one.|  |M|30.93,50.44|
 C Volcanic Activity  |QO|1| |QID|4502| |N|Collect 9 samples of Un'Goro Ash from the fire elementals around the volcano in Un'Goro Crater, and return them to Liv Rizzlefix in Ratchet.|  |M|62.45,38.73|
 T Lost!   |N|Find Ringo at Fire Plume Ridge.|    |QID|4492|   |M|43.6,8.4|
-A Accept Accept A Little Help |N|Go to Ringo and accept Accept A Little Help|    |NODEBUG| |  |QID|4491|   |M|43.6,8.4|
-C A Little Help From My Friends  |NODEBUG| | |U|11804| |QID|4491| |N|Lead Ringo to Spraggle Frock at Marshal's Refuge.$B$BIf Ringo faints, use Spraggle's Canteen to revive him.|  |M|43.62,8.50|
-T A Little Help From My Friends  |N|Lead Ringo to Spraggle Frock at Marshal's Refuge.|    |NODEBUG| |  |QID|4491|   |M|43.6,8.4|
+A Accept Accept A Little Help |N|Go to Ringo and accept Accept A Little Help|     |  |QID|4491|   |M|43.6,8.4|
+C A Little Help From My Friends   | |U|11804| |QID|4491| |N|Lead Ringo to Spraggle Frock at Marshal's Refuge.$B$BIf Ringo faints, use Spraggle's Canteen to revive him.|  |M|43.62,8.50|
+T A Little Help From My Friends  |N|Lead Ringo to Spraggle Frock at Marshal's Refuge.|     |  |QID|4491|   |M|43.6,8.4|
 T Beware of Pterrordax   |N|Kill 10 Frenzied Pterrordax, then speak to Spraggle Frock at Marshal's Refuge.|    |QID|4501|   |M|43.6,8.4|
 T Shizzle's Flyer   |N|Collect 8 Webbed Diemetradon Scales and 8 Webbed Pterrordax Scales for Shizzle in Marshal's Refuge.|    |QID|4503|   |M|44.2,11.4|
 T Muigin and Larion   |N|Collect 15 Bloodpetals and return to Muigin.|    |QID|4141|   |M|43,9.5|

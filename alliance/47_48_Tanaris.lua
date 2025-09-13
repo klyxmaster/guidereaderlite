@@ -45,7 +45,7 @@ A Accept Accept Insect Part Analysis (Part 1) |N|Go to Senior Surveyor Fizzledow
 T Insect Part Analysis (Part 1) |N|Check in Gadgetzan for Alchemist Pestlezugg and his analysis of the insect parts.|    |QID|110|  |M|50.9,27|
 A Accept Accept Insect Part Analysis (Part 2) |N|Go to Alchemist Pestlezugg and accept Accept Insect Part Analysis (Part 2)|    |QID|113|  |M|50.9,27|
 T Insect Part Analysis (Part 2) |N|Deliver the report to Senior Surveyor Fizzledowser in Gadgetzan.|    |QID|113|  |M|50.2,27.4|
-A Accept Accept Rise of the Silithid |N|Go to Senior Surveyor Fizzledowser and accept Accept Rise of the Silithid|    |QID|162| |NODEBUG|  |M|50.2,27.4|
+A Accept Accept Rise of the Silithid |N|Go to Senior Surveyor Fizzledowser and accept Accept Rise of the Silithid|    |QID|162|   |M|50.2,27.4|
 
 T An Orphan Looking For a Home |N|Speak to Quentin in Thousand Needles.|    |QID|3841| |Z|Thousand Needles|  |M|78.3,74.4|
 A Accept Accept A Short Incubation |N|Go to Quentin and accept Accept A Short Incubation|    |QID|3842|  |M|78.3,74.4|

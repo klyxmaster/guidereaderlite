@@ -1,11 +1,11 @@
 
 GuideReaderLite_RegisterGuide("Silithus (56)", "Western Plaguelands (56-57)", "Alliance", function()
 return [[
-F Gadgetzan |N|Take Umi's Mechanical Yeti and scare her friends with it:$B$BLegacki in Everlook (Winterspring)$BSprinkle in Gadgetzan (Tanaris)$BQuixxil in Marshal's Refuge (Un'Goro Crater)$B$BWhen you are done, bring the Mechanical Yeti back to Umi.|    |QID|5163| |NORAF|  |M|60.88,37.62|
-N Scare Sprinkle |N|Northwest side of town, use the Yeti| |U|12928| |QID|5163| |QO|Scare Sprinkle: 1/1| |NORAF|  |M|60.88,37.62|
+F Gadgetzan |N|Take Umi's Mechanical Yeti and scare her friends with it:$B$BLegacki in Everlook (Winterspring)$BSprinkle in Gadgetzan (Tanaris)$BQuixxil in Marshal's Refuge (Un'Goro Crater)$B$BWhen you are done, bring the Mechanical Yeti back to Umi.|    |QID|5163|   |M|60.88,37.62|
+N Scare Sprinkle |N|Northwest side of town, use the Yeti| |U|12928| |QID|5163| |QO|Scare Sprinkle: 1/1|   |M|60.88,37.62|
 
-F Un'Goro Crater |N|Take Umi's Mechanical Yeti and scare her friends with it:$B$BLegacki in Everlook (Winterspring)$BSprinkle in Gadgetzan (Tanaris)$BQuixxil in Marshal's Refuge (Un'Goro Crater)$B$BWhen you are done, bring the Mechanical Yeti back to Umi.|    |QID|5163| |NORAF|  |M|60.88,37.62|
-N Scare Quixxil |U|12928| |QID|5163| |QO|Scare Quixxil: 1/1| |NORAF|  |M|60.88,37.62|
+F Un'Goro Crater |N|Take Umi's Mechanical Yeti and scare her friends with it:$B$BLegacki in Everlook (Winterspring)$BSprinkle in Gadgetzan (Tanaris)$BQuixxil in Marshal's Refuge (Un'Goro Crater)$B$BWhen you are done, bring the Mechanical Yeti back to Umi.|    |QID|5163|   |M|60.88,37.62|
+N Scare Quixxil |U|12928| |QID|5163| |QO|Scare Quixxil: 1/1|   |M|60.88,37.62|
 
 F Silithus |N|Talk to Windcaller Proudhorn at Cenarion Hold in Silithus.|    |QID|8275|  |M|51.15,38.29|
 A Accept Accept The Twilight Mystery |N|Go to Geologist Larksbane and accept Accept The Twilight Mystery|    |QID|8284|   |M|49.7,37.3|

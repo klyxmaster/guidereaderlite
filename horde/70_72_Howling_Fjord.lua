@@ -2,396 +2,396 @@
 GuideReaderLite_RegisterGuide("Howling Fjord (70-72)", "Dragonblight (72-73)", "Horde", function()
 return [[
 F Howling Fjord |N|Go to Undercity and ride the zeppelin to Vengeance Landing in Howling Fjord.|
-A Accept The New Plague |N|Go to Apothecary Lysander and accept The New Plague|    |QID|11167|  |M|78.5,29|
-A Accept Let Them Eat Crow |N|Go to Pontius and accept Let Them Eat Crow|    |QID|11227|  |M|79.1,31.2|
-A Accept War is Hell |N|Go to High Executor Anselm and accept War is Hell|    |QID|11270|  |M|78.6,31.2|
+A The New Plague |N|Apothecary Lysander at Vengeance Landing wants you to recover 10 Intact Plague Containers from the wrecked ship to the southeast.|   |QID|11167|  |M|78.55 28.98|
+A Let Them Eat Crow |N|Pontius, the kennel keeper at Vengeance Landing, wants you to use the Plaguehound Cage to summon a Hungry Plaguehound and feed it Crow Meat from Fjord Crows west of Vengeance Landing.|   |QID|11227|  |M|79.15 31.23|
+A War is Hell |N|High Executor Anselm at Vengeance Landing wants you to take the Burning Torch and use it to burn 10 of the corpses littered to the west of town.|   |QID|11270|  |M|78.61 31.23|
 
 U Plaguehound Cage |U|33221|
-C War is Hell |QID|11270| |U|33278| |N|High Executor Anselm at Vengeance Landing wants you to take the Burning Torch and use it to burn 10 of the corpses littered to the west of town.|  |M|78.61,31.23|
-C Let Them Eat Crow |QID|11227| |U|33238| |N|Pontius, the kennel keeper at Vengeance Landing, wants you to use the Plaguehound Cage to summon a Hungry Plaguehound and feed it Crow Meat from Fjord Crows west of Vengeance Landing.|  |M|79.15,31.23|
+C War is Hell |QID|11270| |U|33278| |N|Burn corpses just to the southwest of town.|  |M|78.61 31.23|
+C Let Them Eat Crow |QID|11227| |U|33238| |N|Kill crows for meat, feed the plaguehound.|  |M|79.15 31.23|
 
-T War is Hell |N|High Executor Anselm at Vengeance Landing wants you to take the Burning Torch and use it to burn 10 of the corpses littered to the west of town.|    |QID|11270|  |M|78.6,31.2|
-A Accept Reports |N|Go to High Executor Anselm and accept Reports|    |QID|11221|  |M|78.6,31.2|
-T Let Them Eat Crow |N|Pontius, the kennel keeper at Vengeance Landing, wants you to use the Plaguehound Cage to summon a Hungry Plaguehound and feed it Crow Meat from Fjord Crows west of Vengeance Landing.|    |QID|11227|  |M|79.1,31.2|
-A Accept Sniff Out the Enemy |N|Go to Pontius and accept Sniff Out the Enemy|    |QID|11253|  |M|79.1,31.2|
+T War is Hell |N|High Executor Anselm at Vengeance Landing wants you to take the Burning Torch and use it to burn 10 of the corpses littered to the west of town.|   |QID|11270|  |M|78.61 31.23|
+A Reports from the Field |N|Speak to Dark Ranger Lyana and Deathstalker Razael in the battlefield at the Bleeding Vale south of Vengeance Landing.|   |QID|11221|  |M|78.61 31.23|
+T Let Them Eat Crow |N|Pontius, the kennel keeper at Vengeance Landing, wants you to use the Plaguehound Cage to summon a Hungry Plaguehound and feed it Crow Meat from Fjord Crows west of Vengeance Landing.|   |QID|11227|  |M|79.15 31.23|
+A Sniff Out the Enemy |N|Use the Plaguehound Leash near the plaguehound cages at Vengeance Landing and look for clues at the location you're led to by the Plaguehound Tracker.|   |QID|11253|  |M|79.15 31.23|
 
-C Reports from the Field |QID|11221| |N|Speak to Dark Ranger Lyana and Deathstalker Razael in the battlefield at the Bleeding Vale south of Vengeance Landing.  Return to High Executor Anselm when you've completed this task.|  |M|78.61,31.23|
+C Reports from the Field |QID|11221| |N|Head south to the Bleeding Vale, find Razael (77.53, 34.65) and Lyana (78.77, 36.90) for their reports.|  |M|78.61 31.23|
 
-T Reports from the Field |N|Speak to Dark Ranger Lyana and Deathstalker Razael in the battlefield at the Bleeding Vale south of Vengeance Landing.|    |QID|11221|  |M|78.6,31.2|
-A Accept The Windrunner Fleet |N|Go to High Executor Anselm and accept The Windrunner Fleet|    |QID|11229|  |M|78.6,31.2|
+T Reports from the Field |N|Speak to Dark Ranger Lyana and Deathstalker Razael in the battlefield at the Bleeding Vale south of Vengeance Landing.|   |QID|11221|  |M|78.61 31.23|
+A The Windrunner Fleet |N|Speak to Bat Handler Camille at Vengeance Landing and obtain passage to the Windrunner.|   |QID|11229|  |M|78.61 31.23|
 
-T The Windrunner Fleet |N|Speak to Bat Handler Camille at Vengeance Landing and obtain passage to the Windrunner.|    |QID|11229|  |M|84.6,36.4|
-A Accept Ambushed! |N|Go to Captain Harker and accept Ambushed!|    |QID|11230|  |M|84.6,36.4|
-C Ambushed! |QID|11230| |N|Captain Harker aboard the Windrunner wants you to kill 15 North Fleet Marines.|  |M|84.66,36.46|
-T Ambushed! |N|Captain Harker aboard the Windrunner wants you to kill 15 North Fleet Marines.|    |QID|11230|  |M|84.6,36.4|
-A Accept Guide Our Sights |N|Go to Captain Harker and accept Guide Our Sights|    |QID|11232|  |M|84.6,36.4|
+T The Windrunner Fleet |N|Speak to Bat Handler Camille at Vengeance Landing and obtain passage to the Windrunner.|   |QID|11229|  |M|84.66 36.46|
+A Ambushed! |N|Captain Harker aboard the Windrunner wants you to kill 15 North Fleet Marines.|   |QID|11230|  |M|84.66 36.46|
+C Ambushed! |QID|11230|  |M|84.66 36.46|
+T Ambushed! |N|Captain Harker aboard the Windrunner wants you to kill 15 North Fleet Marines.|   |QID|11230|  |M|84.66 36.46|
+A Guide Our Sights |N|Use the Smoke Flares at the location of the Alliance Cannons on the northern wall of the Derelict Strand.|   |QID|11232|  |M|84.66 36.46|
 
-C Guide Our Sights |QID|11232| |U|33335| |N|Use the Smoke Flares at the location of the Alliance Cannons on the northern wall of the Derelict Strand.  Report to Dark Ranger Lyana at the Bleeding Vale after you've completed this task.|  |M|78.68,37.13|
-C The New Plague |QID|11167| |N|Apothecary Lysander at Vengeance Landing wants you to recover 10 Intact Plague Containers from the wrecked ship to the southeast.|  |M|78.55,28.98|
+C Guide Our Sights |QID|11232| |U|33335| |N|Swim west to the Derelict Strand.  Use the smoke flare to mark the eastern (80.36, 38.22) and western cannons (79.36, 40.20).|  |M|78.68 37.13|
+C The New Plague |QID|11167|  |M|78.55 28.98|
 
-T Guide Our Sights |N|Use the Smoke Flares at the location of the Alliance Cannons on the northern wall of the Derelict Strand.|    |QID|11232|  |M|78.7,37.1|
-A Accept Landing the Killing Blow |N|Go to Dark Ranger Lyana and accept Landing the Killing Blow|    |QID|11233|  |M|78.7,37.1|
+T Guide Our Sights |N|Use the Smoke Flares at the location of the Alliance Cannons on the northern wall of the Derelict Strand.|   |QID|11232|  |M|78.68 37.13|
+A Landing the Killing Blow |N|Dark Ranger Lyana south of the Vengeance Landing wants you to kill Captain Olster, Lieutenant Celeyne, and Sergeant Lorric at the Derelict Strand.|   |QID|11233|  |M|78.68 37.13|
 
-K Captain Olster |QID|11233| |QO|Captain Olster slain: 1/1| |N|UP the hill, towards the southern end (81.45, 43.33)|  |M|78.68,37.13|
-A Accept Trail of Fire |N|Go to Apothecary Hanes and accept Trail of Fire|    |QID|11241|  |M|83.2,43.1|
-C Landing the Killing Blow |QID|11233| |N|Dark Ranger Lyana south of the Vengeance Landing wants you to kill Captain Olster, Lieutenant Celeyne, and Sergeant Lorric at the Derelict Strand.|  |M|78.68,37.13|
-C Trail of Fire |QID|11241| |N|Escort Apothecary Hanes out of the Derelict Strand.  Report to Apothecary Lysander at Vengeance Landing in Howling Fjord when you've completed this task.|  |M|78.55,28.98|
+K Captain Olster |QID|11233| |QO|Captain Olster slain: 1/1| |N|UP the hill, towards the southern end (81.45, 43.33)|  |M|78.68 37.13|
+A Trail of Fire |N|Escort Apothecary Hanes out of the Derelict Strand.|   |QID|11241|  |M|83.23 43.10|
+C Landing the Killing Blow |QID|11233| |N|As you do the escort, kill Lieutenant Celeyne (83.14, 43.12) and Sergeant Lorric (81.99, 40.76).|  |M|78.68 37.13|
+C Trail of Fire |QID|11241|  |M|78.55 28.98|
 
-T Landing the Killing Blow |N|Dark Ranger Lyana south of the Vengeance Landing wants you to kill Captain Olster, Lieutenant Celeyne, and Sergeant Lorric at the Derelict Strand.|    |QID|11233|  |M|78.7,37.1|
-A Accept Report to Anselm |N|Go to Dark Ranger Lyana and accept Report to Anselm|    |QID|11234|  |M|78.7,37.1|
+T Landing the Killing Blow |N|Dark Ranger Lyana south of the Vengeance Landing wants you to kill Captain Olster, Lieutenant Celeyne, and Sergeant Lorric at the Derelict Strand.|   |QID|11233|  |M|78.68 37.13|
+A Report to Anselm |N|Report back to High Executor Anselm at Vengeance Landing in Howling Fjord.|   |QID|11234|  |M|78.68 37.13|
 
-T Report to Anselm |N|Report back to High Executor Anselm at Vengeance Landing in Howling Fjord.|    |QID|11234|  |M|78.6,31.2|
-T The New Plague |N|Apothecary Lysander at Vengeance Landing wants you to recover 10 Intact Plague Containers from the wrecked ship to the southeast.|    |QID|11167|  |M|78.5,29|
-A Accept Spiking the Mix |N|Go to Apothecary Lysander and accept Spiking the Mix|    |QID|11168|  |M|78.5,29|
-T Trail of Fire |N|Escort Apothecary Hanes out of the Derelict Strand.|    |QID|11241|  |M|78.5,29|
+T Report to Anselm |N|Report back to High Executor Anselm at Vengeance Landing in Howling Fjord.|   |QID|11234|  |M|78.61 31.23|
+T The New Plague |N|Apothecary Lysander at Vengeance Landing wants you to recover 10 Intact Plague Containers from the wrecked ship to the southeast.|   |QID|11167|  |M|78.55 28.98|
+A Spiking the Mix |N|Bring 3 Giant Toxin Glands from Giant Tidecrawlers to Apothecary Lysander at Vengeance Landing in Howling Fjord.|   |QID|11168|  |M|78.55 28.98|
+T Trail of Fire |N|Escort Apothecary Hanes out of the Derelict Strand.|   |QID|11241|  |M|78.55 28.98|
 
-T Sniff Out the Enemy |N|Use the Plaguehound Leash near the plaguehound cages at Vengeance Landing and look for clues at the location you're led to by the Plaguehound Tracker.|    |QID|11253| |U|33486|  |M|79.1,31.2|
-A Accept The Dragonskin Map |N|Go to Dragonskin Scroll and accept The Dragonskin Map|    |QID|11254|  |M|78.6,31.2|
-C Spiking the Mix |QID|11168| |N|Bring 3 Giant Toxin Glands from Giant Tidecrawlers to Apothecary Lysander at Vengeance Landing in Howling Fjord.|  |M|78.55,28.98|
+T Sniff Out the Enemy |N|Use the Plaguehound Leash near the plaguehound cages at Vengeance Landing and look for clues at the location you're led to by the Plaguehound Tracker.|   |QID|11253| |U|33486|  |M|79.15 31.23|
+A The Dragonskin Map |N|Bring the Dragonskin Map to High Executor Anselm in Vengeance Landing.|   |QID|11254|  |M|78.61 31.23|
+C Spiking the Mix |QID|11168| |N|Kill giant tidecrawlers.|  |M|78.55 28.98|
 
-T Spiking the Mix |N|Bring 3 Giant Toxin Glands from Giant Tidecrawlers to Apothecary Lysander at Vengeance Landing in Howling Fjord.|    |QID|11168|  |M|78.5,29|
-A Accept Test at Sea |N|Go to Apothecary Lysander and accept Test at Sea|    |QID|11170|  |M|78.5,29|
-T The Dragonskin Map |N|Bring the Dragonskin Map to High Executor Anselm in Vengeance Landing.|    |QID|11254|  |M|78.6,31.2|
-A Accept The Offensive Begins |N|Go to High Executor Anselm and accept The Offensive Begins|    |QID|11295|  |M|78.6,31.2|
-C Test at Sea |QID|11170| |U|33349| |N|Speak to Bat Handler Camille and take a riding bat to intercept the Alliance reinforcements.  Once above their fleet, use the Plague Vials to infect 16 North Fleet reservists.|  |M|78.55,28.98|
-T Test at Sea |N|Speak to Bat Handler Camille and take a riding bat to intercept the Alliance reinforcements.|    |QID|11170|  |M|78.5,29|
-A Accept New Agamand |N|Go to Apothecary Lysander and accept New Agamand|    |QID|11304|  |M|78.5,29|
+T Spiking the Mix |N|Bring 3 Giant Toxin Glands from Giant Tidecrawlers to Apothecary Lysander at Vengeance Landing in Howling Fjord.|   |QID|11168|  |M|78.55 28.98|
+A Test at Sea |N|Speak to Bat Handler Camille and take a riding bat to intercept the Alliance reinforcements.|   |QID|11170|  |M|78.55 28.98|
+T The Dragonskin Map |N|Bring the Dragonskin Map to High Executor Anselm in Vengeance Landing.|   |QID|11254|  |M|78.61 31.23|
+A The Offensive Begins |N|Speak to Sergeant Gorth at the blockade near the elevator west of Vengeance Landing in Howling Fjord.|   |QID|11295|  |M|78.61 31.23|
+C Test at Sea |QID|11170| |U|33349| |N|Talk to the bat handler for a flight, spread some warm gooey green love all over the ships.|  |M|78.55 28.98|
+T Test at Sea |N|Speak to Bat Handler Camille and take a riding bat to intercept the Alliance reinforcements.|   |QID|11170|  |M|78.55 28.98|
+A New Agamand |N|Bring Lysander's Strain to Chief Plaguebringer Harris in New Agamand in western Howling Fjord.|   |QID|11304|  |M|78.55 28.98|
 
-T The Offensive Begins |N|Speak to Sergeant Gorth at the blockade near the elevator west of Vengeance Landing in Howling Fjord.|    |QID|11295|  |M|71.1,39|
-A Accept A Lesson in Fear |N|Go to Sergeant Gorth and accept A Lesson in Fear|    |QID|11282|  |M|71.1,39|
-A Accept Help for Camp Winterhoof |N|Go to Longrunner Nanik and accept Help for Camp Winterhoof|    |QID|12566|  |M|71.4,39.2|
-C A Lesson in Fear |QID|11282| |U|33563| |N|Gorth wants you to kill Ulf the Bloodletter, Oric the Baleful and Gunnar Thorvardsson and drive the Forsaken Banner through their corpses.  Slay Vrykul across the Forsaken blockade until they appear.|  |M|71.11,39.08|
-T A Lesson in Fear |N|Gorth wants you to kill Ulf the Bloodletter, Oric the Baleful and Gunnar Thorvardsson and drive the Forsaken Banner through their corpses.|    |QID|11282|  |M|71.1,39|
-A Accept Baleheim Bodycount |N|Go to Sergeant Gorth and accept Baleheim Bodycount|    |QID|11283|  |M|71.1,39|
-A Accept Baleheim Must Burn! |N|Go to Sergeant Gorth and accept Baleheim Must Burn!|    |QID|11285|  |M|71.1,39|
+T The Offensive Begins |N|Speak to Sergeant Gorth at the blockade near the elevator west of Vengeance Landing in Howling Fjord.|   |QID|11295|  |M|71.11 39.08|
+A A Lesson in Fear |N|Gorth wants you to kill Ulf the Bloodletter, Oric the Baleful and Gunnar Thorvardsson and drive the Forsaken Banner through their corpses.|   |QID|11282|  |M|71.11 39.08|
+A Help for Camp Winterhoof |N|Speak with Chieftain Ashtotem at Camp Winterhoof.|   |QID|12566|  |M|71.47 39.21|
+C A Lesson in Fear |QID|11282| |U|33563| |N|Head west to Balejar Watch.  Kill Ulf the Bloodletter (69.31, 39.28), Oric the Baleful (69.18, 38.43) and Gunnar Thorvardsson (69.57, 40.02), then use the banner on their corpses.|  |M|71.11 39.08|
+T A Lesson in Fear |N|Gorth wants you to kill Ulf the Bloodletter, Oric the Baleful and Gunnar Thorvardsson and drive the Forsaken Banner through their corpses.|   |QID|11282|  |M|71.11 39.08|
+A Baleheim Bodycount |N|Sergeant Gorth wants you to kill 16 Winterskorn Vrykul inside Baleheim.|   |QID|11283|  |M|71.11 39.08|
+A Baleheim Must Burn! |N|Sergeant Gorth wants you to go to Baleheim and use Gorth's Torch to burn 1 Winterskorn Dwelling, 1 Winterskorn Watchtower, 1 Winterskorn Bridge and 1 Winterskorn Barracks.|   |QID|11285|  |M|71.11 39.08|
 
-C Baleheim Must Burn! |QID|11285| |U|33472| |N|Sergeant Gorth wants you to go to Baleheim and use Gorth's Torch to burn 1 Winterskorn Dwelling, 1 Winterskorn Watchtower, 1 Winterskorn Bridge and 1 Winterskorn Barracks.|  |M|71.11,39.08|
-C Baleheim Bodycount |QID|11283| |N|Sergeant Gorth wants you to kill 16 Winterskorn Vrykul inside Baleheim.|  |M|71.11,39.08|
+C Baleheim Must Burn! |QID|11285| |U|33472| |N|Use the torch to burn down the watchtower (67.05, 39.79), bridge (66.10, 39.84), dwelling (64.85, 41.45) and barracks (64.01, 41.16).|  |M|71.11 39.08|
+C Baleheim Bodycount |QID|11283|  |M|71.11 39.08|
 
-T Baleheim Bodycount |N|Sergeant Gorth wants you to kill 16 Winterskorn Vrykul inside Baleheim.|    |QID|11283|  |M|71.1,39|
-T Baleheim Must Burn! |N|Sergeant Gorth wants you to go to Baleheim and use Gorth's Torch to burn 1 Winterskorn Dwelling, 1 Winterskorn Watchtower, 1 Winterskorn Bridge and 1 Winterskorn Barracks.|    |QID|11285|  |M|71.1,39|
-A Accept The Ambush |N|Go to Sergeant Gorth and accept The Ambush|    |QID|11303|  |M|71.1,39|
+T Baleheim Bodycount |N|Sergeant Gorth wants you to kill 16 Winterskorn Vrykul inside Baleheim.|   |QID|11283|  |M|71.11 39.08|
+T Baleheim Must Burn! |N|Sergeant Gorth wants you to go to Baleheim and use Gorth's Torch to burn 1 Winterskorn Dwelling, 1 Winterskorn Watchtower, 1 Winterskorn Bridge and 1 Winterskorn Barracks.|   |QID|11285|  |M|71.11 39.08|
+A The Ambush |N|Speak to Lydell at Lydell's Ambush.|   |QID|11303|  |M|71.11 39.08|
 
-T The Ambush |N|Speak to Lydell at Lydell's Ambush.|    |QID|11303|  |M|65.9,36.7|
-A Accept Adding Injury to Insult |N|Go to Lydell and accept Adding Injury to Insult|    |QID|12481|  |M|65.9,36.7|
-C Adding Injury to Insult |QID|12481| |U|33581| |N|Read the Vrykul Insult to Bjorn Halgurdsson in Baleheim, then lead him back to Lydell's Ambush and help slay him.|  |M|65.87,36.78|
-T Adding Injury to Insult |N|Read the Vrykul Insult to Bjorn Halgurdsson in Baleheim, then lead him back to Lydell's Ambush and help slay him.|    |QID|12481|  |M|65.9,36.7|
+T The Ambush |N|Speak to Lydell at Lydell's Ambush.|   |QID|11303|  |M|65.87 36.78|
+A Adding Injury to Insult |N|Read the Vrykul Insult to Bjorn Halgurdsson in Baleheim, then lead him back to Lydell's Ambush and help slay him.|   |QID|12481|  |M|65.87 36.78|
+C Adding Injury to Insult |QID|12481| |U|33581| |N|I do not normally condone killing people named Bear, but I guess he's evil or something... either way it must be done to continue the questline.  Find Bjrn to the southwest (64.41, 38.34), "use" the insult, kill him.|  |M|65.87 36.78|
+T Adding Injury to Insult |N|Read the Vrykul Insult to Bjorn Halgurdsson in Baleheim, then lead him back to Lydell's Ambush and help slay him.|   |QID|12481|  |M|65.87 36.78|
 
-A Accept Against Nifflevar |N|Go to Ranger Captain Areiel and accept Against Nifflevar|    |QID|12482|  |M|67.4,60.5|
-A Accept The Enemy's Legacy |N|Go to Scribe Seguine and accept The Enemy's Legacy|    |QID|11423|  |M|67.4,60.4|
-C The Enemy's Legacy |QID|11423| |N|Go into Nifflevar, north of Ghostblade Post and look for the Saga of the Winter Curse, the Saga of the Val'kyr and the Saga of the Twins.|  |M|67.35,60.32|
-C Against Nifflevar |QID|12482| |N|Ranger Captain Areiel wants you to go to Nifflevar and slay 5 Dragonflayer Warriors, 4 Dragonflayer Rune-Seers and 4 Dragonflayer Hunting Hounds.|  |M|67.45,60.58|
-T Against Nifflevar |N|Ranger Captain Areiel wants you to go to Nifflevar and slay 5 Dragonflayer Warriors, 4 Dragonflayer Rune-Seers and 4 Dragonflayer Hunting Hounds.|    |QID|12482|  |M|67.4,60.5|
-T The Enemy's Legacy |N|Go into Nifflevar, north of Ghostblade Post and look for the Saga of the Winter Curse, the Saga of the Val'kyr and the Saga of the Twins.|    |QID|11423|  |M|67.4,60.4|
+A Against Nifflevar |N|Ranger Captain Areiel wants you to go to Nifflevar and slay 5 Dragonflayer Warriors, 4 Dragonflayer Rune-Seers and 4 Dragonflayer Hunting Hounds.|   |QID|12482|  |M|67.45 60.58|
+A The Enemy's Legacy |N|Go into Nifflevar, north of Ghostblade Post and look for the Saga of the Winter Curse, the Saga of the Val'kyr and the Saga of the Twins.|   |QID|11423|  |M|67.35 60.32|
+C The Enemy's Legacy |QID|11423| |N|Find the Saga of the Valkyr (67.42, 57.21), Saga of the Winter Curse (68.88, 52.63) and Saga of the Twins (64.76, 53.57) around Nifflevar.|  |M|67.35 60.32|
+C Against Nifflevar |QID|12482|  |M|67.45 60.58|
+T Against Nifflevar |N|Ranger Captain Areiel wants you to go to Nifflevar and slay 5 Dragonflayer Warriors, 4 Dragonflayer Rune-Seers and 4 Dragonflayer Hunting Hounds.|   |QID|12482|  |M|67.45 60.58|
+T The Enemy's Legacy |N|Go into Nifflevar, north of Ghostblade Post and look for the Saga of the Winter Curse, the Saga of the Val'kyr and the Saga of the Twins.|   |QID|11423|  |M|67.35 60.32|
 
-T New Agamand |N|Bring Lysander's Strain to Chief Plaguebringer Harris in New Agamand in western Howling Fjord.|    |QID|11304|  |M|53.6,66.4|
-A Accept A Tailor-Made Formula |N|Go to Chief Plaguebringer Harris and accept A Tailor-Made Formula|    |QID|11305|  |M|53.6,66.4|
-A Accept Green Eggs and Whelps |N|Go to Plaguebringer Tillinghast and accept Green Eggs and Whelps|    |QID|11279|  |M|53.1,66.9|
-A Accept Shield Hill |N|Go to Hacksaw" Jenny and accept Shield Hill|    |QID|11424|  |M|53.7,65.3|
+T New Agamand |N|Bring Lysander's Strain to Chief Plaguebringer Harris in New Agamand in western Howling Fjord.|   |QID|11304|  |M|53.59 66.36|
+A A Tailor-Made Formula |N|Obtain the Dragonflayer Patriarch's Blood from Thorvald at Thorvald's Camp and bring it to Chief Plaguebringer Harris in New Agamand.|   |QID|11305|  |M|53.59 66.36|
+A Green Eggs and Whelps |N|Plaguebringer Tillinghast has asked you to collect 10 Plagued Proto-Whelp Specimens and deliver them to him at New Agamand.|   |QID|11279|  |M|53.07 66.93|
+A Shield Hill |N|Hacksaw" Jenny wants you to bring her 5 Ancient Vrykul Bones from the reanimated Vrykul in Shield Hill, south of New Agamand.|   |QID|11424|  |M|53.69 65.21|
 
-C A Tailor-Made Formula |QID|11305| |N|Obtain the Dragonflayer Patriarch's Blood from Thorvald at Thorvald's Camp and bring it to Chief Plaguebringer Harris in New Agamand.|  |M|53.59,66.36|
+C A Tailor-Made Formula |QID|11305| |N|Due west of town at the vykrul camp (47,68).|  |M|53.59 66.36|
 
-T A Tailor-Made Formula |N|Obtain the Dragonflayer Patriarch's Blood from Thorvald at Thorvald's Camp and bring it to Chief Plaguebringer Harris in New Agamand.|    |QID|11305|  |M|53.6,66.4|
-A Accept Apply Heat and Stir |N|Go to Chief Plaguebringer Harris and accept Apply Heat and Stir|    |QID|11306|  |M|53.6,66.4|
-C Apply Heat and Stir |QID|11306| |N|Fill the Empty Apothecary's Flask at the Cauldron of Vrykul Blood, then mix the Flask of Vrykul Blood with Harris's Plague Samples nearby until you've obtained a Balanced Concoction.$B$BReturn to Chief Plaguebringer Harris when you've completed this task.|  |M|53.59,66.36|
-T Apply Heat and Stir |N|Fill the Empty Apothecary's Flask at the Cauldron of Vrykul Blood, then mix the Flask of Vrykul Blood with Harris's Plague Samples nearby until you've obtained a Balanced Concoction.|    |QID|11306|  |M|53.6,66.4|
-A Accept Field Test |N|Go to Chief Plaguebringer Harris and accept Field Test|    |QID|11307|  |M|53.6,66.4|
+T A Tailor-Made Formula |N|Obtain the Dragonflayer Patriarch's Blood from Thorvald at Thorvald's Camp and bring it to Chief Plaguebringer Harris in New Agamand.|   |QID|11305|  |M|53.59 66.36|
+A Apply Heat and Stir |N|Fill the Empty Apothecary's Flask at the Cauldron of Vrykul Blood, then mix the Flask of Vrykul Blood with Harris's Plague Samples nearby until you've obtained a Balanced Concoction.|   |QID|11306|  |M|53.59 66.36|
+C Apply Heat and Stir |QID|11306| |N|Use the Empty Apothecary Flask at the cauldron right next to Harris to fill it, then mix the filled flask at the table on his other side. Repeat until you get a Balanced Concoction.|  |M|53.59 66.36|
+T Apply Heat and Stir |N|Fill the Empty Apothecary's Flask at the Cauldron of Vrykul Blood, then mix the Flask of Vrykul Blood with Harris's Plague Samples nearby until you've obtained a Balanced Concoction.|   |QID|11306|  |M|53.59 66.36|
+A Field Test |N|Venture into Halgrind and use the Plague Spray on 10 Plagued Dragonflayer Vrykul.|   |QID|11307|  |M|53.59 66.36|
 
-C Field Test |QID|11307| |N|Venture into Halgrind and use the Plague Spray on 10 Plagued Dragonflayer Vrykul.  Return to Chief Plaguebringer Harris to report the results.|  |M|53.59,66.36|
+C Field Test |QID|11307| |N|Due north at Halgrind (50,56). Use the spray on the vykrul.|  |M|53.59 66.36|
 
-A Accept Root Causes |N|Go to Ember Clutch Ancient and accept Root Causes|    |QID|11182|  |M|36.4,48.4|
+A Root Causes |N|Slay 5 Dragonflayer Handlers and Skeld Drakeson.|   |QID|11182|  |M|41.22 49.28|
 C Root Causes |N|Kill Skeld Drakeson in the building on the southeast edge of the Clutch (41.30, 53.15)|
-C Green Eggs and Whelps |QID|11279| |N|Plaguebringer Tillinghast has asked you to collect 10 Plagued Proto-Whelp Specimens and deliver them to him at New Agamand.|  |M|53.07,66.93|
-T Root Causes |N|Slay 5 Dragonflayer Handlers and Skeld Drakeson.|    |QID|11182|  |M|36.4,48.4|
+C Green Eggs and Whelps |QID|11279| |N|Run northwest to Ember Clutch at (41,51) Use Tillinghast's Plague Canister on the Proto-Whelp Eggs here, that will spawn a plagued Proto-Whelp. Kill it and loot the meat.|  |M|53.07 66.93|
+T Root Causes |N|Slay 5 Dragonflayer Handlers and Skeld Drakeson.|   |QID|11182|  |M|41.22 49.28|
 
-A Accept The Dead Rise! |N|Go to Orfus of Kamagua and accept The Dead Rise!|    |QID|11504|  |M|40.3,60.3|
+A The Dead Rise! |N|Orfus of Kamagua at the Ancient Lift in the Howling Fjord wants you to find Fengir's Clue, Rodin's Clue, Isuldof's Clue and Windan's Clue.|   |QID|11504|  |M|40.24 60.25|
 
-T Green Eggs and Whelps |N|Plaguebringer Tillinghast has asked you to collect 10 Plagued Proto-Whelp Specimens and deliver them to him at New Agamand.|    |QID|11279|  |M|53.1,66.9|
-A Accept Draconis Gastritis |N|Go to Plaguebringer Tillinghast and accept Draconis Gastritis|    |QID|11280|  |M|53.1,66.9|
-T Field Test |N|Venture into Halgrind and use the Plague Spray on 10 Plagued Dragonflayer Vrykul.|    |QID|11307|  |M|53.6,66.4|
-A Accept Time for Cleanup |N|Go to Chief Plaguebringer Harris and accept Time for Cleanup|    |QID|11308|  |M|53.6,66.4|
-T Time for Cleanup |N|Speak to "Hacksaw" Jenny in New Agamand.|    |QID|11308|  |M|53.7,65.3|
-A Accept Parts for the Job |N|Go to Hacksaw" Jenny and accept Parts for the Job|    |QID|11309|  |M|53.7,65.3|
+T Green Eggs and Whelps |N|Plaguebringer Tillinghast has asked you to collect 10 Plagued Proto-Whelp Specimens and deliver them to him at New Agamand.|   |QID|11279|  |M|53.07 66.93|
+A Draconis Gastritis |N|Plaguebringer Tillinghast at New Agamand wants you to use Tillinghast's Plagued Meat to attract down a Proto-Drake and observe its reaction to eating the stuff.|   |QID|11280|  |M|53.07 66.93|
+T Field Test |N|Venture into Halgrind and use the Plague Spray on 10 Plagued Dragonflayer Vrykul.|   |QID|11307|  |M|53.59 66.36|
+A Time for Cleanup |N|Speak to "Hacksaw" Jenny in New Agamand.|   |QID|11308|  |M|53.59 66.36|
+T Time for Cleanup |N|Speak to "Hacksaw" Jenny in New Agamand.|   |QID|11308|  |M|53.69 65.21|
+A Parts for the Job |N|Hacksaw" Jenny in New Agamand wants you to obtain 6 Shoveltusk Ligaments and 1 Fresh Pound of Flesh.|   |QID|11309|  |M|53.69 65.21|
 
-C Parts for the Job |QID|11309| |N|"Hacksaw"" Jenny in New Agamand wants you to obtain 6 Shoveltusk Ligaments and 1 Fresh Pound of Flesh."|  |M|53.69,65.21|
-C The Dead Rise! |QID|11504| |N|Orfus of Kamagua at the Ancient Lift in the Howling Fjord wants you to find Fengir's Clue, Rodin's Clue, Isuldof's Clue and Windan's Clue.|  |M|40.24,60.25|
-C Shield Hill |QID|11424| |N|"Hacksaw"" Jenny wants you to bring her 5 Ancient Vrykul Bones from the reanimated Vrykul in Shield Hill, south of New Agamand."|  |M|53.69,65.21|
+C Parts for the Job |QID|11309| |N|Just to the southwest of town.  You can find Anton patrolling the road for the pound of flesh.|  |M|53.69 65.21|
+C The Dead Rise! |QID|11504| |N|To the southeast at Shield Hill.  Visit each grave for a clue: Fengir (57.69, 77.51), Rodin (59.22, 76.99), Isuldof (59.80, 79.39), Windan (61.98, 80.04)|  |M|40.24 60.25|
+C Shield Hill |QID|11424| |N|Kill the Risen Vykrul Ancestors for their bones.|  |M|53.69 65.21|
 
-T Parts for the Job |N|Hacksaw" Jenny in New Agamand wants you to obtain 6 Shoveltusk Ligaments and 1 Fresh Pound of Flesh.|    |QID|11309|  |M|53.7,65.3|
-A Accept Warning: Some Assembly Required |N|Go to Hacksaw" Jenny and accept Warning: Some Assembly Required|    |QID|11310|  |M|53.7,65.3|
-T Shield Hill |N|Hacksaw" Jenny wants you to bring her 5 Ancient Vrykul Bones from the reanimated Vrykul in Shield Hill, south of New Agamand.|    |QID|11424|  |M|53.7,65.3|
+T Parts for the Job |N|Hacksaw" Jenny in New Agamand wants you to obtain 6 Shoveltusk Ligaments and 1 Fresh Pound of Flesh.|   |QID|11309|  |M|53.69 65.21|
+A Warning: Some Assembly Required |N|Use the Abomination Assembly Kit in Halgrind and round up plagued Vrykul with your Mindless Abomination.|   |QID|11310|  |M|53.69 65.21|
+T Shield Hill |N|Hacksaw" Jenny wants you to bring her 5 Ancient Vrykul Bones from the reanimated Vrykul in Shield Hill, south of New Agamand.|   |QID|11424|  |M|53.69 65.21|
 
-C Warning: Some Assembly Required |QID|11310| |U|33613| |N|Use the Abomination Assembly Kit in Halgrind and round up plagued Vrykul with your Mindless Abomination.  Slay at least 20 and return to "Hacksaw"" Jenny in New Agamand when you're done."|  |M|53.69,65.21|
+C Warning: Some Assembly Required |QID|11310| |U|33613| |N|Back at Halgrind (48,58).  Use the kit, round up a bunch of vykrul and blow up the abomination.  Repeat.|  |M|53.69 65.21|
 
-C Draconis Gastritis |QID|11280| |U|33441| |N|Plaguebringer Tillinghast at New Agamand wants you to use Tillinghast's Plagued Meat to attract down a Proto-Drake and observe its reaction to eating the stuff.|  |M|53.07,66.93|
+C Draconis Gastritis |QID|11280| |U|33441| |N|Back at the Ember Clutch (41,51).  Find a rroto-drake then use the plagued meat to lure it down.|  |M|53.07 66.93|
 
-T The Dead Rise! |N|Orfus of Kamagua at the Ancient Lift in the Howling Fjord wants you to find Fengir's Clue, Rodin's Clue, Isuldof's Clue and Windan's Clue.|    |QID|11504|  |M|40.3,60.3|
-A Accept Elder Atuik and Kamagua |N|Go to Orfus of Kamagua and accept Elder Atuik and Kamagua|    |QID|11507|  |M|40.3,60.3|
-T Elder Atuik and Kamagua |N|Orfus of Kamagua in the Howling Fjord wants you to deliver Orfus's Bundle to Elder Atuik at Kamagua.|    |QID|11507|  |M|25,57|
-A Accept Grezzix Spindlesnap |N|Go to Elder Atuik and accept Grezzix Spindlesnap|    |QID|11508|  |M|25,57|
-A Accept Feeding the Survivors |N|Go to Elder Atuik and accept Feeding the Survivors|    |QID|11456|  |M|25,57|
+T The Dead Rise! |N|Orfus of Kamagua at the Ancient Lift in the Howling Fjord wants you to find Fengir's Clue, Rodin's Clue, Isuldof's Clue and Windan's Clue.|   |QID|11504|  |M|40.24 60.25|
+A Elder Atuik and Kamagua |N|Orfus of Kamagua in the Howling Fjord wants you to deliver Orfus's Bundle to Elder Atuik at Kamagua.|   |QID|11507|  |M|40.24 60.25|
+T Elder Atuik and Kamagua |N|Orfus of Kamagua in the Howling Fjord wants you to deliver Orfus's Bundle to Elder Atuik at Kamagua.|   |QID|11507|  |M|25.02 56.96|
+A Grezzix Spindlesnap |N|Speak with Grezzix Spindlesnap.|   |QID|11508|  |M|25.02 56.96|
+A Feeding the Survivors |N|Elder Atuik at Kamagua in Howling Fjord wants you to obtain 6 pieces of Island Shoveltusk Meat from Island Shoveltusk in the Isle of Spears.|   |QID|11456|  |M|25.02 56.96|
 
-C Feeding the Survivors |QID|11456| |N|Elder Atuik at Kamagua in Howling Fjord wants you to obtain 6 pieces of Island Shoveltusk Meat from Island Shoveltusk in the Isle of Spears.|  |M|25.02,56.96|
-T Feeding the Survivors |N|Elder Atuik at Kamagua in Howling Fjord wants you to obtain 6 pieces of Island Shoveltusk Meat from Island Shoveltusk in the Isle of Spears.|    |QID|11456|  |M|25,57|
-A Accept Arming Kamagua |N|Go to Elder Atuik and accept Arming Kamagua|    |QID|11457|  |M|25,57|
-C Arming Kamagua |QID|11457| |N|Elder Atuik wants you to obain 3 Chimaera Horns.|  |M|25.02,56.96|
-T Arming Kamagua |N|Elder Atuik wants you to obain 3 Chimaera Horns.|    |QID|11457|  |M|25,57|
-A Accept Avenge Iskaal |N|Go to Elder Atuik and accept Avenge Iskaal|    |QID|11458|  |M|25,57|
+C Feeding the Survivors |QID|11456| |N|All over the island|  |M|25.02 56.96|
+T Feeding the Survivors |N|Elder Atuik at Kamagua in Howling Fjord wants you to obtain 6 pieces of Island Shoveltusk Meat from Island Shoveltusk in the Isle of Spears.|   |QID|11456|  |M|25.02 56.96|
+A Arming Kamagua |N|Elder Atuik wants you to obain 3 Chimaera Horns.|   |QID|11457|  |M|25.02 56.96|
+C Arming Kamagua |QID|11457| |N|Lots on the northern part of the island|  |M|25.02 56.96|
+T Arming Kamagua |N|Elder Atuik wants you to obain 3 Chimaera Horns.|   |QID|11457|  |M|25.02 56.96|
+A Avenge Iskaal |N|Elder Atuik wants you to go to Iskaal and slay 8 Northsea Slavers.|   |QID|11458|  |M|25.02 56.96|
 
-T Grezzix Spindlesnap |N|Speak with Grezzix Spindlesnap.|    |QID|11508|  |M|23.1,62.6|
-A Accept Street "Cred" |N|Go to Grezzix Spindlesnap and accept Street "Cred"|    |QID|11509|  |M|23.1,62.6|
+T Grezzix Spindlesnap |N|Speak with Grezzix Spindlesnap.|   |QID|11508|  |M|23.08 62.66|
+A Street "Cred" |N|Speak with "Silvermoon" Harry at Scalawag Point about the missing Vrykul artifacts.|   |QID|11509|  |M|23.08 62.66|
 
-T Street "Cred" |N|Speak with "Silvermoon" Harry at Scalawag Point about the missing Vrykul artifacts.|    |QID|11509|  |M|35.1,80.9|
-A Accept "Scoodles" |N|Go to Silvermoon" Harry and accept "Scoodles"|    |QID|11510|  |M|35.1,80.9|
-A Accept Forgotten Treasure |N|Go to Handsome Terry and accept Forgotten Treasure|    |QID|11434|  |M|35.6,80.3|
+T Street "Cred" |N|Speak with "Silvermoon" Harry at Scalawag Point about the missing Vrykul artifacts.|   |QID|11509|  |M|35.09 80.94|
+A "Scoodles" |N|Silvermoon" Harry at Scalawag Point wants you to recover his Sin'dorei Scrying Crystal from the orca, "Scoodles.|   |QID|11510|  |M|35.09 80.94|
+A Forgotten Treasure |N|Handsome Terry at Scalawag Point wants you to bring him 1 Amani Vase and 1 Eagle Figurine from the shipwreck to the south.|   |QID|11434|  |M|35.60 80.23|
 
-C "Scoodles" |QID|11510| |N|"Silvermoon"" Harry at Scalawag Point wants you to recover his Sin'dorei Scrying Crystal from the orca, ""Scoodles."""|  |M|35.09,80.94|
-C Forgotten Treasure |QID|11434| |U|34076| |N|Handsome Terry at Scalawag Point wants you to bring him 1 Amani Vase and 1 Eagle Figurine from the shipwreck to the south.|  |M|35.60,80.23|
+C "Scoodles" |QID|11510| |N|Just off shore to the south|  |M|35.09 80.94|
+C Forgotten Treasure |QID|11434| |U|34076| |N|Dive down to the wreckage.  Use the [Fish Bladder] if you need.  Find the Eagle Figurine in one boat (37.79, 84.59) and the Amani Vase in the other (37.18, 85.56)|  |M|35.60 80.23|
 
-T Forgotten Treasure |N|Handsome Terry at Scalawag Point wants you to bring him 1 Amani Vase and 1 Eagle Figurine from the shipwreck to the south.|    |QID|11434|  |M|35.6,80.3|
-A Accept The Fragrance of Money |N|Go to Handsome Terry and accept The Fragrance of Money|    |QID|11455|  |M|35.6,80.3|
-T "Scoodles" |N|Silvermoon" Harry at Scalawag Point wants you to recover his Sin'dorei Scrying Crystal from the orca, "Scoodles.|    |QID|11510|  |M|35.1,80.9|
-A Accept The Staff of Storm's Fury |N|Go to Silvermoon" Harry and accept The Staff of Storm's Fury|    |QID|11511|  |M|35.1,80.9|
-A Accept The Frozen Heart of Isuldof |N|Go to Silvermoon" Harry and accept The Frozen Heart of Isuldof|    |QID|11512|  |M|35.1,80.9|
-A Accept The Lost Shield of the Aesirites |N|Go to Silvermoon" Harry and accept The Lost Shield of the Aesirites|    |QID|11519|  |M|35.1,80.9|
-A Accept The Ancient Armor of the Kvaldir |N|Go to Silvermoon" Harry and accept The Ancient Armor of the Kvaldir|    |QID|11567|  |M|35.1,80.9|
-A Accept Gambling Debt |N|Go to Taruk and accept Gambling Debt|    |QID|11464|  |M|36.3,80.4|
-C Gambling Debt |QID|11464| |N|Taruk at Scalawag Point wants you to collect "Silvermoon"" Harry's Debt."|  |M|36.32,80.48|
-T Gambling Debt |N|Taruk at Scalawag Point wants you to collect "Silvermoon" Harry's Debt.|    |QID|11464|  |M|36.3,80.4|
-A Accept Jack Likes His Drink |N|Go to Taruk and accept Jack Likes His Drink|    |QID|11466|  |M|36.3,80.4|
-C Jack Likes His Drink |QID|11466| |N|Taruk at Scalawag Point in Howling Fjord wants you to collect Jack Adams' Debt.|  |M|36.32,80.48|
-T Jack Likes His Drink |N|Taruk at Scalawag Point in Howling Fjord wants you to collect Jack Adams' Debt.|    |QID|11466|  |M|36.3,80.4|
-A Accept Dead Man's Debt |N|Go to Taruk and accept Dead Man's Debt|    |QID|11467|  |M|36.3,80.4|
+T Forgotten Treasure |N|Handsome Terry at Scalawag Point wants you to bring him 1 Amani Vase and 1 Eagle Figurine from the shipwreck to the south.|   |QID|11434|  |M|35.60 80.23|
+A The Fragrance of Money |N|Handsome Terry at Scalawag Point in Howling Fjord wants you to obtain 4 Bear Musk from the Rabid Brown Bears in the surrounding area.|   |QID|11455|  |M|35.60 80.23|
+T "Scoodles" |N|Silvermoon" Harry at Scalawag Point wants you to recover his Sin'dorei Scrying Crystal from the orca, "Scoodles.|   |QID|11510|  |M|35.09 80.94|
+A The Staff of Storm's Fury |N|Recover the Staff of Storm's Fury and deliver it to Orfus of Kamagua in the Howling Fjord.|   |QID|11511|  |M|35.09 80.94|
+A The Frozen Heart of Isuldof |N|Recover the Frozen Heart of Isuldof and deliver it to Orfus of Kamagua in the Howling Fjord.|   |QID|11512|  |M|35.09 80.94|
+A The Lost Shield of the Aesirites |N|Speak with Captain Ellis aboard the Sister Mercy.|   |QID|11519|  |M|35.09 80.94|
+A The Ancient Armor of the Kvaldir |N|Recover the Ancient Armor of the Kvaldir and deliver it to Orfus of Kamagua in the Howling Fjord.|   |QID|11567|  |M|35.09 80.94|
+A Gambling Debt |N|Taruk at Scalawag Point wants you to collect "Silvermoon" Harry's Debt.|   |QID|11464|  |M|36.32 80.48|
+C Gambling Debt |QID|11464| |N|Ah, beatin people for money, gotta love it|  |M|36.32 80.48|
+T Gambling Debt |N|Taruk at Scalawag Point wants you to collect "Silvermoon" Harry's Debt.|   |QID|11464|  |M|36.32 80.48|
+A Jack Likes His Drink |N|Taruk at Scalawag Point in Howling Fjord wants you to collect Jack Adams' Debt.|   |QID|11466|  |M|36.32 80.48|
+C Jack Likes His Drink |QID|11466| |N|Inside the building, on the second level (35.45, 79.41).  Talk to the barmaid, then pick his pocket when he passes out.|  |M|36.32 80.48|
+T Jack Likes His Drink |N|Taruk at Scalawag Point in Howling Fjord wants you to collect Jack Adams' Debt.|   |QID|11466|  |M|36.32 80.48|
+A Dead Man's Debt |N|Taruk at Scalawag Point wants you to search for Black Conrad's Treasure on the plateau in the northeastern end of the Isle of Spears, just north of Iskaal.|   |QID|11467|  |M|36.32 80.48|
 
-C The Ancient Armor of the Kvaldir |QID|11567| |N|Recover the Ancient Armor of the Kvaldir and deliver it to Orfus of Kamagua in the Howling Fjord.|  |M|40.24,60.25|
+C The Ancient Armor of the Kvaldir |QID|11567| |N|Hop a bomber ride near the shore (36.06, 81.62).  Head down into the hold of the ship, then take the bomber back.|  |M|40.24 60.25|
 
-A Accept Swabbin' Soap |N|Go to Scuttle Frostprow and accept Swabbin' Soap|    |QID|11469|  |M|37.7,79.5|
-C Swabbin' Soap |QID|11469| |N|Scuttle Frostprow wants you to obtain Big Roy's Blubber as the main ingredient for her magic swabbin' soap. Return to her on the eastern pirate ship at Scalawag Point when you have it.|  |M|37.75,79.58|
-C The Fragrance of Money |QID|11455| |N|Handsome Terry at Scalawag Point in Howling Fjord wants you to obtain 4 Bear Musk from the Rabid Brown Bears in the surrounding area.|  |M|35.60,80.23|
+A Swabbin' Soap |N|Scuttle Frostprow wants you to obtain Big Roy's Blubber as the main ingredient for her magic swabbin' soap.|   |QID|11469|  |M|37.75 79.58|
+C Swabbin' Soap |QID|11469| |N|Kill Big Roy, southwest of the other sea lions (31.64, 77.50)|  |M|37.75 79.58|
+C The Fragrance of Money |QID|11455| |N|Bear musk always gets me horny|  |M|35.60 80.23|
 
-T The Lost Shield of the Aesirites |N|Speak with Captain Ellis aboard the Sister Mercy.|    |QID|11519|  |M|37.2,74.8|
-A Accept Mutiny on the Mercy |N|Go to Captain Ellis and accept Mutiny on the Mercy|    |QID|11527| |M|37.2,74.8|
-C Mutiny on the Mercy |QID|11527| |N|Captain Ellis aboard the Sister Mercy in the Howling Fjord has asked that you recover 5 Barrels of Blasting Powder from the ship's hold.$B|
-T Mutiny on the Mercy |N|Captain Ellis aboard the Sister Mercy in the Howling Fjord has asked that you recover 5 Barrels of Blasting Powder from the ship's hold.|    |QID|11527| |M|37.2,74.8|
-A Accept Sorlof's Booty |N|Go to Captain Ellis and accept Sorlof's Booty|    |QID|11529| |M|37.2,74.8|
-C Sorlof's Booty |QID|11529| |N|Slay Sorlof using the Big Gun and recover Sorlof's Booty. Return Sorlof's Booty to Captain Ellis aboard the Sister Mercy.|
-T Sorlof's Booty |N|Slay Sorlof using the Big Gun and recover Sorlof's Booty.|    |QID|11529| |M|37.2,74.8|
-A Accept The Shield of the Aesirites |N|Go to Captain Ellis and accept The Shield of the Aesirites|    |QID|11530|  |M|37.2,74.8|
+T The Lost Shield of the Aesirites |N|Speak with Captain Ellis aboard the Sister Mercy.|   |QID|11519|  |M|35.09 80.94|
+A Mutiny on the Mercy |N|Captain Ellis aboard the Sister Mercy in the Howling Fjord has asked that you recover 5 Barrels of Blasting Powder from the ship's hold.|   |QID|11527|
+C Mutiny on the Mercy |QID|11527| |N|Down in the ship's hold|
+T Mutiny on the Mercy |N|Captain Ellis aboard the Sister Mercy in the Howling Fjord has asked that you recover 5 Barrels of Blasting Powder from the ship's hold.|   |QID|11527|
+A Sorlof's Booty |N|Slay Sorlof using the Big Gun and recover Sorlof's Booty.|   |QID|11529|
+C Sorlof's Booty |QID|11529| |N|When the ship goes near shore, use the cannon at the other end of the ship, then swim to shore and grab da loots|
+T Sorlof's Booty |N|Slay Sorlof using the Big Gun and recover Sorlof's Booty.|   |QID|11529| 
+A The Shield of the Aesirites |N|Return the Shield of the Aesirites to Orfus of Kamagua at the Ancient Lift in the Howling Fjord.|   |QID|11530|  |M|40.24 60.25|
 
-T Swabbin' Soap |N|Scuttle Frostprow wants you to obtain Big Roy's Blubber as the main ingredient for her magic swabbin' soap.|    |QID|11469|  |M|37.7,79.5|
-T The Fragrance of Money |N|Handsome Terry at Scalawag Point in Howling Fjord wants you to obtain 4 Bear Musk from the Rabid Brown Bears in the surrounding area.|    |QID|11455|  |M|35.6,80.3|
-A Accept A Traitor Among Us |N|Go to Handsome Terry and accept A Traitor Among Us|    |QID|11473|  |M|35.6,80.3|
-T A Traitor Among Us |N|Speak to Zeh'gehn at Scalawag Post.|    |QID|11473|  |M|35.6,80.6|
-A Accept Zeh'gehn Sez |N|Go to Zeh'gehn and accept Zeh'gehn Sez|    |QID|11459|  |M|35.6,80.6|
-T Zeh'gehn Sez |N|Return to Handsome Terry to decipher what Zeh'gehn asked of you.|    |QID|11459|  |M|35.6,80.3|
-A Accept A Carver and a Croaker |N|Go to Handsome Terry and accept A Carver and a Croaker|    |QID|11476|  |M|35.6,80.3|
-C A Carver and a Croaker |QID|11476| |N|Get a Shiny Knife from "Silvermoon"" Harry and capture a Scalawag Frog.  Bring these to Zeh'Gehn at Scalawag Point."|  |M|35.56,80.62|
-T A Carver and a Croaker |N|Get a Shiny Knife from "Silvermoon" Harry and capture a Scalawag Frog.|    |QID|11476|  |M|35.6,80.6|
-A Accept "Crowleg" Dan |N|Go to Zeh'gehn and accept "Crowleg" Dan|    |QID|11479|  |M|35.6,80.6|
-C "Crowleg" Dan |QID|11479| |N|Confront "Crowleg"" Dan, who is in one of the ships at Scalawag Point. Speak to Handsome Terry when you've completed this task."|  |M|35.60,80.23|
-T "Crowleg" Dan |N|Confront "Crowleg" Dan, who is in one of the ships at Scalawag Point.|    |QID|11479|  |M|35.6,80.3|
-A Accept Meet Number Two |N|Go to Handsome Terry and accept Meet Number Two|    |QID|11480|  |M|35.6,80.3|
-T Meet Number Two |N|Speak to Annie Bonn at Scalawag Point.|    |QID|11480|  |M|35.4,79.4|
-A Accept The Jig is Up |N|Go to Annie Bonn and accept The Jig is Up|    |QID|11471|  |M|35.4,79.4|
-C The Jig is Up |QID|11471| |N|Annie Bonn at Scalawag Point wants you to bring her Jonah Sterling's Spyglass.|  |M|35.41,79.43|
-C The Frozen Heart of Isuldof |QID|11512| |N|Recover the Frozen Heart of Isuldof and deliver it to Orfus of Kamagua in the Howling Fjord.|  |M|40.24,60.25|
+T Swabbin' Soap |N|Scuttle Frostprow wants you to obtain Big Roy's Blubber as the main ingredient for her magic swabbin' soap.|   |QID|11469|  |M|37.75 79.58|
+T The Fragrance of Money |N|Handsome Terry at Scalawag Point in Howling Fjord wants you to obtain 4 Bear Musk from the Rabid Brown Bears in the surrounding area.|   |QID|11455|  |M|35.60 80.23|
+A A Traitor Among Us |N|Speak to Zeh'gehn at Scalawag Post.|   |QID|11473|  |M|35.60 80.23|
+T A Traitor Among Us |N|Speak to Zeh'gehn at Scalawag Post.|   |QID|11473|  |M|35.56 80.62|
+A Zeh'gehn Sez |N|Return to Handsome Terry to decipher what Zeh'gehn asked of you.|   |QID|11459|  |M|35.56 80.62|
+T Zeh'gehn Sez |N|Return to Handsome Terry to decipher what Zeh'gehn asked of you.|   |QID|11459|  |M|35.60 80.23|
+A A Carver and a Croaker |N|Get a Shiny Knife from "Silvermoon" Harry and capture a Scalawag Frog.|   |QID|11476|  |M|35.60 80.23|
+C A Carver and a Croaker |QID|11476| |N|Buy the knife from "Silvermoon" Harry and grab a frog nearby|  |M|35.56 80.62|
+T A Carver and a Croaker |N|Get a Shiny Knife from "Silvermoon" Harry and capture a Scalawag Frog.|   |QID|11476|  |M|35.56 80.62|
+A "Crowleg" Dan |N|Confront "Crowleg" Dan, who is in one of the ships at Scalawag Point.|   |QID|11479|  |M|35.56 80.62|
+C "Crowleg" Dan |QID|11479| |N|Over on the ship there (35.92, 83.55)|  |M|35.60 80.23|
+T "Crowleg" Dan |N|Confront "Crowleg" Dan, who is in one of the ships at Scalawag Point.|   |QID|11479|  |M|35.60 80.23|
+A Meet Number Two |N|Speak to Annie Bonn at Scalawag Point.|   |QID|11480|  |M|35.60 80.23|
+T Meet Number Two |N|Speak to Annie Bonn at Scalawag Point.|   |QID|11480|  |M|35.41 79.43|
+A The Jig is Up |N|Annie Bonn at Scalawag Point wants you to bring her Jonah Sterling's Spyglass.|   |QID|11471|  |M|35.41 79.43|
+C The Jig is Up |QID|11471| |N|Head to the bear cave on the north side of the island (33.56, 75.58).  Go in, beat down Jonah.  Then beat on his furry friend a little.  If you fail, skip this, but make sure you get the Frozen Heart.|  |M|35.41 79.43|
+C The Frozen Heart of Isuldof |QID|11512| |N|Near where the bear spawns (32.37, 78.69)|  |M|40.24 60.25|
 
-C Dead Man's Debt |QID|11467| |N|Taruk at Scalawag Point wants you to search for Black Conrad's Treasure on the plateau in the northeastern end of the Isle of Spears, just north of Iskaal.|  |M|36.32,80.48|
+C Dead Man's Debt |QID|11467| |N|On the north island, up on one of the rises under the lift (32.74, 60.33)|  |M|36.32 80.48|
 
-C Avenge Iskaal |QID|11458|  |U|36777| |N|Elder Atuik wants you to go to Iskaal and slay 8 Northsea Slavers.  Use the Horn of Kamagua should you need assistance.|  |M|25.02,56.96|
-C The Staff of Storm's Fury |QID|11511| |N|Recover the Staff of Storm's Fury and deliver it to Orfus of Kamagua in the Howling Fjord.$B|  |M|40.24,60.25|
+C Avenge Iskaal |QID|11458| |N|On the east side of the island (33.89, 63.57).  Use the horn for a cute little helper.| |U|36777|  |M|25.02 56.96|
+C The Staff of Storm's Fury |QID|11511| |N|In the hold of the ship.  Sneak past the elite when he heads onto the upper bow of the ship.|  |M|40.24 60.25|
 
-T Avenge Iskaal |N|Elder Atuik wants you to go to Iskaal and slay 8 Northsea Slavers.|    |QID|11458|  |M|25,57|
-A Accept Travel to Moa'ki Harbor |N|Go to Anuniaq and accept Travel to Moa'ki Harbor|    |QID|12118|  |M|24.6,58.8|
-A Accept The Way to His Heart... |N|Go to Anuniaq and accept The Way to His Heart...|    |QID|11472|  |M|24.6,58.8|
-C The Way to His Heart... |QID|11472| |U|34127| |N|Toss Tasty Reef Fish at a Reef Bull to lead it to a Reef Cow. Once you have helped the two to find true love, return to Anuniaq at Kamagua.|  |M|24.59,58.86|
+T Avenge Iskaal |N|Elder Atuik wants you to go to Iskaal and slay 8 Northsea Slavers.|   |QID|11458|  |M|25.02 56.96|
+A Travel to Moa'ki Harbor |N|Travel to Moa'ki Harbor in the Dragonblight and speak with Elder Ko'nani.|   |QID|12118|  |M|24.59 58.86|
+A The Way to His Heart... |N|Toss Tasty Reef Fish at a Reef Bull to lead it to a Reef Cow.|   |QID|11472|  |M|24.59 58.86|
+C The Way to His Heart... |QID|11472| |U|34127| |N|Find fish schools in the waters between the two islands and use the net on them.  You'll probably need at least two school's worth.  Target a bull on the south shore, stand as far away as you can and toss him a fish.  Move north and repeat.|  |M|24.59 58.86|
 
-T The Jig is Up |N|Annie Bonn at Scalawag Point wants you to bring her Jonah Sterling's Spyglass.|    |QID|11471|  |M|35.4,79.4|
-T Dead Man's Debt |N|Taruk at Scalawag Point wants you to search for Black Conrad's Treasure on the plateau in the northeastern end of the Isle of Spears, just north of Iskaal.|    |QID|11467|  |M|36.3,80.4|
+T The Jig is Up |N|Annie Bonn at Scalawag Point wants you to bring her Jonah Sterling's Spyglass.|   |QID|11471|  |M|35.41 79.43|
+T Dead Man's Debt |N|Taruk at Scalawag Point wants you to search for Black Conrad's Treasure on the plateau in the northeastern end of the Isle of Spears, just north of Iskaal.|   |QID|11467|  |M|36.32 80.48|
 
-T The Way to His Heart... |N|Toss Tasty Reef Fish at a Reef Bull to lead it to a Reef Cow.|    |QID|11472|  |M|24.6,58.8|
+T The Way to His Heart... |N|Toss Tasty Reef Fish at a Reef Bull to lead it to a Reef Cow.|   |QID|11472|  |M|24.59 58.86|
 
-T The Staff of Storm's Fury |N|Recover the Staff of Storm's Fury and deliver it to Orfus of Kamagua in the Howling Fjord.|    |QID|11511|  |M|40.3,60.3|
-T The Frozen Heart of Isuldof |N|Recover the Frozen Heart of Isuldof and deliver it to Orfus of Kamagua in the Howling Fjord.|    |QID|11512|  |M|40.3,60.3|
-T The Shield of the Aesirites |N|Return the Shield of the Aesirites to Orfus of Kamagua at the Ancient Lift in the Howling Fjord.|    |QID|11530|  |M|40.3,60.3|
-T The Ancient Armor of the Kvaldir |N|Recover the Ancient Armor of the Kvaldir and deliver it to Orfus of Kamagua in the Howling Fjord.|    |QID|11567|  |M|40.3,60.3|
-A Accept A Return to Resting |N|Go to Orfus of Kamagua and accept A Return to Resting|    |QID|11568|  |M|40.3,60.3|
+T The Staff of Storm's Fury |N|Recover the Staff of Storm's Fury and deliver it to Orfus of Kamagua in the Howling Fjord.|   |QID|11511|  |M|40.24 60.25|
+T The Frozen Heart of Isuldof |N|Recover the Frozen Heart of Isuldof and deliver it to Orfus of Kamagua in the Howling Fjord.|   |QID|11512|  |M|40.24 60.25|
+T The Shield of the Aesirites |N|Return the Shield of the Aesirites to Orfus of Kamagua at the Ancient Lift in the Howling Fjord.|   |QID|11530|  |M|40.24 60.25|
+T The Ancient Armor of the Kvaldir |N|Recover the Ancient Armor of the Kvaldir and deliver it to Orfus of Kamagua in the Howling Fjord.|   |QID|11567|  |M|40.24 60.25|
+A A Return to Resting |N|Use the Bundle of Vrykul Artifacts at the ransacked burial mounds of Shield Hill to return the Frozen Heart of Isuldof, the Shield of the Aesirites, the Staff of Storm's Fury and the Ancient Armor of the Kvaldir.|   |QID|11568|  |M|40.24 60.25|
 
-T Draconis Gastritis |N|Plaguebringer Tillinghast at New Agamand wants you to use Tillinghast's Plagued Meat to attract down a Proto-Drake and observe its reaction to eating the stuff.|    |QID|11280|  |M|53.1,66.9|
-T Warning: Some Assembly Required |N|Use the Abomination Assembly Kit in Halgrind and round up plagued Vrykul with your Mindless Abomination.|    |QID|11310|  |M|53.7,65.3|
+T Draconis Gastritis |N|Plaguebringer Tillinghast at New Agamand wants you to use Tillinghast's Plagued Meat to attract down a Proto-Drake and observe its reaction to eating the stuff.|   |QID|11280|  |M|53.07 66.93|
+T Warning: Some Assembly Required |N|Use the Abomination Assembly Kit in Halgrind and round up plagued Vrykul with your Mindless Abomination.|   |QID|11310|  |M|53.69 65.21|
 
-C A Return to Resting |QID|11568|  |U|34624| |N|Use the Bundle of Vrykul Artifacts at the ransacked burial mounds of Shield Hill to return the Frozen Heart of Isuldof, the Shield of the Aesirites, the Staff of Storm's Fury and the Ancient Armor of the Kvaldir.$B$BReturn to Orfus of Kamagua at the Ancient Lift should you succeed.|  |M|40.24,60.25|
-T A Return to Resting |N|Use the Bundle of Vrykul Artifacts at the ransacked burial mounds of Shield Hill to return the Frozen Heart of Isuldof, the Shield of the Aesirites, the Staff of Storm's Fury and the Ancient Armor of the Kvaldir.|    |QID|11568|  |M|40.3,60.3|
-A Accept Return to Atuik |N|Go to Orfus of Kamagua and accept Return to Atuik|    |QID|11572|  |M|40.3,60.3|
-T Return to Atuik |N|Deliver the bad news to Elder Atuik at Kamagua.|    |QID|11572|  |M|25,57|
+C A Return to Resting |QID|11568| |N|Back down at Shield Hill, use the [Bundle of Vrykul Artifacts] at each grave (57.65, 77.53) (59.19, 76.96) (61.93, 80.06) (59.76, 79.38)| |U|34624|  |M|40.24 60.25|
+T A Return to Resting |N|Use the Bundle of Vrykul Artifacts at the ransacked burial mounds of Shield Hill to return the Frozen Heart of Isuldof, the Shield of the Aesirites, the Staff of Storm's Fury and the Ancient Armor of the Kvaldir.|   |QID|11568|  |M|40.24 60.25|
+A Return to Atuik |N|Deliver the bad news to Elder Atuik at Kamagua.|   |QID|11572|  |M|40.24 60.25|
+T Return to Atuik |N|Deliver the bad news to Elder Atuik at Kamagua.|   |QID|11572|  |M|25.02 56.96|
 
-T Help for Camp Winterhoof |N|Speak with Chieftain Ashtotem at Camp Winterhoof.|    |QID|12566|  |M|48.1,10.8|
-A Accept Hasty Preparations |N|Go to Ahota Whitefrost and accept Hasty Preparations|    |QID|11271|  |M|48.4,11|
-A Accept Suppressing the Elements |N|Go to Wind Tamer Kagan and accept Suppressing the Elements|    |QID|11311|  |M|49,12|
-A Accept Making the Horn |N|Go to Nokoma Snowseer and accept Making the Horn|    |QID|11275|  |M|49.3,11.9|
+T Help for Camp Winterhoof |N|Speak with Chieftain Ashtotem at Camp Winterhoof.|   |QID|12566|  |M|48.04 10.74|
+A Hasty Preparations |N|Ahota Whitefrost at Camp Winterhoof wants you to bring him 10 clumps of Spotted Hippogryph Down.|   |QID|11271|  |M|48.38 11.04|
+A Suppressing the Elements |N|Wind Tamer Kagan at Camp Winterhoof wants you to kill 8 mountain elementals.|   |QID|11311|  |M|48.92 11.98|
+A Making the Horn |N|Nokoma Snowseer at Camp Winterhoof wants you to bring her 6 Undamaged Ram Horns.|   |QID|11275|  |M|49.32 11.98|
 
 N Feathers... |N|Collect any feathers you come across for "Hasty Preparations"|
-C Making the Horn  |QID|11275| |N|Nokoma Snowseer at Camp Winterhoof wants you to bring her 6 Undamaged Ram Horns.|  |M|49.32,11.98|
+C Making the Horn |N|Kill rams to the east.  Kill any elementals you happen upon as well for "Suppressing the Elements".| |QID|11275|  |M|49.32 11.98|
 
-T Making the Horn |N|Nokoma Snowseer at Camp Winterhoof wants you to bring her 6 Undamaged Ram Horns.|    |QID|11275|  |M|49.3,11.9|
-A Accept Mimicking Nature's Call |N|Go to Nokoma Snowseer and accept Mimicking Nature's Call|    |QID|11281|  |M|49.3,11.9|
-A Accept The Frozen Glade |N|Go to Nokoma Snowseer and accept The Frozen Glade|    |QID|11312|  |M|49.3,11.9|
-A Accept The Book of Runes |N|Go to Longrunner Pembe and accept The Book of Runes|    |QID|11350|  |M|49.2,12.2|
-A Accept Keeping Watch on the Interlopers |N|Go to Junat the Wanderer and accept Keeping Watch on the Interlopers|    |QID|11297|  |M|48.4,10.4|
-A Accept March of the Giants |N|Go to Sage Edan and accept March of the Giants|    |QID|11365|  |M|48.1,10.4|
+T Making the Horn |N|Nokoma Snowseer at Camp Winterhoof wants you to bring her 6 Undamaged Ram Horns.|   |QID|11275|  |M|49.32 11.98|
+A Mimicking Nature's Call |N|Test the Carved Horn and then return to Nokoma Snowseer at Camp Winterhoof with the results.|   |QID|11281|  |M|49.32 11.98|
+A The Frozen Glade |N|Speak with Lurielle at the Frozen Glade.|   |QID|11312|  |M|49.32 11.98|
+A The Book of Runes |N|Longrunner Pembe at Camp Winterhoof wants you to bring him The Book of Runes.|   |QID|11350|  |M|49.23 12.25|
+A Keeping Watch on the Interlopers |N|Speak to Apothecary Malthus at the Apothecary Camp.|   |QID|11297|  |M|48.43 10.43|
+A March of the Giants |N|Sage Edan and Camp Winterhoof wants you to use the Runeseeking Pick on the corpses of 4 Runed Stone Giants.|   |QID|11365|  |M|48.08 10.48|
 
-C Mimicking Nature's Call |QID|11281| |U|33450| |N|Test the Carved Horn and then return to Nokoma Snowseer at Camp Winterhoof with the results.|  |M|49.32,11.98|
-C Suppressing the Elements |QID|11311| |N|Wind Tamer Kagan at Camp Winterhoof wants you to kill 8 mountain elementals. You may kill either Howling Cyclones or Iceshard Elementals.|  |M|48.92,11.98|
+C Mimicking Nature's Call |QID|11281| |U|33450| |N|Use the horn to the northeast at the frozen waterfall (52.40, 4.27).|  |M|49.32 11.98|
+C Suppressing the Elements |QID|11311| |N|Kill elementals.|  |M|48.92 11.98|
 
-T The Frozen Glade |N|Speak with Lurielle at the Frozen Glade.|    |QID|11312|  |M|61.4,22.8|
-A Accept Spirits of the Ice |N|Go to Lurielle and accept Spirits of the Ice|    |QID|11313|  |M|61.4,22.8|
-C Spirits of the Ice |QID|11313| |N|Lurielle at the Frozen Glade wants you to bring her 15 Icy Cores.|  |M|61.48,22.86|
-T Spirits of the Ice |N|Lurielle at the Frozen Glade wants you to bring her 15 Icy Cores.|    |QID|11313|  |M|61.4,22.8|
-A Accept The Fallen Sisters |N|Go to Lurielle and accept The Fallen Sisters|    |QID|11314|  |M|61.4,22.8|
-A Accept Wild Vines |N|Go to Lurielle and accept Wild Vines|    |QID|11315|  |M|61.4,22.8|
+T The Frozen Glade |N|Speak with Lurielle at the Frozen Glade.|   |QID|11312|  |M|61.48 22.86|
+A Spirits of the Ice |N|Lurielle at the Frozen Glade wants you to bring her 15 Icy Cores.|   |QID|11313|  |M|61.48 22.86|
+C Spirits of the Ice |QID|11313| |N|All around the Frozen Glade|  |M|61.48 22.86|
+T Spirits of the Ice |N|Lurielle at the Frozen Glade wants you to bring her 15 Icy Cores.|   |QID|11313|  |M|61.48 22.86|
+A The Fallen Sisters |N|Lurielle at the Frozen Glade wants you to use her pendant on 7 Chill Nymphs.|   |QID|11314|  |M|61.48 22.86|
+A Wild Vines |N|Lurielle at the Frozen Glade wants you to kill 8 Scarlet Ivy.|   |QID|11315|  |M|61.48 22.86|
 
-C The Fallen Sisters |QID|11314|  |U|33606| |N|Lurielle at the Frozen Glade wants you to use her pendant on 7 Chill Nymphs.|  |M|61.48,22.86|
-C Wild Vines |QID|11315| |N|Lurielle at the Frozen Glade wants you to kill 8 Scarlet Ivy.|  |M|61.48,22.86|
+C The Fallen Sisters |QID|11314| |N|Southwest at the Vibrant Glade (53,28).  Beat down the nymphs, then use the pendant on them.| |U|33606|  |M|61.48 22.86|
+C Wild Vines |QID|11315|  |M|61.48 22.86|
 
-T The Fallen Sisters |N|Lurielle at the Frozen Glade wants you to use her pendant on 7 Chill Nymphs.|    |QID|11314|  |M|61.4,22.8|
-T Wild Vines |N|Lurielle at the Frozen Glade wants you to kill 8 Scarlet Ivy.|    |QID|11315|  |M|61.4,22.8|
-A Accept Spawn of the Twisted Glade |N|Go to Lurielle and accept Spawn of the Twisted Glade|    |QID|11316|  |M|61.4,22.8|
-A Accept Seeds of the Blacksouled Keepers |N|Go to Lurielle and accept Seeds of the Blacksouled Keepers|    |QID|11319|  |M|61.4,22.8|
+T The Fallen Sisters |N|Lurielle at the Frozen Glade wants you to use her pendant on 7 Chill Nymphs.|   |QID|11314|  |M|61.48 22.86|
+T Wild Vines |N|Lurielle at the Frozen Glade wants you to kill 8 Scarlet Ivy.|   |QID|11315|  |M|61.48 22.86|
+A Spawn of the Twisted Glade |N|Lurielle at the Frozen Glade wants you to kill 10 Thornvine Creepers.|   |QID|11316|  |M|61.48 22.86|
+A Seeds of the Blacksouled Keepers |N|Lurielle at the Frozen Glade wants you to freeze 8 Spores.|   |QID|11319|  |M|61.48 22.86|
 
-C The Book of Runes |QID|11350|  |U|33778| |N|Longrunner Pembe at Camp Winterhoof wants you to bring him The Book of Runes.|  |M|49.23,12.25|
+C The Book of Runes |QID|11350| |N|Kill iron dorfs to the east at Giants' Run (72,24) for chapters, then combine them| |U|33778|  |M|49.23 12.25|
 
-C Seeds of the Blacksouled Keepers |QID|11319|  |U|33607| |N|Lurielle at the Frozen Glade wants you to freeze 8 Spores.|  |M|61.48,22.86|
-C Spawn of the Twisted Glade |QID|11316| |N|Lurielle at the Frozen Glade wants you to kill 10 Thornvine Creepers.|  |M|61.48,22.86|
+C Seeds of the Blacksouled Keepers |QID|11319| |N|Northwest at the Twisted Glade (54,16).  Kill the spores, then use the core on them.| |U|33607|  |M|61.48 22.86|
+C Spawn of the Twisted Glade |QID|11316|  |M|61.48 22.86|
 
-T Suppressing the Elements |N|Wind Tamer Kagan at Camp Winterhoof wants you to kill 8 mountain elementals.|    |QID|11311|  |M|49,12|
-T Mimicking Nature's Call |N|Test the Carved Horn and then return to Nokoma Snowseer at Camp Winterhoof with the results.|    |QID|11281|  |M|49.3,11.9|
-T The Book of Runes |N|Longrunner Pembe at Camp Winterhoof wants you to bring him The Book of Runes.|    |QID|11350|  |M|49.2,12.2|
-A Accept Mastering the Runes |N|Go to Longrunner Pembe and accept Mastering the Runes|    |QID|11351|  |M|49.2,12.2|
-A Accept Skorn Must Fall! |N|Go to Chieftain Ashtotem and accept Skorn Must Fall!|    |QID|11256|  |M|48.1,10.8|
+T Suppressing the Elements |N|Wind Tamer Kagan at Camp Winterhoof wants you to kill 8 mountain elementals.|   |QID|11311|  |M|48.92 11.98|
+T Mimicking Nature's Call |N|Test the Carved Horn and then return to Nokoma Snowseer at Camp Winterhoof with the results.|   |QID|11281|  |M|49.32 11.98|
+T The Book of Runes |N|Longrunner Pembe at Camp Winterhoof wants you to bring him The Book of Runes.|   |QID|11350|  |M|49.23 12.25|
+A Mastering the Runes |N|Bring a set of Iron Rune Carving Tools to Longrunner Pembe at Camp Winterhoof.|   |QID|11351|  |M|49.23 12.25|
+A Skorn Must Fall! |N|Chieftain Ashtotem has asked you to use the Winterhoof Emblem at Skorn, and then to speak with the Winterhoof Brave.|   |QID|11256|  |M|48.04 10.74|
 
-T Spawn of the Twisted Glade |N|Lurielle at the Frozen Glade wants you to kill 10 Thornvine Creepers.|    |QID|11316|  |M|61.4,22.8|
-A Accept Keeper Witherleaf |N|Go to Lurielle and accept Keeper Witherleaf|    |QID|11428|  |M|61.4,22.8|
-T Seeds of the Blacksouled Keepers |N|Lurielle at the Frozen Glade wants you to freeze 8 Spores.|    |QID|11319|  |M|61.4,22.8|
+T Spawn of the Twisted Glade |N|Lurielle at the Frozen Glade wants you to kill 10 Thornvine Creepers.|   |QID|11316|  |M|61.48 22.86|
+A Keeper Witherleaf |N|Lurielle at the Frozen Glade wants you to kill Keeper Witherleaf.|   |QID|11428|  |M|61.48 22.86|
+T Seeds of the Blacksouled Keepers |N|Lurielle at the Frozen Glade wants you to freeze 8 Spores.|   |QID|11319|  |M|61.48 22.86|
 
-C Mastering the Runes |QID|11351| |N|Bring a set of Iron Rune Carving Tools to Longrunner Pembe at Camp Winterhoof.|  |M|49.23,12.25|
+C Mastering the Runes |QID|11351| |N|Find the carving tools in the tents around Giants' Run (69.1, 22.8) (67.5, 23.4) (67.5, 29.2) (71.2, 28.7) (73.4, 25.0) (72.4, 17.8)|  |M|49.23 12.25|
 
-C Keeper Witherleaf |QID|11428| |N|Lurielle at the Frozen Glade wants you to kill Keeper Witherleaf.|  |M|61.48,22.86|
+C Keeper Witherleaf |QID|11428| |N|Back at the Twisted Glade (54,17)|  |M|61.48 22.86|
 
-T Mastering the Runes |N|Bring a set of Iron Rune Carving Tools to Longrunner Pembe at Camp Winterhoof.|    |QID|11351|  |M|49.2,12.2|
-A Accept The Rune of Command |N|Go to Longrunner Pembe and accept The Rune of Command|    |QID|11352|  |M|49.2,12.2|
+T Mastering the Runes |N|Bring a set of Iron Rune Carving Tools to Longrunner Pembe at Camp Winterhoof.|   |QID|11351|  |M|49.23 12.25|
+A The Rune of Command |N|Longrunner Pembe at Camp Winterhoof wants you to test the Rune of Command and defeat Binder Murdis.|   |QID|11352|  |M|49.23 12.25|
 
-C The Rune of Command |QID|11352| |U|33796| |N|Longrunner Pembe at Camp Winterhoof wants you to test the Rune of Command and defeat Binder Murdis.|  |M|49.23,12.25|
+C The Rune of Command |QID|11352| |U|33796| |N|Use the rune on a normal giant then kill Binder Murdis.  He should be easy to find, look for a yellow binding ribbon in the middle fo Giants' Run (71.79, 24.31).|  |M|49.23 12.25|
 
-T Keeper Witherleaf |N|Lurielle at the Frozen Glade wants you to kill Keeper Witherleaf.|    |QID|11428|  |M|61.4,22.8|
+T Keeper Witherleaf |N|Lurielle at the Frozen Glade wants you to kill Keeper Witherleaf.|   |QID|11428|  |M|61.48 22.86|
 
-T Skorn Must Fall! |N|Chieftain Ashtotem has asked you to use the Winterhoof Emblem at Skorn, and then to speak with the Winterhoof Brave.|    |QID|11256|  |U|33340|  |M|48.1,10.8|
-A Gruesome, But Necessary |N|The Winterhoof Brave has asked you to use The Brave's Machete to dismember 20 Vrykul of the Winterskorn tribe at Skorn.|    |QID|11257| 
-A Burn Skorn, Burn! |N|The Winterhoof Brave suggests that you use the Brave's Torch to set fire to the Northeast and Northwest Longhouses and the Barracks at Skorn.|    |QID|11258| 
-A Towers of Certain Doom |N|The Winterhoof Brave has informed you that using the Brave's Flare to target all four of the towers at Skorn for air strikes would be advisable.|    |QID|11259| 
+T Skorn Must Fall! |N|Chieftain Ashtotem has asked you to use the Winterhoof Emblem at Skorn, and then to speak with the Winterhoof Brave.|   |QID|11256|  |U|33340|  |M|48.04 10.74|
+A Gruesome, But Necessary |N|The Winterhoof Brave has asked you to use The Brave's Machete to dismember 20 Vrykul of the Winterskorn tribe at Skorn.|   |QID|11257|
+A Burn Skorn, Burn! |N|The Winterhoof Brave suggests that you use the Brave's Torch to set fire to the Northeast and Northwest Longhouses and the Barracks at Skorn.|   |QID|11258|
+A Towers of Certain Doom |N|The Winterhoof Brave has informed you that using the Brave's Flare to target all four of the towers at Skorn for air strikes would be advisable.|   |QID|11259|
 N Use the machete on any vrykul you kill
 
-C Burn Skorn, Burn! |QID|11258| |U|33321| |N|The Winterhoof Brave suggests that you use the Brave's Torch to set fire to the Northeast and Northwest Longhouses and the Barracks at Skorn.|
-C Towers of Certain Doom |QID|11259| |U|33323| |N|The Winterhoof Brave has informed you that using the Brave's Flare to target all four of the towers at Skorn for air strikes would be advisable.|
+C Burn Skorn, Burn! |QID|11258| |U|33321| |N|Use the torch to burn the Northeast Longhouse (46.38, 28.13), Barracks (45.94, 30.72), and Northwest Longhouse (43.66, 28.67)|
+C Towers of Certain Doom |QID|11259| |U|33323| |N|Use the flare on the Northwest Tower (44.57, 30.04), East Tower (45.82, 32.14), Southwest Tower (43.67, 34.44) and Southeast (46.29, 36.32)|
 
-A Stop the Ascension! |N|Present the Vrykul Scroll of Ascension near the Thane's Pyre to call him out and slay him.|    |QID|11260|   |U|33345|  |M|48.1,10.7|
-C Stop the Ascension! |QID|11260|   |U|33346| |N|Present the Vrykul Scroll of Ascension near the Thane's Pyre to call him out and slay him. Afterward, due to the nature of the ritual, you're sure that Greatmother Ankha at Camp Winterhoof will be interested in seeing the scroll.|  |M|48.16,10.67|
+A Stop the Ascension! |N|Present the Vrykul Scroll of Ascension near the Thane's Pyre to call him out and slay him.|   |QID|11260|   |U|33345|  |M|48.16 10.67|
+C Stop the Ascension! |QID|11260|  |N|Use the scroll at Thane's Pyre (44.65, 35.30), kill Halfdan.| |U|33346|  |M|48.16 10.67|
 
-C Gruesome, But Necessary |QID|11257| |U|33310| |N|The Winterhoof Brave has asked you to use The Brave's Machete to dismember 20 Vrykul of the Winterskorn tribe at Skorn.|
+C Gruesome, But Necessary |QID|11257| |U|33310| |N|Kill vrykul, hack em up!|
 
-T Towers of Certain Doom |N|The Winterhoof Brave has informed you that using the Brave's Flare to target all four of the towers at Skorn for air strikes would be advisable.|    |QID|11259| 
-T Gruesome, But Necessary |N|The Winterhoof Brave has asked you to use The Brave's Machete to dismember 20 Vrykul of the Winterskorn tribe at Skorn.|    |QID|11257| 
-T Burn Skorn, Burn! |N|The Winterhoof Brave suggests that you use the Brave's Torch to set fire to the Northeast and Northwest Longhouses and the Barracks at Skorn.|    |QID|11258| 
-A The Conqueror of Skorn! |N|Return the Winterhoof Token to Chieftain Ashtotem at Camp Winterhoof.|    |QID|11261|  |M|48.1,10.8|
+T Towers of Certain Doom |N|The Winterhoof Brave has informed you that using the Brave's Flare to target all four of the towers at Skorn for air strikes would be advisable.|   |QID|11259|
+T Gruesome, But Necessary |N|The Winterhoof Brave has asked you to use The Brave's Machete to dismember 20 Vrykul of the Winterskorn tribe at Skorn.|   |QID|11257|
+T Burn Skorn, Burn! |N|The Winterhoof Brave suggests that you use the Brave's Torch to set fire to the Northeast and Northwest Longhouses and the Barracks at Skorn.|   |QID|11258|
+A The Conqueror of Skorn! |N|Return the Winterhoof Token to Chieftain Ashtotem at Camp Winterhoof.|   |QID|11261|  |M|48.04 10.74|
 
-T The Conqueror of Skorn! |N|Return the Winterhoof Token to Chieftain Ashtotem at Camp Winterhoof.|    |QID|11261|  |M|48.1,10.8|
-A Accept Dealing With Gjalerbron |N|Go to Chieftain Ashtotem and accept Dealing With Gjalerbron|    |QID|11263|  |M|48.1,10.8|
-T Stop the Ascension! |N|Present the Vrykul Scroll of Ascension near the Thane's Pyre to call him out and slay him.|    |QID|11260|  |M|48.1,10.7|
-T The Rune of Command |N|Longrunner Pembe at Camp Winterhoof wants you to test the Rune of Command and defeat Binder Murdis.|    |QID|11352|  |M|49.2,12.2|
-A Accept Find Sage Mistwalker |N|Go to Greatmother Ankha and accept Find Sage Mistwalker|    |QID|11287|  |M|48.1,10.7|
-A Accept Of Keys and Cages |N|Go to Greatmother Ankha and accept Of Keys and Cages|    |QID|11265|  |M|48.1,10.7|
+T The Conqueror of Skorn! |N|Return the Winterhoof Token to Chieftain Ashtotem at Camp Winterhoof.|   |QID|11261|  |M|48.04 10.74|
+A Dealing With Gjalerbron |N|Chieftain Ashtotem has asked you to kill 15 Gjalerbron Warriors, 8 Gjalerbron Rune-casters, and 8 Gjalerbron Sleep-watchers.|   |QID|11263|  |M|48.04 10.74|
+T Stop the Ascension! |N|Present the Vrykul Scroll of Ascension near the Thane's Pyre to call him out and slay him.|   |QID|11260|  |M|48.16 10.67|
+T The Rune of Command |N|Longrunner Pembe at Camp Winterhoof wants you to test the Rune of Command and defeat Binder Murdis.|   |QID|11352|  |M|49.23 12.25|
+A Find Sage Mistwalker |N|Greatmother Ankha has asked you to check on the condition of Sage Mistwalker.|   |QID|11287|  |M|48.16 10.67|
+A Of Keys and Cages |N|Greatmother Ankha has asked you to collect enough Gjalerbron Cage Keys to free 10 Gjalerbron Prisoners.|   |QID|11265|  |M|48.16 10.67|
 
-C Of Keys and Cages |QID|11265| |N|Greatmother Ankha has asked you to collect enough Gjalerbron Cage Keys to free 10 Gjalerbron Prisoners. Return to her at Camp Winterhoof when you manage to do so.|  |M|48.16,10.67|
-C Dealing With Gjalerbron |QID|11263| |N|Chieftain Ashtotem has asked you to kill 15 Gjalerbron Warriors, 8 Gjalerbron Rune-casters, and 8 Gjalerbron Sleep-watchers. Afterward, return to him at Camp Winterhoof.|  |M|48.04,10.74|
-A Gjalerbron Attack Plans |N|Deliver the Gjalerbron Attack Plans to Celea Frozenmane at Camp Winterhoof.|    |QID|11266|  |U|33347|  |M|49.5,11.6|
+C Of Keys and Cages |QID|11265| |N|Kill vrykul to the west at Gjalerbron, open cages.  If you get the large cage key, you can get a bunch at once in the center of Gjalerbron (35.77, 11.46)|  |M|48.16 10.67|
+C Dealing With Gjalerbron |QID|11263|  |M|48.04 10.74|
+A Gjalerbron Attack Plans |N|Deliver the Gjalerbron Attack Plans to Celea Frozenmane at Camp Winterhoof.|   |QID|11266|  |U|33347|  |M|49.56 11.59|
 
-T Find Sage Mistwalker |N|Greatmother Ankha has asked you to check on the condition of Sage Mistwalker.|    |QID|11287|  |M|31.2,24.4|
-A Accept The Artifacts of Steel Gate |N|Go to Sage Mistwalker and accept The Artifacts of Steel Gate|    |QID|11286|  |M|31.2,24.4|
-A Accept Rivenwood Captives |N|Go to Longrunner Skycloud and accept Rivenwood Captives|    |QID|11296|  |M|31.3,24.4|
-C The Artifacts of Steel Gate |QID|11286| |N|Sage Mistwalker has asked you to collect 10 Steel Gate Artifacts. When you have all of them, return to him at Steel Gate.|  |M|31.16,24.52|
-T The Artifacts of Steel Gate |N|Sage Mistwalker has asked you to collect 10 Steel Gate Artifacts.|    |QID|11286|  |M|31.2,24.4|
-A Accept The Cleansing |N|Go to Sage Mistwalker and accept The Cleansing|    |QID|11317|  |M|31.2,24.4|
+T Find Sage Mistwalker |N|Greatmother Ankha has asked you to check on the condition of Sage Mistwalker.|   |QID|11287|  |M|31.16 24.52|
+A The Artifacts of Steel Gate |N|Sage Mistwalker has asked you to collect 10 Steel Gate Artifacts.|   |QID|11286|  |M|31.16 24.52|
+A Rivenwood Captives |N|Longrunner Skycloud has asked you to free his 7 Winterhoof Longrunners.|   |QID|11296|  |M|31.28 24.35|
+C The Artifacts of Steel Gate |QID|11286| |N|Below in the excavation site.|  |M|31.16 24.52|
+T The Artifacts of Steel Gate |N|Sage Mistwalker has asked you to collect 10 Steel Gate Artifacts.|   |QID|11286|  |M|31.16 24.52|
+A The Cleansing |N|Sage Mistwalker at Steel Gate has advised you to cleanse yourself of Your Inner Turmoil through meditation at the Frostblade Shrine.|   |QID|11317|  |M|31.16 24.52|
 
-T Keeping Watch on the Interlopers |N|Speak to Apothecary Malthus at the Apothecary Camp.|    |QID|11297|  |M|26.4,24.5|
-A Accept What's in That Brew? |N|Go to Apothecary Malthus and accept What's in That Brew?|    |QID|11298|  |M|26.4,24.5|
-A Accept And You Thought Murlocs Smelled Bad! |N|Go to Apothecary Anastasia and accept And You Thought Murlocs Smelled Bad!|    |QID|11397|  |M|26.1,24.8|
-A Accept Brains! Brains! Brains! |N|Go to Apothecary Grick and accept Brains! Brains! Brains!|    |QID|11301|  |M|26,24.4|
+T Keeping Watch on the Interlopers |N|Speak to Apothecary Malthus at the Apothecary Camp.|   |QID|11297|  |M|26.43 24.50|
+A What's in That Brew? |N|Apothecary Malthus at the Apothecary Camp wants you to bring him 5 Dwarven Kegs.|   |QID|11298|  |M|26.43 24.50|
+A And You Thought Murlocs Smelled Bad! |N|Apothecary Anastasia has asked you to destroy 15 Scourge of any type along the Chillmere Coast.|   |QID|11397|  |M|26.24 24.55|
+A Brains! Brains! Brains! |N|Apothecary Grick at the Apothecary Camp wants you to bring him 12 Deranged Explorer Brains.|   |QID|11301|  |M|25.96 24.43|
 
-A Accept Trident of the Son |N|Go to Old Icefin and accept Trident of the Son|    |QID|11422|  |M|19.8,22.2|
-C And You Thought Murlocs Smelled Bad! |QID|11397| |N|Apothecary Anastasia has asked you to destroy 15 Scourge of any type along the Chillmere Coast. Return to her at the Apothecary Camp once you have done so.|  |M|26.24,24.55|
-A It's a Scourge Device |N|Deliver the Scourge Device to Apothecary Anastasia at the Apothecary Camp.|    |QID|11398| |U|33962|  |M|26.1,24.8|
+A Trident of the Son |N|Old Icefin wants you to obtain Rotgill's Trident.|   |QID|11422|  |M|19.78 22.22|
+C And You Thought Murlocs Smelled Bad! |QID|11397|  |M|26.24 24.55|
+A It's a Scourge Device |N|Deliver the Scourge Device to Apothecary Anastasia at the Apothecary Camp.|   |QID|11398| |U|33962|  |M|26.24 24.55|
 
-T And You Thought Murlocs Smelled Bad! |N|Apothecary Anastasia has asked you to destroy 15 Scourge of any type along the Chillmere Coast.|    |QID|11397|  |M|26.1,24.8|
-T It's a Scourge Device |N|Deliver the Scourge Device to Apothecary Anastasia at the Apothecary Camp.|    |QID|11398|  |M|26.1,24.8|
-A Accept Bring Down Those Shields |N|Go to Apothecary Anastasia and accept Bring Down Those Shields|    |QID|11399|  |M|26.1,24.8|
+T And You Thought Murlocs Smelled Bad! |N|Apothecary Anastasia has asked you to destroy 15 Scourge of any type along the Chillmere Coast.|   |QID|11397|  |M|26.24 24.55|
+T It's a Scourge Device |N|Deliver the Scourge Device to Apothecary Anastasia at the Apothecary Camp.|   |QID|11398|  |M|26.24 24.55|
+A Bring Down Those Shields |N|Apothecary Anastasia at the Apothecary Camp has asked you to destroy 3 Scourging Crystals.|   |QID|11399|  |M|26.24 24.55|
 
-T Gjalerbron Attack Plans |N|Deliver the Gjalerbron Attack Plans to Celea Frozenmane at Camp Winterhoof.|    |QID|11266|  |M|49.5,11.6|
-A Accept The Frost Wyrm and its Master |N|Go to Celea Frozenmane and accept The Frost Wyrm and its Master|    |QID|11267|  |M|49.5,11.6|
-T Of Keys and Cages |N|Greatmother Ankha has asked you to collect enough Gjalerbron Cage Keys to free 10 Gjalerbron Prisoners.|    |QID|11265|  |M|48.1,10.7|
-A Accept The Walking Dead |N|Go to Greatmother Ankha and accept The Walking Dead|    |QID|11268|  |M|48.1,10.7|
-T Dealing With Gjalerbron |N|Chieftain Ashtotem has asked you to kill 15 Gjalerbron Warriors, 8 Gjalerbron Rune-casters, and 8 Gjalerbron Sleep-watchers.|    |QID|11263|  |M|48.1,10.8|
-A Accept Necro Overlord Mezhen |N|Go to Chieftain Ashtotem and accept Necro Overlord Mezhen|    |QID|11264|  |M|48.1,10.8|
-A Accept Sleeping Giants |N|Go to Ahota Whitefrost and accept Sleeping Giants|    |QID|11433|  |M|48.4,11|
+T Gjalerbron Attack Plans |N|Deliver the Gjalerbron Attack Plans to Celea Frozenmane at Camp Winterhoof.|   |QID|11266|  |M|49.56 11.59|
+A The Frost Wyrm and its Master |N|Slay Wyrmcaller Vile and use the Wyrmcaller's Horn to call down and slay Glacion.|   |QID|11267|  |M|49.56 11.59|
+T Of Keys and Cages |N|Greatmother Ankha has asked you to collect enough Gjalerbron Cage Keys to free 10 Gjalerbron Prisoners.|   |QID|11265|  |M|48.16 10.67|
+A The Walking Dead |N|Slay 10 Deathless Watchers, 4 Fearsome Horrors, and 2 Putrid Wights.|   |QID|11268|  |M|48.16 10.67|
+T Dealing With Gjalerbron |N|Chieftain Ashtotem has asked you to kill 15 Gjalerbron Warriors, 8 Gjalerbron Rune-casters, and 8 Gjalerbron Sleep-watchers.|   |QID|11263|  |M|48.04 10.74|
+A Necro Overlord Mezhen |N|Kill Necro Overlord Mezhen.|   |QID|11264|  |M|48.04 10.74|
+A Sleeping Giants |N|Ahota Whitefrost has tasked you with slaying 5 Dormant Vrykul.|   |QID|11433|  |M|48.38 11.04|
 
-C The Cleansing |QID|11317| |N|Sage Mistwalker at Steel Gate has advised you to cleanse yourself of Your Inner Turmoil through meditation at the Frostblade Shrine.|  |M|31.16,24.52|
+C The Cleansing |QID|11317| |N|Head up the mountain path (53.65, 8.07) to the shrine (61.29, 1.61).  Kill "yourself" then slowfall down to Camp Winterhoof.|  |M|31.16 24.52|
 F Camp Winterhoof |N|Slowfall is fun!|
-T The Cleansing |N|Sage Mistwalker at Steel Gate has advised you to cleanse yourself of Your Inner Turmoil through meditation at the Frostblade Shrine.|    |QID|11317|  |M|31.2,24.4|
-A Accept In Worg's Clothing |N|Go to Sage Mistwalker and accept In Worg's Clothing|    |QID|11323|  |M|31.2,24.4|
+T The Cleansing |N|Sage Mistwalker at Steel Gate has advised you to cleanse yourself of Your Inner Turmoil through meditation at the Frostblade Shrine.|   |QID|11317|  |M|31.16 24.52|
+A In Worg's Clothing |N|Sage Mistwalker has asked you to seek out and help Ulfang in the Rivenwood.|   |QID|11323|  |M|31.16 24.52|
 
-C Sleeping Giants |QID|11433|  |U|34083| |N|Ahota Whitefrost has tasked you with slaying 5 Dormant Vrykul. Return to him at Camp Winterhoof when you have done so.|  |M|48.38,11.04|
-K Fearsome Horrors |QID|11268| |QO|Fearsome Horror slain: 4/4|  |M|48.16,10.67|
-C Necro Overlord Mezhen |QID|11264| |N|Kill Necro Overlord Mezhen. Then, return to Chieftain Ashtotem at Camp Winterhoof.|  |M|48.04,10.74|
-A The Slumbering King |N|Defeat Queen Angerboda and stop the ritual to awaken King Ymiron.|    |QID|11453| |U|34091|  |M|48.1,10.8|
-C The Slumbering King |QID|11453| |N|Defeat Queen Angerboda and stop the ritual to awaken King Ymiron. Should you manage to do so, return to Camp Winterhoof and report your success to Chieftain Ashtotem.|  |M|48.04,10.74|
-C The Frost Wyrm and its Master |QID|11267| |U|33282| |N|Slay Wyrmcaller Vile and use the Wyrmcaller's Horn to call down and slay Glacion. Then, return with the horn to Celea Frozenmane at Camp Winterhoof.|  |M|49.56,11.59|
-C The Walking Dead |QID|11268| |N|Slay 10 Deathless Watchers, 4 Fearsome Horrors, and 2 Putrid Wights. Afterward, inform Greatmother Ankha at Camp Winterhoof of your success.|  |M|48.16,10.67|
+C Sleeping Giants |QID|11433| |N|Down in the Waking Halls beneath Gjalerbron (34,13).  Kill Necrolords for an [Awakening Rod], use it on the Dormant Vrykul.| |U|34083|  |M|48.38 11.04|
+K Fearsome Horrors |QID|11268| |QO|Fearsome Horror slain: 4/4|  |M|48.16 10.67|
+C Necro Overlord Mezhen |QID|11264| |N|Head up to the second "level", then up to the platform to the east (38.63, 12.40)|  |M|48.04 10.74|
+A The Slumbering King |N|Defeat Queen Angerboda and stop the ritual to awaken King Ymiron.|   |QID|11453| |U|34091|  |M|48.04 10.74|
+C The Slumbering King |QID|11453| |N|Kill Queen Angerboda at the far end of Gjalerbron (41.05, 6.32)|  |M|48.04 10.74|
+C The Frost Wyrm and its Master |QID|11267| |U|33282| |N|Clear the area around Wyrmcaller Vile (36.48, 7.34), then kill him, loot the [Wyrmcaller's Horn] and use it.  Kill Glacion.  Watch out, Vile has a short respawn time.  If you fail, find a friend or skip this.|  |M|49.56 11.59|
+C The Walking Dead |QID|11268|  |M|48.16 10.67|
 
-T In Worg's Clothing |N|Sage Mistwalker has asked you to seek out and help Ulfang in the Rivenwood.|    |QID|11323|  |U|33618|  |M|29.6,5.7|
-A Accept Brother Betrayers |N|Go to Ulfang and accept Brother Betrayers|    |QID|11415|  |M|29.6,5.7|
+T In Worg's Clothing |N|Sage Mistwalker has asked you to seek out and help Ulfang in the Rivenwood.|   |QID|11323|  |U|33618|  |M|29.69 5.67|
+A Brother Betrayers |N|Ulfang has asked you to kill the traitorous worgs, Bjomolf and Varg.|   |QID|11415|  |M|29.69 5.67|
 
-C Brother Betrayers |QID|11415|  |U|33618| |N|Ulfang has asked you to kill the traitorous worgs, Bjomolf and Varg. Return to him in disguise in the Rivenwood after you have done so.$B$BIf you somehow lose the Worg Disguise, return to Sage Mistwalker for a replacement.|  |M|29.69,5.67|
-T Brother Betrayers |N|Ulfang has asked you to kill the traitorous worgs, Bjomolf and Varg.|    |QID|11415|  |U|33618|  |M|29.6,5.7|
-A Accept Eyes of the Eagle |N|Go to Ulfang and accept Eyes of the Eagle|    |QID|11417|  |M|29.6,5.7|
+C Brother Betrayers |QID|11415| |N|Kill Bjomolf to the east around the Apothecary Camp (29.11, 21.71).  Varg is southeast of Steel Gate (35.41, 31.22).  If you use the [Worg Disguise] you'll have an easier time spotting them.| |U|33618|  |M|29.69 5.67|
+T Brother Betrayers |N|Ulfang has asked you to kill the traitorous worgs, Bjomolf and Varg.|   |QID|11415|  |U|33618|  |M|29.69 5.67|
+A Eyes of the Eagle |N|Ulfang has asked you to collect the Eyes of the Eagle.|   |QID|11417|  |M|29.69 5.67|
 
-C Eyes of the Eagle |QID|11417| |N|Ulfang has asked you to collect the Eyes of the Eagle. Return to him in disguise in the Rivenwood after you have done so.$B$BIf you somehow lose the Worg Disguise, return to Sage Mistwalker for a replacement.|  |M|29.69,5.67|
-C Brains! Brains! Brains! |QID|11301| |U|33554| |N|Apothecary Grick at the Apothecary Camp wants you to bring him 12 Deranged Explorer Brains.|  |M|25.96,24.43|
-C What's in That Brew? |QID|11298| |N|Apothecary Malthus at the Apothecary Camp wants you to bring him 5 Dwarven Kegs.|  |M|26.43,24.50|
-C Trident of the Son |QID|11422| |N|Old Icefin wants you to obtain Rotgill's Trident. Return it to him on the small island on the Chillmere Coast.|  |M|19.78,22.22|
-C Bring Down Those Shields |QID|11399| |U|33960| |N|Apothecary Anastasia at the Apothecary Camp has asked you to destroy 3 Scourging Crystals.|  |M|26.24,24.55|
-T Trident of the Son |N|Old Icefin wants you to obtain Rotgill's Trident.|    |QID|11422|  |M|19.8,22.2|
+C Eyes of the Eagle |QID|11417| |N|Southwest of Skorn at the base of the big waterfall (41.43, 37.64).  Grab the egg, kill the eagle.|  |M|29.69 5.67|
+C Brains! Brains! Brains! |QID|11301| |U|33554| |N|Due west in Whisper Gulch.  Keel dorfs and hack off their brains.|  |M|25.96 24.43|
+C What's in That Brew? |QID|11298|  |M|26.43 24.50|
+C Trident of the Son |QID|11422| |N|Kill Rotgill out on Chillmere Coast (23.98, 35.40)|  |M|19.78 22.22|
+C Bring Down Those Shields |QID|11399| |U|33960| |N|Head up the shore to the scourge crystals.  Use the control crystal to bring down the shields, then break the crystals.|  |M|26.24 24.55|
+T Trident of the Son |N|Old Icefin wants you to obtain Rotgill's Trident.|   |QID|11422|  |M|19.78 22.22|
 
-T Brains! Brains! Brains! |N|Apothecary Grick at the Apothecary Camp wants you to bring him 12 Deranged Explorer Brains.|    |QID|11301|  |M|26,24.4|
-T Bring Down Those Shields |N|Apothecary Anastasia at the Apothecary Camp has asked you to destroy 3 Scourging Crystals.|    |QID|11399|  |M|26.1,24.8|
-T What's in That Brew? |N|Apothecary Malthus at the Apothecary Camp wants you to bring him 5 Dwarven Kegs.|    |QID|11298|  |M|26.4,24.5|
+T Brains! Brains! Brains! |N|Apothecary Grick at the Apothecary Camp wants you to bring him 12 Deranged Explorer Brains.|   |QID|11301|  |M|25.96 24.43|
+T Bring Down Those Shields |N|Apothecary Anastasia at the Apothecary Camp has asked you to destroy 3 Scourging Crystals.|   |QID|11399|  |M|26.24 24.55|
+T What's in That Brew? |N|Apothecary Malthus at the Apothecary Camp wants you to bring him 5 Dwarven Kegs.|   |QID|11298|  |M|26.43 24.50|
 
-T Eyes of the Eagle |N|Ulfang has asked you to collect the Eyes of the Eagle.|    |QID|11417|  |U|33618|  |M|29.6,5.7|
-A Accept Alpha Worg |N|Go to Ulfang and accept Alpha Worg|    |QID|11324|  |M|29.6,5.7|
-C Alpha Worg |QID|11324| |N|Ulfang has asked you to slay Garwal. Then, return the Worg Disguise to Sage Mistwalker at Steel Gate.|  |M|31.16,24.52|
-C Rivenwood Captives |QID|11296| |N|Longrunner Skycloud has asked you to free his 7 Winterhoof Longrunners. Once you have managed to do so, return to him at Steel Gate.|  |M|31.28,24.35|
+T Eyes of the Eagle |N|Ulfang has asked you to collect the Eyes of the Eagle.|   |QID|11417|  |U|33618|  |M|29.69 5.67|
+A Alpha Worg |N|Ulfang has asked you to slay Garwal.|   |QID|11324|  |M|29.69 5.67|
+C Alpha Worg |QID|11324| |N|Spawns just south of the cave (27.44, 8.19)|  |M|31.16 24.52|
+C Rivenwood Captives |QID|11296| |N|Attack the cocoons to the south.|  |M|31.28 24.35|
 
-T Alpha Worg |N|Ulfang has asked you to slay Garwal.|    |QID|11324|  |M|31.2,24.4|
-T Rivenwood Captives |N|Longrunner Skycloud has asked you to free his 7 Winterhoof Longrunners.|    |QID|11296|  |M|31.3,24.4|
+T Alpha Worg |N|Ulfang has asked you to slay Garwal.|   |QID|11324|  |M|31.16 24.52|
+T Rivenwood Captives |N|Longrunner Skycloud has asked you to free his 7 Winterhoof Longrunners.|   |QID|11296|  |M|31.28 24.35|
 
-C Hasty Preparations |QID|11271| |N|Ahota Whitefrost at Camp Winterhoof wants you to bring him 10 clumps of Spotted Hippogryph Down.|  |M|48.38,11.04|
+C Hasty Preparations |QID|11271|  |M|48.38 11.04|
 
-T The Frost Wyrm and its Master |N|Slay Wyrmcaller Vile and use the Wyrmcaller's Horn to call down and slay Glacion.|    |QID|11267|  |M|49.5,11.6|
-T The Walking Dead |N|Slay 10 Deathless Watchers, 4 Fearsome Horrors, and 2 Putrid Wights.|    |QID|11268|  |M|48.1,10.7|
-T Necro Overlord Mezhen |N|Kill Necro Overlord Mezhen.|    |QID|11264|  |M|48.1,10.8|
-T The Slumbering King |N|Defeat Queen Angerboda and stop the ritual to awaken King Ymiron.|    |QID|11453|  |M|48.1,10.8|
-T Sleeping Giants |N|Ahota Whitefrost has tasked you with slaying 5 Dormant Vrykul.|    |QID|11433|  |M|48.4,11|
-T Hasty Preparations |N|Ahota Whitefrost at Camp Winterhoof wants you to bring him 10 clumps of Spotted Hippogryph Down.|    |QID|11271|  |M|48.4,11|
+T The Frost Wyrm and its Master |N|Slay Wyrmcaller Vile and use the Wyrmcaller's Horn to call down and slay Glacion.|   |QID|11267|  |M|49.56 11.59|
+T The Walking Dead |N|Slay 10 Deathless Watchers, 4 Fearsome Horrors, and 2 Putrid Wights.|   |QID|11268|  |M|48.16 10.67|
+T Necro Overlord Mezhen |N|Kill Necro Overlord Mezhen.|   |QID|11264|  |M|48.04 10.74|
+T The Slumbering King |N|Defeat Queen Angerboda and stop the ritual to awaken King Ymiron.|   |QID|11453|  |M|48.04 10.74|
+T Sleeping Giants |N|Ahota Whitefrost has tasked you with slaying 5 Dormant Vrykul.|   |QID|11433|  |M|48.38 11.04|
+T Hasty Preparations |N|Ahota Whitefrost at Camp Winterhoof wants you to bring him 10 clumps of Spotted Hippogryph Down.|   |QID|11271|  |M|48.38 11.04|
 
 F Kamagua
-B Moa'ki Harbor |N|Buy needed items|
-A Accept Your Presence is Required at Agmar's Hammer |N|Go to Envoy Ripfang and accept Your Presence is Required at Agmar's Hammer|    |QID|11996|  |M|48,74.8|
+B Moa'ki Harbor |N|Whee! Turtleboat!|
+A Your Presence is Required at Agmar's Hammer |N|Speak with the Image of Archmage Aethas Sunreaver at Agmar's Hammer.|   |QID|11996|  |M|47.99 74.76|
 ]]
 end)

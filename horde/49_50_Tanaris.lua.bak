@@ -1,0 +1,55 @@
+GuideReaderLite_RegisterGuide("Tanaris (49-50)", "Azshara (50)", "Horde", function()
+return [[
+F Gadgetzan |N|Tanaris|
+h Gadgetzan
+
+T Screecher Spirits |N|Capture the spirits of 3 screechers in Feralas, then return to Yeh'kinya in Steamwheedle Port.|   |QID|3520| |RAF|
+
+T Ledger from Tanaris |N|Take the copy of Goodsteel's Ledger and then find the items listed in it before seeking Krinkle Goodsteel in Tanaris.|   |QID|4450| 
+T Into the Field |N|Speak to Chief Engineer Bilgewhizzle in Gadgetzan about getting a power source for the testing kit.|   |QID|243| 
+A Slake That Thirst |N|Bring 5 Wastewander Water Pouches to Chief Engineer Bilgewhizzle in Gadgetzan.|   |QID|379| 
+T Slake That Thirst |N|Bring 5 Wastewander Water Pouches to Chief Engineer Bilgewhizzle in Gadgetzan.|   |QID|379| 
+A The Thirsty Goblin |N|Collect a Laden Dew Gland and bring it to Marin Noggenfogger in Gadgetzan.|   |QID|2605| 
+A Noxious Lair Investigation |N|Bring five Centipaar insect parts from the Noxious Lair to Alchemist Pestlezugg in Gadgetzan.|   |QID|82| 
+A Super Sticky |N|Collect 12 samples of Super Sticky Tar for Tran'rek in Gadgetzan.|   |QID|4504| 
+A Thistleshrub Valley |N|Tran'rek in Gadgetzan wants you to kill 8 Gnarled Thistleshrubs and 8 Thistleshrub Rootshapers.|   |QID|3362| 
+A The Dunemaul Compound |N|Andi Lynn in Gadgetzan wants you to destroy the Dunemaul Compound by killing 10 Dunemaul Brutes, 10 Dunemaul Enforcers, and Gor'marok the Ravager.|   |QID|5863|
+T The Sunken Temple |N|Find Marvon Rivetseeker in Tanaris.|   |QID|3380|
+A The Stone Circle |N|Retrieve the Stone Circle from Marvon Rivetseeker's workshop in Ratchet.|   |QID|3444| 
+A Gahz'ridian |N|Marvon Rivetseeker in Tanaris wants you to collect 30 Gahz'ridian Ornaments.|   |QID|3161|
+
+C The Dunemaul Compound |N|(46,66) and (40,73), Gor'marok is in cave (40,58)| |QID|5863|
+C Gahz'ridian |QID|3161|
+C Noxious Lair Investigation |N|At (34,47)| |QID|82| 
+C Thistleshrub Valley |N|(28,65) with next one| |QID|3362| 
+C The Thirsty Goblin |N|At (28,65)| |QID|2605| 
+
+A Tooga's Quest |N|Show Tooga the way back to his wife, Torta.|   |QID|1560| 
+C Tooga's Quest |QID|1560|  |N|Long escort quest ends at Torta (66,25)|
+T Tooga's Quest |N|Show Tooga the way back to his wife, Torta.|   |QID|1560| 
+T Screecher Spirits |N|Capture the spirits of 3 screechers in Feralas, then return to Yeh'kinya in Steamwheedle Port.|   |QID|3520| 
+
+H Gadgetzan |RAF|
+T The Dunemaul Compound |N|Andi Lynn in Gadgetzan wants you to destroy the Dunemaul Compound by killing 10 Dunemaul Brutes, 10 Dunemaul Enforcers, and Gor'marok the Ravager.|   |QID|5863|
+T The Thirsty Goblin |N|Collect a Laden Dew Gland and bring it to Marin Noggenfogger in Gadgetzan.|   |QID|2605| 
+A In Good Taste |N|Marin Noggenfogger wants you to speak with Sprinkle in Gadgetzan.|   |QID|2606| 
+T In Good Taste |N|Marin Noggenfogger wants you to speak with Sprinkle in Gadgetzan.|   |QID|2606| 
+A Sprinkle's Secret Ingredient |N|Sprinkle in Gadgetzan wants you to collect a Violet Tragan and return it to her.|   |QID|2641| 
+T Noxious Lair Investigation |N|Bring five Centipaar insect parts from the Noxious Lair to Alchemist Pestlezugg in Gadgetzan.|   |QID|82| 
+A The Scrimshank Redemption |N|Discover the fate of Junior Surveyor Scrimshank, and bring either him or his surveying equipment to Senior Surveyor Fizzledowser in Gadgetzan.|   |QID|10| 
+T Thistleshrub Valley |N|Tran'rek in Gadgetzan wants you to kill 8 Gnarled Thistleshrubs and 8 Thistleshrub Rootshapers.|   |QID|3362| 
+
+T Gahz'ridian |N|Marvon Rivetseeker in Tanaris wants you to collect 30 Gahz'ridian Ornaments.|   |QID|3161|
+C The Scrimshank Redemption |N|Cave at (53,70), keep making rights| |QID|10| 
+A Find OOX-17/TN! |N|Bring the distress beacon to Oglethorpe's homing robot.|   |QID|351|  |U|8623| 
+T Find OOX-17/TN! |N|Bring the distress beacon to Oglethorpe's homing robot.|   |QID|351|   
+
+H Gadgetzan 
+T The Scrimshank Redemption |N|Discover the fate of Junior Surveyor Scrimshank, and bring either him or his surveying equipment to Senior Surveyor Fizzledowser in Gadgetzan.|   |QID|10| 
+A Insect Part Analysis (Part 1) |N|Check in Gadgetzan for Alchemist Pestlezugg and his analysis of the insect parts.|   |QID|110| 
+T Insect Part Analysis (Part 1) |N|Check in Gadgetzan for Alchemist Pestlezugg and his analysis of the insect parts.|   |QID|110| 
+A Insect Part Analysis (Part 2) |N|Deliver the report to Senior Surveyor Fizzledowser in Gadgetzan.|   |QID|113| 
+T Insect Part Analysis (Part 2) |N|Deliver the report to Senior Surveyor Fizzledowser in Gadgetzan.|   |QID|113| 
+A Rise of the Silithid |N|Take the report to Zilzibin Drumlore in Orgrimmar.|   |QID|32| 
+]]
+end)

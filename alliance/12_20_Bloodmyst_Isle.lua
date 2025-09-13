@@ -201,8 +201,8 @@ A Accept Ysera's Tears |N|Go to Jessera of Mac'Aree and accept Accept Ysera's Te
 
 
 A Accept The Missing Expedition |N|Go to Achelus and accept Accept The Missing Expedition|    |QID|9669| |M|53.3,57.1|
-N Urgent Delivery |QID|9672| |ITEM|24132| |M|55.0,56.0| |T| |N|Speak to Messenger Hermesius (patrols). Check mail for quest starter (requires Odesyus chain).|
-A The Bloodcurse Legacy |N|Admiral Odesyus has asked that you find and speak with Captain Edward Hanes.|    |QID|9672| |U|24132| |T| |M|79,22.3|
+N Urgent Delivery |QID|9672| |ITEM|24132| |M|55.0,56.0|  |N|Speak to Messenger Hermesius (patrols). Check mail for quest starter (requires Odesyus chain).|
+A The Bloodcurse Legacy |N|Admiral Odesyus has asked that you find and speak with Captain Edward Hanes.|    |QID|9672| |U|24132|  |M|79,22.3|
 A Accept Explorers' League, Is That Something for Gnomes? |N|Go to Prospector Nachlan and accept Accept Explorers' League, Is That Something for Gnomes?|    |QID|10063| |M|56.3,54.3|
 
 N Kill crap... |QID|9643| |M|55.86,57.00| |N|Kill Elder Brown Bears and Mutated Constrictors as you go.|

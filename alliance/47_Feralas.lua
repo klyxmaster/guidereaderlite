@@ -31,7 +31,7 @@ T Pristine Yeti Hide |N|Bring the Pristine Yeti Hide to Pratt McGrubben at the F
 T The Morrow Stone |N|Return the Sparkling Stone and the Stave of Equinex to Troyas Moonbreeze in Feathermoon Stronghold.|    |QID|2942|  |M|31.8,45.4|
 A Accept Accept The Sunken Temple |N|Go to Angelas Moonbreeze and accept Accept The Sunken Temple|    |QID|3445|  |M|31.9,45.6|
 
-A Accept Accept An Orphan Looking For a Home |N|Go to Kindal Moonweaver and accept Accept An Orphan Looking For a Home|    |QID|3841| |NODEBUG|  |M|65.9,45.6|
+A Accept Accept An Orphan Looking For a Home |N|Go to Kindal Moonweaver and accept Accept An Orphan Looking For a Home|    |QID|3841|   |M|65.9,45.6|
 R Thalanaar |QID|4281| |N|Run east to Thalanaar.| |M|89.63,46.56|
 A Thalanaar Delivery |N|Bring the Undelivered Parcel to Falfindel Waywarder in Thalanaar.|    |QID|4281| |U|11463|  |M|8.1,18.9|
 T Thalanaar Delivery |N|Bring the Undelivered Parcel to Falfindel Waywarder in Thalanaar.|    |QID|4281|  |M|8.1,18.9|

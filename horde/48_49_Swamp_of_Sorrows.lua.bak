@@ -1,0 +1,36 @@
+GuideReaderLite_RegisterGuide("Swamp of Sorrows (48-49)", "Tanaris (49-50)", "Horde", function()
+return [[
+F Stonard |N|Swamp of Sorrows| 
+A Fall From Grace |N|Listen to the Fallen Hero of the Horde tell his story.|   |QID|2784|  
+T Fall From Grace |N|Listen to the Fallen Hero of the Horde tell his story.|   |QID|2784|  
+A The Disgraced One  |N|Speak to Dispatch Commander Ruag at Stonard in Swamp of Sorrows.|   |QID|2621| 
+T Cortello's Riddle (Part 1)  |N|Solve the riddle!.|   |QID|624| 
+A Cortello's Riddle (Part 2) |N|Solve the riddle!.|   |QID|625| 
+
+T The Disgraced One  |N|Speak to Dispatch Commander Ruag at Stonard in Swamp of Sorrows.|   |QID|2621| 
+A The Missing Orders |N|Speak to Bengor at Stonard in Swamp of Sorrows.|   |QID|2622| 
+T The Missing Orders  |N|Speak to Bengor at Stonard in Swamp of Sorrows.|   |QID|2622| 
+A The Swamp Talker |N|Retrieve the Warchief's Orders and return them to the Fallen Hero of the Horde.|   |QID|2623| 
+
+C The Swamp Talker |N|At the cave at (65,78)| |QID|2623| 
+K Jarquia |N|At around (94,50) or (92,65)| 
+
+T The Swamp Talker  |N|Retrieve the Warchief's Orders and return them to the Fallen Hero of the Horde.|   |QID|2623| 
+A A Tale of Sorrow  |N|Listen to the Fallen Hero of the Horde tell his story.|   |QID|2801| 
+T A Tale of Sorrow  |N|Listen to the Fallen Hero of the Horde tell his story.|   |QID|2801| 
+
+H The Salty Sailor Tavern |N|Booty Bay| 
+F Brackenwall Village |N|Boat to Ratchet and fly down| 
+A The Brood of Onyxia |N|Draz'Zilb in Brackenwall Village wants you to destroy 5 Eggs of Onyxia.| |QID|1172| 
+
+N Get Overdue Package |N|From the zeppelin crash (54,55) for "Ledger from Tanaris"| |Z|Dustwallow Marsh| |L|11724| 
+C The Brood of Onyxia |N|Eggs at (53,72) and (48,75)| |Z|Dustwallow Marsh| |QID|1172| 
+T Cortello's Riddle (Part 2)  |N|Solve the riddle!.|   |Z|Dustwallow Marsh| |QID|625| 
+A Cortello's Riddle (Part 3) |N|Solve the riddle!.|   |QID|626| 
+
+T The Brood of Onyxia  |N|Draz'Zilb in Brackenwall Village wants you to destroy 5 Eggs of Onyxia.| |QID|1172| 
+A Challenge Overlord Mok'Morokk |N|Defeat Mok'Morokk and report the news to Draz'Zilb in Brackenwall Village.| |QID|1173| 
+C Challenge Overlord Mok'Morokk |N|Elite 45|  |QID|1173| 
+T Challenge Overlord Mok'Morokk |N|Defeat Mok'Morokk and report the news to Draz'Zilb in Brackenwall Village.| |QID|1173| 
+]]
+end)

@@ -172,7 +172,7 @@ T Bartleby the Drunk |Z|Stormwind City| |M|77.00,53.40| |QID|1639| |C|Warrior|  
 A Beat Bartleby |Z|Stormwind City| |M|76.40,53.20| |QID|1640| |C|Warrior|  |N|Warriors: challenge Bartleby to a duel.|
 C Beat Bartleby |Z|Stormwind City| |M|76.40,53.20| |QID|1640| |C|Warrior|  |N|Defeat Bartleby in the duel. |QO|1|
 T Beat Bartleby |Z|Stormwind City| |M|76.40,53.20| |QID|1640| |C|Warrior|  |N|Turn in "Beat Bartleby" to your trainer.|
-A Bartleby's Mug |Z|Stormwind City| |M|76.40,53.20| |QID|1665| |C|Warrior||N|Accept and immediately turn in behind you to learn Defense.|
+A Bartleby's Mug |Z|Stormwind City| |M|76.40,53.20| |QID|1665| |C|Warrior|   |N|Accept and immediately turn in behind you to learn Defense.|
 T Bartleby's Mug |Z|Stormwind City| |M|76.40,53.20| |QID|1665| |C|Warrior|  |N|Turn in "Bartleby's Mug".|
 
 

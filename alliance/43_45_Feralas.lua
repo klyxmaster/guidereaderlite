@@ -63,7 +63,7 @@ T The High Wilderness |N|Angelas Moonbreeze wants you to kill 8 Gordunni Warlock
 T Freed from the Hive |N|Free Raschal from the Zukk'ash hive.|    |QID|4265|  |M|31.9,45.2|
 A Accept Accept A Hero's Welcome |N|Go to Ginro Hearthkindle and accept Accept A Hero's Welcome|    |QID|4266|  |M|31.9,45.2|
 T A Hero's Welcome |N|Speak with Shandris Feathermoon in Feathermoon Stronghold.|    |QID|4266|  |M|30.3,46.1|
-A Accept Accept Rise of the Silithid |N|Go to Shandris Feathermoon and accept Accept Rise of the Silithid|    |QID|4267| |NODEBUG|  |M|30.3,46.1|
+A Accept Accept Rise of the Silithid |N|Go to Shandris Feathermoon and accept Accept Rise of the Silithid|    |QID|4267|   |M|30.3,46.1|
 
 F Rut'theran Village |N|Ask Daryn Lightwind if you may borrow her book.|    |QID|2940|  |M|55.41,92.23|
 T Handle With Care |N|Bring the Carefully-packed Crate to Erelas Ambersky in Rut'theran Village.|    |QID|3022|  |M|43.7,16.7|
@@ -73,7 +73,7 @@ A Accept Accept Feralas: A History |N|Go to Feralas: A History and accept Accept
 T Feralas: A History |N|Ask Daryn Lightwind if you may borrow her book.|    |QID|2940|  |M|55.4,92.2|
 A Accept Accept The Borrower |N|Go to Daryn Lightwind and accept Accept The Borrower|    |QID|2941|  |M|55.4,92.2|
 
-T Rise of the Silithid |N|Bring Raschal's Report to Gracina Spiritmight in Darnassus.|    |QID|4267| |Z|Darnassus| |NODEBUG|  |M|26,64.8|
+T Rise of the Silithid |N|Bring Raschal's Report to Gracina Spiritmight in Darnassus.|    |QID|4267| |Z|Darnassus|   |M|26,64.8|
 T Doling Justice (Part 2) |N|Take Jer'kai's Signet Ring to High Priestess Tyrande Whisperwind in Darnassus.|    |QID|2972|  |M|25.3,63.8|
 
 F Gadgetzan |N|Use the Super Snapper FX to take a snapshot of Gammerita, then return to Daryn Lightwind in Rut'theran Village.|    |QID|2944|  |M|55.41,92.23|

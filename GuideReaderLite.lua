@@ -716,8 +716,9 @@ function GRL:IsStepDone(i)
 				for i, qid in ipairs(t.qids) do
 					local qo = nil
 					if type(t.QO) == "table" then
-						if #t.QO == #t.qids then qo = t.QO[i]
-						elseif #t.QO == 1 then qo = t.QO[1] end
+						if #t.QO == #t.qids then qo = { t.QO[i] }
+						elseif #t.QO == 1 then qo = t.QO end
+
 					end
 					if not GRL_AreObjectivesDone(qid, qo) then ok = false; break end
 				end
@@ -753,16 +754,15 @@ function GRL:IsStepDone(i)
 
 
         if a == "A" then
-		-- Real accept OR (resume case) quest exists in log; never complete while gossip is open.
-		local ok = false
-		if t.qid and self._recentAccepted and _recent(self._recentAccepted[t.qid], 15) then
-			ok = true
-		else
-			local inlog = t.qid and GRL_FindQuestLogIndexByID and GRL_FindQuestLogIndexByID(t.qid)
-			if inlog and not self._inGossip then ok = true end
+			-- Only advance on the real accept event; seeing it in the log is not enough.
+			local ok = false
+			if t.qid and self._recentAccepted and _recent(self._recentAccepted[t.qid], 20) then
+				ok = true
+			end
+			result = ok
 		end
-		result = ok
-	end
+
+
 
 
         if a == "T" then
@@ -1389,28 +1389,36 @@ GRL:RegisterEvent("QUEST_LOG_UPDATE", function(self)
     self:UpdateStatusFrame()
 
     -- Fallback: if we're on a T step and the quest vanished from the log (and we’re not in gossip),
-    -- treat that as a turn-in; stamps the caches and advances.
-    if not self._inGossip then
-        local i = self.currentStep
-        local t = i and self.tags and self.tags[i]
-        if t and t.a == "T" and t.qid then
-            self._seenInLog     = self._seenInLog     or {}
-            self._recentTurnedIn = self._recentTurnedIn or {}
-            self.turnedinquests   = self.turnedinquests   or {}
+	-- treat that as a turn-in; stamp caches and advance.
+	if not self._inGossip then
+		local i = self.current
+		local t = i and self.tags and self.tags[i]
+		local a = i and self.actions and self.actions[i]
+		if a == "T" and t and t.qid then
+			self._seenInLog       = self._seenInLog       or {}
+			self._recentTurnedIn  = self._recentTurnedIn  or {}
+			self.turnedinquests   = self.turnedinquests   or {}
 
-            local inlog = GRL_FindQuestLogIndexByID and GRL_FindQuestLogIndexByID(t.qid)
-            if self._seenInLog[t.qid] and not inlog then
-                self.turnedinquests[t.qid]  = true
-                self._recentTurnedIn[t.qid] = GetTime()
-                if self.AutoAdvance then self:AutoAdvance(true) end
-            end
-            self._seenInLog[t.qid] = inlog and true or false
-        end
-    end
+			local inlog = GRL_FindQuestLogIndexByID and GRL_FindQuestLogIndexByID(t.qid)
+			if self._seenInLog[t.qid] and not inlog then
+				self.turnedinquests[t.qid]  = true
+				self._recentTurnedIn[t.qid] = GetTime()
+				if self.AutoAdvance then self:AutoAdvance(true) end
+			end
+			self._seenInLog[t.qid] = inlog and true or false
+		end
+	end
 
-    if self.AutoAdvance and not self._inGossip then
-        self:AutoAdvance()
-    end
+
+    -- New
+	if self.AutoAdvance and not self._inGossip then
+		local a = self.actions and self.actions[self.current]
+		if a ~= "A" then
+			self:AutoAdvance()
+		end
+	end
+
+
 end)
 
 

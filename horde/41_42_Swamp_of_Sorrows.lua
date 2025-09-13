@@ -1,32 +1,32 @@
 GuideReaderLite_RegisterGuide("Swamp of Sorrows (41-42)", "Stranglethorn Vale (42-43)", "Horde", function()
 return [[
-R Swamp of Sorrows |NORAF|
-K Noboru the Cudgel |ITEM|6196| |NORAF|
-A Noboru the Cudgel |N|Bring Noboru's Cudgel to the leader of The Harborage in the Swamp of Sorrows.|    |U|6196| |QID|1392| |NORAF|  |M|26,31.6|
-T Noboru the Cudgel  |N|Bring Noboru's Cudgel to the leader of The Harborage in the Swamp of Sorrows.|    |QID|1392| |NORAF|  |M|26,31.6|
-A Accept Draenethyst Crystals |N|Go to Magtoor and accept Draenethyst Crystals|    |QID|1389| |NORAF|  |M|26,31.6|
+R Swamp of Sorrows 
+K Noboru the Cudgel |L|6196| 
+A Noboru the Cudgel |N|Bring Noboru's Cudgel to the leader of The Harborage in the Swamp of Sorrows.|   |U|6196| |QID|1392|   |M|25.98 31.40|
+T Noboru the Cudgel  |N|Bring Noboru's Cudgel to the leader of The Harborage in the Swamp of Sorrows.|   |QID|1392|   |M|25.98 31.40|
+A Draenethyst Crystals |N|Bring 6 Draenethyst crystals to Magtoor at The Harborage in the Swamp of Sorrows.|   |QID|1389|   |M|25.98 31.40|
 
-R Stonard |N|(45,54)| |NORAF|
-h Stonard |NORAF| |N|Make this Inn your home|
-A Accept Lack of Surplus |N|Go to Tok'Kar and accept Lack of Surplus|    |T| |QID|699| |NORAF|  |M|81.3,80.3|
-A Accept Little Morsels |N|Go to Cersei Dusksinger and accept Little Morsels|    |T| |QID|9440| |NORAF|  |M|47.2,54.3|
-T Report to Helgrum |N|Bring Neeka's Report to Helgrum the Swift in Stonard.|    |T| |QID|1420| |NORAF|  |M|47.8,55.2|
-A Accept Pool of Tears |N|Go to Fel'zerul and accept Pool of Tears|    |T| |QID|1424| |NORAF|  |M|47.9,55|
+R Stonard |N|(45,54)| 
+h Stonard 
+A Lack of Surplus |N|Bring 6 Sawtooth Snapper Claws to Tok'Kar in the Swamp of Sorrows.| |QID|699|   |M|81.32 80.97|
+A Little Morsels  |N|Feed the Fel-Tainted Morsels to the Lost Ones' captured animals.| |QID|9440|   |M|47.81 54.95|
+T Report to Helgrum |N|Bring Neeka's Report to Helgrum the Swift in Stonard.| |QID|1420|   |M|47.74 55.20|
+A Pool of Tears |N|Fel'zerul in Stonard wants you to gather 5 Atal'ai Artifacts.| |QID|1424|   |M|47.93 54.78|
 
-C Lack of Surplus  |QID|699| |NORAF| |N|Bring 6 Sawtooth Snapper Claws to Tok'Kar in the Swamp of Sorrows.|  |M|81.32,80.97|
-C Pool of Tears  |QID|1424| |NORAF| |N|Fel'zerul in Stonard wants you to gather 5 Atal'ai Artifacts.|  |M|47.93,54.78|
+C Lack of Surplus |N|Just north-east of Stonard| |QID|699|   |M|81.32 80.97|
+C Pool of Tears |N|Artifacts in the water around the big lake| |QID|1424|   |M|47.93 54.78|
 
-T Lack of Surplus  |N|Bring 6 Sawtooth Snapper Claws to Tok'Kar in the Swamp of Sorrows.|    |QID|699| |NORAF|  |M|81.3,80.3|
+T Lack of Surplus  |N|Bring 6 Sawtooth Snapper Claws to Tok'Kar in the Swamp of Sorrows.|   |QID|699|   |M|81.32 80.97|
 
-C Dream Dust in the Swamp  |QID|1116| |NORAF| |N|Bring 10 Specks of Dream Dust to Krazek in Booty Bay.  Dream Dust is gathered from the dragon whelps of the Swamp of Sorrows.|  |M|26.94,77.21|
-C Little Morsels  |QID|9440| |NORAF| |N|Feed the Fel-Tainted Morsels to the Lost Ones' captured animals.  Then return the leftovers to Cersei Dusksinger at Stonard in the Swamp of Sorrows.|  |M|47.81,54.95|
-C Draenethyst Crystals |QID|1389| |NORAF| |N|Bring 6 Draenethyst crystals to Magtoor at The Harborage in the Swamp of Sorrows.|  |M|25.98,31.40|
+C Dream Dust in the Swamp |N|Kill Scalebane Dragons along the east and northern shores of the big lake| |QID|1116|   |M|26.94 77.21|
+C Little Morsels |N|Fallow Sanctuary (62,22). Pickup the Crystals at the same time.| |QID|9440|   |M|47.81 54.95|
+C Draenethyst Crystals |QID|1389|   |M|25.98 31.40|
 
-T Draenethyst Crystals  |N|Bring 6 Draenethyst crystals to Magtoor at The Harborage in the Swamp of Sorrows.|    |QID|1389| |NORAF|  |M|26,31.6|
+T Draenethyst Crystals  |N|Bring 6 Draenethyst crystals to Magtoor at The Harborage in the Swamp of Sorrows.|   |QID|1389|   |M|25.98 31.40|
 
-H Stonard |NORAF| |N|Hearth back|
-T Little Morsels |N|Feed the Fel-Tainted Morsels to the Lost Ones' captured animals.|    |T| |QID|9440| |NORAF|  |M|47.2,54.3|
-T Pool of Tears |N|Fel'zerul in Stonard wants you to gather 5 Atal'ai Artifacts.|    |T| |QID|1424| |NORAF|  |M|47.9,55|
-A Accept The Atal'ai Exile |N|Go to Fel'zerul and accept The Atal'ai Exile|    |T| |QID|1429| |NORAF|  |M|47.9,55|
+H Stonard 
+T Little Morsels |N|Feed the Fel-Tainted Morsels to the Lost Ones' captured animals.| |QID|9440|   |M|47.81 54.95|
+T Pool of Tears |N|Fel'zerul in Stonard wants you to gather 5 Atal'ai Artifacts.| |QID|1424|   |M|47.93 54.78|
+A The Atal'ai Exile |N|Bring the Bundle of Atal'ai Artifacts to the Atal'ai Exile in the Hinterlands.| |QID|1429|   |M|47.93 54.78|
 ]]
 end)

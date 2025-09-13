@@ -3,7 +3,7 @@ GuideReaderLite_RegisterGuide("Kalimdor (51)", "Un'Goro Crater (51-52)", "Allian
 return [[
 F Darnassus  |N|Speak with Arch Druid Fandral Staghelm in Darnassus.|    |QID|10520|  |M|34.81,9.26|
 T Prayer to Elune (Part 2)  |N|Find the Prayer to Elune and take it to Astarii Starseeker in Darnassus.|    |M|25.2,63.7| |QID|3378| 
-T Rise of the Silithid  |N|Take the Insect Analysis Report to Gracina Spiritmight in Darnassus.|    |NODEBUG| | |M|26,64.8| |QID|162| 
+T Rise of the Silithid  |N|Take the Insect Analysis Report to Gracina Spiritmight in Darnassus.|     | |M|26,64.8| |QID|162| 
 A Accept Accept March of the Silithid |N|Go to Gracina Spiritmight and accept Accept March of the Silithid|    |M|26,64.8| |QID|4493| 
 T Assisting Arch Druid Staghelm  |N|Speak with Arch Druid Fandral Staghelm in Darnassus.|    |Z|Darnassus| |M|24.4,48.8| |QID|10520| 
 A Accept Accept Un'Goro Soil |N|Go to Arch Druid Fandral Staghelm and accept Accept Un'Goro Soil|    |M|24.4,48.8| |QID|3764| 

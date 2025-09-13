@@ -18,14 +18,14 @@ C Tome of the Cabal (Part 2) |ITEM|6931| |C|Warlock| |QO|1| |QID|1802| |N|Retrie
 C Down the Coast |QO|1| |QID|536| |N|Kill 10 Torn Fin Tidehunters and 10 Torn Fin Oracles for Lieutenant Farren Orinelle in Southshore.| |M|51.46,58.39|
 T Down the Coast |N|Kill 10 Torn Fin Tidehunters and 10 Torn Fin Oracles for Lieutenant Farren Orinelle in Southshore.|    |QID|536|  |M|51.4,58.4|
 A Accept Accept Farren's Proof (Part 1) |N|Go to Lieutenant Farren Orinelle and accept Accept Farren's Proof (Part 1)|    |QID|559|  |M|51.4,58.4|
-C Farren's Proof (Part 1) |NORAF| |QO|1| |QID|559| |N|Collect 10 Murloc Heads from the Western Strand for Lieutenant Farren Orinelle.| |M|51.46,58.39|
+C Farren's Proof (Part 1)  |QO|1| |QID|559| |N|Collect 10 Murloc Heads from the Western Strand for Lieutenant Farren Orinelle.| |M|51.46,58.39|
 T Farren's Proof (Part 1) |N|Collect 10 Murloc Heads from the murlocs on the Western Strand for Lieutenant Farren Orinelle in Southshore.|    |QID|559|  |M|51.4,58.4|
 A Accept Accept Farren's Proof (Part 2) |N|Go to Lieutenant Farren Orinelle and accept Accept Farren's Proof (Part 2)|    |QID|560|  |M|51.4,58.4|
 T Farren's Proof (Part 2) |N|Deliver the sack of murloc heads to Marshall Redpath in Southshore.|    |QID|560|  |M|49.5,58.7|
 A Accept Accept Farren's Proof (Part 3) |N|Go to Marshal Redpath and accept Accept Farren's Proof (Part 3)|    |QID|561|  |M|49.5,58.7|
 T Farren's Proof (Part 3) |N|Speak with Lieutenant Farren Orinelle in Southshore.|    |QID|561|  |M|51.4,58.4|
 A Accept Accept Stormwind Ho! |N|Go to Lieutenant Farren Orinelle and accept Accept Stormwind Ho!|    |QID|562|  |M|51.4,58.4|
-C Stormwind Ho! |NORAF| |QO|1| |QID|562| |N|Kill 10 Daggerspine Shorehunters and 10 Daggerspine Sirens for Lieutenant Farren Orinelle.| |M|51.46,58.39|
+C Stormwind Ho!  |QO|1| |QID|562| |N|Kill 10 Daggerspine Shorehunters and 10 Daggerspine Sirens for Lieutenant Farren Orinelle.| |M|51.46,58.39|
 T Stormwind Ho! |N|Kill 10 Daggerspine Shorehunters and 10 Daggerspine Sirens for Lieutenant Farren Orinelle in Southshore.|    |QID|562|  |M|51.4,58.4|
 A Accept Accept Reassignment |N|Go to Lieutenant Farren Orinelle and accept Accept Reassignment|    |QID|563|  |M|51.4,58.4|
 
@@ -77,8 +77,8 @@ C Tome of the Cabal (Part 3) |C|Warlock| |Z|Wetlands| |QO|1| |QID|1804| |N|Bring
 F Ratchet |C|Warlock| |N|Boat to Theramore Isle and fly down|
 T In Search of Menara Voidrender |N|Speak to Menara Voidrender in the Barrens.|    |C|Warlock| |QID|4736|  |M|62.5,35.5|
 T Tome of the Cabal (Part 3) |N|Bring the Reconstructed Tome and 3 Rods of Channeling to Strahad Farsan in Ratchet.|    |C|Warlock| |QID|1804|  |M|62.6,35.5|
-A Accept Accept The Binding |N|Go to Strahad Farsan and accept Accept The Binding|    |C|Warlock| |NODEBUG| |QID|1795|  |M|62.6,35.5|
-C The Binding |C|Warlock| |NODEBUG| |QID|1795| |N|Use the Tome of the Cabal to summon and subdue a felhunter at the summoning circle, then speak to Strahad Farsan.| |M|62.63,35.50|
-T The Binding |N|Using the Tome of the Cabal, summon and subdue a felhunter, then return the Tome of the Cabal to Strahad Farsan in Ratchet.|    |C|Warlock| |NODEBUG| |QID|1795|  |M|62.6,35.5|
+A Accept Accept The Binding |N|Go to Strahad Farsan and accept Accept The Binding|    |C|Warlock|  |QID|1795|  |M|62.6,35.5|
+C The Binding |C|Warlock|  |QID|1795| |N|Use the Tome of the Cabal to summon and subdue a felhunter at the summoning circle, then speak to Strahad Farsan.| |M|62.63,35.50|
+T The Binding |N|Using the Tome of the Cabal, summon and subdue a felhunter, then return the Tome of the Cabal to Strahad Farsan in Ratchet.|    |C|Warlock|  |QID|1795|  |M|62.6,35.5|
 ]]
 end)
