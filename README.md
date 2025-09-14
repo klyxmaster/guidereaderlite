@@ -65,6 +65,6 @@ It is **not affiliated with Blizzard Entertainment** and currently **not designe
 ## TODO:
 - **Classes** Currently these are not done, but I do have them in place, I route and test my guide with a priest. But once I am happy with all the new updates I will go back and clean up the classes.   
 - **Arrow GPS** NPC's are done and spot on, objectives are W.I.P. Use map for now to locations.
--**TAGS** Some tags are goofy, as I am experimenting with them, but should work for the most part.
--**RETAIL VERSION** YES! I plan on making a retails version of GRL. FREE! Will do this one all the bugs are worked out. And only will be WOTLK only.
+- **TAGS** Some tags are goofy, as I am experimenting with them, but should work for the most part.
+- **RETAIL VERSION** YES! I plan on making a retails version of GRL. FREE! Will do this one all the bugs are worked out. And only will be WOTLK only.
 
