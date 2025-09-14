@@ -1,0 +1,103 @@
+GuideReaderLite_RegisterGuide("Feralas (45-46)", "Azshara (46-47)", "Horde", function()
+return [[
+F Freewind Post
+R Camp Mojache |N|West in Feralas|
+A A New Cloak's Sheen |N|Bring 10 Iridescent Sprite Darter Wings to Krueg Skullsplitter in Camp Mojache.|   |QID|2973| 
+A The Ogres of Feralas (Part 1) |N|Rok Orhan in Camp Mojache wants you to kill 10 Gordunni Ogres, 10 Gordunni Ogre-Magi, and 5 Gordunni Brutes.|   |QID|2975|
+A Gordunni Cobalt |N|Orwin Gizzmick in Camp Mojache wants 12 samples of Gordunni Cobalt.|   |QID|2987|
+A War on the Woodpaw |N|Bring 10 Woodpaw Gnoll Manes to Hadoken Swiftstrider in Camp Mojache.|   |QID|2862| 
+A The Mark of Quality |N|Bring 10 Thick Yeti Hides to Jangdor Swiftstrider in Camp Mojache.|   |QID|2822| 
+A A Strange Request |N|Take the Shrunken Head to Xerash Fireblade at the Lariss Pavilion in Feralas.|   |QID|3121|
+h Camp Mojache 
+
+T A Strange Request |N|Take the Shrunken Head to Xerash Fireblade at the Lariss Pavilion in Feralas.|  |QID|3121| 
+A Return to Witch Doctor Uzer'i |N|Deliver Xerash's Herb Pouch to Witch Doctor Uzer'i in Feralas.|  |QID|3122|
+
+C War on the Woodpaw |N|North of Camp Mojache (71,37)| |QID|2862| 
+C Gordunni Cobalt |N|North of Camp Mojache, up the path by the waterfall (75,31)| |U|9466| |QID|2987|
+C The Ogres of Feralas (Part 1) |QID|2975|
+A The Gordunni Scroll  |N|Bring the Gordunni Scroll to Rok Orhan in Camp Mojache.|  |U|9370| |QID|2978|
+
+T Gordunni Cobalt |N|Orwin Gizzmick in Camp Mojache wants 12 samples of Gordunni Cobalt.|   |QID|2987|
+T The Ogres of Feralas (Part 1) |N|Rok Orhan in Camp Mojache wants you to kill 10 Gordunni Ogres, 10 Gordunni Ogre-Magi, and 5 Gordunni Brutes.|   |QID|2975|
+A The Ogres of Feralas (Part 2) |N|Rok Orhan in Camp Mojache wants you to kill 10 Gordunni Shaman, 10 Gordunni Warlocks, and 5 Gordunni Maulers.|   |QID|2980|
+T The Gordunni Scroll |N|Bring the Gordunni Scroll to Rok Orhan in Camp Mojache.|   |QID|2978|
+A Dark Ceremony |N|Rok Orhan in Camp Mojache wants you to find a Gordunni Orb.|   |QID|2979|
+T War on the Woodpaw  |N|Bring 10 Woodpaw Gnoll Manes to Hadoken Swiftstrider in Camp Mojache.|   |QID|2862| 
+A Alpha Strike |N|Kill 5 Woodpaw Alphas and return to Hadoken Swiftstrider within one hour.|   |QID|2863| 
+T Return to Witch Doctor Uzer'i |N|Deliver Xerash's Herb Pouch to Witch Doctor Uzer'i in Feralas.|  |QID|3122| 
+A Testing the Vessel |N|Kill 10 Ironfur Bears or Longtooth Runners, and use the Beast Muisek Vessel to shrink and capture the fallen beasts.|  |QID|3123|  
+A Natural Materials |N|Bring 2 Splintered Logs, 6 Encrusted Minerals, 20 pieces of Resilient Sinew, and 40 Metallic Fragments to Witch Doctor Uzer'i in Camp Mojache.|  |QID|3128|  
+
+N Keep an eye out for Wandering Forest Walkers |N|They drop [Splintered Log] for "Natural Materials".|
+
+C Testing the Vessel |QID|3123| |U|9618| |N|Kill Ironfur Bears or Longtooth Runners and use the vessel on their corpses.| 
+
+C Alpha Strike |N|Southwest of Camp Mojache (72,56)| |QID|2863| 
+T Alpha Strike |N|Kill 5 Woodpaw Alphas and return to Hadoken Swiftstrider within one hour.|   |QID|2863| 
+A Woodpaw Investigation |N|Find the gnoll battle plans somewhere in the gnoll camps to the south of Camp Mojache.|   |QID|2902| 
+C Woodpaw Investigation |N|Southwest of Camp Mojache (71.6,55.9)| |QID|2902| 
+T Woodpaw Investigation |N|Find the gnoll battle plans somewhere in the gnoll camps to the south of Camp Mojache.|  |QID|2902| 
+A The Battle Plans |N|Bring the Woodpaw Battle Plans to Hadoken Swiftstrider in Camp Mojache.|  |QID|2903| 
+
+C A New Cloak's Sheen |N|West of Camp Mojache, on the north side of the path (70,47)| |QID|2973| 
+K Sprite Darters |Q|Natural Materials| |QO|Encrusted Minerals: 6/6| |QID|3128| |N|Need [Encrusted Minerals] for "Natural Materials"| 
+
+H Camp Mojache 
+T The Battle Plans |N|Bring the Woodpaw Battle Plans to Hadoken Swiftstrider in Camp Mojache.|   |QID|2903| 
+A Zukk'ash Infestation |N|Bring 20 Zukk'ash Carapaces to Hadoken Swiftstrider at Camp Mojache, Feralas.|   |QID|7730| 
+A Stinglasher |N|Defeat Stinglasher in the Writhing Deep, bringing its glands back to Hadoken Swiftstrider at Camp Mojache, Feralas.|   |QID|7731| 
+T A New Cloak's Sheen |N|Bring 10 Iridescent Sprite Darter Wings to Krueg Skullsplitter in Camp Mojache.|   |QID|2973| 
+A A Grim Discovery (Part 1) |N|Bring 20 Grimtotem Horns to Krueg Skullsplitter in Camp Mojache.|   |QID|2974| 
+T Testing the Vessel |N|Kill 10 Ironfur Bears or Longtooth Runners, and use the Beast Muisek Vessel to shrink and capture the fallen beasts.|  |QID|3123| 
+A Hippogryph Muisek |N|Kill 10 Frayfeather Hippogryphs of any type, then use the Muisek Vessel to shrink and capture them.|  |QID|3124| 
+
+C Stinglasher |N|Both in the hive area south of Camp Mojache (74,62)| |QID|7731| 
+C Zukk'ash Infestation |QID|7730| 
+C A Grim Discovery (Part 1) |N|West of Camp Mojache (66,46)| |QID|2974| 
+C Screecher Spirits |N|South of Dire Maul (55,56)| |U|10699| |QID|3520|
+C Dark Ceremony |N|In the ruins to the south (59,68)| |QID|2979|
+C The Ogres of Feralas (Part 2) |N|South of Dire Maul (59,68)| |QID|2980|
+C Hippogryph Muisek |QID|3124| 
+C Natural Materials |QID|3128| |N|Kill hippographs for sinew and fragments, and treants for logs.| 
+C The Mark of Quality |N|Southwest of Dire Maul (55.4,56.4)| |QID|2822| 
+
+H Camp Mojache
+T The Ogres of Feralas (Part 2) |N|Rok Orhan in Camp Mojache wants you to kill 10 Gordunni Shaman, 10 Gordunni Warlocks, and 5 Gordunni Maulers.|   |QID|2980|
+T Dark Ceremony |N|Rok Orhan in Camp Mojache wants you to find a Gordunni Orb.|   |QID|2979|
+A The Gordunni Orb |N|Bring the Gordunni Orb to Uthel'nay in the Darkbriar Lodge in Orgrimmar.|   |QID|3002|
+T Hippogryph Muisek |N|Kill 10 Frayfeather Hippogryphs of any type, then use the Muisek Vessel to shrink and capture them.|  |QID|3124|  
+A The Sunken Temple |N|Find Marvon Rivetseeker in Tanaris.|   |QID|3380|
+T Stinglasher |N|Defeat Stinglasher in the Writhing Deep, bringing its glands back to Hadoken Swiftstrider at Camp Mojache, Feralas.|   |QID|7731| 
+T Zukk'ash Infestation |N|Bring 20 Zukk'ash Carapaces to Hadoken Swiftstrider at Camp Mojache, Feralas.|   |QID|7730| 
+A Zukk'ash Report |N|Deliver the Camp Mojache Zukk'ash Report to Zilzibin Drumlore.|   |QID|7732| 
+T A Grim Discovery (Part 1) |N|Bring 20 Grimtotem Horns to Krueg Skullsplitter in Camp Mojache.|   |QID|2974| 
+A A Grim Discovery (Part 2) |N|Bring the Crate of Grimtotem Horns to Belgrom Rockmaul in Orgrimmar.|   |QID|2976| 
+T Natural Materials |N|Bring 2 Splintered Logs, 6 Encrusted Minerals, 20 pieces of Resilient Sinew, and 40 Metallic Fragments to Witch Doctor Uzer'i in Camp Mojache.|  |QID|3128|  
+T The Mark of Quality  |N|Bring 10 Thick Yeti Hides to Jangdor Swiftstrider in Camp Mojache.|   |QID|2822| 
+
+F Orgrimmar
+h Orgrimmar  
+T Zukk'ash Report  |N|Deliver the Camp Mojache Zukk'ash Report to Zilzibin Drumlore.|  |Z|Orgrimmar| |QID|7732|  
+A Ripple Recovery (Part 1)  |N|Talk to Malton Droffers in Orgrimmar.|  |Z|Orgrimmar| |QID|649| 
+T Ripple Recovery (Part 1)  |N|Talk to Malton Droffers in Orgrimmar.|  |QID|649| 
+A Ripple Recovery (Part 2) |N|Talk to Gilveradin Sunchaser; his camp is located in the Hinterlands.|  |QID|650|  
+T Parts of the Swarm  |N|Return to Belgrom Rockmaul in Orgrimmar.|  |Z|Orgrimmar| |QID|1184|  
+T A Grim Discovery (Part 2) |N|Bring the Crate of Grimtotem Horns to Belgrom Rockmaul in Orgrimmar.|   |QID|2976| 
+A Betrayed (Part 1) |N|Deliver the Sealed Letter to Ag'tor to Ag'tor Bloodfist in Azshara.|  |QID|3504|  
+T Report to Zor |N|Bring the Jeweled Pendant to Zor Lonetree in Orgrimmar.|  |Z|Orgrimmar| |QID|1262| 
+A Service to the Horde |QID|7541| 
+T Service to the Horde |QID|7541| 
+T The Gordunni Orb |N|Bring the Gordunni Orb to Uthel'nay in the Darkbriar Lodge in Orgrimmar.|  |Z|Orgrimmar| |QID|3002| 
+
+A A Donation of Silk (Darkspear Trolls) |QID|7834|  |N|Easy exp, but prices may be bad on your server.  Skip these quests if the prices suck.|
+T A Donation of Silk (Darkspear Trolls) |QID|7834| 
+A A Donation of Mageweave (Darkspear Trolls) |QID|7835| 
+T A Donation of Mageweave (Darkspear Trolls) |QID|7835| 
+
+A A Donation of Silk (Orgrimmar) |QID|7827| 
+T A Donation of Silk (Orgrimmar) |QID|7827| 
+A A Donation of Mageweave (Orgrimmar) |QID|7831| 
+T A Donation of Mageweave (Orgrimmar) |QID|7831| 
+]]
+end)

@@ -1,0 +1,223 @@
+GuideReaderLite_RegisterGuide("Azuremyst Isle (1-12)", "Bloodmyst Isle (12-20)", "Alliance", function()
+return [[A Accept You Survived! |N|Go to Megelon and accept Accept You Survived!|    |R|Draenei|  |QID|9279|   |M|84.3,43|
+T You Survived! |N|Turn in "You Survived!" to Proenitus.|    |R|Draenei|  |QID|9279|   |M|80.4,45.8|
+A Accept Replenishing the Healing Crystals |N|Go to Proenitus and accept Accept Replenishing the Healing Crystals|    |QID|9369|   |M|80.4,45.8|
+A Accept Volatile Mutations |N|Go to Botanist Taerix and accept Accept Volatile Mutations|    |QID|10302|   |M|79.2,46.4|
+C Volatile Mutations  |QO|1| |QID|10302|  |S| |N|Kill 8 Volatile Mutations, they are everywhere.|  |M|76.8,45.8|
+C Replenishing the Healing Crystals  |QO|1| |QID|9369| |N|Acquire 8 Vials of Moth Blood from the nearby Vale Moths.|  |M|76.8,45.8|
+T Volatile Mutations |N|Turn in "Volatile Mutations" to Botanist Taerix. Note: Kill 8 Volatile Mutations, then.|    |QID|10302|   |M|79.2,46.4|
+A Accept What Must Be Done... |N|Go to Botanist Taerix and accept Accept What Must Be Done...|    |QID|9293|   |M|79.2,46.4|
+A Accept Botanical Legwork |N|Go to Apprentice Vishael and accept Accept Botanical Legwork|    |QID|9799|   |M|79.1,46.4|
+T Replenishing the Healing Crystals |N|Turn in "Replenishing the Healing Crystals" to Proenitus. Note: Acquire 8 Vials of Moth Blood from the nearby Vale Moths and.|    |QID|9369|   |M|80.4,45.8|
+A Accept Urgent Delivery! |N|Go to Proenitus and accept Accept Urgent Delivery!|    |QID|9409|   |M|80.4,45.8|
+T Urgent Delivery! |N|Turn in "Urgent Delivery!" to Zalduun.|    |QID|9409|   |M|80,49.5|
+A Accept Rescue the Survivors! |N|Go to Zalduun and accept Accept Rescue the Survivors!|    |R|Draenei|  |QID|9283|   |M|80,49.5|
+A Accept Spare Parts |N|Go to Technician Zhanaa and accept Accept Spare Parts|    |QID|9305|   |M|79.4,51.2|
+A Accept Inoculation |N|Go to Vindicator Aldar and accept Accept Inoculation|    |QID|9303|   |M|79.4,51.5|
+C Rescue the Survivors!  |R|Draenei| |QID|9283| |N|Use your Gift of the Naaru ability on one of the Draenei Survivors spread throughout Ammen Vale, then return to Zalduun at the Crash Site in Ammen Vale.|  |M|80.13,48.89|
+T BotanicalBotanical Legwork |N|Turn in "BotanicalBotanical Legwork" to Apprentice Vishael. Note: Gather 3 Corrupted Flowers and.|    |QID|9799|   |M|79.1,46.4|
+T What Must Be Done... |N|Turn in "What Must Be Done..." to Botanist Taerix. Note: Gather 10 Lasher Samples and.|    |QID|9293|   |M|79.2,46.4|
+A Accept Healing the Lake |N|Go to Botanist Taerix and accept Accept Healing the Lake|    |QID|9294|   |M|79.2,46.4|
+T Rescue the Survivors! |N|Turn in "Rescue the Survivors!" to Zalduun. Note: Use your Gift of the Naaru ability on one of the Draenei Survivors spread throughout Ammen Vale, then.|    |R|Draenei|  |QID|9283|   |M|80,49.5|
+C Healing the Lake  |QID|9294| |N|Disperse the Neutralizing Agent at the Irradiated Power Crystal, then return to Botanist Taerix at the Crash Site in Ammen Vale.|  |M|77,58|
+C Innoculation + Spare Parts  |QID|9303,9305| 	|QO|1,1|	|N|Use the Inoculating Crystal on 6 Nestlewood Owlkin. Keep and eye out for  4 Emitter Spare Parts | 	|M|86.3,66.4|
+T Healing the Lake |N|Turn in "Healing the Lake" to Botanist Taerix. Note: Disperse the Neutralizing Agent at the Irradiated Power Crystal, then.|    |QID|9294|   |M|79.2,46.4|
+T Spare Parts |N|Turn in "Spare Parts" to Technician Zhanaa. Note: Collect 4 Emitter Spare Parts and then.|    |QID|9305|   |M|79.4,51.2|
+T Inoculation |N|Turn in "Inoculation". Note: Use the Inoculating Crystal on 6 Nestlewood Owlkin.|    |QID|9303|   |M|79.4,51.5|
+A Accept The Missing Scout |N|Go to Vindicator Aldar and accept Accept The Missing Scout|    |QID|9309|   |M|79.4,51.5|
+T The Missing Scout |N|Turn in "The Missing Scout" to Tolaan. Note: Find and.|    |QID|9309|   |M|72,60.8|
+A Accept The Blood Elves |N|Go to Tolaan and accept Accept The Blood Elves|    |QID|10303|   |M|72,60.8|
+C The Blood Elves  |QO|1| |QID|10303| |N|Kill 10 Blood Elf Scouts then return to Tolaan in the Shadow Ridge of Ammen Vale.|  |M|69.2,65.6|
+T The Blood Elves |N|Turn in "The Blood Elves" to Tolaan. Note: Kill 10 Blood Elf Scouts then.|    |QID|10303|   |M|72,60.8|
+A Accept Blood Elf Spy |N|Go to Tolaan and accept Accept Blood Elf Spy|    |QID|9311|   |M|72,60.8|
+C Blood Elf Spy  |QO|1| |QID|9311| |N|Slay Surveyor Candress and then inform Vindicator Aldar at the Crash Site in Ammen Vale.|  |M|68.8,65.0|
+T Blood Elf Spy |N|Turn in "Blood Elf Spy". Note: Slay Surveyor Candress and then inform Vindicator Aldar at the Crash Site in Ammen Vale.|    |QID|9311|   |M|79.4,51.5|
+A Accept The Emitter |N|Go to Vindicator Aldar and accept Accept The Emitter|    |QID|9312|   |M|79.4,51.5|
+T The Emitter |N|Turn in "The Emitter" to Technician Zhanaa.|    |QID|9312|   |M|79.4,51.2|
+A Accept Travel to Azure Watch |N|Go to Technician Zhanaa and accept Accept Travel to Azure Watch|    |QID|9313|   |M|79.4,51.2|
+T Travel to Azure Watch |N|Turn in "Travel to Azure Watch" to Technician Dyvuun.|    |QID|9313|   |M|48.7,50.3|
+T Word from Azure Watch |N|Turn in "Word from Azure Watch" to Caregiver Chellan.|    |QID|9314|   |M|48.4,49.2|
+A Accept Red Snapper - Very Tasty! |N|Go to Diktynna and accept Accept Red Snapper - Very Tasty!|    |QID|9452|   |M|61.1,54.2|   |Z|Azuremyst Isle|
+C Red Snapper - Very Tasty!  |U|23654| |QID|9452| |N|Use the Draenei Fishing Net to catch 10 Red Snappers. They are bubbly pools north and south on this river.|  |M|61.0,38.4|
+T Red Snapper - Very Tasty! |N|Turn in "Red Snapper - Very Tasty!" to catch 10 Red Snappers. Note: Use the Draenei Fishing Net.|    |QID|9452|   |M|61.1,54.2|
+A Accept Find Acteon! |N|Go to Diktynna and accept Accept Find Acteon!|    |QID|9453|   |M|61.1,54.2|
+T Find Acteon! |N|Turn in "Find Acteon!" to Acteon.|    |QID|9453|   |M|49.8,51.9|
+A Accept The Great Moongraze Hunt (Part 1) |N|Go to Acteon and accept Accept The Great Moongraze Hunt (Part 1)|    |QID|9454|   |M|49.8,51.9|
+A Accept Medicinal Purpose |N|Go to Anchorite Fateema and accept Accept Medicinal Purpose|    |R|Draenei|  |QID|9463|   |M|48.4,51.7|
+h Azure Watch |QID|9623| |N|Make this Inn your home|  |M|81.49,51.44|
+T Medicinal Purpose |N|Turn in "Medicinal Purpose" to bring her 8 Root Trapper Vines. Note: Anchorite Fateema at Azure Watch wants you.|    |R|Draenei|  |QID|9463|   |M|48.4,51.7|
+T The Great Moongraze Hunt (Part 1) |N|Turn in "The Great Moongraze Hunt (Part 1)" to Acteon.|    |QID|9454|   |M|49.8,51.9|
+A Accept The Great Moongraze Hunt (Part 2) |N|Go to Acteon and accept Accept The Great Moongraze Hunt (Part 2)|    |QID|10324|   |M|49.8,51.9|
+G Infected Nightstalker Runts |N|Kill an Infected Nightstalker Runt for "Faintly Glowing Crystal". Tons of mobs north of Azure Watch. Usually drops first kill| |ITEM|23678| |QID|9455|  |M|47.11,50.60| |QO|1|
+A Strange Findings  |N|Deliver the Faintly Glowing Crystal to Exarch Menelaous at Azure Watch.|    |U|23678| |QID|9455|   |M|47.2,50.6|
+T Strange Findings |N|Turn in "Strange Findings" to Exarch Menelaous.|    |QID|9455|   |M|47.2,50.6|
+N Learning the Language  |U|23818| |QID|9538|  |QO|1|  |N|Read the Stillpine Furbolg Language Primer that Aurren gave you and interact with the Totem of Akida at Azure Watch.|  |M|49.44,50.98|
+T Learning the Language |N|Turn in "Learning the Language". Note: Read the Stillpine Furbolg Language Primer that Aurren gave you and interact with the Totem of Akida at Azure Watch.|    |QID|9538|   |M|49.4,51.1|
+C The Great Moongraze Hunt (Part 2)  |QO|1| |QID|10324| |N|Bring 6 Moongraze Buck Hides to Acteon at Azure Watch.|  |M|54,41|
+C Help Tavara  |C|Priest| |QID|9586| |N|Guvan at Azure Watch wants you to find Tavara and heal her wounds.|  |M|56.2,48.8|  |QO|1|
+H Azure Watch  |QID|9623| |N|Hearth back|  |M|81.49,51.44|
+T Help Tavara |N|Turn in "Help Tavara" to find Tavara and heal her wounds. Note: Guvan at Azure Watch wants you.|    |C|Priest|  |QID|9586|   |M|48.5,49.3|
+T An Alternative Alternative |N|Turn in "An Alternative Alternative" to bring him 5 Azure Snapdragon Bulbs. Note: Daedal at Azure Watch wants you.|    |R|Draenei|  |QID|9473|   |M|48.4,51.4|
+T The Great Moongraze Hunt (Part 2) |N|Turn in "The Great Moongraze Hunt (Part 2)" to Acteon.|    |QID|10324|   |M|49.8,51.9|
+T Nightstalker Clean Up, Isle 2... |N|Turn in "Nightstalker Clean Up, Isle 2...". Note: Exarch Menelaous at Azure Watch has asked that you slay 8 Infected Nightstalker Runts.|    |QID|9456|   |M|47.2,50.6|
+T Deliver Them From Evil... |N|Turn in "Deliver Them From Evil..." to Exarch Menelaous.|    |QID|9602|   |M|47.2,50.6|
+T Coming of Age |N|Turn in "Coming of Age" to Torallius the Pack Handler, standing. Note: Exarch Menelaous at Azure Watch has asked that you.|    |QID|9623|   |M|31,27.1|
+C Strength of One  |C|Warrior| |QO|1| |QID|9582| |N|Unlock the Ravager Cage and kill the Death Ravager, then return to Ruada at Azure Watch in Azuremyst.|  |M|50.02,50.52|
+R Odesyus' Landing |N|Find "Cookie" McWeaksauce at the south of the Isle| |QID|9512|  |M|46.8,70.4|
+A Accept Cookie's Jumbo Gumbo |N|Go to Cookie" McWeaksauce and accept Accept Cookie's Jumbo Gumbo|    |QID|9512|   |M|46.7,70.4|
+A Accept A Small Start |N|Go to Admiral Odesyus and accept Accept A Small Start|    |QID|9506|   |M|47,70.1|
+C Crawler Meat and Nautical Compass |QID|9512,9506|	|N|Get the compass for Admiral Odesyus,  at the same time get 6 Skittering Crawler Meat for "Cookie". The compass is on the table|	 |M|58.6,66.5|  |QO|1,1|
+T A Small Start |N|Turn in "A Small Start" to recover the Nautical Compass and Nautical Map stolen by the Venture Co. Note: Admiral Odesyus at Odesyus' Landing wants you.|    |QID|9506|   |M|47,70.1|
+A Accept I've Got a Plant |N|Go to Admiral Odesyus and accept Accept I've Got a Plant|    |QID|9530|   |M|47,70.1|
+T Cookie's Jumbo Gumbo |N|Turn in "Cookie's Jumbo Gumbo" to bring him 6 Skittering Crawler Meat. Note: Cookie" McWeaksauce at the Odesyus' Landing wants you.|    |QID|9512|   |M|46.7,70.4|
+A Accept Reclaiming the Ruins |N|Go to Priestess Kyleen Il'dinare and accept Accept Reclaiming the Ruins|    |QID|9513|   |M|47.1,70.3|
+A Accept Precious and Fragile Things Need Special Handling |N|Go to Archaeologist Adamant Ironheart and accept Accept Precious and Fragile Things Need Special Handling|    |QID|9523|   |M|47.2,70.1|
+C Do All these as you travel about  |QID|9530,9454,9463,9513,9523| |N|Hollowed Out Tree and 5 Piles of Leaves\n6 Moongraze Stag Tenderloins\n8 Root Trapper Vines\nKill 5 of Wrathscale Myrmidons, Naga, Sirens (LOOT the NAGA, they drop a tablet to start "Rune Covered Tablet"\nAnd Get 8 Ancient Relics laying around\n\nWatch your Quest Objective window to track what is done.| 	|M|28.4,77.7|
+A Rune Covered Tablet  |N|Take the Rune Covered Tablet to Priestess Kyleen Il'dinare at Odesyus' Landing on Azuremyst Isle.|    |U|23759| |QID|9514|   |M|47.1,70.3|
+T I've Got a Plant |N|Turn in "I've Got a Plant" to bring him a Hollowed Out Tree and 5 Piles of Leaves. Note: Admiral Odesyus at Odesyus' Landing on Azuremyst Isle wants you.|    |QID|9530|   |M|47,70.1|
+A Accept Tree's Company |N|Go to Admiral Odesyus and accept Accept Tree's Company|    |QID|9531|   |M|47,70.1|
+T Rune Covered Tablet |N|Turn in "Rune Covered Tablet" to Priestess Kyleen Il'dinare.|    |QID|9514|   |M|47.1,70.3|
+A Accept Warlord Sriss'tiz |N|Go to Priestess Kyleen Il'dinare and accept Accept Warlord Sriss'tiz|    |QID|9515|   |M|47.1,70.3|
+T Reclaiming the Ruins |N|Turn in "Reclaiming the Ruins" to kill 5 Wrathscale Myrmidons, 5 Wrathscale Naga and 5 Wrathscale Sirens. Note: Priestess Kyleen Il'dinare at Odesyus' Landing on Azuremyst Isle wants you.|    |QID|9513|   |M|47.1,70.3|
+T Precious and Fragile Things Need Special Handling |N|Turn in "Precious and Fragile Things Need Special Handling" to bring him 8 Ancient Relics. Note: Archaeologist Adamant Ironheart at Odesyus' Landing on Azuremyst Isle wants you.|    |QID|9523|   |M|47.2,70.1|
+C Warlord Sriss'tiz  |QO|1| |QID|9515| |N|Priestess Kyleen Il'dinare at Odesyus' Landing on Azuremyst Isle wants you to kill Warlord Sriss'tiz.|  |M|25.6,74.6|
+C Tree's Company  |U|23792| |QID|9531| |N|Admiral Odesyus at Odesyus' Landing on Azuremyst Isle wants you to observe the meeting that is to take place between Geezle and the traitor.\n\nReturn to him when you know the identity of the traitor.|  |M|18,85|
+T Tree's Company |N|Turn in "Tree's Company" to observe the meeting that is to take place between Geezle and the traitor. Note: Admiral Odesyus at Odesyus' Landing on Azuremyst Isle wants you.|    |QID|9531|   |M|47,70.1|
+A Accept Show Gnomercy |N|Go to Admiral Odesyus and accept Accept Show Gnomercy|    |QID|9537|   |M|47,70.1|
+T Warlord Sriss'tiz |N|Turn in "Warlord Sriss'tiz" to kill Warlord Sriss'tiz. Note: Priestess Kyleen Il'dinare at Odesyus' Landing on Azuremyst Isle wants you.|    |QID|9515|   |M|47.1,70.3|
+C Show Gnomercy  |QID|9537| |N|Recover the Traitor's Communication from Engineer "Spark" Overgrind. He is out there by the beach down the hill.|  |M|49,72|
+T Show Gnomercy |N|Turn in "Show Gnomercy" to recover the Traitor's Communication from Engineer "Spark" Overgrind. Note: Admiral Odesyus at Odesyus' Landing wants you.|    |QID|9537|   |M|47,70.1|
+A Accept Deliver Them |N|Go to Admiral Odesyus and accept Accept Deliver Them|    |QID|9602|   |M|47,70.1|
+A Accept Learning the Language |N|Go to Cryptographer Aurren and accept Accept Learning the Language|    |QID|9538|   |M|49.4,51.1|
+A Accept Totem of Coo |N|Go to Totem of Akida and accept Accept Totem of Coo|    |QID|9539|   |M|49.4,51.1|
+T Totem of Coo |N|Turn in "Totem of Coo" to you. Note: Find the Totem of Coo using the clues provided.|    |QID|9539|   |M|55.2,41.7|
+A Accept Totem of Tikti |N|Go to Totem of Coo and accept Accept Totem of Tikti|    |QID|9540|   |M|55.2,41.7|
+A Accept Totem of Yor |N|Go to Totem of Tikti and accept Accept Totem of Yor|    |QID|9541|   |M|64.4,39.8|
+T Totem of Yor |N|Turn in "Totem of Yor" to you. Note: Find the Totem of Yor using the clues provided.|    |QID|9541|   |M|63.1,67.8|
+A Accept Totem of Vark |N|Go to Totem of Yor and accept Accept Totem of Vark|    |QID|9542|   |M|63.1,67.8| |QO|1|
+T Totem of Vark |N|Turn in "Totem of Vark" to you. Note: Find the Totem of Vark using the clues provided.|    |QID|9542|   |M|28.2,62.4| |QO|1|
+A Accept The Prophecy of Akida |N|Go to Totem of Vark and accept Accept The Prophecy of Akida|    |QID|9544|   |M|28.2,62.4|
+C Free Captives, Nightstalkers and Snapdragon Bulbs |QID|9544,9456,9473|  |N|o Free 8 Stillpine Captives from cages found in Bristlelimb Village. You need the keys dropped from the mobs around here\no Kill 8 Infected Nightstalker Runts\no Pick 5 Azure Snapdragon Bulbs, they are all over.|  |QO|1,1,1|  |M|50,59|
+T The Prophecy of Akida |N|Turn in "The Prophecy of Akida". Note: Free 8 Stillpine Captives from cages found in Bristlelimb Village.|    |QID|9544|   |M|49.4,51.1|
+A Accept Stillpine Hold |N|Go to Arugoo of the Stillpine and accept Accept Stillpine Hold|    |QID|9559|   |M|49.4,51.1|
+R Stillpine Hold |N|Speak with High Chief Stillpine at Stillpine Hold.| |QID|9559|  |M|46.69,20.61|  |Z|Azuremyst Isle|
+A Accept Beasts of the Apocalypse! |N|Go to Moordo and accept Accept Beasts of the Apocalypse!|    |QID|9560|   |M|44.8,23.8|
+A Accept Murlocs... Why Here? Why Now? |N|Go to Gurf and accept Accept Murlocs... Why Here? Why Now?|    |QID|9562|   |M|44.7,23.4|
+T Stillpine Hold |N|Turn in "Stillpine Hold" to High Chief Stillpine.|    |QID|9559|   |M|46.6,20.7|
+C Beasts of the Apocalypse!  |QO|1| |QID|9560| |N|Kill 8 Ravagers for their Hides. All around this area|  |M|54,14|
+T Beasts of the Apocalypse! |N|Turn in "Beasts of the Apocalypse!" to bring him 8 Ravager Hides. Note: Moordo at Stillpine Hold on Azuremyst Isle wants you.|    |QID|9560|   |M|44.8,23.8|
+A Accept Search Stillpine Hold |N|Go to High Chief Stillpine and accept Accept Search Stillpine Hold|    |QID|9565|   |M|46.6,20.7|
+T Search Stillpine Hold |N|Turn in "Search Stillpine Hold". Note: Search Stillpine Hold for clues.|    |QID|9565|   |M|46.6,20.7|  |QO|1|
+T Blood Crystals |N|Turn in "Blood Crystals" to High Chief Stillpine.|    |QID|9566|   |M|46.6,20.7|
+T Chieftain Oomooroo |N|Turn in "Chieftain Oomooroo" to slay Chieftain Oomooroo and 9 Crazed Wildkin. Note: Stillpine the Younger at Stillpine Hold on Azuremyst Isle wants you.|    |QID|9573|   |M|46.8,21.2|
+T The Kurken is Lurkin' |N|Turn in "The Kurken is Lurkin'" to kill the Kurken and bring back the Kurken's Hide. Note: Kurz the Revelator at Stillpine Hold on Azuremyst Isle wants you.|    |QID|9570|   |M|46.9,22.2|
+T The Kurken's Hide |N|Turn in "The Kurken's Hide" to Moordo.|    |QID|9571|   |M|44.8,23.8|
+C Murlocs... Why Here? Why Now?  |QID|9562| |N|Recover 5 sacks of Stillpine Grain along the beach here. Find Murgurgula for his fir that starts "Gurf's Dignity"|  |M|33.2,23.2|
+T Murlocs... Why Here? Why Now? |N|Turn in "Murlocs... Why Here? Why Now?" to recover 5 sacks of Stillpine Grain. Note: Gurf at Stillpine Hold on Azuremyst Isle wants you.|    |QID|9562|   |M|44.7,23.4|
+A Gurf's Dignity     |N|Return Gurf's Dignity to Gurf at Stillpine Hold on Azuremyst Isle.|    |QID|9564|   |M|44.7,23.4|
+T Gurf's Dignity |N|Turn in "Gurf's Dignity" to Gurf.|    |QID|9564|   |M|44.7,23.4|
+A Accept The Missing Fisherman |N|Go to Dulvi and accept Accept The Missing Fisherman|    |QID|10428|   |M|48.9,51.1|
+T The Missing Fisherman |N|Turn in "The Missing Fisherman". Note: Find Cowlen at the southeast docks of Silvermyst Isle off the coast of Azuremyst.|    |QID|10428|   |M|28.9,32.7|
+A Accept All That Remains |N|Go to Cowlen and accept Accept All That Remains|    |QID|9527| |M|28.9,32.7|
+C All That Remains  |QID|9527| |N|Cowlen on Azuremyst Isle wants you to recover the Remains of Cowlen's Family. \nKill the Owlbeast on the hill by the house behind you for the drop|
+T All That Remains |N|Turn in "All That Remains" to recover the Remains of Cowlen's Family. Note: Cowlen on Azuremyst Isle wants you.|    |QID|9527|   |M|28.9,32.7|
+A Accept An Alternative Alternative |N|Go to Daedal and accept Accept An Alternative Alternative|    |R|Draenei|  |QID|9473|   |M|48.4,51.4|
+A Accept Nightstalker Clean Up, Isle 2... |N|Go to Exarch Menelaous and accept Accept Nightstalker Clean Up, Isle 2...|    |QID|9456|   |M|47.2,50.6|
+A Accept Coming of Age |N|Go to Exarch Menelaous and accept Accept Coming of Age|    |QID|9623|   |M|47.2,50.6|
+A Accept Strength of One |N|Go to Ruada and accept Accept Strength of One|    |C|Warrior|  |QID|9582|   |M|49.8,50.4|
+A Accept Call of Fire (Part 1) |N|Go to Tuluun and accept Accept Call of Fire (Part 1)|    |C|Shaman|  |QID|9464|   |M|48.1,50.4|
+A Accept Control |N|Go to Semid and accept Accept Control|    |C|Mage|  |QID|9595|   |M|49.8,50|
+T Call of Fire (Part 1) |N|Turn in "Call of Fire (Part 1)" to Temper.|    |C|Shaman|  |QID|9464|   |M|59.4,18|
+C Control  |C|Mage| |QO|1| |QID|9595| |N|Kill Murlocs of the Silting Shore to summon a Quel'dorei Magewraith, then destroy it. Afterwards, speak with Bati at the Vault of Lights in the Exodar.|  |M|46.35,63.48| |Z|the Exodar|
+R The Exodar |N|Follow the road west|  |M|81.6,52.6| |Z|The Exodar|
+A Accept Elekks Are Serious Business |N|Go to Torallius the Pack Handler and accept Accept Elekks Are Serious Business|    |QID|9625|   |M|31,27.1|
+
+
+
+
+A Accept Shaman Training |C|Shaman|  |QID|9421| |N|Go to Firmanvaar and accept Accept Shaman Training|  |M|79.3,49.1|
+A Accept Priest Training |C|Priest|  |QID|9291| |N|Go to Zalduun and accept Accept Priest Training|	|M|80,49.5|
+A Accept Paladin Training |C|Paladin|  |QID|9287| |N|Go to Aurelon and accept Accept Paladin Training|  |M|79.7,48.3|
+A Accept Warrior Training |C|Warrior|  |QID|9289| |N|Go to Kore and accept Accept Warrior Training|  |M|79.6,49.4|
+
+T Shaman Training |C|Shaman|  |QID|9421| |N|Turn in "Shaman Training". Note: \n.|  |M|79.3,49.1|
+T Priest Training |C|Priest|  |QID|9291| |N|Turn in "Priest Training". Note: \n.| |M|80,49.5|
+T Paladin Training |C|Paladin|  |QID|9287| |N|Turn in "Paladin Training". Note: \n.|  |M|79.7,48.3|
+T Warrior Training |C|Warrior|  |QID|9289| |N|Turn in "Warrior Training". Note: \n.|  |M|79.6,49.4|
+
+
+C Corrupted Flowers + Lasher Samples |QID|9799,9293| |QO|1,1| |N|Gather 3 Corrupted Flowers and 10 Lasher Samples and return them to Botanist Taerix at the Crash Site in Ammen Vale.|   |M|74.9,50.6|
+
+
+
+
+H Ammen Vale  |QID|9313| |N|Hearth back|  |M|48.71,50.27|
+A Accept Call of Earth (Part 1) |N|Go to Firmanvaar and accept Accept Call of Earth (Part 1)|    |C|Shaman|  |QID|9449|   |M|79.3,49.1|
+T Call of Earth (Part 1) |N|Turn in "Call of Earth (Part 1)" to the Spirit of the Vale.|    |C|Shaman|  |QID|9449|   |M|71.9,40.4|
+A Accept Call of Earth (Part 2) |N|Go to Spirit of the Vale and accept Accept Call of Earth (Part 2)|    |C|Shaman|  |QID|9450|   |M|71.9,40.4|
+C Call of Earth (Part 2)  |C|Shaman| |QO|1| |QID|9450| |N|Slay 4 Restless Elements of Earth and then return to the Spirit of the Vale at the Sacred Grove in Ammen Vale.|  |M|71.31,39.10|
+T Call of Earth (Part 2) |N|Turn in "Call of Earth (Part 2)" to the Spirit of the Vale. Note: Slay 4 Restless Elements of Earth and then.|    |C|Shaman|  |QID|9450|   |M|71.9,40.4|
+A Accept Call of Earth (Part 3) |N|Go to Spirit of the Vale and accept Accept Call of Earth (Part 3)|    |C|Shaman|  |QID|9451|   |M|71.9,40.4|
+T Call of Earth (Part 3) |N|Turn in "Call of Earth (Part 3)" to Firmanvaar.|    |C|Shaman|  |QID|9451|   |M|79.3,49.1|
+
+A Blood Elf Plans  |N|Take the Blood Elf Plans to Vindicator Aldar at the Crash Site in Ammen Vale.|    |U|24414| |QID|9798|   |M|79.4,51.5|
+
+T Blood Elf Plans |N|Turn in "Blood Elf Plans" to Vindicator Aldar.|    |QID|9798|   |M|79.4,51.5|
+
+A Accept Word |N|Go to Aeun and accept Accept Word|    |QID|9314|   |M|64.5,54.1|
+
+
+
+
+
+
+
+
+
+
+
+A Accept Help Tavara |N|Go to Guvan and accept Accept Help Tavara|    |C|Priest|  |QID|9586|   |M|48.5,49.3|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A Accept Call of Fire (Part 2) |N|Go to Temper and accept Accept Call of Fire (Part 2)|    |C|Shaman|  |QID|9465|   |M|59.4,18|
+
+A Accept Chieftain Oomooroo |N|Go to Stillpine the Younger and accept Accept Chieftain Oomooroo|    |QID|9573|   |M|46.8,21.2|
+
+A Accept Blood Crystals |N|Go to Blood Crystal and accept Accept Blood Crystals|    |QID|9566|   |M|46.6,20.7|
+C Chieftain Oomooroo  |QO|1| |QID|9573| |N|Kill Chieftain Oomooroo and 9 Crazed Wildkin.|  |M|48.2,14.6|
+A Accept The Kurken is Lurkin' |N|Go to Kurz the Revelator and accept Accept The Kurken is Lurkin'|    |QID|9570|   |M|46.9,22.2|
+C The Kurken is Lurkin'  |QO|1| |QID|9570| |N|kill the Kurken and bring back the Kurken's Hide.|  |M|50.0,12.2|
+K Crazed Wildkin |C|Shaman| |ITEM|23733|
+A Accept The Kurken's Hide |N|Go to Kurz the Revelator and accept Accept The Kurken's Hide|    |QID|9571|   |M|46.9,22.2|
+T Call of Fire (Part 2) |N|Turn in "Call of Fire (Part 2)" to Temper. Note: Retrieve the Ritual Torch and.|    |C|Shaman|  |QID|9465|   |M|59.4,18|
+A Accept Call of Fire (Part 3) |N|Go to Temper and accept Accept Call of Fire (Part 3)|    |C|Shaman|  |QID|9467|   |M|59.4,18|
+
+
+
+N |Z|Azuremyst Isle|
+A Accept Warn Your People |N|Go to High Chief Stillpine and accept Accept Warn Your People|    |R|Draenei|  |QID|9622|   |M|46.6,20.7|
+
+C Call of Fire (Part 3)  |C|Shaman| |QO|1| |QID|9467| |N|Retrieve Hauteur's Ashes and then return them and the Ritual Torch to Temper at Emberglade on Azuremyst Isle.  Remember that you can use the Orb of Returning to teleport back to Temper once you have the ashes.|  |M|59.65,17.97|
+U Orb of Returning |C|Shaman| |U|24335|
+T Call of Fire (Part 3) |N|Turn in "Call of Fire (Part 3)" to Temper. Note: Retrieve Hauteur's Ashes and then.|    |C|Shaman|  |QID|9467|   |M|59.4,18|
+A Accept Call of Fire (Part 4) |N|Go to Temper and accept Accept Call of Fire (Part 4)|    |C|Shaman|  |QID|9468|   |M|59.4,18|
+
+N Optional: Top-off 11→12 in Azuremyst |N|If you're around 11, do this quick loop to ding 12 before crossing to Bloodmyst.|
+R Azure Watch |N|Return to Azure Watch to check for any leftover quest turn-ins.| |Z|Azuremyst Isle|
+C Grind to 12 |N|Farm Moongraze Stags and Nightstalkers around Azure Watch until you reach Level 12.| |M|49.0,49.0| |Z|Azuremyst Isle|
+R Bloodmyst Isle |N|Head north into Bloodmyst Isle to start the 12–20 route.| |Z|Bloodmyst Isle|
+
+]]
+end)

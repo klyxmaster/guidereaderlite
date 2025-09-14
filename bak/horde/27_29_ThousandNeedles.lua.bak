@@ -1,0 +1,58 @@
+GuideReaderLite_RegisterGuide("Thousand Needles (27-29)", "Hillsbrad Foothills (29-30)", "Horde", function()
+return [[
+T The Sacred Flame (Part 2) |N|Deliver the Filled Etched Phial to Rau Cliffrunner at the Freewind Post.|  |QID|1196| 
+A The Sacred Flame (Part 3) |N|Retrieve the Cloven Hoof for Rau Cliffrunner at the Freewind Post.|  |QID|1197|
+A A Different Approach |N|Gather 2 handfuls of Purifying Earth from Thundering Boulderkin and take them to Wizlo Bearingshiner at Whitereach Post.|  |QID|9431|
+
+C The Sacred Flame (Part 3) |QID|1197| |N|Head north from Freewind to Splithoof Hold (44.0, 37.5), find the brazier at the bottom (42.00, 31.53).|
+
+T Serpent Wild |N|Report your findings to Motega Firemane at Whitereach Post in Thousand Needles.|  |QID|4865| 
+A Sacred Fire |N|Gather 10 bushels of Incendia Agave, and then consult Magatha Grimtotem on Elder Rise in Thunderbluff.|  |QID|5062| 
+A Hypercapacitor Gizmo |N|Slay the beast and bring back the Hypercapacitor Gizmo and Panther Cage Key to Wizlo Bearingshiner.|  |QID|5151|
+
+A Homeward Bound |N|Escort Pao'ka Swiftmountain from Highperch, and then talk to Motega Firemane in Whitereach Post.|  |QID|4770|  
+C Wind Rider |QID|4767| 
+C Homeward Bound |QID|4770| 
+C A Different Approach |QID|9431| |N|Elementals at the west edge of the zone (12.35, 18.06).|
+C Steelsnap |QID|1131| |N|Patrols in a circle at the west end of the zone (17,27) (15,31) (12,25) (14,20)|
+C Sacred Fire |QID|5062| |N|In and around the lake southeast of the Great Lift (35,36).| 
+
+H Thunder Bluff 
+T Steelsnap |N|Bring Steelsnap's Rib to Melor Stonehoof in Thunder Bluff.|  |QID|1131|  |Z|Thunder Bluff| 
+A Frostmaw |N|Bring Frostmaw's Mane to Melor Stonehoof in Thunder Bluff.|  |QID|1136| 
+T Sacred Fire |N|Gather 10 bushels of Incendia Agave, and then consult Magatha Grimtotem on Elder Rise in Thunderbluff.|  |QID|5062|  
+A Arikara |N|Slay Arikara.|  |QID|5088| 
+
+T Wind Rider |N|Bring 10 Highperch Wyvern Eggs to Elu in Freewind Post.|  |QID|4767|  
+T The Sacred Flame (Part 3) |N|Retrieve the Cloven Hoof for Rau Cliffrunner at the Freewind Post.|  |QID|1197|
+h Freewind Post
+
+C Grimtotem Spying |QID|5064| |N|Take the path up onto the needles (31,36).  The notes are in boxes on each needle (31.90, 32.62) (33.80, 39.82) (39.25, 41.50)|
+C Arikara |QID|5088| |N|Light the fire on one of the needles (38.10, 35.42) and kill the summoned mob.| 
+C Wanted - Arnak Grimtotem |QID|5147| |N|Take the bridges to the ledge to the north (38.07, 26.79).|
+A Free at Last |N|Escort Lakota Windsong from the Darkcloud Pinnacle, and then talk to Thalia Amberhide at Freewind Post.|  |QID|4904| 
+C Free at Last |QID|4904|
+
+T A Different Approach |N|Gather 2 handfuls of Purifying Earth from Thundering Boulderkin and take them to Wizlo Bearingshiner at Whitereach Post.|  |QID|9431| 
+A A Dip in the Moonwell |N|Use the Robotron Control while standing near the Concealed Command Console hidden in a small cluster of bushes on the rim of the needle closest to Thalanaar to take command of a Robotron 3000.|  |QID|9433|
+T Homeward Bound |N|Escort Pao'ka Swiftmountain from Highperch, and then talk to Motega Firemane in Whitereach Post.|  |QID|4770| 
+T Arikara |N|Slay Arikara.|  |QID|5088| 
+
+C A Dip in the Moonwell |QID|9433| |N|On the west edge of the zone near Thalanaar (9,18).  If you have a pet you will have to dismiss it before you can control the robot.|
+C Hypercapacitor Gizmo |QID|5151| |N|Find the cage at the wrecked caravan north of Whitereach Post (23.03, 24.15).|
+K Galak Messenger |L|12564| |N|Spawns at the centaur camp (39.5, 33.4), runs to the road south of the Great Lift (30.6, 32.5), then follows the road west.|
+A Assassination Plot |N|Warn Kanati Greycloud at Whitereach Post of the plot to kill him.|  |QID|4881| |U|12564| 
+
+T A Dip in the Moonwell |N|Use the Robotron Control while standing near the Concealed Command Console hidden in a small cluster of bushes on the rim of the needle closest to Thalanaar to take command of a Robotron 3000.|  |QID|9433| 
+A Testing the Tonic |N|Deliver the Crate of Reagents to Magistrix Elosai at Freewind Post.|  |QID|9434|
+T Hypercapacitor Gizmo |N|Slay the beast and bring back the Hypercapacitor Gizmo and Panther Cage Key to Wizlo Bearingshiner.|  |QID|5151|
+T Assassination Plot |N|Warn Kanati Greycloud at Whitereach Post of the plot to kill him.|  |QID|4881|
+A Protect Kanati Greycloud |N|Protect Kanati Greycloud from the centaur attack.|  |QID|4966|
+C Protect Kanati Greycloud |QID|4966|
+T Protect Kanati Greycloud |N|Protect Kanati Greycloud from the centaur attack.|  |QID|4966|
+
+T Testing the Tonic |N|Deliver the Crate of Reagents to Magistrix Elosai at Freewind Post.|  |QID|9434| 
+T Grimtotem Spying |N|Locate and retrieve the three Secret Notes in Darkcloud Pinnacle.|  |QID|5064|
+T Wanted - Arnak Grimtotem |N|Slay Arnak Grimtotem and bring proof of your deed to Cliffwatcher Longhorn in Freewind Post.|  |QID|5147|
+T Free at Last |N|Escort Lakota Windsong from the Darkcloud Pinnacle, and then talk to Thalia Amberhide at Freewind Post.|  |QID|4904|
+]] end)

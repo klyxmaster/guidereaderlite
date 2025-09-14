@@ -1,0 +1,83 @@
+GuideReaderLite_RegisterGuide("Western Plaguelands (56)", "Eastern Plaguelands (56-57)", "Horde", function()
+return [[
+F Undercity
+A A Call to Arms: The Plaguelands! |N|Seek out High Executor Derrington.|  |QID|5094| 
+h Undercity
+
+R The Bulwark
+T A Call to Arms: The Plaguelands! |N|Seek out High Executor Derrington.|  |QID|5094|
+A Scarlet Diversions |N|Proceed to the Scarlet Crusade's base camp between Felstone Field and Dalson's Tears and destroy their command tent.|  |QID|5096|
+N Get a Flame in a Bottle |N|From the Box of Incendiaries| |L|12814|
+T The Everlook Report |N|Deliver the Everlook Report to Argent Officer Garush at the Bulwark, Western Plaguelands.|  |QID|6029|
+N Get a Commission |N|Talk to the quartermaster and get a commission, you should have this equipped any time you are in the plaguelands.  Turn in any scourgestones you get when you are in town if you have a full stack.| |L|12846|
+A The So-Called Mark of the Lightbringer |N|Obtain the Mark of the Lightbringer and return it to Mehlar Dawnblade at the Bulwark in the Western Plaguelands.|  |QID|9443|
+A A Plague Upon Thee (Part 1) |N|Use the Empty Termite Jar on the Termite Mounds in Eastern Plaguelands.|  |QID|5901| 
+
+C Scarlet Diversions |QID|5096| |N|Burn the tent, plant the banner.  Note that if you have a partner he will not get credit, you must wait for the tent to respawn.|
+
+T Scarlet Diversions  |N|Proceed to the Scarlet Crusade's base camp between Felstone Field and Dalson's Tears and destroy their command tent.|  |QID|5096|
+A All Along the Watchtowers |N|Using the Beacon Torch, mark each tower in Andorhal; you will need to stand in the doorway of the tower to successfully mark it.|  |QID|5098|
+A The Scourge Cauldrons |N|Speak with Shadow Priestess Vandis at the Bulwark, Western Plaguelands.|  |QID|5228|
+T The Scourge Cauldrons |N|Speak with Shadow Priestess Vandis at the Bulwark, Western Plaguelands.|  |QID|5228|
+A Target: Felstone Field |N|Go to Felstone Field in Western Plaguelands to locate and defeat the Cauldron Lord present there.|  |QID|5229|
+
+C Target: Felstone Field |QID|5229|
+T Target: Felstone Field |N|Go to Felstone Field in Western Plaguelands to locate and defeat the Cauldron Lord present there.|  |QID|5229|
+A Return to the Bulwark (Part 1) |N|Bring the Filled Felstone Field Bottle to Shadow Priestess Vandis at the Bulwark, Western Plaguelands.|  |QID|5230|
+
+A Better Late Than Never (Part 1) |N|The ramblings of the ghostly woman indicated that she needed a package delivered.|  |QID|5021| 
+T Better Late Than Never (Part 1) |N|The ramblings of the ghostly woman indicated that she needed a package delivered.|  |QID|5021| 
+A Better Late Than Never (Part 2) |N|Check with the Royal Overseers of the Undercity to learn the whereabouts of a Jeremiah Felstone.|  |QID|5023|
+
+H Undercity
+T Better Late Than Never |N|Check with the Royal Overseers of the Undercity to learn the whereabouts of a Jeremiah Felstone.|  |QID|5023|
+A The Jeremiah Blues |N|Find Jeremiah Payson in the Undercity and see if he is in fact Jeremiah Felstone.|  |QID|5049|
+T The Jeremiah Blues |N|Find Jeremiah Payson in the Undercity and see if he is in fact Jeremiah Felstone.|  |QID|5049|
+A Good Luck Charm |N|Return to Janice Felstone in Western Plaguelands her Good Luck Half-Charm.|  |QID|5050|
+
+T Return to the Bulwark (Part 1) |N|Bring the Filled Felstone Field Bottle to Shadow Priestess Vandis at the Bulwark, Western Plaguelands.|  |QID|5230|
+A Target: Dalson's Tears |N|Go to Dalson's Tears in Western Plaguelands to locate and defeat the Cauldron Lord present there, and use its key to gain access to the cauldron.|  |QID|5231|
+
+T Good Luck Charm |N|Return to Janice Felstone in Western Plaguelands her Good Luck Half-Charm.|  |QID|5050|
+A Two Halves Become One |N|Locate the other half of the Good Luck Charm somewhere on the Felstone Farm in Western Plaguelands and reassemble it.|  |QID|5051|
+C Two Halves Become One |QID|5051| |N|Go out in the field and kill the Jabbering Ghoul (only one with a pitchfork), then combine the pieces.|
+T Two Halves Become One |N|Locate the other half of the Good Luck Charm somewhere on the Felstone Farm in Western Plaguelands and reassemble it.|  |QID|5051|
+
+C Target: Dalson's Tears |QID|5231|
+T Target: Dalson's Tears |N|Go to Dalson's Tears in Western Plaguelands to locate and defeat the Cauldron Lord present there, and use its key to gain access to the cauldron.|  |QID|5231|
+A Return to the Bulwark (Part 2) |N|Bring the Filled Dalson's Tears Bottle to Shadow Priestess Vandis at the Bulwark, Western Plaguelands.|  |QID|5232|
+
+N Read Mrs. Dalson's Diary |N|On the floor in the barn (47.8, 50.7).  Nothing to accept, just read the book.|
+K Wandering Skeleton |N|Patrols around the house and barn, you are looking for the outhouse key.  Scarlets might kill this mob.| |L|12738|
+K Farmer Dalson |N|Open the outhouse, get his key| |L|12739|
+N Open cabinet |N|Locked cabinet upstairs in the house.| |L|13474|
+
+T Return to the Bulwark (Part 2) |N|Bring the Filled Dalson's Tears Bottle to Shadow Priestess Vandis at the Bulwark, Western Plaguelands.|  |QID|5232|
+A Target: Writhing Haunt |N|Go to the Writhing Haunt in Western Plaguelands to locate and defeat the Cauldron Lord present there, and use its key to gain access to the cauldron.|  |QID|5233|
+
+C Target: Writhing Haunt |QID|5233|
+T Target: Writhing Haunt |N|Go to the Writhing Haunt in Western Plaguelands to locate and defeat the Cauldron Lord present there, and use its key to gain access to the cauldron.|  |QID|5233|
+A Return to the Bulwark (Part 3) |N|Bring the Filled Writhing Haunt Bottle to Shadow Priestess Vandis at The Bulwark, Western Plaguelands.|  |QID|5234|
+
+A The Wildlife Suffers Too (Part 1) |N|Destroy 8 Diseased Wolves, and then return to Mulgris Deepriver at the Writhing Haunt, Western Plaguelands.|  |QID|4984| 
+C The Wildlife Suffers Too (Part 1) |QID|4984|
+T The Wildlife Suffers Too (Part 1) |N|Destroy 8 Diseased Wolves, and then return to Mulgris Deepriver at the Writhing Haunt, Western Plaguelands.|  |QID|4984|
+A The Wildlife Suffers Too (Part 2) |N|Destroy 8 Diseased Grizzlies, and then return to Mulgris Deepriver at the Writhing Haunt, Western Plaguelands.|  |QID|4985|
+C The Wildlife Suffers Too (Part 2) |QID|4985|
+
+f New flight point! |N|There is now a flight point on the east end of the road (69.2, 49.7).  Zip over there and fly back to the WARK!|
+T Return to the Bulwark (Part 3) |N|Bring the Filled Writhing Haunt Bottle to Shadow Priestess Vandis at The Bulwark, Western Plaguelands.|  |QID|5234|
+A Target: Gahrron's Withering |N|Go to Gahrron's Withering in Western Plaguelands to locate and defeat the Cauldron Lord present there, and use its key to gain access to the cauldron.|  |QID|5235|
+
+C Target: Gahrron's Withering |QID|5235|
+T Target: Gahrron's Withering |N|Go to Gahrron's Withering in Western Plaguelands to locate and defeat the Cauldron Lord present there, and use its key to gain access to the cauldron.|  |QID|5235|
+A Return to the Bulwark (Part 4) |N|Bring the Filled Gahrron's Withering Bottle to Shadow Priestess Vandis at the Bulwark, Western Plaguelands.|  |QID|5236|
+
+T The Wildlife Suffers Too (Part 2) |N|Destroy 8 Diseased Grizzlies, and then return to Mulgris Deepriver at the Writhing Haunt, Western Plaguelands.|  |QID|4985|
+
+T Return to the Bulwark (Part 4) |N|Bring the Filled Gahrron's Withering Bottle to Shadow Priestess Vandis at the Bulwark, Western Plaguelands.|  |QID|5236|
+A Scholomance |N|Speak with Apothecary Dithers at the Bulwark, Western Plaguelands.|  |QID|838|
+T Scholomance |N|Speak with Apothecary Dithers at the Bulwark, Western Plaguelands.|  |QID|838|
+A Skeletal Fragments |N|Bring 15 Skeletal Fragments to Apothecary Dithers at the Bulwark, Western Plaguelands.|  |QID|964| 
+]]
+end)

@@ -1,0 +1,47 @@
+GuideReaderLite_RegisterGuide("Wetlands (30-31)", "Hillsbrad Foothills (31-32)", "Alliance", function()
+return [[
+F Menethil Harbor  |N|Get the Intrepid Strongbox Key from Captain Halyndor.|    |QID|290| |M|10.89,59.67|
+
+h Deepwater Tavern |C|Warlock| |N|Make this Inn your home|
+A Accept Accept Seeking Strahad |N|Go to Gakin the Darkbinder and accept Accept Seeking Strahad|    |C|Warlock| |QID|1798|  |M|46.4,9.3|
+
+F Ratchet |C|Warlock| |N|Boat to Theramore Isle and fly up|
+T Seeking Strahad |N|Speak with Strahad Farsan in the Barrens.|    |C|Warlock| |QID|1798|  |M|62.6,35.5|
+A Accept Accept Tome of the Cabal (Part 1) |N|Go to Strahad Farsan and accept Accept Tome of the Cabal (Part 1)|    |C|Warlock| |QID|1758|  |M|62.6,35.5|
+
+F City of Ironforge |C|Warlock| |N|Fly to Theramore, boat to Menethil and fly to IF|
+T Tome of the Cabal (Part 1) |N|Speak with Krom Stoutarm in Ironforge.|    |C|Warlock| |QID|1758|  |M|63,22.6|
+A Accept Accept Tome of the Cabal (Part 2) |N|Go to Krom Stoutarm and accept Accept Tome of the Cabal (Part 2)|    |C|Warlock| |QID|1802|  |M|63,22.6|
+
+b Theramore Isle |C|Warlock| |N|Fly to Menethil and boat over|
+N Tattered Manuscript |C|Warlock| |Z|Thousand Needles| |QID|6997| |ITEM|6997| |N|In cave east of the Great Lift (43.5, 32.7).|
+H Menethil Harbor |C|Warlock| |SZ|Deepwater Tavern| |N|Hearth back|
+
+A Accept Accept Fall of Dun Modr |N|Go to Harlo Barnaby and accept Accept Fall of Dun Modr|    |QID|472|  |M|10.9,55.9|
+
+C Lifting the Curse |QID|290| |N|Get the Intrepid Strongbox Key from Captain Halyndor, then open the Intrepid's Locked Strongbox.| |M|10.89,59.67|
+T Lifting the Curse |N|Get the Intrepid Strongbox Key from Captain Halyndor.|    |QID|290|  |M|10.9,59.6|
+A Accept Accept The Eye of Paleth |N|Go to Intrepid's Locked Strongbox and accept Accept The Eye of Paleth|    |QID|292|  |M|10.6,60.5|
+T Nek'rosh's Gambit |N|Destroy the Dragonmaw catapults.|    |QID|465|  |M|9.9,57.4|
+
+T Fall of Dun Modr |N|Search for Longbraid near the town of Dun Modr.|    |QID|472|  |M|49.9,18.3|
+A Accept Accept The Dark Iron War |N|Go to Motley Garmason and accept Accept The Dark Iron War|    |QID|303|  |M|49.7,18.3|
+A Accept Accept A Grim Task |N|Go to Longbraid the Grim and accept Accept A Grim Task|    |QID|304|  |M|49.9,18.3|
+
+A Accept Accept The Thandol Span (Part 1) |N|Go to Rhag Garmason and accept Accept The Thandol Span (Part 1)|    |QID|631|  |M|49.9,18.3|
+T The Thandol Span (Part 1) |N|Rhag Garmason wants you to locate Ol' Rustlocke.|    |QID|631|  |M|49.9,18.3|
+A Accept Accept The Thandol Span (Part 2) |N|Go to Ebenezer Rustlocke's Corpse and accept Accept The Thandol Span (Part 2)|    |QID|632|  |M|49.9,18.3|
+T The Thandol Span (Part 2) |N|Report back to Rhag Garmason at Dun Modir in Wetlands and show him the parchment you found on Rustlocke's corpse.|    |QID|632|  |M|49.9,18.3|
+A Accept Accept The Thandol Span (Part 3) |N|Go to Rhag Garmason and accept Accept The Thandol Span (Part 3)|    |QID|633|  |M|49.9,18.3|
+
+C A Grim Task |QID|304| |N|Kill Balgaras the Foul and bring his ear to Longbraid the Grim outside Dun Modr.| |M|49.80,18.26|
+C The Dark Iron War |QID|303| |N|Kill 10 Dark Iron Dwarves, 5 Tunnelers, 5 Saboteurs, and 5 Demolitionists for Motley Garmason at Dun Modr.| |M|49.67,18.23|
+
+T A Grim Task |N|Kill Balgaras the Foul and bring his ear to Longbraid the Grim outside of Dun Modr.|    |QID|304|  |M|49.9,18.3|
+T The Dark Iron War |N|Motley Garmason at Dun Modr wants you to kill 10 Dark Iron Dwarves,  5 Dark Iron Tunnelers, 5 Dark Iron Saboteurs and 5 Dark Iron Demolitionists.|    |QID|303|  |M|49.7,18.3|
+
+C The Thandol Span (Part 3) |QID|633| |Z|Arathi Highlands| |N|Destroy the cache of explosives on the Span, then report back to Rhag.| |M|49.92,18.22|
+T The Thandol Span (Part 3) |N|Destroy the cache of explosives.|    |QID|633|  |M|49.9,18.3|
+A Accept Accept Plea To The Alliance |N|Go to Rhag Garmason and accept Accept Plea To The Alliance|    |QID|634|  |M|49.9,18.3|
+]]
+end)
