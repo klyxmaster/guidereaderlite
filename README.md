@@ -51,7 +51,6 @@ It is **not affiliated with Blizzard Entertainment** and currently **not designe
 ---
 
 ## License
-## License
 - **Addon code (Lua):** Released under the [GNU General Public License v3.0 (GPLv3)](https://www.gnu.org/licenses/gpl-3.0).  
   This ensures the code stays open-source and improvements remain shareable.  
 

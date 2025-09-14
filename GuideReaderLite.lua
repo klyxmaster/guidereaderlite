@@ -179,6 +179,27 @@ GRL._hearthFrame:SetScript("OnEvent", function(_, _, unit, spell)  -- WotLK: (un
 end)
 
 
+-- Return player map coords as 0..1 (x,y). Works on 3.3.5 and later clients.
+local function _grl_GetPlayerXY()
+    if GetPlayerMapPosition then                           -- WotLK / 3.3.5
+        local x, y = GetPlayerMapPosition("player")
+        if (not x or (x == 0 and y == 0)) and SetMapToCurrentZone then
+            SetMapToCurrentZone()
+            x, y = GetPlayerMapPosition("player")
+        end
+        if x and y then return x, y end
+    end
+    if C_Map and C_Map.GetBestMapForUnit and C_Map.GetPlayerMapPosition then  -- Retail API
+        local mapID = C_Map.GetBestMapForUnit("player")
+        if mapID then
+            local v = C_Map.GetPlayerMapPosition(mapID, "player")
+            if v then return v.x, v.y end
+        end
+    end
+    return nil, nil
+end
+
+
 -- Detect "set hearth/home" via system message and advance
 GRL._bindFrame = GRL._bindFrame or CreateFrame("Frame")
 GRL._bindFrame:RegisterEvent("CHAT_MSG_SYSTEM")
@@ -825,12 +846,22 @@ function GRL:IsStepDone(i)
     end
 
     if a == "R" then
-        if self._arrivedAtStep == i then
-            result = true
-        else
-            result = false
-        end
-    end
+		local t = self.tags and self.tags[i]
+		local arrived = (self._arrivedAtStep == i)
+
+		if not arrived and t and t._mx and t._my and _grl_GetPlayerXY then
+			local px, py = _grl_GetPlayerXY()
+			if px and py then
+				local th = tonumber(t.TH) or 0.25
+				local dx, dy = px - (t._mx/100), py - (t._my/100)
+				arrived = (dx*dx + dy*dy) <= (th/100)*(th/100)
+				if arrived then self._arrivedAtStep = i end
+			end
+		end
+
+		result = arrived
+	end
+
 
 
     if a == "Z" then
@@ -1273,7 +1304,9 @@ end
 
 function GRL:NextStep()
 	self._arrivedAtStep = nil
-    if not self.actions then return end
+    if self.actions and self.actions[i] == "R" then
+		self:_StartProximityWatch(i)  -- if you have a watcher; otherwise omit
+	end
     local i = self.current or 1
     i = i + 1
 
@@ -1296,6 +1329,8 @@ function GRL:NextStep()
     end
     if i <= #self.actions then
         self.current = i
+		self._arrivedAtStep = nil
+
         self:RememberStep(); self:UpdateStatusFrame()
         self:ShowPointer()
         local t = self.tags and self.tags[self.current]
@@ -1316,6 +1351,8 @@ function GRL:PrevStep()
     until i < 1 or self:IsStepForPlayer(i)
     if i >= 1 then
         self.current = i
+		self._arrivedAtStep = nil
+
         self:RememberStep(); self:UpdateStatusFrame()
         self:ShowPointer(self.current, true)
     end
@@ -1341,6 +1378,8 @@ function GRL:AutoAdvance(force)
         
                 if i <= #self.actions and i ~= oldCurrent then
             self.current = i
+			self._arrivedAtStep = nil
+
             self:RememberStep()
             self:UpdateStatusFrame()
             self:ShowPointer()
