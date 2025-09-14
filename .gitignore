@@ -9,6 +9,8 @@ luac.out
 #misc
 *.bak
 *.lua.bak
+bak
+backup
 
 
 # Object files

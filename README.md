@@ -46,7 +46,7 @@ I created GuideReaderLite partly as a way to teach myself Lua, even if the langu
 
 ## Disclaimer
 This addon is built for educational and nostalgic use on **WotLK 3.3.5a private servers**.  
-It is **not affiliated with Blizzard Entertainment** and **not designed for retail WoW**.
+It is **not affiliated with Blizzard Entertainment** and currently **not designed for retail WoW**.
 
 ---
 
@@ -59,8 +59,12 @@ It is **not affiliated with Blizzard Entertainment** and **not designed for reta
   Some portions are based on older community guides that are no longer available.  
   As these are heavily modified and still evolving, no formal license is applied yet.
   
+  
 ---
 
 ## TODO:
 - **Classes** Currently these are not done, but I do have them in place, I route and test my guide with a priest. But once I am happy with all the new updates I will go back and clean up the classes.   
+- **Arrow GPS** NPC's are done and spot on, objectives are W.I.P. Use map for now to locations.
+-**TAGS** Some tags are goofy, as I am experimenting with them, but should work for the most part.
+-**RETAIL VERSION** YES! I plan on making a retails version of GRL. FREE! Will do this one all the bugs are worked out. And only will be WOTLK only.
 
