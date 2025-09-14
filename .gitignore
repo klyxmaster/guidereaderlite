@@ -6,6 +6,10 @@ luac.out
 *.zip
 *.tar.gz
 
+#misc
+*.bak
+*.lua.bak
+
 
 # Object files
 *.o
