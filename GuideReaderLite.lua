@@ -471,7 +471,7 @@ f.divider:SetHeight(1)
 
 -- Title on header
 f.title = f:CreateFontString(nil, "OVERLAY", "GameFontNormalLarge")
-f.title:SetPoint("LEFT", f.header, "LEFT", 10, 0)
+f.title:SetPoint("CENTER", f.header, "CENTER", 0, 0)
 f.title:SetText("Guide Reader Lite")
 f.title:SetTextColor(1, 0.85, 0.2, 1)
 
@@ -504,6 +504,70 @@ f.next:SetSize(80, 22)
 f.next:SetPoint("BOTTOMRIGHT", -12, 12)
 f.next:SetText("Next »")
 f.next:SetScript("OnClick", function() GRL:NextStep() end)
+
+-- Catch Up button (center, blue)
+f.catchup = CreateFrame("Button", nil, f, "UIPanelButtonTemplate")
+f.catchup:SetSize(80, 22)
+f.catchup:SetPoint("BOTTOM", f, "BOTTOM", 0, 12)
+f.catchup:SetText("Catch Up")
+f.catchup:SetNormalFontObject(GameFontHighlight)
+f.catchup:SetBackdropColor(0.2, 0.4, 0.8, 1)
+f.catchup:SetScript("OnClick", function() GRL:ResumeNearest() end)
+f.catchup:SetMotionScriptsWhileDisabled(true)
+f.catchup:SetScript("OnEnter", function()
+    GameTooltip:SetOwner(f.catchup, "ANCHOR_RIGHT")
+    GameTooltip:SetText("Jump to the guide step matching your current quest log and zone.", 1, 1, 1)
+end)
+f.catchup:SetScript("OnLeave", function() GameTooltip:Hide() end)
+
+-- Menu button (top right)
+f.menu = CreateFrame("Button", nil, f, "UIPanelButtonTemplate")
+f.menu:SetSize(60, 22)
+f.menu:SetPoint("TOPRIGHT", f, "TOPRIGHT", -12, -12)
+f.menu:SetText("Menu")
+f.menu:SetNormalFontObject(GameFontHighlight)
+f.menu:SetScript("OnClick", function() GRL:ShowGuidePicker() end)
+f.menu:SetScript("OnEnter", function()
+    GameTooltip:SetOwner(f.menu, "ANCHOR_LEFT")
+    GameTooltip:SetText("Open the guide picker menu.", 1, 1, 1)
+end)
+f.menu:SetScript("OnLeave", function() GameTooltip:Hide() end)
+
+-- Lock/Unlock button (top left)
+-- Lock/Unlock button (top left, text-based, not overlapping title)
+f.lock = CreateFrame("Button", nil, f, "UIPanelButtonTemplate")
+f.lock:SetSize(48, 20)
+f.lock:SetPoint("TOPLEFT", f, "TOPLEFT", 12, -6)
+f.lock:SetText("Lock")
+f.lock:SetNormalFontObject(GameFontHighlight)
+
+-- Start unlocked so user can move it initially
+local locked = false
+f:SetMovable(true)
+f:EnableMouse(true)
+f:RegisterForDrag("LeftButton")
+f:SetScript("OnDragStart", function(self) if not locked then self:StartMoving() end end)
+f:SetScript("OnDragStop", function(self) self:StopMovingOrSizing() end)
+
+f.lock:SetScript("OnClick", function()
+    locked = not locked
+    if locked then
+        f:SetMovable(false)
+        f:EnableMouse(false)
+        f.lock:SetText("Unlock")
+        say("Guide window locked")
+    else
+        f:SetMovable(true)
+        f:EnableMouse(true)
+        f.lock:SetText("Lock")
+        say("Guide window unlocked")
+    end
+end)
+f.lock:SetScript("OnEnter", function()
+    GameTooltip:SetOwner(f.lock, "ANCHOR_BOTTOMLEFT")
+    GameTooltip:SetText("Lock/unlock the guide window for moving.", 1, 1, 1)
+end)
+f.lock:SetScript("OnLeave", function() GameTooltip:Hide() end)
 
 f:Show()
 
