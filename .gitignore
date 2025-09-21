@@ -46,5 +46,3 @@ backup
 *.hex
 *.bat
 
-# folders
-tools
