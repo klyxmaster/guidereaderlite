@@ -131,22 +131,24 @@ C Securing the Lines |QID|835| |N|Head back down Razorwind Canyon to the cave at
 T Securing the Lines |N|Kill 12 Dustwind Savages and 8 Dustwind Storm Witches for Rezlak near Drygulch Ravine.|  |QID|835|    |M|46.37,22.94|
 
 A Lost But Not Forgotten |N|Bring a sign of Kron's fate to Misha Tor'kren at the farmstead northwest of Razor Hill.|  |QID|816|    |M|43.10,30.24|
-A Need for a Cure |N|Find Kor'ghan in Orgrimmar and get the Venomtail Antidote.|  |QID|812|    |M|40.86,16.33|
+A Need for a Cure |N|Find Kor'ghan outside Orgrimmar, and get the Venomtail Antidote.|  |QID|812|    |M|47.0 53.6|
 
 T The Admiral's Orders (Part 2) |N|Deliver Admiral Proudmoore's Orders to Vol'jin in Thrall's chamber in Orgrimmar.|  |QID|831|   |Z|Orgrimmar|  |M|34.34,36.33|
 A Hidden Enemies (Part 1) |N|Bring a Lieutenant's Insignia to Thrall in Orgrimmar.|  |QID|5726|   |M|31.61,37.83|
-A Finding the Antidote |N|Bring 4 Venomtail Poison Sacs to Kor'ghan in Orgrimmar.|  |QID|813|   |Z|Orgrimmar|   |M|47.24,53.58|
+A Finding the Antidote |N|Go to Orgrimmar:Cleft of shadows.|  |QID|813|   |Z|Orgrimmar|   |M|47.24,53.58|
 A Creature of the Void |N|Retrieve the Tablet of Verga for Gan'rul Bloodeye in Orgrimmar.|  |QID|1501|  |C|Warlock|  |Z|Orgrimmar|  |M|48.25,45.28|
 
-C Finding the Antidote |QID|813| |N|Back out near the poisoned troll.  Work west towards river.|   |M|47.24,53.58|
-C Lost But Not Forgotten |QID|816| |N|Kill crocs at the river.|   |M|43.10,30.24|
+C Finding the Antidote |QID|813| |N|Back out near the poisoned troll.  Work west towards river.|   |M|39,76,16,88|
+C Lost But Not Forgotten |QID|816| |N|Kill crocs at the river. just run up and downl the river|   |M|35.0,30.0|
 
 T Finding the Antidote |N|Bring 4 Venomtail Poison Sacs to Kor'ghan in Orgrimmar.|  |QID|813|   |Z|Orgrimmar|  |M|47.24,53.58|
 T Need for a Cure |N|Find Kor'ghan in Orgrimmar and get the Venomtail Antidote.|  |QID|812|    |M|40.86,16.33|
 T Lost But Not Forgotten |N|Bring a sign of Kron's fate to Misha Tor'kren at the farmstead northwest of Razor Hill.|  |QID|816|    |M|43.10,30.24|
 
-C Dark Storms |QID|806| |N|In the canyons to the southwest of Orgrimmar (42.23, 26.60)|  |M|52.24,43.15|
-
+;Darkstorms questline
+R Find this crevis between two overhangs  |N| Jump on the the next overhang, then jump down.\nNot for, you should survive the drop | |M|41.18,23.33|  |QID|806|  |TH|0.10|  |Z|Durotar| 
+C Dark Storms |QID|806| |N|In the canyons to the southwest of Orgrimmar|  |M|42.23, 26.60|
+h Hearth back to Razor Hill
 T Dark Storms |N|Bring Fizzle's Claw to Orgnil Soulscar in Razor Hill.|  |QID|806|    |M|52.24,43.15|
 A Margoz |N|Speak with Margoz.|  |QID|828|   |M|52.24,43.15|
 T Encroachment |N|Kill 4 Razormane Quilboars, 4 Razormane Scouts, 4 Razormane Dustrunners and 4 Razormane Battleguards for Gar'Thok at Razor Hill.|  |QID|837|   |M|51.95,43.50|
@@ -155,7 +157,7 @@ T Margoz |N|Speak with Margoz.|  |QID|828|  |M|56.41,20.04|
 A Skull Rock |N|Gather Searing Collars from the cultists in Skull Rock.|  |QID|827|  |M|56.41,20.04|
 C Creature of the Void |QID|1501| |N|Down in Skull Rock, the cave to the east of Orgrimmar.  Take the right path at the fork, the tablet is in a box (51.59, 9.68)| |C|Warlock|  |M|48.25,45.28|
 C Skull Rock |QID|827| |N|Down in Skull Rock, the cave to the east of Orgrimmar (55,10).|  |M|56.41,20.04|
-C Hidden Enemies (Part 1) |QID|5726|  |M|31.61,37.83|
+C Hidden Enemies (Part 1) |QID|5726|  |N|Get a Lieutenant's Insignia from these mobs|   |M|31.61,37.83|  |Z|Durotar|
 K Gazz'uz |N|Use the "Faintly Glowing Skull" on him to help.  Skip this if you fail.| |U|4945| |L|4903| 
 K Gazz'uz |N|Skip this if you fail.| |L|4903|
 A Burning Shadows |N|Take this eye to Neeru Fireblade in Orgrimmar.|  |QID|832| |U|4903| |O|  |M|49.47,50.59|

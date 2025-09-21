@@ -1649,45 +1649,85 @@ local function _grl_GetPlayerXY()
 end
 
 function GRL:ResumeNearest()
-  if not (self.actions and self.tags) then return end
-  local zone = GetRealZoneText and GetRealZoneText() or nil
-  local px, py = _grl_GetPlayerXY()
-  local best_i, best_d2 = nil, 1e12
+    -- Find the best step to resume from, using QUEST LOG matching first.
+    if not (self.actions and self.tags) then return end
 
-  for i=1,#self.actions do
-    local t = self.tags[i]
-    if t then
-      local a = self.actions[i]
-      local qid = t.qid or (t.qids and t.qids[1])
-      -- hearth / flight / vendor steps are not great resume points; bias toward quest steps
-      local prefer = (a == "C" or a == "T" or a == "A")
-      -- consider only not-done steps
-      if not self:IsStepDone(i, true) then
-        local mx, my = t._mx, t._my
-        local zhint = t._zonehint
-        local zone_ok = (not zhint) or (zone and zhint == zone)
-        if mx and my and zone_ok then
-          local dx, dy = (mx - px), (my - py)
-          local d2 = dx*dx + dy*dy
-          -- prefer quest steps by shrinking their distance score
-          if prefer then d2 = d2 * 0.5 end
-          if d2 < best_d2 then best_i, best_d2 = i, d2 end
-        elseif (not best_i) and zone_ok and prefer then
-          -- no coords but good action in same zone: fallback candidate
-          best_i, best_d2 = i, 9e11
+    -- Scan player's quest log and build a set of quest IDs.
+    local activeQuests = {}
+    local numEntries = GetNumQuestLogEntries and GetNumQuestLogEntries() or 0
+    for i = 1, numEntries do
+        local link = GetQuestLink and GetQuestLink(i)
+        local qid
+        if link then
+            qid = tonumber(link:match("quest:(%d+)"))
+        else
+            local _, _, _, isHeader, _, _, _, questID = GetQuestLogTitle(i)
+            if not isHeader and questID then
+                qid = questID
+            end
         end
-      end
+        if qid then
+            activeQuests[qid] = true
+        end
     end
-  end
 
-  if best_i then
-    self.current = best_i
-	self:RememberStep()
-	self:UpdateStatusFrame()
-	self:ShowPointer()
+    local zone = GetRealZoneText and GetRealZoneText() or nil
+    local px, py = _grl_GetPlayerXY()
+    local best_i, best_score = nil, -1
 
-    self:DebugStepAdvance("AutoResume → step "..best_i)
-  end
+    -- Scoring priorities:
+    -- 1. Quest in log
+    -- 2. In current zone
+    -- 3. Not done
+    -- 4. Closest coords (optional)
+    for i = 1, #self.actions do
+        local t = self.tags[i]
+        if t and not self:IsStepDone(i, true) then
+            local a = self.actions[i]
+            local qid = t.qid or (t.qids and t.qids[1])
+            local mx, my = t._mx, t._my
+            local zhint = t._zonehint
+
+            local score = 0
+            if qid and activeQuests[qid] then
+                score = score + 1000 -- Quest match: biggest boost
+            end
+            if zhint and zone and _norm(zhint) == _norm(zone) then
+                score = score + 100 -- Zone match
+            end
+            if mx and my then
+                -- Prefer closer coordinates (optional, less important than quest match)
+                local dx, dy = (mx - px), (my - py)
+                local d2 = dx * dx + dy * dy
+                score = score + math.max(0, 50 - d2) -- Closer steps get higher score
+            end
+            if score > best_score then
+                best_score = score
+                best_i = i
+            end
+        end
+    end
+
+    -- Fallback: If no quest match, just go to first not-done step
+    if not best_i then
+        for i = 1, #self.actions do
+            if not self:IsStepDone(i, true) then
+                best_i = i
+                break
+            end
+        end
+    end
+
+    if best_i then
+        self.current = best_i
+        self:RememberStep()
+        self:UpdateStatusFrame()
+        self:ShowPointer()
+        self:DebugStepAdvance("AutoResume → step " .. best_i)
+        say("|cff55ff55Guide auto-catchup: jumped to step " .. best_i .. "|r")
+    else
+        say("|cffff5555Catchup: no appropriate step found.|r")
+    end
 end
 
 -- run once on login, after everything loads
@@ -1700,6 +1740,12 @@ do
       GRL:After(1.0, function() GRL:ResumeNearest() end)
     end
   end)
+end
+
+-- /grlite catchup
+SLASH_GRLCATCHUP1 = "/grlitecatchup"
+SlashCmdList.GRLCATCHUP = function()
+    if GRL then GRL:ResumeNearest() end
 end
 
 -- /grl resume command
