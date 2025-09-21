@@ -1713,7 +1713,6 @@ local function _grl_GetPlayerXY()
 end
 
 function GRL:ResumeNearest()
-    -- Find the best step to resume from, using QUEST LOG matching first.
     if not (self.actions and self.tags) then return end
 
     -- Scan player's quest log and build a set of quest IDs.
@@ -1736,14 +1735,11 @@ function GRL:ResumeNearest()
     end
 
     local zone = GetRealZoneText and GetRealZoneText() or nil
-    local px, py = _grl_GetPlayerXY()
+    local px, py = 0, 0
+    if _grl_GetPlayerXY then px, py = _grl_GetPlayerXY() end
+
     local best_i, best_score = nil, -1
 
-    -- Scoring priorities:
-    -- 1. Quest in log
-    -- 2. In current zone
-    -- 3. Not done
-    -- 4. Closest coords (optional)
     for i = 1, #self.actions do
         local t = self.tags[i]
         if t and not self:IsStepDone(i, true) then
@@ -1757,13 +1753,18 @@ function GRL:ResumeNearest()
                 score = score + 1000 -- Quest match: biggest boost
             end
             if zhint and zone and _norm(zhint) == _norm(zone) then
-                score = score + 100 -- Zone match
+                score = score + 500 -- Zone match: big boost
+            elseif not zhint and zone then
+                -- If guide step has no zone, but you are in a zone, small bonus
+                score = score + 50
             end
-            if mx and my then
-                -- Prefer closer coordinates (optional, less important than quest match)
-                local dx, dy = (mx - px), (my - py)
-                local d2 = dx * dx + dy * dy
-                score = score + math.max(0, 50 - d2) -- Closer steps get higher score
+            if mx and my and px and py then
+                -- Prefer closer coordinates, but only if zone matches
+                if zhint and zone and _norm(zhint) == _norm(zone) then
+                    local dx, dy = (mx - px*100), (my - py*100)
+                    local d2 = dx * dx + dy * dy
+                    score = score + math.max(0, 100 - d2) -- Closer steps get higher score
+                end
             end
             if score > best_score then
                 best_score = score
@@ -1772,7 +1773,19 @@ function GRL:ResumeNearest()
         end
     end
 
-    -- Fallback: If no quest match, just go to first not-done step
+    -- Fallback: If no quest match, just go to first not-done step in zone
+    if not best_i and zone then
+        for i = 1, #self.actions do
+            local t = self.tags[i]
+            local zhint = t and t._zonehint
+            if not self:IsStepDone(i, true) and zhint and _norm(zhint) == _norm(zone) then
+                best_i = i
+                break
+            end
+        end
+    end
+
+    -- If still not found, just first not-done step
     if not best_i then
         for i = 1, #self.actions do
             if not self:IsStepDone(i, true) then
@@ -1788,7 +1801,7 @@ function GRL:ResumeNearest()
         self:UpdateStatusFrame()
         self:ShowPointer()
         self:DebugStepAdvance("AutoResume → step " .. best_i)
-        say("|cff55ff55Guide auto-catchup: jumped to step " .. best_i .. "|r")
+        say("|cff55ff55Guide auto-catchup: jumped to step " .. best_i .. " in zone " .. tostring(zone) .. "|r")
     else
         say("|cffff5555Catchup: no appropriate step found.|r")
     end
