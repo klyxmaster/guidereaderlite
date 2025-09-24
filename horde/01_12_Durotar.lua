@@ -157,9 +157,9 @@ T Margoz |N|Speak with Margoz.|  |QID|828|  |M|56.41,20.04|
 A Skull Rock |N|Gather Searing Collars from the cultists in Skull Rock.|  |QID|827|  |M|56.41,20.04|
 C Creature of the Void |QID|1501| |N|Down in Skull Rock, the cave to the east of Orgrimmar.  Take the right path at the fork, the tablet is in a box (51.59, 9.68)| |C|Warlock|  |M|48.25,45.28|
 C Skull Rock |QID|827| |N|Down in Skull Rock, the cave to the east of Orgrimmar (55,10).|  |M|56.41,20.04|
-C Hidden Enemies (Part 1) |QID|5726|  |N|Get a Lieutenant's Insignia from these mobs|   |M|31.61,37.83|  |Z|Durotar|
-K Gazz'uz |N|Use the "Faintly Glowing Skull" on him to help.  Skip this if you fail.| |U|4945| |L|4903| 
-K Gazz'uz |N|Skip this if you fail.| |L|4903|
+C Hidden Enemies (Part 1) |QID|5726|  |N|Get a Lieutenant's Insignia from these mobs|   |M|53.6,8.4|  |Z|Durotar|
+C Gazz'uz |N|Use the "Faintly Glowing Skull" on him to help.  \nSkip this if you fail.| |U|4945| |L|4903| |M|52.6,8.8|
+
 A Burning Shadows |N|Take this eye to Neeru Fireblade in Orgrimmar.|  |QID|832| |U|4903| |O|  |M|49.47,50.59|
 T Skull Rock |N|Gather Searing Collars from the cultists in Skull Rock.|  |QID|827|  |M|56.41,20.04|
 A Neeru Fireblade |N|Bring an Example Collar to Neeru Fireblade in Orgrimmar.|  |QID|829|  |M|56.41,20.04|

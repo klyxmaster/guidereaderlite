@@ -21,7 +21,7 @@ Supports **all classes, 1–80**, designed primarily for private server players.
 ## Features
 - Step-by-step questing routes with map coordinates
 - Compatible with addons like **TomTom** for waypoints
-- Alliance, Horde, and Neutral support
+- Alliance, Horde support (Frankenstein routes, may not be the fastest - lower levels added mainly for testing)
 - Simple, no-frills design
 
 ---
@@ -34,8 +34,7 @@ Supports **all classes, 1–80**, designed primarily for private server players.
 ---
 
 ## Notes
-This addon was **written entirely from scratch**, though some design influence came from classic addons such as *TourGuide*.  
-It’s my own work, but I’m giving credit where inspiration is due.
+This addon was **written entirely from scratch**, So expect some bugs until it is released as v1.0
 
 ---
 
