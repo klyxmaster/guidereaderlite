@@ -44,7 +44,9 @@ I created GuideReaderLite partly as a way to teach myself Lua, even if the langu
 ---
 
 ## Disclaimer
+This addon is still a work in progress and still avery active. I decided it was time to put it up as I felt there is enough functionality for other people to test it.
 This addon is built for educational and nostalgic use on **WotLK 3.3.5a private servers**.  
+Do not expect much from the included guides.  They are for testing purposes and are a mash-up of various guides to use as testing the addon.
 It is **not affiliated with Blizzard Entertainment** and currently **not designed for retail WoW**.
 
 ---
