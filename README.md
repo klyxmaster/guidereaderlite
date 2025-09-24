@@ -1,11 +1,8 @@
-<p align="center">
-  <a href="imgs/ss1.jpg">
-    <img src="imgs/ss1.jpg" alt="GuideReaderLite Screenshot" width="400">
-  </a>
-  <br>
-  <em>In-game screenshot of GuideReaderLite</em>
-</p>
-
+<center>
+<a href="https://raw.githubusercontent.com/<user>/<repo>/<branch>https://github.com/klyxmaster/guidereaderlite/blob/main/imgs/ss1.jpg">
+  <img src="https://github.com/klyxmaster/guidereaderlite/blob/main/imgs/ss1.jpg" width="700" alt="GuideReaderLite overview">
+</a>
+</center>
 
 # GuideReaderLite
 
