@@ -1,6 +1,6 @@
 <center>
 <a href="https://raw.githubusercontent.com/<user>/<repo>/<branch>https://github.com/klyxmaster/guidereaderlite/blob/main/imgs/ss1.jpg">
-  <img src="https://github.com/klyxmaster/guidereaderlite/blob/main/imgs/ss1.jpg" width="700" alt="GuideReaderLite overview">
+  <img src="https://github.com/klyxmaster/guidereaderlite/main/imgs/ss1.jpg" width="700" alt="GuideReaderLite overview">
 </a>
 </center>
 
